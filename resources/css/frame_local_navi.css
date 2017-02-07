@@ -1,0 +1,138 @@
+/*-------------------------------------------------------------------------
+ local-naviA01
+	local-naviB01
+-------------------------------------------------------------------------*/
+div.local-naviA01,
+div.local-naviB01{
+	margin-bottom:1.49em;
+	border:1px solid #ccc;
+}
+div.local-naviA01 h2,
+div.local-naviB01{
+	background-color:#f5f5f5;
+	font-weight:bold;
+}
+div.local-naviA01 ul li,
+div.local-naviB01 ul li{
+	display:block;
+	border-top:1px solid #E5E5E5;
+}
+div.local-naviA01 ul li.stay,
+div.local-naviB01 ul li.stay{
+	
+}
+div.local-naviA01 ul li.first-child,
+div.local-naviB01 ul li.first-child{
+	border-top:0;
+}
+div.local-naviA01 h2 a,
+div.local-naviA01 h2.stay{
+	display:block;
+	padding:0.6em 9px 0.6em 16px;
+	_padding:0.63em 9px 0.63em 16px;
+	zoom:1;
+	text-indent:-6px;
+}
+div.local-naviA01 ul li a,
+div.local-naviB01 ul li a{
+	display:block;
+	text-indent:-6px;
+	padding:0.6em 9px 0.6em 16px;
+	_padding:0.63em 9px 0.63em 16px;
+	zoom:1;
+}
+div.local-naviA01 ul li span,
+div.local-naviB01 ul li span{
+	display:block;
+	padding:0.6em 9px 0.6em 16px;
+	_padding:0.63em 9px 0.63em 16px;
+	zoom:1;
+}
+
+/*	local-naviA01
+------------------------------------*/
+
+/*h2*/
+div.local-naviA01 h2 a,
+div.local-naviA01 h2.stay{
+	border-bottom:3px solid #0055c4;
+}
+/* sensors */
+body.sensors div.local-naviA01 h2{background-color:#E9ECF6;}
+body.sensors div.local-naviA01 h2 a:hover{background-color:#DFE2F1;}
+body.sensors div.local-naviA01 h2 a{border-color:#929FD0;}
+/* switches */
+body.switches div.local-naviA01 h2{background-color:#F3EBF5;}
+body.switches div.local-naviA01 h2 a:hover{background-color:#EDE1F0;}
+body.switches div.local-naviA01 h2 a{border-color:#C399CC;}
+/* safety-components */
+body.safety-components div.local-naviA01 h2{background-color:#FCF9E2;}
+body.safety-components div.local-naviA01 h2 a:hover{background-color:#FBF6D3;}
+body.safety-components div.local-naviA01 h2 a{border-color:#F2E06D;}
+/* relays */
+body.relays div.local-naviA01 h2{background-color:#FAE7E3;}
+body.relays div.local-naviA01 h2 a:hover{background-color:#F7DCD5;}
+body.relays div.local-naviA01 h2 a{border-color:#E58873;}
+/* control-components */
+body.control-components div.local-naviA01 h2{background-color:#FAEDDE;}
+body.control-components div.local-naviA01 h2 a:hover{background-color:#F7E4CE;}
+body.control-components div.local-naviA01 h2 a{border-color:#E5A35C;}
+/* automation-systems */
+body.automation-systems div.local-naviA01 h2{background-color:#EEF5E4;}
+body.automation-systems div.local-naviA01 h2 a:hover{background-color:#E5F0D7;}
+body.automation-systems div.local-naviA01 h2 a{border-color:#A9CC7A;}
+/* motion_drives */
+body.motion_drives div.local-naviA01 h2{background-color:#F4F4E0;}
+body.motion_drives div.local-naviA01 h2 a:hover{background-color:#EFEFD1;}
+body.motion_drives div.local-naviA01 h2 a{border-color:#C8CA66;}
+/* energy-conservation-support_environment-measure-equipment */
+body.energy-conservation-support_environment-measure-equipment div.local-naviA01 h2{background-color:#E9F2F6;}
+body.energy-conservation-support_environment-measure-equipment div.local-naviA01 h2 a:hover{background-color:#DEEDF4;}
+body.energy-conservation-support_environment-measure-equipment div.local-naviA01 h2 a{border-color:#68BDEA;}
+/* power-supplies_in-addition */
+body.power-supplies_in-addition div.local-naviA01 h2{background-color:#F2F2F2;}
+body.power-supplies_in-addition div.local-naviA01 h2 a:hover{background-color:#ECECEC;}
+body.power-supplies_in-addition div.local-naviA01 h2 a{border-color:#BFBFBF;}
+/* robotics */
+body.robotics div.local-naviA01 h2{background-color:#EEF6F2;}
+body.robotics div.local-naviA01 h2 a:hover{background-color:#DDEDE6;}
+body.robotics div.local-naviA01 h2 a{border-color:#208C5B;}
+
+/*ul li*/
+div.local-naviA01 ul.list-indent01 li a{
+	padding-left:34px;
+}
+div.local-naviA01 ul.list-indent02 li a{
+	padding-left:52px;
+}
+div.local-naviA01 ul.list-indent03 li a{
+	padding-left:70px;
+}
+div.local-naviA01 ul.list-indent04 li a{
+	padding-left:88px;
+}
+div.local-naviA01 ul.list-indent05 li a{
+	padding-left:106px;
+}
+
+div.local-naviA01 ul.list-indent01 li span{padding-left:34px;}
+div.local-naviA01 ul.list-indent02 li span{padding-left:52px;}
+div.local-naviA01 ul.list-indent03 li span{padding-left:70px;}
+div.local-naviA01 ul.list-indent04 li span{padding-left:88px;}
+div.local-naviA01 ul.list-indent05 li span{padding-left:106px;}
+
+div.local-naviA01 ul li.stay{
+	display:block;
+	background-color:#EBF2F9;
+	font-weight:bold;
+}
+
+/*	local-naviB01
+------------------------------------*/
+
+/*stay*/
+div.local-naviB01 ul li.stay{
+	background-color:#CCCCCC;
+	border-bottom:3px solid #808080;
+	color:#555555;
+}

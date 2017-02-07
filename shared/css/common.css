@@ -1,0 +1,25 @@
+
+/*------------------------------------
+	common
+------------------------------------*/
+
+/*frame*/
+@import "frame_base_style.css";
+@import "frame_header_footer.css";
+@import "frame_global_navi.css";
+@import "frame_bread_crumb.css";
+@import "frame_local_navi.css";
+@import "frame_utility.css";
+@import "frame_layout.css";
+
+/*components*/
+@import "mod_block.css";
+@import "mod_button.css";
+@import "mod_heading.css";
+@import "mod_list.css";
+@import "mod_search.css";
+@import "mod_table.css";
+@import "mod_text.css";
+
+/*other*/
+@import "frame_country_website.css";

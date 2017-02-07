@@ -1,0 +1,660 @@
+
+
+/*------------------------------------
+	common
+------------------------------------*/
+
+/*omron-ia*/
+
+div.omron-ia{
+	width:954px;
+	margin:0 auto;
+	position:relative;
+	border-right:1px solid #ccc;
+	border-left:1px solid #ccc;
+	background-color:#fff;
+	text-align:left;
+}
+
+table.omron-ia{
+	border-collapse:collapse;
+	margin:0 auto;
+	position:relative;
+	border-right:1px solid #ccc;
+	border-left:1px solid #ccc;
+	background-color:#fff;
+	text-align:left;
+}
+
+table.omron-ia td.primary-contents-area,
+table.omron-ia td.exist-primary-contents-area,
+table.omron-ia td.side-area,
+table.omron-ia td.related-info-area{
+	vertical-align:top;
+}
+
+
+
+/*contents-area*/
+
+div.contents-area{
+	_overflow:visible;
+	_height:1px;
+	zoom:1;
+	/*\*//*/
+	overflow:hidden;
+	/**/
+	
+	/*width:px;*/
+}
+
+div.contents-area:after{
+	content:"."; 
+	display:block;
+	height:0;
+	clear:both;
+	visibility:hidden;
+}
+
+
+/*------------------------------------
+	home
+	(3column,450px:216px:216px)
+------------------------------------*/
+
+body.home div.contents-area{
+	width:918px;
+	margin-right:18px;
+	margin-left:18px;
+}
+
+body.home div.main-area{
+	width:684px;
+	float:left;
+}
+
+body.home div.whats-new-area{
+	width:216px;
+	float:right;
+}
+
+
+body.home div.products-area{
+	width:450px;
+	float:left;
+}
+
+body.home div.about-us-area{
+	width:216px;
+	float:right;
+}
+
+
+
+
+/*------------------------------------
+	tmplA01,
+	tmplA01-f
+	(2column,684px:216px)
+------------------------------------*/
+
+body.tmplA01 div.contents-area{
+	width:918px;
+	margin-right:18px;
+	margin-left:18px;
+}
+
+
+body.tmplA01 div.primary-contents-area,
+body.tmplA01 div.exist-primary-contents-area{
+	width:684px;
+	float:left;
+}
+
+body.tmplA01-f div.primary-contents-area,
+body.tmplA01-f div.exist-primary-contents-area{
+	margin-left:18px;
+	margin-right:18px;
+}
+
+body.tmplA01 div.related-info-area{
+	width:216px;
+	float:right;
+}
+
+
+body.tmplA01-f td.related-info-area{
+	width:234px;
+}
+
+body.tmplA01-f div.related-info-area{
+	width:216px;
+	margin-right:18px;
+}
+
+
+
+body.tmplA01-f span.primary-contents-area-end,
+body.tmplA01-f span.exist-primary-contents-area-end{
+	display:block;
+	width:684px;
+	visibility:hidden;
+}
+
+
+
+
+
+
+/*------------------------------------
+	tmplA02,
+	tmplA02-f
+	(2column,684px:216px + global-network-area)
+------------------------------------*/
+
+body.tmplA02 div.contents-area{
+	width:936px;
+	margin-left:18px;
+}
+
+body.tmplA02 div.primary-contents-area,
+body.tmplA02 div.exist-primary-contents-area{
+	width:684px;
+	float:left;
+}
+
+body.tmplA02-f div.primary-contents-area,
+body.tmplA02-f div.exist-primary-contents-area{
+	margin-left:18px;
+}
+
+body.tmplA02 div.side-area{
+	width:252px;
+	float:right;
+}
+
+body.tmplA02-f div.side-area,
+body.tmplA02-f td.side-area{
+	width:252px;
+}
+
+body.tmplA02 div.related-info-area{
+	width:216px;
+	margin-left:18px;
+}
+
+body.tmplA02-f div.related-info-area{
+	width:216px;
+	margin-left:18px;
+}
+
+body.tmplA02-f span.primary-contents-area-end,
+body.tmplA02-f span.exist-primary-contents-area-end{
+	display:block;
+	width:684px;
+	visibility:hidden;
+}
+
+
+
+/*------------------------------------
+	tmplB01
+	(2column,216px:684px)
+------------------------------------*/
+
+body.tmplB01 div.contents-area{
+	width:918px;
+	margin-right:18px;
+	margin-left:18px;
+}
+
+body.tmplB01 div.local-navi-area{
+	width:216px;
+	float:left;
+}
+
+body.tmplB01 div.primary-contents-area,
+body.tmplB01 div.exist-primary-contents-area{
+	width:684px;
+	float:right;
+}
+
+
+/*------------------------------------
+	tmplC01
+	(3column,216px:450px:216px)
+------------------------------------*/
+
+body.tmplC01 div.contents-area{
+	width:918px;
+	margin-right:18px;
+	margin-left:18px;
+}
+
+body.tmplC01 div.local-navi-area{
+	width:216px;
+	float:left;
+	margin-right:18px;
+}
+
+body.tmplC01 div.primary-contents-area,
+body.tmplC01 div.exist-primary-contents-area{
+	width:450px;
+	float:left;
+	margin-right:18px;
+}
+
+body.tmplC01 div.related-info-area{
+	width:216px;
+	float:left;
+}
+
+
+/*------------------------------------
+	tmplC02
+	(3column,216px:450px:216px + global-network-area)
+------------------------------------*/
+
+body.tmplC02 div.contents-area{
+	width:936px;
+	margin-left:18px;
+}
+
+body.tmplC02 div.local-navi-area{
+	width:216px;
+	float:left;
+	margin-right:18px;
+}
+
+body.tmplC02 div.primary-contents-area,
+body.tmplC02 div.exist-primary-contents-area{
+	width:450px;
+	float:left;
+}
+
+body.tmplC02 div.side-area{
+	width:252px;
+	float:left;
+}
+
+body.tmplC02 div.related-info-area{
+	width:216px;
+	float:left;
+	margin-left:18px;
+/*\*/
+	_margin-left:9px;
+/**/
+}
+
+
+/*------------------------------------
+	tmplC03
+	(3column,216px:450px:216px + global-network-area + primary-contents-area)
+------------------------------------*/
+
+body.tmplC03 div.contents-area{
+	width:936px;
+	margin-left:18px;
+}
+
+
+body.tmplC03 div.local-navi-area{
+	width:216px;
+	float:left;
+}
+
+body.tmplC03 div.contents02-area{
+	width:702px;
+	float:right;
+}
+
+body.tmplC03 div.contents03-area{
+	_overflow:visible;
+	_height:1px;
+	zoom:1;
+	/*\*//*/
+	overflow:hidden;
+	/**/
+	width:702px;
+}
+
+body.tmplC03 div.contents03-area:after{
+	content:"."; 
+	display:block;
+	height:0;
+	clear:both;
+	visibility:hidden;
+}
+
+body.tmplC03 div.lead-area{
+	width:450px;
+	float:left;
+}
+body.tmplC03 div.side-area{
+	width:252px;
+	float:right;
+}
+
+body.tmplC03 div.related-info-area{
+	width:216px;
+	margin-left:18px;
+}
+
+
+body.tmplC03 div.primary-contents-area,
+body.tmplC03 div.exist-primary-contents-area{
+	width:684px;
+}
+
+
+/*------------------------------------
+	tmplC04
+	(3column,216px:450px:216px + primary-contents-area)
+------------------------------------*/
+
+body.tmplC04 div.contents-area{
+	width:918px;
+	margin-left:18px;
+	margin-right:18px;
+}
+
+
+body.tmplC04 div.local-navi-area{
+	width:216px;
+	float:left;
+	margin-right:18px;
+}
+
+body.tmplC04 div.contents02-area{
+	width:684px;
+	float:right;
+}
+
+body.tmplC04 div.contents03-area{
+	_overflow:visible;
+	_height:1px;
+	zoom:1;
+	/*\*//*/
+	overflow:hidden;
+	/**/
+	width:684px;
+}
+
+body.tmplC04 div.contents03-area:after{
+	content:"."; 
+	display:block;
+	height:0;
+	clear:both;
+	visibility:hidden;
+}
+
+body.tmplC04 div.lead-area{
+	width:450px;
+	float:left;
+}
+
+body.tmplC04 div.related-info-area{
+	width:216px;
+	float:right;
+}
+
+body.tmplC04 div.primary-contents-area,
+body.tmplC04 div.exist-primary-contents-area{
+	width:684px;
+}
+
+
+
+
+/*------------------------------------
+	tmplD01
+	(3column,156px:510px:216px + primary-contents-area)
+------------------------------------*/
+
+body.tmplD01 div.contents-area{
+	width:918px;
+	margin-left:18px;
+	margin-right:18px;
+}
+
+
+body.tmplD01 div.local-navi-area{
+	width:156px;
+	float:left;
+	margin-right:18px;
+}
+
+body.tmplD01 div.contents02-area{
+	width:744px;
+	float:right;
+}
+
+body.tmplD01 div.contents03-area{
+	_overflow:visible;
+	_height:1px;
+	zoom:1;
+	/*\*//*/
+	overflow:hidden;
+	/**/
+	width:744px;
+}
+
+body.tmplD01 div.contents03-area:after{
+	content:"."; 
+	display:block;
+	height:0;
+	clear:both;
+	visibility:hidden;
+}
+
+body.tmplD01 div.lead-area{
+	width:510px;
+	float:left;
+}
+
+body.tmplD01 div.related-info-area{
+	width:216px;
+	float:right;
+}
+
+body.tmplD01 div.primary-contents-area,
+body.tmplD01 div.exist-primary-contents-area{
+	width:744px;
+}
+
+
+
+/*------------------------------------
+	tmplD02
+	(3column,156px:510px:216px + global-network-area + primary-contents-area)
+------------------------------------*/
+
+body.tmplD02 div.contents-area{
+	width:936px;
+	margin-left:18px;
+}
+
+
+body.tmplD02 div.local-navi-area{
+	width:156px;
+	float:left;
+}
+
+body.tmplD02 div.contents02-area{
+	width:762px;
+	float:right;
+}
+
+body.tmplD02 div.contents03-area{
+	_overflow:visible;
+	_height:1px;
+	zoom:1;
+	/*\*//*/
+	overflow:hidden;
+	/**/
+	width:762px;
+}
+
+body.tmplD02 div.contents03-area:after{
+	content:"."; 
+	display:block;
+	height:0;
+	clear:both;
+	visibility:hidden;
+}
+
+body.tmplD02 div.lead-area{
+	width:510px;
+	float:left;
+}
+body.tmplD02 div.side-area{
+	width:252px;
+	float:right;
+}
+
+body.tmplD02 div.related-info-area{
+	width:216px;
+	margin-left:18px;
+}
+
+
+body.tmplD02 div.primary-contents-area,
+body.tmplD02 div.exist-primary-contents-area{
+	width:744px;
+}
+
+
+/*------------------------------------
+	tmplE01
+	(2column,156px:744px)
+------------------------------------*/
+
+body.tmplE01 div.contents-area{
+	width:918px;
+	margin-right:18px;
+	margin-left:18px;
+}
+
+body.tmplE01 div.local-navi-area{
+	width:156px;
+	float:left;
+}
+
+body.tmplE01 div.primary-contents-area,
+body.tmplE01 div.exist-primary-contents-area{
+	width:744px;
+	float:right;
+}
+
+
+
+/*------------------------------------
+	tmplF01
+	(1column,918px)
+------------------------------------*/
+
+body.tmplF01 div.contents-area{
+	width:918px;
+	margin-left: 18px;
+	margin-right: 18px;
+}
+
+
+body.tmplF01 div.contents02-area{
+	_overflow:visible;
+	_height:1px;
+	zoom:1;
+	/*\*//*/
+	overflow:hidden;
+	/**/
+	width:918px;
+}
+
+body.tmplF01 div.contents02-area:after{
+	content:"."; 
+	display:block;
+	height:0;
+	clear:both;
+	visibility:hidden;
+}
+
+body.tmplF01 div.lead-area{
+	width:684px;
+	float:left;
+}
+
+body.tmplF01 div.related-info-area{
+	width:216px;
+	float:right;
+}
+
+body.tmplF01 div.primary-contents-area,
+body.tmplF01 div.exist-primary-contents-area{
+	width:918px;
+}
+
+
+
+/*------------------------------------
+	tmplF02
+	(2column,684px:216px + global-network-area + primary-contents-area)
+------------------------------------*/
+
+body.tmplF02 div.contents-area{
+	width:936px;
+	margin-left:18px;
+}
+
+
+body.tmplF02 div.contents02-area{
+	_overflow:visible;
+	_height:1px;
+	zoom:1;
+	/*\*//*/
+	overflow:hidden;
+	/**/
+	width:936px;
+}
+
+body.tmplF02 div.contents02-area:after{
+	content:"."; 
+	display:block;
+	height:0;
+	clear:both;
+	visibility:hidden;
+}
+
+body.tmplF02 div.lead-area{
+	width:684px;
+	float:left;
+}
+body.tmplF02 div.side-area{
+	width:252px;
+	float:right;
+}
+
+body.tmplF02 div.related-info-area{
+	width:216px;
+	margin-left:18px;
+}
+
+
+body.tmplF02 div.primary-contents-area,
+body.tmplF02 div.exist-primary-contents-area{
+	width:918px;
+}
+
+
+
+/*------------------------------------
+	section
+------------------------------------*/
+
+div.section{
+	margin-right:10px;
+	margin-left:10px;
+}
+
+
+
+

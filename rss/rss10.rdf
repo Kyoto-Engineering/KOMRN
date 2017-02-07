@@ -1,0 +1,2392 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns="http://purl.org/rss/1.0/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:cc="http://web.resource.org/cc/" xmlns:admin="http://webns.net/mvcb/" xmlns:taxo="http://purl.org/rss/1.0/modules/taxonomy/" xml:lang="en">
+<channel rdf:about="http://www.ia.omron.com/rss/rss10.rdf">
+<title>OMRON Industrial Automation</title>
+<link>http://www.ia.omron.com/</link>
+<description>OMRON Industrial Automation functions as a partner to help innovate worldwide manufacturing. Through our experience in sensing and control technology, we enable manufacturers to operate with greater productivity and streamlined efficiency.</description>
+<dc:language>en</dc:language>
+<dc:date>2012-11-06T03:32:50+09:00</dc:date>
+</channel>
+
+<item rdf:about="http://www.ia.omron.com/products/family/3656/?bid=rss">
+<link>http://www.ia.omron.com/products/family/3656/?bid=rss</link>
+<title>Switch Mode Power Supply (15/30/50/100/150/300/600-W Models)</title>
+<description>Superior Basic Performance That Ensures Reliability. Wide Range of Standards Certification and Greater Usability.(S8FS-G)</description>
+<dc:subject>New product</dc:subject>
+<dc:date>2016-12-01T07:00:06+09:00</dc:date>
+</item>
+<item rdf:about="http://www.ia.omron.com/products/family/3653/?bid=rss">
+<link>http://www.ia.omron.com/products/family/3653/?bid=rss</link>
+<title>PCB Inspection System</title>
+<description>The new series for VT-S730, Full-3D Inspection Systems(VT-S730-H)</description>
+<dc:subject>New product</dc:subject>
+<dc:date>2016-11-21T07:00:29+09:00</dc:date>
+</item>
+<item rdf:about="http://www.ia.omron.com/products/family/3654/?bid=rss">
+<link>http://www.ia.omron.com/products/family/3654/?bid=rss</link>
+<title>Cables for I/O Relay Terminals</title>
+<description>Connect I/O Relay Terminals to I/O Units for Programmable Controllers with one touch.(XW2Z-R)</description>
+<dc:subject>New product</dc:subject>
+<dc:date>2016-11-01T07:00:42+09:00</dc:date>
+</item>
+
+<item rdf:about="http://www.ia.omron.com/products/family/3650/?bid=rss">
+<link>http://www.ia.omron.com/products/family/3650/?bid=rss</link>
+<title>NX-series NX1P2 CPU Units</title>
+<description>Up to eight axes of control via EtherCAT(NX1P2)</description>
+<dc:subject>New product</dc:subject>
+<dc:date>2016-10-11T07:00:08+09:00</dc:date>
+</item>
+<item rdf:about="http://www.ia.omron.com/products/family/3649/?bid=rss">
+<link>http://www.ia.omron.com/products/family/3649/?bid=rss</link>
+<title>Power Monitor</title>
+<description>Global Power Monitor for On-panel Installation(KM-N3-FLK)</description>
+<dc:subject>New product</dc:subject>
+<dc:date>2016-10-03T16:05:22+09:00</dc:date>
+</item>
+<item rdf:about="http://www.ia.omron.com/products/family/3632/?bid=rss">
+<link>http://www.ia.omron.com/products/family/3632/?bid=rss</link>
+<title>Industrial PC Platform NY-series IPC Programmable Multi-Axis Controller</title>
+<description>High-speed, high-precision motion controller plus PC - in one box(NY51[]-A)</description>
+<dc:subject>New product</dc:subject>
+<dc:date>2016-09-20T16:00:28+09:00</dc:date>
+</item>
+<item rdf:about="http://www.ia.omron.com/products/family/3545/?bid=rss">
+<link>http://www.ia.omron.com/products/family/3545/?bid=rss</link>
+<title>Programmable Multi-Axis Controller</title>
+<description>A controller with a width of only 28.6 mm provides complete control(CK3E)</description>
+<dc:subject>New product</dc:subject>
+<dc:date>2016-09-20T16:00:24+09:00</dc:date>
+</item>
+
+
+<item rdf:about="http://www.ia.omron.com/products/family/3635/?bid=rss">
+<link>http://www.ia.omron.com/products/family/3635/?bid=rss</link>
+<title>Industrial PC Platform NY-series IPC Machine Controller</title>
+<description>The future will be IT driven, we make you part of it(NY5[][]-1)</description>
+<dc:subject>New product</dc:subject>
+<dc:date>2016-09-01T16:01:00+09:00</dc:date>
+</item>
+<item rdf:about="http://www.ia.omron.com/products/family/3636/?bid=rss">
+<link>http://www.ia.omron.com/products/family/3636/?bid=rss</link>
+<title>Industrial PC Platform NY-series Industrial Monitor</title>
+<description>Very stylish, very industrial(NYM)</description>
+<dc:subject>New product</dc:subject>
+<dc:date>2016-09-01T16:00:30+09:00</dc:date>
+</item>
+<item rdf:about="http://www.ia.omron.com/products/family/3631/?bid=rss">
+<link>http://www.ia.omron.com/products/family/3631/?bid=rss</link>
+<title>Industrial PC Platform NY-series Industrial Box PC</title>
+<description>Powerful. Tough. Future-Proof.(NYB)</description>
+<dc:subject>New product</dc:subject>
+<dc:date>2016-08-01T16:00:25+09:00</dc:date>
+</item>
+<item rdf:about="http://www.ia.omron.com/products/family/3633/?bid=rss">
+<link>http://www.ia.omron.com/products/family/3633/?bid=rss</link>
+<title>Industrial PC Platform NY-series Industrial Panel PC</title>
+<description>Works great, looks great.(NYP)</description>
+<dc:subject>New product</dc:subject>
+<dc:date>2016-08-01T16:00:23+09:00</dc:date>
+</item>
+
+<item rdf:about="http://www.ia.omron.com/products/family/3543/?bid=rss">
+<link>http://www.ia.omron.com/products/family/3543/?bid=rss</link>
+<title>IO-Link Proximity Sensor (Standard Models)</title>
+<description>IO-Link Makes Sensor Level Information Visible and Solves the Three Major Issues at Manufacturing Sites! Standard Proximity Sensor.(E2E-[]-IL[])</description>
+<dc:subject>New product</dc:subject>
+<dc:date>2016-07-01T17:36:21+09:00</dc:date>
+</item>
+<item rdf:about="http://www.ia.omron.com/products/family/3544/?bid=rss">
+<link>http://www.ia.omron.com/products/family/3544/?bid=rss</link>
+<title>IO-Link Proximity Sensor (Spatter-resistant Models)</title>
+<description>IO-Link Makes Sensor Level Information Visible and Solves the Three Major Issues at Manufacturing Sites! A Proximity Sensor That Can Be Used in a Spatter Environment.(E2EQ-[]-IL[])</description>
+<dc:subject>New product</dc:subject>
+<dc:date>2016-07-01T17:36:21+09:00</dc:date>
+</item>
+<item rdf:about="http://www.ia.omron.com/products/family/3541/?bid=rss">
+<link>http://www.ia.omron.com/products/family/3541/?bid=rss</link>
+<title>GX-series IO-Link Master Unit</title>
+<description>IO-Link makes sensor level information visible and solves the three major issues at manufacturing sites! The unit for M12 Smartclick connector can be used in watery, and dusty environments.(GX-ILM08C)</description>
+<dc:subject>New product</dc:subject>
+<dc:date>2016-07-01T16:06:13+09:00</dc:date>
+</item>
+<item rdf:about="http://www.ia.omron.com/products/family/3542/?bid=rss">
+<link>http://www.ia.omron.com/products/family/3542/?bid=rss</link>
+<title>IO-Link Photoelectric Sensor</title>
+<description>IO-Link Makes Sensor Level Information Visible and Solves the Three Major Issues at Manufacturing Sites! Standard Photoelectric Sensor.(E3Z-[]-IL[])</description>
+<dc:subject>New product</dc:subject>
+<dc:date>2016-07-01T16:06:13+09:00</dc:date>
+</item>
+<item rdf:about="http://www.ia.omron.com/products/family/3539/?bid=rss">
+<link>http://www.ia.omron.com/products/family/3539/?bid=rss</link>
+<title>NX-series Heater Burnout Detection Unit</title>
+<description>Build a temperature control system with heater burnout detection in conjunction with a temperature input unit and PID instructions(NX-HB)</description>
+<dc:subject>New product</dc:subject>
+<dc:date>2016-07-01T16:05:58+09:00</dc:date>
+</item>
+<item rdf:about="http://www.ia.omron.com/products/family/3538/?bid=rss">
+<link>http://www.ia.omron.com/products/family/3538/?bid=rss</link>
+<title>NX-series Load Cell Input Unit</title>
+<description>Build a cost saving weighing/ measurement system by using load cells(NX-RS[][][][])</description>
+<dc:subject>New product</dc:subject>
+<dc:date>2016-07-01T16:05:52+09:00</dc:date>
+</item>
+<item rdf:about="http://www.ia.omron.com/products/family/3540/?bid=rss">
+<link>http://www.ia.omron.com/products/family/3540/?bid=rss</link>
+<title>NX-series IO-Link Master Unit</title>
+<description>IO-Link makes sensor level information visible and solves the three major issues at manufacturing sites! The screwless clamping terminal block reduces wiring work.(NX-ILM400)</description>
+<dc:subject>New product</dc:subject>
+<dc:date>2016-07-01T16:05:30+09:00</dc:date>
+</item>
+<item rdf:about="http://www.ia.omron.com/products/family/3549/?bid=rss">
+<link>http://www.ia.omron.com/products/family/3549/?bid=rss</link>
+<title>AC Servo System 1S-series</title>
+<description>Optimized installation and setup Increased machine productivity Global availability and global conformance(R88M-1[] / R88D-1SN[]-ECT)</description>
+<dc:subject>New product</dc:subject>
+<dc:date>2016-07-01T16:05:30+09:00</dc:date>
+</item>
+
+<item rdf:about="http://www.ia.omron.com/products/family/3531/?bid=rss">
+<link>http://www.ia.omron.com/products/family/3531/?bid=rss</link>
+<title>Color Mark Photoelectric Sensor</title>
+<description>Color Mark Detection on Any Type of Packaging. Narrow Beam and Large Lens for Stable Detection of Workpieces Tilted at Various Angles.(E3S-DC)</description>
+<dc:subject>New product</dc:subject>
+<dc:date>2016-06-01T16:00:24+09:00</dc:date>
+</item>
+<item rdf:about="http://www.ia.omron.com/products/family/3532/?bid=rss">
+<link>http://www.ia.omron.com/products/family/3532/?bid=rss</link>
+<title>Color Fiber Amplifier Unit</title>
+<description>Smart Fiber Amplifier Units with White LEDs. High Color Discrimination Capability with the Same Easy Operation as Previous Fiber Amplifier Units. Existing General-purpose Fiber Units Can Be Connected.(E3NX-CA)</description>
+<dc:subject>New product</dc:subject>
+<dc:date>2016-06-01T16:00:08+09:00</dc:date>
+</item>
+<item rdf:about="http://www.ia.omron.com/products/family/2808/?bid=rss">
+<link>http://www.ia.omron.com/products/family/2808/?bid=rss</link>
+<title>I/O Solid State Relays</title>
+<description>SSR with Plug-in Terminals The Same Shape as the G2R-1-S Power Relays(G3R-I/O)</description>
+<dc:subject>New product</dc:subject>
+<dc:date>2016-04-25T16:00:34+09:00</dc:date>
+</item>
+
+<item rdf:about="http://www.ia.omron.com/products/family/3511/?bid=rss">
+<link>http://www.ia.omron.com/products/family/3511/?bid=rss</link>
+<title>Power Monitor</title>
+<description>Global Power Monitor for Mounting Inside Control Panels(KM-N2-FLK)</description>
+<dc:subject>New product</dc:subject>
+<dc:date>2016-04-01T17:46:51+09:00</dc:date>
+</item>
+<item rdf:about="http://www.ia.omron.com/products/family/3505/?bid=rss">
+<link>http://www.ia.omron.com/products/family/3505/?bid=rss</link>
+<title>Temperature Sensor with Ferrule (Exclusive Models)</title>
+<description>Bayonet spring for molding machines, Crimping terminals, Used for measuring surface temperatures, Used for room temperature measurement, Waterproof model, Siliconecovered lead wires(E52 with Ferrule (Exclusive Models))</description>
+<dc:subject>New product</dc:subject>
+<dc:date>2016-04-01T16:10:29+09:00</dc:date>
+</item>
+<item rdf:about="http://www.ia.omron.com/products/family/3503/?bid=rss">
+<link>http://www.ia.omron.com/products/family/3503/?bid=rss</link>
+<title>Temperature Sensor with Ferrule (Low-cost Models)</title>
+<description>Low-cost platinum resistance thermometers, Low-cost thermocouples(E52 with Ferrule (Low-cost Models))</description>
+<dc:subject>New product</dc:subject>
+<dc:date>2016-04-01T16:10:27+09:00</dc:date>
+</item>
+<item rdf:about="http://www.ia.omron.com/products/family/3502/?bid=rss">
+<link>http://www.ia.omron.com/products/family/3502/?bid=rss</link>
+<title>Temperature Sensor with Ferrule (General purpose Models)</title>
+<description>Sheathed platinum resistance thermometers, Sheathed thermocouples(E52 with Ferrule (General purpose Models))</description>
+<dc:subject>New product</dc:subject>
+<dc:date>2016-04-01T16:10:24+09:00</dc:date>
+</item>
+<item rdf:about="http://www.ia.omron.com/products/family/3483/?bid=rss">
+<link>http://www.ia.omron.com/products/family/3483/?bid=rss</link>
+<title>Solid-state Timer</title>
+<description>Our Value Design Products Increase the Value of Your Control Panels. Miniature Timer with Multiple Time Ranges and Multiple Operating Modes.(H3YN-[]-B)</description>
+<dc:subject>New product</dc:subject>
+<dc:date>2016-04-01T16:09:05+09:00</dc:date>
+</item>
+<item rdf:about="http://www.ia.omron.com/products/family/3482/?bid=rss">
+<link>http://www.ia.omron.com/products/family/3482/?bid=rss</link>
+<title>Solid-state Timer</title>
+<description>Our Value Design Products Increase the Value of Your Control Panels. Miniature Timer Compatible with the MY Relay.(H3Y-[]-B)</description>
+<dc:subject>New product</dc:subject>
+<dc:date>2016-04-01T16:09:01+09:00</dc:date>
+</item>
+<item rdf:about="http://www.ia.omron.com/products/family/3521/?bid=rss">
+<link>http://www.ia.omron.com/products/family/3521/?bid=rss</link>
+<title>Software</title>
+<description>ACE provides a host of innovative features that allow you to increase productivity while streamlining configuration setup(Automation Control Environment (ACE))</description>
+<dc:subject>New product</dc:subject>
+<dc:date>2016-04-01T16:08:55+09:00</dc:date>
+</item>
+<item rdf:about="http://www.ia.omron.com/products/family/3523/?bid=rss">
+<link>http://www.ia.omron.com/products/family/3523/?bid=rss</link>
+<title>Pendant</title>
+<description>Excellent operability and ergonomic design(T20 Pendant)</description>
+<dc:subject>New product</dc:subject>
+<dc:date>2016-04-01T16:08:55+09:00</dc:date>
+</item>
+<item rdf:about="http://www.ia.omron.com/products/family/3522/?bid=rss">
+<link>http://www.ia.omron.com/products/family/3522/?bid=rss</link>
+<title>Robot Controllers</title>
+<description>High-performance robot motion controller capable of high-speed processing(SmartController EX)</description>
+<dc:subject>New product</dc:subject>
+<dc:date>2016-04-01T16:08:51+09:00</dc:date>
+</item>
+<item rdf:about="http://www.ia.omron.com/products/family/3524/?bid=rss">
+<link>http://www.ia.omron.com/products/family/3524/?bid=rss</link>
+<title>Vision System</title>
+<description>Dependable vision system optimized for robot applications(SmartVision MX)</description>
+<dc:subject>New product</dc:subject>
+<dc:date>2016-04-01T16:08:49+09:00</dc:date>
+</item>
+<item rdf:about="http://www.ia.omron.com/products/family/3520/?bid=rss">
+<link>http://www.ia.omron.com/products/family/3520/?bid=rss</link>
+<title>Articulated Robots</title>
+<description>Articulated robot for machining, assembly, and material handling(Viper 850)</description>
+<dc:subject>New product</dc:subject>
+<dc:date>2016-04-01T16:08:43+09:00</dc:date>
+</item>
+<item rdf:about="http://www.ia.omron.com/products/family/3518/?bid=rss">
+<link>http://www.ia.omron.com/products/family/3518/?bid=rss</link>
+<title>SCARA Robots</title>
+<description>Overhead-mount large SCARA robot for precision machining, assembly, and material handling(eCobra 800 Inverted Lite / Standard / Pro)</description>
+<dc:subject>New product</dc:subject>
+<dc:date>2016-04-01T16:08:41+09:00</dc:date>
+</item>
+<item rdf:about="http://www.ia.omron.com/products/family/3519/?bid=rss">
+<link>http://www.ia.omron.com/products/family/3519/?bid=rss</link>
+<title>Articulated Robots</title>
+<description>Articulated robot for machining, assembly, and material handling(Viper 650)</description>
+<dc:subject>New product</dc:subject>
+<dc:date>2016-04-01T16:08:41+09:00</dc:date>
+</item>
+<item rdf:about="http://www.ia.omron.com/products/family/3517/?bid=rss">
+<link>http://www.ia.omron.com/products/family/3517/?bid=rss</link>
+<title>SCARA Robots</title>
+<description>Large SCARA robot for precision machining, assembly, and material handling(eCobra 800 Lite / Standard / Pro)</description>
+<dc:subject>New product</dc:subject>
+<dc:date>2016-04-01T16:08:37+09:00</dc:date>
+</item>
+<item rdf:about="http://www.ia.omron.com/products/family/3516/?bid=rss">
+<link>http://www.ia.omron.com/products/family/3516/?bid=rss</link>
+<title>SCARA Robots</title>
+<description>Mid-size SCARA robot for precision machining, assembly, and material handling(eCobra 600 Lite / Standard / Pro)</description>
+<dc:subject>New product</dc:subject>
+<dc:date>2016-04-01T16:07:45+09:00</dc:date>
+</item>
+<item rdf:about="http://www.ia.omron.com/products/family/3499/?bid=rss">
+<link>http://www.ia.omron.com/products/family/3499/?bid=rss</link>
+<title>Temperature Monitoring Relay</title>
+<description>Our Value Design Products Increase the Value of Your Control Panels. Ideal to prevent heater overheating. Self-latching output to contribute to safe equipment operation.(K8DT-TH)</description>
+<dc:subject>New product</dc:subject>
+<dc:date>2016-04-01T16:07:41+09:00</dc:date>
+</item>
+<item rdf:about="http://www.ia.omron.com/products/family/3498/?bid=rss">
+<link>http://www.ia.omron.com/products/family/3498/?bid=rss</link>
+<title>Three-phase Voltage, Asymmetry, and Phase-sequence Phase-loss Relay</title>
+<description>Our Value Design Products Increase the Value of Your Control Panels. Protect motors and other equipment from unstable voltages in the power supply system. Detect overvoltages, undervoltages, voltage asymmetry, phase sequence, and phase loss for three-phase power supplies.(K8DT-PZ)</description>
+<dc:subject>New product</dc:subject>
+<dc:date>2016-04-01T16:07:39+09:00</dc:date>
+</item>
+<item rdf:about="http://www.ia.omron.com/products/family/3497/?bid=rss">
+<link>http://www.ia.omron.com/products/family/3497/?bid=rss</link>
+<title>Three-phase Voltage and Phase-sequence Phase-loss Relay</title>
+<description>Our Value Design Products Increase the Value of Your Control Panels. Protect motors and other equipment from unstable voltages in the power supply system. Protect motors and other equipment by detecting overvoltages, undervoltages, phase sequence, and phase loss for three-phase power supplies.(K8DT-PM)</description>
+<dc:subject>New product</dc:subject>
+<dc:date>2016-04-01T16:07:35+09:00</dc:date>
+</item>
+<item rdf:about="http://www.ia.omron.com/products/family/3496/?bid=rss">
+<link>http://www.ia.omron.com/products/family/3496/?bid=rss</link>
+<title>Phase-sequence Phase-loss Relay</title>
+<description>Our Value Design Products Increase the Value of Your Control Panels. Protect motors and other equipment from unstable voltages in the power supply system. Protect motors and other equipment by detecting phase sequence and phase loss for three-phase power supplies.(K8DT-PH)</description>
+<dc:subject>New product</dc:subject>
+<dc:date>2016-04-01T16:07:33+09:00</dc:date>
+</item>
+<item rdf:about="http://www.ia.omron.com/products/family/3495/?bid=rss">
+<link>http://www.ia.omron.com/products/family/3495/?bid=rss</link>
+<title>Conductive Level Controller</title>
+<description>Our Value Design Products Increase the Value of Your Control Panels. Ideal for water level control. Sensitivity adjustment and timer for easy usage.(K8DT-LS)</description>
+<dc:subject>New product</dc:subject>
+<dc:date>2016-04-01T16:07:29+09:00</dc:date>
+</item>
+<item rdf:about="http://www.ia.omron.com/products/family/3494/?bid=rss">
+<link>http://www.ia.omron.com/products/family/3494/?bid=rss</link>
+<title>Single-phase Overvoltage/Undervoltage Relay</title>
+<description>Our Value Design Products Increase the Value of Your Control Panels. Detect abnormal voltages applies to equipment to protect against equipment failure. Monitor for overvoltages and undervoltages simultaneously with one Relay.(K8DT-VW)</description>
+<dc:subject>New product</dc:subject>
+<dc:date>2016-04-01T16:07:23+09:00</dc:date>
+</item>
+<item rdf:about="http://www.ia.omron.com/products/family/3493/?bid=rss">
+<link>http://www.ia.omron.com/products/family/3493/?bid=rss</link>
+<title>Single-phase Voltage Relay</title>
+<description>Our Value Design Products Increase the Value of Your Control Panels. Detect abnormal voltages applies to equipment to protect against equipment failure. Use in either overvoltage or undervoltage mode.(K8DT-VS)</description>
+<dc:subject>New product</dc:subject>
+<dc:date>2016-04-01T16:07:18+09:00</dc:date>
+</item>
+<item rdf:about="http://www.ia.omron.com/products/family/3492/?bid=rss">
+<link>http://www.ia.omron.com/products/family/3492/?bid=rss</link>
+<title>Single-phase Overcurrent/Undercurrent Relay</title>
+<description>Our Value Design Products Increase the Value of Your Control Panels. Detect errors in motors and other equipment through current changes. Monitor for overcurrents and undercurrents simultaneously with one Relay.(K8DT-AW)</description>
+<dc:subject>New product</dc:subject>
+<dc:date>2016-04-01T16:07:14+09:00</dc:date>
+</item>
+<item rdf:about="http://www.ia.omron.com/products/family/3491/?bid=rss">
+<link>http://www.ia.omron.com/products/family/3491/?bid=rss</link>
+<title>Single-phase Current Relay</title>
+<description>Our Value Design Products Increase the Value of Your Control Panels. Detect errors in motors and other equipment through current changes. Use in either overcurrent or undercurrent mode.(K8DT-AS)</description>
+<dc:subject>New product</dc:subject>
+<dc:date>2016-04-01T16:07:12+09:00</dc:date>
+</item>
+<item rdf:about="http://www.ia.omron.com/products/family/3485/?bid=rss">
+<link>http://www.ia.omron.com/products/family/3485/?bid=rss</link>
+<title>S8VK-S (60/120/240/480-W Models)</title>
+<description>A Perfect Fit for Small Control Panels Coated PCBs for Better Resistance to Environment Connections for Easy Wiring(S8VK-S)</description>
+<dc:subject>New product</dc:subject>
+<dc:date>2016-04-01T16:07:08+09:00</dc:date>
+</item>
+<item rdf:about="http://www.ia.omron.com/products/family/3515/?bid=rss">
+<link>http://www.ia.omron.com/products/family/3515/?bid=rss</link>
+<title>SCARA Robots</title>
+<description>Small SCARA robot for precision machining, assembly, and material handling(Cobra 350)</description>
+<dc:subject>New product</dc:subject>
+<dc:date>2016-04-01T16:07:04+09:00</dc:date>
+</item>
+<item rdf:about="http://www.ia.omron.com/products/family/3479/?bid=rss">
+<link>http://www.ia.omron.com/products/family/3479/?bid=rss</link>
+<title>NX-series Communications Interface Units</title>
+<description>Provides simplicity and flexibility in connecting serial devices to EtherCAT(NX-CIF)</description>
+<dc:subject>New product</dc:subject>
+<dc:date>2016-04-01T16:07:00+09:00</dc:date>
+</item>
+<item rdf:about="http://www.ia.omron.com/products/family/3514/?bid=rss">
+<link>http://www.ia.omron.com/products/family/3514/?bid=rss</link>
+<title>Parallel Robots</title>
+<description>Four-axis parallel robot achieves high speed and high precision(Quattro 800H)</description>
+<dc:subject>New product</dc:subject>
+<dc:date>2016-04-01T16:06:58+09:00</dc:date>
+</item>
+<item rdf:about="http://www.ia.omron.com/products/family/3484/?bid=rss">
+<link>http://www.ia.omron.com/products/family/3484/?bid=rss</link>
+<title>Solid-state timer</title>
+<description>Our Value Design Products Increase the Value of Your Control Panels. Compact, Multi-function Timers for G2R Relay Socket.(H3RN-[]-B)</description>
+<dc:subject>New product</dc:subject>
+<dc:date>2016-04-01T16:06:54+09:00</dc:date>
+</item>
+<item rdf:about="http://www.ia.omron.com/products/family/3513/?bid=rss">
+<link>http://www.ia.omron.com/products/family/3513/?bid=rss</link>
+<title>Parallel Robots</title>
+<description>Four-axis parallel robot achieves high speed and high precision(Quattro 650H / HS)</description>
+<dc:subject>New product</dc:subject>
+<dc:date>2016-04-01T16:06:44+09:00</dc:date>
+</item>
+<item rdf:about="http://www.ia.omron.com/products/family/3510/?bid=rss">
+<link>http://www.ia.omron.com/products/family/3510/?bid=rss</link>
+<title>Solid State Relays for Heaters</title>
+<description>Our Value Design Products Increase the Value of Your Control Panels. Single-phase SSR for low heat generation enables carrying 25 A (G3PJ-[]25B(-PU)) even for close mounting of three SSRs to contribute to downsizing of control panels. Models available with push-in input terminals.(G3PJ)</description>
+<dc:subject>New product</dc:subject>
+<dc:date>2016-04-01T16:06:38+09:00</dc:date>
+</item>
+<item rdf:about="http://www.ia.omron.com/products/family/3509/?bid=rss">
+<link>http://www.ia.omron.com/products/family/3509/?bid=rss</link>
+<title>I/O Relay Terminal</title>
+<description>Our Value Design Products Increase the Value of Your Control Panels. I/O Relay Terminals with 16 Points and Push-In Plus terminal blocks to Downsize Control Panels and Save Labor.(G70V)</description>
+<dc:subject>New product</dc:subject>
+<dc:date>2016-04-01T16:06:32+09:00</dc:date>
+</item>
+<item rdf:about="http://www.ia.omron.com/products/family/3508/?bid=rss">
+<link>http://www.ia.omron.com/products/family/3508/?bid=rss</link>
+<title>Slim I/O Relay</title>
+<description>Our Value Design Products Increase the Value of Your Control Panels. Global standard size, low profile slim I/O relay with width 6.2 mm.(G2RV-SR)</description>
+<dc:subject>New product</dc:subject>
+<dc:date>2016-04-01T16:06:30+09:00</dc:date>
+</item>
+<item rdf:about="http://www.ia.omron.com/products/family/3507/?bid=rss">
+<link>http://www.ia.omron.com/products/family/3507/?bid=rss</link>
+<title>Slim I/O Solid State Relay</title>
+<description>Our Value Design Products Increase the Value of Your Control Panels. Global standard size, low profile type slim I/O solid state relay with width 6.2 mm.(G3RV-SR)</description>
+<dc:subject>New product</dc:subject>
+<dc:date>2016-04-01T16:06:22+09:00</dc:date>
+</item>
+<item rdf:about="http://www.ia.omron.com/products/family/3506/?bid=rss">
+<link>http://www.ia.omron.com/products/family/3506/?bid=rss</link>
+<title>Push-In Plus Terminal Block Sockets</title>
+<description>Our Value Design Products Increase the Value of Your Control Panels. Sockets with Push-In Plus Terminal Blocks to Save Work Added to Series for MY and G2R-S Relays.(PYF-[][]-PU / P2RF-[][]-PU)</description>
+<dc:subject>New product</dc:subject>
+<dc:date>2016-04-01T16:06:12+09:00</dc:date>
+</item>
+<item rdf:about="http://www.ia.omron.com/products/family/3490/?bid=rss">
+<link>http://www.ia.omron.com/products/family/3490/?bid=rss</link>
+<title>Power OFF-delay Timer</title>
+<description>Our Value Design Products Increase the Value of Your Control Panels. Set two time ranges with each Timer, from 0.1 to 12 seconds for the S Series and from 1.0 to 120 seconds for the L Series.(H3DT-H)</description>
+<dc:subject>New product</dc:subject>
+<dc:date>2016-04-01T16:06:04+09:00</dc:date>
+</item>
+<item rdf:about="http://www.ia.omron.com/products/family/3489/?bid=rss">
+<link>http://www.ia.omron.com/products/family/3489/?bid=rss</link>
+<title>Star-delta Timer</title>
+<description>Our Value Design Products Increase the Value of Your Control Panels. Set two time ranges between 1 and 120 s with one Timer.(H3DT-G)</description>
+<dc:subject>New product</dc:subject>
+<dc:date>2016-04-01T16:06:02+09:00</dc:date>
+</item>
+<item rdf:about="http://www.ia.omron.com/products/family/3488/?bid=rss">
+<link>http://www.ia.omron.com/products/family/3488/?bid=rss</link>
+<title>Twin Timer</title>
+<description>Our Value Design Products Increase the Value of Your Control Panels. Switch between flicker-OFF or flicker-ON start mode.(H3DT-F)</description>
+<dc:subject>New product</dc:subject>
+<dc:date>2016-04-01T16:05:58+09:00</dc:date>
+</item>
+<item rdf:about="http://www.ia.omron.com/products/family/3487/?bid=rss">
+<link>http://www.ia.omron.com/products/family/3487/?bid=rss</link>
+<title>Power ON-delay Timer</title>
+<description>Our Value Design Products Increase the Value of Your Control Panels. Single Mode Timers with power ON delay operation.(H3DT-A)</description>
+<dc:subject>New product</dc:subject>
+<dc:date>2016-04-01T16:05:54+09:00</dc:date>
+</item>
+<item rdf:about="http://www.ia.omron.com/products/family/3486/?bid=rss">
+<link>http://www.ia.omron.com/products/family/3486/?bid=rss</link>
+<title>Multi-range, Multi-mode Timer</title>
+<description>Our Value Design Products Increase the Value of Your Control Panels. Multiple time ranges and operating modes let you cover a wide range of applications.(H3DT-N / -L)</description>
+<dc:subject>New product</dc:subject>
+<dc:date>2016-04-01T16:05:50+09:00</dc:date>
+</item>
+<item rdf:about="http://www.ia.omron.com/products/family/3481/?bid=rss">
+<link>http://www.ia.omron.com/products/family/3481/?bid=rss</link>
+<title>DIN Track Terminal Blocks with Screw Terminals</title>
+<description>Global-standard DIN Terminal Blocks for Control Panels(XW5T-S)</description>
+<dc:subject>New product</dc:subject>
+<dc:date>2016-04-01T16:05:48+09:00</dc:date>
+</item>
+<item rdf:about="http://www.ia.omron.com/products/family/3480/?bid=rss">
+<link>http://www.ia.omron.com/products/family/3480/?bid=rss</link>
+<title>DIN Track Push-in Terminal Blocks</title>
+<description>Our Value Design Products Increase the Value of Your Control Panels. Push-in Plus Terminal Blocks to Downsize Control Panels and Save Work.(XW5T-P)</description>
+<dc:subject>New product</dc:subject>
+<dc:date>2016-04-01T16:05:46+09:00</dc:date>
+</item>
+<item rdf:about="http://www.ia.omron.com/products/family/3500/?bid=rss">
+<link>http://www.ia.omron.com/products/family/3500/?bid=rss</link>
+<title>Confocal Fiber Displacement Sensor</title>
+<description>Reliable measurements for any material and surface types(ZW-7000)</description>
+<dc:subject>New product</dc:subject>
+<dc:date>2016-04-01T09:00:30+09:00</dc:date>
+</item>
+<item rdf:about="http://www.ia.omron.com/products/family/3512/?bid=rss">
+<link>http://www.ia.omron.com/products/family/3512/?bid=rss</link>
+<title>Parallel Robots</title>
+<description>Parallel robot ideal for use in the food and beverage, pharmaceutical, and healthcare industries(Hornet 565)</description>
+<dc:subject>New product</dc:subject>
+<dc:date>2016-04-01T09:00:30+09:00</dc:date>
+</item>
+
+<item rdf:about="http://www.ia.omron.com/products/family/3462/?bid=rss">
+<link>http://www.ia.omron.com/products/family/3462/?bid=rss</link>
+<title>Fiber Unit Build-in Lens Series, Flat Model</title>
+<description>Optical Axis Adjustment in 20 Sec and Ultra-high-power Beam Greatly Reduce Installation and Maintenance Work(E32-LT35Z)</description>
+<dc:subject>New product</dc:subject>
+<dc:date>2016-02-01T16:00:15+09:00</dc:date>
+</item>
+
+
+<item rdf:about="http://www.ia.omron.com/products/family/3387/?bid=rss">
+<link>http://www.ia.omron.com/products/family/3387/?bid=rss</link>
+<title>NJ-series NJ Robotics CPU Units</title>
+<description>New controller that covers functions and high-speed processing required for machine control and safety, reliability and maintainability that are the features of industrial controllers provides parallel link robot control function. In addition to robot control, general motion control with up to 64 axes can be also performed.(NJ501-4[][][])</description>
+<dc:subject>New product</dc:subject>
+<dc:date>2015-12-01T16:02:11+09:00</dc:date>
+</item>
+<item rdf:about="http://www.ia.omron.com/products/family/3459/?bid=rss">
+<link>http://www.ia.omron.com/products/family/3459/?bid=rss</link>
+<title>Sysmac Library</title>
+<description>The Sysmac Library for the NJ/NX/NY Controller provides Function Blocks packed with know-how that makes advanced control easy.(SYSMAC-XR[][][])</description>
+<dc:subject>New product</dc:subject>
+<dc:date>2015-12-01T14:04:25+09:00</dc:date>
+</item>
+
+<item rdf:about="http://www.ia.omron.com/products/family/3460/?bid=rss">
+<link>http://www.ia.omron.com/products/family/3460/?bid=rss</link>
+<title>Switch Mode Power Supply (15/25/35/50/75/100/150/200/350-W Models)</title>
+<description>High Reliability at a Reasonable Cost. Reliable, Basic Power Supplies That Contribute to Stable Equipment Operation.(S8FS-C)</description>
+<dc:subject>New product</dc:subject>
+<dc:date>2015-10-01T16:00:40+09:00</dc:date>
+</item>
+
+<item rdf:about="http://www.ia.omron.com/products/family/3104/?bid=rss">
+<link>http://www.ia.omron.com/products/family/3104/?bid=rss</link>
+<title>CMOS Laser Sensor with Built-in Amplifier</title>
+<description>Stable Detection of Level Differences in the Order of 0.1 mm(ZX0)</description>
+<dc:subject>New product</dc:subject>
+<dc:date>2015-09-14T16:00:28+09:00</dc:date>
+</item>
+<item rdf:about="http://www.ia.omron.com/products/family/1868/?bid=rss">
+<link>http://www.ia.omron.com/products/family/1868/?bid=rss</link>
+<title>Screwless Clamp Terminal Sockets</title>
+<description>New Screwless Terminal Sockets Added for MY and G2R Relays.(PYF[][]S / P2RF-[][]-S)</description>
+<dc:subject>New product</dc:subject>
+<dc:date>2015-08-17T16:00:32+09:00</dc:date>
+</item>
+
+
+<item rdf:about="http://www.ia.omron.com/products/family/3453/?bid=rss">
+<link>http://www.ia.omron.com/products/family/3453/?bid=rss</link>
+<title>High-resolution Telecentric Lens for C-mount cameras</title>
+<description>High-resolution telecentric lens for megapixel camera(3Z4S-LE VS-TCH Series)</description>
+<dc:subject>New product</dc:subject>
+<dc:date>2015-06-04T22:29:02+09:00</dc:date>
+</item>
+
+
+
+<item rdf:about="http://www.ia.omron.com/products/family/3450/?bid=rss">
+<link>http://www.ia.omron.com/products/family/3450/?bid=rss</link>
+<title>Uninterruptible Power Supply (UPS)</title>
+<description>Compact UPS best suited for prevention of voltage drop/power failure in industrial-purpose computers (IPC)/controllers. This UPS adopts a lithium-ion battery and DIN rails can be attached to it.(S8BA)</description>
+<dc:subject>New product</dc:subject>
+<dc:date>2015-06-01T16:06:40+09:00</dc:date>
+</item>
+<item rdf:about="http://www.ia.omron.com/products/family/3455/?bid=rss">
+<link>http://www.ia.omron.com/products/family/3455/?bid=rss</link>
+<title>Transparent Object Detection Photoelectric Sensor</title>
+<description>Superb Detection of Many Types of Transparent Objects(E3S-DB)</description>
+<dc:subject>New product</dc:subject>
+<dc:date>2015-06-01T16:05:38+09:00</dc:date>
+</item>
+<item rdf:about="http://www.ia.omron.com/products/family/3454/?bid=rss">
+<link>http://www.ia.omron.com/products/family/3454/?bid=rss</link>
+<title>Rectangular Proximity Sensor</title>
+<description>Freely Change the Sensing Direction(E2Q6)</description>
+<dc:subject>New product</dc:subject>
+<dc:date>2015-06-01T16:05:32+09:00</dc:date>
+</item>
+
+<item rdf:about="http://www.ia.omron.com/products/family/3449/?bid=rss">
+<link>http://www.ia.omron.com/products/family/3449/?bid=rss</link>
+<title>Key-type Selector Switches</title>
+<description>30-mm dia. Key-type Selector Switches Control panel miniaturization through a more compact design and modified wiring direction. Addition of Push-In Plus terminal blocks for easy wiring. Workability and safety improvements.(A30NK)</description>
+<dc:subject>New product</dc:subject>
+<dc:date>2015-05-18T16:08:10+09:00</dc:date>
+</item>
+<item rdf:about="http://www.ia.omron.com/products/family/3448/?bid=rss">
+<link>http://www.ia.omron.com/products/family/3448/?bid=rss</link>
+<title>Selector Switches</title>
+<description>30-mm dia. Knob-type Selector Switches Control panel miniaturization through a more compact design and modified wiring direction. Addition of Push-In Plus terminal blocks for easy wiring. Workability and safety improvements.(A30NS / A30NW)</description>
+<dc:subject>New product</dc:subject>
+<dc:date>2015-05-18T16:07:10+09:00</dc:date>
+</item>
+<item rdf:about="http://www.ia.omron.com/products/family/3451/?bid=rss">
+<link>http://www.ia.omron.com/products/family/3451/?bid=rss</link>
+<title>Indicators</title>
+<description>22-mm dia. Indicators. Control panel miniaturization through a more compact design and modified wiring direction. Addition of Push-In Plus terminal blocks for easy wiring.(M22N)</description>
+<dc:subject>New product</dc:subject>
+<dc:date>2015-05-18T16:05:45+09:00</dc:date>
+</item>
+<item rdf:about="http://www.ia.omron.com/products/family/3444/?bid=rss">
+<link>http://www.ia.omron.com/products/family/3444/?bid=rss</link>
+<title>Selector Switches</title>
+<description>22-mm dia. Knob-type Selector Switches. Control panel miniaturization through a more compact design and modified wiring direction. Addition of Push-In Plus terminal blocks for easy wiring.(A22NS / A22NW)</description>
+<dc:subject>New product</dc:subject>
+<dc:date>2015-05-18T16:04:03+09:00</dc:date>
+</item>
+<item rdf:about="http://www.ia.omron.com/products/family/3443/?bid=rss">
+<link>http://www.ia.omron.com/products/family/3443/?bid=rss</link>
+<title>Pushbutton Switches</title>
+<description>22-mm dia. Pushbutton Switches. Control panel miniaturization through a more compact design and modified wiring direction. Addition of Push-In Plus terminal blocks for easy wiring.(A22NN / A22NL)</description>
+<dc:subject>New product</dc:subject>
+<dc:date>2015-05-18T16:02:42+09:00</dc:date>
+</item>
+<item rdf:about="http://www.ia.omron.com/products/family/3452/?bid=rss">
+<link>http://www.ia.omron.com/products/family/3452/?bid=rss</link>
+<title>Pushbutton Switches</title>
+<description>30-mm dia. Pushbutton Switches Control panel miniaturization through a more compact design and modified wiring direction. Addition of Push-In Plus terminal blocks for easy wiring. Workability and safety improvements.(A30NN / A30NL)</description>
+<dc:subject>New product</dc:subject>
+<dc:date>2015-05-18T16:01:42+09:00</dc:date>
+</item>
+<item rdf:about="http://www.ia.omron.com/products/family/3441/?bid=rss">
+<link>http://www.ia.omron.com/products/family/3441/?bid=rss</link>
+<title>Key-type Selector Switches</title>
+<description>22-mm dia. Key-type Selector Switches. Control panel miniaturization through a more compact design and modified wiring direction. Addition of Push-In Plus terminal blocks for easy wiring.(A22NK)</description>
+<dc:subject>New product</dc:subject>
+<dc:date>2015-05-18T16:00:42+09:00</dc:date>
+</item>
+
+<item rdf:about="http://www.ia.omron.com/products/family/3368/?bid=rss">
+<link>http://www.ia.omron.com/products/family/3368/?bid=rss</link>
+<title>Connecting Cables for I/O Terminal Blocks</title>
+<description>Connect I/O Terminal Blocks (XW2[]) to I/O Units of Programmable Controllers. Fast and Faultless.(XW2Z-L)</description>
+<dc:subject>New product</dc:subject>
+<dc:date>2015-04-06T22:31:35+09:00</dc:date>
+</item>
+<item rdf:about="http://www.ia.omron.com/new/information/2015/04/004.html?bid=rss">
+<link>http://www.ia.omron.com/new/information/2015/04/004.html?bid=rss</link>
+<title>We have introduced EtherCAT® Slave Unit CJ1W-ECT21.</title>
+<description>Product Information</description>
+<dc:subject>Product Information</dc:subject>
+<dc:date>2015-04-02T18:03:12+09:00</dc:date>
+</item>
+<item rdf:about="http://www.ia.omron.com/new/information/2015/04/003.html?bid=rss">
+<link>http://www.ia.omron.com/new/information/2015/04/003.html?bid=rss</link>
+<title>We have introduced CPU Units NJ101-[][][][].</title>
+<description>Product Information</description>
+<dc:subject>Product Information</dc:subject>
+<dc:date>2015-04-02T18:03:12+09:00</dc:date>
+</item>
+<item rdf:about="http://www.ia.omron.com/new/information/2015/04/001.html?bid=rss">
+<link>http://www.ia.omron.com/new/information/2015/04/001.html?bid=rss</link>
+<title>We have introduced CPU Units NX701-[][][][].</title>
+<description>Product Information</description>
+<dc:subject>Product Information</dc:subject>
+<dc:date>2015-04-02T18:03:12+09:00</dc:date>
+</item>
+<item rdf:about="http://www.ia.omron.com/new/information/2015/04/002.html?bid=rss">
+<link>http://www.ia.omron.com/new/information/2015/04/002.html?bid=rss</link>
+<title>We have introduced Power Supply Unit NX-PA/PD.</title>
+<description>Product Information</description>
+<dc:subject>Product Information</dc:subject>
+<dc:date>2015-04-02T18:03:12+09:00</dc:date>
+</item>
+<item rdf:about="http://www.ia.omron.com/products/family/3438/?bid=rss">
+<link>http://www.ia.omron.com/products/family/3438/?bid=rss</link>
+<title>NJ-Series NJ101 CPU Units</title>
+<description>Sysmac solutions for every machine New controllers ideal for simple machines(NJ101-[][][][])</description>
+<dc:subject>New product</dc:subject>
+<dc:date>2015-04-01T13:10:57+09:00</dc:date>
+</item>
+<item rdf:about="http://www.ia.omron.com/products/family/3437/?bid=rss">
+<link>http://www.ia.omron.com/products/family/3437/?bid=rss</link>
+<title>NX-Series Power Supply Unit</title>
+<description>Powerful power supply unit to supply stable power to the NX-series controller.(NX-PA / PD)</description>
+<dc:subject>New product</dc:subject>
+<dc:date>2015-04-01T13:10:53+09:00</dc:date>
+</item>
+<item rdf:about="http://www.ia.omron.com/products/family/3436/?bid=rss">
+<link>http://www.ia.omron.com/products/family/3436/?bid=rss</link>
+<title>NX-Series NX701 CPU Units</title>
+<description>Ideal for large-scale, fast, and highly-accurate control with up to 256 axes.(NX701-[][][][])</description>
+<dc:subject>New product</dc:subject>
+<dc:date>2015-04-01T13:10:43+09:00</dc:date>
+</item>
+<item rdf:about="http://www.ia.omron.com/products/family/3435/?bid=rss">
+<link>http://www.ia.omron.com/products/family/3435/?bid=rss</link>
+<title>NX Overview</title>
+<description>Motion, Logic and Vision in one(NX)</description>
+<dc:subject>New product</dc:subject>
+<dc:date>2015-04-01T13:09:49+09:00</dc:date>
+</item>
+<item rdf:about="http://www.ia.omron.com/products/family/3439/?bid=rss">
+<link>http://www.ia.omron.com/products/family/3439/?bid=rss</link>
+<title>CJ-series EtherCAT® Slave Unit</title>
+<description>Hi-speed I/O link based on EtherCAT(CJ1W-ECT21)</description>
+<dc:subject>New product</dc:subject>
+<dc:date>2015-04-01T13:05:05+09:00</dc:date>
+</item>
+<item rdf:about="http://www.ia.omron.com/products/family/3428/?bid=rss">
+<link>http://www.ia.omron.com/products/family/3428/?bid=rss</link>
+<title>High speed automated X-ray CT inspection system For SEMICONDUCTOR</title>
+<description>Omron‘s unique Automated inspection capability ensures process quality in a mass-production environment by using Submicron CT imaging with a variety of Metrology data.(VT-X700 / VT-X900)</description>
+<dc:subject>New product</dc:subject>
+<dc:date>2015-03-02T16:01:48+09:00</dc:date>
+</item>
+<item rdf:about="http://www.ia.omron.com/products/family/3195/?bid=rss">
+<link>http://www.ia.omron.com/products/family/3195/?bid=rss</link>
+<title>Plateau Head Knob-type Selector Switch</title>
+<description>Easy connector enables less assembly and less wiring(A3US)</description>
+<dc:subject>New product</dc:subject>
+<dc:date>2015-02-09T16:00:29+09:00</dc:date>
+</item>
+
+<item rdf:about="http://www.ia.omron.com/products/family/3194/?bid=rss">
+<link>http://www.ia.omron.com/products/family/3194/?bid=rss</link>
+<title>Plateau Head Pushbutton Switch</title>
+<description>Easy connector enables less assembly and less wiring(A3U)</description>
+<dc:subject>New product</dc:subject>
+<dc:date>2015-02-09T16:00:27+09:00</dc:date>
+</item>
+<item rdf:about="http://www.ia.omron.com/products/family/3415/?bid=rss">
+<link>http://www.ia.omron.com/products/family/3415/?bid=rss</link>
+<title>Plateau Head Indicator</title>
+<description>Easy connector enables less assembly and less wiring(M3U)</description>
+<dc:subject>New product</dc:subject>
+<dc:date>2015-02-09T16:00:21+09:00</dc:date>
+</item>
+<item rdf:about="http://www.ia.omron.com/products/family/3418/?bid=rss">
+<link>http://www.ia.omron.com/products/family/3418/?bid=rss</link>
+<title>Vision System</title>
+<description>A range of processing items for positioning and inspection(FZ5 Series)</description>
+<dc:subject>New product</dc:subject>
+<dc:date>2015-02-02T16:00:39+09:00</dc:date>
+</item>
+<item rdf:about="http://www.ia.omron.com/products/family/3419/?bid=rss">
+<link>http://www.ia.omron.com/products/family/3419/?bid=rss</link>
+<title>Safety Relay Unit</title>
+<description>Complete line-up of compact units, including OFF-delayed safety output models(G9SE)</description>
+<dc:subject>New product</dc:subject>
+<dc:date>2015-02-02T16:00:25+09:00</dc:date>
+</item>
+<item rdf:about="http://www.ia.omron.com/new/information/2015/01/003.html?bid=rss">
+<link>http://www.ia.omron.com/new/information/2015/01/003.html?bid=rss</link>
+<title>We have introduced Common Terminals XW2R-COM.</title>
+<description>Product Information</description>
+<dc:subject>Product Information</dc:subject>
+<dc:date>2015-01-07T02:09:43+09:00</dc:date>
+</item>
+<item rdf:about="http://www.ia.omron.com/products/family/3400/?bid=rss">
+<link>http://www.ia.omron.com/products/family/3400/?bid=rss</link>
+<title>Common Terminals</title>
+<description>Space-saving and less wiring work of power supply wiring are achieved.(XW2R-COM)</description>
+<dc:subject>New product</dc:subject>
+<dc:date>2015-01-07T00:13:49+09:00</dc:date>
+</item>
+<item rdf:about="http://www.ia.omron.com/products/family/3411/?bid=rss">
+<link>http://www.ia.omron.com/products/family/3411/?bid=rss</link>
+<title>Smart Muting Actuator</title>
+<description>Integrated muting sensor based on multi-beam photoelectric sensor(F3W-MA)</description>
+<dc:subject>New product</dc:subject>
+<dc:date>2015-01-05T16:00:57+09:00</dc:date>
+</item>
+<item rdf:about="http://www.ia.omron.com/products/family/3412/?bid=rss">
+<link>http://www.ia.omron.com/products/family/3412/?bid=rss</link>
+<title>NX-series EtherNet/IP™ Coupler Unit</title>
+<description>Connecting to open industrial network standard EtherNet/IP(NX-EIC202)</description>
+<dc:subject>New product</dc:subject>
+<dc:date>2015-01-05T16:00:45+09:00</dc:date>
+</item>
+<item rdf:about="http://www.ia.omron.com/new/information/2015/01/001.html?bid=rss">
+<link>http://www.ia.omron.com/new/information/2015/01/001.html?bid=rss</link>
+<title>We have introduced Smart Muting Actuator F3W-MA.</title>
+<description>Product Information</description>
+<dc:subject>Product Information</dc:subject>
+<dc:date>2015-01-05T16:00:07+09:00</dc:date>
+</item>
+<item rdf:about="http://www.ia.omron.com/new/information/2015/01/002.html?bid=rss">
+<link>http://www.ia.omron.com/new/information/2015/01/002.html?bid=rss</link>
+<title>We have introduced NX-series EtherNet/IP Coupler Unit NX-EIC202.</title>
+<description>Product Information</description>
+<dc:subject>Product Information</dc:subject>
+<dc:date>2015-01-05T16:00:07+09:00</dc:date>
+</item>
+<item rdf:about="http://www.ia.omron.com/new/information/2014/12/001.html?bid=rss">
+<link>http://www.ia.omron.com/new/information/2014/12/001.html?bid=rss</link>
+<title>OMRON&#39;s Global Service Center will suspend operations from December 28 to January 4.</title>
+<description>Topics</description>
+<dc:subject>Topics</dc:subject>
+<dc:date>2014-12-15T16:01:08+09:00</dc:date>
+</item>
+<item rdf:about="http://www.ia.omron.com/products/family/811/?bid=rss">
+<link>http://www.ia.omron.com/products/family/811/?bid=rss</link>
+<title>Products Related to Common Sockets and DIN Tracks</title>
+<description>A Wide Variety of Square and Round Sockets in Front-mounting and Back-mounting Models(P2RF, P2R, P7TF, PYF, PY, PTF, PYD, PT, P7LF, P7S, P7SA, PF, P2CF, PFA, P3G / P3GA, PL)</description>
+<dc:subject>New product</dc:subject>
+<dc:date>2014-12-02T02:11:52+09:00</dc:date>
+</item>
+<item rdf:about="http://www.ia.omron.com/products/family/333/?bid=rss">
+<link>http://www.ia.omron.com/products/family/333/?bid=rss</link>
+<title>Small Enclosed Switches</title>
+<description>Small, Lightweight Enclosed Switches(VE)</description>
+<dc:subject>New product</dc:subject>
+<dc:date>2014-11-19T19:43:13+09:00</dc:date>
+</item>
+<item rdf:about="http://www.ia.omron.com/products/family/3405/?bid=rss">
+<link>http://www.ia.omron.com/products/family/3405/?bid=rss</link>
+<title>Programmable Terminal</title>
+<description>The Omron Sysmac HMI enables faster, more efficient control and monitoring - and a more natural, proactive relationship between operator and machine. Wide screen models: 7, 9, 12 and 15 inches(NA Series)</description>
+<dc:subject>New product</dc:subject>
+<dc:date>2014-11-04T16:00:28+09:00</dc:date>
+</item>
+<item rdf:about="http://www.ia.omron.com/new/information/2014/11/001.html?bid=rss">
+<link>http://www.ia.omron.com/new/information/2014/11/001.html?bid=rss</link>
+<title>We have introduced Programmable Terminal NA Series.</title>
+<description>Product Information</description>
+<dc:subject>Product Information</dc:subject>
+<dc:date>2014-11-04T16:00:26+09:00</dc:date>
+</item>
+<item rdf:about="http://www.ia.omron.com/new/information/2014/10/003.html?bid=rss">
+<link>http://www.ia.omron.com/new/information/2014/10/003.html?bid=rss</link>
+<title>We have introduced Safety Light Curtain F3SG-R.</title>
+<description>Product Information</description>
+<dc:subject>Product Information</dc:subject>
+<dc:date>2014-10-27T16:00:24+09:00</dc:date>
+</item>
+<item rdf:about="http://www.ia.omron.com/products/family/3403/?bid=rss">
+<link>http://www.ia.omron.com/products/family/3403/?bid=rss</link>
+<title>Safety Light Curtain</title>
+<description>New Standard of Safety Light Curtain, Offering Both Robustness and Reliability(F3SG-R)</description>
+<dc:subject>New product</dc:subject>
+<dc:date>2014-10-27T16:00:24+09:00</dc:date>
+</item>
+<item rdf:about="http://www.ia.omron.com/new/information/2014/10/001.html?bid=rss">
+<link>http://www.ia.omron.com/new/information/2014/10/001.html?bid=rss</link>
+<title>We have introduced NJ-series NJ501 SECS/GEM CPU Unit NJ501-1340.</title>
+<description>Product Information</description>
+<dc:subject>Product Information</dc:subject>
+<dc:date>2014-10-14T20:55:09+09:00</dc:date>
+</item>
+<item rdf:about="http://www.ia.omron.com/new/information/2014/10/002.html?bid=rss">
+<link>http://www.ia.omron.com/new/information/2014/10/002.html?bid=rss</link>
+<title>We have introduced C200H I/O Terminal Block Conversion Adapter CS1W-AT2[][].</title>
+<description>Product Information</description>
+<dc:subject>Product Information</dc:subject>
+<dc:date>2014-10-14T20:55:09+09:00</dc:date>
+</item>
+<item rdf:about="http://www.ia.omron.com/products/family/3401/?bid=rss">
+<link>http://www.ia.omron.com/products/family/3401/?bid=rss</link>
+<title>NJ-series NJ501 SECS/GEM CPU Unit</title>
+<description>The NJ501 SECS/GEM CPU Unit is a NJ-series machine automation controller, and has built-in the SECS/GEM communications functions which are the standards in the semiconductor industry.  It is the high-performance controller that fuses machine control and host communications.(NJ501-1340)</description>
+<dc:subject>New product</dc:subject>
+<dc:date>2014-10-14T20:54:10+09:00</dc:date>
+</item>
+<item rdf:about="http://www.ia.omron.com/new/information/2014/09/002.html?bid=rss">
+<link>http://www.ia.omron.com/new/information/2014/09/002.html?bid=rss</link>
+<title>We have introduced PCB Inspection System VT-S730.</title>
+<description>Product Information</description>
+<dc:subject>Product Information</dc:subject>
+<dc:date>2014-09-24T18:54:30+09:00</dc:date>
+</item>
+<item rdf:about="http://www.ia.omron.com/products/family/3390/?bid=rss">
+<link>http://www.ia.omron.com/products/family/3390/?bid=rss</link>
+<title>PCB Inspection System</title>
+<description>Omron&#39;s 3D-SJI (Solder Joint Inspection) For Efficient Manufacturing of High-quality Products(VT-S730)</description>
+<dc:subject>New product</dc:subject>
+<dc:date>2014-09-24T16:00:13+09:00</dc:date>
+</item>
+<item rdf:about="http://www.ia.omron.com/new/information/2014/09/001.html?bid=rss">
+<link>http://www.ia.omron.com/new/information/2014/09/001.html?bid=rss</link>
+<title>We have introduced Multi-function Compact Inverter 3G3MX2-V1.</title>
+<description>Product Information</description>
+<dc:subject>Product Information</dc:subject>
+<dc:date>2014-09-01T16:00:40+09:00</dc:date>
+</item>
+<item rdf:about="http://www.ia.omron.com/products/family/3164/?bid=rss">
+<link>http://www.ia.omron.com/products/family/3164/?bid=rss</link>
+<title>Multi-function Compact Inverter</title>
+<description>Born to drive machines　　　(3G3MX2-V1)</description>
+<dc:subject>New product</dc:subject>
+<dc:date>2014-09-01T16:00:22+09:00</dc:date>
+</item>
+<item rdf:about="http://www.ia.omron.com/products/family/3388/?bid=rss">
+<link>http://www.ia.omron.com/products/family/3388/?bid=rss</link>
+<title>NX-series Digital Mixed I/O Units</title>
+<description>Digital Mixed I/O Units for High speed Synchronous Control(NX-MD)</description>
+<dc:subject>New product</dc:subject>
+<dc:date>2014-08-04T16:01:02+09:00</dc:date>
+</item>
+<item rdf:about="http://www.ia.omron.com/new/information/2014/08/001.html?bid=rss">
+<link>http://www.ia.omron.com/new/information/2014/08/001.html?bid=rss</link>
+<title>OMRON&#39;s Global Service Center will suspend operations from August 9 to 17.</title>
+<description>Topics</description>
+<dc:subject>Topics</dc:subject>
+<dc:date>2014-08-04T16:00:12+09:00</dc:date>
+</item>
+<item rdf:about="http://www.ia.omron.com/new/information/2014/08/002.html?bid=rss">
+<link>http://www.ia.omron.com/new/information/2014/08/002.html?bid=rss</link>
+<title>We have introduced NX-series Digital Mixed I/O Units NX-MD.</title>
+<description>Product Information</description>
+<dc:subject>Product Information</dc:subject>
+<dc:date>2014-08-04T16:00:12+09:00</dc:date>
+</item>
+<item rdf:about="http://www.ia.omron.com/new/information/2014/07/001.html?bid=rss">
+<link>http://www.ia.omron.com/new/information/2014/07/001.html?bid=rss</link>
+<title>Omron IA Japan is the best BtoB website of the year 2014 for eight consecutive years.</title>
+<description>Topics</description>
+<dc:subject>Topics</dc:subject>
+<dc:date>2014-07-22T16:00:16+09:00</dc:date>
+</item>
+<item rdf:about="http://www.ia.omron.com/products/family/2035/?bid=rss">
+<link>http://www.ia.omron.com/products/family/2035/?bid=rss</link>
+<title>Programmable Digital Controller</title>
+<description>A new 48 × 96-mm High-speed, Highprecision Digital Controller that is Programmable!	(E5ER-T)</description>
+<dc:subject>New product</dc:subject>
+<dc:date>2014-06-16T19:44:33+09:00</dc:date>
+</item>
+<item rdf:about="http://www.ia.omron.com/products/family/1772/?bid=rss">
+<link>http://www.ia.omron.com/products/family/1772/?bid=rss</link>
+<title>Programmable Digital Controller</title>
+<description>A new High-speed, High-precision Digital Controller that is Programmable!(E5AR-T)</description>
+<dc:subject>New product</dc:subject>
+<dc:date>2014-06-16T19:43:57+09:00</dc:date>
+</item>
+<item rdf:about="http://www.ia.omron.com/products/family/3369/?bid=rss">
+<link>http://www.ia.omron.com/products/family/3369/?bid=rss</link>
+<title>Switch Mode Power Supply (120/240/480/960 W Models)</title>
+<description>Worldwide 3-phase Power Supply Resistant in tough environments Easy and fast installation The most compact class on the market(S8VK-T)</description>
+<dc:subject>New product</dc:subject>
+<dc:date>2014-05-07T16:01:48+09:00</dc:date>
+</item>
+<item rdf:about="http://www.ia.omron.com/new/information/2014/04/001.html?bid=rss">
+<link>http://www.ia.omron.com/new/information/2014/04/001.html?bid=rss</link>
+<title>We have introduced Switch Mode Power Supply S8VK-T.</title>
+<description>Product Information</description>
+<dc:subject>Product Information</dc:subject>
+<dc:date>2014-05-07T16:00:53+09:00</dc:date>
+</item>
+<item rdf:about="http://www.ia.omron.com/new/information/2014/04/002.html?bid=rss">
+<link>http://www.ia.omron.com/new/information/2014/04/002.html?bid=rss</link>
+<title>OMRON&#39;s Global Service Center will suspend business activities from April 29 to May 6.</title>
+<description>Topics</description>
+<dc:subject>Topics</dc:subject>
+<dc:date>2014-04-21T16:00:12+09:00</dc:date>
+</item>
+<item rdf:about="http://www.ia.omron.com/products/family/3374/?bid=rss">
+<link>http://www.ia.omron.com/products/family/3374/?bid=rss</link>
+<title>Three-phase Voltage Relay</title>
+<description>Ideal for Monitoring 3-phase Power Supplies for Industrial Facilities and Equipment. 22.5 mm (W). Two SPDT output relays(K8AK-PW)</description>
+<dc:subject>New product</dc:subject>
+<dc:date>2014-04-01T19:33:02+09:00</dc:date>
+</item>
+<item rdf:about="http://www.ia.omron.com/products/family/3373/?bid=rss">
+<link>http://www.ia.omron.com/products/family/3373/?bid=rss</link>
+<title>Three-phase Voltage and Phase-sequence Phase-loss Relay</title>
+<description>Ideal for Monitoring 3-phase Power Supplies for Industrial Facilities and Equipment. 22.5 mm (W). Two SPDT output relays(K8AK-PM)</description>
+<dc:subject>New product</dc:subject>
+<dc:date>2014-04-01T19:32:38+09:00</dc:date>
+</item>
+<item rdf:about="http://www.ia.omron.com/products/family/3372/?bid=rss">
+<link>http://www.ia.omron.com/products/family/3372/?bid=rss</link>
+<title>Three-phase Voltage, Asymmetry, and Phase-sequence Phase-loss Relay</title>
+<description>Ideal for Monitoring 3-phase Power Supplies for Industrial Facilities and Equipment. 17.5 mm (W). One SPDT output relays(K8DS-PZ)</description>
+<dc:subject>New product</dc:subject>
+<dc:date>2014-04-01T19:32:01+09:00</dc:date>
+</item>
+<item rdf:about="http://www.ia.omron.com/products/family/3371/?bid=rss">
+<link>http://www.ia.omron.com/products/family/3371/?bid=rss</link>
+<title>Three-phase Asymmetry and Phase-sequence Phase-loss Relay</title>
+<description>Ideal for 3-phase Voltage Asymmetry Monitoring for Industrial Facilities and Equipment. 17.5 mm (W). One SPDT output relays(K8DS-PA)</description>
+<dc:subject>New product</dc:subject>
+<dc:date>2014-04-01T19:30:51+09:00</dc:date>
+</item>
+<item rdf:about="http://www.ia.omron.com/products/family/3383/?bid=rss">
+<link>http://www.ia.omron.com/products/family/3383/?bid=rss</link>
+<title>Three-phase Undervoltage and Phase-sequence Phase-loss Relay</title>
+<description>Ideal for Monitoring 3-phase Power Supplies for Industrial Facilities and Equipment. 17.5 mm (W). One SPDT output relays(K8DS-PU)</description>
+<dc:subject>New product</dc:subject>
+<dc:date>2014-04-01T16:04:53+09:00</dc:date>
+</item>
+<item rdf:about="http://www.ia.omron.com/products/family/3382/?bid=rss">
+<link>http://www.ia.omron.com/products/family/3382/?bid=rss</link>
+<title>Three-phase Voltage and Phase-sequence Phase-loss Relay</title>
+<description>Ideal for Monitoring 3-phase Power Supplies for Industrial Facilities and Equipment. 17.5 mm (W). One SPDT output relays(K8DS-PM)</description>
+<dc:subject>New product</dc:subject>
+<dc:date>2014-04-01T16:04:49+09:00</dc:date>
+</item>
+<item rdf:about="http://www.ia.omron.com/products/family/3381/?bid=rss">
+<link>http://www.ia.omron.com/products/family/3381/?bid=rss</link>
+<title>Single-phase Overvoltage/Undervoltage Relay</title>
+<description>Ideal for Voltage Monitoring for Industrial Facilities and Equipment. Monitor for overcurrents and undercurrents simultaneously.(K8AK-VW)</description>
+<dc:subject>New product</dc:subject>
+<dc:date>2014-04-01T16:04:47+09:00</dc:date>
+</item>
+<item rdf:about="http://www.ia.omron.com/products/family/3380/?bid=rss">
+<link>http://www.ia.omron.com/products/family/3380/?bid=rss</link>
+<title>Phase-sequence Phase-loss Relay</title>
+<description>Three-phase Phase-sequence Phase-loss Relay Using Voltage Detection Method. 22.5 mm (W). Two SPDT output relays(K8AK-PH)</description>
+<dc:subject>New product</dc:subject>
+<dc:date>2014-04-01T16:04:43+09:00</dc:date>
+</item>
+<item rdf:about="http://www.ia.omron.com/products/family/3379/?bid=rss">
+<link>http://www.ia.omron.com/products/family/3379/?bid=rss</link>
+<title>Single-phase Overcurrent/Undercurrent Relay</title>
+<description>Ideal for Current Monitoring for Industrial Facilities and Equipment. Monitor for overcurrents and undercurrents simultaneously.(K8AK-AW)</description>
+<dc:subject>New product</dc:subject>
+<dc:date>2014-04-01T16:04:41+09:00</dc:date>
+</item>
+<item rdf:about="http://www.ia.omron.com/products/family/3378/?bid=rss">
+<link>http://www.ia.omron.com/products/family/3378/?bid=rss</link>
+<title>Single-phase Current Relay</title>
+<description>Ideal for Current Monitoring for Industrial Facilities and Equipment. Monitor for overcurrents or undercurrents.(K8AK-AS)</description>
+<dc:subject>New product</dc:subject>
+<dc:date>2014-04-01T16:04:33+09:00</dc:date>
+</item>
+<item rdf:about="http://www.ia.omron.com/products/family/3370/?bid=rss">
+<link>http://www.ia.omron.com/products/family/3370/?bid=rss</link>
+<title>Digital Temperature Controller (48 × 24 mm)</title>
+<description>Easy Operation and High Performance of the E5[]C Series in a Compact 48 x 24-mm Body(E5GC)</description>
+<dc:subject>New product</dc:subject>
+<dc:date>2014-04-01T16:04:29+09:00</dc:date>
+</item>
+<item rdf:about="http://www.ia.omron.com/new/information/2014/04/001.html?bid=rss">
+<link>http://www.ia.omron.com/new/information/2014/04/001.html?bid=rss</link>
+<title>We have introduced Digital Temperature Controller E5GC.</title>
+<description>Product Information</description>
+<dc:subject>Product Information</dc:subject>
+<dc:date>2014-04-01T16:03:50+09:00</dc:date>
+</item>
+<item rdf:about="http://www.ia.omron.com/products/family/3377/?bid=rss">
+<link>http://www.ia.omron.com/products/family/3377/?bid=rss</link>
+<title>Phase-sequence Phase-loss Relay</title>
+<description>Three-phase Phase-sequence Phase-loss Relay Using Voltage Detection Method. 17.5 mm (W). One SPDT output relays(K8DS-PH)</description>
+<dc:subject>New product</dc:subject>
+<dc:date>2014-04-01T16:03:50+09:00</dc:date>
+</item>
+<item rdf:about="http://www.ia.omron.com/products/family/3376/?bid=rss">
+<link>http://www.ia.omron.com/products/family/3376/?bid=rss</link>
+<title>Thermistor Motor Protection Relay</title>
+<description>Monitor Temperature Rise through Internal Motor Loss(K8AK-TS / PT)</description>
+<dc:subject>New product</dc:subject>
+<dc:date>2014-04-01T16:03:48+09:00</dc:date>
+</item>
+<item rdf:about="http://www.ia.omron.com/products/family/3375/?bid=rss">
+<link>http://www.ia.omron.com/products/family/3375/?bid=rss</link>
+<title>Single-phase Voltage Relay</title>
+<description>Ideal for Voltage Monitoring for Industrial Facilities and Equipment. Monitor for overcurrents or undercurrents.(K8AK-VS)</description>
+<dc:subject>New product</dc:subject>
+<dc:date>2014-04-01T16:03:42+09:00</dc:date>
+</item>
+<item rdf:about="http://www.ia.omron.com/products/family/3384/?bid=rss">
+<link>http://www.ia.omron.com/products/family/3384/?bid=rss</link>
+<title>Three-phase Asymmetry and Phase-sequence Phase-loss Relay</title>
+<description>Ideal for 3-phase Voltage Asymmetry Monitoring for Industrial Facilities and Equipment. 22.5 mm (W). One SPDT output relays(K8AK-PA)</description>
+<dc:subject>New product</dc:subject>
+<dc:date>2014-04-01T16:03:36+09:00</dc:date>
+</item>
+<item rdf:about="http://www.ia.omron.com/products/family/3241/?bid=rss">
+<link>http://www.ia.omron.com/products/family/3241/?bid=rss</link>
+<title>Temperature Monitoring Relay</title>
+<description>Compact and Slim Relay Ideal for Temperature Alarms and Monitoring(K8AK-TH)</description>
+<dc:subject>New product</dc:subject>
+<dc:date>2014-04-01T16:03:32+09:00</dc:date>
+</item>
+<item rdf:about="http://www.ia.omron.com/products/family/3240/?bid=rss">
+<link>http://www.ia.omron.com/products/family/3240/?bid=rss</link>
+<title>Conductive Level Controller</title>
+<description>Ideal for Liquid Level Control in Industrial Facilities and Equipment.(K8AK-LS)</description>
+<dc:subject>New product</dc:subject>
+<dc:date>2014-04-01T16:03:26+09:00</dc:date>
+</item>
+<item rdf:about="http://www.ia.omron.com/products/family/3366/?bid=rss">
+<link>http://www.ia.omron.com/products/family/3366/?bid=rss</link>
+<title>Standard Lens for M42-mount cameras</title>
+<description>Wide variety of lenses with focal lengths ranging from 18 to 100 mm.(3Z4S-LE VS-L / M42-10 Series)</description>
+<dc:subject>New product</dc:subject>
+<dc:date>2014-04-01T16:02:48+09:00</dc:date>
+</item>
+<item rdf:about="http://www.ia.omron.com/products/family/3316/?bid=rss">
+<link>http://www.ia.omron.com/products/family/3316/?bid=rss</link>
+<title>Smart Laser Sensors</title>
+<description>Ideal for Applications That Cannot Be Handled with Fiber Sensors or Photoelectric Sensors(E3NC)</description>
+<dc:subject>New product</dc:subject>
+<dc:date>2014-02-12T14:02:07+09:00</dc:date>
+</item>
+<item rdf:about="http://www.ia.omron.com/products/family/3279/?bid=rss">
+<link>http://www.ia.omron.com/products/family/3279/?bid=rss</link>
+<title>Light Units</title>
+<description>Ring Light, Bar Light and Spot Light. Light Series Approx. 200 Models.(FLV Series)</description>
+<dc:subject>New product</dc:subject>
+<dc:date>2014-01-14T16:00:32+09:00</dc:date>
+</item>
+<item rdf:about="http://www.ia.omron.com/products/family/3281/?bid=rss">
+<link>http://www.ia.omron.com/products/family/3281/?bid=rss</link>
+<title>Lens Option</title>
+<description>Lens options including Extension Tubes and Rear Converter Lenses.(3Z4S-LE Series)</description>
+<dc:subject>New product</dc:subject>
+<dc:date>2014-01-14T16:00:26+09:00</dc:date>
+</item>
+<item rdf:about="http://www.ia.omron.com/products/family/3280/?bid=rss">
+<link>http://www.ia.omron.com/products/family/3280/?bid=rss</link>
+<title>Non-telecentric Macro Lens</title>
+<description>Vibrations resistant Non-telecentric Macro Lens with a 16-mm-dia. simple mechanism.(3Z4S-LE VS-MC Series (φ16 Straight lens-barrel Type))</description>
+<dc:subject>New product</dc:subject>
+<dc:date>2014-01-14T16:00:24+09:00</dc:date>
+</item>
+<item rdf:about="http://www.ia.omron.com/products/family/3284/?bid=rss">
+<link>http://www.ia.omron.com/products/family/3284/?bid=rss</link>
+<title>Lenses for FZ-series small cameras</title>
+<description>Lens for small camera of Vision Sensor FZ series.(FZ-LES Series)</description>
+<dc:subject>New product</dc:subject>
+<dc:date>2014-01-14T16:00:20+09:00</dc:date>
+</item>
+<item rdf:about="http://www.ia.omron.com/products/family/3283/?bid=rss">
+<link>http://www.ia.omron.com/products/family/3283/?bid=rss</link>
+<title>Vibrations and Shocks Resistant for C-mount cameras</title>
+<description>Vibrations and shocks resistant Lens using a fixation ring.(3Z4S-LE VS-MC Series)</description>
+<dc:subject>New product</dc:subject>
+<dc:date>2014-01-14T16:00:16+09:00</dc:date>
+</item>
+<item rdf:about="http://www.ia.omron.com/products/family/3282/?bid=rss">
+<link>http://www.ia.omron.com/products/family/3282/?bid=rss</link>
+<title>High-resolution, Low-distortion Lens for C-mount cameras</title>
+<description>High-resolution Lens for megapixel cameras.(3Z4S-LE SV-H / VS-H1 Series)</description>
+<dc:subject>New product</dc:subject>
+<dc:date>2014-01-14T16:00:10+09:00</dc:date>
+</item>
+<item rdf:about="http://www.ia.omron.com/products/family/3289/?bid=rss">
+<link>http://www.ia.omron.com/products/family/3289/?bid=rss</link>
+<title>Programmable Temperature Controller (Digital Controller) (48 × 96 mm)</title>
+<description>48 × 96 mm. Programmable Controllers Join the E5[]C Series! Program up to 256 segments can handle a wide variety of applications.(E5EC-T)</description>
+<dc:subject>New product</dc:subject>
+<dc:date>2014-01-06T16:01:08+09:00</dc:date>
+</item>
+<item rdf:about="http://www.ia.omron.com/new/information/2014/01/001.html?bid=rss">
+<link>http://www.ia.omron.com/new/information/2014/01/001.html?bid=rss</link>
+<title>We have introduced Programmable Temperature Controller (Digital Controller) E5[]C-T.</title>
+<description>Product Information</description>
+<dc:subject>Product Information</dc:subject>
+<dc:date>2014-01-06T16:01:06+09:00</dc:date>
+</item>
+<item rdf:about="http://www.ia.omron.com/products/family/3288/?bid=rss">
+<link>http://www.ia.omron.com/products/family/3288/?bid=rss</link>
+<title>Programmable Temperature Controller (Digital Controller) (48 × 48 mm)</title>
+<description>48 × 48 mm. Programmable Controllers Join the E5[]C Series! Program up to 256 segments can handle a wide variety of applications.(E5CC-T)</description>
+<dc:subject>New product</dc:subject>
+<dc:date>2014-01-06T16:01:04+09:00</dc:date>
+</item>
+<item rdf:about="http://www.ia.omron.com/products/family/3287/?bid=rss">
+<link>http://www.ia.omron.com/products/family/3287/?bid=rss</link>
+<title>Programmable Temperature Controller (Digital Controller) (96 × 96 mm)</title>
+<description>96 × 96 mm. Programmable Controllers Join the E5[]C Series! Program up to 256 segments can handle a wide variety of applications.(E5AC-T)</description>
+<dc:subject>New product</dc:subject>
+<dc:date>2014-01-06T16:01:00+09:00</dc:date>
+</item>
+<item rdf:about="http://www.ia.omron.com/new/information/2013/12/002.html?bid=rss">
+<link>http://www.ia.omron.com/new/information/2013/12/002.html?bid=rss</link>
+<title>OMRON&#39;s Global Service Center will suspend business activities from December 28 to January 5.</title>
+<description>Topics</description>
+<dc:subject>Topics</dc:subject>
+<dc:date>2013-12-16T16:00:07+09:00</dc:date>
+</item>
+<item rdf:about="http://www.ia.omron.com/products/family/3263/?bid=rss">
+<link>http://www.ia.omron.com/products/family/3263/?bid=rss</link>
+<title>Two-circuit Limit Switch / Long-life Two-circuit Limit Switch</title>
+<description>Select the Best Two-circuit Switch for the Operating Environment and Application from a Wide Range of Models(WL-N / WLM-N)</description>
+<dc:subject>New product</dc:subject>
+<dc:date>2013-12-09T16:00:09+09:00</dc:date>
+</item>
+<item rdf:about="http://www.ia.omron.com/new/information/2013/12/001.html?bid=rss">
+<link>http://www.ia.omron.com/new/information/2013/12/001.html?bid=rss</link>
+<title>We have introduced Two-circuit Limit Switch WL-N.</title>
+<description>Product Information</description>
+<dc:subject>Product Information</dc:subject>
+<dc:date>2013-12-09T16:00:05+09:00</dc:date>
+</item>
+<item rdf:about="http://www.ia.omron.com/products/family/3275/?bid=rss">
+<link>http://www.ia.omron.com/products/family/3275/?bid=rss</link>
+<title>Hex-shaped Fiber Unit</title>
+<description>Fiber Units with Build-in Lenses provide more stable detection and simpler, more reliable installation.(E32-LT11N / LD11N / LR11NP)</description>
+<dc:subject>New product</dc:subject>
+<dc:date>2013-11-18T16:00:20+09:00</dc:date>
+</item>
+<item rdf:about="http://www.ia.omron.com/new/information/2013/11/001.html?bid=rss">
+<link>http://www.ia.omron.com/new/information/2013/11/001.html?bid=rss</link>
+<title>We have introduced Hex-shaped Fiber Unit E32-LT11N/LD11N.</title>
+<description>Product Information</description>
+<dc:subject>Product Information</dc:subject>
+<dc:date>2013-11-18T16:00:12+09:00</dc:date>
+</item>
+<item rdf:about="http://www.ia.omron.com/products/family/3276/?bid=rss">
+<link>http://www.ia.omron.com/products/family/3276/?bid=rss</link>
+<title>Guard Lock Safety Key Selector Switch</title>
+<description>The guard lock prevents accidental mode changes.(A22LK)</description>
+<dc:subject>New product</dc:subject>
+<dc:date>2013-11-05T22:04:49+09:00</dc:date>
+</item>
+<item rdf:about="http://www.ia.omron.com/new/information/2013/10/002.html?bid=rss">
+<link>http://www.ia.omron.com/new/information/2013/10/002.html?bid=rss</link>
+<title>We have introduced Smart Measurement and Monitor Units KE1.</title>
+<description>Product Information</description>
+<dc:subject>Product Information</dc:subject>
+<dc:date>2013-10-15T21:17:36+09:00</dc:date>
+</item>
+<item rdf:about="http://www.ia.omron.com/new/information/2013/10/004.html?bid=rss">
+<link>http://www.ia.omron.com/new/information/2013/10/004.html?bid=rss</link>
+<title>We have introduced Indicator (Square) Ultra Bright LED Type M2[].</title>
+<description>Product Information</description>
+<dc:subject>Product Information</dc:subject>
+<dc:date>2013-10-15T21:17:36+09:00</dc:date>
+</item>
+<item rdf:about="http://www.ia.omron.com/new/information/2013/10/003.html?bid=rss">
+<link>http://www.ia.omron.com/new/information/2013/10/003.html?bid=rss</link>
+<title>We have introduced Lighted Pushbutton Switch (Square) Ultra Bright LED Type A3[].</title>
+<description>Product Information</description>
+<dc:subject>Product Information</dc:subject>
+<dc:date>2013-10-15T21:17:36+09:00</dc:date>
+</item>
+<item rdf:about="http://www.ia.omron.com/products/family/3258/?bid=rss">
+<link>http://www.ia.omron.com/products/family/3258/?bid=rss</link>
+<title>Indicator (Square) Ultra Bright LED Type</title>
+<description>Indicator Series with Square 40-mm Body. New models added with Ultra LEDs.(M2S (Super Luminosity Type))</description>
+<dc:subject>New product</dc:subject>
+<dc:date>2013-10-15T21:16:58+09:00</dc:date>
+</item>
+<item rdf:about="http://www.ia.omron.com/products/family/3257/?bid=rss">
+<link>http://www.ia.omron.com/products/family/3257/?bid=rss</link>
+<title>Lighted Pushbutton Switch (Square) Ultra Bright LED Type</title>
+<description>Pushbutton Switch Series with Square 40-mm Body. New models added with Ultra LEDs.(A3S (Super Luminosity Type))</description>
+<dc:subject>New product</dc:subject>
+<dc:date>2013-10-15T21:16:08+09:00</dc:date>
+</item>
+<item rdf:about="http://www.ia.omron.com/products/family/3255/?bid=rss">
+<link>http://www.ia.omron.com/products/family/3255/?bid=rss</link>
+<title>Indicator (Square) Ultra Bright LED Type</title>
+<description>Large Square-bodied Indicators. New models added with Ultra LEDs.(M2P (Super Luminosity Type))</description>
+<dc:subject>New product</dc:subject>
+<dc:date>2013-10-15T21:14:57+09:00</dc:date>
+</item>
+<item rdf:about="http://www.ia.omron.com/products/family/3254/?bid=rss">
+<link>http://www.ia.omron.com/products/family/3254/?bid=rss</link>
+<title>Lighted Pushbutton Switch (Square) Ultra Bright LED Type</title>
+<description>Large Square-bodied Lighted Pushbutton Switches New models added with Ultra LEDs.(A3P (Super Luminosity Type))</description>
+<dc:subject>New product</dc:subject>
+<dc:date>2013-10-15T21:14:01+09:00</dc:date>
+</item>
+<item rdf:about="http://www.ia.omron.com/products/family/3122/?bid=rss">
+<link>http://www.ia.omron.com/products/family/3122/?bid=rss</link>
+<title>Smart Measurement and Monitor Units</title>
+<description>First in the Industry! Unit structure that enables Power and Earth Leakage Monitoring with just one Unit. Use just one Unit to implement multi-circuit measurements.(KE1)</description>
+<dc:subject>New product</dc:subject>
+<dc:date>2013-10-15T21:11:34+09:00</dc:date>
+</item>
+<item rdf:about="http://www.ia.omron.com/new/information/2013/10/001.html?bid=rss">
+<link>http://www.ia.omron.com/new/information/2013/10/001.html?bid=rss</link>
+<title>We have introduced Connector-Terminal Block Conversion Unit with 8-input e-CON Terminal Block with Common XW2R.</title>
+<description>Product Information</description>
+<dc:subject>Product Information</dc:subject>
+<dc:date>2013-10-01T23:47:20+09:00</dc:date>
+</item>
+<item rdf:about="http://www.ia.omron.com/products/family/3247/?bid=rss">
+<link>http://www.ia.omron.com/products/family/3247/?bid=rss</link>
+<title>Air Flow Sensor</title>
+<description>The best Product to Measure Compressed Air at Machine. Measurement of Leakage and Usage.(D6FZ-FGT Series)</description>
+<dc:subject>New product</dc:subject>
+<dc:date>2013-09-17T16:00:38+09:00</dc:date>
+</item>
+<item rdf:about="http://www.ia.omron.com/products/family/3160/?bid=rss">
+<link>http://www.ia.omron.com/products/family/3160/?bid=rss</link>
+<title>Air Flow Sensor</title>
+<description>The Best Product to Measure Compressed Air on Production Lines. Simultaneous Measurement of Leakage, Usage and Pressure.(D6FZ-FGS Series)</description>
+<dc:subject>New product</dc:subject>
+<dc:date>2013-09-17T16:00:34+09:00</dc:date>
+</item>
+<item rdf:about="http://www.ia.omron.com/new/information/2013/09/001.html?bid=rss">
+<link>http://www.ia.omron.com/new/information/2013/09/001.html?bid=rss</link>
+<title>We have introduced Air Flow Sensor D6FZ Series.</title>
+<description>Product Information</description>
+<dc:subject>Product Information</dc:subject>
+<dc:date>2013-09-12T22:07:24+09:00</dc:date>
+</item>
+<item rdf:about="http://www.ia.omron.com/new/information/2013/08/001.html?bid=rss">
+<link>http://www.ia.omron.com/new/information/2013/08/001.html?bid=rss</link>
+<title>OMRON&#39;s Global Service Center will suspend business activities from August 10 to 18.</title>
+<description>Topics</description>
+<dc:subject>Topics</dc:subject>
+<dc:date>2013-08-06T16:00:22+09:00</dc:date>
+</item>
+<item rdf:about="http://www.ia.omron.com/products/family/3210/?bid=rss">
+<link>http://www.ia.omron.com/products/family/3210/?bid=rss</link>
+<title>Vision System</title>
+<description>Like or even more than the human eye(FH Series)</description>
+<dc:subject>New product</dc:subject>
+<dc:date>2013-07-22T16:00:44+09:00</dc:date>
+</item>
+<item rdf:about="http://www.ia.omron.com/new/information/2013/07/004.html?bid=rss">
+<link>http://www.ia.omron.com/new/information/2013/07/004.html?bid=rss</link>
+<title>We have introduced Vision System FH Series.</title>
+<description>Product Information</description>
+<dc:subject>Product Information</dc:subject>
+<dc:date>2013-07-22T16:00:44+09:00</dc:date>
+</item>
+<item rdf:about="http://www.ia.omron.com/new/information/2013/07/005.html?bid=rss">
+<link>http://www.ia.omron.com/new/information/2013/07/005.html?bid=rss</link>
+<title>Omron IA Japan has been ranked first among B2B websites in Japan for 2013.</title>
+<description>Topics</description>
+<dc:subject>Topics</dc:subject>
+<dc:date>2013-07-22T16:00:44+09:00</dc:date>
+</item>
+<item rdf:about="http://www.ia.omron.com/new/information/2013/07/003.html?bid=rss">
+<link>http://www.ia.omron.com/new/information/2013/07/003.html?bid=rss</link>
+<title>We have introduced Measuring &amp; Monitoring Relays K8AK/K8DS Series.</title>
+<description>Product Information</description>
+<dc:subject>Product Information</dc:subject>
+<dc:date>2013-07-11T16:00:27+09:00</dc:date>
+</item>
+<item rdf:about="http://www.ia.omron.com/products/family/3242/?bid=rss">
+<link>http://www.ia.omron.com/products/family/3242/?bid=rss</link>
+<title>Digital Temperature Controller (22.5 mm Wide, and DIN Track-mounting Type)</title>
+<description>The E5DC Mounts to DIN Track and Is Ideal for Connections to HMIs and PLCs. It provides the Same Easy Operation and Advanced Performance as the Rest of the E5[]C Series.(E5DC)</description>
+<dc:subject>New product</dc:subject>
+<dc:date>2013-07-04T16:01:45+09:00</dc:date>
+</item>
+<item rdf:about="http://www.ia.omron.com/new/information/2013/07/001.html?bid=rss">
+<link>http://www.ia.omron.com/new/information/2013/07/001.html?bid=rss</link>
+<title>We have introduced Digital Temperature Controller E5DC.</title>
+<description>Product Information</description>
+<dc:subject>Product Information</dc:subject>
+<dc:date>2013-07-04T16:01:27+09:00</dc:date>
+</item>
+<item rdf:about="http://www.ia.omron.com/new/information/2013/07/001.html?bid=rss">
+<link>http://www.ia.omron.com/new/information/2013/07/001.html?bid=rss</link>
+<title>We have introduced Safety Control Units NX-SL/SI/SO.</title>
+<description>Product Information</description>
+<dc:subject>Product Information</dc:subject>
+<dc:date>2013-07-04T16:01:25+09:00</dc:date>
+</item>
+<item rdf:about="http://www.ia.omron.com/products/family/3243/?bid=rss">
+<link>http://www.ia.omron.com/products/family/3243/?bid=rss</link>
+<title>Safety CPU Unit</title>
+<description>The Safety CPU Unit controls up to 32 Safety I/O Units.(NX-SL)</description>
+<dc:subject>New product</dc:subject>
+<dc:date>2013-07-04T16:01:18+09:00</dc:date>
+</item>
+<item rdf:about="http://www.ia.omron.com/products/family/3244/?bid=rss">
+<link>http://www.ia.omron.com/products/family/3244/?bid=rss</link>
+<title>Safety I/O Unit</title>
+<description>4 or 8 points per Safety Input Unit,2 or 4 points per Safety Output Unit.(NX-SI / SO)</description>
+<dc:subject>New product</dc:subject>
+<dc:date>2013-07-04T16:01:14+09:00</dc:date>
+</item>
+<item rdf:about="http://www.ia.omron.com/new/information/2013/06/003.html?bid=rss">
+<link>http://www.ia.omron.com/new/information/2013/06/003.html?bid=rss</link>
+<title>We have introduced Redundancy Unit S8VK-R.</title>
+<description>Product Information</description>
+<dc:subject>Product Information</dc:subject>
+<dc:date>2013-06-27T16:01:37+09:00</dc:date>
+</item>
+<item rdf:about="http://www.ia.omron.com/products/family/3237/?bid=rss">
+<link>http://www.ia.omron.com/products/family/3237/?bid=rss</link>
+<title>Redundancy Unit</title>
+<description>Contribute to build high reliable systems Compact and Cost-effective solution for Back-up applications Easy setup for system reliability requirement(S8VK-R)</description>
+<dc:subject>New product</dc:subject>
+<dc:date>2013-06-27T16:01:35+09:00</dc:date>
+</item>
+<item rdf:about="http://www.ia.omron.com/products/family/3181/?bid=rss">
+<link>http://www.ia.omron.com/products/family/3181/?bid=rss</link>
+<title>Small-diameter Proximity Sensor</title>
+<description>Ultra small size, but surprisingly easy installation!(E2E (Small-diameter))</description>
+<dc:subject>New product</dc:subject>
+<dc:date>2013-06-06T16:00:54+09:00</dc:date>
+</item>
+<item rdf:about="http://www.ia.omron.com/new/information/2013/06/001.html?bid=rss">
+<link>http://www.ia.omron.com/new/information/2013/06/001.html?bid=rss</link>
+<title>We have introduced Small-diameter Proximity Sensor E2E.</title>
+<description>Product Information</description>
+<dc:subject>Product Information</dc:subject>
+<dc:date>2013-06-06T16:00:48+09:00</dc:date>
+</item>
+<item rdf:about="http://www.ia.omron.com/new/information/2013/06/002.html?bid=rss">
+<link>http://www.ia.omron.com/new/information/2013/06/002.html?bid=rss</link>
+<title>We have introduced Cylindrical Proximity Sensor E2B.</title>
+<description>Product Information</description>
+<dc:subject>Product Information</dc:subject>
+<dc:date>2013-06-06T16:00:48+09:00</dc:date>
+</item>
+<item rdf:about="http://www.ia.omron.com/products/family/3203/?bid=rss">
+<link>http://www.ia.omron.com/products/family/3203/?bid=rss</link>
+<title>Cylindrical Proximity Sensor</title>
+<description>Perfect fit for standard environments(E2B)</description>
+<dc:subject>New product</dc:subject>
+<dc:date>2013-06-06T16:00:37+09:00</dc:date>
+</item>
+<item rdf:about="http://www.ia.omron.com/products/family/3199/?bid=rss">
+<link>http://www.ia.omron.com/products/family/3199/?bid=rss</link>
+<title>Ultra-compact Pre-wired Photomicrosensor (Non-modulated)</title>
+<description>Meeting Customer Needs with Ultracompact Sensors that Mount with M3 Screws(EE-SX95)</description>
+<dc:subject>New product</dc:subject>
+<dc:date>2013-05-30T16:00:43+09:00</dc:date>
+</item>
+<item rdf:about="http://www.ia.omron.com/new/information/2013/05/003.html?bid=rss">
+<link>http://www.ia.omron.com/new/information/2013/05/003.html?bid=rss</link>
+<title>We have introduced Ultra-compact Pre-wired Photomicrosensor (Non-modulated) EE-SX95.</title>
+<description>Product Information</description>
+<dc:subject>Product Information</dc:subject>
+<dc:date>2013-05-30T16:00:39+09:00</dc:date>
+</item>
+<item rdf:about="http://www.ia.omron.com/products/family/504/?bid=rss">
+<link>http://www.ia.omron.com/products/family/504/?bid=rss</link>
+<title>Compact Ultrasonic Sensor</title>
+<description>Compact, Through-beam, Ultrasonic Sensor(E4E2)</description>
+<dc:subject>New product</dc:subject>
+<dc:date>2013-05-23T16:01:10+09:00</dc:date>
+</item>
+<item rdf:about="http://www.ia.omron.com/products/family/3107/?bid=rss">
+<link>http://www.ia.omron.com/products/family/3107/?bid=rss</link>
+<title>Smart Sensor Laser Sensor with Built-in Amplifier</title>
+<description>A CMOS Laser Sensor That&#39;s　Optimum for Simple Measurements(ZX1)</description>
+<dc:subject>New product</dc:subject>
+<dc:date>2013-05-23T03:11:45+09:00</dc:date>
+</item>
+<item rdf:about="http://www.ia.omron.com/products/family/3198/?bid=rss">
+<link>http://www.ia.omron.com/products/family/3198/?bid=rss</link>
+<title>RFID System</title>
+<description>3 in 1 RFID: Antenna, Amplifier &amp; Controller(V680S series)</description>
+<dc:subject>New product</dc:subject>
+<dc:date>2013-05-13T16:00:30+09:00</dc:date>
+</item>
+<item rdf:about="http://www.ia.omron.com/products/family/3201/?bid=rss">
+<link>http://www.ia.omron.com/products/family/3201/?bid=rss</link>
+<title>Switch Mode Power Supply (60/120/240/480-W Models)</title>
+<description>Cost-effective Single Phase Power Supply Universal input and Safety standards for worldwide applications Space-saving Compact Design(S8VK-C)</description>
+<dc:subject>New product</dc:subject>
+<dc:date>2013-05-13T16:00:26+09:00</dc:date>
+</item>
+<item rdf:about="http://www.ia.omron.com/new/information/2013/05/002.html?bid=rss">
+<link>http://www.ia.omron.com/new/information/2013/05/002.html?bid=rss</link>
+<title>We have introduced Switch Mode Power Supply S8VK-C.</title>
+<description>Product Information</description>
+<dc:subject>Product Information</dc:subject>
+<dc:date>2013-05-13T16:00:18+09:00</dc:date>
+</item>
+<item rdf:about="http://www.ia.omron.com/new/information/2013/05/001.html?bid=rss">
+<link>http://www.ia.omron.com/new/information/2013/05/001.html?bid=rss</link>
+<title>We have introduced RFID System V680S Series.</title>
+<description>Product Information</description>
+<dc:subject>Product Information</dc:subject>
+<dc:date>2013-05-13T16:00:14+09:00</dc:date>
+</item>
+<item rdf:about="http://www.ia.omron.com/products/family/3188/?bid=rss">
+<link>http://www.ia.omron.com/products/family/3188/?bid=rss</link>
+<title>NX-series Analog Output Unit</title>
+<description>Analog Outputs to meet all machine control needs; from general-purpose outputs to highspeed synchronous, highresolution control outputs(NX-DA)</description>
+<dc:subject>New product</dc:subject>
+<dc:date>2013-04-25T16:03:32+09:00</dc:date>
+</item>
+<item rdf:about="http://www.ia.omron.com/products/family/3187/?bid=rss">
+<link>http://www.ia.omron.com/products/family/3187/?bid=rss</link>
+<title>NX-series Analog Input Unit</title>
+<description>Analog Inputs to meet all machine control needs; from generalpurpose inputs to high-speed synchronous, high-resolution units(NX-AD)</description>
+<dc:subject>New product</dc:subject>
+<dc:date>2013-04-25T16:03:26+09:00</dc:date>
+</item>
+<item rdf:about="http://www.ia.omron.com/products/family/3190/?bid=rss">
+<link>http://www.ia.omron.com/products/family/3190/?bid=rss</link>
+<title>NX-series Incremental Encoder Input Unit</title>
+<description>Read position information from incremental encoders, synchronised with the control cycle and EtherCAT Distributed Clock.(NX-EC0[][][])</description>
+<dc:subject>New product</dc:subject>
+<dc:date>2013-04-25T16:03:22+09:00</dc:date>
+</item>
+<item rdf:about="http://www.ia.omron.com/products/family/3191/?bid=rss">
+<link>http://www.ia.omron.com/products/family/3191/?bid=rss</link>
+<title>NX-series SSI Input Unit</title>
+<description>Read position information from encoders with Synchronous Serial Interface (SSI).(NX-ECS[][][])</description>
+<dc:subject>New product</dc:subject>
+<dc:date>2013-04-25T16:02:56+09:00</dc:date>
+</item>
+<item rdf:about="http://www.ia.omron.com/products/family/3192/?bid=rss">
+<link>http://www.ia.omron.com/products/family/3192/?bid=rss</link>
+<title>NX-series Pulse Output Unit</title>
+<description>Positioning with Pulse Input Type Motor Drivers Such As Stepper Motor Drive(NX-PG0[][][])</description>
+<dc:subject>New product</dc:subject>
+<dc:date>2013-04-25T16:02:54+09:00</dc:date>
+</item>
+<item rdf:about="http://www.ia.omron.com/products/family/3189/?bid=rss">
+<link>http://www.ia.omron.com/products/family/3189/?bid=rss</link>
+<title>NX-series Temperature Input Unit</title>
+<description>Temperature Input Units for Standard and High-speed, High-precision Temperature measurement and control(NX-TS)</description>
+<dc:subject>New product</dc:subject>
+<dc:date>2013-04-25T16:02:48+09:00</dc:date>
+</item>
+<item rdf:about="http://www.ia.omron.com/products/family/3184/?bid=rss">
+<link>http://www.ia.omron.com/products/family/3184/?bid=rss</link>
+<title>NX-series EtherCAT Coupler Unit</title>
+<description>Flexible System Can Be Achieved with Highspeed, High-precision Remote I/O for EtherCAT(NX-ECC)</description>
+<dc:subject>New product</dc:subject>
+<dc:date>2013-04-25T16:02:44+09:00</dc:date>
+</item>
+<item rdf:about="http://www.ia.omron.com/new/information/2013/04/008.html?bid=rss">
+<link>http://www.ia.omron.com/new/information/2013/04/008.html?bid=rss</link>
+<title>OMRON&#39;s Global Service Center will suspend business activities from April 27 to May 6.</title>
+<description>Topics</description>
+<dc:subject>Topics</dc:subject>
+<dc:date>2013-04-25T16:02:22+09:00</dc:date>
+</item>
+<item rdf:about="http://www.ia.omron.com/products/family/3185/?bid=rss">
+<link>http://www.ia.omron.com/products/family/3185/?bid=rss</link>
+<title>NX-series Digital Input Unit</title>
+<description>A Wide Range of Digital Input Units from General Purpose use to High- Speed Synchronous Control(NX-ID / IA)</description>
+<dc:subject>New product</dc:subject>
+<dc:date>2013-04-25T16:02:09+09:00</dc:date>
+</item>
+<item rdf:about="http://www.ia.omron.com/products/family/3186/?bid=rss">
+<link>http://www.ia.omron.com/products/family/3186/?bid=rss</link>
+<title>NX-series Digital Output Units</title>
+<description>A Wide Range of Digital Output Units from General Purpose use to High- Speed Synchronous Control(NX-OD / OC)</description>
+<dc:subject>New product</dc:subject>
+<dc:date>2013-04-25T16:02:05+09:00</dc:date>
+</item>
+<item rdf:about="http://www.ia.omron.com/products/family/3196/?bid=rss">
+<link>http://www.ia.omron.com/products/family/3196/?bid=rss</link>
+<title>NJ-series Database Connection CPU Units</title>
+<description>The NJ-series Machine Automation Controller supports the Database Connection function. Machine data can be quickly stored in a database by connecting the Controller directly to the database.(NJ501-1[]20 / NJ101-[][]20)</description>
+<dc:subject>New product</dc:subject>
+<dc:date>2013-04-25T16:02:01+09:00</dc:date>
+</item>
+<item rdf:about="http://www.ia.omron.com/products/family/3180/?bid=rss">
+<link>http://www.ia.omron.com/products/family/3180/?bid=rss</link>
+<title>Contact-Type Smart Sensor</title>
+<description>Tough Contact Sensor(E9NC-T)</description>
+<dc:subject>New product</dc:subject>
+<dc:date>2013-04-25T16:01:57+09:00</dc:date>
+</item>
+<item rdf:about="http://www.ia.omron.com/products/family/3179/?bid=rss">
+<link>http://www.ia.omron.com/products/family/3179/?bid=rss</link>
+<title>Built-in Power Supply Photoelectric Sensor</title>
+<description>Long-distance Photoelectric Sensor That Supports AC/DC Power Supplies(E3JK (NEW))</description>
+<dc:subject>New product</dc:subject>
+<dc:date>2013-04-25T16:00:36+09:00</dc:date>
+</item>
+<item rdf:about="http://www.ia.omron.com/products/family/3173/?bid=rss">
+<link>http://www.ia.omron.com/products/family/3173/?bid=rss</link>
+<title>Laser-type Bar Code Reader</title>
+<description>The World’s Smallest Bar Code Reader That Fits Essentially Anywhere. *According to OMRON investigation in January 2013.(V500-R2)</description>
+<dc:subject>New product</dc:subject>
+<dc:date>2013-04-25T16:00:32+09:00</dc:date>
+</item>
+<item rdf:about="http://www.ia.omron.com/products/family/3174/?bid=rss">
+<link>http://www.ia.omron.com/products/family/3174/?bid=rss</link>
+<title>Multi Code Reader</title>
+<description>The Ultra-small Multi-code Reader That Can Handle Speed(V400-R2)</description>
+<dc:subject>New product</dc:subject>
+<dc:date>2013-04-25T16:00:32+09:00</dc:date>
+</item>
+<item rdf:about="http://www.ia.omron.com/products/family/3193/?bid=rss">
+<link>http://www.ia.omron.com/products/family/3193/?bid=rss</link>
+<title>NX-series System Unit</title>
+<description>Power Supply Unit, Power Connection Unit, and FG Terminal Expansion Unit for NX-Series(NX-PD / PF / PC / TBX)</description>
+<dc:subject>New product</dc:subject>
+<dc:date>2013-04-25T09:00:36+09:00</dc:date>
+</item>
+<item rdf:about="http://www.ia.omron.com/new/information/2013/04/003.html?bid=rss">
+<link>http://www.ia.omron.com/new/information/2013/04/003.html?bid=rss</link>
+<title>We have introduced Built-in Power Supply Photoelectric Sensor E3JK (NEW).</title>
+<description>Product Information</description>
+<dc:subject>Product Information</dc:subject>
+<dc:date>2013-04-19T02:27:17+09:00</dc:date>
+</item>
+<item rdf:about="http://www.ia.omron.com/new/information/2013/04/004.html?bid=rss">
+<link>http://www.ia.omron.com/new/information/2013/04/004.html?bid=rss</link>
+<title>We have introduced EtherCAT Slave Terminals NX-Series.</title>
+<description>Product Information</description>
+<dc:subject>Product Information</dc:subject>
+<dc:date>2013-04-19T02:27:17+09:00</dc:date>
+</item>
+<item rdf:about="http://www.ia.omron.com/new/information/2013/04/005.html?bid=rss">
+<link>http://www.ia.omron.com/new/information/2013/04/005.html?bid=rss</link>
+<title>We have introduced Database Connection CPU Units NJ501-1[]20.</title>
+<description>Product Information</description>
+<dc:subject>Product Information</dc:subject>
+<dc:date>2013-04-19T02:27:17+09:00</dc:date>
+</item>
+<item rdf:about="http://www.ia.omron.com/new/information/2013/04/006.html?bid=rss">
+<link>http://www.ia.omron.com/new/information/2013/04/006.html?bid=rss</link>
+<title>We have introduced Contact-Type Smart Sensor (Detection Type) E9NC-T.</title>
+<description>Product Information</description>
+<dc:subject>Product Information</dc:subject>
+<dc:date>2013-04-19T02:27:17+09:00</dc:date>
+</item>
+<item rdf:about="http://www.ia.omron.com/new/information/2013/04/007.html?bid=rss">
+<link>http://www.ia.omron.com/new/information/2013/04/007.html?bid=rss</link>
+<title>We have introduced Laser-type Bar Code Reader V500-R2 and Multi Code Reader V400-R2.</title>
+<description>Product Information</description>
+<dc:subject>Product Information</dc:subject>
+<dc:date>2013-04-19T02:27:17+09:00</dc:date>
+</item>
+<item rdf:about="http://www.ia.omron.com/products/family/3177/?bid=rss">
+<link>http://www.ia.omron.com/products/family/3177/?bid=rss</link>
+<title>Sensor Communications Unit</title>
+<description>The Next-generation Sensor Networking Units That Revolutionize the Workplace from Introduction and Startup though Operation(E3NW)</description>
+<dc:subject>New product</dc:subject>
+<dc:date>2013-04-04T16:01:30+09:00</dc:date>
+</item>
+<item rdf:about="http://www.ia.omron.com/new/information/2013/04/001.html?bid=rss">
+<link>http://www.ia.omron.com/new/information/2013/04/001.html?bid=rss</link>
+<title>We have introduced Switch Mode Power Supply S8VK-G.</title>
+<description>Product Information</description>
+<dc:subject>Product Information</dc:subject>
+<dc:date>2013-04-04T16:01:12+09:00</dc:date>
+</item>
+<item rdf:about="http://www.ia.omron.com/new/information/2013/04/002.html?bid=rss">
+<link>http://www.ia.omron.com/new/information/2013/04/002.html?bid=rss</link>
+<title>We have introduced Sensor Communications Unit E3NW.</title>
+<description>Product Information</description>
+<dc:subject>Product Information</dc:subject>
+<dc:date>2013-04-04T16:01:12+09:00</dc:date>
+</item>
+<item rdf:about="http://www.ia.omron.com/products/family/3156/?bid=rss">
+<link>http://www.ia.omron.com/products/family/3156/?bid=rss</link>
+<title>Switch Mode Power Supply (50, 75, 100, and 150-W Models)</title>
+<description>Board-type Switch Mode Power Supply with Simple Circuits That Concentrate on Basic Functions for Easy Operation Exclusive Use for 100 VAC(S8EA)</description>
+<dc:subject>New product</dc:subject>
+<dc:date>2013-03-22T16:00:31+09:00</dc:date>
+</item>
+<item rdf:about="http://www.ia.omron.com/new/information/2013/03/001.html?bid=rss">
+<link>http://www.ia.omron.com/new/information/2013/03/001.html?bid=rss</link>
+<title>We have introduced Switch Mode Power Supply S8EA.</title>
+<description>Product Information</description>
+<dc:subject>Product Information</dc:subject>
+<dc:date>2013-03-22T16:00:27+09:00</dc:date>
+</item>
+<item rdf:about="http://www.ia.omron.com/products/family/3178/?bid=rss">
+<link>http://www.ia.omron.com/products/family/3178/?bid=rss</link>
+<title>Switch Mode Power Supply (15/30/60/120/240/480-W Models)</title>
+<description>Reliable and Easy Operation-Worldwide Power Supply. Resistant in tough environments. Easy and fast installation. The most compact class on the market.(S8VK-G)</description>
+<dc:subject>New product</dc:subject>
+<dc:date>2013-03-19T20:50:11+09:00</dc:date>
+</item>
+<item rdf:about="http://www.ia.omron.com/products/family/3175/?bid=rss">
+<link>http://www.ia.omron.com/products/family/3175/?bid=rss</link>
+<title>Smart Sensors 2D CMOS Laser Type</title>
+<description>High-precision Displacement Measurement Sensors Bringing Smart Sensors into New Fields.(ZS Series)</description>
+<dc:subject>New product</dc:subject>
+<dc:date>2013-03-07T16:02:18+09:00</dc:date>
+</item>
+<item rdf:about="http://www.ia.omron.com/products/family/3167/?bid=rss">
+<link>http://www.ia.omron.com/products/family/3167/?bid=rss</link>
+<title>Inline PCB inspection system</title>
+<description>Best Quality at the Minimum Q Cost!(VT-S500-02)</description>
+<dc:subject>New product</dc:subject>
+<dc:date>2013-02-07T16:00:53+09:00</dc:date>
+</item>
+<item rdf:about="http://www.ia.omron.com/new/information/2013/02/001.html?bid=rss">
+<link>http://www.ia.omron.com/new/information/2013/02/001.html?bid=rss</link>
+<title>We have introduced Inline PCB inspection system VT-S500.</title>
+<description>Product Information</description>
+<dc:subject>Product Information</dc:subject>
+<dc:date>2013-02-07T16:00:49+09:00</dc:date>
+</item>
+<item rdf:about="http://www.ia.omron.com/new/information/2013/01/003.html?bid=rss">
+<link>http://www.ia.omron.com/new/information/2013/01/003.html?bid=rss</link>
+<title>We have introduced Compact Smart Laser Sensor E3NC-L.</title>
+<description>Product Information</description>
+<dc:subject>Product Information</dc:subject>
+<dc:date>2013-01-24T16:01:52+09:00</dc:date>
+</item>
+<item rdf:about="http://www.ia.omron.com/new/information/2013/01/002.html?bid=rss">
+<link>http://www.ia.omron.com/new/information/2013/01/002.html?bid=rss</link>
+<title>We have introduced Ultra-compact CMOS Smart Laser Sensor E3NC-S.</title>
+<description>Product Information</description>
+<dc:subject>Product Information</dc:subject>
+<dc:date>2013-01-24T16:01:50+09:00</dc:date>
+</item>
+<item rdf:about="http://www.ia.omron.com/new/information/2013/01/001.html?bid=rss">
+<link>http://www.ia.omron.com/new/information/2013/01/001.html?bid=rss</link>
+<title>We have introduced Smart Fiber Sensor E3NX-FA.</title>
+<description>Product Information</description>
+<dc:subject>Product Information</dc:subject>
+<dc:date>2013-01-18T16:01:53+09:00</dc:date>
+</item>
+<item rdf:about="http://www.ia.omron.com/products/family/3161/?bid=rss">
+<link>http://www.ia.omron.com/products/family/3161/?bid=rss</link>
+<title>Smart Fiber Amplifier Units</title>
+<description>The Advanced Fiber Amplifier Units That Handles On-site Needs(E3NX-FA)</description>
+<dc:subject>New product</dc:subject>
+<dc:date>2013-01-18T16:01:51+09:00</dc:date>
+</item>
+<item rdf:about="http://www.ia.omron.com/new/information/2012/12/002.html?bid=rss">
+<link>http://www.ia.omron.com/new/information/2012/12/002.html?bid=rss</link>
+<title>OMRON&#39;s Global Service Center will suspend operations from December 29 to January 6.</title>
+<description>Topics</description>
+<dc:subject>Topics</dc:subject>
+<dc:date>2012-12-20T16:00:45+09:00</dc:date>
+</item>
+<item rdf:about="http://www.ia.omron.com/products/family/3134/?bid=rss">
+<link>http://www.ia.omron.com/products/family/3134/?bid=rss</link>
+<title>Standard Lens for C-mount cameras</title>
+<description>Standard CCTV lens. Lower distortion and higher resolution than previous CCTV lenses.(3Z4S-LE SV-V Series)</description>
+<dc:subject>New product</dc:subject>
+<dc:date>2012-12-13T16:01:28+09:00</dc:date>
+</item>
+<item rdf:about="http://www.ia.omron.com/products/family/3157/?bid=rss">
+<link>http://www.ia.omron.com/products/family/3157/?bid=rss</link>
+<title>Digital Temperature Controller (96 x 96 mm)</title>
+<description>96 x 96 mm. Large White PV Display That’s Easier to Read. Easy to Use, from Model Selection to Setup and Operation. A Complete Range of I/O Capacities, Functions, and Performance. Handles More Applications.(E5AC)</description>
+<dc:subject>New product</dc:subject>
+<dc:date>2012-12-06T16:01:03+09:00</dc:date>
+</item>
+<item rdf:about="http://www.ia.omron.com/new/information/2012/12/001.html?bid=rss">
+<link>http://www.ia.omron.com/new/information/2012/12/001.html?bid=rss</link>
+<title>We have introduced Digital Temperature Controller E5AC.</title>
+<description>Product Information</description>
+<dc:subject>Product Information</dc:subject>
+<dc:date>2012-12-06T16:00:25+09:00</dc:date>
+</item>
+<item rdf:about="http://www.ia.omron.com/products/family/871/?bid=rss">
+<link>http://www.ia.omron.com/products/family/871/?bid=rss</link>
+<title>Connecting Cables for Connector-Terminal Block Conversion Units (Shielded)</title>
+<description>Connect Connector-Terminal Block Conversion Units (XW2[]) to I/O Units for Programmable Controllers with one touch.(XW2Z (Standard-type))</description>
+<dc:subject>New product</dc:subject>
+<dc:date>2012-11-15T16:01:24+09:00</dc:date>
+</item>
+<item rdf:about="http://www.ia.omron.com/products/family/3153/?bid=rss">
+<link>http://www.ia.omron.com/products/family/3153/?bid=rss</link>
+<title>Connector-Terminal Block Conversion Units for PLCs</title>
+<description>Connector-Terminal Block Conversion Units Designed Specifically to Connect PLCs(XW2R (PLCs))</description>
+<dc:subject>New product</dc:subject>
+<dc:date>2012-11-15T16:00:32+09:00</dc:date>
+</item>
+<item rdf:about="http://www.ia.omron.com/products/family/3154/?bid=rss">
+<link>http://www.ia.omron.com/products/family/3154/?bid=rss</link>
+<title>Connector-Terminal Block Conversion Units for General-purpose Devices</title>
+<description>Many Variations in Connectors and Number of Poles(XW2R (General-purpose devices))</description>
+<dc:subject>New product</dc:subject>
+<dc:date>2012-11-15T16:00:30+09:00</dc:date>
+</item>
+<item rdf:about="http://www.ia.omron.com/new/information/2012/11/002.html?bid=rss">
+<link>http://www.ia.omron.com/new/information/2012/11/002.html?bid=rss</link>
+<title>We have introduced Connector-Terminal Block Conversion Units XW2R.</title>
+<description>Product Information</description>
+<dc:subject>Product Information</dc:subject>
+<dc:date>2012-11-15T16:00:12+09:00</dc:date>
+</item>
+<item rdf:about="http://www.ia.omron.com/products/family/1588/?bid=rss">
+<link>http://www.ia.omron.com/products/family/1588/?bid=rss</link>
+<title>Lighting System</title>
+<description>Next-generation MG-Wave LED Illumination Combines with the Vision Sensor to Provide New Solutions.(3Z4S-LT Series)</description>
+<dc:subject>New product</dc:subject>
+<dc:date>2012-11-06T06:18:55+09:00</dc:date>
+</item>
+<item rdf:about="http://www.ia.omron.com/products/family/3040/?bid=rss">
+<link>http://www.ia.omron.com/products/family/3040/?bid=rss</link>
+<title>Lighting for Image Processing</title>
+<description>Next generation ODR technology(FL Series)</description>
+<dc:subject>New product</dc:subject>
+<dc:date>2012-11-06T06:18:35+09:00</dc:date>
+</item>
+<item rdf:about="http://www.ia.omron.com/products/family/3145/?bid=rss">
+<link>http://www.ia.omron.com/products/family/3145/?bid=rss</link>
+<title>G5 Series Linear Motor/Servo Drives with built-in EtherCAT Communications Linear Motor Type</title>
+<description>Linear Motor for Higher-speed and Higher-precision(R88L-EC, R88D-KN[]-ECT-L)</description>
+<dc:subject>New product</dc:subject>
+<dc:date>2012-11-06T05:07:44+09:00</dc:date>
+</item>
+<item rdf:about="http://www.ia.omron.com/new/information/2012/11/001.html?bid=rss">
+<link>http://www.ia.omron.com/new/information/2012/11/001.html?bid=rss</link>
+<title>We have introduced Linear Motor R88L-EC, R88D-KN[]-ECT-L.</title>
+<description>Product Information</description>
+<dc:subject>Product Information</dc:subject>
+<dc:date>2012-11-06T03:31:34+09:00</dc:date>
+</item>
+<item rdf:about="http://www.ia.omron.com/products/family/1768/?bid=rss">
+<link>http://www.ia.omron.com/products/family/1768/?bid=rss</link>
+<title>Digital Multicircuit Protector</title>
+<description>Complete Flexible DC Circuit Protector That Has a Wide Array of Displays, Alarm Outputs, and Other Digital Functions.(S8M)</description>
+<dc:subject>New product</dc:subject>
+<dc:date>2012-10-25T20:37:21+09:00</dc:date>
+</item>
+<item rdf:about="http://www.ia.omron.com/products/family/226/?bid=rss">
+<link>http://www.ia.omron.com/products/family/226/?bid=rss</link>
+<title>Solid-state Counter</title>
+<description>All Required Counter Functions Incorporated in a Compact DIN-sized (48 × 48) Housing(H7CN)</description>
+<dc:subject>New product</dc:subject>
+<dc:date>2012-10-25T19:25:50+09:00</dc:date>
+</item>
+<item rdf:about="http://www.ia.omron.com/products/family/3152/?bid=rss">
+<link>http://www.ia.omron.com/products/family/3152/?bid=rss</link>
+<title>Temperature Sensor (Exclusive Models)</title>
+<description>Thermocouples for Molding Machines, Thermocouples with Crimp Terminals, Surface Temperature Measurement, Room Temperature Measurement, Waterproof Platinum Resistance Thermometers, Corrosion-resistant Models, Pressure-resistant Explosion-proof Models and Double-element Models(E52 (Exclusive Models))</description>
+<dc:subject>New product</dc:subject>
+<dc:date>2012-10-24T02:10:14+09:00</dc:date>
+</item>
+<item rdf:about="http://www.ia.omron.com/products/family/3151/?bid=rss">
+<link>http://www.ia.omron.com/products/family/3151/?bid=rss</link>
+<title>Temperature Sensor (Low-cost Models)</title>
+<description>Low-cost Platinum Resistance Thermometers and Low-cost Thermocouples(E52 (Low-cost Models))</description>
+<dc:subject>New product</dc:subject>
+<dc:date>2012-10-24T02:10:08+09:00</dc:date>
+</item>
+<item rdf:about="http://www.ia.omron.com/products/family/3150/?bid=rss">
+<link>http://www.ia.omron.com/products/family/3150/?bid=rss</link>
+<title>Temperature Sensor (General-purpose Models)</title>
+<description>Sheathed Platinum Resistance Thermometers, Standard Platinum Resistance Thermometers, Sheathed Thermocouples and Standard Thermocouples(E52 (General purpose Models))</description>
+<dc:subject>New product</dc:subject>
+<dc:date>2012-10-24T01:53:43+09:00</dc:date>
+</item>
+<item rdf:about="http://www.ia.omron.com/products/family/1503/?bid=rss">
+<link>http://www.ia.omron.com/products/family/1503/?bid=rss</link>
+<title>Smart Sensors (Laser Displacement &amp; Measurement Sensors)</title>
+<description>A Host of Smart Functions Inside a Compact Body with a Full Range of Laser Types(ZX-L-N)</description>
+<dc:subject>New product</dc:subject>
+<dc:date>2012-10-20T01:18:51+09:00</dc:date>
+</item>
+<item rdf:about="http://www.ia.omron.com/products/family/117/?bid=rss">
+<link>http://www.ia.omron.com/products/family/117/?bid=rss</link>
+<title>DeviceNet Board (PCI Board)</title>
+<description>PCI Bus DeviceNet Board with Performance and Functionality at the Top Class in the Industry(3G8F7-DRM21-E)</description>
+<dc:subject>New product</dc:subject>
+<dc:date>2012-10-20T01:14:14+09:00</dc:date>
+</item>
+<item rdf:about="http://www.ia.omron.com/products/family/91/?bid=rss">
+<link>http://www.ia.omron.com/products/family/91/?bid=rss</link>
+<title>DeviceNet Master Unit</title>
+<description>Master Unit for CS1, C200HX, C200HG, C200HE, and C200HS(C200HW-DRM21-V1)</description>
+<dc:subject>New product</dc:subject>
+<dc:date>2012-10-20T01:14:08+09:00</dc:date>
+</item>
+<item rdf:about="http://www.ia.omron.com/products/family/23/?bid=rss">
+<link>http://www.ia.omron.com/products/family/23/?bid=rss</link>
+<title>CS-series DeviceNet Unit</title>
+<description>A DeviceNet Unit for the CS Series That Boasts Industry-leading Performance and Functions(CS1W-DRM21-V1)</description>
+<dc:subject>New product</dc:subject>
+<dc:date>2012-10-20T01:14:00+09:00</dc:date>
+</item>
+<item rdf:about="http://www.ia.omron.com/products/family/28/?bid=rss">
+<link>http://www.ia.omron.com/products/family/28/?bid=rss</link>
+<title>CJ-series DeviceNet Unit</title>
+<description>Smallest in the Industry! A DeviceNet Unit for the CJ Series that Boasts Industry-leading Performance and Functions(CJ1W-DRM21)</description>
+<dc:subject>New product</dc:subject>
+<dc:date>2012-10-20T01:13:52+09:00</dc:date>
+</item>
+<item rdf:about="http://www.ia.omron.com/products/family/1265/?bid=rss">
+<link>http://www.ia.omron.com/products/family/1265/?bid=rss</link>
+<title>LED Displacement Sensor</title>
+<description>Low-cost Displacement Sensor with 10-micron Resolution with Red LED(Z4W-V)</description>
+<dc:subject>New product</dc:subject>
+<dc:date>2012-10-20T01:11:07+09:00</dc:date>
+</item>
+<item rdf:about="http://www.ia.omron.com/products/family/962/?bid=rss">
+<link>http://www.ia.omron.com/products/family/962/?bid=rss</link>
+<title>Power Relay</title>
+<description>A High-capacity, High-dielectric-strength, Multi-pole Relay Used Like a Contactor(G7J)</description>
+<dc:subject>New product</dc:subject>
+<dc:date>2012-10-19T21:35:21+09:00</dc:date>
+</item>
+<item rdf:about="http://www.ia.omron.com/products/family/1767/?bid=rss">
+<link>http://www.ia.omron.com/products/family/1767/?bid=rss</link>
+<title>Power Relays</title>
+<description>Compact Electromagnetic Contactors That Switch 40 A at 440 VAC(G7Z)</description>
+<dc:subject>New product</dc:subject>
+<dc:date>2012-10-19T21:33:12+09:00</dc:date>
+</item>
+
+<item rdf:about="http://www.ia.omron.com/product/family/230/index_fea.html?bid=rss">
+<link>http://www.ia.omron.com/product/family/230/index_fea.html?bid=rss</link>
+<title>Nine Built-in Counters/Timers to measure equipment operating cycles and times and forecast maintenance timing</title>
+<description>Topics</description>
+<dc:subject>Topics</dc:subject>
+<dc:date>2012-10-16T23:47:40+09:00</dc:date>
+</item>
+<item rdf:about="http://www.ia.omron.com/product/family/1949/index_fea.html?bid=rss">
+<link>http://www.ia.omron.com/product/family/1949/index_fea.html?bid=rss</link>
+<title>OMRON introduces a new product, ultra-small multi code reader V400-R series. For Paper/Label. Both 2D &amp; 1D code compatible.</title>
+<description>Topics</description>
+<dc:subject>Topics</dc:subject>
+<dc:date>2012-10-16T23:47:40+09:00</dc:date>
+</item>
+<item rdf:about="http://www.ia.omron.com/product/family/1948/index_fea.html?bid=rss">
+<link>http://www.ia.omron.com/product/family/1948/index_fea.html?bid=rss</link>
+<title>Omron introduces a new form Power Supply for Safety and Maintainability.</title>
+<description>Topics</description>
+<dc:subject>Topics</dc:subject>
+<dc:date>2012-10-16T23:39:33+09:00</dc:date>
+</item>
+<item rdf:about="http://www.ia.omron.com/product/family/1960/index_fea.html?bid=rss">
+<link>http://www.ia.omron.com/product/family/1960/index_fea.html?bid=rss</link>
+<title>Safety Light Curtains with Durable, Impact-resistant Body and Long, 20-m Sensing Distance.</title>
+<description>Topics</description>
+<dc:subject>Topics</dc:subject>
+<dc:date>2012-10-16T23:39:33+09:00</dc:date>
+</item>
+
+<item rdf:about="http://www.ia.omron.com/product/family/114/index_fea.html?bid=rss">
+<link>http://www.ia.omron.com/product/family/114/index_fea.html?bid=rss</link>
+<title>OMRON introduces an Overview for DeviceNet. Look for more detail information concerning DeviceNet, including Mastes and Slaves, to be added in the future.</title>
+<description>Topics</description>
+<dc:subject>Topics</dc:subject>
+<dc:date>2012-10-16T22:58:14+09:00</dc:date>
+</item>
+<item rdf:about="http://www.ia.omron.com/product/family/1755/index_app.html?bid=rss">
+<link>http://www.ia.omron.com/product/family/1755/index_app.html?bid=rss</link>
+<title>We have introduced 14 new application cases for the programmable relay, ZEN.</title>
+<description>Topics</description>
+<dc:subject>Topics</dc:subject>
+<dc:date>2012-10-16T22:11:40+09:00</dc:date>
+</item>
+<item rdf:about="http://www.ia.omron.com/products/family/3144/?bid=rss">
+<link>http://www.ia.omron.com/products/family/3144/?bid=rss</link>
+<title>Proximity Sensor with All-stainless Housing</title>
+<description>Metal Head for long-distance Detection that Withstands Harsh Environments Where the Workpiece Can Rub against the Sensor(E2EF)</description>
+<dc:subject>New product</dc:subject>
+<dc:date>2012-10-16T01:45:54+09:00</dc:date>
+</item>
+<item rdf:about="http://www.ia.omron.com/products/family/3126/?bid=rss">
+<link>http://www.ia.omron.com/products/family/3126/?bid=rss</link>
+<title>Conductive Level Controller</title>
+<description>Automatic Water Supply and Drainage Control(61F-GP-N2)</description>
+<dc:subject>New product</dc:subject>
+<dc:date>2012-10-15T06:58:36+09:00</dc:date>
+</item>
+<item rdf:about="http://www.ia.omron.com/products/family/3110/?bid=rss">
+<link>http://www.ia.omron.com/products/family/3110/?bid=rss</link>
+<title>Programmable Terminals</title>
+<description>Quality color display with LED backlighting. Complete HMI family. Comprehensive features.(NB Series)</description>
+<dc:subject>New product</dc:subject>
+<dc:date>2012-10-15T06:58:36+09:00</dc:date>
+</item>
+<item rdf:about="http://www.ia.omron.com/products/family/3130/?bid=rss">
+<link>http://www.ia.omron.com/products/family/3130/?bid=rss</link>
+<title>Photoelectric Sensors</title>
+<description>A new generation in sensing performance(E3FA, E3RA, E3FB, E3RB)</description>
+<dc:subject>New product</dc:subject>
+<dc:date>2012-10-15T06:58:34+09:00</dc:date>
+</item>
+<item rdf:about="http://www.ia.omron.com/products/family/3109/?bid=rss">
+<link>http://www.ia.omron.com/products/family/3109/?bid=rss</link>
+<title>Fan Ionizer (Area fan type)</title>
+<description>3 slim, lightweight types to choose from. Easy installation.(ZJ-FW)</description>
+<dc:subject>New product</dc:subject>
+<dc:date>2012-10-15T06:58:32+09:00</dc:date>
+</item>
+<item rdf:about="http://www.ia.omron.com/products/family/3124/?bid=rss">
+<link>http://www.ia.omron.com/products/family/3124/?bid=rss</link>
+<title>Maximum quality at maximum efficiency</title>
+<description>Best Quality at the Minimum Q Cost!(VT-S720)</description>
+<dc:subject>New product</dc:subject>
+<dc:date>2012-10-15T06:58:30+09:00</dc:date>
+</item>
+<item rdf:about="http://www.ia.omron.com/products/family/3125/?bid=rss">
+<link>http://www.ia.omron.com/products/family/3125/?bid=rss</link>
+<title>Guard Lock Safety-door Switch/D4SL-N-mounting Slide Key</title>
+<description>World&#39;s smallest Class 6-contact Guard Lock Safety-door Switch(D4SL-N, D4SL-NSK10-LK[])</description>
+<dc:subject>New product</dc:subject>
+<dc:date>2012-10-15T06:58:28+09:00</dc:date>
+</item>
+<item rdf:about="http://www.ia.omron.com/products/family/3128/?bid=rss">
+<link>http://www.ia.omron.com/products/family/3128/?bid=rss</link>
+<title>Fiber Unit Build-in Lens Series</title>
+<description>High-power, Stable Detection. Is the Standard for the Future!(E32-LT / LD)</description>
+<dc:subject>New product</dc:subject>
+<dc:date>2012-10-15T06:58:28+09:00</dc:date>
+</item>
+<item rdf:about="http://www.ia.omron.com/products/family/3075/?bid=rss">
+<link>http://www.ia.omron.com/products/family/3075/?bid=rss</link>
+<title>NJ-Series NJ501 CPU Units</title>
+<description>New controller that covers functions and high-speed processing required for machine control and safety, reliability and maintainability that are the features of industrial controllers. Ideal for large-scale, fast, and high-accurate control with up to 64 axes.(NJ501-[][][][])</description>
+<dc:subject>New product</dc:subject>
+<dc:date>2012-10-15T06:58:24+09:00</dc:date>
+</item>
+<item rdf:about="http://www.ia.omron.com/products/family/3102/?bid=rss">
+<link>http://www.ia.omron.com/products/family/3102/?bid=rss</link>
+<title>Digital Temperature Controller (48 x 96 mm)</title>
+<description>48 x 96 mm. Large White PV Display That&#39;s Easier to Read. Easy to Use, from Model Selection to Setup and Operation. A Complete Range of I/O Capacities, Functions, and Performance. Handles More Applications. E5EC-B is our Value Design product which increase the value of your control panel.(E5EC, E5EC-B)</description>
+<dc:subject>New product</dc:subject>
+<dc:date>2012-10-15T06:58:24+09:00</dc:date>
+</item>
+<item rdf:about="http://www.ia.omron.com/products/family/3101/?bid=rss">
+<link>http://www.ia.omron.com/products/family/3101/?bid=rss</link>
+<title>Digital Temperature Controller (48 x 48 mm)</title>
+<description>48 x 48 mm. Large White PV Display That&#39;s Easier to Read. Easy to Use, from Model Selection to Setup and Operation. A Complete Range of I/O Capacities, Functions, and Performance. Handles More Applications. E5CC-B is our Value Design product which increase the value of your control panel.(E5CC, E5CC-B, E5CC-U)</description>
+<dc:subject>New product</dc:subject>
+<dc:date>2012-10-15T06:58:22+09:00</dc:date>
+</item>
+<item rdf:about="http://www.ia.omron.com/products/family/3131/?bid=rss">
+<link>http://www.ia.omron.com/products/family/3131/?bid=rss</link>
+<title>Smart Camera</title>
+<description>Advanced inspection in a compact housing. Expanded performance and functionality. Camera, Communications, Software Tools, and Much More.(FQ2)</description>
+<dc:subject>New product</dc:subject>
+<dc:date>2012-10-15T06:58:22+09:00</dc:date>
+</item>
+<item rdf:about="http://www.ia.omron.com/products/family/3120/?bid=rss">
+<link>http://www.ia.omron.com/products/family/3120/?bid=rss</link>
+<title>Confocal Fiber Displacement Sensor</title>
+<description>Ultra-compact and Ultra-lightweight. Stable Measurements for Any Material. Robust Sensor Head Structure.(ZW Series)</description>
+<dc:subject>New product</dc:subject>
+<dc:date>2012-10-15T06:58:18+09:00</dc:date>
+</item>
+<item rdf:about="http://www.ia.omron.com/products/family/3103/?bid=rss">
+<link>http://www.ia.omron.com/products/family/3103/?bid=rss</link>
+<title>Smart Fiber Sensor</title>
+<description>Surprisingly Stable Detection with Your Finger tip. Exceptionally easy operation and stabilizing technology reduce maintenance cost.(E3X-HD)</description>
+<dc:subject>New product</dc:subject>
+<dc:date>2012-10-15T06:58:14+09:00</dc:date>
+</item>
+<item rdf:about="http://www.ia.omron.com/products/family/412/?bid=rss">
+<link>http://www.ia.omron.com/products/family/412/?bid=rss</link>
+<title>Oil-resistive, Long-range Photoelectric Sensor with Metal Housing</title>
+<description>Water- and Oil-resistant Photoelectric Sensor with Metal Housing Used for Long-range Sensing(E3S-C)</description>
+<dc:subject>New product</dc:subject>
+<dc:date>2012-10-15T06:34:25+09:00</dc:date>
+</item>
+<item rdf:about="http://www.ia.omron.com/products/family/410/?bid=rss">
+<link>http://www.ia.omron.com/products/family/410/?bid=rss</link>
+<title>Built-in Amplifier Photoelectric Sensor (Medium Size)</title>
+<description> (E3S-A)</description>
+<dc:subject>New product</dc:subject>
+<dc:date>2012-10-15T01:17:45+09:00</dc:date>
+</item>
+<item rdf:about="http://www.ia.omron.com/products/family/1568/?bid=rss">
+<link>http://www.ia.omron.com/products/family/1568/?bid=rss</link>
+<title>Photoelectric Sensor with Built-in Amplifier</title>
+<description>General-purpose Photoelectric Sensor for High Quality and Reliable Detection(E3S)</description>
+<dc:subject>New product</dc:subject>
+<dc:date>2012-10-12T19:20:57+09:00</dc:date>
+</item>
+<item rdf:about="http://www.ia.omron.com/new/information/2012/10/001.html?bid=rss">
+<link>http://www.ia.omron.com/new/information/2012/10/001.html?bid=rss</link>
+<title>We have introduced Proximity Sensor with All-stainless Housing E2EF.</title>
+<description>Product Information</description>
+<dc:subject>Product Information</dc:subject>
+<dc:date>2012-10-01T18:00:00+09:00</dc:date>
+</item>
+<item rdf:about="http://www.ia.omron.com/new/information/2012/04/004.html?bid=rss">
+<link>http://www.ia.omron.com/new/information/2012/04/004.html?bid=rss</link>
+<title>We have introduced Maximum quality at maximum efficiency VT-S720.</title>
+<description>Product Information</description>
+<dc:subject>Product Information</dc:subject>
+<dc:date>2012-09-24T01:50:08+09:00</dc:date>
+</item>
+<item rdf:about="http://www.ia.omron.com/new/information/2012/04/001.html?bid=rss">
+<link>http://www.ia.omron.com/new/information/2012/04/001.html?bid=rss</link>
+<title>We have introduced CPU Units NJ301-[][][][].</title>
+<description>Product Information</description>
+<dc:subject>Product Information</dc:subject>
+<dc:date>2012-09-24T01:50:08+09:00</dc:date>
+</item>
+
+<item rdf:about="http://www.ia.omron.com/new/information/2012/04/003.html?bid=rss">
+<link>http://www.ia.omron.com/new/information/2012/04/003.html?bid=rss</link>
+<title>We have introduced Confocal Fiber Displacement Sensor ZW.</title>
+<description>Product Information</description>
+<dc:subject>Product Information</dc:subject>
+<dc:date>2012-09-24T01:50:08+09:00</dc:date>
+</item>
+<item rdf:about="http://www.ia.omron.com/new/information/2012/03/001.html?bid=rss">
+<link>http://www.ia.omron.com/new/information/2012/03/001.html?bid=rss</link>
+<title>We have introduced Fan Ionizer (Area fan type) ZJ-FW.</title>
+<description>Product Information</description>
+<dc:subject>Product Information</dc:subject>
+<dc:date>2012-09-24T01:50:08+09:00</dc:date>
+</item>
+
+
+
+<item rdf:about="http://www.ia.omron.com/new/information/2012/01/001.html?bid=rss">
+<link>http://www.ia.omron.com/new/information/2012/01/001.html?bid=rss</link>
+<title>We have introduced Vision Sensor FZ4 Series.</title>
+<description>Product Information</description>
+<dc:subject>Product Information</dc:subject>
+<dc:date>2012-09-24T01:50:06+09:00</dc:date>
+</item>
+<item rdf:about="http://www.ia.omron.com/new/information/2012/01/002.html?bid=rss">
+<link>http://www.ia.omron.com/new/information/2012/01/002.html?bid=rss</link>
+<title>We have introduced Programmable Terminals NB Series.</title>
+<description>Product Information</description>
+<dc:subject>Product Information</dc:subject>
+<dc:date>2012-09-24T01:50:06+09:00</dc:date>
+</item>
+<item rdf:about="http://www.ia.omron.com/new/information/2012/01/003.html?bid=rss">
+<link>http://www.ia.omron.com/new/information/2012/01/003.html?bid=rss</link>
+<title>We have introduced CJ/CS Series ID Sensor Unit C[]1W-V680C1[].</title>
+<description>Product Information</description>
+<dc:subject>Product Information</dc:subject>
+<dc:date>2012-09-24T01:50:06+09:00</dc:date>
+</item>
+<item rdf:about="http://www.ia.omron.com/new/information/2012/02/001.html?bid=rss">
+<link>http://www.ia.omron.com/new/information/2012/02/001.html?bid=rss</link>
+<title>We have introduced Switch Mode Power Supply S8EX.</title>
+<description>Product Information</description>
+<dc:subject>Product Information</dc:subject>
+<dc:date>2012-09-24T01:50:06+09:00</dc:date>
+</item>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<item rdf:about="http://www.ia.omron.com/seminar/event/nepcon2011/en/?bid=rss">
+<link>http://www.ia.omron.com/seminar/event/nepcon2011/en/?bid=rss</link>
+<title>Omron will be exhibiting in INTERNEPCON JAPAN held at Tokyo Big Sight from Jan.19 to Jan.21, 2011.</title>
+<description>Topics</description>
+<dc:subject>Topics</dc:subject>
+<dc:date>2012-09-24T01:49:52+09:00</dc:date>
+</item>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<item rdf:about="http://www.ia.omron.com/new/information/2012/08/006.html?bid=rss">
+<link>http://www.ia.omron.com/new/information/2012/08/006.html?bid=rss</link>
+<title>We have introduced Smart Camera FQ2.</title>
+<description>Product Information</description>
+<dc:subject>Product Information</dc:subject>
+<dc:date>2012-08-30T18:00:00+09:00</dc:date>
+</item>
+<item rdf:about="http://www.ia.omron.com/new/information/2012/08/004.html?bid=rss">
+<link>http://www.ia.omron.com/new/information/2012/08/004.html?bid=rss</link>
+<title>We have introduced Multi-circuit Smart Power Monitor KM1.</title>
+<description>Product Information</description>
+<dc:subject>Product Information</dc:subject>
+<dc:date>2012-08-23T18:00:00+09:00</dc:date>
+</item>
+<item rdf:about="http://www.ia.omron.com/new/information/2012/08/005.html?bid=rss">
+<link>http://www.ia.omron.com/new/information/2012/08/005.html?bid=rss</link>
+<title>We have introduced Fiber Unit Build-in Lens Series E32-LT11(R).</title>
+<description>Product Information</description>
+<dc:subject>Product Information</dc:subject>
+<dc:date>2012-08-23T18:00:00+09:00</dc:date>
+</item>
+<item rdf:about="http://www.ia.omron.com/new/information/2012/08/001.html?bid=rss">
+<link>http://www.ia.omron.com/new/information/2012/08/001.html?bid=rss</link>
+<title>OMRON&#39;s Global Service Center will suspend operations from August 11 to 19.</title>
+<description>Topics</description>
+<dc:subject>Topics</dc:subject>
+<dc:date>2012-08-06T18:00:00+09:00</dc:date>
+</item>
+<item rdf:about="http://www.ia.omron.com/new/information/2012/08/002.html?bid=rss">
+<link>http://www.ia.omron.com/new/information/2012/08/002.html?bid=rss</link>
+<title>We have introduced Energy Savings Analysis Software EWS-DE10.</title>
+<description>Product Information</description>
+<dc:subject>Product Information</dc:subject>
+<dc:date>2012-08-06T18:00:00+09:00</dc:date>
+</item>
+<item rdf:about="http://www.ia.omron.com/new/information/2012/08/003.html?bid=rss">
+<link>http://www.ia.omron.com/new/information/2012/08/003.html?bid=rss</link>
+<title>New FAQs have been added concerning Machine Automation Controllers.</title>
+<description>Product Information</description>
+<dc:subject>Product Information</dc:subject>
+<dc:date>2012-08-06T18:00:00+09:00</dc:date>
+</item>
+<item rdf:about="http://www.ia.omron.com/new/information/2012/07/001.html?bid=rss">
+<link>http://www.ia.omron.com/new/information/2012/07/001.html?bid=rss</link>
+<title>We have introduced Photoelectric Sensors E3FA and E3RA.</title>
+<description>Product Information</description>
+<dc:subject>Product Information</dc:subject>
+<dc:date>2012-07-12T18:00:00+09:00</dc:date>
+</item>
+<item rdf:about="http://www.ia.omron.com/new/information/2012/07/002.html?bid=rss">
+<link>http://www.ia.omron.com/new/information/2012/07/002.html?bid=rss</link>
+<title>Japanese website Omron IA Japan has been ranked first among B2B websites in Japan for six consecutive years.</title>
+<description>Topics</description>
+<dc:subject>Topics</dc:subject>
+<dc:date>2012-07-12T18:00:00+09:00</dc:date>
+</item>
+<item rdf:about="http://www.ia.omron.com/new/information/2012/05/001.html?bid=rss">
+<link>http://www.ia.omron.com/new/information/2012/05/001.html?bid=rss</link>
+<title>We have introduced Guard Lock Safety-door Switch D4SL-N.</title>
+<description>Product Information</description>
+<dc:subject>Product Information</dc:subject>
+<dc:date>2012-05-10T18:00:00+09:00</dc:date>
+</item>
+</rdf:RDF>

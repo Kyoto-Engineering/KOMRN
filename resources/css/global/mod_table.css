@@ -1,0 +1,13 @@
+
+/* Table Modules
+--------------------------------------------------------------*/
+
+/*------------------------------------
+	.table-blockA01
+------------------------------------*/
+
+div.table-blockA01 table.tableA01 td.heading{
+	background-color:#e1e1e1;
+	vertical-align:middle;
+	font-weight:bold;
+}

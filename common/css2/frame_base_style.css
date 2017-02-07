@@ -1,0 +1,761 @@
+
+
+/*------------------------------------
+	*,body
+------------------------------------*/
+
+body{
+	background-color:#fcfcfc;
+	text-align:center;
+	margin:0;
+	padding:0;
+}
+
+
+div.header-area *,
+div.global-navi-area *,
+div.bread-crumb-area *,
+div.main-image-area *,
+div.footer-area *,
+div.top-page-link-area *,
+div.local-navi-area *,
+div.primary-contents-area *,
+div.lead-area *,
+div.global-network-area *,
+div.related-info-area *,
+div.exist-primary-contents-area div.heading-lvl01A01 *,
+div.exist-primary-contents-area div.heading-lvl01A02 *,
+div.exist-primary-contents-area div.leadA01 *,
+div.exist-primary-contents-area div.tabpanel-blockA01 table.tabs *{
+	margin:0;
+	padding:0;
+}
+
+
+
+
+/*------------------------------------
+	font-style
+------------------------------------*/
+
+div.header-area,
+div.global-navi-area,
+div.bread-crumb-area,
+div.main-image-area,
+div.footer-area,
+div.top-page-link-area,
+div.local-navi-area,
+div.primary-contents-area,
+div.lead-area,
+div.global-network-area,
+div.related-info-area,
+div.exist-primary-contents-area div.heading-lvl01A01,
+div.exist-primary-contents-area div.heading-lvl01A02,
+div.exist-primary-contents-area div.leadA01,
+div.exist-primary-contents-area div.tabpanel-blockA01 table.tabs{
+	color:#555;
+	font-family:'Arial',sans-serif;
+	font-size:12px;
+	_font-size:75%;
+}
+
+div.header-area *,
+div.global-navi-area *,
+div.bread-crumb-area *,
+div.main-image-area *,
+div.footer-area *,
+div.top-page-link-area *,
+div.local-navi-area *,
+div.primary-contents-area *,
+div.lead-area *,
+div.global-network-area *,
+div.related-info-area *,
+div.exist-primary-contents-area div.heading-lvl01A01 *,
+div.exist-primary-contents-area div.leadA01 *,
+div.exist-primary-contents-area div.tabpanel-blockA01 table.tabs *{
+	/*\*//*/
+	font-family:'Arial',sans-serif;
+	/**/
+}
+
+div.main-image-area,
+div.top-page-link-area,
+div.local-navi-area,
+div.primary-contents-area,
+div.lead-area,
+div.global-network-area,
+div.related-info-area,
+div.exist-primary-contents-area div.heading-lvl01A01,
+div.exist-primary-contents-area div.heading-lvl01A02,
+div.exist-primary-contents-area div.leadA01,
+div.exist-primary-contents-area div.tabpanel-blockA01 table.tabs{
+	line-height:1.4;
+}
+
+
+*+html div.header-area,
+*+html div.global-navi-area,
+*+html div.bread-crumb-area,
+*+html div.main-image-area,
+*+html div.footer-area,
+*+html div.top-page-link-area,
+*+html div.local-navi-area,
+*+html div.primary-contents-area,
+*+html div.lead-area,
+*+html div.global-network-area,
+*+html div.related-info-area,
+*+html div.exist-primary-contents-area div.heading-lvl01A01,
+*+html div.exist-primary-contents-area div.heading-lvl01A02,
+*+html div.exist-primary-contents-area div.leadA01,
+*+html div.exist-primary-contents-area div.tabpanel-blockA01 table.tabs{
+	font-size:75%;
+}
+
+
+div.header-area h2,
+div.header-area h3,
+div.header-area h4,
+div.header-area h5,
+div.header-area h6,
+div.global-navi-area h2,
+div.global-navi-area h3,
+div.global-navi-area h4,
+div.global-navi-area h5,
+div.global-navi-area h6,
+div.footer-area h2,
+div.footer-area h3,
+div.footer-area h4,
+div.footer-area h5,
+div.footer-area h6,
+div.local-navi-area h2,
+div.local-navi-area h3,
+div.local-navi-area h4,
+div.local-navi-area h5,
+div.local-navi-area h6,
+div.primary-contents-area h2,
+div.primary-contents-area h3,
+div.primary-contents-area h4,
+div.primary-contents-area h5,
+div.primary-contents-area h6,
+div.lead-area h2,
+div.lead-area h3,
+div.lead-area h4,
+div.lead-area h5,
+div.lead-area h6,
+div.global-network-area h2,
+div.global-network-area h3,
+div.global-network-area h4,
+div.global-network-area h5,
+div.global-network-area h6,
+div.related-info-area h2,
+div.related-info-area h3,
+div.related-info-area h4,
+div.related-info-area h5,
+div.related-info-area h6,
+div.exist-primary-contents-area div.heading-lvl01A01 h2,
+div.exist-primary-contents-area div.heading-lvl01A01 h3,
+div.exist-primary-contents-area div.heading-lvl01A01 h4,
+div.exist-primary-contents-area div.heading-lvl01A01 h5,
+div.exist-primary-contents-area div.heading-lvl01A01 h6,
+div.exist-primary-contents-area div.heading-lvl01A02 h2,
+div.exist-primary-contents-area div.heading-lvl01A02 h3,
+div.exist-primary-contents-area div.heading-lvl01A02 h4,
+div.exist-primary-contents-area div.heading-lvl01A02 h5,
+div.exist-primary-contents-area div.heading-lvl01A02 h6,
+div.exist-primary-contents-area div.leadA01 h2,
+div.exist-primary-contents-area div.leadA01 h3,
+div.exist-primary-contents-area div.leadA01 h4,
+div.exist-primary-contents-area div.leadA01 h5,
+div.exist-primary-contents-area div.leadA01 h6{
+	font-size:100%;
+	font-weight:bold;
+}
+
+
+
+
+
+
+/*------------------------------------
+	anchor
+------------------------------------*/
+
+div.header-area a:link,
+div.global-navi-area a:link,
+div.bread-crumb-area a:link,
+div.main-image-area a:link,
+div.footer-area a:link,
+div.top-page-link-area a:link,
+div.local-navi-area a:link,
+div.primary-contents-area a:link,
+div.lead-area a:link,
+div.global-network-area a:link,
+div.related-info-area a:link,
+div.exist-primary-contents-area div.heading-lvl01A01 a:link,
+div.exist-primary-contents-area div.heading-lvl01A02 a:link,
+div.exist-primary-contents-area div.leadA01 a:link,
+div.exist-primary-contents-area div.tabpanel-blockA01 table.tabs a:link{
+	text-decoration:underline;
+	color:#1a66ca;
+}
+
+div.header-area a:visited,
+div.global-navi-area a:visited,
+div.bread-crumb-area a:visited,
+div.main-image-area a:visited,
+div.footer-area a:visited,
+div.top-page-link-area a:visited,
+div.local-navi-area a:visited,
+div.primary-contents-area a:visited,
+div.lead-area a:visited,
+div.global-network-area a:visited,
+div.related-info-area a:visited,
+div.exist-primary-contents-area div.heading-lvl01A01 a:visited,
+div.exist-primary-contents-area div.heading-lvl01A02 a:visited,
+div.exist-primary-contents-area div.leadA01 a:visited,
+div.exist-primary-contents-area div.tabpanel-blockA01 table.tabs a:visited{
+	text-decoration:underline;
+	color:#868fca;
+}
+
+div.header-area a:link:hover,
+div.global-navi-area a:link:hover,
+div.bread-crumb-area a:link:hover,
+div.main-image-area a:link:hover,
+div.footer-area a:link:hover,
+div.top-page-link-area a:link:hover,
+div.local-navi-area a:link:hover,
+div.primary-contents-area a:link:hover,
+div.lead-area a:link:hover,
+div.global-network-area a:link:hover,
+div.related-info-area a:link:hover,
+div.exist-primary-contents-area div.heading-lvl01A01 a:link:hover,
+div.exist-primary-contents-area div.heading-lvl01A02 a:link:hover,
+div.exist-primary-contents-area div.leadA01 a:link:hover,
+div.exist-primary-contents-area div.tabpanel-blockA01 table.tabs a:link:hover,
+div.header-area a:visited:hover,
+div.global-navi-area a:visited:hover,
+div.bread-crumb-area a:visited:hover,
+div.main-image-area a:visited:hover,
+div.footer-area a:visited:hover,
+div.top-page-link-area a:visited:hover,
+div.local-navi-area a:visited:hover,
+div.primary-contents-area a:visited:hover,
+div.lead-area a:visited:hover,
+div.global-network-area a:visited:hover,
+div.related-info-area a:visited:hover,
+div.exist-primary-contents-area div.heading-lvl01A01 a:visited:hover,
+div.exist-primary-contents-area div.heading-lvl01A02 a:visited:hover,
+div.exist-primary-contents-area div.leadA01 a:visited:hover,
+div.exist-primary-contents-area div.tabpanel-blockA01 table.tabs a:visited:hover,
+div.header-area a:link:active,
+div.global-navi-area a:link:active,
+div.bread-crumb-area a:link:active,
+div.main-image-area a:link:active,
+div.footer-area a:link:active,
+div.top-page-link-area a:link:active,
+div.local-navi-area a:link:active,
+div.primary-contents-area a:link:active,
+div.lead-area a:link:active,
+div.global-network-area a:link:active,
+div.related-info-area a:link:active,
+div.exist-primary-contents-area div.heading-lvl01A01 a:link:active,
+div.exist-primary-contents-area div.heading-lvl01A02 a:link:active,
+div.exist-primary-contents-area div.leadA01 a:link:active,
+div.exist-primary-contents-area div.tabpanel-blockA01 table.tabs a:link:active,
+div.header-area a:visited:active,
+div.global-navi-area a:visited:active,
+div.bread-crumb-area a:visited:active,
+div.main-image-area a:visited:active,
+div.footer-area a:visited:active,
+div.top-page-link-area a:visited:active,
+div.local-navi-area a:visited:active,
+div.primary-contents-area a:visited:active,
+div.lead-area a:visited:active,
+div.global-network-area a:visited:active,
+div.related-info-area a:visited:active,
+div.exist-primary-contents-area div.heading-lvl01A01 a:visited:active,
+div.exist-primary-contents-area div.heading-lvl01A02 a:visited:active,
+div.exist-primary-contents-area div.leadA01 a:visited:active,
+div.exist-primary-contents-area div.tabpanel-blockA01 table.tabs a:visited:active,
+div.header-area a:link:focus,
+div.global-navi-area a:link:focus,
+div.bread-crumb-area a:link:focus,
+div.main-image-area a:link:focus,
+div.footer-area a:link:focus,
+div.top-page-link-area a:link:focus,
+div.local-navi-area a:link:focus,
+div.primary-contents-area a:link:focus,
+div.lead-area a:link:focus,
+div.global-network-area a:link:focus,
+div.related-info-area a:link:focus,
+div.exist-primary-contents-area div.heading-lvl01A01 a:link:focus,
+div.exist-primary-contents-area div.heading-lvl01A02 a:link:focus,
+div.exist-primary-contents-area div.leadA01 a:link:focus,
+div.exist-primary-contents-area div.tabpanel-blockA01 table.tabs a:link:focus,
+div.header-area a:visited:focus,
+div.global-navi-area a:visited:focus,
+div.bread-crumb-area a:visited:focus,
+div.main-image-area a:visited:focus,
+div.footer-area a:visited:focus,
+div.top-page-link-area a:visited:focus,
+div.local-navi-area a:visited:focus,
+div.primary-contents-area a:visited:focus,
+div.lead-area a:visited:focus,
+div.global-network-area a:visited:focus,
+div.related-info-area a:visited:focus,
+div.exist-primary-contents-area div.heading-lvl01A01 a:visited:focus,
+div.exist-primary-contents-area div.heading-lvl01A02 a:visited:focus,
+div.exist-primary-contents-area div.leadA01 a:visited:focus,
+div.exist-primary-contents-area div.tabpanel-blockA01 table.tabs a:visited:focus{
+	text-decoration:underline;
+	color:#0046a0;
+}
+
+
+/*------------------------------------
+	img
+------------------------------------*/
+
+div.header-area a img,
+div.global-navi-area a img,
+div.bread-crumb-area a img,
+div.main-image-area a img,
+div.footer-area a img,
+div.top-page-link-area a img,
+div.local-navi-area a img,
+div.primary-contents-area a img,
+div.lead-area a img,
+div.global-network-area a img,
+div.related-info-area a img,
+div.exist-primary-contents-area div.heading-lvl01A01 a img,
+div.exist-primary-contents-area div.heading-lvl01A02 a img,
+div.exist-primary-contents-area div.leadA01 a img,
+div.exist-primary-contents-area div.tabpanel-blockA01 table.tabs a img{
+	border:none;
+}
+
+
+/*rss*/
+
+ul.link-listA01 img.rss{
+	vertical-align:text-bottom;
+	margin-right:4px;
+}
+
+
+/*arrow right*/
+
+div.header-area img.iconA01,
+div.global-navi-area img.iconA01,
+div.bread-crumb-area img.iconA01,
+div.main-image-area img.iconA01,
+div.footer-area img.iconA01,
+div.top-page-link-area img.iconA01,
+div.local-navi-area img.iconA01,
+div.primary-contents-area img.iconA01,
+div.lead-area img.iconA01,
+div.global-network-area img.iconA01,
+div.related-info-area img.iconA01,
+div.exist-primary-contents-area div.heading-lvl01A01 img.iconA01,
+div.exist-primary-contents-area div.heading-lvl01A02 img.iconA01,
+div.exist-primary-contents-area div.leadA01 img.iconA01,
+div.exist-primary-contents-area div.tabpanel-blockA01 table.tabs img.iconA01{
+	margin-right:3px;
+}
+
+/*arrow top*/
+
+div.header-area img.iconB01,
+div.global-navi-area img.iconB01,
+div.bread-crumb-area img.iconB01,
+div.main-image-area img.iconB01,
+div.footer-area img.iconB01,
+div.top-page-link-area img.iconB01,
+div.local-navi-area img.iconB01,
+div.primary-contents-area img.iconB01,
+div.lead-area img.iconB01,
+div.global-network-area img.iconB01,
+div.related-info-area img.iconB01,
+div.exist-primary-contents-area div.heading-lvl01A01 img.iconB01,
+div.exist-primary-contents-area div.heading-lvl01A02 img.iconB01,
+div.exist-primary-contents-area div.leadA01 img.iconB01,
+div.exist-primary-contents-area div.tabpanel-blockA01 table.tabs img.iconB01{
+	margin-right:4px;
+}
+
+/*!*/
+
+div.header-area img.iconC01,
+div.global-navi-area img.iconC01,
+div.bread-crumb-area img.iconC01,
+div.main-image-area img.iconC01,
+div.footer-area img.iconC01,
+div.top-page-link-area img.iconC01,
+div.local-navi-area img.iconC01,
+div.primary-contents-area img.iconC01,
+div.lead-area img.iconC01,
+div.global-network-area img.iconC01,
+div.related-info-area img.iconC01,
+div.exist-primary-contents-area div.heading-lvl01A01 img.iconC01,
+div.exist-primary-contents-area div.heading-lvl01A02 img.iconC01,
+div.exist-primary-contents-area div.leadA01 img.iconC01,
+div.exist-primary-contents-area div.tabpanel-blockA01 table.tabs img.iconC01{
+	vertical-align:middle;
+	margin-right:4px;
+}
+
+/*PDF*/
+
+div.header-area img.iconD01,
+div.global-navi-area img.iconD01,
+div.bread-crumb-area img.iconD01,
+div.main-image-area img.iconD01,
+div.footer-area img.iconD01,
+div.top-page-link-area img.iconD01,
+div.local-navi-area img.iconD01,
+div.primary-contents-area img.iconD01,
+div.lead-area img.iconD01,
+div.global-network-area img.iconD01,
+div.related-info-area img.iconD01,
+div.exist-primary-contents-area div.heading-lvl01A01 img.iconD01,
+div.exist-primary-contents-area div.heading-lvl01A02 img.iconD01,
+div.exist-primary-contents-area div.leadA01 img.iconD01,
+div.exist-primary-contents-area div.tabpanel-blockA01 table.tabs img.iconD01{
+	vertical-align:middle;
+	margin-right:4px;
+}
+
+/*external,external02*/
+
+div.header-area img.external,
+div.global-navi-area img.external,
+div.bread-crumb-area img.external,
+div.main-image-area img.external,
+div.footer-area img.external,
+div.top-page-link-area img.external,
+div.local-navi-area img.external,
+div.primary-contents-area img.external,
+div.lead-area img.external,
+div.global-network-area img.external,
+div.related-info-area img.external,
+div.exist-primary-contents-area div.heading-lvl01A01 img.external,
+div.exist-primary-contents-area div.heading-lvl01A02 img.external,
+div.exist-primary-contents-area div.leadA01 img.external,
+div.exist-primary-contents-area div.tabpanel-blockA01 table.tabs img.external,
+div.header-area img.external02,
+div.global-navi-area img.external02,
+div.bread-crumb-area img.external02,
+div.main-image-area img.external02,
+div.footer-area img.external02,
+div.top-page-link-area img.external02,
+div.local-navi-area img.external02,
+div.primary-contents-area img.external02,
+div.lead-area img.external02,
+div.global-network-area img.external02,
+div.related-info-area img.external02,
+div.exist-primary-contents-area div.heading-lvl01A01 img.external02,
+div.exist-primary-contents-area div.heading-lvl01A02 img.external02,
+div.exist-primary-contents-area div.leadA01 img.external02,
+div.exist-primary-contents-area div.tabpanel-blockA01 table.tabs img.external02{
+	position:relative;
+	top:1px;
+	left:3px;
+}
+
+/*external-win,external02-win*/
+
+div.header-area img.external-win,
+div.global-navi-area img.external-win,
+div.bread-crumb-area img.external-win,
+div.main-image-area img.external-win,
+div.footer-area img.external-win,
+div.top-page-link-area img.external-win,
+div.local-navi-area img.external-win,
+div.primary-contents-area img.external-win,
+div.lead-area img.external-win,
+div.global-network-area img.external-win,
+div.related-info-area img.external-win,
+div.exist-primary-contents-area div.heading-lvl01A01 img.external-win,
+div.exist-primary-contents-area div.heading-lvl01A02 img.external-win,
+div.exist-primary-contents-area div.leadA01 img.external-win,
+div.exist-primary-contents-area div.tabpanel-blockA01 table.tabs img.external-win,
+div.header-area img.external02-win,
+div.global-navi-area img.external02-win,
+div.bread-crumb-area img.external02-win,
+div.main-image-area img.external02-win,
+div.footer-area img.external02-win,
+div.top-page-link-area img.external02-win,
+div.local-navi-area img.external02-win,
+div.primary-contents-area img.external02-win,
+div.lead-area img.external02-win,
+div.global-network-area img.external02-win,
+div.related-info-area img.external02-win,
+div.exist-primary-contents-area div.heading-lvl01A01 img.external02-win,
+div.exist-primary-contents-area div.heading-lvl01A02 img.external02-win,
+div.exist-primary-contents-area div.leadA01 img.external02-win,
+div.exist-primary-contents-area div.tabpanel-blockA01 table.tabs img.external02-win{
+	position:relative;
+	top:1px;
+	left:3px;
+}
+
+
+/*win*/
+
+div.header-area img.win,
+div.global-navi-area img.win,
+div.bread-crumb-area img.win,
+div.main-image-area img.win,
+div.footer-area img.win,
+div.top-page-link-area img.win,
+div.local-navi-area img.win,
+div.primary-contents-area img.win,
+div.lead-area img.win,
+div.global-network-area img.win,
+div.related-info-area img.win,
+div.exist-primary-contents-area div.heading-lvl01A01 img.win,
+div.exist-primary-contents-area div.heading-lvl01A02 img.win,
+div.exist-primary-contents-area div.leadA01 img.win,
+div.exist-primary-contents-area div.tabpanel-blockA01 table.tabs img.win{
+	position:relative;
+	top:1px;
+	left:5px;
+}
+
+/*pic*/
+
+div.header-area img.pic,
+div.global-navi-area img.pic,
+div.bread-crumb-area img.pic,
+div.main-image-area img.pic,
+div.footer-area img.pic,
+div.top-page-link-area img.pic,
+div.local-navi-area img.pic,
+div.primary-contents-area img.pic,
+div.lead-area img.pic,
+div.global-network-area img.pic,
+div.related-info-area img.pic,
+div.exist-primary-contents-area div.heading-lvl01A01 img.pic,
+div.exist-primary-contents-area div.heading-lvl01A02 img.pic,
+div.exist-primary-contents-area div.leadA01 img.pic,
+div.exist-primary-contents-area div.tabpanel-blockA01 table.tabs img.pic{
+	border:1px solid #ccc;
+}
+
+
+
+/*------------------------------------
+	text
+------------------------------------*/
+
+div.header-area em,
+div.global-navi-area em,
+div.bread-crumb-area em,
+div.main-image-area em,
+div.footer-area em,
+div.top-page-link-area em,
+div.local-navi-area em,
+div.primary-contents-area em,
+div.lead-area em,
+div.global-network-area em,
+div.related-info-area em,
+div.exist-primary-contents-area div.heading-lvl01A01 em,
+div.exist-primary-contents-area div.heading-lvl01A02 em,
+div.exist-primary-contents-area div.leadA01 em,
+div.exist-primary-contents-area div.tabpanel-blockA01 table.tabs em{
+	font-style:normal;
+	font-weight:bold;
+}
+
+div.header-area strong,
+div.global-navi-area strong,
+div.bread-crumb-area strong,
+div.main-image-area strong,
+div.footer-area strong,
+div.top-page-link-area strong,
+div.local-navi-area strong,
+div.primary-contents-area strong,
+div.lead-area strong,
+div.global-network-area strong,
+div.related-info-area strong,
+div.exist-primary-contents-area div.heading-lvl01A01 strong,
+div.exist-primary-contents-area div.heading-lvl01A02 strong,
+div.exist-primary-contents-area div.leadA01 strong,
+div.exist-primary-contents-area div.tabpanel-blockA01 table.tabs strong{
+	font-style:normal;
+	font-weight:bold;
+	color:#000;
+}
+
+div.header-area .right,
+div.global-navi-area .right,
+div.bread-crumb-area .right,
+div.main-image-area .right,
+div.footer-area .right,
+div.local-navi-area .right,
+div.primary-contents-area .right,
+div.lead-area .right,
+div.global-network-area .right,
+div.related-info-area .right,
+div.local-navi-area .date,
+div.primary-contents-area .date,
+div.lead-area .date,
+div.related-info-area .date,
+div.header-area tr.right td,
+div.global-navi-area tr.right td,
+div.bread-crumb-area tr.right td,
+div.main-image-area tr.right td,
+div.footer-area tr.right td,
+div.local-navi-area tr.right td,
+div.primary-contents-area tr.right td,
+div.lead-area tr.right td,
+div.global-network-area tr.right td,
+div.related-info-area tr.right td,
+div.header-area tr.right th,
+div.global-navi-area tr.right th,
+div.bread-crumb-area tr.right th,
+div.main-image-area tr.right th,
+div.footer-area tr.right th,
+div.local-navi-area tr.right th,
+div.primary-contents-area tr.right th,
+div.lead-area tr.right th,
+div.global-network-area tr.right th,
+div.related-info-area tr.right th{
+	text-align:right !important;
+}
+
+div.header-area .center,
+div.global-navi-area .center,
+div.bread-crumb-area .center,
+div.main-image-area .center,
+div.footer-area .center,
+div.local-navi-area .center,
+div.primary-contents-area .center,
+div.lead-area .center,
+div.global-network-area .center,
+div.related-info-area .center,
+div.header-area tr.center td,
+div.global-navi-area tr.center td,
+div.bread-crumb-area tr.center td,
+div.main-image-area tr.center td,
+div.footer-area tr.center td,
+div.local-navi-area tr.center td,
+div.primary-contents-area tr.center td,
+div.lead-area tr.center td,
+div.global-network-area tr.center td,
+div.related-info-area tr.center td,
+div.header-area tr.center th,
+div.global-navi-area tr.center th,
+div.bread-crumb-area tr.center th,
+div.main-image-area tr.center th,
+div.footer-area tr.center th,
+div.local-navi-area tr.center th,
+div.primary-contents-area tr.center th,
+div.lead-area tr.center th,
+div.global-network-area tr.center th,
+div.related-info-area tr.center th{
+	text-align:center !important;
+}
+
+
+
+/*------------------------------------
+	non-visual
+------------------------------------*/
+
+.non-visual{
+	width:1px;
+	height:1px;
+	font-size:1px;
+	overflow:hidden;
+	/* except MacIE \*/
+	position:absolute;
+	/* end */
+	left:0;
+	top:-10000px;
+	color:#0055c4;
+	background:#0055c4;
+}
+
+body.tmplA01-f div.footer-area .non-visual,
+body.tmplA02-f div.footer-area .non-visual{
+	color:#fff;
+	background:#fff;
+}
+
+
+@media print{
+	div.header-area .non-visual,
+	div.global-navi-area .non-visual,
+	div.bread-crumb-area .non-visual,
+	div.main-image-area .non-visual,
+	div.footer-area .non-visual,
+	div.local-navi-area .non-visual,
+	div.primary-contents-area .non-visual,
+	div.exist-primary-contents-area .non-visual,
+	div.lead-area .non-visual,
+	div.global-network-area .non-visual,
+	div.related-info-area .non-visual,
+	div.side-area .non-visual{
+		display:none;
+	}
+}
+
+
+/*------------------------------------
+	form
+------------------------------------*/
+
+/*form-strA01*/
+
+div.local-navi-area input.form-strA01,
+div.primary-contents-area input.form-strA01,
+div.lead-area input.form-strA01,
+div.related-info-area input.form-strA01{
+	width:280px;
+	padding:1px 4px;
+	border:1px solid #c6c6c6;
+	vertical-align: middle;
+	color:#555;
+}
+
+body.tmplA01 div.primary-contents-area input.form-strA01,
+body.tmplA02 div.primary-contents-area input.form-strA01,
+body.tmplB01 div.primary-contents-area input.form-strA01,
+body.tmplC03 div.primary-contents-area input.form-strA01,
+body.tmplC04 div.primary-contents-area input.form-strA01,
+body.tmplD01 div.primary-contents-area input.form-strA01,
+body.tmplD02 div.primary-contents-area input.form-strA01,
+body.tmplE01 div.primary-contents-area input.form-strA01,
+body.tmplF01 div.primary-contents-area input.form-strA01,
+body.tmplF02 div.primary-contents-area input.form-strA01{
+	width:430px;
+}
+
+
+/*form-btn*/
+
+div.local-navi-area input.form-btn,
+div.primary-contents-area input.form-btn,
+div.lead-area input.form-btn,
+div.global-network-area input.form-btn,
+div.related-info-area input.form-btn{
+	margin-left:5px;
+	vertical-align:middle;
+}
+
+
+
+/*------------------------------------
+	sub,sup
+------------------------------------*/
+
+sub{
+	vertical-align:baseline;
+}
+
+sup{
+	vertical-align:super;
+}
+

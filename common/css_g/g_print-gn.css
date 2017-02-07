@@ -1,0 +1,59 @@
+/*------------------------------------
+	common
+------------------------------------*/
+
+body{
+	_zoom:88%;
+}
+
+/*omron-ia*/
+
+div.omron-ia{
+	width:720px;
+}
+
+div.omron-ia div.header-area{
+	width:720px;
+	margin-bottom: 19px;
+}
+
+div.omron-ia div.bread-crumb-area{
+	width:720px;
+	font-size:88%;
+	_font-size:100%;
+}
+
+div.omron-ia div.bread-crumb-area ul.link-listA01{
+	margin-left:12px;
+	_margin-left:23px;
+}
+*+html body div.omron-ia div.bread-crumb-area ul.link-listA01{
+	margin-left:23px;
+}
+div.omron-ia div.footer-area{
+	width:720px;
+}
+
+div#map{
+	width: 664px;
+	height: 380px;
+	border: solid 1px #ccc;
+	}
+
+
+@media print {
+
+.noprint { display:none; }
+
+body{_zoom:75%; }
+
+*+html body{ zoom:100%; }
+
+div#map{
+	width: 664px;
+	height: 380px;
+	border: solid 1px #ccc;
+	}
+
+}
+

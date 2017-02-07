@@ -1,0 +1,78 @@
+div.product-index-block{
+	width:683px;
+	margin-bottom:2.49em;
+	border-top:1px solid #cccccc;
+	border-left:1px solid #cccccc;
+}
+div.product-index-block:after{
+	content:".";
+	display:block;
+	clear:both;
+	visibility:hidden;
+	height:0;
+}
+div.product-index-block .index-title{
+	padding:0.5em 9px;
+	background-color:#EBEBEB;
+	border-right:1px solid #cccccc;
+	border-bottom:1px solid #cccccc;
+	line-height:1.42;
+	font-weight:bold;
+}
+div.product-index-block div.product-index-block-group{
+	width:100%;
+	background:url(../images/index_block_bg.gif) bottom right repeat-x;
+}
+div.product-index-block div.product-index-block-group:after{
+	content:".";
+	display:block;
+	clear:both;
+	visibility:hidden;
+	height:0;
+}
+div.product-index-block div.product-index-block-group div.product-index-block-unit{	
+	float:left;
+	width:227px;
+	padding-right:1px;
+	/zoom:1;
+}
+div.product-index-block div.product-index-block-group div.product-index-block-unit.first-child{
+	width:226px;
+}
+div.product-index-block div.product-index-block-group div.product-index-block-unit .category-title{
+	background:url(../images/index_block_unit_bg.gif) top left repeat-x;
+}
+div.product-index-block div.product-index-block-group div.product-index-block-unit .category-title a:link,
+div.product-index-block div.product-index-block-group div.product-index-block-unit .category-title a:visited,
+div.product-index-block div.product-index-block-group div.product-index-block-unit .category-title a:active{
+	font-weight:bold;
+	color:#555555;
+}
+div.product-index-block div.product-index-block-group div.product-index-block-unit .category-title a:hover{
+	color:#3B3B3B;
+}
+div.product-index-block div.product-index-block-group div.product-index-block-unit .category-title a span{
+	display:block;
+	margin:0 12px;
+	padding:4px 0 6px;
+	border-bottom:2px solid #cccccc;
+}
+div.product-index-block div.product-index-block-group div.product-index-block-unit .category-title.sensors a span			{border-color:#929fd0;}
+div.product-index-block div.product-index-block-group div.product-index-block-unit .category-title.switches a span			{border-color:#c399cc;}
+div.product-index-block div.product-index-block-group div.product-index-block-unit .category-title.safety-components a span	{border-color:#F2E06D;}
+div.product-index-block div.product-index-block-group div.product-index-block-unit .category-title.relays a span			{border-color:#E58873;}
+div.product-index-block div.product-index-block-group div.product-index-block-unit .category-title.control-components a span{border-color:#E5A35C;}
+div.product-index-block div.product-index-block-group div.product-index-block-unit .category-title.automation-systems a span{border-color:#A9CC7A;}
+div.product-index-block div.product-index-block-group div.product-index-block-unit .category-title.motion_drives a span		{border-color:#C8CA66;}
+div.product-index-block div.product-index-block-group div.product-index-block-unit .category-title.energy-conservation-support_environment-measure-equipment a span			{border-color:#68BDEA;}
+div.product-index-block div.product-index-block-group div.product-index-block-unit .category-title.power-supplies_in-addition a span			{border-color:#BFBFBF;}
+div.product-index-block div.product-index-block-group div.product-index-block-unit .category-title.robotics a span			{border-color:#208C5B;}
+
+
+div.product-index-block div.product-index-block-group div.product-index-block-unit .description{
+	padding:10px 12px;
+}
+div.product-index-block div.product-index-block-group div.product-index-block-unit .description p{
+	margin-bottom:1.49em;
+	font-size:92%;
+}

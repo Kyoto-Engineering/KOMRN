@@ -1,0 +1,238 @@
+
+/* main-image-area */
+.main-image-area{
+	margin:18px 0 20px 18px;
+	position:relative;
+	width:918px;
+	overflow:hidden;
+}
+
+/* imageRotation */
+.main-image-area div.imageRotation{
+	position:relative;
+	border:1px solid #cccccc;
+	width:682px;
+	height:231px;
+	overflow:hidden;
+}
+	.main-image-area div.imageRotation div.imageRotationMain{
+		position:absolute;
+	}
+		.main-image-area div.imageRotation div.imageRotationTop{
+			position:absolute;
+			z-index:10;
+		}
+		.main-image-area div.imageRotation div.imageRotationBottom{
+			position:absolute;
+			top:0;
+		}
+			.main-image-area div.imageRotation div.imageRotationMain div{
+				background:#ffffff;
+			}
+				.main-image-area div.imageRotation div.imageRotationMain a:hover img{
+					opacity:0.8;filter:alpha(opacity=80);
+				}
+
+	.main-image-area div.imageRotation div.imageRotationNavi{
+		display:none;
+		z-index:11;
+		position:absolute;
+		bottom:0;
+		padding:6px 2px 5px 16px;
+		width:664px;
+		_bottom:-1px;
+	}
+		.main-image-area div.imageRotation div.imageRotationNavi p{
+			z-index:14;
+			position:relative;
+			float:left;
+			color:#000000;
+			font-weight:bold;
+			margin-top:8px;
+		}
+		.main-image-area div.imageRotation div.imageRotationNavi ul{
+			z-index:13;
+			position:relative;
+			float:right;
+		}
+			.main-image-area div.imageRotation div.imageRotationNavi ul li{
+				float:left;
+				width:38px;
+				height:28px;
+				padding:3px;
+				margin-right:4px;
+				cursor:pointer;
+				background:url(../Images/top/imagerotation_bg_01.html) no-repeat left top;
+				list-style:none;
+			}
+			.main-image-area div.imageRotation div.imageRotationNavi ul li.current{
+				background:url(../Images/top/imagerotation_bg_02.html) no-repeat left top;
+			}
+
+		.main-image-area div.imageRotation div.imageRotationNavi .imageRotationBack{
+			opacity:0.8;
+			filter:alpha(opacity=80);
+			z-index:12;
+			bottom:0;
+			left:0;
+			position:absolute;
+			width:682px;
+			height:45px;
+			_height:48px;
+			background:#fff;
+		}
+
+
+/* mainImageNavi */
+.main-image-area div.mainImageNavi{
+	position:absolute;
+	right:0;
+	top:0;
+	width:221px;
+	height:233px;
+}
+	.main-image-area div.mainImageNavi h2{
+		position:absolute;
+		z-index:16;
+		font-size:100%;
+		padding-left:5px;
+		background:#fff;
+	}
+	.main-image-area div.mainImageNavi h2 a{
+		display:block;
+		height:26px;
+		_height:22px;
+		_padding-top:4px;
+		width:224px;
+		line-height:26px;
+		border-bottom:4px solid #0055c4;
+		text-decoration:none;
+	}
+	.main-image-area div.mainImageNavi h2 a:hover{
+		text-decoration:underline;
+	}
+	.main-image-area div.mainImageNavi ul{
+		margin-top:30px;
+	}
+	.main-image-area div.mainImageNavi li{
+		list-style:none;
+		_zoom:1;
+		_float:left;
+	}
+		.main-image-area div.mainImageNavi li a.mainImageTitle{
+			outline:none;
+			position:relative;
+			z-index:20;
+			display:block;
+			background:#fff url(../images/top/imagerotation_bg_03.gif) no-repeat right bottom;
+			display:block;
+			height:29px;
+			_height:22px;
+			_padding-top:7px;
+			line-height:29px;
+			cursor:pointer;
+			color:#1a66ca;
+			font-weight:bold;
+			padding-left:5px;
+			text-decoration:none;
+		}
+	.main-image-area div.mainImageNavi li.current a.mainImageTitle{
+		background-color:#ebf2f9;
+		text-decoration:none;
+		color:#555;
+	}
+
+		.main-image-area div.mainImageNavi li a.mainImageTitle:hover{
+			text-decoration:underline;
+			color:#0045a5;
+		}
+
+
+		.main-image-area div.mainImageNavi li ul{
+			/*display:none;*/
+			position:absolute;
+			top:-30px;
+			/*left:-180px;*/
+			width:180px;
+			z-index:15;
+			background:#ebf2f9;
+			height:233px;
+		}
+		/*.main-image-area div.mainImageNavi li.current ul{
+			display:block;
+		}*/
+		.main-image-area div.mainImageNavi li ul.column2{
+			width:300px;
+		}
+
+			.main-image-area div.mainImageNavi li ul li{
+				position:static;
+				_float:none;
+				background:url(../resources/images/icon_01.gif) no-repeat 10px 0.2em;
+				padding-left:17px;
+				padding-bottom:1px;
+			}
+			.main-image-area div.mainImageNavi li ul.column2 li{
+				float:left;
+				width:110px;
+			}
+			.main-image-area div.mainImageNavi li ul li.regionPage{
+				background:#e0e9f3 url(../resources/images/icon_01.gif) no-repeat 10px 0.6em;
+				padding-top:5px;
+				padding-bottom:5px;
+				margin-bottom:5px;
+				border-bottom:1px solid #ffffff;
+				font-weight:bold;
+				width:auto;
+				float:none;
+			}
+				.main-image-area div.mainImageNavi li ul li a{
+					text-decoration:none;
+				}
+				.main-image-area div.mainImageNavi li ul li a:hover{
+					color:#0045a5;
+				}
+
+			.main-image-area div.mainImageNavi li ul li.closeBtn{
+				position:absolute;
+				background:none;
+				padding:0 8px 4px 0;
+				bottom:0;
+				right:0;
+				cursor:pointer;
+				width:auto;
+				color:#1a66ca;
+			}
+			.main-image-area div.mainImageNavi li ul li.closeBtn:hover{
+				color:#0045a5;
+				text-decoration:underline;
+			}
+
+/*------------------------------------
+	attention-blockA01
+------------------------------------*/
+
+div.attention-blockA01{
+	margin-bottom:1.49em;/*18px*/
+	border:1px solid #edb3b3;
+	padding:1px;
+}
+
+div.attention-blockA01 .lvl01{
+	padding:0.45em 7px 0.45em 23px;
+	background-color:#f9cccc;
+	text-indent:-16px;
+}
+
+div.attention-blockA01 div.description{
+	padding:0.65em 7px 0.65em 7px;
+}
+
+div.attention-blockA01 img.attention{
+	vertical-align:middle;
+	margin-right:4px;
+}
+
+
+
+

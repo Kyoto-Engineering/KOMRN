@@ -1,0 +1,44 @@
+
+/*------------------------------------
+	common
+------------------------------------*/
+
+/*frame*/
+
+@import "frame_base_style.css";
+@import "frame_base_style_winie.css";
+@import "frame_header_footer.css";
+@import "frame_global_navi.css";
+@import "frame_bread_crumb.css";
+@import "frame_local_navi.css";
+
+@import "frame_layout.css";
+@import "frame_child_tmpl.css";
+
+@import "frame_global_network_area.css";
+
+/*components*/
+
+@import "mod_heading.css";
+@import "mod_text.css";
+@import "mod_list.css";
+@import "mod_table.css";
+@import "mod_image.css";
+
+@import "mod_form.css";
+@import "mod_search.css";
+@import "mod_related_info.css";
+@import "mod_indexblock.css";
+
+@import "mod_other.css";
+
+@import "frame_country_website.css";
+@import "../../shared/css/mod_button.css";
+
+
+/*other*/
+
+@import "color.css";
+
+
+

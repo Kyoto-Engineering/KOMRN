@@ -1,0 +1,557 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xml:lang="en" lang="en" xmlns="http://www.w3.org/1999/xhtml">
+  
+<!-- Mirrored from www.ia.omron.com/support/faq/answer/14/faq02497/index.html by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 15 Dec 2016 16:28:27 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=utf-8" /><!-- /Added by HTTrack -->
+<head>
+    <meta http-equiv="Content-Language" content="en" />
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta http-equiv="Content-Style-Type" content="text/css" />
+    <meta http-equiv="Content-Script-Type" content="text/javascript" />
+    <META NAME="DCSext.FAQNO" CONTENT="FAQ02497" />
+    <META NAME="DCSext.FAQCTR" CONTENT="D" />
+    <title>FAQ02497 for Servomotors / Servo Drivers | OMRON Industrial Automation</title>
+    <meta name="keywords" content="Servomotors / Servo Drivers,Motion &amp;amp; Drives,FAQ" />
+    <meta name="description" content="What concepts are applied for countermeasures for noise for a Servo System?" />
+    <script type="text/javascript" language="JavaScript" src="../../../../../resource/script/shared/default.html"><!----></script>
+    <link rel="stylesheet" type="text/css" media="all" href="../../../../../common/css/common.css" />
+    <link rel="stylesheet" type="text/css" media="all" href="../../../../../common/css_g/g_exist_ver3.css" />
+    <link rel="stylesheet" type="text/css" media="print" href="../../../../../common/css/print.css" />
+    <link rel="start index" href="../../../../../index-2.html" title="OMRON" />
+    <link rel="chapter" href="../../../../../index.html" title="Our Strengths" />
+    <link rel="chapter" href="../../../../../products/index.html" title="Products" />
+    <link rel="chapter" href="../../../../index.html" title="Technical Support" />
+    <link rel="chapter" href="../../../../../global_network/index.html" title="Global Network" />
+    <link rel="chapter" href="../../../../../corporate_profile/index-2.html" title="About Us" />
+    <link rel="chapter" href="../../../../../new/information/index.html" title="What's New" />
+    <link rel="shortcut icon" href="../../../../../favicon.ico" type="image/x-icon" /><link rel="alternate" href="../../../../../index.html" hreflang="en" />
+<script type="text/javascript" src="../../../../../common/js/common.js"></script>
+<script type="text/javascript" src="../../../../../common/js/rollover.js"></script>
+<script type="text/javascript" src="../../../../../common/js/cssSupport.js"></script>
+
+<script type="text/javascript" src="../../../../../shared/js/jquery.js"></script>
+<script type="text/javascript" src="../../../../../shared/js/function.js"></script>
+<script type="text/javascript" src="../../../../../shared/js/country_website.js"></script>
+<script type="text/javascript" src="../../../../../shared/js/global/ga9d07.js?20121001"></script>
+</head>
+  <body id="www-ia-omron-com" class="tmplC03 motion-drive faq_003">
+    <div class="omron-ia"><p class="non-visual"><a name="page-top" id="page-top">Page top</a></p>
+<div class="header-area">
+	<div class="site-identity">
+		<div class="site-logo">
+			<a href="../../../../../index.html"><img src="../../../../../shared/img/logo_01_b.gif" width="129" height="24" alt="OMRON" /></a>
+		</div>
+	<!-- /.site-identity --></div>
+	<div class="utilities">
+		<div class="country-select-area">
+			<p class="canpany">
+				<img src="../../../../../shared/img/header_txt_01.gif" width="129" height="11" alt="Industrial Automation" />
+			</p>
+			<p class="current-country">
+				<span class="area devider">
+					<a href="javascript:void(0)" onclick="box.countryWebsiteLinks();" id="country"><img src="../../../../../shared/img/icon_right_b.gif" width="3" height="9" alt="" class="iconA01" />Global</a>
+				</span>
+			</p>
+		</div>
+		<div class="function-area">
+			<ul>
+				<li class="first-child">
+					<a href="../../../../../contact/index.html"><img src="../../../../../shared/img/icon_right_b.gif" width="3" height="9" alt="" class="iconA01" />Contact</a>
+				</li>
+			</ul>
+			<div class="search">
+				<form action="http://search2.ia.omron.com/IA/" method="get" name="search_website" id="search_website" class="search-form">
+					<p><input type="text" value="" size="20" name="q" id="search_str" class="search-str" /><input type="submit" value="Search" class="submit60L" id=""  /></p>
+				</form>
+			<!-- /.search --></div>
+		<!-- /.function-area --></div>
+	<!-- /.utilities --></div>
+<!-- /.header-area --></div>
+<!-- === [global-navi-area] === -->
+<div class="global-navi-area">
+<p class="non-visual"><a name="global-navi" id="global-navi">Global Navigation</a></p>
+<ul>
+<li class="home"><a href="../../../../../index.html">Home</a></li>
+<li class="product"><a href="../../../../../product/index.html">Products</a></li>
+<li class="support stay-link"><a href="../../../../index-2.html">Technical Support</a></li>
+<li class="global-network"><a href="../../../../../global_network/index-2.html">Global Network</a></li>
+<li class="corporate-profile"><a href="../../../../../corporate_profile/index.html">About Us</a></li>
+</ul>
+<!-- === /[global-navi-area] === --></div><div class="bread-crumb-area">
+        <ul>
+          <li>
+            <a href="../../../../../index-2.html">Home</a>
+            <span class="separator">&gt;</span>
+          </li>
+          <li>
+            <a href="../../../../index.html">Technical Support</a>
+            <span class="separator">&gt;</span>
+          </li>
+          <li>
+            <a href="../../../index-2.html">FAQ</a>
+            <span class="separator">&gt;</span>
+          </li>
+          <li>
+            <a href="../../../8.html">Motion / Drives</a>
+            <span class="separator">&gt;</span>
+          </li>
+          <li>
+            <strong>Servomotors / Servo Drivers</strong>
+          </li>
+        </ul>
+      </div>
+      <div class="contents-area">
+        <div class="contents02-area">
+          <div class="contents03-area">
+            <div class="lead-area">
+              <p class="non-visual">
+                <a name="lead" id="lead">Lead Contents</a>
+              </p>
+              <div class="heading-lvl01A01">
+                <h1>FAQ02497 of Servomotors / Servo Drivers FAQ</h1>
+              </div>
+              <div class="textA01">
+                <p class="right">FAQ No. FAQ02497</p>
+              </div>
+            </div>
+            <div class="side-area">
+              <p class="non-visual">
+                <a name="related-info" id="related-info">Related Contents</a>
+              </p>
+<div class="related-info-area">
+                <div class="banner-listA01">
+                  <ul />
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="exist-primary-contents-area">
+            <p class="non-visual">
+              <a name="contents" id="contents">Primary Contents</a>
+            </p>
+            <div class="column1-faqQuestion">
+              <p>
+                <strong class="headline1">Question</strong>
+              </p>
+              <p>What concepts are applied for countermeasures for noise for a Servo System?</p>
+            </div>
+            <div class="column1-faqAnswer">
+              <p>
+                <strong class="headline1">Answer</strong>
+              </p>
+            </div>﻿<div class="content-items">
+  <div class="column1">
+    <div class="positionleft" style="width:px;">
+      <p>
+        <strong class="headline2">1. Countermeasures for Noise</strong>
+      </p>
+    </div>
+  </div>
+  <div class="column1">
+    <div class="positionleft" style="width:px;">
+      <p>The following four aspects are important when considering countermeasures for noise.<br/></p>
+    </div>
+  </div>
+  <div class="column1">
+    <div class="positionleft" style="width:px;">
+      <p>
+        <strong class="headline2">1-1. Investigate Noise Sources</strong>
+      </p>
+    </div>
+  </div>
+  <div class="column1">
+    <div class="positionleft" style="width:px;">
+      <p>Devices that cause rapid changes in voltage or current are noise sources.<br/></p>
+    </div>
+  </div>
+  <div class="column1">
+    <div class="positionleft" style="width:px;">
+      <p>Generally the larger the signal power, the stronger the noise source becomes.</p>
+    </div>
+  </div>
+  <div class="column1">
+    <div class="positionleft" style="width:px;">
+      <p>List the noise sources that surround your Servo System.</p>
+    </div>
+  </div>
+  <div class="column1">
+    <div class="positionleft" style="width:px;">
+      <p>
+        <strong class="headline2">1-2. Identify the Noise Transmission Path</strong>
+      </p>
+    </div>
+  </div>
+  <div class="column1">
+    <div class="positionleft" style="width:px;">
+      <p>Once you know the source, position, type, and characteristic of the noise, you can narrow down the noise transmission paths. For each possible noise transmission path, apply a countermeasure. Start with the most probable path. You can narrow down the noise transmission path by seeing how effective the countermeasure is.<br/></p>
+    </div>
+  </div>
+  <div class="column1">
+    <div class="positionleft" style="width:px;">
+      <p>Another method is to use shield boards connected to frame grounds to check the effect of electromagnetic waves, electromagnetic induction, and electrostatic coupling.</p>
+    </div>
+  </div>
+  <div class="column1">
+    <div class="positionleft" style="width:px;">
+      <p>
+        <strong class="headline2">1-3. Noise Countermeasures Must Not Be Removed until the End</strong>
+      </p>
+    </div>
+  </div>
+  <div class="column1">
+    <div class="positionleft" style="width:px;">
+      <p>Even if the countermeasure applied to a noise transmission path was ineffective, do not remove the countermeasure. There may be several noise transmission paths and the countermeasure that you applied may be blocking the second largest noise path.<br/></p>
+    </div>
+  </div>
+  <div class="column1">
+    <div class="positionleft" style="width:px;">
+      <p>
+        <strong class="headline2">1-4. Noise Transmission Paths That Are Common in Servo Systems</strong>
+      </p>
+    </div>
+  </div>
+  <div class="column1">
+    <div class="positionleft" style="width:px;">
+      <p>Leakage current from the motor electrostatic coupling to the frame ground becomes large in Servo Systems and Inverters.<br/></p>
+    </div>
+  </div>
+  <div class="column1">
+    <div class="positionleft" style="width:px;">
+      <p>If the current is not absorbed very well, the frame ground potential will become unstable. This increases cases where noise is transmitted to other devices through the frame ground.</p>
+    </div>
+  </div>
+  <div class="column1">
+    <div class="positionleft" style="width:px;">
+      <p>
+        <strong class="headline2">2. Actual Noise Countermeasures</strong>
+      </p>
+    </div>
+  </div>
+  <div class="column1">
+    <div class="positionleft" style="width:px;">
+      <p>Countermeasures for noise transmission paths as well as countermeasures against leakage current are described below.<br/></p>
+    </div>
+  </div>
+  <div class="column1">
+    <div class="positionleft" style="width:px;">
+      <p>
+        <strong class="headline2">2-1. Countermeasures for Electrostatic Coupling</strong>
+      </p>
+    </div>
+  </div>
+  <div class="column1">
+    <div class="positionleft" style="width:px;">
+      <div class="table-blockA01"><div class="table-blockA01"><table border="0" cellspacing="0" class="tableB01"><tr><td  class="heading center middle" ><strong>Countermeasure</strong></td><td  class="heading center middle" ><strong>Purpose</strong></td><td  class="heading center middle" ><strong>Precautions</strong></td><td  class="heading center middle" ><strong>Wiring</strong></td></tr><tr><td class="left middle" >Move the signal lines further apart.</td><td class="left middle" >To reduce electrostatic coupling</td><td class="left middle" >Move them at least 10 cm apart; 30 cm is sufficient.</td><td class="left middle" >Refer to Figure 1 below.</td></tr><tr><td class="left middle" >Use a conductive shield<br>(e.g., storage panel, metal pipe, shield).</td><td class="left middle" >To reduce electrostatic coupling</td><td class="left middle" >The conductor to be used as a shield must be connected to the frame ground.<br>The ground must be on one end only. (No current flow can be allowed in the shield.)</td><td class="left middle" >Refer to Figure 2 below.</td></tr></table></div></div>
+    </div>
+  </div>
+  <div class="column1">
+    <div class="positionleft" style="width:px;">
+      <p>
+        <strong class="headline2">2-2. Countermeasures for Conductive Coupling</strong>
+      </p>
+    </div>
+  </div>
+  <div class="column1">
+    <div class="positionleft" style="width:px;">
+      <div class="table-blockA01"><div class="table-blockA01"><table border="0" cellspacing="0" class="tableB01"><tr><td  class="heading center middle" ><strong>Countermeasure</strong></td><td  class="heading center middle" ><strong>Purpose</strong></td><td  class="heading center middle" ><strong>Precautions</strong></td><td  class="heading center middle" ><strong>Wiring</strong></td></tr><tr><td class="left middle" >Noise filter</td><td class="left middle" >Attenuation of high frequency components</td><td class="left middle" >After a noise filter is inserted, completely separate the lines to the control line and the power line.</td><td class="left middle" >Refer to Figure 3 below.</td></tr></table></div></div>
+    </div>
+  </div>
+  <div class="column1">
+    <div class="positionleft" style="width:px;">
+      <p>
+        <strong class="headline2">2-3. Countermeasures for Electromagnetic Induction</strong>
+      </p>
+    </div>
+  </div>
+  <div class="column1">
+    <div class="positionleft" style="width:px;">
+      <div class="table-blockA01"><div class="table-blockA01"><table border="0" cellspacing="0" class="tableB01"><tr><td  class="heading center middle" ><strong>Countermeasure</strong></td><td  class="heading center middle" ><strong>Purpose</strong></td><td  class="heading center middle" ><strong>Precautions</strong></td><td  class="heading center middle" ><strong>Wiring</strong></td></tr><tr><td class="left middle" >Move the signal lines further apart.</td><td class="left middle" >To reduce the magnetic field strength.</td><td class="middle" >Move them at least 10 cm apart; 30 cm is sufficient.</td><td class="left middle" >Refer to Figure 1 below.</td></tr><tr><td class="left middle" >Twist the signal line and return line together.</td><td class="left middle" >To reduce the area affected by a magnetic field. To mutually cancel out the effect of magnetic fields.</td><td class="middle" >Keep the twists small (5 cm or smaller).<br>Do not make the twists for the power line and the signal line at the same pitch.</td><td class="left middle" >Refer to Figure 4 below.</td></tr></table></div></div>
+    </div>
+  </div>
+  <div class="column1">
+    <div class="positionleft" style="width:px;">
+      <p>
+        <strong class="headline2">2-4. Countermeasure for Electromagnetic Waves</strong>
+      </p>
+    </div>
+  </div>
+  <div class="column1">
+    <div class="positionleft" style="width:px;">
+      <div class="table-blockA01"><div class="table-blockA01"><table border="0" cellspacing="0" class="tableB01"><tr><td  class="heading center middle" ><strong>Countermeasure</strong></td><td  class="heading center middle" ><strong>Purpose</strong></td><td  class="heading center middle" ><strong>Precautions</strong></td><td  class="heading center middle" ><strong>Wiring</strong></td></tr><tr><td class="left middle" >Noise filter</td><td class="left middle" >Attenuation of high frequency components</td><td class="left middle" >Keep the wiring short in areas in which noise is not attenuated by a noise filter.</td><td class="left middle" >Refer to Figure 5 below.</td></tr><tr><td class="left middle" >Use a conductive shield</td><td class="left middle" >To reduce electrostatic coupling</td><td class="left middle" >The conductor to be used as a shield must be connected to the frame ground.<br>The ground must be on one end only. (No current flow can be allowed in the shield.)</td><td class="left middle" >Refer to Figure 6 below.</td></tr></table></div></div>
+      <p class="note">
+        <em class="notemark">Note:</em>Use a noise filter for an output without a capacitor for the noise filter on the driver output side.</p>
+    </div>
+  </div>
+  <div class="column1">
+    <div class="positionleft" style="width:px;">
+      <p>
+        <strong class="headline2">2-5. Countermeasure for Leakage Current</strong>
+      </p>
+    </div>
+  </div>
+  <div class="column1">
+    <div class="positionleft" style="width:px;">
+      <div class="table-blockA01"><div class="table-blockA01"><table border="0" cellspacing="0" class="tableB01"><tr><td  class="heading center middle" ><strong>Countermeasure</strong></td><td  class="heading center middle" ><strong>Purpose</strong></td><td  class="heading center middle" ><strong>Precautions</strong></td><td  class="heading center middle" ><strong>Wiring</strong></td></tr><tr><td class="left middle" >Noise filter</td><td class="left middle" >To attenuate the common-mode (between power and frame ground) high-frequency component</td><td class="left middle" >Use a noise filter that can remove the common-mode noise (must be implemented even if it is only for the Control device).</td><td colspan="1" rowspan="2" class="left middle" >Refer to Figure 7 below.</td></tr><tr><td class="left middle" >Connect to ground<br>with a thick line at<br>the shortest<br>possible distance.</td><td class="left middle" >To let the leakage current escape quickly, and to reduce voltage changes.</td><td class="left middle" >The wire diameter must be at least 2 mm<sup>2</sup>.<br>Keep the wiring distance as short as possible.<br>Directly ground to 100 W or less.</td></tr></table></div></div>
+    </div>
+  </div>
+  <div class="column1">
+    <div class="positionleft" style="width:px;">
+      <div class="img">
+        <img src="../../include/faq02497/img/faq02497-6.jpg" alt="">
+      </div>
+    </div>
+  </div>
+  <div class="column1">
+    <div class="positionleft" style="width:px;">
+      <p>
+        <strong class="headline2">3. Other Noise Countermeasures</strong>
+      </p>
+    </div>
+  </div>
+  <div class="column1">
+    <div class="positionleft" style="width:px;">
+      <p>If noise-related errors persist even after applying noise countermeasures, try the following measures. They may be effective depending on the model of Position Controller and Servo Driver.<br/></p>
+    </div>
+  </div>
+  <div class="column1">
+    <div class="positionleft" style="width:px;">
+      <p>
+        <strong class="headline2">3-1. The Positioning Point Is Offset When Connected to Position Controller with a Pulse Output</strong>
+      </p>
+    </div>
+  </div>
+  <div class="column1">
+    <div class="positionleft" style="width:px;">
+      <p>
+        <strong class="headline2">Problem:</strong>
+      </p>
+    </div>
+  </div>
+  <div class="column1">
+    <div class="positionleft" style="width:px;">
+      <p>Noise is superimposed on the command pulse input signal, so the Driver takes the noise as a command signal.<br/></p>
+    </div>
+  </div>
+  <div class="column1">
+    <div class="positionleft" style="width:px;">
+      <p>
+        <strong class="headline2">Countermeasures:</strong>
+      </p>
+    </div>
+  </div>
+  <div class="column1">
+    <div class="positionleft" style="width:px;">
+      <p>Separate the power source.<br/>Use a dedicated power supply for the Controller's pulse output.<br/>It is effective to separate the ground line as well.</p>
+    </div>
+  </div>
+  <div class="column1">
+    <div class="positionleft" style="width:px;">
+      <p>Shield the pulse signal.<br/>If positioning is offset even after separating the power source, connect both ends of the command pulse signal line shield (shielded twisted-pair cable) to the frame ground.</p>
+    </div>
+  </div>
+  <div class="column1">
+    <div class="positionleft" style="width:px;">
+      <p class="note">
+        <em class="notemark"></em>Note:<br/>Make sure that the Controller and the Driver are always grounded to 100 &#937; or less.<br/>If the grounding is ineffective, it will make the problems worse.<br/></p>
+    </div>
+  </div>
+  <div class="column1">
+    <div class="positionleft" style="width:px;">
+      <p>
+        <strong class="headline2">3-2. The Positioning Point Is Offset When Connected to Connect to a Controller with an Analog Output</strong>
+      </p>
+    </div>
+  </div>
+  <div class="column1">
+    <div class="positionleft" style="width:px;">
+      <p>
+        <strong class="headline2">Problem:</strong>
+      </p>
+    </div>
+  </div>
+  <div class="column1">
+    <div class="positionleft" style="width:px;">
+      <p>Noise is superimposed on the feedback pulse (encoder signal), so the Controller takes the noise as a feedback pulse.<br/></p>
+    </div>
+  </div>
+  <div class="column1">
+    <div class="positionleft" style="width:px;">
+      <p>
+        <strong class="headline2">Countermeasures:</strong>
+      </p>
+    </div>
+  </div>
+  <div class="column1">
+    <div class="positionleft" style="width:px;">
+      <p>Shield the feedback pulse signal.<br/>Connect both ends (Controller and Driver) of the feedback pulse signal shield (shielded twisted-pair shielded cable) to the frame ground.<br/></p>
+    </div>
+  </div>
+  <div class="column1">
+    <div class="positionleft" style="width:px;">
+      <p class="note">
+        <em class="notemark"></em>Note:<br/>Make sure that the Controller and the Driver are always grounded to 100 &#937; or less.<br/>If the grounding is ineffective, it will make the problems worse.</p>
+    </div>
+  </div>
+  <div class="column1">
+    <div class="positionleft" style="width:px;">
+      <p>
+        <strong class="headline2">3-3. The Ground Is Bad</strong>
+      </p>
+    </div>
+  </div>
+  <div class="column1">
+    <div class="positionleft" style="width:px;">
+      <p>
+        <strong class="headline2">Problem:</strong>
+      </p>
+    </div>
+  </div>
+  <div class="column1">
+    <div class="positionleft" style="width:px;">
+      <p>If the ground to 100 &#937; is bad, noise will be transmitted from ground. If noise persists no matter what countermeasures are used, check the ground potential.<br/></p>
+    </div>
+  </div>
+  <div class="column1">
+    <div class="positionleft" style="width:px;">
+      <p>
+        <strong class="headline2">Countermeasures:</strong>
+      </p>
+    </div>
+  </div>
+  <div class="column1">
+    <div class="positionleft" style="width:px;">
+      <p>Connect to a good ground at 100 &#937; or less. </p>
+    </div>
+  </div>
+  <div class="column1">
+    <div class="positionleft" style="width:px;">
+      <p>Improve the condition of the ground.<br/>Separate the frame ground of high-power devices and low-power devices.</p>
+    </div>
+  </div>
+  <div class="column1">
+    <div class="positionleft" style="width:px;">
+      <p>Float the frame ground line of the Control device and other applicable devices</p>
+    </div>
+  </div>
+  <div class="column1">
+    <div class="positionleft" style="width:px;">
+      <p>Cut the shield of the shielded cable.<br/>These countermeasures are for worst case scenarios. If the Servo System is operating in an environment with serious noise problems, it will not operate at full capacity.</p>
+    </div>
+  </div>
+</div></div>
+          <div class="primary-contents-area">
+            <div class="link-listE01">
+              <iframe src="../../../../../view/rating/faq/ratingcc63-2.html?id=FAQ02497" frameborder="0" scrolling="no" class="faq-enquete" name="faq-enquete"><!----></iframe>
+            </div>
+            <h2 class="heading-lvl02A01">
+              <a name="h1-1" id="h1-1">Recommended Products</a>
+            </h2>
+            <div class="index-blockB01">
+              <div class="index-blockB01-group">
+                <div class="index-blockB01-unit">
+                  <h3 class="index-title">
+                    <a name="h1-1-1" id="h1-1-1" href="../../../../../products/family/1758/index.html">
+                      <img src="../../../../../shared/img/icon_01.gif" alt="" class="iconA01" height="9" width="3" />CS1W-NC[]71<img src="../../../../../product/thumbnail/family/m_1758.jpg" width="50" height="50" class="image" />
+                    </a>
+                  </h3>
+                  <div class="index-description">
+                    <p>Decrease TCO with Simple Operation, Reduced Wiring, Batch Settings, and Batch Management</p>
+                  </div>
+                </div>
+                <div class="index-blockB01-unit">
+                  <h3 class="index-title">
+                    <a name="h1-1-2" id="h1-1-2" href="../../../../../products/family/1992/index.html">
+                      <img src="../../../../../shared/img/icon_01.gif" alt="" class="iconA01" height="9" width="3" />CJ2<img src="../../../../../product/thumbnail/family/m_1992.jpg" width="50" height="50" class="image" />
+                    </a>
+                  </h3>
+                  <div class="index-description">
+                    <p>Introducing the Flagship CJ2 CPU Units, with Built-in Multifunctional Ethernet Port.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <h2 class="heading-lvl02A01">
+              <a name="h1-2" id="h1-2">Other Servomotors / Servo Drivers FAQ</a>
+            </h2>
+            <div class="section">
+              <ul class="link-listA01">
+                <li>
+                  <a href="../faq02541/index.html">
+                    <img src="../../../../../shared/img/icon_01.gif" alt="" class="iconA01" height="9" width="3" />What models of Servomotors with decelerators are used with SMARTSTEP A-series Servo Drivers?</a>
+                </li>
+                <li>
+                  <a href="../faq00436/index.html">
+                    <img src="../../../../../shared/img/icon_01.gif" alt="" class="iconA01" height="9" width="3" />Are there any Servomotors that have countermeasures against harmonics?</a>
+                </li>
+                <li>
+                  <a href="../faq02262/index.html">
+                    <img src="../../../../../shared/img/icon_01.gif" alt="" class="iconA01" height="9" width="3" />What is the procedure for manually adjusting gain when using a Servomotor?</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="local-navi-area">
+          <p class="non-visual">
+            <a name="local-navi" id="local-navi">Local Navigation</a>
+          </p>
+          <div class="local-naviA01">
+            <h2>
+              <a href="../../../index-2.html">
+                <img src="../../../../../shared/img/icon_01.gif" width="3" height="9" alt="" class="iconA01" />FAQ</a>
+            </h2>
+            <ul>
+              <li>
+                <a href="../../../8.html">
+                  <img src="../../../../../shared/img/icon_01.gif" width="3" height="9" alt="" class="iconA01" />Motion / Drives</a>
+              </li>
+              <ul>
+                <li>
+                  <a href="../../../8/9.html">
+                    <img src="../../../../../shared/img/icon_01.gif" width="3" height="9" alt="" class="iconA01" />inverters</a>
+                </li>
+                <li class="stay-link">
+                  <a href="../../../8/14.html">
+                    <img src="../../../../../shared/img/icon_01.gif" width="3" height="9" alt="" class="iconA01" />Servomotors / Servo Drivers</a>
+                </li>
+              </ul>
+            </ul>
+          </div><div class="local-naviB01">
+<ul>
+<li><a href="../../../index-2.html"><img src="../../../../../common/img/icon_01.gif" width="3" height="9" alt="" class="iconA01" />FAQ</a></li>
+<li><a href="../../../../guide/index-2.html"><img src="../../../../../common/img/icon_01.gif" width="3" height="9" alt="" class="iconA01" />Technical Guide</a></li>
+<li><a href="../../../../models/index-2.html"><img src="../../../../../common/img/icon_01.gif" width="3" height="9" alt="" class="iconA01" />Models with Standards Certification</a></li>
+<li><a href="../../../../sistemalibrary/index.html"><img src="../../../../../common/img/icon_01.gif" width="3" height="9" alt="" class="iconA01" />SISTEMA Library</a></li>
+<li><a href="../../../../elearning/index-2.html"><img src="../../../../../common/img/icon_01.gif" width="3" height="9" alt="" class="iconA01" />eLearning</a></li>
+<li><a href="../../../../glossary/index.html"><img src="../../../../../common/img/icon_01.gif" width="3" height="9" alt="" class="iconA01" />Glossary of Industrial Automation</a></li>
+</ul>
+<!-- /local-naviB01 --></div></div>
+      </div><!-- === [top-page-link-area] === -->
+<div class="top-page-link-area">
+<ul class="top-page-link">
+<li><a href="#page-top"><img src="../../../../../common/img/icon_03.gif" width="5" height="8" alt="" class="iconB01" />Top of page</a></li>
+</ul>
+<!-- top-page-link-area --></div>
+<!-- === /[top-page-link-area] === -->
+
+<!-- === [footer-area] === -->
+<div class="footer-area">
+<p class="non-visual"><a name="footer" id="footer">Site Information</a></p>
+<div class="realizing">
+<p><a href="../../../../../realizing/index.html"><img src="../../../../../common/img/logo_02.gif" width="86" height="19" alt="realizing" /></a></p>
+<!-- realizing --></div>
+<div class="footer-link">
+<ul>
+<li><a href="http://www.omron.com/" target="_blank"><img src="../../../../../common/img/icon_01.gif" width="3" height="9" alt="" class="iconA01" />OMRON Corporation<img src="../../../../../common/img/icon_07.gif" width="14" height="11" alt="" class="external-win" /></a></li>
+<li><a href="../../../../../sitemap.html"><img src="../../../../../common/img/icon_01.gif" width="3" height="9" alt="" class="iconA01" />Sitemap</a></li>
+<li><a href="../../../../../terms/index.html"><img src="../../../../../common/img/icon_01.gif" width="3" height="9" alt="" class="iconA01" />Terms of Use</a></li>
+<li><a href="../../../../../privacy/index.html"><img src="../../../../../common/img/icon_01.gif" width="3" height="9" alt="" class="iconA01" />Privacy Policy</a></li>
+</ul>
+<address>&copy; Copyright OMRON Corporation 2007 - 2016. All Rights Reserved.</address>
+<!-- footer-link --></div>
+<!-- === /[footer-area] === --></div>
+</div>
+  </body>
+
+<!-- Mirrored from www.ia.omron.com/support/faq/answer/14/faq02497/index.html by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 15 Dec 2016 16:28:27 GMT -->
+</html>

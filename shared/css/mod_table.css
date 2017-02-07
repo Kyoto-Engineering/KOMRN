@@ -1,0 +1,169 @@
+/*-------------------------------------------------------------------------
+ TABLE
+-------------------------------------------------------------------------*/
+
+/*	.table-blockA01
+------------------------------------*/
+div.table-blockA01{
+	margin-bottom:1.49em;
+}
+div.table-blockA01 table.tableA01{
+	width:100%;
+	clear:both;
+}
+div.table-blockA01 table.tableA01 caption{
+	margin-bottom:0.49em;
+	text-align:left;
+}
+div.table-blockA01 table.tableA01 tr.even{
+	background-color:#fafafa;
+}
+div.table-blockA01 table.tableA01,
+div.table-blockA01 table.tableA01 th,
+div.table-blockA01 table.tableA01 td{
+	padding:0.2em 5px;
+	border:1px solid #969696;
+	border-collapse:collapse;
+}
+div.table-blockA01 table.tableA01 th{
+	background-color:#e1e1e1;
+	vertical-align:middle;
+	font-weight:bold;
+}
+div.table-blockA01 table.tableA01 tbody tr.first-child th,
+div.table-blockA01 table.tableA01 tbody tr.first-child td{
+	border-top:2px solid #969696;
+}
+div.table-blockA01 table.tableA01 td{
+	vertical-align:top;
+}
+div.table-blockA01 table.tableA01 .nowrap-cell{
+	white-space:nowrap;
+}
+div.table-blockA01 table.tableA01 .block-link-cell{
+	font-weight:bold;
+}
+div.table-blockA01 table.tableA01 .block-link-cell a{
+	padding-left:7px;
+	text-indent:-6px;
+}
+div.table-blockA01 table.tableA01 .block-link-cell a,
+div.table-blockA01 table.tableA01 .block-link-cell span{
+	display:block;
+}
+div.table-blockA01 table.tableA01 .block-link-cell span{
+	padding-left:7px;
+}
+div.table-blockA01 table.tableA01 td.discontinued{
+	width:220px;
+}
+div.table-blockA01 table.tableA01 td.discontinued span.label{
+	display:block;
+	float:right;
+	width:38%;
+	white-space:nowrap;
+	text-align:right;
+	color:#A00000;
+}
+div.table-blockA01 table.tableA01 td.discontinued a{
+	display:block;
+	float:left;
+	width:58%;
+	padding-left:6px;
+	text-indent:-6px;
+}
+div.table-blockA01 table.tableA01 td a.inactive{
+	cursor:default;
+	text-decoration:none;
+	color:#ccc;
+}
+div.table-blockA01 table.tableA01 td span{
+	white-space:nowrap;
+}
+div.table-blockA01 table.tableA01 td span.file-size{
+	margin-left:2px;
+}
+
+/*	.table-blockB01
+------------------------------------*/
+div.table-blockB01{
+	margin-bottom:1.49em;
+}
+div.table-blockB01 table.tableB01{
+	width:100%;
+	clear:both;
+}
+div.table-blockB01 table.tableB01 caption{
+	margin-bottom:0.49em;
+	text-align:left;
+}
+div.table-blockB01 table.tableB01 th{
+	padding:0.73em 10px 1.25em 13px;
+	border-top:3px solid #CCCCCC;
+	vertical-align:top;
+	font-weight:normal;
+}
+div.table-blockB01 table.tableB01 td{
+	padding:0.93em 10px 1.25em 13px;
+	border-top:1px solid #CCCCCC;
+}
+
+/*	.form-blockA01
+------------------------------------*/
+div.form-blockA01{
+	margin-bottom:1.49em;
+	font-size:92%;
+}
+div.form-blockA01 table.tableA01{
+	width:100%;
+	clear:both;
+}
+div.form-blockA01 table.tableA01 caption{
+	margin-bottom:0.49em;
+	text-align:left;
+}
+div.form-blockA01 table.tableA01 th{
+	background-color:#E6EEF9;
+	border-top:3px solid #B3CCED;
+	vertical-align:top;
+	font-weight:normal;
+}
+div.form-blockA01 table.tableA01 th span{
+	display:block;
+	padding:0.18em 7px 1.62em;
+	border-top:1px solid #FFFFFF;
+}
+div.form-blockA01 table.tableA01 td{
+	padding:0.45em 12px 1.62em;
+	border-top:1px solid #CCCCCC;
+}
+div.form-blockA01 table.tableA01 input.form-text,
+div.form-blockA01 table.tableA01 textarea.form-textarea{
+	width:222px;
+	padding:1px 4px;
+}
+div.form-blockA01 table.tableA01 .form-list{
+	width:100%;
+}
+div.form-blockA01 table.tableA01 .form-list:after{
+	display:block;
+	content:".";
+	clear:both;
+	visibility:hidden;
+	height:0;
+}
+div.form-blockA01 table.tableA01 .form-list li{
+	float:left;
+	width:40%;
+	padding:0.54em 0 0.54em 22px;
+	text-indent:-22px;
+	/text-indent:-26px;
+}
+div.form-blockA01 table.tableA01 .form-list li input.form-checkbox,
+div.form-blockA01 table.tableA01 .form-list li input.form-radio{
+	position:relative;
+	top:4px;
+	left:0;
+	margin-right:9px;
+	/margin-right:2px;
+}

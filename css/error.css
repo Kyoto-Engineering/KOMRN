@@ -1,0 +1,37 @@
+
+
+/*------------------------------------
+	error
+------------------------------------*/
+
+div.search{
+	padding-top: 0.25em;
+}
+
+div.search input.search-str {
+	padding:1px 4px;
+	border:1px solid #c6c6c6;
+	vertical-align: middle;
+	color:#555;
+}
+
+div.search input.submit-btn {
+	margin-left:5px;
+	vertical-align:middle;
+}
+
+div.primary-contents-area img.iconC01 {
+	margin-right: 6px;
+}
+
+table.definition-tableA01 {
+	margin-top: 1.5em;
+	width: 100%;
+}
+table.definition-tableA01 th {
+	width: 297px;
+	font-weight: bold;
+}
+table.definition-tableA01 td {
+	width: 386px;
+}

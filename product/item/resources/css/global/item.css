@@ -1,0 +1,171 @@
+.print_txt {
+	display: none;
+}
+div.action-block-series,
+div.action-block-about {
+	margin-bottom: 16px;
+	padding: 1px;
+	background-color: #F5F5F5;
+	border: 1px solid #CCCCCC;
+}
+div.action-block-series p.ttl,
+div.action-block-about p.ttl {
+	height: 20px;
+	line-height: 20px;
+	font-size: 100%;
+	text-align: center;
+}
+div.action-block-series .action-block-series-inner,
+div.action-block-about .action-block-about-inner {
+	background-color: #fff;
+	border: 1px solid #ccc;
+}
+div.action-block-about .action-block-about-inner {
+	border-top: 0;
+}
+div.action-block-series .imageBlock {
+	padding: 6px;
+	position:relative;
+	_overflow:visible;
+	_height:1px;
+	zoom:1;
+	/*\*//*/
+	overflow:hidden;
+	/**/
+	z-index:0;
+}
+div.action-block-series .imageBlock:after{
+	content:".";
+	display:block;
+	height:0;
+	clear:both;
+	visibility:hidden;
+}
+div.action-block-series .imageBlock .imgL {
+	float: left;
+	margin: 0 6px 4px 0;
+}
+div.action-block-series .imageBlock p {
+	margin-bottom: 0;
+	text-align: left;
+}
+div.action-block-series .imageBlock p.product_name {
+	font-weight: bold;
+}
+div.action-block-series .action-btn-list {
+	width: 204px;
+	padding-left: 6px;
+	position:relative;
+	_overflow:visible;
+	_height:1px;
+	zoom:1;
+	/*\*//*/
+	overflow:hidden;
+	/**/
+	z-index:0;
+}
+div.action-block-series .action-btn-list:after {
+	content:".";
+	display:block;
+	height:0;
+	clear:both;
+	visibility:hidden;
+}
+div.action-block-series .action-btn-list li {
+	float: left;
+	margin: 0 4px 4px 0;
+}
+div.action-block-series .action-btn-list li a {
+	display: block;
+	width: 97px;
+	background: url(../../img/action-btn-list.gif) no-repeat 0 0;
+	text-align: center;
+	line-height: 23px;
+	font-weight: bold;
+}
+div.action-block-about .inner_block {
+	border-top: 1px solid #e5e5e5;
+	padding: 10px 6px;
+}
+div.action-block-about ul {
+	margin: 0 9px;
+}
+div.action-block-about ul li {
+	margin-top: 5px;
+}
+div.action-block-about ul li.first-child {
+	margin-top: 0;
+}
+div.action-block-about ul li a,
+div.action-block-about ul li.list_off {
+	display: block;
+	width: 180px;
+	height: 20px;
+	background-image: url(../../img/button_light_sprite.gif);
+	background-repeat: no-repeat;
+	text-align: center;
+	line-height: 20px;
+	font-weight: bold;
+	font-size: 12px;
+}
+div.action-block-about ul li a:link,
+div.action-block-about ul li a:visited,
+div.action-block-about ul li a:active,
+div.action-block-about ul li a:hover{
+	text-decoration:none;
+	color:#666666;
+}
+div.action-block-about ul li a:link	{background-position:	0px	-80px;}
+div.action-block-about ul li a:visited	{background-position:	0px	-80px;}
+div.action-block-about ul li a:hover	{background-position:-360px -80px;}
+div.action-block-about ul li a:focus	{background-position:-540px -80px;}
+div.action-block-about ul li a:active,
+div.action-block-about ul li.list_off	{background-position:-180px -80px;}
+div.action-block-about ul li a img,
+div.action-block-about ul li.list_off img {
+	position: relative;
+	top: 2px;
+	_top: 3px;
+	margin-right: 6px;
+}
+div.action-block-about .imembers {
+	margin-bottom: 3px;
+}
+div.action-block-about h3.heading-lvl04A01 {
+	margin-bottom: 6px;
+	padding-top: 0.2em;
+	padding-bottom: 0.2em;
+	padding-left: 5px;
+	border-left: 5px solid #ccc;
+	font-weight: bold;
+	font-size: 100%;
+}
+div.action-block-about table {
+	border-collapse: collapse;
+	width: 100%;
+}
+div.action-block-about th {
+	border: 1px solid #e5e5e5;
+	background-color: #fcfcfc;
+	font-weight: normal;
+	text-align: left;
+	padding: 6px 9px;
+}
+div.action-block-about td {
+	border: 1px solid #e5e5e5;
+	background-color: #fff;
+	font-weight: bold;
+	text-align: center;
+	padding: 6px 9px;
+}
+div.action-block-about .red {
+	color: #f00;
+}
+div.action-block-about .green {
+	color: #090;
+}
+
+.product-header-area .heading-stop h1 {
+	padding-right: 150px;
+	min-height: 32px;
+}

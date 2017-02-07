@@ -1,0 +1,128 @@
+
+
+/*------------------------------------
+	textA01
+------------------------------------*/
+
+div.textA01{
+	margin-top:1.49em;/*18px*/
+}
+
+div.section div.textA01:first-child,
+.heading-lvl03A01 + div.textA01,
+.heading-lvl03A01-link + div.textA01,
+.heading-lvl04A01 + div.textA01,
+.heading-lvl04A01-link + div.textA01,
+.heading-lvl05A01 + div.textA01,
+.heading-lvl05A01-link + div.textA01,
+.form-headingA01 + div.textA01{
+	margin-top:0.83em;/*10px*/
+}
+
+div.textA01-h{
+	margin-top:0.83em;/*10px*/
+}
+
+
+/*------------------------------------
+	leadA01
+------------------------------------*/
+
+div.leadA01 p{
+	margin-top:1.12em !important;/*18px*/
+	font-size:133% !important;
+	line-height:1.25 !important;
+	font-weight:bold !important;
+}
+
+
+/*------------------------------------
+	definition-blockA01
+------------------------------------*/
+
+dl.definition-blockA01{
+	margin-left:17px;
+}
+
+dl.definition-blockA01 dt{
+	margin-top:0.83em;/*10px*/
+	font-weight:bold;
+}
+
+dl.definition-blockA01 dd{
+	margin-top:0.83em;/*10px*/
+}
+
+
+/*------------------------------------
+	note-blockA01
+------------------------------------*/
+
+dl.note-blockA01{
+	margin-top:1.62em;/*18px*/
+}
+
+dl.note-blockA01 dt{
+	font-weight:normal;
+	font-size:92%;
+}
+
+
+/*------------------------------------
+	caption
+------------------------------------*/
+
+p.caption{
+	margin-top:0.9em;/*10px*/
+	font-size:92%;
+	line-height:1.2;
+}
+
+
+
+/*------------------------------------
+	closed
+------------------------------------*/
+
+p.closed{
+	margin-top:0.46em;/*5px*/
+	font-size:92%;
+	line-height:1.2;
+	color: #c40000;
+}
+
+
+/*------------------------------------
+	news-block
+------------------------------------*/
+
+div.news-block-unit{
+	margin-top:1.49em;/*18px*/
+	background:url(../img/news_block_bg_01.gif) top left repeat-x;
+}
+
+div.news-block div.news-block-unit:first-child,
+div.news-block div.first-child{
+	margin-top:0;
+	background:none;
+}
+
+
+div.news-block-unit p.date{
+	padding-top:1.49em;/*18px*/
+}
+
+div.news-block-unit .lvl01{
+	margin-top:1.12em;/*18px*/
+	font-size:133%;
+	font-weight:bold;
+	text-align:center;
+}
+
+div.news-block-unit p.sub-title{
+	margin-top:0.42em;/*5px*/
+	font-weight:bold;
+	text-align:center;
+}
+
+

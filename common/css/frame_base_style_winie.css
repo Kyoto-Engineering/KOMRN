@@ -1,0 +1,86 @@
+
+
+
+/*------------------------------------
+	anchor
+------------------------------------*/
+
+div.header-area a:link,
+div.global-navi-area a:link,
+div.bread-crumb-area a:link,
+div.main-image-area a:link,
+div.footer-area a:link,
+div.top-page-link-area a:link,
+div.local-navi-area a:link,
+div.primary-contents-area a:link,
+div.lead-area a:link,
+div.global-network-area a:link,
+div.related-info-area a:link{
+	_text-decoration:underline;
+	_color:#1a66ca;
+}
+
+div.header-area a:visited,
+div.global-navi-area a:visited,
+div.bread-crumb-area a:visited,
+div.main-image-area a:visited,
+div.footer-area a:visited,
+div.top-page-link-area a:visited,
+div.local-navi-area a:visited,
+div.primary-contents-area a:visited,
+div.lead-area a:visited,
+div.global-network-area a:visited,
+div.related-info-area a:visited{
+	_text-decoration:underline;
+	_color:#868fca;
+}
+
+div.header-area a:hover,
+div.global-navi-area a:hover,
+div.bread-crumb-area a:hover,
+div.main-image-area a:hover,
+div.footer-area a:hover,
+div.top-page-link-area a:hover,
+div.local-navi-area a:hover,
+div.primary-contents-area a:hover,
+div.lead-area a:hover,
+div.global-network-area a:hover,
+div.related-info-area a:hover{
+	_text-decoration:underline;
+	_color:#0046a0;
+}
+
+div.header-area a:active,
+div.global-navi-area a:active,
+div.bread-crumb-area a:active,
+div.main-image-area a:active,
+div.footer-area a:active,
+div.top-page-link-area a:active,
+div.local-navi-area a:active,
+div.primary-contents-area a:active,
+div.lead-area a:active,
+div.global-network-area a:active,
+div.related-info-area a:active{
+	_text-decoration:underline;
+	_color:#0046a0;
+}
+
+
+
+
+/*------------------------------------
+	for Win IE
+------------------------------------*/
+script {
+	_behavior: url(defer.html);
+}
+div.local-navi-area li,
+div.lead-area *,
+div.primary-contents-area *,
+div.related-info-area *,
+div.footer-area li {
+	_behavior: url(cssSupport.html);
+}
+div.global-network-area * {
+	_behavior: null;
+}

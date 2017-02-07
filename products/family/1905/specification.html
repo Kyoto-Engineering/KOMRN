@@ -1,0 +1,982 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<html xml:lang="en" lang="en" xmlns="http://www.w3.org/1999/xhtml">
+    
+<!-- Mirrored from www.ia.omron.com/products/family/1905/specification.html by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 16 Dec 2016 07:52:31 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=utf-8" /><!-- /Added by HTTrack -->
+<head>
+        <meta http-equiv="Content-Language" content="en" />
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <meta http-equiv="Content-Style-Type" content="text/css" />
+        <meta http-equiv="Content-Script-Type" content="text/javascript" />
+        <title>
+            CS1W-B7A CS-series B7A Interface Unit/Specifications | OMRON Industrial Automation
+        </title>
+        <meta name="keywords" content="Automation Systems,Programmable Controllers,CS1,Basic I/O Units,CS1W-B7A" />
+        <meta name="description" content="CS-series B7A Interface Unit It transmits 16 points of I/O signals per word with a pair of cables. Easy and minimized wiring effort." />
+        
+
+<link rel="alternate" href="../../../index.html" hreflang="en" />
+<link rel="stylesheet" type="text/css" media="all" href="../../../resources/css/common22f8.css?201611151200" />
+<link rel="stylesheet" type="text/css" media="all" href="../../../resources/css/global/common22f8.css?201611151200" />
+<link rel="stylesheet" type="text/css" media="all" href="../../../resources/css/frame_utility_tridion22f8.css?201611151200" />
+<link rel="stylesheet" type="text/css" media="print" href="../../../resources/css/print22f8.css?201611151200" />
+<script type="text/javascript" src="../../../resources/js/jquery22f8.js?201611151200"></script>
+<script type="text/javascript" src="../../../resources/js/function22f8.js?201611151200"></script>
+<script type="text/javascript" src="../../../resources/js/country_website22f8.js?201611151200"></script>
+<script type="text/javascript" src="../../../resources/js/global/ga22f8.js?201611151200"></script>
+<link rel="stylesheet" type="text/css" media="all" href="../../../resources/css/jquery-ui22f8.css?201611151200" charset='UTF-8'/>
+<link rel="stylesheet" type="text/css" media="all" href="../../../resources/css/jquery.multiselect22f8.css?201611151200" charset='UTF-8'/>
+<script type="text/javascript" language="JavaScript" src="../../../common/js/marketing_tag22f8.js?201611151200"></script>
+<script type="text/javascript" src="../../../resources/js/jquery-ui.min22f8.js?201611151200" charset='UTF-8'></script>
+<script type="text/javascript" src="../../../resources/js/jquery.ex-table-filter22f8.js?201611151200" charset='UTF-8'></script>
+<script type="text/javascript" src="../../../resources/js/jquery.tablesorter.min22f8.js?201611151200" charset='UTF-8'></script>
+<script type="text/javascript" src="../../../resources/js/filter22f8.js?201611151200" charset='UTF-8'></script>
+<link rel="shortcut icon" href="../../../resources/images/favicon.ico" type="image/x-icon" />
+
+        <link rel="stylesheet" type="text/css" media="all" href="../../../resources/css/tablesorter6c9b.css?201611150900" />
+        <script type="text/javascript" src="../../../resources/js/global/products6c9b.js?201611150900" charset='UTF-8'></script>
+
+    </head>
+    <body id="www-ia-omron-com" class="layoutC03 automation-systems">
+
+        <!-- === [omron-ia] === -->
+        <div class="omron-ia">
+            <p class="non-visual">
+                <a name="page-top" id="page-top">
+                    Page top
+                </a>
+            </p>
+
+
+
+
+<div class="header-area">
+     <div class="site-identity">
+          <div class="site-logo">
+               <a href="../../../index.html"><img src="../../../Images/logo_01_b13-260967.gif"  width="129" height="24" alt="OMRON" /></a>
+          </div>
+          <!-- /.site-identity -->
+     </div>
+     <div class="utilities">
+          <div class="country-select-area">
+               <p class="canpany"><img src="../../../Images/header_txt_0113-195.gif"  width="129" height="11" alt="" /></p>
+               <p class="current-country">
+                    <span class="area devider">
+                        <a href="javascript:void(0)" onclick="box.countryWebsiteLinks();" id="country"><img src="../../../resources/images/icon_right_b.gif" width="3" height="9" alt="" class="iconA01" />Global</a>
+                    </span>
+               </p>
+          </div>
+          <div class="function-area">
+               <ul>
+
+
+                    <li class="first-child">
+
+
+                    <a href="../../../view/contact/input.html" ><img src="../../../resources/images/icon_right_b.gif" width="3" height="9" alt="" class="iconA01" />Contact</a>
+                    </li>
+
+               </ul>
+               <div class="search">
+<form action="http://search2.ia.omron.com/IA/" method="get" name="search_website" id="search_website" class="search-form">
+	<p>
+		<input type="text" value="" size="20" name="q" id="search_str" class="search-str" />
+		<input type="submit" value="Search" class="submit60L" />
+	</p>
+</form>
+                    <!-- /.search -->
+               </div>
+               <!-- /.function-area -->
+          </div>
+          <!-- /.utilities -->
+     </div>
+     <!-- /.header-area -->
+</div>
+
+<div class="global-navi-area">
+<ul>
+
+<li>
+<a href="../../../index.html">Home</a>
+</li>
+
+<li class="stay-link">
+<a href="../../index-2.html">Products</a>
+</li>
+
+<li>
+<a href="../../../support/index-2.html">Technical Support</a>
+</li>
+
+<li>
+<a href="../../../global_network/index-2.html">Global Network</a>
+</li>
+
+<li>
+<a href="../../../corporate_profile/index.html">About Us</a>
+</li>
+
+</ul>
+</div> 
+<div class="bread-crumb-area">
+<ul>
+
+
+<li><a href="../../../index.html" >Home</a><span class="separator">&gt;</span></li>
+
+<li><a href="../../index-2.html" >Products</a><span class="separator">&gt;</span></li>
+
+<li><a href="../../category/index.html" >Product Category</a><span class="separator">&gt;</span></li>
+
+<li><a href="../../category/automation-systems/index-2.html" >Automation Systems</a><span class="separator">&gt;</span></li>
+
+<li><a href="../../category/automation-systems/programmable-controllers/index-2.html" >Programmable Controllers</a><span class="separator">&gt;</span></li>
+
+<li><a href="../../category/automation-systems/programmable-controllers/cs1/index.html" >CS1</a><span class="separator">&gt;</span></li>
+
+<li><a href="../../category/automation-systems/programmable-controllers/cs1/basic-io-units/index.html" >Basic I/O Units</a><span class="separator">&gt;</span></li>
+
+<li><strong>CS1W-B7A</strong></li>
+
+
+</ul>
+</div>
+
+            <!-- === [contents-area] === -->
+            <div class="contents-area">
+
+                <!-- === [inner-contents-area] === -->
+                <div class="inner-contents-area">
+                    <!-- === [upper-contents-area] === -->
+                    <div class="upper-contents-area">
+                        <!-- === [lead-area] === -->
+                        <div class="lead-area">
+
+
+
+
+<!-- --------------------------------------------------------------------Product Family Start--------------------------------------------------------- -->
+<div class="heading-h1">
+
+
+    <h1>
+        CS1W-B7A
+    </h1>
+    <p class="sub-title">
+        CS-series B7A Interface Unit
+    </p>
+</div>
+<div class="image-blockA01">
+    <div class="image-left">
+        <p class="image">
+
+            <img src="../../../Images/l_1905-13-118622-198x198.jpg" width="198" height="198" alt="CS1W-B7A" class="nopic" />
+
+
+        </p>
+    </div>
+    <div class="description">
+        <h2 class="heading-B02">
+            It transmits 16 points of I/O signals per word with a pair of cables. Easy and minimized wiring effort.
+        </h2>
+        
+
+
+
+
+        <div class="item-list-link">
+            <p>
+                <a href="itemlist/index.html">
+                    <img src="../../../resources/images/icon_right_b.gif" width="3" height="9" alt="" class="iconA01" />
+                    Item list of CS1W-B7A
+                </a>
+            </p>
+        </div>
+    </div>
+<!-- /.image-blockA01 -->
+</div>
+
+
+
+                        </div>
+                        <!-- === /[lead-area] === -->
+
+
+                        <!-- === [utility-area] === -->
+                        <div class="utility-area">                         
+                       
+                            <div class="action-block">
+                                <p>
+                                    about this Product Family
+                                </p>
+                                <ul>
+                                    <li class="first-child">
+                                        <a href="../../../view/inquiry/b5family/input3c01.html?b5Id=1905">
+                                            Inquiry of this Product
+                                        </a>
+                                    </li>                                 
+                                </ul>
+                            </div>
+
+
+
+
+<div class="related-info-blockA01 vertical-slide">
+
+    <p>
+        <span>Related Contents</span>
+    </p>
+
+
+        <ul>
+            <li class="first-child">
+                <span>Common</span>
+            </li>
+            <li>
+                <ul class="list-indent01">
+
+
+                    <li class="first-child">
+
+
+                        <a href="../../../product/cautions/index.html">
+                            <img src="../../../resources/images/icon_right_b.gif" width="3" height="9" alt="" class="iconA01" />
+                            Cautions
+                        </a>
+                    </li>
+
+
+
+                    <li>
+
+                        <a href="../../../support/guide/index.html">
+                            <img src="../../../resources/images/icon_right_b.gif" width="3" height="9" alt="" class="iconA01" />
+                            Technical Guide
+                        </a>
+                    </li>
+
+
+
+                    <li>
+
+                        <a href="../../../support/models/index.html">
+                            <img src="../../../resources/images/icon_right_b.gif" width="3" height="9" alt="" class="iconA01" />
+                            Models with Standards Certification
+                        </a>
+                    </li>
+
+
+
+                    <li>
+
+                        <a href="../../../support/faq/index.html">
+                            <img src="../../../resources/images/icon_right_b.gif" width="3" height="9" alt="" class="iconA01" />
+                            FAQ 
+                        </a>
+                    </li>
+
+                </ul>
+            </li>
+        </ul>
+
+        <ul>
+            <li class="first-child">
+                <span>Automation Systems</span>
+            </li>
+            <li>
+                <ul class="list-indent01">
+
+
+                    <li class="first-child">
+
+
+                        <a href="../../applications/category/automation-systems/index.html">
+                            <img src="../../../resources/images/icon_right_b.gif" width="3" height="9" alt="" class="iconA01" />
+                            Applications 
+                        </a>
+                    </li>
+
+                </ul>
+            </li>
+        </ul>
+
+        <ul>
+            <li class="first-child">
+                <span>Programmable Controllers</span>
+            </li>
+            <li>
+                <ul class="list-indent01">
+
+
+                    <li class="first-child">
+
+
+                        <a href="../../index/automation-systems/programmable-controllers/index.html">
+                            <img src="../../../resources/images/icon_right_b.gif" width="3" height="9" alt="" class="iconA01" />
+                            Item A to Z Index 
+                        </a>
+                    </li>
+
+
+
+                    <li>
+
+                        <a href="../../../support/glossary/automation-systems/programmable-controllers/index.html">
+                            <img src="../../../resources/images/icon_right_b.gif" width="3" height="9" alt="" class="iconA01" />
+                            Glossary of Industrial Automation 
+                        </a>
+                    </li>
+
+                </ul>
+            </li>
+        </ul>
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- /.related-info-blockA01 -->
+</div>
+
+
+
+                           
+                        </div>
+                        <!-- === /[utility-area] === -->
+
+                    </div>
+                    <!-- === /[upper-contents-area] === -->
+
+                    <!-- === [primary-contents-area] === -->
+                    <div class="primary-contents-area">
+                        <div class="tabpanel-blockA01">
+
+
+
+
+
+
+<div class="tab-block">
+    <ul class="tabs">
+
+
+
+
+
+
+
+        <li>
+            <a href="feature.html">Features</a>
+
+        </li>
+
+
+
+
+
+
+
+
+        <li>
+            <a href="lineup.html">Lineup</a>
+
+        </li>
+
+
+
+
+
+
+
+
+        <li class="active">
+            <span>Specifications</span>
+
+        </li>
+
+
+
+
+
+
+
+
+        <li>
+            <a href="dimension.html">Dimensions</a>
+
+        </li>
+
+
+
+
+
+
+        <li>
+            <a href="download/catalog.html">Catalog</a>
+
+        </li>
+
+
+
+
+
+    </ul>
+</div><!-- /.tab-block -->
+
+<div class="editable-block">
+
+
+<p class="date-line">last update: November 12, 2012</p>
+
+
+
+
+
+
+
+
+
+<h4 class="heading-A02">B7A Communications Specifications</h4>
+
+
+
+
+
+
+
+
+
+
+<div class="component-blockA01">
+
+
+
+
+
+    <div class="text">
+        <p>
+            
+          <div class="table-blockA01">
+            <table border="0" cellspacing="0" class="tableA01">
+              <tr>
+                <TH class="heading center middle">
+                  <strong>Item</strong>
+                </TH>
+                <td colspan="3" rowspan="1" class="heading center middle">
+                  <strong>Specifications</strong>
+                </td>
+              </tr>
+              <tr>
+                <TH class="heading left middle">
+                  <strong>Transmission method</strong>
+                </TH>
+                <td colspan="3" rowspan="1" class="left middle">One-way time-sharing multiplex transmissions</td>
+              </tr>
+              <tr>
+                <TH colspan="1" rowspan="2" class="heading left middle">
+                  <strong>Transmission delay<br />(communications delay<br />on transmission path)</strong>
+                </TH>
+                <td class="left middle">High-speed</td>
+                <td colspan="2" rowspan="1" class="left middle">3 ms typical, 5 ms max.</td>
+              </tr>
+              <tr>
+                <td class="left middle">Standard</td>
+                <td colspan="2" rowspan="1" class="left middle">19.2 ms typical, 31 ms max.</td>
+              </tr>
+              <tr>
+                <TH colspan="1" rowspan="4" class="heading left middle">
+                  <strong>Transmission points</strong>
+                </TH>
+                <td class="left middle">CS1W-B7A12</td>
+                <td colspan="2" rowspan="1" class="left middle">32 inputs (2 ports)</td>
+              </tr>
+              <tr>
+                <td class="left middle">CS1W-B7A02</td>
+                <td colspan="2" rowspan="1" class="left middle">32 outputs (2 ports)</td>
+              </tr>
+              <tr>
+                <td class="left middle">CS1W-B7A21</td>
+                <td colspan="2" rowspan="1" class="left middle">16 inputs (1 port), 16 outputs (1 port)</td>
+              </tr>
+              <tr>
+                <td class="left middle">CS1W-B7A22</td>
+                <td colspan="2" rowspan="1" class="left middle">32 inputs (2 ports), 32 outputs (2 ports)</td>
+              </tr>
+              <tr>
+                <TH class="heading left middle">
+                  <strong>External power supply<br />voltage *1</strong>
+                </TH>
+                <td colspan="3" rowspan="1" class="left middle">12 to 24 V DC (allowable voltage range: 10.8 to 26.4 V)</td>
+              </tr>
+              <tr>
+                <TH colspan="1" rowspan="4" class="heading left middle">
+                  <strong>External supply<br />current *2</strong>
+                </TH>
+                <td class="left middle">CS1W-B7A12</td>
+                <td colspan="2" rowspan="1" class="left middle">20 mA min.</td>
+              </tr>
+              <tr>
+                <td class="left middle">CS1W-B7A02</td>
+                <td colspan="2" rowspan="1" class="left middle">60 mA min.</td>
+              </tr>
+              <tr>
+                <td class="left middle">CS1W-B7A21</td>
+                <td colspan="2" rowspan="1" class="left middle">30 mA min.</td>
+              </tr>
+              <tr>
+                <td class="left middle">CS1W-B7A22</td>
+                <td colspan="2" rowspan="1" class="left middle">60 mA min.</td>
+              </tr>
+              <tr>
+                <TH colspan="1" rowspan="2" class="heading left middle">
+                  <strong>Minimum input time<br />*3</strong>
+                </TH>
+                <td class="left middle">High-speed</td>
+                <td colspan="2" rowspan="1" class="left middle">16 ms</td>
+              </tr>
+              <tr>
+                <td class="left middle">Standard</td>
+                <td colspan="2" rowspan="1" class="left middle">2.4 ms</td>
+              </tr>
+              <tr>
+                <TH colspan="1" rowspan="6" class="heading left middle">
+                  <strong>Transmission distance</strong>
+                </TH>
+                <td colspan="1" rowspan="4" class="left middle">High-speed</td>
+                <td colspan="1" rowspan="2" class="left middle">Power supply on one side<br />(common power supply)</td>
+                <td class="left middle">10 m max.</td>
+              </tr>
+              <tr>
+                <td class="left middle">50 m max. (with shielded cable)</td>
+              </tr>
+              <tr>
+                <td colspan="1" rowspan="2" class="left middle">Power supply on both sides<br />(separate power supplies)</td>
+                <td class="left middle">10 m max.</td>
+              </tr>
+              <tr>
+                <td class="left middle">100 m max. (with shielded cable)</td>
+              </tr>
+              <tr>
+                <td colspan="1" rowspan="2" class="left middle">Standard</td>
+                <td class="left middle">Power supply on one side<br />(common power supply)</td>
+                <td class="left middle">100 m max.</td>
+              </tr>
+              <tr>
+                <td class="left middle">Power supply on both sides<br />(separate power supplies)</td>
+                <td class="left middle">500 m max.</td>
+              </tr>
+              <tr>
+                <TH class="heading left middle">
+                  <strong>Cables</strong>
+                </TH>
+                <td colspan="3" rowspan="1" class="left middle">VCTF, 0.75 mm<sup>2</sup>, 3 conductors (power supply on one side (common power supply))<br />VCTF, 0.75 mm<sup>2</sup>, 2 conductors (power supply on both sides (separate power supplies))<br />Shielded cable, 0.75 mm<sup>2</sup>, 3 conductors (power supply on one side (common power supply))<br />Shielded cable, 0.75 mm<sup>2</sup>, 2 conductors (power supply on both sides (separate power supplies))</td>
+              </tr>
+            </table>
+          </div>
+        
+        </p>
+    </div>
+
+
+
+
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="component-blockA01">
+
+
+
+
+
+    <div class="text">
+        <p>
+            
+          <div style="text-align: left;">*1. Use a SELV power supply with overcurrent protection. A SELV power supply refers to a power supply with double or
+<br />
+       reinforced insulation between input and output and with an output voltage of 30 V rms with a 42.4-V peak or an
+<br />
+       output voltage of 60 VDC max. We recommend OMRON S8[][]-series Power Supply Units for the external power
+<br />
+       supplies.
+<br />
+*2. The capacity of the external supply current does not include the capacity required by the B7A Link Terminal.
+<br />
+*3. The minimum input time is the minimum time required by the B7A Interface Unit to read the input signals from the
+<br />
+       CPU Unit.
+<br />
+Note: 1. When separate power supplies are used, the B7A Interface Unit and B7A Link Terminal are supplied by separate
+<br />
+              external power supplies.
+<br />
+           2. When a common power supply is used, the B7A Interface Unit and B7A Link Terminal are supplied by the same
+<br />
+                external power supply.</div>
+        
+        </p>
+    </div>
+
+
+
+
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<h4 class="heading-A02">Specifications</h4>
+
+
+
+
+
+
+
+
+
+
+<div class="component-blockA01">
+
+
+
+
+
+    <div class="text">
+        <p>
+            
+          <div class="table-blockA01">
+            <table border="0" cellspacing="0" class="tableA01">
+              <tr>
+                <TH colspan="2" rowspan="1" class="heading right middle">
+                  <strong>Model</strong>
+                </TH>
+                <td class="heading center middle">
+                  <strong>CS1W-B7A12</strong>
+                </td>
+                <TH class="heading center middle">
+                  <strong>CS1W-B7A02</strong>
+                </TH>
+                <td class="heading center middle">
+                  <strong>CS1W-B7A21</strong>
+                </td>
+                <TH class="heading center middle">
+                  <strong>CS1W-B7A22</strong>
+                </TH>
+              </tr>
+              <tr>
+                <TH colspan="2" rowspan="1" class="heading left middle">
+                  <strong>Applicable PLC</strong>
+                </TH>
+                <td colspan="4" rowspan="1" class="left middle">CS-series PLCs</td>
+              </tr>
+              <tr>
+                <TH colspan="2" rowspan="1" class="heading left middle">
+                  <strong>Unit type</strong>
+                </TH>
+                <td colspan="4" rowspan="1" class="left middle">CS1 Basic I/O Unit</td>
+              </tr>
+              <tr>
+                <TH colspan="1" rowspan="2" class="heading left middle">
+                  <strong>I/O<br />points</strong>
+                </TH>
+                <td class="heading left middle">
+                  <strong>Input</strong>
+                </td>
+                <td class="left middle">32 inputs</td>
+                <td class="center middle">---</td>
+                <td class="left middle">16 inputs</td>
+                <td class="left middle">32 inputs</td>
+              </tr>
+              <tr>
+                <TH class="heading left middle">
+                  <strong>Output</strong>
+                </TH>
+                <td class="center middle">---</td>
+                <td class="left middle">32 outputs</td>
+                <td class="left middle">16 outputs</td>
+                <td class="left middle">32 outputs</td>
+              </tr>
+              <tr>
+                <TH colspan="2" rowspan="1" class="heading left middle">
+                  <strong>Transmission<br />distance</strong>
+                </TH>
+                <td colspan="4" rowspan="1" class="left middle">Normal: 500m max. when the interface unit and the link terminal units have separate external power supplies,<br />Normal: 100m max. when the interface unit and the link terminal units use a common external power supply,<br />High speed: 100m max. with shielded cables, 10m max. with unshielded cables, when the interface unit and the link terminal units have separate external power supplies,<br />High speed: 50m max. with shielded cables, 10m max. with unshielded cables, when the interface unit and the link terminal units use a common external power supply,</td>
+              </tr>
+              <tr>
+                <TH colspan="2" rowspan="1" class="heading left middle">
+                  <strong>Transmission<br />delay</strong>
+                </TH>
+                <td colspan="4" rowspan="1" class="left middle">Normal: 19.2ms (typ.), 31ms max.<br />Short 3ms (typ.), 5ms max. * 1</td>
+              </tr>
+              <tr>
+                <TH colspan="2" rowspan="1" class="heading left middle">
+                  <strong>Weight</strong>
+                </TH>
+                <td colspan="2" rowspan="1" class="left middle">230g max.</td>
+                <td colspan="2" rowspan="1" class="left middle">240g max.</td>
+              </tr>
+              <tr>
+                <TH colspan="2" rowspan="1" class="heading left middle">
+                  <strong>Power supply<br />voltage from<br />external<br />source *2</strong>
+                </TH>
+                <td class="left middle">12 to 24VDC ±10%,<br />20mA min.</td>
+                <td class="left middle">12 to 24VDC ±10%,<br />60mA min.</td>
+                <td class="left middle">12 to 24VDC ±10%,<br />30mA min.</td>
+                <td class="left middle">12 to 24VDC ±10%,<br />60mA min.</td>
+              </tr>
+              <tr>
+                <TH colspan="2" rowspan="2" class="heading left middle">
+                  <strong>I/O memory<br />allocation</strong>
+                </TH>
+                <td colspan="4" rowspan="1" class="left middle">Each Unit is allocated 4 words in the I/O Area (which starts at CIO 0000).<br />The words are allocated according to the mounting position of the Unit.</td>
+              </tr>
+              <tr>
+                <td colspan="3" rowspan="1" class="left middle">2 words (32 points).</td>
+                <td class="left middle">4 words (64 points).</td>
+              </tr>
+              <tr>
+                <TH colspan="2" rowspan="1" class="heading left middle">
+                  <strong>Current<br />consumption</strong>
+                </TH>
+                <td colspan="4" rowspan="1" class="left middle">5 V DC: 90 mA max. (supplied from Power Supply Unit)</td>
+              </tr>
+            </table>
+          </div>
+        
+        </p>
+    </div>
+
+
+
+
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="component-blockA01">
+
+
+
+
+
+    <div class="text">
+        <p>
+            *1. The I/O delay time is selectable by the selector switch between normal and short.
+<br />
+*2. The value does not include the power supplied to B7A link terminal units.
+        </p>
+    </div>
+
+
+
+
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<p class="date-line">last update: November 12, 2012</p>
+
+</div>
+
+                        </div>
+                    </div>
+	            <!-- === /[primary-contents-area] === -->
+                </div>
+                <!-- === /[inner-contents-area] === -->
+
+
+                <!-- === [local-navi] === -->
+                <div class="local-navi-area">
+                    <div class="local-navi-area">
+
+
+
+<div class="local-naviA01">
+<h2 class="heading-link">
+<a href="../../category/index.html" ><img src="../../../resources/images/icon_right_b.gif" width="3" height="9" alt="" class="iconA01" />Product Category</a>
+</h2>
+<ul><li><a href="../../category/automation-systems/index-2.html"><img src="../../../resources/images/icon_right_b.gif" width="3" height="9" alt="" class="iconA01" />Automation Systems</a><ul class="list-indent01"><li><a href="../../category/automation-systems/programmable-controllers/index-2.html"><img src="../../../resources/images/icon_right_b.gif" width="3" height="9" alt="" class="iconA01" />Programmable Controllers</a><ul class="list-indent02"><li><a href="../../category/automation-systems/programmable-controllers/cs1/index.html"><img src="../../../resources/images/icon_right_b.gif" width="3" height="9" alt="" class="iconA01" />CS1</a><ul class="list-indent03"><li><a href="../../category/automation-systems/programmable-controllers/cs1/basic-io-units/index.html"><img src="../../../resources/images/icon_right_b.gif" width="3" height="9" alt="" class="iconA01" />Basic I/O Units</a><ul class="list-indent04"><li class="stay"><span>CS1W-B7A</span></li></ul></li></ul></li></ul></li></ul></li></ul>
+<!-- /local-naviA01 -->
+</div>
+
+
+
+<div class="local-naviB01">
+<ul class="heading-link">
+
+<li class="first-child">
+<a href="../../category/index.html"><img src="../../../resources/images/icon_right_b.gif" width="3" height="9" alt="" class="iconA01" />Product Category</a>
+</li>
+
+<li>
+<a href="../../../product/cautions/index-2.html"><img src="../../../resources/images/icon_right_b.gif" width="3" height="9" alt="" class="iconA01" />Cautions</a>
+</li>
+
+<li>
+<a href="../../index/index.html"><img src="../../../resources/images/icon_right_b.gif" width="3" height="9" alt="" class="iconA01" />Item A to Z Index</a>
+</li>
+
+<li>
+<a href="../../applications/index.html"><img src="../../../resources/images/icon_right_b.gif" width="3" height="9" alt="" class="iconA01" />Applications</a>
+</li>
+
+<li>
+<a href="../../correct/index.html"><img src="../../../resources/images/icon_right_b.gif" width="3" height="9" alt="" class="iconA01" />Correction Notice</a>
+</li>
+
+</ul>
+<!-- /local-naviB01 -->
+</div>
+                    </div>
+                </div>
+                <!-- === /[local-navi] === -->
+
+            </div>
+            <!-- === /[contents-area] === -->
+
+            <!-- === [top-page-link-area] === -->
+            <div class="top-page-link-area">
+                <ul class="top-page-link-list">
+                    <li>
+                        <a href="#page-top"><img src="../../../resources/images/icon_up_b.gif" width="5" height="8" alt="" class="iconB01" />Top of Page</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- === /[top-page-link-area] === -->
+
+            <!-- === [footer-area] === -->
+
+
+<!-- === [footer-area] === -->
+<div class="footer-area">
+    <p class="non-visual">
+        <a name="footer" id="footer">Site Information</a>
+    </p>
+    <div class="realizing">
+        <p><a href="../../../realizing/index.html"><img src="../../../Images/logo_0213-192.gif"  width="86" height="19" alt="" /></a></p>
+    <!-- /.realizing -->
+    </div>
+    <div class="footer-link">
+        <ul>
+            <li>
+                <a href="http://www.omron.com/"  target="_blank"><img src="../../../resources/images/icon_right_b.gif" width="3" height="9" alt="" class="iconA01" />OMRON Corporation<img src="../../../resources/images/icon_07.gif" width="14" height="11" class="external_win" alt=" " /></a>
+            </li>
+
+            <li>
+                <a href="../../../sitemap.html" ><img src="../../../resources/images/icon_right_b.gif" width="3" height="9" alt="" class="iconA01" />Sitemap</a>
+            </li>
+
+            <li>
+                <a href="../../../terms/index-2.html" ><img src="../../../resources/images/icon_right_b.gif" width="3" height="9" alt="" class="iconA01" />Terms of Use</a>
+            </li>
+
+            <li>
+                <a href="../../../privacy/index-2.html" ><img src="../../../resources/images/icon_right_b.gif" width="3" height="9" alt="" class="iconA01" />Privacy Policy</a>
+            </li>
+        </ul>
+
+        <p class="copyright">© Copyright OMRON Corporation 2007 - 2016. All Rights Reserved.</p>
+    <!-- /.footer-link -->
+    </div>
+<!-- /.footer-area -->
+</div>
+<!-- === /[footer-area] === -->
+            <!-- === /[footer-area] === -->
+        </div>
+        <!-- === /[omron-ia] === -->
+    </body>
+
+<!-- Mirrored from www.ia.omron.com/products/family/1905/specification.html by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 16 Dec 2016 07:52:31 GMT -->
+</html>

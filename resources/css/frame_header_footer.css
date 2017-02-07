@@ -1,0 +1,271 @@
+/*-------------------------------------------------------------------------
+ header-area
+-------------------------------------------------------------------------*/
+div.header-area{
+	position:relative;
+	width:954px;
+	background:#fff url(../images/header_bg_01.gif) left bottom repeat-x;
+	border-top:3px solid #0055c4;
+	z-index:100;
+}
+div.header-area:after{
+	content:"."; 
+	display:block;
+	height:0;
+	clear:both;
+	visibility:hidden;
+}
+div.header-area div.site-identity{
+	float:left;
+	width:134px;
+	_overflow:visible;
+	_height:1px;
+	zoom:1;
+	/*\*//*/
+	overflow:hidden;
+	/**/
+}
+div.header-area div.site-identity div.site-logo{
+	margin:18px 0 18px;
+	/margin:18px 0 15px;
+	padding-left:18px;
+}
+div.header-area .devider{
+	margin-left:9px;
+	padding-left:12px;
+	border-left:1px solid #cccccc;
+	line-height:1;
+}
+div.header-area .devider .user,
+div.header-area .devider .loginlink {
+	display:none;
+}
+
+/*	utilities
+------------------------------------*/
+div.header-area div.utilities{
+	float:right;
+	width:771px;
+	padding:20px 18px 0;
+	font-size:100%;
+}
+div.header-area div.utilities:after{
+	content:"."; 
+	display:block;
+	height:0;
+	clear:both;
+	visibility:hidden;
+}
+
+/*	country-select-area
+------------------------------------*/
+div.header-area div.utilities div.country-select-area{
+	position:relative;
+	float:left;
+	margin-top:8px;
+	_margin-top:9px;
+}
+div.header-area div.utilities div.country-select-area p.canpany{
+	display:inline-block;
+	/display:inline;
+	position:relative;
+	top:1px;
+}
+div.header-area div.utilities div.country-select-area p.current-country{
+	display:inline-block;
+	/display:inline;
+}
+div.header-area div.utilities div.country-select-area p.current-country span.area a{
+	display:inline-block;
+	font-weight:bold;
+	color:#555555;
+}
+div.header-area div.utilities div.country-select-area p.current-country span.area a:hover{
+	color:#3B3B3B;
+}
+
+/*	function-area
+------------------------------------*/
+div.header-area div.utilities div.function-area{
+	float:right;
+	text-align:right;
+}
+div.header-area div.utilities div.function-area ul,
+div.header-area div.utilities div.function-area div.username-area,
+div.header-area div.utilities div.function-area div.search{
+	display:inline-block;
+	/display:inline;
+	/zoom:1;
+}
+div.header-area div.utilities div.function-area ul{
+	position:relative;
+	margin-top:8px;
+	/margin-top:8px;
+	_margin-top:9px;
+}
+div.header-area div.utilities div.function-area ul li{
+	display:inline-block;
+	/display:inline;
+	/zoom:1;
+	margin-left:12px;
+}
+div.header-area div.utilities div.function-area ul li.first-child{
+	margin-left:0px;
+}
+div.header-area div.utilities div.function-area div.username-area{
+	position:relative;
+	margin-top:8px;
+	/margin-top:8px;
+	_margin-top:9px;
+}
+div.header-area div.utilities div.function-area div.username-area a{
+	font-weight:bold;
+	color:#555555;
+}
+div.header-area div.utilities div.function-area div.username-area a:hover{
+	color:#3B3B3B;
+}
+div.header-area div.utilities div.function-area div.username-area div.user-contents-list{
+	display:none;
+	z-index:10;
+	position:absolute;
+	top:2em;
+	left:9px;
+	width:88px;
+	padding:0 12px 4px;
+	background-color:#FFFFFF;
+	border-left:1px solid #CCCCCC;
+	border-right:1px solid #CCCCCC;
+	border-bottom:1px solid #CCCCCC;
+	text-align:left;
+}
+div.header-area div.utilities div.function-area div.username-area div.user-contents-list ul{
+	margin-top:0.4em;
+}
+div.header-area div.utilities div.function-area div.username-area div.user-contents-list ul li{
+	margin-left:0px;
+	margin-bottom:0.83em;
+}
+div.header-area div.utilities div.function-area div.username-area div.user-contents-list ul li a{
+	font-weight:normal;
+	color:#1A66CA;
+}
+div.header-area div.utilities div.function-area div.username-area div.user-contents-list ul li a:hover{
+	color:#0046A0;
+}
+
+/*	form
+------------------------------------*/
+div.header-area div.utilities div.function-area div.search{
+	margin-top:3px;
+	margin-left:9px;
+	vertical-align:top;
+}
+div.header-area div.utilities div.function-area div.search form.search-form p input.search-str{
+	width:117px;
+	height:13px;
+	margin-right:4px;
+	padding-top:0.3em;
+	/padding-top:0.2em;
+	padding-bottom:0.24em;
+	/padding-bottom:0.22em;
+	padding-left:4px;
+	background:url(../images/header_bg_02.gif) left top repeat-x;
+	border-top:1px solid #d9d9d9;
+	border-left:1px solid #e0e0e0;
+	border-right:1px solid #f2f2f2;
+	border-bottom:1px solid #f2f2f2;
+	vertical-align:top;
+	font-size:100%;
+	color:#555;
+	voice-family:"\"}\"";
+	voice-family:inherit;
+}
+
+
+
+/*-------------------------------------------------------------------------
+ footer-area
+-------------------------------------------------------------------------*/
+div.footer-area{
+	_overflow:visible;
+	_height:1px;
+	zoom:1;
+	/*\*//*/
+	overflow:hidden;
+	/**/
+	width:954px;
+	_height:52px;
+	min-height:52px;
+	margin-top:2.16em;/*24px*/
+	background-color:#fff;
+	border-top:1px solid #ccc;
+	border-bottom:4px solid #0055c4;
+}
+div.footer-area:after{
+	content:"."; 
+	display:block;
+	height:0;
+	clear:both;
+	visibility:hidden;
+}
+
+/*	realizing
+------------------------------------*/
+div.footer-area div.realizing{
+	position:absolute;
+	right:0;
+	width:122px;
+}
+div.footer-area div.realizing p{
+	margin-top:18px;
+	text-align:center;
+}
+
+/*	footer-link
+------------------------------------*/
+div.footer-area div.footer-link ul{
+	margin:0.6em 122px 0 122px;
+	_margin-top:0.4em;
+	list-style-type:none;
+	text-align:center;
+	line-height:1.36;
+	font-size:92%;
+}
+*+html body div.footer-area div.footer-link ul{
+	margin-top:0.4em;
+}
+div.footer-area div.footer-link ul.first-child{
+	margin:0.9em 122px 0 122px;
+}
+*+html body div.footer-area div.footer-link ul.first-child{
+	margin-top:0.7em;
+}
+
+div.footer-area div.footer-link ul li{
+	display:inline;
+	margin-left:9px;
+}
+div.footer-area div.footer-link ul li.first-child{
+	margin-left:0;
+}
+div.footer-area div.footer-link ul li a:first-child{
+	zoom:1;
+}
+div.footer-area div.footer-link ul li a{
+	line-height:1.36;
+}
+
+/*	address
+------------------------------------*/
+div.footer-area p.copyright{
+	margin:0.5em 122px 0.99em 122px;
+	_margin-top:0.6em;
+	text-align:center;
+	line-height:1.2;
+	font-style:normal;
+	font-size:83%;
+}
+*+html body div.footer-area p.copyright{
+	margin-top:0.6em;
+}

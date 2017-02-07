@@ -1,0 +1,202 @@
+
+
+/*------------------------------------
+	global-network-area
+------------------------------------*/
+div.global-network-area {
+	margin: 0;
+	padding: 0 18px 13px;
+}
+div.global-network-group {
+	margin: 0;
+	padding: 0;
+	width: 216px;
+	background: #f0f0f0 url(../img/country_websites_bg_04.gif) top left no-repeat;
+}
+
+div.global-network-group ul.countryList {
+	padding: 18px 0 5px 10px;
+}
+
+div.global-network-group ul.countryList li{
+	font-size: 90%;
+	display: inline;
+	padding-right: 5px;
+	padding-bottom: 3px;
+	list-style-type: none;
+}
+
+div.global-network-group ul.countryList li a,
+div.global-network-group ul.countryList li a:link,
+div.global-network-group ul.countryList li a:visited{
+		white-space: nowrap;
+		text-decoration: none;
+}
+div.global-network-group ul.countryList li a:focus,
+div.global-network-group ul.countryList li a:hover,
+div.global-network-group ul.countryList li a:active{
+		white-space: nowrap;
+		text-decoration: underline ;
+}
+
+
+div#country-websites div#region-list p.regionHeading{
+	font-weight: bold;
+	color: #555;
+	padding: 6px 5px 6px 10px;
+	background: #f0f0f0 url(../img/country_websites_bg_02.gif) left bottom repeat-x;
+}
+
+
+div#country-websites {
+	position: relative;
+	z-index: 10000;
+	margin-top: 16px;
+}
+div#country-websites iframe{
+	display: none;
+	position: absolute;
+	top: 2px;
+	right: -1px;
+	margin: 0;
+	padding: 0;
+	width: 445px;
+	z-index: 1000;
+}
+div#country-websites iframe.enabled {
+	display: block;
+}
+div#country-websites div {
+	display: none;
+	position: absolute;
+	top: 2px;
+	right: -1px;
+	margin: 0;
+	padding: 0 0 0.55em;
+	width: 443px;
+	border: 1px solid #bababa;
+	font-size: 92%;
+	z-index: 10000;
+	zoom: 1;
+	background: #f5f5f5 url(../img/country_websites_bg_01.gif);
+}
+div#country-websites div.enabled {
+	display: block;
+/*\*//*/
+	display: inline-block;
+/**/
+}
+div#country-websites div:after {
+	content:"."; 
+	clear:both;
+	display:block;
+	height:0;
+	visibility:hidden;
+}
+div#country-websites ul {
+	float: left;
+	margin: 0 0 0 1px;
+	padding: 0;
+	list-style-type: none;
+	width: 110px;
+}
+div#country-websites ul:first-child {
+	margin: 0;
+}
+div#country-websites ul.first-child {
+	margin: 0;
+}
+div#country-websites li {
+	width: 100%;
+	background: url(../img/country_websites_bg_02.gif) 0 0 no-repeat;
+}
+div#country-websites li:first-child {
+	border-top: 0 none;
+}
+div#country-websites li.first-child {
+	border-top: 0 none;
+}
+div#country-websites dl {
+	margin: 0;
+	padding: 0;
+	padding: 1em 0 0.64em;
+	border-top: 1px solid #e5e5e5;
+}
+
+
+div#country-websites dl a {
+	display: block;
+	padding: 0 4px 0 11px;
+}
+div#country-websites dl a:link,
+div#country-websites dl a:visited {
+	padding-left: 17px;
+	text-indent: -6px;
+	text-decoration: none;
+}
+div#country-websites dl a:focus {
+	text-decoration: underline;
+	background-color: #dcdcdc;
+}
+div#country-websites dl a:link:hover,
+div#country-websites dl a:link:active,
+div#country-websites dl a:visited:hover,
+div#country-websites dl a:visited:active {
+	text-decoration: underline;
+	background-color: #dcdcdc;
+}
+div#country-websites dl a:link img.external-win,
+div#country-websites dl a:visited img.external-win {
+	visibility: hidden;
+}
+div#country-websites dl a:focus img.external-win {
+	visibility: visible;
+}
+div#country-websites dl a:link:hover img.external-win,
+div#country-websites dl a:link:active img.external-win,
+div#country-websites dl a:visited:hover img.external-win,
+div#country-websites dl a:visited:active img.external-win {
+	visibility: visible;
+}
+div#country-websites dt {
+	margin: 0;
+	padding: 0;
+}
+div#country-websites dt a {
+	font-weight: bold;
+	color: #555;
+}
+div#country-websites dt a:visited {
+	color: #808080;
+}
+div#country-websites dt a:link:focus,
+div#country-websites dt a:visited:focus {
+	color: #3b3b3b;
+}
+div#country-websites dt a:link:hover,
+div#country-websites dt a:link:active,
+div#country-websites dt a:visited:hover,
+div#country-websites dt a:visited:active {
+	color: #3b3b3b;
+}
+div#country-websites dd {
+	margin: 0.64em 0 0;
+	padding: 0;
+}
+div#country-websites dd p {
+	margin: 0;
+	padding: 0 11px;
+}
+div#country-websites dd ul{
+	float: none;
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+	width: 100%;
+}
+div#country-websites dd li{
+	margin: 0.19em 0 0;
+	padding: 0;
+	border-top: 0 none;
+	background: none;
+}

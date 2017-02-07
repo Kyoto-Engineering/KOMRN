@@ -1,0 +1,137 @@
+@charset "UTF-8";
+
+body.www-ia-omron-com div.contents-area{
+	  width: 918px;
+    margin-left: 18px;
+    margin-right: 18px;
+}
+
+div.heading-lvl01A01 h2 {
+    font-size: 166% !important;
+    margin-top: 1.55em !important;
+    margin-bottom: 0.6em !important;
+}
+
+.table-blockA01 .tableB01 tr td a.confirm_btn{
+		display: inline-block;
+		padding: 0 13px 0 13px;
+		font-weight: bold;
+		border-width: 2px;
+		border-style: solid;
+		border-color: #ccc;
+		background: #ccc url(../../../../../common/img/sequential_linkA01_bg_01.gif) left top repeat-x;
+		color: #555!important;
+		font-size: 11px;
+		text-decoration:none!important;
+}
+
+.table-blockA01 .tableB01 tr td a.confirm_btn:hover{
+	border-color: #ffd6ab;
+	background: #ffd6ab url(../../../../../common/img/sequential_linkA01_bg_01_h.gif) left top repeat-x;
+	color: #555;
+	text-decoration: none!important;
+}
+
+table.certification_list td {
+	width: 300px;
+	height: 22px;
+}
+
+table.certification_list td input {
+	margin-right: 5px;
+	vertical-align: middle;
+}
+
+table.certification_list {
+	border-bottom: 1px dotted #CCCCCC;
+	margin-bottom: 15px;
+	padding-bottom: 5px;
+}
+
+div.result_head {
+>zoom:1;
+	padding-top: 20px;
+}
+
+div.result_head:after {
+	content : '';
+	display : block;
+	clear : both;
+}
+
+div.result_head h3.heading-lvl04A01 {
+	font-size: 100%;
+	border-left: 5px solid #CCCCCC;
+	font-weight: bold;
+	margin-top: 0;
+	padding-bottom: 0.2em;
+	padding-left: 5px;
+	padding-top: 0.2em;
+	float: left;
+}
+
+div.columnA01 .description {
+	margin-top: 0!important;
+}
+
+div.columnA01 .form-strA01 {
+	width: 180px!important;
+}
+
+div.columnA01 .alert {
+	color: #FF0000;
+	font-size: 85%;
+	margin-left: 20px;
+}
+
+h3 span {
+	font-weight: normal;
+}
+
+div.attention-blockA01 {
+	width: 500px!important;
+}
+
+ul.pagination {
+	list-style: none;
+	margin-top: 0;
+>zoom:1;
+}
+
+ul.pagination:after {
+	content : '';
+	display : block;
+	clear : both;
+}
+
+ul.pagination li {
+	float: left;
+	margin: 0 2px;
+}
+
+ul.pagination li.prev, ul.pagination li.next, ul.pagination li.stay {
+	font-weight: bold;
+}
+
+ul.pagination li img.icon {
+	margin: 0 5px;
+	position: relative;
+	top: 1px;
+}
+
+div.table-blockA01 {
+	margin: 15px 0 15px;
+}
+
+div.table-blockA01 th, div.table-blockA01 td {
+	padding: 4px;
+}
+
+div.primary-contents-area a {
+	text-decoration: none!important;
+}
+
+div.primary-contents-area a:hover {
+	text-decoration: underline!important;
+}
+

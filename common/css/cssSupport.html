@@ -1,0 +1,67 @@
+<public:component lightWeight="true">
+<script type="text/javascript">
+var firstChildFlg = true;
+var firstChildClass = "first-child";
+var hasfirstChildClass = false;
+var sectionFlg = false;
+var sectionClass = "section";
+var tabPanelChildFlg = false;
+var tabPanelUnitClass = "tabpanel-unit";
+var tabPanelFirstChildClass = "tab-first-child";
+var hasTabPanelFirstChildClass = false;
+var headingSiblingFlg = false;
+
+var prev = element;
+while(prev = prev.previousSibling) {
+	if (prev.nodeType == 1) {
+		firstChildFlg = false;
+		break;
+	}
+}
+
+if (firstChildFlg) {
+	var parent = element.parentNode;
+	if (parent && parent.className) {
+		var parentClasses = parent.className.split(" ");
+		for (var i = 0, n = parentClasses.length; i < n; i++) {
+			if (parentClasses[i] == sectionClass) {
+				sectionFlg = true;
+			} else if (parentClasses[i] == tabPanelUnitClass) {
+				tabPanelChildFlg = true;
+			}
+		}
+	}
+} else if (!firstChildFlg && prev && prev.className && prev.className.indexOf("heading") != -1) {
+	headingSiblingFlg = true;
+}
+
+var newClasses = [];
+if (element.className && (firstChildFlg || sectionFlg || headingSiblingFlg || tabPanelChildFlg)) {
+	var currentClasses = element.className.split(" ");
+	for (var i = 0, n = currentClasses.length; i < n; i++) {
+		newClasses.push(currentClasses[i]);
+		if (currentClasses[i] == firstChildClass) {
+			hasfirstChildClass = true;
+		} else if ((sectionFlg || headingSiblingFlg) && !currentClasses[i].match(/-h$/)) {
+			newClasses.push(currentClasses[i] + "-h");
+		}
+		if (tabPanelChildFlg && currentClasses[i] == tabPanelFirstChildClass) {
+			hasTabPanelFirstChildClass = true;
+		}
+	}
+	if (firstChildFlg && !hasfirstChildClass) {
+		newClasses.push(firstChildClass);
+	}
+	if (tabPanelChildFlg && !hasTabPanelFirstChildClass) {
+		newClasses.push(tabPanelFirstChildClass);
+	}
+	element.className = newClasses.join(" ");
+} else if (firstChildFlg) {
+	newClasses.push(firstChildClass);
+	if (tabPanelChildFlg) {
+		newClasses.push(tabPanelFirstChildClass);
+	}
+	element.className = newClasses.join(" ");
+}
+</script>
+</public:component>

@@ -1,0 +1,53 @@
+
+
+/*------------------------------------
+	bread-crumb-area
+------------------------------------*/
+
+div.bread-crumb-area ul{
+	margin:0 18px 0.7em 18px;
+	line-height:1.4;
+	font-size:83%;
+}
+
+div.bread-crumb-area ul li{
+	display:inline;
+	zoom: 1;
+}
+
+div.bread-crumb-area span.separator{
+	color:#000;
+	margin-left:5px;
+	margin-right:2px;
+}
+
+
+/*anchor*/
+
+div.bread-crumb-area a:link{
+	text-decoration:none;
+}
+div.bread-crumb-area a:visited{
+	text-decoration:none;
+}
+div.bread-crumb-area a:link:hover,
+div.bread-crumb-area a:visited:hover,
+div.bread-crumb-area a:link:active,
+div.bread-crumb-area a:visited:active,
+div.bread-crumb-area a:link:focus,
+div.bread-crumb-area a:visited:focus{
+	text-decoration:underline;
+}
+
+
+div.bread-crumb-area a:link{
+	_text-decoration:none;
+}
+div.bread-crumb-area a:visited{
+	_text-decoration:none;
+}
+div.bread-crumb-area a:hover,
+div.bread-crumb-area a:active{
+	_text-decoration:underline;
+}
+

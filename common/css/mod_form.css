@@ -1,0 +1,146 @@
+
+
+/*------------------------------------
+	form-headingA01
+------------------------------------*/
+
+h3.form-headingA01,
+h4.form-headingA01,
+h5.form-headingA01,
+h6.form-headingA01,
+p.form-headingA01{
+	margin-top:1.99em;/*24px*/
+	font-weight:bold;
+}
+
+
+/*------------------------------------
+	form-blockA01
+------------------------------------*/
+
+div.form-blockA01{
+	margin-top:0.9em;/*10px*/
+	font-size:92%;
+}
+
+div.form-blockA01-unit{
+	_overflow:visible;
+	_height:1px;
+	zoom:1;
+	/*\*//*/
+	overflow:hidden;
+	/**/
+	width:450px;
+	
+	margin-top:0.24em;
+	background:url(../img/form_blockA01_bg_01.gif) left top repeat-y;
+}
+
+div.form-blockA01-unit:after{
+	content:"."; 
+	display:block;
+	height:0;
+	clear:both;
+	visibility:hidden;
+}
+
+
+/*dl*/
+
+div.form-blockA01-unit dl{
+	
+}
+
+
+/*dt*/
+
+div.form-blockA01-unit dl dt{
+	float:left;
+	width:128px;
+	border-top:3px solid #b3cced;
+	font-weight:normal;
+}
+
+div.form-blockA01-unit dl dt span{
+	display:block;
+	border-top:1px solid #fff;
+	padding-top:0.18em;
+	padding-left:10px;
+	padding-right:10px;
+	padding-bottom:1.62em;/*18px*/
+	font-weight:normal;
+}
+
+/*dd*/
+
+div.form-blockA01-unit dl dd{
+	float:right;
+	width:319px;
+	/*\*//*/
+	float:none;
+	margin-left:131px;
+	/**/
+	
+	padding-top:0.45em;
+	padding-bottom:1.62em;/*18px*/
+	border-top:1px solid #ccc;
+}
+
+div.form-blockA01-unit dl dd p{
+	margin:0 15px;
+}
+
+div.form-blockA01-unit dl dd select,
+div.form-blockA01-unit dl dd input.form-str,
+div.form-blockA01-unit dl dd textarea{
+	margin-top:0.33em;
+	margin-bottom:0.33em;
+	color:#555;
+	font-size:109%;
+}
+
+div.form-blockA01-unit dl dd select option{
+	padding-right:4px;
+}
+
+/*\*/
+html:first-child div.form-blockA01-unit dl dd select{
+	padding-right:4px;
+}
+/**/
+
+
+
+div.form-blockA01-unit dl dd input.form-str,
+div.form-blockA01-unit dl dd textarea{
+	width:222px;
+	padding:1px 4px;
+}
+
+div.form-blockA01-unit dl dd ul{
+	list-style-type:none;
+	margin:0 7px;
+}
+
+div.form-blockA01-unit dl dd ul li{
+	padding:0.54em 0 0.54em 30px;
+	text-indent:-22px;
+	*padding-left:25px;
+	*text-indent:-20px;
+	background:url(../img/line_01.gif) left top repeat-x;
+}
+
+div.form-blockA01-unit dl dd ul li:first-child,
+div.form-blockA01-unit dl dd ul li.first-child{
+	padding-top:0;
+	background:none;
+}
+
+div.form-blockA01-unit dl dd ul li input{
+	margin-right:9px;
+	*margin-right:0;
+	vertical-align:middle;
+}
+
+
+

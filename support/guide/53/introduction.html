@@ -1,0 +1,697 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xml:lang="en" lang="en" xmlns="http://www.w3.org/1999/xhtml">
+  
+<!-- Mirrored from www.ia.omron.com/support/guide/53/introduction.html by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 15 Dec 2016 14:28:22 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=utf-8" /><!-- /Added by HTTrack -->
+<head>
+    <meta http-equiv="Content-Language" content="en" />
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta http-equiv="Content-Style-Type" content="text/css" />
+    <meta http-equiv="Content-Script-Type" content="text/javascript" />
+    <title>Overview of Temperature Controllers | OMRON Industrial Automation</title>
+    <meta name="keywords" content="Temperature Controllers, Temperature Controller, Temperature Control, Control" />
+    <meta name="description" content="These Controllers receive sensor signals and control heaters or other devices to maintain a preset temperature. They can also be used for humidity, pressure, and flowrate control. OMRON also provides temperature and humidity sensors." />
+    <script type="text/javascript" language="JavaScript" src="../../../resource/script/shared/default.html"><!----></script>
+    <link rel="stylesheet" type="text/css" media="all" href="../../../common/css/common.css" />
+    <link rel="stylesheet" type="text/css" media="all" href="../../../common/css_g/g_exist_ver3.css" />
+    <link rel="stylesheet" type="text/css" media="print" href="../../../common/css/print.css" />
+    <link rel="start index" href="../../../index-2.html" title="OMRON" />
+    <link rel="chapter" href="../../../index.html" title="Our Strengths" />
+    <link rel="chapter" href="../../../products/index.html" title="Products" />
+    <link rel="chapter" href="../../index.html" title="Technical Support" />
+    <link rel="chapter" href="../../../global_network/index.html" title="Global Network" />
+    <link rel="chapter" href="../../../corporate_profile/index-2.html" title="About Us" />
+    <link rel="chapter" href="../../../new/information/index.html" title="What's New" />
+    <link rel="shortcut icon" href="../../../favicon.ico" type="image/x-icon" /><link rel="alternate" href="../../../index.html" hreflang="en" />
+<script type="text/javascript" src="../../../common/js/common.js"></script>
+<script type="text/javascript" src="../../../common/js/rollover.js"></script>
+<script type="text/javascript" src="../../../common/js/cssSupport.js"></script>
+
+<script type="text/javascript" src="../../../shared/js/jquery.js"></script>
+<script type="text/javascript" src="../../../shared/js/function.js"></script>
+<script type="text/javascript" src="../../../shared/js/country_website.js"></script>
+<script type="text/javascript" src="../../../shared/js/global/ga9d07.js?20121001"></script>
+</head>
+  <body id="www-ia-omron-com" class="tmplC03 control-components">
+    <div class="omron-ia"><p class="non-visual"><a name="page-top" id="page-top">Page top</a></p>
+<div class="header-area">
+	<div class="site-identity">
+		<div class="site-logo">
+			<a href="../../../index.html"><img src="../../../shared/img/logo_01_b.gif" width="129" height="24" alt="OMRON" /></a>
+		</div>
+	<!-- /.site-identity --></div>
+	<div class="utilities">
+		<div class="country-select-area">
+			<p class="canpany">
+				<img src="../../../shared/img/header_txt_01.gif" width="129" height="11" alt="Industrial Automation" />
+			</p>
+			<p class="current-country">
+				<span class="area devider">
+					<a href="javascript:void(0)" onclick="box.countryWebsiteLinks();" id="country"><img src="../../../shared/img/icon_right_b.gif" width="3" height="9" alt="" class="iconA01" />Global</a>
+				</span>
+			</p>
+		</div>
+		<div class="function-area">
+			<ul>
+				<li class="first-child">
+					<a href="../../../contact/index.html"><img src="../../../shared/img/icon_right_b.gif" width="3" height="9" alt="" class="iconA01" />Contact</a>
+				</li>
+			</ul>
+			<div class="search">
+				<form action="http://search2.ia.omron.com/IA/" method="get" name="search_website" id="search_website" class="search-form">
+					<p><input type="text" value="" size="20" name="q" id="search_str" class="search-str" /><input type="submit" value="Search" class="submit60L" id=""  /></p>
+				</form>
+			<!-- /.search --></div>
+		<!-- /.function-area --></div>
+	<!-- /.utilities --></div>
+<!-- /.header-area --></div>
+<!-- === [global-navi-area] === -->
+<div class="global-navi-area">
+<p class="non-visual"><a name="global-navi" id="global-navi">Global Navigation</a></p>
+<ul>
+<li class="home"><a href="../../../index.html">Home</a></li>
+<li class="product"><a href="../../../product/index.html">Products</a></li>
+<li class="support stay-link"><a href="../../index-2.html">Technical Support</a></li>
+<li class="global-network"><a href="../../../global_network/index-2.html">Global Network</a></li>
+<li class="corporate-profile"><a href="../../../corporate_profile/index.html">About Us</a></li>
+</ul>
+<!-- === /[global-navi-area] === --></div><div class="bread-crumb-area">
+        <ul>
+          <li>
+            <a href="../../../index-2.html">Home</a>
+            <span class="separator">&gt;</span>
+          </li>
+          <li>
+            <a href="../../index.html">Technical Support</a>
+            <span class="separator">&gt;</span>
+          </li>
+          <li>
+            <a href="../index-2.html">Technical Guide</a>
+            <span class="separator">&gt;</span>
+          </li>
+          <li>
+            <a href="../2.html">Control Components</a>
+            <span class="separator">&gt;</span>
+          </li>
+          <li>
+            <strong>Temperature Controllers</strong>
+          </li>
+        </ul>
+      </div>
+      <div class="contents-area">
+        <div class="contents02-area">
+          <div class="contents03-area">
+            <div class="lead-area">
+              <p class="non-visual">
+                <a name="lead" id="lead">Lead Contents</a>
+              </p>
+              <div class="heading-lvl01A01">
+                <h1>Temperature Controllers</h1>
+              </div>
+              <div class="textA01">
+                <p>These Controllers receive sensor signals and control heaters or other devices to maintain a preset temperature. They can also be used for humidity, pressure, and flowrate control. OMRON also provides temperature and humidity sensors.</p>
+              </div>
+              <div class="family-linkA01">
+                <table border="1" cellspacing="5">
+                  <tr>
+                    <td class="stay">
+                      <em>Introduction</em>
+                    </td>
+                    <td class="none">
+                      <span>Features</span>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td class="none">
+                      <span>Principles</span>
+                    </td>
+                    <td>
+                      <a href="introduction.html">
+                        <img src="../../../shared/img/icon_01.gif" width="3" height="9" alt="" class="iconA01" />Classifications</a>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td class="none">
+                      <span>Engineering Data</span>
+                    </td>
+                    <td>
+                      <a href="further_information.html">
+                        <img src="../../../shared/img/icon_01.gif" width="3" height="9" alt="" class="iconA01" />Further Information</a>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <a href="explanation_of_terms.html">
+                        <img src="../../../shared/img/icon_01.gif" width="3" height="9" alt="" class="iconA01" />Explanation of Terms</a>
+                    </td>
+                    <td class="none">
+                      <span>Troubleshooting</span>
+                    </td>
+                  </tr>
+                </table>
+              </div>
+            </div>
+            <div class="side-area">
+              <p class="non-visual">
+                <a name="related-info" id="related-info">Related Contents</a>
+              </p>
+<div class="related-info-area">
+                <div class="related-info-blockA01">
+                  <p class="lvl01">
+                    <em>Related Contents</em>
+                  </p>
+                  <ul>
+                    <li>
+                      <em class="lvl02">Temperature Controllers</em>
+                      <ul>
+                        <li>
+                          <a href="../../../products/category/control-components/temperature-controllers/index-2.html">
+                            <img src="../../../shared/img/icon_01.gif" width="3" height="9" alt="" class="iconA01" />Products</a>
+                        </li>
+                        <li>
+                          <a href="../../../product/cautions/53/precautions_for_safety_use.html">
+                            <img src="../../../shared/img/icon_01.gif" width="3" height="9" alt="" class="iconA01" />Cautions</a>
+                        </li>
+                        <li>
+                          <a href="../../../products/applications/category/control-components/temperature-controllers/index-2.html">
+                            <img src="../../../shared/img/icon_01.gif" width="3" height="9" alt="" class="iconA01" />Applications</a>
+                        </li>
+                      </ul>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="exist-primary-contents-area">
+            <p class="non-visual">
+              <a name="contents" id="contents">Primary Contents</a>
+            </p>﻿<div class="content-items">
+  <ul class="link-listA01">
+    <li>
+      <a href="#1">
+        <img src="../../../common/img/icon_05.gif" alt="" class="iconC01" width="5" height="3">What Is a Temperature Controller?</a>
+    </li>
+    <li>
+      <a href="#2">
+        <img src="../../../common/img/icon_05.gif" alt="" class="iconC01" width="5" height="3">Temperature Control</a>
+    </li>
+    <li>
+      <a href="#3">
+        <img src="../../../common/img/icon_05.gif" alt="" class="iconC01" width="5" height="3">Temperature Control Configuration Example</a>
+    </li>
+    <li>
+      <a href="#4">
+        <img src="../../../common/img/icon_05.gif" alt="" class="iconC01" width="5" height="3">Temperature Controller Principle</a>
+    </li>
+    <li>
+      <a href="#5">
+        <img src="../../../common/img/icon_05.gif" alt="" class="iconC01" width="5" height="3">Characteristics of the Controlled Object</a>
+    </li>
+    <li>
+      <a href="#6">
+        <img src="../../../common/img/icon_05.gif" alt="" class="iconC01" width="5" height="3">Control Methods</a>
+    </li>
+    <li>
+      <a href="#7">
+        <img src="../../../common/img/icon_05.gif" alt="" class="iconC01" width="5" height="3">What Is a Temperature Sensor?</a>
+    </li>
+    <li>
+      <a href="#8">
+        <img src="../../../common/img/icon_05.gif" alt="" class="iconC01" width="5" height="3">Temperature Measurement Categories</a>
+    </li>
+    <li>
+      <a href="#9">
+        <img src="../../../common/img/icon_05.gif" alt="" class="iconC01" width="5" height="3">Thermocouple</a>
+    </li>
+    <li>
+      <a href="#10">
+        <img src="../../../common/img/icon_05.gif" alt="" class="iconC01" width="5" height="3">Platinum Resistance Thermometer</a>
+    </li>
+  </ul>
+  <div class="column1">
+    <div class="positionleft" style="width:px;" id="1">
+      <p>
+        <strong class="headline1">What Is a Temperature Controller?</strong>
+      </p>
+      <p>A Temperature Controller is a device that is used to control a heater or other equipment by comparing a sensor signal with a <a href="../../glossary/atoz/214/index.html" class="term" title="set point - Glossary of Industrial Automation">set point</a> and performing calculations according to the <a href="../../glossary/atoz/3666/index.html" class="term" title="deviation - Glossary of Industrial Automation">deviation</a> between those values. Devices that can handle sensor signals other than for temperature, such as humidity, pressure, and flow rate, are called Controllers. Electronic controllers are specifically called Digital Controllers.</p>
+    </div>
+  </div>
+  <div class="top-page-link-area">
+    <ul class="top-page-link">
+      <li>
+        <a href="#page-top">
+          <img height="8" width="5" class="iconB01" alt="" src="../../../common/img/icon_03.gif">Top of page</a>
+      </li>
+    </ul>
+  </div>
+  <div class="column1">
+    <div class="positionleft" style="width:px;" id="2">
+      <p>
+        <strong class="headline1">Temperature Control</strong>
+      </p>
+      <p><a href="../../glossary/atoz/153/index.html" class="term" title="Temperature Controllers - Glossary of Industrial Automation">Temperature Controllers</a> control temperature so that the <a href="../../glossary/atoz/3649/index.html" class="term" title="process value - Glossary of Industrial Automation">process value</a> will be the same as the <a href="../../glossary/atoz/214/index.html" class="term" title="set point - Glossary of Industrial Automation">set point</a>, but the response will differ due to the characteristics of the controlled object and the control method of the Temperature Controller. Typically, a response shown in Figure (2), where the <a href="../../glossary/atoz/214/index.html" class="term" title="set point - Glossary of Industrial Automation">set point</a> is reached as quick as possible without <a href="../../glossary/atoz/3659/index.html" class="term" title="overshooting - Glossary of Industrial Automation">overshooting</a>, is required in a Temperature Controller. There are also cases such as the one shown in Figure (1), where a response quickly increases the temperature even if it overshoots is required, and the one shown in Figure (3), where a response slowly increases the temperature is required.</p>
+    </div>
+  </div>
+  <div class="column1">
+    <div class="positionleft" style="width:px;">
+      <p>(1) Response where the <a href="../../glossary/atoz/3649/index.html" class="term" title="process value - Glossary of Industrial Automation">process value</a> settles on the <a href="../../glossary/atoz/214/index.html" class="term" title="set point - Glossary of Industrial Automation">set point</a> while repeatedly <a href="../../glossary/atoz/3659/index.html" class="term" title="overshooting - Glossary of Industrial Automation">overshooting</a> and undershooting</p>
+      <div class="img">
+        <img src="img/intro_1.gif" alt="">
+      </div>
+      <p>(2) Proper response</p>
+      <div class="img">
+        <img src="img/intro_2.gif" alt="">
+      </div>
+      <p>(3) Response where the <a href="../../glossary/atoz/3649/index.html" class="term" title="process value - Glossary of Industrial Automation">process value</a> slowly reaches the set point</p>
+      <div class="img">
+        <img src="img/intro_3.gif" alt="">
+      </div>
+    </div>
+  </div>
+  <div class="top-page-link-area">
+    <ul class="top-page-link">
+      <li>
+        <a href="#page-top">
+          <img height="8" width="5" class="iconB01" alt="" src="../../../common/img/icon_03.gif">Top of page</a>
+      </li>
+    </ul>
+  </div>
+  <div class="column1">
+    <div class="positionleft" style="width:px;" id="3">
+      <p>
+        <strong class="headline1">Temperature Control Configuration Example</strong>
+      </p>
+      <p>The following example describes the basic configuration for temperature control.</p>
+      <div class="img">
+        <img src="img/intro_4.gif" alt="">
+      </div>
+    </div>
+  </div>
+  <div class="top-page-link-area">
+    <ul class="top-page-link">
+      <li>
+        <a href="#page-top">
+          <img height="8" width="5" class="iconB01" alt="" src="../../../common/img/icon_03.gif">Top of page</a>
+      </li>
+    </ul>
+  </div>
+  <div class="column1">
+    <div class="positionleft" style="width:px;" id="4">
+      <p>
+        <strong class="headline1">Temperature Controller Principle</strong>
+      </p>
+      <p>The following figure shows an example of a feedback control system used for temperature control.<br/>The major parts of the feedback control system are built into the Temperature Controller. A feedback control system can be built and temperature can be controlled by combining a Temperature Controller with a controller and temperature sensor that are suitable for the controlled object.</p>
+    </div>
+  </div>
+  <div class="column1">
+    <div class="positionleft" style="width:px;">
+      <p>
+        <strong class="headline2">Configuration of a Feedback Control System</strong>
+      </p>
+      <div class="img">
+        <img src="img/intro_5.gif" alt="">
+      </div>
+    </div>
+  </div>
+  <div class="top-page-link-area">
+    <ul class="top-page-link">
+      <li>
+        <a href="#page-top">
+          <img height="8" width="5" class="iconB01" alt="" src="../../../common/img/icon_03.gif">Top of page</a>
+      </li>
+    </ul>
+  </div>
+  <div class="column1">
+    <div class="positionleft" style="width:px;" id="5">
+      <p>
+        <strong class="headline1">Characteristics of the Controlled Object</strong>
+      </p>
+      <p>Before selecting a Temperature Controller or temperature sensor, it is necessary to understand the thermal characteristics of the controlled object for proper temperature control.</p>
+      <div class="img">
+        <img src="img/intro_6.gif" alt="">
+      </div>
+    </div>
+  </div>
+  <div class="top-page-link-area">
+    <ul class="top-page-link">
+      <li>
+        <a href="#page-top">
+          <img height="8" width="5" class="iconB01" alt="" src="../../../common/img/icon_03.gif">Top of page</a>
+      </li>
+    </ul>
+  </div>
+  <div class="column1">
+    <div class="positionleft" style="width:px;" id="6">
+      <p>
+        <strong class="headline1">Control Methods</strong>
+      </p>
+    </div>
+  </div>
+  <div class="column1">
+    <div class="positionleft" style="width:px;">
+      <p>
+        <strong class="headline2">[ON/OFF Control Action]</strong>
+      </p>
+      <p>As shown in the graph below, if the <a href="../../glossary/atoz/3649/index.html" class="term" title="process value - Glossary of Industrial Automation">process value</a> is lower than the <a href="../../glossary/atoz/214/index.html" class="term" title="set point - Glossary of Industrial Automation">set point</a>, the output will be turned ON and power will be supplied to the heater. If the <a href="../../glossary/atoz/3649/index.html" class="term" title="process value - Glossary of Industrial Automation">process value</a> is higher than the <a href="../../glossary/atoz/214/index.html" class="term" title="set point - Glossary of Industrial Automation">set point</a>, the output will be turned OFF and power to the heater will be shut off. This control method, in which the output is turned ON and OFF based on the <a href="../../glossary/atoz/214/index.html" class="term" title="set point - Glossary of Industrial Automation">set point</a> in order to keep the temperature constant, is called ON/OFF control action. With this action, the temperature is controlled using two values (i.e., 0% and 100% of the set point). Therefore, the operation is also called two-position control action.</p>
+      <div class="img">
+        <img src="img/intro_7.gif" alt="">
+      </div>
+    </div>
+  </div>
+  <div class="column1">
+    <div class="positionleft" style="width:px;">
+      <p>
+        <strong class="headline2">[P Action (Proportional Control Action)]</strong>
+      </p>
+      <p><a href="../../glossary/atoz/2851/index.html" class="term" title="P action - Glossary of Industrial Automation">P action</a> (or proportional control action) is used to output a <a href="../../glossary/atoz/3670/index.html" class="term" title="manipulated variable - Glossary of Industrial Automation">manipulated variable</a> (control output variable) that is proportional to the <a href="../../glossary/atoz/3666/index.html" class="term" title="deviation - Glossary of Industrial Automation">deviation</a> in order to decrease the <a href="../../glossary/atoz/3666/index.html" class="term" title="deviation - Glossary of Industrial Automation">deviation</a> between the <a href="../../glossary/atoz/3649/index.html" class="term" title="process value - Glossary of Industrial Automation">process value</a> and <a href="../../glossary/atoz/214/index.html" class="term" title="set point - Glossary of Industrial Automation">set point</a>. A <a href="../../glossary/atoz/3359/index.html" class="term" title="proportional band - Glossary of Industrial Automation">proportional band</a> is set centering on the <a href="../../glossary/atoz/214/index.html" class="term" title="set point - Glossary of Industrial Automation">set point</a>, and the output is determined with the following rules.</p>
+      <p class="disc">A <a href="../../glossary/atoz/3670/index.html" class="term" title="manipulated variable - Glossary of Industrial Automation">manipulated variable</a> that is proportional to the <a href="../../glossary/atoz/3666/index.html" class="term" title="deviation - Glossary of Industrial Automation">deviation</a> is output when the <a href="../../glossary/atoz/3649/index.html" class="term" title="process value - Glossary of Industrial Automation">process value</a> is within the proportional band.</p>
+      <p class="disc">A 100% <a href="../../glossary/atoz/3670/index.html" class="term" title="manipulated variable - Glossary of Industrial Automation">manipulated variable</a> is output when the <a href="../../glossary/atoz/3649/index.html" class="term" title="process value - Glossary of Industrial Automation">process value</a> is lower than the proportional band.</p>
+      <p class="disc">A 0% <a href="../../glossary/atoz/3670/index.html" class="term" title="manipulated variable - Glossary of Industrial Automation">manipulated variable</a> is output when the <a href="../../glossary/atoz/3649/index.html" class="term" title="process value - Glossary of Industrial Automation">process value</a> is higher than the proportional band.</p>
+      <p>Smoother control than the ON/OFF control action is possible because the output is gradually changed near the <a href="../../glossary/atoz/214/index.html" class="term" title="set point - Glossary of Industrial Automation">set point</a> according to <a href="../../glossary/atoz/3666/index.html" class="term" title="deviation - Glossary of Industrial Automation">deviation</a>. However, if the temperature is controlled with the <a href="../../glossary/atoz/3620/index.html" class="term" title="proportional action - Glossary of Industrial Automation">proportional action</a> alone, it will stabilize <a href="../../glossary/atoz/213/index.html" class="term" title="AT - Glossary of Industrial Automation">at</a> a temperature that is off from the <a href="../../glossary/atoz/214/index.html" class="term" title="set point - Glossary of Industrial Automation">set point</a> (offset).</p>
+      <div class="img">
+        <img src="img/intro_8.gif" alt="">
+      </div>
+      <p class="note">
+        <em class="notemark"></em>Note: If a Temperature Controller with a temperature range of 0°C to 400°C has a 5% <a href="../../glossary/atoz/3359/index.html" class="term" title="proportional band - Glossary of Industrial Automation">proportional band</a>, the width of the <a href="../../glossary/atoz/3359/index.html" class="term" title="proportional band - Glossary of Industrial Automation">proportional band</a> will be converted into a temperature range of 20°C. In this case, a full output is kept turned ON until the <a href="../../glossary/atoz/3649/index.html" class="term" title="process value - Glossary of Industrial Automation">process value</a> reaches 90°C, and the output is OFF periodically when the <a href="../../glossary/atoz/3649/index.html" class="term" title="process value - Glossary of Industrial Automation">process value</a> exceeds 90°C, provided the <a href="../../glossary/atoz/214/index.html" class="term" title="set point - Glossary of Industrial Automation">set point</a> is 100°C. When the <a href="../../glossary/atoz/3649/index.html" class="term" title="process value - Glossary of Industrial Automation">process value</a> is 100°C, there will be no difference in time between the ON period and the OFF period (i.e. the output is turned ON and OFF 50% of the time.)</p>
+      <div class="img">
+        <img src="img/intro_9.gif" alt="">
+      </div>
+    </div>
+  </div>
+  <div class="column1">
+    <div class="positionleft" style="width:px;">
+      <p>
+        <strong class="headline2">[I Action (Integral Control Action)]</strong>
+      </p>
+      <p><a href="../../glossary/atoz/2831/index.html" class="term" title="I action - Glossary of Industrial Automation">I action</a> (or integral action) increases or decreases the <a href="../../glossary/atoz/3670/index.html" class="term" title="manipulated variable - Glossary of Industrial Automation">manipulated variable</a> according to the size and duration of the <a href="../../glossary/atoz/3666/index.html" class="term" title="deviation - Glossary of Industrial Automation">deviation</a>.<br/>The temperature will stabilize <a href="../../glossary/atoz/213/index.html" class="term" title="AT - Glossary of Industrial Automation">at</a> a temperature off from the <a href="../../glossary/atoz/214/index.html" class="term" title="set point - Glossary of Industrial Automation">set point</a> (offset) with only the <a href="../../glossary/atoz/3620/index.html" class="term" title="proportional action - Glossary of Industrial Automation">proportional action</a>, but the <a href="../../glossary/atoz/3666/index.html" class="term" title="deviation - Glossary of Industrial Automation">deviation</a> with the passage of time will be decreased and the <a href="../../glossary/atoz/3649/index.html" class="term" title="process value - Glossary of Industrial Automation">process value</a> will be the same as the <a href="../../glossary/atoz/214/index.html" class="term" title="set point - Glossary of Industrial Automation">set point</a> by combining the proportional and integral actions.</p>
+      <div class="img">
+        <img src="img/intro_10.gif" alt="">
+      </div>
+    </div>
+  </div>
+  <div class="column1">
+    <div class="positionleft" style="width:px;">
+      <p>
+        <strong class="headline2">[D Action (Derivative Control Action)]</strong>
+      </p>
+      <p><a href="../../glossary/atoz/3629/index.html" class="term" title="D action - Glossary of Industrial Automation">D action</a> (or derivative action) provides a <a href="../../glossary/atoz/3670/index.html" class="term" title="manipulated variable - Glossary of Industrial Automation">manipulated variable</a> in response to abrupt changes in the <a href="../../glossary/atoz/3649/index.html" class="term" title="process value - Glossary of Industrial Automation">process value</a>, due to factors such as an <a href="../../glossary/atoz/3667/index.html" class="term" title="external disturbance - Glossary of Industrial Automation">external disturbance</a>, so that control will quickly return to the original status.The proportional and integral actions both corrects the control results, so the response to abrupt changes is delayed. The <a href="../../glossary/atoz/4203/index.html" class="term" title="derivative action - Glossary of Industrial Automation">derivative action</a> compensates for that drawback and provides a large <a href="../../glossary/atoz/3670/index.html" class="term" title="manipulated variable - Glossary of Industrial Automation">manipulated variable</a> for rapid external disturbances.</p>
+      <div class="img">
+        <img src="img/intro_11.gif" alt="">
+      </div>
+    </div>
+  </div>
+  <div class="column1">
+    <div class="positionleft" style="width:px;">
+      <p>
+        <strong class="headline2">[PID Control]</strong>
+      </p>
+      <p><a href="../../glossary/atoz/4425/index.html" class="term" title="PID control - Glossary of Industrial Automation">PID control</a> is a combination of proportional, integral, and derivative control actions. The temperature is controlled smoothly here by proportional control action without <a href="../../glossary/atoz/3638/index.html" class="term" title="hunting - Glossary of Industrial Automation">hunting</a>, automatic <a href="../../glossary/atoz/4322/index.html" class="term" title="offset - Glossary of Industrial Automation">offset</a> adjustment is made by integral control action, and quick response to an <a href="../../glossary/atoz/3667/index.html" class="term" title="external disturbance - Glossary of Industrial Automation">external disturbance</a> is made possible by derivative control action.</p>
+      <div class="img">
+        <img src="img/intro_12.gif" alt="">
+      </div>
+    </div>
+  </div>
+  <div class="column1">
+    <div class="positionleft" style="width:px;">
+      <p>
+        <strong class="headline2">[Two PID Control]</strong>
+      </p>
+      <p>Conventional <a href="../../glossary/atoz/4425/index.html" class="term" title="PID control - Glossary of Industrial Automation">PID control</a> uses a single control block to control the responses of the Temperature Controller to a <a href="../../glossary/atoz/214/index.html" class="term" title="set point - Glossary of Industrial Automation">set point</a> and to external disturbances. Therefore, the response to the <a href="../../glossary/atoz/214/index.html" class="term" title="set point - Glossary of Industrial Automation">set point</a> will oscillate due to <a href="../../glossary/atoz/3659/index.html" class="term" title="overshooting - Glossary of Industrial Automation">overshooting</a> if importance is placed on responding to external disturbances with the P and I parameters set to small values and the D parameter set to a large value in the control block. On the other hand, the Temperature Controller will not be able to respond to external disturbances quickly if importance is placed on responding to the <a href="../../glossary/atoz/214/index.html" class="term" title="set point - Glossary of Industrial Automation">set point</a> (i.e., the P and I parameters are set to large values). This makes it impossible to satisfy both the types of response in this case.<br/>Two <a href="../../glossary/atoz/4425/index.html" class="term" title="PID control - Glossary of Industrial Automation">PID control</a> provides good response for both response to the <a href="../../glossary/atoz/214/index.html" class="term" title="set point - Glossary of Industrial Automation">set point</a> and an external disturbance.</p>
+    </div>
+  </div>
+  <div class="column1">
+    <div class="positionleft" style="width:px;">
+      <p>
+        <strong class="headline2">PID Control</strong>
+      </p>
+      <p>(1)</p>
+      <div class="img">
+        <img src="img/intro_13.gif" alt="">
+      </div>
+      <p>Response to the <a href="../../glossary/atoz/214/index.html" class="term" title="set point - Glossary of Industrial Automation">set point</a> will be slow if response to the <a href="../../glossary/atoz/3667/index.html" class="term" title="external disturbance - Glossary of Industrial Automation">external disturbance</a> is improved.</p>
+      <p>(2)</p>
+      <div class="img">
+        <img src="img/intro_14.gif" alt="">
+      </div>
+      <p>Response to the <a href="../../glossary/atoz/3667/index.html" class="term" title="external disturbance - Glossary of Industrial Automation">external disturbance</a> will be slow if response to the <a href="../../glossary/atoz/214/index.html" class="term" title="set point - Glossary of Industrial Automation">set point</a> is improved.</p>
+    </div>
+  </div>
+  <div class="column1">
+    <div class="positionleft" style="width:px;">
+      <p>
+        <strong class="headline2">Two PID Control</strong>
+      </p>
+      <p>(3)</p>
+      <div class="img">
+        <img src="img/intro_15.gif" alt="">
+      </div>
+      <p>Controls both the <a href="../../glossary/atoz/214/index.html" class="term" title="set point - Glossary of Industrial Automation">set point</a> and the <a href="../../glossary/atoz/3667/index.html" class="term" title="external disturbance - Glossary of Industrial Automation">external disturbance</a> response.</p>
+    </div>
+  </div>
+  <div class="top-page-link-area">
+    <ul class="top-page-link">
+      <li>
+        <a href="#page-top">
+          <img height="8" width="5" class="iconB01" alt="" src="../../../common/img/icon_03.gif">Top of page</a>
+      </li>
+    </ul>
+  </div>
+  <div class="column1">
+    <div class="positionleft" style="width:px;" id="7">
+      <p>
+        <strong class="headline1">What Is a Temperature Sensor?</strong>
+      </p>
+      <p>A Temperature Sensor measures the temperature of a location where the temperature control is required. It converts the temperature to a physical quantity of a voltage or resistance and outputs that.</p>
+    </div>
+  </div>
+  <div class="top-page-link-area">
+    <ul class="top-page-link">
+      <li>
+        <a href="#page-top">
+          <img height="8" width="5" class="iconB01" alt="" src="../../../common/img/icon_03.gif">Top of page</a>
+      </li>
+    </ul>
+  </div>
+  <div class="column1">
+    <div class="positionleft" style="width:px;" id="8">
+      <p>
+        <strong class="headline1">Temperature Measurement Categories</strong>
+      </p>
+      <p>There are two categories of temperature measurement, as described below.</p>
+      <div class="img">
+        <img src="img/intro_16.gif" alt="">
+      </div>
+    </div>
+  </div>
+  <div class="top-page-link-area">
+    <ul class="top-page-link">
+      <li>
+        <a href="#page-top">
+          <img height="8" width="5" class="iconB01" alt="" src="../../../common/img/icon_03.gif">Top of page</a>
+      </li>
+    </ul>
+  </div>
+  <div class="column1">
+    <div class="positionleft" style="width:px;" id="9">
+      <p>
+        <strong class="headline1">Thermocouple</strong>
+      </p>
+    </div>
+  </div>
+  <div class="column1">
+    <div class="positionleft" style="width:px;">
+      <p>
+        <strong class="headline2">Principle</strong>
+      </p>
+      <p>A thermocouple is a temperature sensor that uses a phenomenon (i.e., the Seebeck effect) that generates a thermoelectromotive force according to the temperature difference between the joint end and the open end of different types of metal that have been joined together at one end. The combination of metals with high and stable thermoelectromotive force is called a thermocouple.<br/>Thermocouples are widely used in industry.</p>
+    </div>
+  </div>
+  <div class="column1">
+    <div class="positionleft" style="width:px;">
+      <p>
+        <strong class="headline2">The Law of Intermediate Temperatures and the Law of Intermediate Metals</strong>
+      </p>
+      <p>The size of the potential difference is determined by the two different materials of the metal wires and by the difference in temperature between the thermocouple junction (i.e., hot junction) and reference junction (i.e., cold junction). Any difference in temperature in between has no effect (Law of Intermediate Temperatures). There is also no effect if there are different types of metals in between as long as there is no difference in temperature (Law of Intermediate Metals).</p>
+      <div class="img">
+        <img src="img/intro_17.gif" alt="">
+      </div>
+    </div>
+  </div>
+  <div class="column1">
+    <div class="positionleft" style="width:px;">
+      <p>
+        <strong class="headline2">Thermocouple Types</strong>
+      </p>
+      <p>Among thermocouples, types K, E, J, and T use base metals, and types B, R, and S use noble metals.<br/>The type of thermocouple is chosen based on the measurement temperature, environment, and accuracy. In general, however, types K, J, and R are commonly used.</p>
+    </div>
+  </div>
+  <div class="column1">
+    <div class="positionleft" style="width:px;">
+      <p>
+        <strong class="headline2">Characteristics of Thermocouple Potential Difference</strong>
+      </p>
+      <div class="img">
+        <img src="img/intro_18.gif" alt="">
+      </div>
+    </div>
+  </div>
+  <div class="column1">
+    <div class="positionleft" style="width:px;">
+      <p>
+        <strong class="headline2">Compensating Lead Wire</strong>
+      </p>
+      <p>If the thermocouple temperature sensor lead wire does not reach the temperature controller and the cable between the sensor and the temperature controller is extended with copper wire, a large temperature error will occur.<br/>The thermocouple temperature sensor lead wires must be extended with compensating conductors.<br/>A compensating conductor is a cable that produces nearly the same thermoelectromotive force as the thermocouple. There are general purpose cables (-20 to 90°C) and heat-resistant cables (0 to 150°C), depending on the ambient operating temperature. The characteristics of these cables are determined by JIS. Compensating conductors are available for each type of thermocouple. A compensating conductor that is suitable for the thermocouple must be used.</p>
+    </div>
+  </div>
+  <div class="top-page-link-area">
+    <ul class="top-page-link">
+      <li>
+        <a href="#page-top">
+          <img height="8" width="5" class="iconB01" alt="" src="../../../common/img/icon_03.gif">Top of page</a>
+      </li>
+    </ul>
+  </div>
+  <div class="column1">
+    <div class="positionleft" style="width:px;" id="10">
+      <p>
+        <strong class="headline1">Platinum Resistance Thermometer</strong>
+      </p>
+    </div>
+  </div>
+  <div class="column1">
+    <div class="positionleft" style="width:px;">
+      <p>
+        <strong class="headline2">Resistance Thermometer</strong>
+      </p>
+      <p>This device exploits the constant relation of metal resistanceto temperature.<br/>Conditions requited for metal wire material:</p>
+      <p>  (1) High temperature coefficient of electrical resistance and good linearity</p>
+      <p>  (2) Stability</p>
+      <p>  (3) Ability to be used with a broad temperature range</p>
+      <p>The material which best meets these conditions is platinum.<br/>Only the <a href="../../glossary/atoz/109/index.html" class="term" title="platinum resistance thermometer - Glossary of Industrial Automation">platinum resistance thermometer</a> is prescribed by JIS.</p>
+    </div>
+  </div>
+  <div class="column1">
+    <div class="positionleft" style="width:px;">
+      <p>
+        <strong class="headline2"><a href="../../glossary/atoz/109/index.html" class="term" title="Platinum Resistance Thermometer - Glossary of Industrial Automation">Platinum Resistance Thermometer</a></strong>
+      </p>
+      <p>This device uses the characteristic of platinum (Pt) that causes its electrical resistance to increase in proportion to temperature.<br/>Based on the 1989 revision of the JIS standards, platinum resistance thermometers that conformed to the previous standards were called JPt, and those that conformed to the 1989 and later standards were called Pt, but JPt was abolished with the 1997 revision. However, there are still systems in operation that use JPt, so <a href="../../glossary/atoz/153/index.html" class="term" title="Temperature Controllers - Glossary of Industrial Automation">temperature controllers</a> also support JPt. The characteristics of Pt and JPt are different, therefore, the input type of the temperature controller must be correctly set.</p>
+    </div>
+  </div>
+  <div class="column1">
+    <div class="positionleft" style="width:px;">
+      <p>
+        <strong class="headline2">Compensating Lead Wire Types</strong>
+      </p>
+      <p>The resistance of the Pt 100 <a href="../../glossary/atoz/109/index.html" class="term" title="platinum resistance thermometer - Glossary of Industrial Automation">platinum resistance thermometer</a> is 100 Ω <a href="../../glossary/atoz/213/index.html" class="term" title="AT - Glossary of Industrial Automation">at</a> 0°C, and the standard resistance ratio (R100/R0 value) of 1.3851 is low, so it will be greatly influenced by the compensating lead wire resistance.<br/>Generally, wiring with a <a href="../../glossary/atoz/2816/index.html" class="term" title="three-wire resistance thermometer - Glossary of Industrial Automation">three-wire resistance thermometer</a> is used to eliminate the influence of the compensating wire resistance.</p>
+    </div>
+  </div>
+  <div class="column1">
+    <div class="positionleft" style="width:px;">
+      <p>
+        <strong class="headline2"><a href="../../glossary/atoz/2816/index.html" class="term" title="Three-wire Resistance Thermometer - Glossary of Industrial Automation">Three-wire Resistance Thermometer</a></strong>
+      </p>
+      <p>One resistance conductor is connected to two wires and the other is connected to another wire to eliminate the influence of resistance when lead wires are extended. All of OMRON's three-wire platinum resistance thermometers are configured this way.</p>
+    </div>
+  </div>
+  <div class="column1">
+    <div class="positionleft" style="width:px;">
+      <p>
+        <strong class="headline2">Connection of Three-wire Platinum Resistance Thermometers</strong>
+      </p>
+      <div class="img">
+        <img src="img/intro_19.gif" alt="">
+      </div>
+    </div>
+  </div>
+  <div class="pdf">
+    <ul>
+      <li>
+        <a href="../../../data_pdf/guide/53/temperature_tg_e_6_3_temperature_sensor_tg_e_5_3.pdf">
+          <img src="../../../common/img/icon_06.gif" alt="" width="11" height="12">PDF Download(6950KB)</a>
+      </li>
+    </ul>
+  </div>
+</div></div>
+          <div class="primary-contents-area"><!----></div>
+        </div>
+        <div class="local-navi-area">
+          <p class="non-visual">
+            <a name="local-navi" id="local-navi">Local Navigation</a>
+          </p>
+          <div class="local-naviA01">
+            <h2>
+              <a href="../index-2.html">
+                <img src="../../../shared/img/icon_01.gif" width="3" height="9" alt="" class="iconA01" />Technical Guide</a>
+            </h2>
+            <ul>
+              <li>
+                <a href="../2.html">
+                  <img src="../../../shared/img/icon_01.gif" width="3" height="9" alt="" class="iconA01" />Control Components</a>
+                <ul>
+                  <li class="stay">
+                    <strong>Temperature Controllers</strong>
+                  </li>
+                  <li>
+                    <a href="../19/introduction.html">
+                      <img src="../../../shared/img/icon_01.gif" width="3" height="9" alt="" class="iconA01" />Timers</a>
+                  </li>
+                  <li>
+                    <a href="../11/introduction.html">
+                      <img src="../../../shared/img/icon_01.gif" width="3" height="9" alt="" class="iconA01" />Counters</a>
+                  </li>
+                  <li>
+                    <a href="../12/introduction.html">
+                      <img src="../../../shared/img/icon_01.gif" width="3" height="9" alt="" class="iconA01" />Cam Positioners</a>
+                  </li>
+                  <li>
+                    <a href="../62/introduction.html">
+                      <img src="../../../shared/img/icon_01.gif" width="3" height="9" alt="" class="iconA01" />Digital Panel Indicators</a>
+                  </li>
+                  <li>
+                    <a href="../63/introduction.html">
+                      <img src="../../../shared/img/icon_01.gif" width="3" height="9" alt="" class="iconA01" />Signal Converters</a>
+                  </li>
+                </ul>
+              </li>
+            </ul>
+          </div><div class="local-naviB01">
+<ul>
+<li><a href="../../faq/index-2.html"><img src="../../../common/img/icon_01.gif" width="3" height="9" alt="" class="iconA01" />FAQ</a></li>
+<li><a href="../index-2.html"><img src="../../../common/img/icon_01.gif" width="3" height="9" alt="" class="iconA01" />Technical Guide</a></li>
+<li><a href="../../models/index-2.html"><img src="../../../common/img/icon_01.gif" width="3" height="9" alt="" class="iconA01" />Models with Standards Certification</a></li>
+<li><a href="../../sistemalibrary/index.html"><img src="../../../common/img/icon_01.gif" width="3" height="9" alt="" class="iconA01" />SISTEMA Library</a></li>
+<li><a href="../../elearning/index-2.html"><img src="../../../common/img/icon_01.gif" width="3" height="9" alt="" class="iconA01" />eLearning</a></li>
+<li><a href="../../glossary/index.html"><img src="../../../common/img/icon_01.gif" width="3" height="9" alt="" class="iconA01" />Glossary of Industrial Automation</a></li>
+</ul>
+<!-- /local-naviB01 --></div></div>
+      </div><!-- === [top-page-link-area] === -->
+<div class="top-page-link-area">
+<ul class="top-page-link">
+<li><a href="#page-top"><img src="../../../common/img/icon_03.gif" width="5" height="8" alt="" class="iconB01" />Top of page</a></li>
+</ul>
+<!-- top-page-link-area --></div>
+<!-- === /[top-page-link-area] === -->
+
+<!-- === [footer-area] === -->
+<div class="footer-area">
+<p class="non-visual"><a name="footer" id="footer">Site Information</a></p>
+<div class="realizing">
+<p><a href="../../../realizing/index.html"><img src="../../../common/img/logo_02.gif" width="86" height="19" alt="realizing" /></a></p>
+<!-- realizing --></div>
+<div class="footer-link">
+<ul>
+<li><a href="http://www.omron.com/" target="_blank"><img src="../../../common/img/icon_01.gif" width="3" height="9" alt="" class="iconA01" />OMRON Corporation<img src="../../../common/img/icon_07.gif" width="14" height="11" alt="" class="external-win" /></a></li>
+<li><a href="../../../sitemap.html"><img src="../../../common/img/icon_01.gif" width="3" height="9" alt="" class="iconA01" />Sitemap</a></li>
+<li><a href="../../../terms/index.html"><img src="../../../common/img/icon_01.gif" width="3" height="9" alt="" class="iconA01" />Terms of Use</a></li>
+<li><a href="../../../privacy/index.html"><img src="../../../common/img/icon_01.gif" width="3" height="9" alt="" class="iconA01" />Privacy Policy</a></li>
+</ul>
+<address>&copy; Copyright OMRON Corporation 2007 - 2016. All Rights Reserved.</address>
+<!-- footer-link --></div>
+<!-- === /[footer-area] === --></div>
+</div>
+  </body>
+
+<!-- Mirrored from www.ia.omron.com/support/guide/53/introduction.html by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 15 Dec 2016 14:28:22 GMT -->
+</html>

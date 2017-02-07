@@ -1,0 +1,698 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xml:lang="en" lang="en" xmlns="http://www.w3.org/1999/xhtml">
+  
+<!-- Mirrored from www.ia.omron.com/support/guide/19/introduction.html by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 15 Dec 2016 14:28:22 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=utf-8" /><!-- /Added by HTTrack -->
+<head>
+    <meta http-equiv="Content-Language" content="en" />
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta http-equiv="Content-Style-Type" content="text/css" />
+    <meta http-equiv="Content-Script-Type" content="text/javascript" />
+    <title>Overview of Timers | OMRON Industrial Automation</title>
+    <meta name="keywords" content="Timer, Timers, Time Switch, Time Switches, Control" />
+    <meta name="description" content="OMRON provides a range of Analog Timers and Digital Timers, as well as Time Switches for 24-hour, weekly, or annual time control." />
+    <script type="text/javascript" language="JavaScript" src="../../../resource/script/shared/default.html"><!----></script>
+    <link rel="stylesheet" type="text/css" media="all" href="../../../common/css/common.css" />
+    <link rel="stylesheet" type="text/css" media="all" href="../../../common/css_g/g_exist_ver3.css" />
+    <link rel="stylesheet" type="text/css" media="print" href="../../../common/css/print.css" />
+    <link rel="start index" href="../../../index-2.html" title="OMRON" />
+    <link rel="chapter" href="../../../index.html" title="Our Strengths" />
+    <link rel="chapter" href="../../../products/index.html" title="Products" />
+    <link rel="chapter" href="../../index.html" title="Technical Support" />
+    <link rel="chapter" href="../../../global_network/index.html" title="Global Network" />
+    <link rel="chapter" href="../../../corporate_profile/index-2.html" title="About Us" />
+    <link rel="chapter" href="../../../new/information/index.html" title="What's New" />
+    <link rel="shortcut icon" href="../../../favicon.ico" type="image/x-icon" /><link rel="alternate" href="../../../index.html" hreflang="en" />
+<script type="text/javascript" src="../../../common/js/common.js"></script>
+<script type="text/javascript" src="../../../common/js/rollover.js"></script>
+<script type="text/javascript" src="../../../common/js/cssSupport.js"></script>
+
+<script type="text/javascript" src="../../../shared/js/jquery.js"></script>
+<script type="text/javascript" src="../../../shared/js/function.js"></script>
+<script type="text/javascript" src="../../../shared/js/country_website.js"></script>
+<script type="text/javascript" src="../../../shared/js/global/ga9d07.js?20121001"></script>
+</head>
+  <body id="www-ia-omron-com" class="tmplC03 control-components">
+    <div class="omron-ia"><p class="non-visual"><a name="page-top" id="page-top">Page top</a></p>
+<div class="header-area">
+	<div class="site-identity">
+		<div class="site-logo">
+			<a href="../../../index.html"><img src="../../../shared/img/logo_01_b.gif" width="129" height="24" alt="OMRON" /></a>
+		</div>
+	<!-- /.site-identity --></div>
+	<div class="utilities">
+		<div class="country-select-area">
+			<p class="canpany">
+				<img src="../../../shared/img/header_txt_01.gif" width="129" height="11" alt="Industrial Automation" />
+			</p>
+			<p class="current-country">
+				<span class="area devider">
+					<a href="javascript:void(0)" onclick="box.countryWebsiteLinks();" id="country"><img src="../../../shared/img/icon_right_b.gif" width="3" height="9" alt="" class="iconA01" />Global</a>
+				</span>
+			</p>
+		</div>
+		<div class="function-area">
+			<ul>
+				<li class="first-child">
+					<a href="../../../contact/index.html"><img src="../../../shared/img/icon_right_b.gif" width="3" height="9" alt="" class="iconA01" />Contact</a>
+				</li>
+			</ul>
+			<div class="search">
+				<form action="http://search2.ia.omron.com/IA/" method="get" name="search_website" id="search_website" class="search-form">
+					<p><input type="text" value="" size="20" name="q" id="search_str" class="search-str" /><input type="submit" value="Search" class="submit60L" id=""  /></p>
+				</form>
+			<!-- /.search --></div>
+		<!-- /.function-area --></div>
+	<!-- /.utilities --></div>
+<!-- /.header-area --></div>
+<!-- === [global-navi-area] === -->
+<div class="global-navi-area">
+<p class="non-visual"><a name="global-navi" id="global-navi">Global Navigation</a></p>
+<ul>
+<li class="home"><a href="../../../index.html">Home</a></li>
+<li class="product"><a href="../../../product/index.html">Products</a></li>
+<li class="support stay-link"><a href="../../index-2.html">Technical Support</a></li>
+<li class="global-network"><a href="../../../global_network/index-2.html">Global Network</a></li>
+<li class="corporate-profile"><a href="../../../corporate_profile/index.html">About Us</a></li>
+</ul>
+<!-- === /[global-navi-area] === --></div><div class="bread-crumb-area">
+        <ul>
+          <li>
+            <a href="../../../index-2.html">Home</a>
+            <span class="separator">&gt;</span>
+          </li>
+          <li>
+            <a href="../../index.html">Technical Support</a>
+            <span class="separator">&gt;</span>
+          </li>
+          <li>
+            <a href="../index-2.html">Technical Guide</a>
+            <span class="separator">&gt;</span>
+          </li>
+          <li>
+            <a href="../2.html">Control Components</a>
+            <span class="separator">&gt;</span>
+          </li>
+          <li>
+            <strong>Timers</strong>
+          </li>
+        </ul>
+      </div>
+      <div class="contents-area">
+        <div class="contents02-area">
+          <div class="contents03-area">
+            <div class="lead-area">
+              <p class="non-visual">
+                <a name="lead" id="lead">Lead Contents</a>
+              </p>
+              <div class="heading-lvl01A01">
+                <h1>Timers</h1>
+              </div>
+              <div class="textA01">
+                <p>OMRON provides a range of Analog Timers and Digital Timers, as well as Time Switches for 24-hour, weekly, or annual time control.</p>
+              </div>
+              <div class="family-linkA01">
+                <table border="1" cellspacing="5">
+                  <tr>
+                    <td class="stay">
+                      <em>Introduction</em>
+                    </td>
+                    <td class="none">
+                      <span>Features</span>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td class="none">
+                      <span>Principles</span>
+                    </td>
+                    <td>
+                      <a href="introduction.html">
+                        <img src="../../../shared/img/icon_01.gif" width="3" height="9" alt="" class="iconA01" />Classifications</a>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td class="none">
+                      <span>Engineering Data</span>
+                    </td>
+                    <td>
+                      <a href="further_information.html">
+                        <img src="../../../shared/img/icon_01.gif" width="3" height="9" alt="" class="iconA01" />Further Information</a>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <a href="explanation_of_terms.html">
+                        <img src="../../../shared/img/icon_01.gif" width="3" height="9" alt="" class="iconA01" />Explanation of Terms</a>
+                    </td>
+                    <td>
+                      <a href="troubleshooting.html">
+                        <img src="../../../shared/img/icon_01.gif" width="3" height="9" alt="" class="iconA01" />Troubleshooting</a>
+                    </td>
+                  </tr>
+                </table>
+              </div>
+            </div>
+            <div class="side-area">
+              <p class="non-visual">
+                <a name="related-info" id="related-info">Related Contents</a>
+              </p>
+<div class="related-info-area">
+                <div class="related-info-blockA01">
+                  <p class="lvl01">
+                    <em>Related Contents</em>
+                  </p>
+                  <ul>
+                    <li>
+                      <em class="lvl02">Timers</em>
+                      <ul>
+                        <li>
+                          <a href="../../../products/category/control-components/timers/index-2.html">
+                            <img src="../../../shared/img/icon_01.gif" width="3" height="9" alt="" class="iconA01" />Products</a>
+                        </li>
+                        <li>
+                          <a href="../../../product/cautions/19/precautions_for_safety_use.html">
+                            <img src="../../../shared/img/icon_01.gif" width="3" height="9" alt="" class="iconA01" />Cautions</a>
+                        </li>
+                      </ul>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="exist-primary-contents-area">
+            <p class="non-visual">
+              <a name="contents" id="contents">Primary Contents</a>
+            </p>﻿<div class="content-items">
+  <ul class="link-listA01">
+    <li>
+      <a href="#1">
+        <img src="../../../common/img/icon_05.gif" alt="" class="iconC01" width="5" height="3">What is a Timer?</a>
+    </li>
+    <li>
+      <a href="#2">
+        <img src="../../../common/img/icon_05.gif" alt="" class="iconC01" width="5" height="3">Settings and Indications of Timers</a>
+    </li>
+    <li>
+      <a href="#3">
+        <img src="../../../common/img/icon_05.gif" alt="" class="iconC01" width="5" height="3">Operating Modes of Timers</a>
+    </li>
+    <li>
+      <a href="#4">
+        <img src="../../../common/img/icon_05.gif" alt="" class="iconC01" width="5" height="3">What Is a Time Switch?</a>
+    </li>
+    <li>
+      <a href="#5">
+        <img src="../../../common/img/icon_05.gif" alt="" class="iconC01" width="5" height="3">Settings and Indications of Time Switches</a>
+    </li>
+    <li>
+      <a href="#6">
+        <img src="../../../common/img/icon_05.gif" alt="" class="iconC01" width="5" height="3">Operating Modes of Time Switches</a>
+    </li>
+  </ul>
+  <div class="column1">
+    <div class="positionleft" id="1">
+      <p>
+        <strong class="headline1">What is a Timer?</strong>
+      </p>
+    </div>
+  </div>
+  <div class="column1">
+    <div class="positionleft">
+      <p>A timer is a control device that outputs a signal at a preset time after an input signal is received.</p>
+    </div>
+  </div>
+  <div class="column1">
+    <div class="positionleft">
+      <div class="img">
+        <img src="img/timers_tg_intro_1.gif" alt="">
+      </div>
+    </div>
+  </div>
+  <div class="top-page-link-area">
+    <ul class="top-page-link">
+      <li>
+        <a href="#page-top">
+          <img height="8" width="5" class="iconB01" alt="" src="../../../common/img/icon_03.gif">Top of page</a>
+      </li>
+    </ul>
+  </div>
+  <div class="column1">
+    <div class="positionleft" id="2">
+      <p>
+        <strong class="headline1">Settings and Indications of Timers</strong>
+      </p>
+    </div>
+  </div>
+  <div class="column1">
+    <div class="positionleft" style="width:px;">
+      <p>
+        <strong class="headline2">Example for the H3CR-A</strong>
+      </p>
+      <p>
+        <strong class="headline2">Settings</strong>
+      </p>
+      <div class="img">
+        <img src="img/timers_tg_intro_2.gif" alt="">
+      </div>
+      <p>
+        <strong class="headline2">(1) Time setting knob<br/>(2) Time unit selector<br/>(3) Time range selector<br/>(4)Operating mode selector</strong>
+      </p>
+      <p class="note">
+        <em class="notemark"></em>[Note] A variety of time ranges can be set with the H3CR-A using the time unit selector and time range selector.</p>
+      <p>
+        <strong class="headline2">Indications</strong>
+      </p>
+      <p>The pointers on the Timer do not move along with time like the hands of a clock do. You cannot see the progression of time.<br/>Therefore, two operation indicators are provided on the upper left of the Timer to identify the timer status.</p>
+      <p>
+        <strong class="headline2">(5) Run/Power Indicator (Green)</strong>
+      </p>
+      <p>Run indicator: Indicates whether the time is being measured or the time has reached.<br/>Power indicator: Indicates whether power is being supplied to the Timer.<br/>Fundamentally, the indicators will be lit when the power is being supplied. However, they will flash when the time is being measured.</p>
+      <p>
+        <strong class="headline2">(6) Output Indicator (Orange)</strong>
+      </p>
+      <p>Used to see the status of the output. Lit when a signal is output.</p>
+    </div>
+  </div>
+  <div class="top-page-link-area">
+    <ul class="top-page-link">
+      <li>
+        <a href="#page-top">
+          <img height="8" width="5" class="iconB01" alt="" src="../../../common/img/icon_03.gif">Top of page</a>
+      </li>
+    </ul>
+  </div>
+  <div class="column1">
+    <div class="positionleft" style="width:px;" id="3">
+      <p>
+        <strong class="headline1">Operating Modes of Timers</strong>
+      </p>
+    </div>
+  </div>
+  <div class="column1">
+    <div class="positionleft" style="width:px;">
+      <div class="img">
+        <img src="img/timers_tg_intro_3.gif" alt="">
+      </div>
+      <p>The operating mode determines the output method that is used when the set time has reached.<br/>The following four basic operating modes are the most commonly used.</p>
+      <div class="img">
+        <img src="img/timers_tg_intro_4.gif" alt="">
+      </div>
+    </div>
+  </div>
+  <div class="column1">
+    <div class="positionleft" style="width:px;">
+      <p>
+        <strong class="headline2"><a href="../../glossary/atoz/2907/index.html" class="term" title="ON-delay Operation - Glossary of Industrial Automation">ON-delay Operation</a></strong>
+      </p>
+      <div class="img">
+        <img src="img/timers_tg_intro_5.gif" alt="">
+      </div>
+      <p>With <a href="../../glossary/atoz/2907/index.html" class="term" title="ON-delay operation - Glossary of Industrial Automation">ON-delay operation</a>, the Timer receives an input and then an output signal is output by switching the Timer contacts after a set time delay.<br/>This name is used because there is a delay between when the input signal is received (i.e., turns ON) and when the output signal is output.<br/><a href="../../glossary/atoz/2907/index.html" class="term" title="ON-delay operation - Glossary of Industrial Automation">ON-delay operation</a> is the operating mode most often used for automated machines.</p>
+    </div>
+  </div>
+  <div class="column1">
+    <div class="positionleft" style="width:px;">
+      <p>
+        <strong class="headline2">Application: Pushbutton Signals</strong>
+      </p>
+      <div class="img">
+        <img src="img/timers_tg_intro_6.gif" alt="">
+      </div>
+      <p>When the pedestrian pushbutton is pressed for a traffic signal, the signal light changes from red to green after a delay.</p>
+    </div>
+  </div>
+  <div class="column1">
+    <div class="positionleft" style="width:px;">
+      <p>
+        <strong class="headline2">OFF-delay Operation</strong>
+      </p>
+      <div class="img">
+        <img src="img/timers_tg_intro_7.gif" alt="">
+      </div>
+      <p>With OFF-delay operation, the output turns ON at the same time as the input and then the output turns OFF when the Timer contacts switch after the set time has expired. The set<br/>time is calculated from when the input turns OFF.<br/>This name is used because there is a delay between when the input turns OFF and when the output turns OFF.</p>
+    </div>
+  </div>
+  <div class="column1">
+    <div class="positionleft" style="width:px;">
+      <p>
+        <strong class="headline2">Application: Car Ceiling Lights</strong>
+      </p>
+      <div class="img">
+        <img src="img/timers_tg_intro_8.gif" alt="">
+      </div>
+      <p>When you get in your car, the ceiling  light turns ON when the door is opened. The light remains lit for several seconds after you get into the car and close the door.</p>
+    </div>
+  </div>
+  <div class="column1">
+    <div class="positionleft" style="width:px;">
+      <p>
+        <strong class="headline2"><a href="../../glossary/atoz/3383/index.html" class="term" title="Flicker Operation - Glossary of Industrial Automation">Flicker Operation</a></strong>
+      </p>
+      <div class="img">
+        <img src="img/timers_tg_intro_9.gif" alt="">
+      </div>
+      <p>With <a href="../../glossary/atoz/3383/index.html" class="term" title="flicker operation - Glossary of Industrial Automation">flicker operation</a>, an output repeatedly turns ON and OFF at the set time after an input is received.</p>
+    </div>
+  </div>
+  <div class="column1">
+    <div class="positionleft" style="width:px;">
+      <p>
+        <strong class="headline2">Application: Automatic Control of Fountains</strong>
+      </p>
+      <div class="img">
+        <img src="img/timers_tg_intro_10.gif" alt="">
+      </div>
+      <p>The water is repeatedly released and stopped at intervals of two minutes.</p>
+    </div>
+  </div>
+  <div class="column1">
+    <div class="positionleft" style="width:px;">
+      <p>
+        <strong class="headline2"><a href="../../glossary/atoz/2882/index.html" class="term" title="Interval Operation - Glossary of Industrial Automation">Interval Operation</a></strong>
+      </p>
+      <div class="img">
+        <img src="img/timers_tg_intro_11.gif" alt="">
+      </div>
+      <p>With <a href="../../glossary/atoz/2882/index.html" class="term" title="interval operation - Glossary of Industrial Automation">interval operation</a>, the output turns ON at the same timeas the input and the output turns OFF after a set time.</p>
+    </div>
+  </div>
+  <div class="column1">
+    <div class="positionleft" style="width:px;">
+      <p>
+        <strong class="headline2">Application: Amusement Park Rides</strong>
+      </p>
+      <div class="img">
+        <img src="img/timers_tg_intro_12.gif" alt="">
+      </div>
+      <p>The ride operates for five minutes when 100 yen is inserted.</p>
+    </div>
+  </div>
+  <div class="column1">
+    <div class="positionleft" style="width:px;">
+      <p>
+        <strong class="headline2">Timer Starting Methods</strong>
+      </p>
+      <p>There are two starting methods for the operating modes.</p>
+      <p>Example: <a href="../../glossary/atoz/2907/index.html" class="term" title="ON-delay operation - Glossary of Industrial Automation">ON-delay Operation</a><br/>Signal ON-delay operation: Measuring time starts when the input section receives an input while voltage is being applied to the Timer power supply section.<br/>Power ON-delay operation: Measuring time starts when voltage is applied to the Timer power supply section.</p>
+      <div class="img">
+        <img src="img/timers_tg_intro_13.gif" alt="">
+      </div>
+    </div>
+  </div>
+  <div class="column1">
+    <div class="positionleft" style="width:px;">
+      <p>
+        <strong class="headline2">Differences between Signal <a href="../../glossary/atoz/2907/index.html" class="term" title="ON-delay operation - Glossary of Industrial Automation">ON-delay Operation</a> and Power ON-delay Operation</strong>
+      </p>
+      <p>
+        <strong class="headline2">(1) Accuracy*</strong>
+      </p>
+      <p>Operation will not be stable unless a brief period elapses after the power supply is turned ON to the timing section of the Timer.</p>
+      <p>Power supply start:Operation is unstable because measuring time starts at the same time that the power supply turns ON. <br/>Therefore, deviation will occur in the operation time immediately after starting the Timer.</p>
+      <p>Signal start: Stable time accuracy is ensured because a voltage is already applied to the Timer before starting the Timer.</p>
+      <p>The accuracy of the signal start is generally considered better. For some models, however, such as the H3CR, there is no change in accuracy.</p>
+      <p class="note">
+        <em class="notemark"></em>*Accuracy is the correctness of the time.</p>
+    </div>
+  </div>
+  <div class="column1">
+    <div class="positionleft" style="width:px;">
+      <p>
+        <strong class="headline2">(2) Terminal Arrangement</strong>
+      </p>
+      <div class="img">
+        <img src="img/timers_tg_intro_14.gif" alt="">
+      </div>
+      <p>&#8226; Models with a signal start require three external inputs, so they have many terminals.<br/>&#8226; Models with a power supply start (H3CR-A8) are the H3CR <a href="../../glossary/atoz/151/index.html" class="term" title="Timers - Glossary of Industrial Automation">Timers</a> most often used for automated machinery.</p>
+    </div>
+  </div>
+  <div class="top-page-link-area">
+    <ul class="top-page-link">
+      <li>
+        <a href="#page-top">
+          <img height="8" width="5" class="iconB01" alt="" src="../../../common/img/icon_03.gif">Top of page</a>
+      </li>
+    </ul>
+  </div>
+  <div class="column1">
+    <div class="positionleft" style="width:px;" id="4">
+      <p>
+        <strong class="headline1">What Is a Time Switch?</strong>
+      </p>
+    </div>
+  </div>
+  <div class="column1">
+    <div class="positionleft" style="width:px;">
+      <p>A Time Switch is a control device that turns a load ON and OFF at the set times.</p>
+      <div class="img">
+        <img src="img/timers_tg_intro_15.gif" alt="">
+      </div>
+      <p>However, most models of Time Switches do not have an input section.<br/>If there is an input section, it is not used to output signals to the timing section, ather, it is used to control some of the functions of the Time Switch, such as adjusting the time.</p>
+    </div>
+  </div>
+  <div class="top-page-link-area">
+    <ul class="top-page-link">
+      <li>
+        <a href="#page-top">
+          <img height="8" width="5" class="iconB01" alt="" src="../../../common/img/icon_03.gif">Top of page</a>
+      </li>
+    </ul>
+  </div>
+  <div class="column1">
+    <div class="positionleft" style="width:px;" id="5">
+      <p>
+        <strong class="headline1">Settings and Indications of Time Switches</strong>
+      </p>
+    </div>
+  </div>
+  <div class="column1">
+    <div class="positionleft" style="width:px;">
+      <p>
+        <strong class="headline2">Example for the H5F</strong>
+      </p>
+      <div class="img">
+        <img src="img/timers_tg_intro_16.gif" alt="">
+      </div>
+      <div class="table-blockA01"><div class="table-blockA01"><table border="0" cellspacing="0" class="tableB01"><tr><td  class="heading center middle" ><strong>No.</strong></td><td  class="heading center middle" ><strong>Function</strong></td></tr><tr><td class="center middle" >(1)</td><td class="left middle" >Switches between time adjustment mode, the operation setting modes, and run mode.</td></tr><tr><td class="center middle" >(2)</td><td class="left middle" >Sets hours or switches between 12-hour (am/pm) and 24-hour display.</td></tr><tr><td class="center middle" >(3)</td><td class="left middle" >Sets minutes or a pulse time width.</td></tr><tr><td class="center middle" >(4)</td><td class="left middle" >Writes the set data to memory or confirms settings with the program check function.</td></tr><tr><td class="center middle" >(5)</td><td class="left middle" >Moves the cursor to specify a day or starts the program check function.</td></tr><tr><td class="center middle" >(6)</td><td class="left middle" >Specifies or cancels a specified day or switches to holiday setting mode.</td></tr><tr><td class="center middle" >(7)</td><td class="left middle" >Deletes the set data and initializes the day of operation or sets/clears summer time.</td></tr><tr><td class="center middle" >(8)</td><td class="left middle" >ON: Turns on the output regardless of the setting.<br>AUTO: Turns on/off the output according to the setting.<br>OFF: Turns off the output regardless of the setting.<br>Override and automatic return operation can be executed by using<br>this key in combination with the Write Key.</td></tr><tr><td class="center middle" >(9)</td><td class="left middle" >Selects timer operation or pulse-output operation.</td></tr></table></div></div>
+    </div>
+  </div>
+  <div class="top-page-link-area">
+    <ul class="top-page-link">
+      <li>
+        <a href="#page-top">
+          <img height="8" width="5" class="iconB01" alt="" src="../../../common/img/icon_03.gif">Top of page</a>
+      </li>
+    </ul>
+  </div>
+  <div class="column1">
+    <div class="positionleft" style="width:px;" id="6">
+      <p>
+        <strong class="headline1">Operating Modes of Time Switches</strong>
+      </p>
+    </div>
+  </div>
+  <div class="column1">
+    <div class="positionleft" style="width:px;">
+      <p>The operating mode determines the ON/OFF output method that is used for the set times.</p>
+      <div class="img">
+        <img src="img/timers_tg_intro_18.gif" alt="">
+      </div>
+    </div>
+  </div>
+  <div class="column1">
+    <div class="positionleft" style="width:px;">
+      <p>
+        <strong class="headline2">Timer Operation (ON/OFF Operation)</strong>
+      </p>
+      <div class="img">
+        <img src="img/timers_tg_intro_19.gif" alt="">
+      </div>
+      <p>With timer operation, the Time Switch controls the output according to the set ON and OFF times.</p>
+    </div>
+  </div>
+  <div class="column1">
+    <div class="positionleft" style="width:px;">
+      <p>
+        <strong class="headline2">Application 1: Warm-up Operation for Packing Machine</strong>
+      </p>
+      <div class="img">
+        <img src="img/timers_tg_intro_20.gif" alt="">
+      </div>
+      <p>The packing machine can be warmed up before the employees come to work so that work can begin immediately.</p>
+    </div>
+  </div>
+  <div class="column1">
+    <div class="positionleft" style="width:px;">
+      <p>
+        <strong class="headline2">Application 2: School Chimes</strong>
+      </p>
+      <div class="img">
+        <img src="img/timers_tg_intro_21.gif" alt="">
+      </div>
+      <p>The chimes can be sounded at the start of classes, at the lunch break, and at the end of classes.</p>
+    </div>
+  </div>
+  <div class="column1">
+    <div class="positionleft" style="width:px;">
+      <p>
+        <strong class="headline2">Pulse-output Operation</strong>
+      </p>
+      <div class="img">
+        <img src="img/timers_tg_intro_22.gif" alt="">
+      </div>
+      <p>With pulse-output operation, the Time Switch outputs a pulse of a specified time width at the set ON time.</p>
+    </div>
+  </div>
+  <div class="column1">
+    <div class="positionleft" style="width:px;">
+      <p>
+        <strong class="headline2">Forced ON/OFF Operation</strong>
+      </p>
+      <p>Forced ON/OFF Operation is used to force the output ON or OFF by using the output ON/OFF switch regardless of the control output setting.</p>
+    </div>
+  </div>
+  <div class="column1">
+    <div class="positionleft" style="width:px;">
+      <p>
+        <strong class="headline2">Override and Automatic Return Operation</strong>
+      </p>
+      <div class="img">
+        <img src="img/timers_tg_intro_23.gif" alt="">
+      </div>
+      <p>With override and automatic return operation, the output ON/OFF switch and the Write Key are used to hold the control output ON until the next OFF time.</p>
+    </div>
+  </div>
+  <div class="column1">
+    <div class="positionleft" style="width:px;">
+      <p>
+        <strong class="headline2">Partial Operation on Specified Day</strong>
+      </p>
+      <div class="img">
+        <img src="img/timers_tg_intro_24.gif" alt="">
+      </div>
+      <p>You can select days on which to execute only part of the set operations.</p>
+    </div>
+  </div>
+  <div class="column1">
+    <div class="positionleft" style="width:px;">
+      <p>
+        <strong class="headline2">Holiday Setting</strong>
+      </p>
+      <div class="img">
+        <img src="img/timers_tg_intro_25.gif" alt="">
+      </div>
+      <p>It is possible to set an operation day in the present week as a holiday (i.e., a non-operation day: output will be OFF regardless of the settings). When that day has passed, operation will continue according to the regular program, and operation will be executed as normal on that day from the following week.</p>
+    </div>
+  </div>
+  <div class="column1">
+    <div class="positionleft" style="width:px;">
+      <p>
+        <strong class="headline2">Time Switch Starting Methods</strong>
+      </p>
+      <p>With a Time Switch, the progression of time starts when a voltage is applied to the power supply section.</p>
+      <p class="note">
+        <em class="notemark"></em>* When the power supply section is OFF, time progresses and the settings are retained, but no operations are performed to turn the output ON or OFF.</p>
+    </div>
+  </div>
+  <div class="column1">
+    <div class="positionleft" style="width:px;">
+      <p>
+        <strong class="headline2">Terminal Arrangement</strong>
+      </p>
+      <p>Example for the H5F-A/B</p>
+      <div class="img">
+        <img src="img/timers_tg_intro_26.gif" alt="">
+      </div>
+    </div>
+  </div>
+  <div class="pdf">
+    <ul>
+      <li>
+        <a href="../../../data_pdf/guide/19/timer_timeswitch_tg_e_7_3.pdf">
+          <img src="../../../common/img/icon_06.gif" alt="" width="11" height="12">PDF Download(4021KB)</a>
+      </li>
+    </ul>
+  </div>
+</div></div>
+          <div class="primary-contents-area"><!----></div>
+        </div>
+        <div class="local-navi-area">
+          <p class="non-visual">
+            <a name="local-navi" id="local-navi">Local Navigation</a>
+          </p>
+          <div class="local-naviA01">
+            <h2>
+              <a href="../index-2.html">
+                <img src="../../../shared/img/icon_01.gif" width="3" height="9" alt="" class="iconA01" />Technical Guide</a>
+            </h2>
+            <ul>
+              <li>
+                <a href="../2.html">
+                  <img src="../../../shared/img/icon_01.gif" width="3" height="9" alt="" class="iconA01" />Control Components</a>
+                <ul>
+                  <li>
+                    <a href="../53/introduction.html">
+                      <img src="../../../shared/img/icon_01.gif" width="3" height="9" alt="" class="iconA01" />Temperature Controllers</a>
+                  </li>
+                  <li class="stay">
+                    <strong>Timers</strong>
+                  </li>
+                  <li>
+                    <a href="../11/introduction.html">
+                      <img src="../../../shared/img/icon_01.gif" width="3" height="9" alt="" class="iconA01" />Counters</a>
+                  </li>
+                  <li>
+                    <a href="../12/introduction.html">
+                      <img src="../../../shared/img/icon_01.gif" width="3" height="9" alt="" class="iconA01" />Cam Positioners</a>
+                  </li>
+                  <li>
+                    <a href="../62/introduction.html">
+                      <img src="../../../shared/img/icon_01.gif" width="3" height="9" alt="" class="iconA01" />Digital Panel Indicators</a>
+                  </li>
+                  <li>
+                    <a href="../63/introduction.html">
+                      <img src="../../../shared/img/icon_01.gif" width="3" height="9" alt="" class="iconA01" />Signal Converters</a>
+                  </li>
+                </ul>
+              </li>
+            </ul>
+          </div><div class="local-naviB01">
+<ul>
+<li><a href="../../faq/index-2.html"><img src="../../../common/img/icon_01.gif" width="3" height="9" alt="" class="iconA01" />FAQ</a></li>
+<li><a href="../index-2.html"><img src="../../../common/img/icon_01.gif" width="3" height="9" alt="" class="iconA01" />Technical Guide</a></li>
+<li><a href="../../models/index-2.html"><img src="../../../common/img/icon_01.gif" width="3" height="9" alt="" class="iconA01" />Models with Standards Certification</a></li>
+<li><a href="../../sistemalibrary/index.html"><img src="../../../common/img/icon_01.gif" width="3" height="9" alt="" class="iconA01" />SISTEMA Library</a></li>
+<li><a href="../../elearning/index-2.html"><img src="../../../common/img/icon_01.gif" width="3" height="9" alt="" class="iconA01" />eLearning</a></li>
+<li><a href="../../glossary/index.html"><img src="../../../common/img/icon_01.gif" width="3" height="9" alt="" class="iconA01" />Glossary of Industrial Automation</a></li>
+</ul>
+<!-- /local-naviB01 --></div></div>
+      </div><!-- === [top-page-link-area] === -->
+<div class="top-page-link-area">
+<ul class="top-page-link">
+<li><a href="#page-top"><img src="../../../common/img/icon_03.gif" width="5" height="8" alt="" class="iconB01" />Top of page</a></li>
+</ul>
+<!-- top-page-link-area --></div>
+<!-- === /[top-page-link-area] === -->
+
+<!-- === [footer-area] === -->
+<div class="footer-area">
+<p class="non-visual"><a name="footer" id="footer">Site Information</a></p>
+<div class="realizing">
+<p><a href="../../../realizing/index.html"><img src="../../../common/img/logo_02.gif" width="86" height="19" alt="realizing" /></a></p>
+<!-- realizing --></div>
+<div class="footer-link">
+<ul>
+<li><a href="http://www.omron.com/" target="_blank"><img src="../../../common/img/icon_01.gif" width="3" height="9" alt="" class="iconA01" />OMRON Corporation<img src="../../../common/img/icon_07.gif" width="14" height="11" alt="" class="external-win" /></a></li>
+<li><a href="../../../sitemap.html"><img src="../../../common/img/icon_01.gif" width="3" height="9" alt="" class="iconA01" />Sitemap</a></li>
+<li><a href="../../../terms/index.html"><img src="../../../common/img/icon_01.gif" width="3" height="9" alt="" class="iconA01" />Terms of Use</a></li>
+<li><a href="../../../privacy/index.html"><img src="../../../common/img/icon_01.gif" width="3" height="9" alt="" class="iconA01" />Privacy Policy</a></li>
+</ul>
+<address>&copy; Copyright OMRON Corporation 2007 - 2016. All Rights Reserved.</address>
+<!-- footer-link --></div>
+<!-- === /[footer-area] === --></div>
+</div>
+  </body>
+
+<!-- Mirrored from www.ia.omron.com/support/guide/19/introduction.html by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 15 Dec 2016 14:28:23 GMT -->
+</html>

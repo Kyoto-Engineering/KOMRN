@@ -1,0 +1,14 @@
+<public:component lightWeight="true">
+<script type="text/javascript">
+var deferScripts = [
+	"/common/js/jp/searchform.js",
+	"../js/country_websites.js",
+	"../js/country_websites_settings.js",
+	"../js/rollover.js",
+	"../js/cssSupport.js"
+]
+if (element.src && element.src.match(deferScripts.join("|").replace(/\//g, "\\/").replace(/\./g, "\\."))) {
+	element.defer = true;
+}
+</script>
+</public:component>

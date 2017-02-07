@@ -1,0 +1,21 @@
+/*-------------------------------------------------------------------------
+ bread-crumb-area
+-------------------------------------------------------------------------*/
+div.bread-crumb-area ul{
+	margin:0 18px 0.7em 18px;
+	line-height:1.4;
+	font-size:83%;
+}
+div.bread-crumb-area ul li{
+	display:inline;
+	zoom:1;
+}
+div.bread-crumb-area ul li strong{
+	font-weight:normal; 
+	color:#555;
+}
+div.bread-crumb-area span.separator{
+	margin-left:3px;
+	margin-right:3px;
+	color:#000;
+}

@@ -1,0 +1,166 @@
+/*-------------------------------------------------------------------------
+ HEADING
+-------------------------------------------------------------------------*/
+
+/*	H1
+------------------------------------*/
+/* default color */
+.heading-h1{
+	position:relative;
+	clear:both;
+	min-height:64px !important;
+	_height:64px !important;
+	margin-bottom:1.49em;
+	padding:0 10px 0 10px !important;
+	background:url(../images/heading_bg_01.gif) left bottom repeat-x;
+	border-top:3px solid #0055c4;
+	border-bottom:1px solid #e5e5e5;
+	line-height:1.1 !important;
+}
+.heading-h1 h1{
+	margin-top:32px !important;
+	margin-bottom:0.4em !important;
+	font-size:166% !important;
+}
+.heading-h1 p.sub-title{
+	position:absolute;
+	top:0.3em;
+	line-height:1.4 !important;
+	font-size:83% !important;
+}
+.heading-h1 span.label-new,
+.heading-h1 span.label-attention{
+	float:right;
+	margin:32px 0 10px 10px;
+	/margin:32px 0 0 10px;
+	padding:0.25em 6px;
+	font-weight:bold;
+}
+.heading-h1 span.label-new{
+	border:1px solid #0046A0;
+	color:#0046A0;
+}
+.heading-h1 span.label-attention{
+	border:1px solid #A00000;
+	color:#A00000;
+}
+
+/* sensors */
+body.sensors .heading-h1{border-top-color:#929fd0;}
+
+/* switches */
+body.switches .heading-h1{border-top-color:#c399cc;}
+
+/* safety-components */
+body.safety-components .heading-h1{border-top-color:#f2e06d;}
+
+/* relays */
+body.relays .heading-h1{border-top-color:#e58873;}
+
+/* control-components */
+body.control-components .heading-h1{border-top-color:#e5a35c;}
+
+/* automation-systems,fa-systems */
+body.automation-systems .heading-h1{border-top-color:#a9cc7a;}
+
+/* motion_drives */
+body.motion_drives .heading-h1{border-top-color:#c8ca66;}
+
+/* energy-conservation-support_environment-measure-equipment */
+body.energy-conservation-support_environment-measure-equipment .heading-h1{border-top-color:#68BDEA;}
+
+/* power-supplies_in-addition */
+body.power-supplies_in-addition .heading-h1{border-top-color:#bfbfbf;}
+
+/* robotics */
+body.robotics .heading-h1{border-top-color:#208C5B;}
+
+
+/*	H2,H3,H4,H5,H6
+------------------------------------*/
+/* common */
+.heading-A01,
+.heading-A02,
+.heading-A03,
+.heading-B01,
+.heading-B02{
+	clear:both;
+	margin-bottom:1.49em;/*18px*/
+	font-weight:bold;
+}
+/* .heading-A01 */
+.heading-A01{
+	_clear/**/ : both;
+	padding:0.4em 10px 0.5em 5px;
+	background:url(../images/heading_lvl02A01_bg_01.gif) left bottom repeat-x;
+	border-top:3px solid #ccc;
+}
+.heading-A01.sensors{border-color:#929fd0;}
+.heading-A01.switches{border-color:#c399cc;}
+.heading-A01.safety-components{border-color:#f2e06d;}
+.heading-A01.relays{border-color:#e58873;}
+.heading-A01.control-components{border-color:#e5a35c;}
+.heading-A01.automation-systems{border-color:#a9cc7a;}
+.heading-A01.motion_drives{border-color:#c8ca66;}
+.heading-A01.energy-conservation-support_environment-measure-equipment{border-color:#68BDEA;}
+.heading-A01.power-supplies_in-addition{border-color:#bfbfbf;}
+.heading-A01.robotics{border-top-color:#208C5B;}
+
+
+/* .heading-A02 */
+.heading-A02{
+	padding-left:5px;
+	padding-bottom:0.2em;
+	border-bottom:1px solid #ccc;
+}
+.heading-A02.sensors{border-color:#929fd0;}
+.heading-A02.switches{border-color:#c399cc;}
+.heading-A02.safety-components{border-color:#f2e06d;}
+.heading-A02.relays{border-color:#e58873;}
+.heading-A02.control-components{border-color:#e5a35c;}
+.heading-A02.automation-systems{border-color:#a9cc7a;}
+.heading-A02.motion_drives{border-color:#c8ca66;}
+.heading-A02.energy-conservation-support_environment-measure-equipment{border-color:#68BDEA;}
+.heading-A02.power-supplies_in-addition{border-color:#bfbfbf;}
+.heading-A02.robotics{border-top-color:#208C5B;}
+
+/* .heading-A03 */
+.heading-A03{
+	padding:0.2em 0 0.2em 5px;
+	border-left:5px solid #ccc;
+}
+
+/* .heading-B01 */
+.heading-B01{
+	padding-left:5px;
+	border-left:3px solid #ccc;
+	line-height:1.2;
+}
+
+/* .heading-B02 */
+.heading-B02{line-height:1.2;}
+
+
+/*	.heading-link
+------------------------------------*/
+.heading-link a:link{
+	text-decoration:none;
+	color:#555;
+}
+.heading-link a:visited{
+	text-decoration:none;
+	color:#808080;
+}
+.heading-link a:link:hover,
+.heading-link a:visited:hover,
+.heading-link a:link:active,
+.heading-link a:visited:active,
+.heading-link a:link:focus,
+.heading-link a:visited:focus{
+	text-decoration:underline;
+	color:#3b3b3b;
+}
+
+.margintop{
+	margin-top: 3.99em;
+}

@@ -1,0 +1,1262 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xml:lang="en" lang="en" xmlns="http://www.w3.org/1999/xhtml">
+  
+<!-- Mirrored from www.ia.omron.com/support/guide/65/introduction.html by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 15 Dec 2016 14:32:26 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=utf-8" /><!-- /Added by HTTrack -->
+<head>
+    <meta http-equiv="Content-Language" content="en" />
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta http-equiv="Content-Style-Type" content="text/css" />
+    <meta http-equiv="Content-Script-Type" content="text/javascript" />
+    <title> Overview of Measuring / Motor Protective Relays Technical Guide for Measuring / Motor Protective Relays | OMRON Industrial Automation</title>
+    <meta name="keywords" content="Protective Equipments/Electric Power Monitors, Protective Equipments, Electric Power Monitors" />
+    <meta name="description" content="Protective Components are available from low to high voltages. They monitor the status of main power supply circuits to protect electrical circuits and manufacturing facilities from overcurrents, Earth-faults, undervoltages, phase loss, and other adverse conditions." />
+    <script type="text/javascript" language="JavaScript" src="../../../resource/script/shared/default.html"><!----></script>
+    <link rel="stylesheet" type="text/css" media="all" href="../../../common/css/common.css" />
+    <link rel="stylesheet" type="text/css" media="all" href="../../../common/css_g/g_exist_ver3.css" />
+    <link rel="stylesheet" type="text/css" media="print" href="../../../common/css/print.css" />
+    <link rel="start index" href="../../../index-2.html" title="OMRON" />
+    <link rel="chapter" href="../../../index.html" title="Our Strengths" />
+    <link rel="chapter" href="../../../products/index.html" title="Products" />
+    <link rel="chapter" href="../../index.html" title="Technical Support" />
+    <link rel="chapter" href="../../../global_network/index.html" title="Global Network" />
+    <link rel="chapter" href="../../../corporate_profile/index-2.html" title="About Us" />
+    <link rel="chapter" href="../../../new/information/index.html" title="What's New" />
+    <link rel="shortcut icon" href="../../../favicon.ico" type="image/x-icon" /><link rel="alternate" href="../../../index.html" hreflang="en" />
+<script type="text/javascript" src="../../../common/js/common.js"></script>
+<script type="text/javascript" src="../../../common/js/rollover.js"></script>
+<script type="text/javascript" src="../../../common/js/cssSupport.js"></script>
+
+<script type="text/javascript" src="../../../shared/js/jquery.js"></script>
+<script type="text/javascript" src="../../../shared/js/function.js"></script>
+<script type="text/javascript" src="../../../shared/js/country_website.js"></script>
+<script type="text/javascript" src="../../../shared/js/global/ga9d07.js?20121001"></script>
+</head>
+  <body id="www-ia-omron-com" class="tmplC03 addition">
+    <div class="omron-ia"><p class="non-visual"><a name="page-top" id="page-top">Page top</a></p>
+<div class="header-area">
+	<div class="site-identity">
+		<div class="site-logo">
+			<a href="../../../index.html"><img src="../../../shared/img/logo_01_b.gif" width="129" height="24" alt="OMRON" /></a>
+		</div>
+	<!-- /.site-identity --></div>
+	<div class="utilities">
+		<div class="country-select-area">
+			<p class="canpany">
+				<img src="../../../shared/img/header_txt_01.gif" width="129" height="11" alt="Industrial Automation" />
+			</p>
+			<p class="current-country">
+				<span class="area devider">
+					<a href="javascript:void(0)" onclick="box.countryWebsiteLinks();" id="country"><img src="../../../shared/img/icon_right_b.gif" width="3" height="9" alt="" class="iconA01" />Global</a>
+				</span>
+			</p>
+		</div>
+		<div class="function-area">
+			<ul>
+				<li class="first-child">
+					<a href="../../../contact/index.html"><img src="../../../shared/img/icon_right_b.gif" width="3" height="9" alt="" class="iconA01" />Contact</a>
+				</li>
+			</ul>
+			<div class="search">
+				<form action="http://search2.ia.omron.com/IA/" method="get" name="search_website" id="search_website" class="search-form">
+					<p><input type="text" value="" size="20" name="q" id="search_str" class="search-str" /><input type="submit" value="Search" class="submit60L" id=""  /></p>
+				</form>
+			<!-- /.search --></div>
+		<!-- /.function-area --></div>
+	<!-- /.utilities --></div>
+<!-- /.header-area --></div>
+<!-- === [global-navi-area] === -->
+<div class="global-navi-area">
+<p class="non-visual"><a name="global-navi" id="global-navi">Global Navigation</a></p>
+<ul>
+<li class="home"><a href="../../../index.html">Home</a></li>
+<li class="product"><a href="../../../product/index.html">Products</a></li>
+<li class="support stay-link"><a href="../../index-2.html">Technical Support</a></li>
+<li class="global-network"><a href="../../../global_network/index-2.html">Global Network</a></li>
+<li class="corporate-profile"><a href="../../../corporate_profile/index.html">About Us</a></li>
+</ul>
+<!-- === /[global-navi-area] === --></div><div class="bread-crumb-area">
+        <ul>
+          <li>
+            <a href="../../../index-2.html">Home</a>
+            <span class="separator">&gt;</span>
+          </li>
+          <li>
+            <a href="../../index.html">Technical Support</a>
+            <span class="separator">&gt;</span>
+          </li>
+          <li>
+            <a href="../index-2.html">Technical Guide</a>
+            <span class="separator">&gt;</span>
+          </li>
+          <li>
+            <a href="../6.html">Power Supplies / In Addition</a>
+            <span class="separator">&gt;</span>
+          </li>
+          <li>
+            <strong>Measuring / Motor Protective Relays</strong>
+          </li>
+        </ul>
+      </div>
+      <div class="contents-area">
+        <div class="contents02-area">
+          <div class="contents03-area">
+            <div class="lead-area">
+              <p class="non-visual">
+                <a name="lead" id="lead">Lead Contents</a>
+              </p>
+              <div class="heading-lvl01A01">
+                <h1>Measuring / Motor Protective Relays</h1>
+              </div>
+              <div class="textA01">
+                <p>Protective Components are available from low to high voltages. They monitor the status of main power supply circuits to protect electrical circuits and manufacturing facilities from overcurrents, Earth-faults, undervoltages, phase loss, and other adverse conditions.</p>
+              </div>
+              <div class="family-linkA01">
+                <table border="1" cellspacing="5">
+                  <tr>
+                    <td class="stay">
+                      <em>Introduction</em>
+                    </td>
+                    <td class="none">
+                      <span>Features</span>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td class="none">
+                      <span>Principles</span>
+                    </td>
+                    <td class="none">
+                      <span>Classifications</span>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td class="none">
+                      <span>Engineering Data</span>
+                    </td>
+                    <td>
+                      <a href="further_information.html">
+                        <img src="../../../shared/img/icon_01.gif" width="3" height="9" alt="" class="iconA01" />Further Information</a>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <a href="explanation_of_terms.html">
+                        <img src="../../../shared/img/icon_01.gif" width="3" height="9" alt="" class="iconA01" />Explanation of Terms</a>
+                    </td>
+                    <td class="none">
+                      <span>Troubleshooting</span>
+                    </td>
+                  </tr>
+                </table>
+              </div>
+            </div>
+            <div class="side-area">
+              <p class="non-visual">
+                <a name="related-info" id="related-info">Related Contents</a>
+              </p>
+<div class="related-info-area">
+                <div class="related-info-blockA01">
+                  <p class="lvl01">
+                    <em>Related Contents</em>
+                  </p>
+                  <ul>
+                    <li>
+                      <em class="lvl02">Measuring / Motor Protective Relays</em>
+                      <ul>
+                        <li>
+                          <a href="../../../products/category/power-supplies_in-addition/measuring_motor-protective-relays/index.html">
+                            <img src="../../../shared/img/icon_01.gif" width="3" height="9" alt="" class="iconA01" />Products</a>
+                        </li>
+                        <li>
+                          <a href="../../../product/cautions/65/precautions_for_safety_use.html">
+                            <img src="../../../shared/img/icon_01.gif" width="3" height="9" alt="" class="iconA01" />Cautions</a>
+                        </li>
+                        <li>
+                          <a href="../../../products/applications/category/power-supplies_in-addition/measuring_motor-protective-relays/index-2.html">
+                            <img src="../../../shared/img/icon_01.gif" width="3" height="9" alt="" class="iconA01" />Applications</a>
+                        </li>
+                      </ul>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="exist-primary-contents-area">
+            <p class="non-visual">
+              <a name="contents" id="contents">Primary Contents</a>
+            </p>﻿<div class="content-items">
+  <ul class="link-listA01">
+    <li>
+      <a href="#1">
+        <img src="../../../common/img/icon_05.gif" alt="" class="iconC01" width="5" height="3">Functions Required of Motor Protective Relays</a>
+    </li>
+    <li>
+      <a href="#2">
+        <img src="../../../common/img/icon_05.gif" alt="" class="iconC01" width="5" height="3">Motor Protective Relay Characteristics</a>
+    </li>
+    <li>
+      <a href="#3">
+        <img src="../../../common/img/icon_05.gif" alt="" class="iconC01" width="5" height="3">Structure of the Static Motor Protective Relay</a>
+    </li>
+    <li>
+      <a href="#4">
+        <img src="../../../common/img/icon_05.gif" alt="" class="iconC01" width="5" height="3">Reference</a>
+    </li>
+    <li>
+      <a href="#5">
+        <img src="../../../common/img/icon_05.gif" alt="" class="iconC01" width="5" height="3">Motor Protection</a>
+    </li>
+    <li>
+      <a href="#6">
+        <img src="../../../common/img/icon_05.gif" alt="" class="iconC01" width="5" height="3">Protection by 3E Relay</a>
+    </li>
+    <li>
+      <a href="#7">
+        <img src="../../../common/img/icon_05.gif" alt="" class="iconC01" width="5" height="3">What Is a Measuring and Monitoring Relay?</a>
+    </li>
+    <li>
+      <a href="#8">
+        <img src="../../../common/img/icon_05.gif" alt="" class="iconC01" width="5" height="3">Description of Operation</a>
+    </li>
+    <li>
+      <a href="#9">
+        <img src="../../../common/img/icon_05.gif" alt="" class="iconC01" width="5" height="3">Locations for Introducing Measuring and Monitoring Relays and Their Functions</a>
+    </li>
+    <li>
+      <a href="#10">
+        <img src="../../../common/img/icon_05.gif" alt="" class="iconC01" width="5" height="3">Types of Measuring and Monitoring Relays</a>
+    </li>
+    <li>
+      <a href="#11">
+        <img src="../../../common/img/icon_05.gif" alt="" class="iconC01" width="5" height="3">Classifications of Measuring and Monitoring Relays</a>
+    </li>
+    <li>
+      <a href="#12">
+        <img src="../../../common/img/icon_05.gif" alt="" class="iconC01" width="5" height="3">Types of Measuring and Monitoring Relays</a>
+    </li>
+    <li>
+      <a href="#13">
+        <img src="../../../common/img/icon_05.gif" alt="" class="iconC01" width="5" height="3">Application Examples</a>
+    </li>
+    <li>
+      <a href="#14">
+        <img src="../../../common/img/icon_05.gif" alt="" class="iconC01" width="5" height="3">Classifications of Measuring and Monitoring Relays</a>
+    </li>
+  </ul>
+  <div class="column1">
+    <div class="positionleft" style="width:px;" id="1">
+      <p>
+        <strong class="headline1">Functions Required of Motor Protective Relays</strong>
+      </p>
+    </div>
+  </div>
+  <div class="column1">
+    <div class="positionleft" style="width:px;">
+      <p>Motor Protective Relay applications can be grouped by purpose into the following categories.</p>
+    </div>
+  </div>
+  <div class="column1">
+    <div class="positionleft" style="width:px;">
+      <p class="decimal">
+        <em class="decimalmark">(1)</em>Protecting the motor itself (burnout protection)</p>
+      <p class="decimal">
+        <em class="decimalmark">(2)</em>Minimizing damage to the load connected to the motor<br/>(In this case, you must select a Motor Protective Relay that is suitable for the load rather than the motor.)</p>
+    </div>
+  </div>
+  <div class="column1">
+    <div class="positionleft" style="width:px;">
+      <p>Motor Protective Relays have the following functions built in to provide functions (1) and (2) above.</p>
+    </div>
+  </div>
+  <div class="column1">
+    <div class="positionleft" style="width:px;">
+      <p class="decimal">
+        <em class="decimalmark">(1)</em>Overload elements:<br/>Overcurrent elements<br/>Time elements</p>
+      <p class="decimal">
+        <em class="decimalmark">(2)</em>Open-phase elements</p>
+      <p class="decimal">
+        <em class="decimalmark">(3)</em>Reverse-phase elements</p>
+    </div>
+  </div>
+  <div class="column1">
+    <div class="positionleft" style="width:px;">
+      <p>These functions are described in more detail below.</p>
+    </div>
+  </div>
+  <div class="column1">
+    <div class="positionleft" style="width:px;">
+      <p>
+        <strong class="headline2">Overcurrent Elements</strong>
+      </p>
+    </div>
+  </div>
+  <div class="column1">
+    <div class="positionleft" style="width:px;">
+      <p>The motor will catch fire if it is overloaded and overcurrent is supplied for an extended period of time.<br/>This is why overload current must be instantly detected to shut down the motor and protect it from damage.<br/>Unfortunately, overcurrent around 500% the rated current is generally present with inductive motors anywhere from several seconds to several tens of seconds at startup as shown in Fig. 1. If the motor's overcurrent element operates at that point, the motor will shut down immediately upon startup and will not run. Therefore, Motor Protective Relays need to have an overcurrent element that detects whether current exceeding the rated value is being supplied to the motor as well as a time element that will not operate with overcurrent present only during motor startup time, but will operate if overcurrent is present beyond that time. In other words, the time element is required to prevent faulty Motor Protective Relay operation when the motor starts.<br/>The time element is required for another very important reason.<br/>Fig. 2 shows the I<sup>2</sup>t curve for the temperature characteristics of the motor. The motor will operate normally and will not burn as long as it is operated in the area below this curve. In the example, the motor can operate normally even though overcurrent around 500% the rated current is supplied to the motor for 40 seconds. If the current is halved to 250%, then we get the following</p>
+    </div>
+  </div>
+  <div class="column1">
+    <div class="positionleft" style="width:px;">
+      <div class="img">
+        <img src="img/intro_1.gif" alt="">
+      </div>
+    </div>
+  </div>
+  <div class="column1">
+    <div class="positionleft" style="width:px;">
+      <p>and the motor will operate normally for up to four times the time in the previous example, or 160 seconds. If we try 100% the rated current, then we get the following</p>
+    </div>
+  </div>
+  <div class="column1">
+    <div class="positionleft" style="width:px;">
+      <div class="img">
+        <img src="img/intro_2.gif" alt="">
+      </div>
+    </div>
+  </div>
+  <div class="column1">
+    <div class="positionleft" style="width:px;">
+      <p>meaning the motor will last only 1,000 seconds according to the preceding formula. However, the formula is not applicable in this case because the motor can in fact operate continuously since 100% is the rated current. The curve then is an approximation rather than a precise representation of I<sup>2</sup>t.<br/>This does not mean that the motor will burn up immediately with that much overcurrent supplied to it. There is some built-in time flexibility to allow the motor to withstand the overload resulting from the starting current and startup time. To allow the motor to operate within those parameters then, overcurrent should not cause the Motor Protective Relay to operate immediately. The better choice would be to use activation time characteristics, or the so-called inverse timedelay characteristics, selected to operate the Motor Protective Relay quickly for large currents and take longer to operate for low currents to ensure motor operation in the area below the curve shown in Fig. 2. This is precisely why the time element is added to the overload element. It prevents unnecessary work stoppages that would occur should the Motor Protective Relay operate immediately when overcurrent is present.<br/>This is not true for every application, however. In cases where the load is fixed and current exceeding the rated value clearly is an abnormal condition for the load, then failure to shut down the motor immediately when overcurrent is supplied will damage the load and the damage may spread through the system. The fastest possible overload element activation time is always preferable for load protection applications. Even here, a significant motor starting current will be supplied even in these applications, so an overload element is needed that will not operate for a specified period of time at startup and can operate instantly in subsequent operation. These are generally referred to as instantaneous elements.<br/>The preceding section describes why overload elements require both a current-detecting element and a time element, but how do you select these current and time values?</p>
+    </div>
+  </div>
+  <div class="column1">
+    <div class="positionleft" style="width:px;">
+      <p class="disc">Current Value<br/>The JEM 1357 standard (Inductive and Static Protective Relays for Three-phase Inductive Motors) stipulates that the must operate value should fall between 105% and 125% of the current SV and the majority of Motor Protective Relay manufacturers conform to this standard. This value is sufficient for any motors unless otherwise specified.</p>
+      <p class="disc">Time Value<br/>JEM 1357 also stipulates a maximum time value of 40 seconds for overcurrent that is 600% of the current SV and 4 minutes for overcurrent that is 200% of the current SV.<br/>JIS B 8324 (Submersible Motor-Pumps for Deep Well) stipulates that elements must operate within 5 seconds for current five times the total load current to protect motors. There are various types of general Motor Protective Relays with activation times ranging from several seconds to several tens of seconds for overcurrents of 500% the rated value.</p>
+    </div>
+  </div>
+  <div class="column2">
+    <div class="positionleft" style="width:290px;">
+      <p>
+        <strong class="headline2">Fig. 1 Motor Startup Current</strong>
+      </p>
+      <div class="img">
+        <img src="img/intro_3.gif" alt="">
+      </div>
+    </div>
+    <div class="positionright" style="width:360px;">
+      <p>
+        <strong class="headline2">Fig. 2 Motor Temperature Characteristics and Protection Curve</strong>
+      </p>
+      <div class="img">
+        <img src="img/intro_4.gif" alt="">
+      </div>
+    </div>
+  </div>
+  <div class="column1">
+    <div class="positionleft" style="width:px;">
+      <p>
+        <strong class="headline2">Summary of overload elements</strong>
+      </p>
+      <p class="decimal">
+        <em class="decimalmark">(1)</em>The current element of the overload elements will not operate at the rated current and is generally set to operate at 125% of the rated value. Set the time to several seconds or several tens of seconds with an overcurrent of 500% of the rated value and set it longer than the motor's startup time.<br/>With inverse time-delay characteristics, the time characteristics are normally set for quick activation with high currents and slow activation with low currents.</p>
+      <p class="decimal">
+        <em class="decimalmark">(2)</em>Some time elements operate with the same time characteristics at startup and in subsequent operation and other time elements have a time delay only at startup and operate instantly to protect loads connected to the motor in subsequent operation. The latter are generally referred to as instantaneous elements.</p>
+    </div>
+  </div>
+  <div class="column1">
+    <div class="positionleft" style="width:px;">
+      <p>
+        <strong class="headline2">Open Phase Detection Elements</strong>
+      </p>
+    </div>
+  </div>
+  <div class="column1">
+    <div class="positionleft" style="width:px;">
+      <p>The operation resulting from an open motor power line or a motor that was originally supposed to operate with three-phase voltage, but is currently operating with single-phase voltage because of loose connections, faulty control switch connection, or an open wire in the motor is called open-phase operation.<br/>If the motor starts up under open-phase conditions, startup current will be supplied indefinitely because a stopped inductive motor will not start with a single-phase voltage. Therefore the overload element described earlier can be used to detect this condition and prevent the motor from burning up. Should an open-phase condition occur during normal operation and result in single-phase operation, however, the three-phase inductive motor will continue to operate as a singlephase inductive motor if the load is light enough. Refer to Fig. 3. The three possible conditions are a power-supply open phase in a starconnected motor, a power-supply open phase in a delta-connected motor, and an internal delta open phase. Let's see whether we can prevent the motor from burning up here simply by inserting an overload element in the power supply line.</p>
+    </div>
+  </div>
+  <div class="column1">
+    <div class="positionleft" style="width:px;">
+      <p class="decimal">
+        <em class="decimalmark">(1)</em>Open-phase in a Star-connected Motor</p>
+    </div>
+  </div>
+  <div class="column1">
+    <div class="positionleft" style="width:px;">
+      <p>As shown in Fig. 3 (a), the power supply line current and the motor winding current are the same no matter where the line is open. This means the motor will not burn up because the overload element on the power supply line will detect overcurrent if an open-phase condition occurs. The overload element cannot detect overcurrent if it does not reach the element when the motor load is light, but the motor will not burn up here again because the current is too low and operation will continue with the lighter load.</p>
+      <p>
+        <strong class="headline2">Fig. 3 Open-phase Current Distribution</strong>
+      </p>
+      <div class="img">
+        <img src="img/intro_5.gif" alt="">
+      </div>
+    </div>
+  </div>
+  <div class="column1">
+    <div class="positionleft" style="width:px;">
+      <p class="decimal">
+        <em class="decimalmark">(2)</em>External Open-phase with a Delta-connected Motor</p>
+    </div>
+  </div>
+  <div class="column1">
+    <div class="positionleft" style="width:px;">
+      <p>Let's see what happens with the situation shown in Fig. 3 (b). If we make I the winding current during normal operation, then the power supply line current is &#8730;31. If we make In the rated current in the windings, then the rated current of the power supply line will be &#8730;31n and the overload element will monitor the equivalent winding current to determine whether In &lt; I by observing whether &#8730;31n &lt; &#8730;31.<br/>In the open-phase condition shown in (b), however, the power supply line current will be 3/2In when I = In. This means that 3/2 In &lt; &#8730;31n, or 1.5 In &lt; 1.732 In. Depending on the overload status of the motor then, the overload element will not operate because the power line current will be below the rated current even with overcurrent in the windings and the windings may burn. Therefore a separate phasedetecting element must be installed in such cases to prevent the motor from burning.</p>
+    </div>
+  </div>
+  <div class="column1">
+    <div class="positionleft" style="width:px;">
+      <p class="decimal">
+        <em class="decimalmark">(3)</em>Internal Open-phase with a Delta-connected Motor</p>
+    </div>
+  </div>
+  <div class="column1">
+    <div class="positionleft" style="width:px;">
+      <p>Let's look at the situation in Fig. 3 (c). With I<sub>1</sub> and I<sub>2</sub>, |I<sub>1</sub>| = |I<sub>2</sub>| just as in normal operation with a phase difference of 120&#176;. The V-phase power supply line current then is &#8730;31 again just as in normal operation while the U- and W-phase currents are I<sub>1</sub> and I<sub>2</sub>, respectively. Since an overcurrent higher than that found in normal operation is supplied to the windings when viewed from the standpoint of the power supply line, the overload element will detect the overcurrent and prevent the motor from burning. The wiring here then is essentially the same as that in (1) <img src="img/intro_6.gif"/>. The description so far has been directed toward preventing the motor from burning.</p>
+      <p>
+        <strong class="headline2">Fig. 4 Vector Diagram for Open-phase Power Supply Line Current</strong>
+      </p>
+      <div class="img">
+        <img src="img/intro_7.gif" alt="">
+      </div>
+    </div>
+  </div>
+  <div class="column1">
+    <div class="positionleft" style="width:px;">
+      <p>An open phase is an abnormal condition. It is not advisable to allow the motor to continue to run with an open-phase condition even with a light load. The slightest increase in the load could stop the motor from running. Short-circuiting or electrical shock accidents could also occur if someone were to touch the outer covering of a disconnected inductive line.<br/>The fundamental principle of protection is to detect and dispose of error conditions immediately and therefore protection is not limited strictly to preventing the motor from burning. The fundamental principle is always to detect open-phase conditions as quickly as possible.<br/>In other words, open-phase elements are generally installed in situations like those shown in Fig. 3 (a) and (c) to speed up the detection process because it takes a while for overload elements to detect open-phase conditions with light loads rather than merely preventing motors from burning.<br/>There is one other thing to keep in mind about open-phase elements.<br/>The U-, V-, and W-phase currents in Fig. 3 (a) and (b) are balanced during normal operation, but the power supply line current of the open phase when an open-phase condition occurs will drop straight to zero and single-phase reciprocating current will be supplied to the other two phases. In this case, the vector relationship before and after the open-phase occurrence changes dramatically as shown in Fig. 4 (a).<br/>We know intuitively that the vector in Fig. 3 (c) will change the way it did in Fig. 4 (b) and that it is not as significant as that in Fig. 4 (a). In fact, it will be harder to detect an open phase with the situation in Fig. 3 (c) than with the situation in Fig. 3 (a) and (b).<br/>Normally the condition shown in Fig. 3 (a) and (b) is referred to as open phase and the condition shown in Fig. 3 (c) is referred to as internal star-delta open phase. The most common detectable open phases are those shown in (a) and (b), so special care must be taken when using star-delta inductive motors (the most common of which are 1.5 kW or higher).</p>
+      <p>
+        <strong class="headline2">Fig. 5 Current-type Open-phase Element Ranking</strong>
+      </p>
+      <div class="img">
+        <img src="img/intro_8.gif" alt="">
+      </div>
+      <p>There are other methods that use motor voltages rather than current transformers to detect open phases as shown in Fig. 5. This method cannot, however, detect an open phase on the motor side because of where the connecting point for open-phase detection is located. An open phase cannot be detected on the power supply side with light load operation either because the motor terminal voltage will not drop very much. For these reasons, the current method is the better choice for detection.</p>
+    </div>
+  </div>
+  <div class="column1">
+    <div class="positionleft" style="width:px;">
+      <p>
+        <strong class="headline2">Open-phase Element Summary</strong>
+      </p>
+      <p class="decimal">
+        <em class="decimalmark">(1)</em>An overcurrent element alone may not be able to prevent an open phase from burning up a motor. An open-phase element is needed as well.</p>
+      <p class="decimal">
+        <em class="decimalmark">(2)</em>An open phase does not generate overcurrent with light loads and therefore overloads cannot be detected in that situation. An open-phase element is required to quickly detect the abnormal condition.</p>
+      <p class="decimal">
+        <em class="decimalmark">(3)</em>Open phase generally means an open power supply line and special care must be taken with internal star-delta open phases because open phases cannot be detected in many cases.</p>
+      <p class="decimal">
+        <em class="decimalmark">(4)</em>Voltage-type elements are also available, but current-type elements are far more practical.</p>
+    </div>
+  </div>
+  <div class="column1">
+    <div class="positionleft" style="width:px;">
+      <p>
+        <strong class="headline2">Reverse-phase Elements</strong>
+      </p>
+    </div>
+  </div>
+  <div class="column1">
+    <div class="positionleft" style="width:px;">
+      <p>If the phase sequence is reversed with three-phase inductive motors, the rotating direction of the motor will be reversed. There are no applications that allow motor rotation in just any direction and even the briefest reversal may be fatal to the load. This is why we have a reverse-phase element that will instantly detect when the phase sequence of power supplied to the motor is reversed.</p>
+      <p>
+        <strong class="headline2">Fig. 6 Comparison between Voltage and Current-type Reverse-phase Elements</strong>
+      </p>
+      <div class="img">
+        <img src="img/intro_9.gif" alt="">
+      </div>
+      <p>Current- and voltage-type elements can be used for reverse-phase detection as in open-phase detection. Refer to Fig. 6. If a reversephase element is installed prior to the magnet contactor as shown in Fig. 6, a reverse phase can be detected before the motor is started.<br/>This can prevent the motor from operating in reverse even briefly as mentioned earlier. The fastest the current-type element can operate is 0.5 s, so some reverse operation is unavoidable. This makes the voltage-type element more practical. The drawback to the voltagetype element, however, is that there is one more connection to the Motor Protective Relay, and a VT must be installed when using a high-voltage motor, for example. The advantage of the current-type element is that it can determine the phase sequence of current supplied to the motor directly, but the drawback as mentioned earlier is that it requires a little time before it can start detecting (the motor starts before the reverse current is detected).<br/>In both cases, the phase sequence is only detected in reverse-phase detection at the connection point (power line position for voltage detection and CT position for current detection). This means that special attention must be paid to this point during installation.</p>
+    </div>
+  </div>
+  <div class="column1">
+    <div class="positionleft" style="width:px;">
+      <p>It is extremely rare that the phase sequence would be reversed after the motor was installed, and thus a reverse-phase element is often not required. There are cases, however, when installing a reversephase element would be best, such as in applications where connections are often changed, such as for motors with mobile power supplies, or in applications where connections are changed for maintenance.</p>
+    </div>
+  </div>
+  <div class="column1">
+    <div class="positionleft" style="width:px;">
+      <p>
+        <strong class="headline2">Reverse-phase Element Summary</strong>
+      </p>
+      <p class="decimal">
+        <em class="decimalmark">(1)</em>Reverse-phase elements are not needed in many cases.</p>
+      <p class="decimal">
+        <em class="decimalmark">(2)</em>Voltage and current detection have advantages and disadvantages. The advantages are that voltage detection can detect reverse phase prior to startup and current detection can be used to monitor the motor's current phase sequence directly.</p>
+    </div>
+  </div>
+  <div class="top-page-link-area">
+    <ul class="top-page-link">
+      <li>
+        <a href="#page-top">
+          <img height="8" width="5" class="iconB01" alt="" src="../../../common/img/icon_03.gif">Top of page</a>
+      </li>
+    </ul>
+  </div>
+  <div class="column1">
+    <div class="positionleft" style="width:px;" id="2">
+      <p>
+        <strong class="headline1">Motor Protective Relay Characteristics</strong>
+      </p>
+    </div>
+  </div>
+  <div class="column1">
+    <div class="positionleft" style="width:px;">
+      <p>There are several problems that must be addressed with using a motor and Motor Protective Relay. The following section describes an open-phase voltage drop, motor current waveform distortion, capacitor installation to improve the power factor, and unbalanced motor currents.</p>
+    </div>
+  </div>
+  <div class="column1">
+    <div class="positionleft" style="width:px;">
+      <p>
+        <strong class="headline2">Open-phase Voltage Drop (Power Supply Connection Precautions)</strong>
+      </p>
+      <p>The voltage supplied to the Motor Protective Relay and magnet contactor does not go to zero even if the V phase is open (open wire) as shown in Fig. 7. Only about half the voltage between the U and W lines (Vuw) is applied because Vuw is split by the X and Y windings of the motor and the impedance of the magnet contactor excitation coil and the Motor Protective Relay power supply circuit is significantly higher than that of the X and Y windings. You can choose here to have the Motor Protective Relay detect the open phase and operate with just half the rated voltage to shut down the magnet contactor or have it reset automatically because it cannot operate on half the voltage.<br/>Protection will be disabled, however, if the magnet contactor power supply and Motor Protective Relay power supply are out of phase. As shown in Fig. 7, for example, both the Motor Protective Relay and magnet contactor are drawing power from the U and W phases, but if we make it so only the magnet contactor is drawing power from the U and W phases, then the magnet contactor will not reset despite an open V phase because the rated voltage will be applied to the contactor and the Motor Protective Relay cannot operate because only half the voltage is applied to it. Therefore you can operate the Motor Protective Relay with half the voltage or reset the magnet contactor with half the voltage through careful wiring. Care is required either way.</p>
+    </div>
+  </div>
+  <div class="column1">
+    <div class="positionleft" style="width:px;">
+      <p>
+        <strong class="headline2">Fig. 7 Open-phase Voltage Drop and Phase-advance Capacitor Position</strong>
+      </p>
+      <div class="img">
+        <img src="img/intro_10.gif" alt="">
+      </div>
+      <p class="decimal">
+        <em class="decimalmark">1.</em>When the V phase is open, the X and Y windings split Vuw and about half Vuw is applied to the magnet contactor and the Motor Protective Relay.</p>
+      <p class="decimal">
+        <em class="decimalmark">2.</em>Connect the phase-advance capacitor to the power supply after the current transformer.</p>
+      <p class="note">
+        <em class="notemark">Note:</em>An open phase will not drop the voltage to half while the motor is operating with a light load because near-normal voltage is inversely supplied from the motor side. In that case, the protection expected from magnet contactor release voltage is not achieved.</p>
+    </div>
+  </div>
+  <div class="column1">
+    <div class="positionleft" style="width:px;">
+      <p>
+        <strong class="headline2">Motor Current Waveform Distortion</strong>
+      </p>
+    </div>
+  </div>
+  <div class="column1">
+    <div class="positionleft" style="width:px;">
+      <p>
+        <strong class="headline2">Motor Current Waveform for a Ventilation Fan</strong>
+      </p>
+      <div class="img">
+        <img src="img/intro_11.gif" alt="">
+      </div>
+      <p>Current should be supplied to the motor with the sine wave shown in the figure above, but highly distorted current waveforms have been observed in some battered, old submersible motors that are operating perfectly fine.<br/>Motor Protective Relays are designed for sine wave input, so distortion of the waveform will increase activation current value errors with overload elements or cause open- and reverse-phase elements to operate improperly. You could conclude from this that voltage-type fast activating reverse-phase elements are preferable over current types because there is generally less distortion in the voltage waveforms of motors. However, manufacturers have conducted countless studies on the problem of waveform distortion and there is very little difference between the two types today.</p>
+    </div>
+  </div>
+  <div class="column1">
+    <div class="positionleft" style="width:px;">
+      <p>
+        <strong class="headline2">Capacitor Installation to Improve the Power Factor</strong>
+      </p>
+      <p>Install an advance-phase capacitor parallel to the motor as shown in Fig. 7 to improve the motor's power factor. Current supplied to a motor with a light load is almost always reactive and susceptible to infusion of higher harmonics. Installing a capacitor parallel to the motor will negate the fundamental harmonic component leaving only higher harmonics. If the harmonic current is significant, then the open-phase and reverse-phase circuits designed for 50/60 Hz sine wave input tend to malfunction. This rarely occurs because the harmonic current is generally low. It is safer, however, to install the capacitor before the Motor Protective Relay as shown in Fig. 7 to lower the odds of circuit malfunction.<br/>If the capacitor is installed after the Motor Protective Relay, the motor current appears to drop. The problem is that you have to anticipate that drop when setting the overcurrent must-operate value for the Motor Protective Relay. From that standpoint, you should apply no more than the motor current to the Motor Protective Relay.</p>
+    </div>
+  </div>
+  <div class="top-page-link-area">
+    <ul class="top-page-link">
+      <li>
+        <a href="#page-top">
+          <img height="8" width="5" class="iconB01" alt="" src="../../../common/img/icon_03.gif">Top of page</a>
+      </li>
+    </ul>
+  </div>
+  <div class="column1">
+    <div class="positionleft" style="width:px;" id="3">
+      <p>
+        <strong class="headline1">Structure of the Static Motor Protective Relay</strong>
+      </p>
+      <p>(Example: OMRON's SE Series)</p>
+    </div>
+  </div>
+  <div class="column1">
+    <div class="positionleft" style="width:px;">
+      <p>
+        <strong class="headline2">Current Converter</strong>
+      </p>
+      <p>A current converter consists of a current transformer that steps down motor current to a level the transistor circuits can handle, a threephase full-wave rectifier diode that rectifies the secondary current from the current transformer, and a resistor that converts the rectified current to a DC voltage.<br/>This current converter in particular has been designed for use with a wide range of motor currents. The taps in the current converter can be switched to vary the resistance in three levels. You could, for example, output 21 V from the current converter by connecting a 600-&#937; resistor for a motor current of 80 A, a 1,200-&#937; resistor for a motor current of 40 A, or a 2,400-&#937; resistor for a motor current of 20 A. The output from the current collector is always 21 V, so the Motor Protective Relay can be set to operate at 20 A, 40 A, or 80 A simply by switching the taps using 21 V for activation.<br/>(Note: The voltages and resistances are example values.)<br/>The current converter can also be operated at 10 A by selecting the 20-A activation tap and winding the motor power line twice around the converter so 10 A looks like 20 A. Similarly, it can be operated at 5 A by winding the power line around the current converter four times.</p>
+    </div>
+  </div>
+  <div class="column1">
+    <div class="positionleft" style="width:px;">
+      <p>
+        <strong class="headline2">Fig. 8 Internal Block Diagram of the SE-series Static Motor Protective Relay (Inverse Time-delay Type)</strong>
+      </p>
+      <div class="img">
+        <img src="img/intro_12.gif" alt="">
+      </div>
+      <p class="note">
+        <em class="notemark"></em>Note:</p>
+      <p class="note">
+        <em class="notemark">1.</em>These figures are plug-in terminal numbers. The parentheses indicate panel-mounted terminal symbols.</p>
+      <p class="note">
+        <em class="notemark">2.</em>Terminal 3 (W) does not have to be wired if the reverse element is OFF.</p>
+    </div>
+  </div>
+  <div class="column1">
+    <div class="positionleft" style="width:px;">
+      <p>
+        <strong class="headline2">Overload Element</strong>
+      </p>
+      <p>The current converter output is input to the Motor Protective Relay via lines to terminal 7 (C+) and terminal 8 (C-). (The figures here are plug-in terminal numbers and the parentheses indicate terminal numbers for embedded models.) There the current is first split by the current scale SV circuit and then input to the overcurrent detection circuit. The current scale SV circuit is a simple potentiometer-type voltage splitter that can convert current must operate values by varying the split rate. If the 20-A tap is selected here, then the must operate value can be set between 8 and 20 A by turning the potentiometer knob. When overcurrent occurs, the overcurrent detection circuit will detect it and drive the next time SV circuit. This time SV circuit has the inverse time-delay characteristics described earlier and its time characteristics are shown in Fig. 9.</p>
+    </div>
+  </div>
+  <div class="column1">
+    <div class="positionleft" style="width:px;">
+      <p>
+        <strong class="headline2">Fig. 9 Overload Activation Time Characteristics (Reference values)</strong>
+      </p>
+    </div>
+  </div>
+  <div class="column2">
+    <div class="positionleft" style="width:290px;">
+      <p>Time Changeover Switch: &#215; 1</p>
+      <div class="img">
+        <img src="img/intro_13.gif" alt="">
+      </div>
+    </div>
+    <div class="positionright" style="width:px;">
+      <p>Time Changeover Switch: &#215; 4</p>
+      <div class="img">
+        <img src="img/intro_14.gif" alt="">
+      </div>
+    </div>
+  </div>
+  <div class="column1">
+    <div class="positionleft" style="width:px;">
+      <p>The time SV circuit also contains a potentiometer. The operating time can be varied between 2 and 10 s by turning the potentiometer know when current 600% of the current SV is supplied. It also has a multiplier switch that can increase the operating time by a factor of 4, that is between 8 and 40 seconds. One feature of the time SV circuit then is the wide time selection range from 2 to 40 s.</p>
+    </div>
+  </div>
+  <div class="column1">
+    <div class="positionleft" style="width:px;">
+      <p>When overcurrent flow continues beyond the SV time settings, the output relay (X) is energized from the output circuit through the OR circuit, the contact switches from X to c, and the alarm, breaking, or other action associated with the contact is operated. With an instantaneous Motor Protective Relay, the motor is considered to have started when motor current exceeds the rating by at least 30% and the start time circuit will begin operating. There is no output for a prescribed period of time, however, regardless of the size of the input current. The overcurrent detection circuit operates immediately and generates an output, but the motor will not operate without the AND output. After the startup time has elapsed, motor current ranging from the rating to 50% of the rating will be supplied and the startup time circuit output will continue without interruption.<br/>The overcurrent detection circuit will operate as soon as overcurrent is detected and the (X) relay will operate less than 0.5 s later.</p>
+    </div>
+  </div>
+  <div class="column1">
+    <div class="positionleft" style="width:px;">
+      <p>
+        <strong class="headline2">Fig. 10 Internal block diagram of the SE Static Motor Protection Relay (instantaneous type)</strong>
+      </p>
+      <p>The box (<img src="img/intro_15.gif"/>) on inverse time-delay models indicate the following:</p>
+      <div class="img">
+        <img src="img/intro_16.gif" alt="">
+      </div>
+    </div>
+  </div>
+  <div class="column1">
+    <div class="positionleft" style="width:px;">
+      <p>
+        <strong class="headline2">X Relay Operation</strong>
+      </p>
+    </div>
+  </div>
+  <div class="column1">
+    <div class="positionleft" style="width:px;">
+      <p>
+        <strong class="headline2">(Manual Reset Type)</strong>
+      </p>
+    </div>
+  </div>
+  <div class="column2">
+    <div class="positionleft" style="width:80px;">
+      <p>SE:</p>
+    </div>
+    <div class="positionright" style="width:px;">
+      <p>The (X) relay is a mechanically self-holding relay that operates until it is manually reset even if the power goes out.</p>
+    </div>
+  </div>
+  <div class="column2">
+    <div class="positionleft" style="width:80px;">
+      <p>K2CM:</p>
+    </div>
+    <div class="positionright" style="width:px;">
+      <p>The (X) relay remains locked even if the power goes out because it uses a keep relay system. A power supply is required to reset the relay.</p>
+    </div>
+  </div>
+  <div class="column1">
+    <div class="positionleft" style="width:px;">
+      <p>
+        <strong class="headline2">(Automatic Reset Type)</strong>
+      </p>
+    </div>
+  </div>
+  <div class="column1">
+    <div class="positionleft" style="width:px;">
+      <p>The relay will reset automatically if the power drops below the set value. (An open phase will reduce the operation power supply output if the relay is used in conjunction with an open-phase element.<br/>Therefore, use another power supply other than the motor power supply for the U and V phases. Reverse-phase elements cannot be used for this reason.)</p>
+    </div>
+  </div>
+  <div class="column1">
+    <div class="positionleft" style="width:px;">
+      <p>
+        <strong class="headline2">Open-Phase Element</strong>
+      </p>
+    </div>
+  </div>
+  <div class="column1">
+    <div class="positionleft" style="width:px;">
+      <p>
+        <strong class="headline2">Fig. 11 Current Converter Output Waveform</strong>
+      </p>
+      <div class="img">
+        <img src="img/intro_17.gif" alt="">
+      </div>
+      <p>Fig. 11 (a) shows the rectified output waveform during normal operation, (b) shows the waveform with an open phase, and (c) shows the waveform with an open phase in a star-delta inductive motor. From this we know that the DC component is large, the AC component is small, and the frequency component is high from at least the 6th harmonic during normal operation. We also know that the DC component is small, the AC component is large, and the 2nd AC component harmonic is the largest with an open phase. We can conclude then that an open phase can be detected with a circuit structured to respond to the second harmonic/DC component ratio or the AC component/DC component ratio.</p>
+    </div>
+  </div>
+  <div class="column1">
+    <div class="positionleft" style="width:px;">
+      <p>
+        <strong class="headline2">Fig. 12 Structure of an Open-phase Detection Circuit</strong>
+      </p>
+      <div class="img">
+        <img src="img/intro_18.gif" alt="">
+      </div>
+      <p>The static Motor Protective Relay conforms to this principle, so an open-phase has occurred when the ratio of the DC component extracted by one filter and the second harmonic component extracted by another filter from among the current converter outputs (more precisely the split voltages) has been exceeded. As shown in Fig. 13, the operating time of the relay with an open phase is approximately 1.5 seconds regardless of the current.</p>
+    </div>
+  </div>
+  <div class="column1">
+    <div class="positionleft" style="width:px;">
+      <p>
+        <strong class="headline2">Fig. 13 Open-phase Operating Characteristics</strong>
+      </p>
+      <div class="img">
+        <img src="img/intro_19.gif" alt="">
+      </div>
+      <p>It has been found, however, that the 2nd harmonic component/DC component approximates an unbalanced rate function. This means that the Motor Protective Relay is designed more for unbalanced detection than for open-phase detection and it is set to operate when the unbalanced factor reaches approximately 35%. Fig. 14 shows how the unbalanced factor varies with the current value.</p>
+    </div>
+  </div>
+  <div class="column1">
+    <div class="positionleft" style="width:px;">
+      <p>
+        <strong class="headline2">Fig. 14 Unbalanced Operation Characteristics</strong>
+      </p>
+      <div class="img">
+        <img src="img/intro_20.gif" alt="">
+      </div>
+      <p>The current plotted on the horizontal axis represent the largest of the three phases. When the open-phase detection circuit provides an output, the (X) relay will operate via the OR circuit shown in Fig. 8.</p>
+    </div>
+  </div>
+  <div class="column1">
+    <div class="positionleft" style="width:px;">
+      <p>
+        <strong class="headline2">Reverse-phase Element</strong>
+      </p>
+      <p>Fig. 15 shows the schematic and Fig. An OR phase circuit that combines a resistor and capacitor detects reversed signals. The reverse phase detection circuit detects when the reversed signals reach the operating level (i.e., 80% or less of the control power supply voltage). The (X) relay is operated by the output from the reverse-phase detection circuit via the OR circuit. The U and V phases supply power to the Motor Protective Relay, so you might have felt compelled to disconnect terminal 3 (W) because you did not need a reverse-phase element. This could have the opposite effect, because the Vuv can split between RP1 and CC1 and split voltage applied to the transistor may cause it to operate. It may not operate if the voltage input is low enough, but you can never be sure. You may have to switch to a circuit without a reverse-phase element in this case. This same Motor Protective Relay can be used at 50 or 60 Hz and therefore Vde never really drops all the way to zero even in normal operation. The difference in Vde between normal and reverse-phase operation is significant enough, however, to ensure stable operation.</p>
+    </div>
+  </div>
+  <div class="column1">
+    <div class="positionleft" style="width:px;">
+      <p>
+        <strong class="headline2">Fig. 15 Structure of a Reverse-phase Detection Circuit</strong>
+      </p>
+      <div class="img">
+        <img src="img/intro_21.gif" alt="">
+      </div>
+      <p>
+        <strong class="headline2">Fig. 16 Vector Diagrams for a Reverse-phase Detection Circuit</strong>
+      </p>
+      <div class="img">
+        <img src="img/intro_22.gif" alt="">
+      </div>
+    </div>
+  </div>
+  <div class="column1">
+    <div class="positionleft" style="width:px;">
+      <p>
+        <strong class="headline2">External Connections</strong>
+      </p>
+      <p>Fig. 17 (a) and (b) are examples of external connections. Terminal 3(W) does not have to be connected if a reverse-phase element is not used.</p>
+    </div>
+  </div>
+  <div class="column1">
+    <div class="positionleft" style="width:px;">
+      <p class="decimal">
+        <em class="decimalmark">(1)</em>The same phase should be input to the excitation coil of the magnet contactor and power supply terminals (U and V) of the Motor Protective Relay.</p>
+      <p class="decimal">
+        <em class="decimalmark">(2)</em>Install an advance-phase capacitor on the power supply side after the current converter.</p>
+      <p class="decimal">
+        <em class="decimalmark">(3)</em>Make sure the polarities are correct when connecting the current<br/>converter to the Motor Protective Relay. You do not have to be particularly concerned about the current capacity of the connecting lines because the current is normally only a few mA or several tens of mA at most. By the same token, 600-V insulated lines may be used because the voltage is normally several tens of volts or less and never exceeds 400 V even with overcurrent.<br/>Environmental factors like noise are not a real concern either, except that high current carrying lines should always be kept as far away as possible.</p>
+      <p class="decimal">
+        <em class="decimalmark">(4)</em>Be sure to connect the correct phase to the voltage terminals (U, V, and W). The phase sequence is not relevant when a reverse-phase element is not required (reverse-phase element OFF) because only terminals U and V are used.</p>
+      <p class="decimal">
+        <em class="decimalmark">(5)</em>The U, V, and W terminals should be wired before the magnet contactor to enable reverse-phase detection before the motor starts.</p>
+    </div>
+  </div>
+  <div class="column1">
+    <div class="positionleft" style="width:px;">
+      <p>
+        <strong class="headline2">Fig. 17(a) External Connections for a Star-delta Startup Motor</strong>
+      </p>
+      <div class="img">
+        <img src="img/intro_23.gif" alt="">
+      </div>
+      <p>
+        <strong class="headline2">Fig. 17(b) External connections for no-voltage tripping with high-tension inductive motors</strong>
+      </p>
+      <div class="img">
+        <img src="img/intro_24.gif" alt="">
+      </div>
+    </div>
+  </div>
+  <div class="column1">
+    <div class="positionleft" style="width:px;">
+      <p>
+        <strong class="headline2">Unbalance Motor Current</strong>
+      </p>
+      <p>The unbalance rate for motor current normally does not exceed several percentage points, but an unbalance rate of 10% to 20% or more has been observed in motors that have been in use for many years and motors that are supplied power through V-wired transformers.</p>
+      <p> <br/>Refer to the simple unbalance rate calculation method in the reference information on the following page. Use this method for measurement. Delta internal phase detection may not be possible if the unbalance rate exceeds 20%.</p>
+    </div>
+  </div>
+  <div class="top-page-link-area">
+    <ul class="top-page-link">
+      <li>
+        <a href="#page-top">
+          <img height="8" width="5" class="iconB01" alt="" src="../../../common/img/icon_03.gif">Top of page</a>
+      </li>
+    </ul>
+  </div>
+  <div class="column1">
+    <div class="positionleft" style="width:px;" id="4">
+      <p>
+        <strong class="headline1">Reference</strong>
+      </p>
+    </div>
+  </div>
+  <div class="column1">
+    <div class="positionleft" style="width:px;">
+      <p>
+        <strong class="headline2">Unbalance Rate</strong>
+      </p>
+      <p>According to the law of symmetrical coordinates, the unbalance rate is defined as:</p>
+    </div>
+  </div>
+  <div class="column1">
+    <div class="positionleft" style="width:px;">
+      <div class="img">
+        <img src="img/intro_25.gif" alt="">
+      </div>
+    </div>
+  </div>
+  <div class="column1">
+    <div class="positionleft" style="width:px;">
+      <p>Where ia, ib, and ic are the current of the three phases and the vector operator is as follows:</p>
+    </div>
+  </div>
+  <div class="column1">
+    <div class="positionleft" style="width:px;">
+      <div class="img">
+        <img src="img/intro_26.gif" alt="">
+      </div>
+    </div>
+  </div>
+  <div class="column1">
+    <div class="positionleft" style="width:px;">
+      <p>This gives us a scale for expressing three-phase current and the extent of voltage unbalance. These are difficult calculations, however, and the following calculation table is a simpler way to work out the unbalance rate.<br/>Fig. 18 is a graph for determining the unbalance rate if you know the absolute values for the three phase inputs.<br/>If we have a three-phase AC input, for example, with a phase A current, I<sub>A</sub>, of 50 A, a phase B current, I<sub>B</sub>, of 35 A, and a phase C current, I<sub>C</sub>, of 45 A, then we can use current I<sub>A</sub> as a base and divide the other phase currents by I<sub>A</sub> to find the unbalance rate, as follows:</p>
+    </div>
+  </div>
+  <div class="column1">
+    <div class="positionleft" style="width:px;">
+      <div class="img">
+        <img src="img/intro_27.gif" alt="">
+      </div>
+    </div>
+  </div>
+  <div class="column1">
+    <div class="positionleft" style="width:px;">
+      <p>Check to see if arc B starting from the point K<sub>B</sub> = 0.7 on the vertical axis on the right side intersects at point P<sub>1</sub> with arc C starting from the point K<sub>C</sub> = 0.9 on the vertical axis on the left side. The point P1 is located on the circle representing an unbalanced rate of 20%. In this case, then, we determined that the unbalanced rate will be 20%. Similarly, K<sub>A</sub> = 1.0, K<sub>B</sub> = 1.3, and K<sub>C</sub> = 1.0 when I<sub>A</sub> = 50 A, I<sub>B</sub> = 65 A, and I<sub>C</sub> = 50 A. The intersecting point for these arcs is P2, and P2 is close enough to the circle representing an unbalanced rate of 20% that we can conclude the unbalanced rate here too is 20%. The intersecting points for arcs emanating from any K<sub>C</sub> and K<sub>B</sub> combination falls on the 20% unbalanced rate circle and all have an unbalanced rate of 20%. We know from this that there are an infinite number of combinations with the same unbalance rate.<br/>Similarly, D1 through D8 represent all combinations with an unbalance rate of 25%.<br/>If we consider star-delta P<sub>1</sub>XY then <img src="img/intro_28.gif"/>. In other words, star-delta P<sub>1</sub>XY yields a vector diagram for I<sub>A</sub>, I<sub>B</sub>, and I<sub>C</sub>.</p>
+    </div>
+  </div>
+  <div class="column1">
+    <div class="positionleft" style="width:px;">
+      <p>
+        <strong class="headline2">Fig. 18 Calculating Table for the Unbalanced Rate of Three-phase Current and Voltage</strong>
+      </p>
+      <div class="img">
+        <img src="img/intro_29.gif" alt="">
+      </div>
+    </div>
+  </div>
+  <div class="top-page-link-area">
+    <ul class="top-page-link">
+      <li>
+        <a href="#page-top">
+          <img height="8" width="5" class="iconB01" alt="" src="../../../common/img/icon_03.gif">Top of page</a>
+      </li>
+    </ul>
+  </div>
+  <div class="column1">
+    <div class="positionleft" style="width:px;" id="5">
+      <p>
+        <strong class="headline1">Motor Protection</strong>
+      </p>
+    </div>
+  </div>
+  <div class="column1">
+    <div class="positionleft" style="width:px;">
+      <p>There are all kinds of motor circuit failures and protective devices designed for specific purposes must be used to protect against such failures. The following describes various motor accident details and protective measures.<br/>There are a variety of protective devices, including 3E relays, thermal relays, and motor circuit breakers, and they are summarized below.<br/>All the protective devices for motors have specific functions.<br/>Unfortunately none of these functions can reach their full potential unless they are used properly. This is why you must select the proper device for the type of protection you require.</p>
+      <div class="img">
+        <img src="img/intro_30.gif" alt="">
+      </div>
+      <div class="img">
+        <img src="img/intro_31.gif" alt="">
+      </div>
+    </div>
+  </div>
+  <div class="column1">
+    <div class="positionleft" style="width:px;">
+      <p>
+        <strong class="headline2">Inductive Motor Protection</strong>
+      </p>
+      <p>Variation in the types of inductive motors available today leads to many types of failures.<br/>The following table lists appropriate protective devices for these motors.</p>
+    </div>
+  </div>
+  <div class="column1">
+    <div class="positionleft" style="width:px;">
+      <p>
+        <strong class="headline2">Purpose of Protection and Applicable Protective Relays for Inductive Motors</strong>
+      </p>
+      <p class="note">
+        <em class="notemark"></em>&#9678;: Protects in all cases.<br/>&#9675;: Protects in most cases.<br/>&#9651;: Protects under certain conditions.<br/>&#9633;: Does not protect in most cases.<br/>&#215;: Does not protect.</p>
+      <div class="table-blockA01"><div class="table-blockA01"><table border="0" cellspacing="0" class="tableB01"><tr><td colspan="3" rowspan="1"  class="heading right top"><strong>Applicable relay</strong></td><td colspan="2" rowspan="1"  class="heading center middle" ><strong>Thermal relay</strong></td><td colspan="1" rowspan="2"  class="heading center middle" ><strong>Thermal relay<br>w/saturation<br>reactor</strong></td><td colspan="1" rowspan="2"  class="heading center middle" ><strong>2E<br>thermal<br>relay</strong></td><td colspan="1" rowspan="2"  class="heading center middle" ><strong>Associated<br>thermal relay</strong></td></tr><tr><td colspan="3" rowspan="1"  class="heading left bottom"><strong>Protective measures</strong></td><td  class="heading center middle" ><strong>2E</strong></td><td  class="heading center middle" ><strong>3E</strong></td></tr><tr><td colspan="1" rowspan="8"  class="heading left middle"><strong>Over-<br>load</strong></td><td colspan="1" rowspan="4"  class="heading left middle" ><strong>Standard<br>operation</strong></td><td  class="heading left middle" ><strong>General-purpose cage<br>motor</strong></td><td class="center middle" >&#9678;</td><td class="center middle" >&#9678;</td><td class="center middle" >&#9675;</td><td class="center middle" >&#9678;</td><td class="center middle" >&#9675;</td></tr><tr><td  class="heading left middle"><strong>Single-phase motor</strong></td><td class="center middle" >&#9678;</td><td class="center middle" ></td><td class="center middle" >&#9675;</td><td class="center middle" ></td><td class="center middle" >&#9675;</td></tr><tr><td  class="heading left middle"><strong>Wound rotor motor</strong></td><td class="center middle" >&#9675;</td><td class="center middle" >&#9675;</td><td class="center middle" >&#9675;</td><td class="center middle" >&#9675;</td><td class="center middle" >&#9675;</td></tr><tr><td  class="heading left middle"><strong>Water motor</strong></td><td class="center middle" >&#9651;</td><td class="center middle" >&#9651;</td><td class="center middle" >&#215;</td><td class="center middle" >&#9651;</td><td class="center middle" >&#9675;</td></tr><tr><td colspan="1" rowspan="4"  class="heading left middle"><strong>Intermit-<br>tent<br>operation</strong></td><td  class="heading left middle" ><strong>General-purpose cage<br>motor</strong></td><td class="center middle" >&#9651;</td><td class="center middle" >&#9651;</td><td class="center middle" >&#9675;</td><td class="center middle" >&#9651;</td><td class="center middle" >&#9633;</td></tr><tr><td  class="heading left middle"><strong>Single-phase motor</strong></td><td class="center middle" >&#9651;</td><td class="center middle" ></td><td class="center middle" >&#9651;</td><td class="center middle" ></td><td class="center middle" ></td></tr><tr><td  class="heading left middle"><strong>Wound rotor motor</strong></td><td class="center middle" >&#9651;</td><td class="center middle" >&#9651;</td><td class="center middle" >&#9651;</td><td class="center middle" >&#9651;</td><td class="center middle" >&#9651;</td></tr><tr><td  class="heading left middle"><strong>Water motor</strong></td><td class="center middle" >&#9651;</td><td class="center middle" >&#9651;</td><td class="center middle" >&#9633;</td><td class="center middle" >&#9651;</td><td class="center middle" >&#9675;</td></tr><tr><td colspan="2" rowspan="4"  class="heading left middle"><strong>Slow down or<br>locking</strong></td><td  class="heading left middle" ><strong>General-purpose cage<br>motor</strong></td><td class="center middle" >&#9678;</td><td class="center middle" >&#9678;</td><td class="center middle" >&#9675;</td><td class="center middle" >&#9678;</td><td class="center middle" >&#9678;</td></tr><tr><td  class="heading left middle"><strong>Single-phase motor</strong></td><td class="center middle" >&#9651;</td><td class="center middle" >&#9651;</td><td class="center middle" >&#9651;</td><td class="center middle" >&#9651;</td><td class="center middle" >&#9651;</td></tr><tr><td  class="heading left middle"><strong>Wound rotor motor</strong></td><td class="center middle" >&#9651;</td><td class="center middle" >&#9651;</td><td class="center middle" >&#9633;</td><td class="center middle" >&#9651;</td><td class="center middle" >&#9678;</td></tr><tr><td  class="heading left middle"><strong>Water motor</strong></td><td class="center middle" >&#9651;</td><td class="center middle" >&#9651;</td><td class="center middle" >&#9633;</td><td class="center middle" >&#9651;</td><td class="center middle" >&#9678;</td></tr><tr><td colspan="2" rowspan="7"  class="heading left middle"><strong>Abnormality in<br>distribution<br>lines</strong></td><td  class="heading left middle" ><strong>Open-phase drive<br>(burning prevention)</strong></td><td class="center middle" >&#9651;</td><td class="center middle" >&#9675;</td><td class="center middle" >&#9633;</td><td class="center middle" >&#9678;</td><td class="center middle" >&#9651;</td></tr><tr><td  class="heading left middle"><strong>Unbalanced,<br>three-phase drive</strong></td><td class="center middle" >&#9633;</td><td class="center middle" >&#9633;</td><td class="center middle" >&#9633;</td><td class="center middle" >&#9651;</td><td class="center middle" >&#9633;</td></tr><tr><td  class="heading left middle"><strong>Short-circuit</strong></td><td class="center middle" >&#9633;</td><td class="center middle" >&#9633;</td><td class="center middle" >&#9651;</td><td class="center middle" >&#9633;</td><td class="center middle" >&#9633;</td></tr><tr><td  class="heading left middle"><strong>Overvoltage/<br>undervoltage</strong></td><td class="center middle" >&#9675;</td><td class="center middle" >&#9675;</td><td class="center middle" >&#9675;</td><td class="center middle" >&#9675;</td><td class="center middle" >&#9675;</td></tr><tr><td  class="heading left middle"><strong>Current leakage</strong></td><td class="center middle" >&#215;</td><td class="center middle" >&#215;</td><td class="center middle" >&#215;</td><td class="center middle" >&#215;</td><td class="center middle" >&#215;</td></tr><tr><td  class="heading left middle"><strong>Ground fault</strong></td><td class="center middle" >&#9651;</td><td class="center middle" >&#9651;</td><td class="center middle" >&#9651;</td><td class="center middle" >&#9651;</td><td class="center middle" >&#9651;</td></tr><tr><td  class="heading left middle"><strong>Reverse phase</strong></td><td class="center middle" >&#215;</td><td class="center middle" >&#215;</td><td class="center middle" >&#215;</td><td class="center middle" >&#215;</td><td class="center middle" >&#215;</td></tr></table></div></div>
+      <div class="table-blockA01"><div class="table-blockA01"><table border="0" cellspacing="0" class="tableB01"><tr><td colspan="3" rowspan="1"  class="heading right top"><strong>Applicable relay</strong></td><td colspan="2" rowspan="1"  class="heading center middle" ><strong>Stationary type relay 3E (4E)</strong></td><td colspan="1" rowspan="2"  class="heading center middle" ><strong>Flush-type relay<br>(w/PTC<br>thermistor)</strong></td><td colspan="1" rowspan="2"  class="heading center middle" ><strong>Motor<br>breaker</strong></td></tr><tr><td colspan="3" rowspan="1"  class="heading left bottom"><strong>Protective measures</strong></td><td  class="heading center middle" ><strong>For general-<br>purpose motor</strong></td><td  class="heading center middle" ><strong>For water<br>motor</strong></td></tr><tr><td colspan="1" rowspan="8"  class="heading left middle"><strong>Over-<br>load</strong></td><td colspan="1" rowspan="4"  class="heading left middle" ><strong>Standard<br>operation</strong></td><td  class="heading left middle" ><strong>General-purpose cage<br>motor</strong></td><td class="center middle" >&#9678;</td><td class="center middle" >&#9651;</td><td class="center middle" >&#9678;</td><td class="center middle" >&#9675;</td></tr><tr><td  class="heading left middle"><strong>Single-phase motor</strong></td><td class="center middle" ></td><td class="center middle" ></td><td class="center middle" >&#9678;</td><td class="center middle" >&#9675;</td></tr><tr><td  class="heading left middle"><strong>Wound rotor motor</strong></td><td class="center middle" >&#9675;</td><td class="center middle" >&#9651;</td><td class="center middle" >&#9675;</td><td class="center middle" >&#9675;</td></tr><tr><td  class="heading left middle"><strong>Water motor</strong></td><td class="center middle" >&#9651;</td><td class="center middle" >&#9678;</td><td class="center middle" >&#9678;</td><td class="center middle" >&#9633;</td></tr><tr><td colspan="1" rowspan="4"  class="heading left middle"><strong>Intermit-<br>tent<br>operation</strong></td><td  class="heading left middle" ><strong>General-purpose cage<br>motor</strong></td><td class="center middle" >&#9651;</td><td class="center middle" >&#9651;</td><td class="center middle" >&#9678;</td><td class="center middle" >&#9651;</td></tr><tr><td  class="heading left middle"><strong>Single-phase motor</strong></td><td class="center middle" ></td><td class="center middle" ></td><td class="center middle" >&#9678;</td><td class="center middle" >&#9675;</td></tr><tr><td  class="heading left middle"><strong>Wound rotor motor</strong></td><td class="center middle" >&#9651;</td><td class="center middle" >&#9651;</td><td class="center middle" >&#9651;</td><td class="center middle" >&#9651;</td></tr><tr><td  class="heading left middle"><strong>Water motor</strong></td><td class="center middle" >&#9651;</td><td class="center middle" >&#9651;</td><td class="center middle" >&#9678;</td><td class="center middle" >&#9633;</td></tr><tr><td colspan="2" rowspan="4"  class="heading left middle"><strong>Slow down or<br>locking</strong></td><td  class="heading left middle" ><strong>General-purpose cage<br>motor</strong></td><td class="center middle" >&#9675;</td><td class="center middle" >&#9651;</td><td class="center middle" >&#9678;</td><td class="center middle" >&#9675;</td></tr><tr><td  class="heading left middle"><strong>Single-phase motor</strong></td><td class="center middle" >&#9675;</td><td class="center middle" >&#9651;</td><td class="center middle" >&#9651;</td><td class="center middle" >&#9651;</td></tr><tr><td  class="heading left middle"><strong>Wound rotor motor</strong></td><td class="center middle" >&#9651;</td><td class="center middle" >&#9678;</td><td class="center middle" >&#9678;</td><td class="center middle" >&#9633;</td></tr><tr><td  class="heading left middle"><strong>Water motor</strong></td><td class="center middle" >&#9651;</td><td class="center middle" >&#9678;</td><td class="center middle" >&#9675;</td><td class="center middle" >&#9633;</td></tr><tr><td colspan="2" rowspan="7"  class="heading left middle"><strong>Abnormality in<br>distribution<br>lines</strong></td><td  class="heading left middle" ><strong>Open-phase drive<br>(burning prevention)</strong></td><td class="center middle" >&#9678;</td><td class="center middle" >&#9678;</td><td class="center middle" >&#9678;</td><td class="center middle" >&#9633;</td></tr><tr><td  class="heading left middle"><strong>Unbalanced,<br>three-phase drive</strong></td><td class="center middle" >&#9678;</td><td class="center middle" >&#9678;</td><td class="center middle" >&#9678;</td><td class="center middle" >&#215;</td></tr><tr><td  class="heading left middle"><strong>Short-circuit</strong></td><td class="center middle" >&#9633;</td><td class="center middle" >&#9633;</td><td class="center middle" >&#215;</td><td class="center middle" >&#9675;</td></tr><tr><td  class="heading left middle"><strong>Overvoltage/<br>undervoltage</strong></td><td class="center middle" >&#9675;</td><td class="center middle" >&#9675;</td><td class="center middle" >&#9678;</td><td class="center middle" >&#215;</td></tr><tr><td  class="heading left middle"><strong>Current leakage</strong></td><td class="center middle" >&#9678; (4E)</td><td class="center middle" >&#9678; (4E)</td><td class="center middle" >&#215;</td><td class="center middle" >&#215;</td></tr><tr><td  class="heading left middle"><strong>Ground fault</strong></td><td class="center middle" >&#9678; (4E)</td><td class="center middle" >&#9678; (4E)</td><td class="center middle" >&#215;</td><td class="center middle" >&#9675;</td></tr><tr><td  class="heading left middle"><strong>Reverse phase</strong></td><td class="center middle" >&#9678;</td><td class="center middle" >&#9678;</td><td class="center middle" >&#215;</td><td class="center middle" >&#215;</td></tr></table></div></div>
+    </div>
+  </div>
+  <div class="top-page-link-area">
+    <ul class="top-page-link">
+      <li>
+        <a href="#page-top">
+          <img height="8" width="5" class="iconB01" alt="" src="../../../common/img/icon_03.gif">Top of page</a>
+      </li>
+    </ul>
+  </div>
+  <div class="column1">
+    <div class="positionleft" style="width:px;" id="6">
+      <p>
+        <strong class="headline1">Protection by 3E Relay</strong>
+      </p>
+    </div>
+  </div>
+  <div class="column1">
+    <div class="positionleft" style="width:px;">
+      <p>As discussed above, there are various motor protective equipment and devices available. The 3E Relay is provided with three features to protect motors: protection from overload, open phase, and reverse phase. These three features of the 3E Relay are discussed next.</p>
+    </div>
+  </div>
+  <div class="column1">
+    <div class="positionleft" style="width:px;">
+      <p>
+        <strong class="headline2">Overload Protection</strong>
+      </p>
+      <p>The overload protection feature of the 3E Relay protects the motor from overload when it operates normally. With this feature alone, the motor can be protected most of the time. To ensure effective protection, it is necessary to set correctly the "must operate voltage" and operate time of the 3E Relay.</p>
+      <p> <br/>The PC characteristics curve of the 3E Relay, (which is used as a yardstick when designing a motor protection system) can be drawn in the following procedure.</p>
+    </div>
+  </div>
+  <div class="column1">
+    <div class="positionleft" style="width:px;">
+      <p>
+        <strong class="headline2">Protective Coordination of Motors</strong>
+      </p>
+      <p>When designing a motor system, adequate considerations must be given to whether the motors and their circuits can be effectively coordinated with other equipment and devices. It is important that each motor operates in protective coordination (PC) with the devices listed in the following table.</p>
+      <div class="table-blockA01"><div class="table-blockA01"><table border="0" cellspacing="0" class="tableB01"><tr><td  class="heading left middle"><strong>Electromagnetic switch</strong></td><td class="left middle" >&#12539; Can it switch sufficient power?<br>&#12539; Can it withstand short-circuit current?</td></tr><tr><td  class="heading left middle"><strong>Molded case circuit breaker<br>(MCCB)</strong></td><td class="left middle" >&#12539; Can the device interrupt short circuit current?<br>&#12539; Will the motor malfunction when subjected to rush current?</td></tr><tr><td  class="heading left middle"><strong>Branch circuit wiring</strong></td><td class="left middle" >&#12539; Can it withstand the short-circuit current until the MCCB operates?<br>&#12539; Can it withstand the overload current until the MCCB, thermal relay, or 3E Relay operates?</td></tr><tr><td  class="heading left middle"><strong>Thermal relay or 3E relay</strong></td><td class="left middle" >&#12539; Can it protect the motor, when the motor is overloaded or constrained?<br>&#12539; Can it protect the motor, when the motor is overloaded or constrained?</td></tr></table></div></div>
+    </div>
+  </div>
+  <div class="column1">
+    <div class="positionleft" style="width:px;">
+      <p>
+        <strong class="headline2">Creating a PC Characteristic Curve</strong>
+      </p>
+      <div class="img">
+        <img src="img/intro_34.gif" alt="">
+      </div>
+    </div>
+  </div>
+  <div class="column1">
+    <div class="positionleft" style="width:px;">
+      <p>As examples, correct and incorrect PC characteristic curves are shown below.</p>
+    </div>
+  </div>
+  <div class="column2">
+    <div class="positionleft" style="width:290px;">
+      <p>
+        <strong class="headline2">CORRECT</strong>
+      </p>
+      <div class="img">
+        <img src="img/intro_35.gif" alt="">
+      </div>
+      <p class="note">
+        <em class="notemark">Note:</em>The current value at the end of the load line must be lower than this value.</p>
+    </div>
+    <div class="positionright" style="width:px;">
+      <p>
+        <strong class="headline2">INCORRECT</strong>
+      </p>
+      <div class="img">
+        <img src="img/intro_36.gif" alt="">
+      </div>
+    </div>
+  </div>
+  <div class="column1">
+    <div class="positionleft" style="width:px;">
+      <p>
+        <strong class="headline2">Open-phase Protection</strong>
+      </p>
+      <p>An open-phase condition refers to single-phase motor operation that results from a broken motor power line or loose power line connections, faulty switch contact, or a broken wire in a motor. When it occurs, the phase current increases markedly compared to the increase in motor line current, the winding temperature exceeds the permissible limit, and the motor will burn up in some cases. Openphase protection is needed here rather than overload protection. The figure shows open-phase accidents and current fluctuations. The point of the figure is to show that the increase in phase current is relatively higher than the increase in line current in cases 2, 3, and 5 in the figure and that line current overload detection cannot always detect failures.</p>
+      <p> <br/>There is no need to set the activation values on the user end because open-phase detection sensitivity is fixed. Examples are provided here, however, because these failures are so difficult.</p>
+    </div>
+  </div>
+  <div class="column1">
+    <div class="positionleft" style="width:px;">
+      <p>
+        <strong class="headline2">Reverse-phase Protection</strong>
+      </p>
+      <p>The motor rotating direction will be reversed if the phase sequence is reversed. Reverse-phase elements will detect the phase sequence of the power supply and will lock up the motor during startup if the phases are reversed. Phase sequence detection is no longer needed once the elements are properly installed. Although one side effect of the elements is motor protection, the main purpose is to protect the load.</p>
+    </div>
+  </div>
+  <div class="column1">
+    <div class="positionleft" style="width:px;">
+      <p>
+        <strong class="headline2">Open-phase Accidents and Current Fluctuation</strong>
+      </p>
+      <div class="table-blockA01"><div class="table-blockA01"><table border="0" cellspacing="0" class="tableB01"><tr><td colspan="1" rowspan="2"  class="heading center middle"><strong>Open-phase<br>condition</strong></td><td colspan="2" rowspan="2"  class="heading center middle" ><strong>Circuit patterning</strong></td><td colspan="2" rowspan="1"  class="heading center middle" ><strong>Open-phase current<br>and load rate for the<br>operating conditions</strong></td><td colspan="1" rowspan="2"  class="heading center middle" ><strong>Startup current <div class="image"><img src="img/intro_37_1.gif"/></strong></td><td colspan="1" rowspan="2"  class="heading center middle" ><strong>Temperature rise with<br>an open phase</strong></td></tr><tr><td  class="heading center middle"><strong>Line current</strong></td><td  class="heading center middle" ><strong>Phase current</strong></td></tr><tr><td colspan="1" rowspan="2"  class="heading left middle"><strong>Open phase<br>straight to the<br>power supply</strong></td><td class="left middle" >No.1</td><td class="center middle" ><div class="image"><img src="img/intro_37_2.gif"/></td><td colspan="2" rowspan="1" class="center middle" ><div class="image"><img src="img/intro_37_7.gif"/></td><td class="left middle" >86.6</td><td class="center middle" ><div class="image"><img src="img/intro_37_13.gif"/></td></tr><tr><td class="left middle">No.2</td><td class="center middle" ><div class="image"><img src="img/intro_37_3.gif"/></td><td colspan="2" rowspan="1" class="center middle" ><div class="image"><img src="img/intro_37_8.gif"/></td><td class="left middle" >86.6</td><td class="center middle" ><div class="image"><img src="img/intro_37_14.gif"/></td></tr><tr><td  class="heading left middle"><strong>Open phase in<br>the delta phase</strong></td><td class="left middle" >No.3</td><td class="center middle" ><div class="image"><img src="img/intro_37_4.gif"/></td><td colspan="2" rowspan="1" class="center middle" ><div class="image"><img src="img/intro_37_9.gif"/></td><td class="left middle" >I<sub>2</sub> = 100 (%)<br>I<sub>1</sub>, I<sub>3</sub> = 58 (%)</td><td class="center middle" ><div class="image"><img src="img/intro_37_15.gif"/></td></tr><tr><td colspan="1" rowspan="2"  class="heading left middle"><strong>Open phase on<br>the primary<br>side of the<br>transformer</strong></td><td class="left middle" >No.4</td><td class="center middle" ><div class="image"><img src="img/intro_37_5.gif"/></td><td colspan="2" rowspan="1" class="center middle" ><div class="image"><img src="img/intro_37_10.gif"/></td><td colspan="1" rowspan="2" class="left middle" >I<sub>3</sub> = 100 (%)<br>I<sub>1</sub>, I<sub>2</sub> = 50 (%)</td><td class="center middle" ><div class="image"><img src="img/intro_37_16.gif"/></td></tr><tr><td class="left middle">No.5</td><td class="center middle" ><div class="image"><img src="img/intro_37_6.gif"/></td><td colspan="2" rowspan="1" class="center middle" ><div class="image"><img src="img/intro_37_11.gif"/></td><td class="center middle" ><div class="image"><img src="img/intro_37_17.gif"/></td></tr><tr><td  class="heading left middle"><strong>Unbalanced<br>voltage</strong></td><td class="left middle" >No.6</td><td class="center middle" >---</td><td colspan="2" rowspan="1" class="center middle" ><div class="image"><img src="img/intro_37_12.gif"/></td><td class="center middle" >---</td><td class="center middle" ><div class="image"><img src="img/intro_37_18.gif"/></td></tr></table></div></div>
+    </div>
+  </div>
+  <div class="top-page-link-area">
+    <ul class="top-page-link">
+      <li>
+        <a href="#page-top">
+          <img height="8" width="5" class="iconB01" alt="" src="../../../common/img/icon_03.gif">Top of page</a>
+      </li>
+    </ul>
+  </div>
+  <div class="column1">
+    <div class="positionleft" style="width:px;" id="7">
+      <p>
+        <strong class="headline1">What Is a Measuring and Monitoring Relay?</strong>
+      </p>
+      <p>A Measuring and Monitoring Relay is a protective control device. There are various types of Measuring and Monitoring Relays depending on what they monitor and output alarm signals for. The basic functions are to receive input signals, monitor and determine them, and output an alarm signal if a set value (threshold) is reached.<br/>Measuring and Monitoring Relays (alarm relays) protect your important devices and products against unlikely problems (e.g., overvoltage and overcurrent faults).<br/>They monitor AC power supplies (voltage and current), temperatures, and other analog signals and detect abnormalities in machines and equipment by determining values against alarm thresholds. Also, an alarm signal can be output from relay contacts if an input signal goes into an abnormal status to stop the machine or equipment before it is damaged.</p>
+    </div>
+  </div>
+  <div class="column1">
+    <div class="positionleft" style="width:px;">
+      <p>
+        <strong class="headline2">Operation Example</strong>
+      </p>
+      <div class="img">
+        <img src="img/intro_38.gif" alt="">
+      </div>
+    </div>
+  </div>
+  <div class="column1">
+    <div class="positionleft" style="width:px;">
+      <p>
+        <strong class="headline2">Measuring and Monitoring Relays</strong>
+      </p>
+      <div class="img">
+        <img src="img/intro_39.gif" alt="">
+      </div>
+      <p>These are the problems that OMRON’s K8-series Measuring and Monitoring Relays can solve for you:<br/>(1) Alarms do not occur before equipment is damaged.<br/>(2) Protecting equipment from poor-quality power supply systems is necessary.<br/>(3) Preventing excessive temperature increases in heaters is necessary.<br/>(4) Control panels for electrode-based water level control must be downsized.<br/>(5) Measuring and Monitoring Relays that conform to international safety standards are necessary.*</p>
+      <p class="note">
+        <em class="notemark"></em>* For information on applicable standards,refer to specific product datasheets.</p>
+    </div>
+  </div>
+  <div class="top-page-link-area">
+    <ul class="top-page-link">
+      <li>
+        <a href="#page-top">
+          <img height="8" width="5" class="iconB01" alt="" src="../../../common/img/icon_03.gif">Top of page</a>
+      </li>
+    </ul>
+  </div>
+  <div class="column1">
+    <div class="positionleft" style="width:px;" id="8">
+      <p>
+        <strong class="headline1">Description of Operation</strong>
+      </p>
+      <p>
+        <strong class="headline2">Example of a K8DT-VS Relay for Voltage Monitoring</strong>
+      </p>
+      <div class="img">
+        <img src="img/intro_40.gif" alt="">
+      </div>
+    </div>
+  </div>
+  <div class="top-page-link-area">
+    <ul class="top-page-link">
+      <li>
+        <a href="#page-top">
+          <img height="8" width="5" class="iconB01" alt="" src="../../../common/img/icon_03.gif">Top of page</a>
+      </li>
+    </ul>
+  </div>
+  <div class="column1">
+    <div class="positionleft" style="width:px;" id="9">
+      <p>
+        <strong class="headline1">Locations for Introducing Measuring and Monitoring Relays and Their Functions</strong>
+      </p>
+      <p>Various machines operate at production sites.<br/>Such industrial machines are used as the power source for motors and heaters on production lines, so when there is some kind of trouble with the machines, defects occur in products and sometimes production equipment is damaged.<br/>Monitoring the status of the main power circuits for industrial machines and production equipment and protecting devices from lowvoltage overcurrents, overvoltages, and other faults for power up to 600 VAC* in this way is called device protection.<br/>OMRON calls the products for this type of device protection Measuring and Monitoring Relays.</p>
+      <p class="note">
+        <em class="notemark"></em>* The voltage that is specified in Japan.</p>
+      <div class="img">
+        <img src="img/intro_41.gif" alt="">
+      </div>
+    </div>
+  </div>
+  <div class="top-page-link-area">
+    <ul class="top-page-link">
+      <li>
+        <a href="#page-top">
+          <img height="8" width="5" class="iconB01" alt="" src="../../../common/img/icon_03.gif">Top of page</a>
+      </li>
+    </ul>
+  </div>
+  <div class="column1">
+    <div class="positionleft" style="width:px;" id="12">
+      <p>
+        <strong class="headline1">Types of Measuring and Monitoring Relays</strong>
+      </p>
+      <p>There are the following types of Measuring and Monitoring Relays.</p>
+      <div class="img">
+        <img src="img/intro_42.gif" alt="">
+      </div>
+    </div>
+  </div>
+  <div class="top-page-link-area">
+    <ul class="top-page-link">
+      <li>
+        <a href="#page-top">
+          <img height="8" width="5" class="iconB01" alt="" src="../../../common/img/icon_03.gif">Top of page</a>
+      </li>
+    </ul>
+  </div>
+  <div class="column1">
+    <div class="positionleft" style="width:px;" id="13">
+      <p>
+        <strong class="headline1">Application Examples</strong>
+      </p>
+    </div>
+  </div>
+  <div class="column1">
+    <div class="positionleft" style="width:px;">
+      <p>
+        <strong class="headline2">Motor Protection</strong>
+      </p>
+      <div class="img">
+        <img src="img/intro_43.gif" alt="">
+      </div>
+    </div>
+  </div>
+  <div class="column1">
+    <div class="positionleft" style="width:px;">
+      <p>
+        <strong class="headline2">Temperature Monitoring Relay</strong>
+      </p>
+      <div class="img">
+        <img src="img/intro_44.gif" alt="">
+      </div>
+    </div>
+  </div>
+  <div class="column1">
+    <div class="positionleft" style="width:px;">
+      <p>
+        <strong class="headline2">Water Level Control</strong>
+      </p>
+      <div class="img">
+        <img src="img/intro_45.gif" alt="">
+      </div>
+    </div>
+  </div>
+  <div class="top-page-link-area">
+    <ul class="top-page-link">
+      <li>
+        <a href="#page-top">
+          <img height="8" width="5" class="iconB01" alt="" src="../../../common/img/icon_03.gif">Top of page</a>
+      </li>
+    </ul>
+  </div>
+  <div class="column1">
+    <div class="positionleft" style="width:px;" id="14">
+      <p>
+        <strong class="headline1">Classifications of Measuring and Monitoring Relays</strong>
+      </p>
+      <p>The OMRON K8-series Monitoring and Measuring Relays are classified as follows:</p>
+      <div class="img">
+        <img src="img/intro_46.gif" alt="">
+      </div>
+    </div>
+  </div>
+  <div class="pdf">
+    <ul>
+      <li>
+        <a href="../../../data_pdf/guide/65/epsc_ps_tg_e_2_3_measuring_monitoringry_tg_e_1_1.pdf">
+          <img src="../../../common/img/icon_06.gif" alt="" width="11" height="12">PDF Download(6146KB)</a>
+      </li>
+    </ul>
+  </div>
+</div></div>
+          <div class="primary-contents-area"><!----></div>
+        </div>
+        <div class="local-navi-area">
+          <p class="non-visual">
+            <a name="local-navi" id="local-navi">Local Navigation</a>
+          </p>
+          <div class="local-naviA01">
+            <h2>
+              <a href="../index-2.html">
+                <img src="../../../shared/img/icon_01.gif" width="3" height="9" alt="" class="iconA01" />Technical Guide</a>
+            </h2>
+            <ul>
+              <li>
+                <a href="../6.html">
+                  <img src="../../../shared/img/icon_01.gif" width="3" height="9" alt="" class="iconA01" />Power Supplies / In Addition</a>
+                <ul>
+                  <li>
+                    <a href="../22/introduction.html">
+                      <img src="../../../shared/img/icon_01.gif" width="3" height="9" alt="" class="iconA01" />Power Supplies</a>
+                  </li>
+                  <li>
+                    <a href="../572/introduction.html">
+                      <img src="../../../shared/img/icon_01.gif" width="3" height="9" alt="" class="iconA01" />Uninterruptible Power Supply(UPS)</a>
+                  </li>
+                  <li>
+                    <a href="../45/introduction.html">
+                      <img src="../../../shared/img/icon_01.gif" width="3" height="9" alt="" class="iconA01" />Axial Fans</a>
+                  </li>
+                  <li class="stay">
+                    <strong>Measuring / Motor Protective Relays</strong>
+                  </li>
+                  <li>
+                    <a href="../46/introduction.html">
+                      <img src="../../../shared/img/icon_01.gif" width="3" height="9" alt="" class="iconA01" />Wiring Systems</a>
+                  </li>
+                </ul>
+              </li>
+            </ul>
+          </div><div class="local-naviB01">
+<ul>
+<li><a href="../../faq/index-2.html"><img src="../../../common/img/icon_01.gif" width="3" height="9" alt="" class="iconA01" />FAQ</a></li>
+<li><a href="../index-2.html"><img src="../../../common/img/icon_01.gif" width="3" height="9" alt="" class="iconA01" />Technical Guide</a></li>
+<li><a href="../../models/index-2.html"><img src="../../../common/img/icon_01.gif" width="3" height="9" alt="" class="iconA01" />Models with Standards Certification</a></li>
+<li><a href="../../sistemalibrary/index.html"><img src="../../../common/img/icon_01.gif" width="3" height="9" alt="" class="iconA01" />SISTEMA Library</a></li>
+<li><a href="../../elearning/index-2.html"><img src="../../../common/img/icon_01.gif" width="3" height="9" alt="" class="iconA01" />eLearning</a></li>
+<li><a href="../../glossary/index.html"><img src="../../../common/img/icon_01.gif" width="3" height="9" alt="" class="iconA01" />Glossary of Industrial Automation</a></li>
+</ul>
+<!-- /local-naviB01 --></div></div>
+      </div><!-- === [top-page-link-area] === -->
+<div class="top-page-link-area">
+<ul class="top-page-link">
+<li><a href="#page-top"><img src="../../../common/img/icon_03.gif" width="5" height="8" alt="" class="iconB01" />Top of page</a></li>
+</ul>
+<!-- top-page-link-area --></div>
+<!-- === /[top-page-link-area] === -->
+
+<!-- === [footer-area] === -->
+<div class="footer-area">
+<p class="non-visual"><a name="footer" id="footer">Site Information</a></p>
+<div class="realizing">
+<p><a href="../../../realizing/index.html"><img src="../../../common/img/logo_02.gif" width="86" height="19" alt="realizing" /></a></p>
+<!-- realizing --></div>
+<div class="footer-link">
+<ul>
+<li><a href="http://www.omron.com/" target="_blank"><img src="../../../common/img/icon_01.gif" width="3" height="9" alt="" class="iconA01" />OMRON Corporation<img src="../../../common/img/icon_07.gif" width="14" height="11" alt="" class="external-win" /></a></li>
+<li><a href="../../../sitemap.html"><img src="../../../common/img/icon_01.gif" width="3" height="9" alt="" class="iconA01" />Sitemap</a></li>
+<li><a href="../../../terms/index.html"><img src="../../../common/img/icon_01.gif" width="3" height="9" alt="" class="iconA01" />Terms of Use</a></li>
+<li><a href="../../../privacy/index.html"><img src="../../../common/img/icon_01.gif" width="3" height="9" alt="" class="iconA01" />Privacy Policy</a></li>
+</ul>
+<address>&copy; Copyright OMRON Corporation 2007 - 2016. All Rights Reserved.</address>
+<!-- footer-link --></div>
+<!-- === /[footer-area] === --></div>
+</div>
+  </body>
+
+<!-- Mirrored from www.ia.omron.com/support/guide/65/introduction.html by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 15 Dec 2016 14:32:26 GMT -->
+</html>

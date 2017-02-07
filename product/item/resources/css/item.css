@@ -1,0 +1,163 @@
+div.image-blockC01 {
+	width:684px;
+	clear:both;
+	margin-bottom:1.49em;
+}
+div.image-blockC01:after{
+	content:".";
+	display:block;
+	height:0;
+	clear:both;
+	visibility:hidden;
+}
+
+/*	image-blockC01 (image width:200px)
+------------------------------------*/
+div.image-blockC01 div.image-left{
+	float:left;
+	width:200px;
+	margin-right:18px;
+}
+img.thumbnail2{
+	max-width: 198px;
+	max-height: 198px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+div.image-blockC01 div.description {
+	float:left;
+	width:450px;
+}
+div.tab-block2 {
+	margin-bottom: 1px;
+	padding: 5px 10px 0;
+	background-color: #EBEBEB;
+	display: none;
+}
+div.tab-block2 ul {
+	letter-spacing: -.40em;
+}
+div.tab-block2 li {
+	display: inline-block;
+	*display: inline;
+	*zoom: 1;
+	margin: 0 5px 5px 0;
+	border: 1px solid #CCCCCC;
+	vertical-align: top;
+	letter-spacing: normal;
+}
+div.tab-block2 li span {
+	background-color: #6699DB;
+	cursor: default;
+	color: #FFFFFF;
+	text-decoration: none;
+	display: block;
+	position: relative;
+	padding: 4px 8px;
+	border: 1px solid #FFFFFF;
+	line-height: 1.3;
+	font-weight: bold;
+	white-space: nowrap;
+}
+div.product-header-area {
+	position:relative;
+	_overflow:visible;
+	_height:1px;
+	zoom:1;
+	/*\*//*/
+	overflow:hidden;
+	/**/
+	z-index:0;
+}
+div.product-header-area:after {
+	content:".";
+	display:block;
+	height:0;
+	clear:both;
+	visibility:hidden;
+}
+div.product-header-right {
+	float: right;
+	width: 216px;
+}
+div.product-header-right select {
+	width: 100%;
+	margin-bottom: 8px;
+}
+div.product-header-right button {
+	display: block;
+	width: 216px;
+	height: 20px;
+	border: 0;
+	background-image: url(../img/button_light_sprite.gif);
+	background-repeat: no-repeat;
+	background-position: 0px -100px;
+	text-align: center;
+	line-height: 20px;
+	font-weight: bold;
+	font-size: 12px;
+	cursor: pointer;
+	color: #666;
+}
+div.product-header-right button:hover{
+	text-decoration:none;
+	color:#666666;
+}
+div.product-header-right button:hover	{background-position:-432px -100px;}
+div.product-header-right button img {
+	position: relative;
+	margin: 0 6px;
+	top: 2px;
+}
+div.product-header-right button img.icon_win {
+	top: 1px;
+}
+
+/* .heading-C01 */
+.heading-C01{
+	position: relative;
+	clear: both;
+	min-height: 50px !important;
+	_height: 64px !important;
+	margin-bottom: 1.49em;
+	margin-right: 18px;
+	padding: 0 10px 0 10px !important;
+	background: url(../../../../resources/images/heading_bg_01.gif) left bottom repeat-x;
+	border-top: 3px solid #0055c4;
+	border-bottom: 1px solid #e5e5e5;
+	line-height: 1.1 !important;
+	width: 430px;
+	float: left;
+}
+.heading-C01 h1 {
+	margin-top: 20px !important;
+	margin-bottom: 0.4em !important;
+	font-size: 166% !important;
+}
+.heading-C01 p.sub-title {
+	position: absolute;
+	top: 0.3em;
+	line-height: 1.4 !important;
+	font-size: 83% !important;
+	font-family: 'MS PGothic',sans-serif;
+}
+.heading-C01 .label {
+	position: absolute;
+	right: 0;
+	top: 10px;
+	border: 1px solid #f00;
+	color: #f00;
+	font-weight: bold;
+	padding: 6px 10px;
+}
+body.sensors .heading-C01{border-top-color:#929fd0;}
+body.switches .heading-C01{border-top-color:#c399cc;}
+body.safety-components .heading-C01{border-top-color:#f2e06d;}
+body.relays .heading-C01{border-top-color:#e58873;}
+body.control-components .heading-C01{border-top-color:#e5a35c;}
+body.automation-systems .heading-C01{border-top-color:#a9cc7a;}
+body.motion_drives .heading-C01{border-top-color:#c8ca66;}
+body.robotics .heading-C01{border-top-color:#208c5b;}
+body.energy-conservation-support_environment-measure-equipment .heading-C01{border-top-color:#68bdea;}
+body.power-supplies_in-addition .heading-C01{border-top-color:#bfbfbf;}

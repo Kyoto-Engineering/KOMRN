@@ -1,0 +1,11 @@
+body.tmplF01 .StandardsCertification div.global-network-area {
+	padding: 0 0 13px 18px!important;
+	float: right;
+}
+
+body.tmplF01 .StandardsCertification div.primary-contents-area{
+	clear:both!important;
+}
+body.tmplF01 .StandardsCertification div.page-linkB01 div.page-linkB01-group{
+	background:url(../img/page_linkB01_bg_01.gif) 0 0 repeat-x;
+}

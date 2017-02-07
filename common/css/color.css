@@ -1,0 +1,748 @@
+
+
+/*------------------------------------
+	heading-lvl01A01,
+	heading-lvl01A02
+------------------------------------*/
+
+/*sensors*/
+
+body.sensors div.heading-lvl01A01,
+body.sensors div.heading-lvl01A02{border-top-color:#929fd0;}
+
+/*switches*/
+
+body.switches div.heading-lvl01A01,
+body.switches div.heading-lvl01A02{border-top-color:#c399cc;}
+
+/*safety-components*/
+
+body.safety-components div.heading-lvl01A01,
+body.safety-components div.heading-lvl01A02{border-top-color:#f2e06d;}
+
+/*relay*/
+
+body.relay div.heading-lvl01A01,
+body.relay div.heading-lvl01A02{border-top-color:#e58873;}
+
+/*control-components*/
+
+body.control-components div.heading-lvl01A01,
+body.control-components div.heading-lvl01A02{border-top-color:#e5a35c;}
+
+/*automation-systems,fa-systems*/
+
+body.automation-systems div.heading-lvl01A01,
+body.fa-systems div.heading-lvl01A01,
+body.automation-systems div.heading-lvl01A02,
+body.fa-systems div.heading-lvl01A02{border-top-color:#a9cc7a;}
+
+/*motion-drive*/
+
+body.motion-drive div.heading-lvl01A01,
+body.motion-drive div.heading-lvl01A02{border-top-color:#c8ca66;}
+
+/*robotics*/
+
+body.robotics div.heading-lvl01A01,
+body.robotics div.heading-lvl01A02{border-top-color:#208c5b;}
+
+/* energy-conservation-support_environment-measure-equipment */
+
+body.energy-conservation-support_environment-measure-equipment div.heading-lvl01A01,
+body.energy-conservation-support_environment-measure-equipment div.heading-lvl01A02{border-top-color:#68bdea;}
+
+/*addition,other*/
+
+body.addition div.heading-lvl01A01,
+body.other div.heading-lvl01A01,
+body.addition div.heading-lvl01A02,
+body.other div.heading-lvl01A02{border-top-color:#bfbfbf;}
+
+
+
+/*------------------------------------
+	heading-lvl02A01,
+	heading-lvl02A01-link,
+	heading-lvl02A02,
+	heading-lvl02A02-link
+------------------------------------*/
+
+/*sensors*/
+
+div.sensors .heading-lvl02A01,
+div.sensors .heading-lvl02A02,
+div.sensors .heading-lvl02A01-link a,
+div.sensors .heading-lvl02A02-link a{border-top-color:#929fd0;}
+
+/*switches*/
+
+div.switches .heading-lvl02A01,
+div.switches .heading-lvl02A02,
+div.switches .heading-lvl02A01-link a,
+div.switches .heading-lvl02A02-link a{border-top-color:#c399cc;}
+
+/*safety-components*/
+
+div.safety-components .heading-lvl02A01,
+div.safety-components .heading-lvl02A02,
+div.safety-components .heading-lvl02A01-link a,
+div.safety-components .heading-lvl02A02-link a{border-top-color:#f2e06d;}
+
+/*relay*/
+
+div.relay .heading-lvl02A01,
+div.relay .heading-lvl02A02,
+div.relay .heading-lvl02A01-link a,
+div.relay .heading-lvl02A02-link a{border-top-color:#e58873;}
+
+/*control-components*/
+
+div.control-components .heading-lvl02A01,
+div.control-components .heading-lvl02A02,
+div.control-components .heading-lvl02A01-link a,
+div.control-components .heading-lvl02A02-link a{border-top-color:#e5a35c;}
+
+/*automation-systems,fa-systems*/
+
+div.automation-systems .heading-lvl02A01,
+div.automation-systems .heading-lvl02A02,
+div.automation-systems .heading-lvl02A01-link a,
+div.automation-systems .heading-lvl02A02-link a,
+div.fa-systems .heading-lvl02A01,
+div.fa-systems .heading-lvl02A02,
+div.fa-systems .heading-lvl02A01-link a,
+div.fa-systemssors .heading-lvl02A02-link a{border-top-color:#a9cc7a;}
+
+/*motion-drive*/
+
+div.motion-drive .heading-lvl02A01,
+div.motion-drive .heading-lvl02A02,
+div.motion-drive .heading-lvl02A01-link a,
+div.motion-drive .heading-lvl02A02-link a{border-top-color:#c8ca66;}
+
+/*robotics*/
+
+div.robotics .heading-lvl02A01,
+div.robotics .heading-lvl02A02,
+div.robotics .heading-lvl02A01-link a,
+div.robotics .heading-lvl02A02-link a{border-top-color:#208c5b;}
+
+/*energy-conservation-support_environment-measure-equipment*/
+
+div.energy-conservation-support_environment-measure-equipment .heading-lvl02A01,
+div.energy-conservation-support_environment-measure-equipment .heading-lvl02A02,
+div.energy-conservation-support_environment-measure-equipment .heading-lvl02A01-link a,
+div.energy-conservation-support_environment-measure-equipment .heading-lvl02A02-link a{border-top-color:#68bdea;}
+
+/*addition,other*/
+
+div.addition .heading-lvl02A01,
+div.addition .heading-lvl02A02,
+div.addition .heading-lvl02A01-link a,
+div.addition .heading-lvl02A02-link a,
+div.other .heading-lvl02A01,
+div.other .heading-lvl02A02,
+div.other .heading-lvl02A01-link a,
+div.other .heading-lvl02A02-link a{border-top-color:#bfbfbf;}
+
+
+
+
+/*------------------------------------
+	heading-lvl03A01,
+	heading-lvl03A01-link
+------------------------------------*/
+
+/*sensors*/
+
+div.sensors .heading-lvl03A01,
+div.sensors .heading-lvl03A01-link a{border-bottom-color:#929fd0;}
+
+/*switches*/
+
+div.switches .heading-lvl03A01,
+div.switches .heading-lvl03A01-link a{border-bottom-color:#c399cc;}
+
+/*safety-components*/
+
+div.safety-components .heading-lvl03A01,
+div.safety-components .heading-lvl03A01-link a{border-bottom-color:#f2e06d;}
+
+/*relay*/
+
+div.relay .heading-lvl03A01,
+div.relay .heading-lvl03A01-link a{border-bottom-color:#e58873;}
+
+/*control-components*/
+
+div.control-components .heading-lvl03A01,
+div.control-components .heading-lvl03A01-link a{border-bottom-color:#e5a35c;}
+
+/*automation-systems,fa-systems*/
+
+div.automation-systems .heading-lvl03A01,
+div.automation-systems .heading-lvl03A01-link a,
+div.fa-systems .heading-lvl03A01,
+div.fa-systemssors .heading-lvl03A01-link a{border-bottom-color:#a9cc7a;}
+
+/*motion-drive*/
+
+div.motion-drive .heading-lvl03A01,
+div.motion-drive .heading-lvl03A01-link a{border-bottom-color:#c8ca66;}
+
+/*robotics*/
+
+div.robotics .heading-lvl03A01,
+div.robotics .heading-lvl03A01-link a{border-bottom-color:#208c5b;}
+
+/*energy-conservation-support_environment-measure-equipment*/
+
+div.energy-conservation-support_environment-measure-equipment .heading-lvl03A01,
+div.energy-conservation-support_environment-measure-equipment .heading-lvl03A01-link a{border-bottom-color:#68bdea;}
+
+/*addition,other*/
+
+div.addition .heading-lvl03A01,
+div.addition .heading-lvl03A01-link a,
+div.other .heading-lvl03A01,
+div.other .heading-lvl03A01-link a{border-bottom-color:#bfbfbf;}
+
+
+
+/*------------------------------------
+	local-naviA01
+------------------------------------*/
+
+/*sensors*/
+
+body.sensors div.local-naviA01 h2{background-color:#e9ecf6;}
+body.sensors div.local-naviA01 h2 a,
+body.sensors div.local-naviA01 h2.stay{border-bottom-color:#929fd0;}
+
+/*switches*/
+
+body.switches div.local-naviA01 h2{background-color:#f3ebf5;}
+body.switches div.local-naviA01 h2 a,
+body.switches div.local-naviA01 h2.stay{border-bottom-color:#c399cc;}
+
+/*safety-components*/
+
+body.safety-components div.local-naviA01 h2{background-color:#fcf9e2;}
+body.safety-components div.local-naviA01 h2 a,
+body.safety-components div.local-naviA01 h2.stay{border-bottom-color:#f2e06d;}
+
+/*relay*/
+
+body.relay div.local-naviA01 h2{background-color:#fae7e3;}
+body.relay div.local-naviA01 h2 a,
+body.relay div.local-naviA01 h2.stay{border-bottom-color:#e58873;}
+
+/*control-components*/
+
+body.control-components div.local-naviA01 h2{background-color:#faedde;}
+body.control-components div.local-naviA01 h2 a,
+body.control-components div.local-naviA01 h2.stay{border-bottom-color:#e5a35c;
+}
+
+/*automation-systems,fa-systems*/
+
+body.automation-systems div.local-naviA01 h2,
+body.fa-systems div.local-naviA01 h2{background-color:#eef5e4;}
+body.automation-systems div.local-naviA01 h2 a,
+body.automation-systems div.local-naviA01 h2.stay,
+body.fa-systems div.local-naviA01 h2 a,
+body.fa-systems div.local-naviA01 h2.stay{border-bottom-color:#a9cc7a;
+}
+
+/*motion-drive*/
+
+body.motion-drive div.local-naviA01 h2{background-color:#f4f4e0;}
+body.motion-drive div.local-naviA01 h2 a,
+body.motion-drive div.local-naviA01 h2.stay{border-bottom-color:#c8ca66;
+}
+
+/*robotics*/
+
+body.robotics div.local-naviA01 h2{background-color:#eef6f2;}
+body.robotics div.local-naviA01 h2 a,
+body.robotics div.local-naviA01 h2.stay{border-bottom-color:#208c5b;
+}
+
+/*energy-conservation-support_environment-measure-equipment*/
+
+body.energy-conservation-support_environment-measure-equipment div.local-naviA01 h2{background-color:#e9f2f6;}
+body.energy-conservation-support_environment-measure-equipment div.local-naviA01 h2 a,
+body.energy-conservation-support_environment-measure-equipment div.local-naviA01 h2.stay{border-bottom-color:#68bdea;
+}
+
+/*addition,other*/
+
+body.addition div.local-naviA01 h2,
+body.other div.local-naviA01 h2{background-color:#f2f2f2;}
+body.addition div.local-naviA01 h2 a,
+body.addition div.local-naviA01 h2.stay,
+body.other div.local-naviA01 h2 a,
+body.other div.local-naviA01 h2.stay{border-bottom-color:#bfbfbf;}
+
+
+
+/*------------------------------------
+	local-naviB01
+------------------------------------*/
+
+/*sensors*/
+
+body.sensors div.local-naviB01 li.stay,
+div.local-naviB01 li.sensors a:link:hover,
+div.local-naviB01 li.sensors a:visited:hover,
+div.local-naviB01 li.sensors a:link:active,
+div.local-naviB01 li.sensors a:visited:active,
+div.local-naviB01 li.sensors a:link:focus,
+div.local-naviB01 li.sensors a:visited:focus{
+	background:#e9ecf6 url(../img/local_naviB01_bg_sensors.gif) left bottom repeat-x;
+}
+
+div.local-naviB01 li.sensors a:link{
+	_background:none;
+}
+div.local-naviB01 li.sensors a:visited{
+	_background:none;
+}
+body.sensors div.local-naviB01 li.stay,
+div.local-naviB01 li.sensors a:hover,
+div.local-naviB01 li.sensors a:active{
+	_background:#e9ecf6 url(../img/local_naviB01_bg_sensors.gif) left bottom repeat-x;
+}
+
+/*switches*/
+
+body.switches div.local-naviB01 li.stay,
+div.local-naviB01 li.switches a:link:hover,
+div.local-naviB01 li.switches a:visited:hover,
+div.local-naviB01 li.switches a:link:active,
+div.local-naviB01 li.switches a:visited:active,
+div.local-naviB01 li.switches a:link:focus,
+div.local-naviB01 li.switches a:visited:focus{
+	background:#f3ebf5 url(../img/local_naviB01_bg_switches.gif) left bottom repeat-x;
+}
+
+div.local-naviB01 li.switches a:link{
+	_background:none;
+}
+div.local-naviB01 li.switches a:visited{
+	_background:none;
+}
+body.switches div.local-naviB01 li.stay,
+div.local-naviB01 li.switches a:hover,
+div.local-naviB01 li.switches a:active{
+	_background:#f3ebf5 url(../img/local_naviB01_bg_switches.gif) left bottom repeat-x;
+}
+
+
+/*safety-components*/
+
+body.safety-components div.local-naviB01 li.stay,
+div.local-naviB01 li.safety-components a:link:hover,
+div.local-naviB01 li.safety-components a:visited:hover,
+div.local-naviB01 li.safety-components a:link:active,
+div.local-naviB01 li.safety-components a:visited:active,
+div.local-naviB01 li.safety-components a:link:focus,
+div.local-naviB01 li.safety-components a:visited:focus{
+	background:#fcf9e2 url(../img/local_naviB01_bg_safety.gif) left bottom repeat-x;
+}
+
+div.local-naviB01 li.safety-components a:link{
+	_background:none;
+}
+div.local-naviB01 li.safety-components a:visited{
+	_background:none;
+}
+body.safety-components div.local-naviB01 li.stay,
+div.local-naviB01 li.safety-components a:hover,
+div.local-naviB01 li.safety-components a:active{
+	_background:#fcf9e2 url(../img/local_naviB01_bg_safety.gif) left bottom repeat-x;
+}
+
+
+/*relay*/
+
+body.relay div.local-naviB01 li.stay,
+div.local-naviB01 li.relay a:link:hover,
+div.local-naviB01 li.relay a:visited:hover,
+div.local-naviB01 li.relay a:link:active,
+div.local-naviB01 li.relay a:visited:active,
+div.local-naviB01 li.relay a:link:focus,
+div.local-naviB01 li.relay a:visited:focus{
+	background:#fae7e3 url(../img/local_naviB01_bg_relay.gif) left bottom repeat-x;
+}
+
+div.local-naviB01 li.relay a:link{
+	_background:none;
+}
+div.local-naviB01 li.relay a:visited{
+	_background:none;
+}
+body.relay div.local-naviB01 li.stay,
+div.local-naviB01 li.relay a:hover,
+div.local-naviB01 li.relay a:active{
+	_background:#fae7e3 url(../img/local_naviB01_bg_relay.gif) left bottom repeat-x;
+}
+
+
+/*control-components*/
+
+body.control-components div.local-naviB01 li.stay,
+div.local-naviB01 li.control-components a:link:hover,
+div.local-naviB01 li.control-components a:visited:hover,
+div.local-naviB01 li.control-components a:link:active,
+div.local-naviB01 li.control-components a:visited:active,
+div.local-naviB01 li.control-components a:link:focus,
+div.local-naviB01 li.control-components a:visited:focus{
+	background:#faedde url(../img/local_naviB01_bg_control.gif) left bottom repeat-x;
+}
+
+div.local-naviB01 li.control-components a:link{
+	_background:none;
+}
+div.local-naviB01 li.control-components a:visited{
+	_background:none;
+}
+body.control-components div.local-naviB01 li.stay,
+div.local-naviB01 li.control-components a:hover,
+div.local-naviB01 li.control-components a:active{
+	_background:#faedde url(../img/local_naviB01_bg_control.gif) left bottom repeat-x;
+}
+
+
+/*automation-systems,fa-systems*/
+
+body.automation-systems div.local-naviB01 li.stay,
+div.local-naviB01 li.automation-systems a:link:hover,
+div.local-naviB01 li.automation-systems a:visited:hover,
+div.local-naviB01 li.automation-systems a:link:active,
+div.local-naviB01 li.automation-systems a:visited:active,
+div.local-naviB01 li.automation-systems a:link:focus,
+div.local-naviB01 li.automation-systems a:visited:focus,
+body.fa-systems div.local-naviB01 li.stay,
+div.local-naviB01 li.fa-systems a:link:hover,
+div.local-naviB01 li.fa-systems a:visited:hover,
+div.local-naviB01 li.fa-systems a:link:active,
+div.local-naviB01 li.fa-systems a:visited:active,
+div.local-naviB01 li.fa-systems a:link:focus,
+div.local-naviB01 li.fa-systems a:visited:focus{
+	background:#eef5e4 url(../img/local_naviB01_bg_automation.gif) left bottom repeat-x;
+}
+div.local-naviB01 li.automation-systems a:link,
+div.local-naviB01 li.fa-systems a:link{
+	_background:none;
+}
+div.local-naviB01 li.automation-systems a:visited,
+div.local-naviB01 li.fa-systems a:visited{
+	_background:none;
+}
+body.automation-systems div.local-naviB01 li.stay,
+div.local-naviB01 li.automation-systems a:hover,
+div.local-naviB01 li.automation-systems a:active,
+body.fa-systems div.local-naviB01 li.stay,
+div.local-naviB01 li.fa-systems a:hover,
+div.local-naviB01 li.fa-systems a:active{
+	_background:#eef5e4 url(../img/local_naviB01_bg_automation.gif) left bottom repeat-x;
+}
+
+
+
+/*motion-drive*/
+
+body.motion-drive div.local-naviB01 li.stay,
+div.local-naviB01 li.motion-drive a:link:hover,
+div.local-naviB01 li.motion-drive a:visited:hover,
+div.local-naviB01 li.motion-drive a:link:active,
+div.local-naviB01 li.motion-drive a:visited:active,
+div.local-naviB01 li.motion-drive a:link:focus,
+div.local-naviB01 li.motion-drive a:visited:focus{
+	background:#f4f4e0 url(../img/local_naviB01_bg_motion.gif) left bottom repeat-x;
+}
+
+div.local-naviB01 li.motion-drive a:link{
+	_background:none;
+}
+div.local-naviB01 li.motion-drive a:visited{
+	_background:none;
+}
+body.motion-drive div.local-naviB01 li.stay,
+div.local-naviB01 li.motion-drive a:hover,
+div.local-naviB01 li.motion-drive a:active{
+	_background:#f4f4e0 url(../img/local_naviB01_bg_motion.gif) left bottom repeat-x;
+}
+
+
+
+/*robotics*/
+
+body.motion-drive div.local-naviB01 li.stay,
+div.local-naviB01 li.robotics a:link:hover,
+div.local-naviB01 li.robotics a:visited:hover,
+div.local-naviB01 li.robotics a:link:active,
+div.local-naviB01 li.robotics a:visited:active,
+div.local-naviB01 li.robotics a:link:focus,
+div.local-naviB01 li.robotics a:visited:focus{
+	background:#EEF6F2 url(../img/local_naviB01_bg_robotics.gif) left bottom repeat-x;
+}
+
+div.local-naviB01 li.robotics a:link{
+	_background:none;
+}
+div.local-naviB01 li.robotics a:visited{
+	_background:none;
+}
+body.robotics div.local-naviB01 li.stay,
+div.local-naviB01 li.robotics a:hover,
+div.local-naviB01 li.robotics a:active{
+	_background:#EEF6F2 url(../img/local_naviB01_bg_robotics.gif) left bottom repeat-x;
+}
+
+
+
+/*energy-conservation-support_environment-measure-equipment*/
+
+body.motion-drive div.local-naviB01 li.stay,
+div.local-naviB01 li.energy a:link:hover,
+div.local-naviB01 li.energy a:visited:hover,
+div.local-naviB01 li.energy a:link:active,
+div.local-naviB01 li.energy a:visited:active,
+div.local-naviB01 li.energy a:link:focus,
+div.local-naviB01 li.energy a:visited:focus{
+	background:#e9f2f6 url(../img/local_naviB01_bg_energy.gif) left bottom repeat-x;
+}
+
+div.local-naviB01 li.energy a:link{
+	_background:none;
+}
+div.local-naviB01 li.energy a:visited{
+	_background:none;
+}
+body.energy div.local-naviB01 li.stay,
+div.local-naviB01 li.energy a:hover,
+div.local-naviB01 li.energy a:active{
+	_background:#e9f2f6 url(../img/local_naviB01_bg_energy.gif) left bottom repeat-x;
+}
+
+
+
+/*addition,other*/
+
+body.addition div.local-naviB01 li.stay,
+div.local-naviB01 li.addition a:link:hover,
+div.local-naviB01 li.addition a:visited:hover,
+div.local-naviB01 li.addition a:link:active,
+div.local-naviB01 li.addition a:visited:active,
+div.local-naviB01 li.addition a:link:focus,
+div.local-naviB01 li.addition a:visited:focus,
+body.other div.local-naviB01 li.stay,
+div.local-naviB01 li.other a:link:hover,
+div.local-naviB01 li.other a:visited:hover,
+div.local-naviB01 li.other a:link:active,
+div.local-naviB01 li.other a:visited:active,
+div.local-naviB01 li.other a:link:focus,
+div.local-naviB01 li.other a:visited:focus{
+	background:#f2f2f2 url(../img/local_naviB01_bg_addition.gif) left bottom repeat-x;
+}
+
+div.local-naviB01 li.addition a:link,
+div.local-naviB01 li.other a:link{
+	_background:none;
+}
+div.local-naviB01 li.addition a:visited,
+div.local-naviB01 li.other a:visited{
+	_background:none;
+}
+body.addition div.local-naviB01 li.stay,
+div.local-naviB01 li.addition a:hover,
+div.local-naviB01 li.addition a:active,
+body.other div.local-naviB01 li.stay,
+div.local-naviB01 li.other a:hover,
+div.local-naviB01 li.other a:active{
+	_background:#f2f2f2 url(../img/local_naviB01_bg_addition.gif) left bottom repeat-x;
+}
+
+
+
+/*------------------------------------
+	index-blockA01
+------------------------------------*/
+
+/*sensors*/
+div.index-blockA01 div.index-blockA01-group div.sensors h2 a:link,
+div.index-blockA01 div.index-blockA01-group div.sensors h2 a:visited{
+	border-bottom-color: #929fd0;
+	background-color: #e9ecf6;
+}
+div.index-blockA01 div.index-blockA01-group div.sensors h2 a:hover,
+div.index-blockA01 div.index-blockA01-group div.sensors h2 a:active{
+	background-color: #dfe2f1;
+}
+div.index-blockA01 div.index-blockA01-group div.sensors h2 a:focus{
+	background-color: #dfe2f1;
+}
+
+/*switches*/
+
+div.index-blockA01 div.index-blockA01-group div.switches h2 a:link,
+div.index-blockA01 div.index-blockA01-group div.switches h2 a:visited{
+	border-bottom-color: #c399cc;
+	background-color: #f3ebf5;
+}
+div.index-blockA01 div.index-blockA01-group div.switches h2 a:hover,
+div.index-blockA01 div.index-blockA01-group div.switches h2 a:active{
+	background-color: #ede1f0;
+}
+div.index-blockA01 div.index-blockA01-group div.switches h2 a:focus{
+	background-color: #ede1f0;
+}
+
+/*safety-components*/
+
+div.index-blockA01 div.index-blockA01-group div.safety-components h2 a:link,
+div.index-blockA01 div.index-blockA01-group div.safety-components h2 a:visited{
+	border-bottom-color: #f2e06d;
+	background-color: #fcf9e2;
+}
+div.index-blockA01 div.index-blockA01-group div.safety-components h2 a:hover,
+div.index-blockA01 div.index-blockA01-group div.safety-components h2 a:active{
+	background-color: #fbf6d3;
+}
+div.index-blockA01 div.index-blockA01-group div.safety-components h2 a:focus{
+	background-color: #fbf6d3;
+}
+
+/*relay*/
+
+div.index-blockA01 div.index-blockA01-group div.relay h2 a:link,
+div.index-blockA01 div.index-blockA01-group div.relay h2 a:visited{
+	border-bottom-color: #e58873;
+	background-color: #fae7e3;
+}
+div.index-blockA01 div.index-blockA01-group div.relay h2 a:hover,
+div.index-blockA01 div.index-blockA01-group div.relay h2 a:active{
+	background-color: #f7dcd5;
+}
+div.index-blockA01 div.index-blockA01-group div.relay h2 a:focus{
+	background-color: #f7dcd5;
+}
+
+/*control-components*/
+
+div.index-blockA01 div.index-blockA01-group div.control-components h2 a:link,
+div.index-blockA01 div.index-blockA01-group div.control-components h2 a:visited{
+	border-bottom-color: #e5a35c;
+	background-color: #faedde;
+}
+div.index-blockA01 div.index-blockA01-group div.control-components h2 a:hover,
+div.index-blockA01 div.index-blockA01-group div.control-components h2 a:active{
+	background-color: #f7e4ce;
+}
+div.index-blockA01 div.index-blockA01-group div.control-components h2 a:focus{
+	background-color: #f7e4ce;
+}
+
+/*automation-systems,fa-systems*/
+
+div.index-blockA01 div.index-blockA01-group div.automation-systems h2 a:link,
+div.index-blockA01 div.index-blockA01-group div.automation-systems h2 a:visited,
+div.index-blockA01 div.index-blockA01-group div.fa-systems h2 a:link,
+div.index-blockA01 div.index-blockA01-group div.fa-systems h2 a:visited{
+	border-bottom-color: #a9cc7a;
+	background-color: #eef5e4;
+}
+div.index-blockA01 div.index-blockA01-group div.automation-systems h2 a:hover,
+div.index-blockA01 div.index-blockA01-group div.automation-systems h2 a:active,
+div.index-blockA01 div.index-blockA01-group div.fa-systems h2 a:hover,
+div.index-blockA01 div.index-blockA01-group div.fa-systems h2 a:active{
+	background-color: #e5f0d7;
+}
+div.index-blockA01 div.index-blockA01-group div.automation-systems h2 a:focus,
+div.index-blockA01 div.index-blockA01-group div.fa-systems h2 a:focus{
+	background-color: #e5f0d7;
+}
+
+/*motion-drive*/
+
+div.index-blockA01 div.index-blockA01-group div.motion-drive h2 a:link,
+div.index-blockA01 div.index-blockA01-group div.motion-drive h2 a:visited{
+	border-bottom-color: #c8ca66;
+	background-color: #f4f4e0;
+}
+div.index-blockA01 div.index-blockA01-group div.motion-drive h2 a:hover,
+div.index-blockA01 div.index-blockA01-group div.motion-drive h2 a:active{
+	background-color: #efefd1;
+}
+div.index-blockA01 div.index-blockA01-group div.motion-drive h2 a:focus{
+	background-color: #efefd1;
+}
+
+/*robotics*/
+
+div.index-blockA01 div.index-blockA01-group dl.robotics dt a:link,
+div.index-blockA01 div.index-blockA01-group dl.robotics dt a:visited{
+	border-bottom-color: #208c5b;
+	background-color: #eef6f2;
+}
+div.index-blockA01 div.index-blockA01-group dl.robotics dt a:hover,
+div.index-blockA01 div.index-blockA01-group dl.robotics dt a:active{
+	background-color: #ddede6;
+}
+div.index-blockA01 div.index-blockA01-group dl.robotics dt a:focus{
+	background-color: #ddede6;
+}
+
+/*energy-conservation-support_environment-measure-equipment*/
+
+div.index-blockA01 div.index-blockA01-group dl.energy-conservation-support_environment-measure-equipment dt a:link,
+div.index-blockA01 div.index-blockA01-group dl.energy-conservation-support_environment-measure-equipment dt a:visited{
+	border-bottom-color: #68bdea;
+	background-color: #e9f2f6;
+}
+div.index-blockA01 div.index-blockA01-group dl.energy-conservation-support_environment-measure-equipment dt a:hover,
+div.index-blockA01 div.index-blockA01-group dl.energy-conservation-support_environment-measure-equipment dt a:active{
+	background-color: #deedf4;
+}
+div.index-blockA01 div.index-blockA01-group dl.energy-conservation-support_environment-measure-equipment dt a:focus{
+	background-color: #deedf4;
+}
+
+/*addition,other*/
+
+div.index-blockA01 div.index-blockA01-group div.addition h2 a:link,
+div.index-blockA01 div.index-blockA01-group div.addition h2 a:visited,
+div.index-blockA01 div.index-blockA01-group div.other h2 a:link,
+div.index-blockA01 div.index-blockA01-group div.other h2 a:visited{
+	border-bottom-color: #bfbfbf;
+	background-color: #f2f2f2;
+}
+div.index-blockA01 div.index-blockA01-group div.addition h2 a:hover,
+div.index-blockA01 div.index-blockA01-group div.addition h2 a:active,
+div.index-blockA01 div.index-blockA01-group div.other h2 a:hover,
+div.index-blockA01 div.index-blockA01-group div.other h2 a:active{
+	background-color: #ececec;
+}
+div.index-blockA01 div.index-blockA01-group div.addition h2 a:focus,
+div.index-blockA01 div.index-blockA01-group div.other h2 a:focus{
+	background-color: #ececec;
+}
+
+/*closed*/
+
+div.index-blockA01 div.index-blockA01-group div.closed h2 a:link,
+div.index-blockA01 div.index-blockA01-group div.closed h2 a:visited{
+	border-bottom-color: #e8e8e8;
+	background-color: #e8e8e8;
+}
+div.index-blockA01 div.index-blockA01-group div.closed h2 a:hover,
+div.index-blockA01 div.index-blockA01-group div.closed h2 a:active{
+	background-color: #e8e8e8;
+}
+div.index-blockA01 div.index-blockA01-group div.closed h2 a:focus{
+	background-color: #e8e8e8;
+}
+

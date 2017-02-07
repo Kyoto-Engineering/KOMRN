@@ -1,0 +1,195 @@
+/*-------------------------------------------------------------------------
+ SEARCH
+-------------------------------------------------------------------------*/
+
+/*	.search-blockA01
+	  .search-blockB01
+	  .search-blockC01
+------------------------------------*/
+.search-blockA01,
+.search-blockB01,
+.search-blockC01{
+	zoom:1;
+	margin-bottom:1.49em;
+	background-color:#f4f4f4;
+	border:1px solid #c6c6c6;
+}
+.search-heading{
+	width:100%;
+	padding:0.5em 0;
+	border-bottom:1px solid #c6c6c6;
+	color:#555555;
+}
+.search-heading:after{
+	content:".";
+	display:block;
+	clear:both;
+	height:0;
+	visibility:hidden;
+}
+.search-heading .heading{
+	float:left;
+	margin-bottom:0;
+	padding-left:10px;
+}
+.search-heading .help{
+	float:right;
+	margin-bottom:0;
+	padding-right:10px;
+}
+div.search-description{
+	margin:0.58em 10px;
+	zoom:1;
+}
+div.search-description:after{
+	content:".";
+	display:block;
+	clear:both;
+	visibility:hidden;
+	height:0;
+}
+form.search-form div.input-block{
+	float:left;
+}
+form.search-form div.option-block{
+	float:right;
+}
+form.search-form div.input-block p,
+form.search-form div.option-block p{
+	display:inline;
+	margin-bottom:0;
+}
+form.search-form div.input-block p input.search-str{
+	display:inline-block;
+	/display:inline;
+	/zoom:1;
+	width:245px;
+	height:18px;
+	padding:0 4px;
+	margin-right:5px;
+	border:1px solid #c6c6c6;
+	vertical-align:top;
+	color:#555555;
+}
+form.search-form div.input-block p input.submit-btn{
+	display:inline-block;
+	/display:inline;
+	/zoom:1;
+	vertical-align:top;
+}
+
+
+/*	.search-blockA01 [width:684px]
+------------------------------------*/
+.search-blockA01 .search-heading .heading{
+	font-weight:bold;
+}
+.search-blockA01 div.search-description form.search-form div.input-block{
+	width:415px;
+}
+.search-blockA01 div.search-description form.search-form div.input-block p input.search-str{
+	width:272px;
+}
+.search-blockA01 div.search-description form.search-form div.option-block{
+	width:230px;
+}
+.search-blockA01 div.search-description form.search-form div.option-block p{
+	margin-right:18px;
+}
+.search-blockA01 div.search-description form.search-form div.option-block p label input{
+	position:relative;
+	top:2px;
+	_top:1px;
+	margin-right:3px;
+}
+
+/*	.search-blockB01 [width:684px]
+------------------------------------*/
+.search-blockB01 div.search-description form.search-form div.option-block{
+	height:20px;
+	line-height:20px;
+}
+.search-blockB01 div.search-description form.search-form div.option-block p{
+	display:inline;
+	margin-right:18px;
+	padding-left:18px;
+	border-left:1px solid #cccccc;
+	vertical-align:top;
+	_vertical-align:bottom;
+}
+.search-blockB01 div.search-description form.search-form div.option-block p select{
+	height:20px;
+	margin-left:5px;
+	vertical-align:top;
+}
+
+/*	.search-blockC01 [width:450px]
+------------------------------------*/
+.search-blockC01 .search-heading .heading{
+	font-weight:bold;
+}
+.search-blockC01 div.search-description form.search-form div.input-block p input.search-str{
+	width:216px;
+}
+.search-blockC01 div.search-description form.search-form p select{
+	height:20px;
+	margin-right:5px;
+	vertical-align:top;
+}
+
+/*	.search-result-pager-block
+------------------------------------*/
+.search-result-pager-block{
+	margin-bottom:1.49em;
+	zoom:1;
+}
+.search-result-pager-block:after{
+	content:".";
+	display:block;
+	clear:both;
+	visibility:hidden;
+	height:0;
+}
+.search-result-pager-block div.search-result-message-area{
+	float:left;
+}
+.search-result-pager-block div.search-result-list-area{
+	text-align:right;
+}
+.search-result-pager-block div.search-result-list-area ol{
+	display:inline;
+	letter-spacing:-.40em;
+}
+.search-result-pager-block div.search-result-list-area ol li{
+	display:inline-block;
+	/display:inline;
+	/zoom:1;
+	margin-left:10px;
+	letter-spacing:normal;
+}
+
+.layoutC02 .search-result-pager-block div.search-result-list-area ol li{
+	margin-left:6px;
+}
+
+.search-result-pager-block div.search-result-message-area span,
+.search-result-pager-block div.search-result-list-area ol li.current-page,
+.search-result-pager-block div.search-result-list-area span.next-page,
+.search-result-pager-block div.search-result-list-area span.previous-page{
+	font-weight:bold;
+}
+.search-result-pager-block div.search-result-list-area span.next-page{
+	margin-left:10px;
+}
+.search-result-pager-block div.search-result-list-area span.next-page img.icon{
+	margin-left:3px;
+}
+.search-result-pager-block div.search-result-list-area span.previous-page img.icon{
+	margin-right:3px;
+}
+.search-result-pager-block div.search-result-list-area span.next-page img.icon,
+.search-result-pager-block div.search-result-list-area span.previous-page img.icon{
+	margin-bottom:2px;
+	_margin-bottom:0;
+	vertical-align:middle;
+}

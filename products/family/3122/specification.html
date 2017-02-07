@@ -1,0 +1,3578 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<html xml:lang="en" lang="en" xmlns="http://www.w3.org/1999/xhtml">
+    
+<!-- Mirrored from www.ia.omron.com/products/family/3122/specification.html by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 16 Dec 2016 09:55:12 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=utf-8" /><!-- /Added by HTTrack -->
+<head>
+        <meta http-equiv="Content-Language" content="en" />
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <meta http-equiv="Content-Style-Type" content="text/css" />
+        <meta http-equiv="Content-Script-Type" content="text/javascript" />
+        <title>
+            KE1 Smart Measurement and Monitor Units/Specifications | OMRON Industrial Automation
+        </title>
+        <meta name="keywords" content="Energy Conservation Support / Environment Measure Equipment,Electric Power Monitoring Equipment,Smart Measurement and Power Monitor,KE1" />
+        <meta name="description" content="Smart Measurement and Monitor Units First in the Industry! Unit structure that enables Power and Earth Leakage Monitoring with just one Unit. Use just one Unit to implement multi-circuit measurements." />
+        
+
+<link rel="alternate" href="../../../index.html" hreflang="en" />
+<link rel="stylesheet" type="text/css" media="all" href="../../../resources/css/common22f8.css?201611151200" />
+<link rel="stylesheet" type="text/css" media="all" href="../../../resources/css/global/common22f8.css?201611151200" />
+<link rel="stylesheet" type="text/css" media="all" href="../../../resources/css/frame_utility_tridion22f8.css?201611151200" />
+<link rel="stylesheet" type="text/css" media="print" href="../../../resources/css/print22f8.css?201611151200" />
+<script type="text/javascript" src="../../../resources/js/jquery22f8.js?201611151200"></script>
+<script type="text/javascript" src="../../../resources/js/function22f8.js?201611151200"></script>
+<script type="text/javascript" src="../../../resources/js/country_website22f8.js?201611151200"></script>
+<script type="text/javascript" src="../../../resources/js/global/ga22f8.js?201611151200"></script>
+<link rel="stylesheet" type="text/css" media="all" href="../../../resources/css/jquery-ui22f8.css?201611151200" charset='UTF-8'/>
+<link rel="stylesheet" type="text/css" media="all" href="../../../resources/css/jquery.multiselect22f8.css?201611151200" charset='UTF-8'/>
+<script type="text/javascript" language="JavaScript" src="../../../common/js/marketing_tag22f8.js?201611151200"></script>
+<script type="text/javascript" src="../../../resources/js/jquery-ui.min22f8.js?201611151200" charset='UTF-8'></script>
+<script type="text/javascript" src="../../../resources/js/jquery.ex-table-filter22f8.js?201611151200" charset='UTF-8'></script>
+<script type="text/javascript" src="../../../resources/js/jquery.tablesorter.min22f8.js?201611151200" charset='UTF-8'></script>
+<script type="text/javascript" src="../../../resources/js/filter22f8.js?201611151200" charset='UTF-8'></script>
+<link rel="shortcut icon" href="../../../resources/images/favicon.ico" type="image/x-icon" />
+
+        <link rel="stylesheet" type="text/css" media="all" href="../../../resources/css/tablesorter6c9b.css?201611150900" />
+        <script type="text/javascript" src="../../../resources/js/global/products6c9b.js?201611150900" charset='UTF-8'></script>
+
+    
+                    <script type="text/javascript">
+                      var w=window;
+                      if(w.performance||w.mozPerformance||w.msPerformance||w.webkitPerformance){var d=document,AKSB=AKSB||{};AKSB.q=[];AKSB.mark=function(a,b){AKSB.q.push(["mark",a,b||(new Date).getTime()])};AKSB.measure=function(a,b,c){AKSB.q.push(["measure",a,b,c||(new Date).getTime()])};AKSB.done=function(a){AKSB.q.push(["done",a])};AKSB.mark("firstbyte",(new Date).getTime());AKSB.prof={custid:"447308",ustr:"UNKNOWN",originlat:0,clientrtt:83,ghostip:"23.75.23.138",
+                      ipv6:false,pct:10,clientip:"27.147.201.4",requestid:"c29887a",protocol:"",blver:10,akM:"b",akN:"ae",akTT:"O",akTX:"1",akTI:"c29887a",ai:"286653",ra:"",pmgn:"",pmgi:"",pmp:""};(function(a){var b=
+                      d.createElement("script");b.async="async";b.src=a;a=d.getElementsByTagName("script");a=a[a.length-1];a.parentNode.insertBefore(b,a)})(("https:"===d.location.protocol?"https:":"http:")+"//ds-aksb-a.akamaihd.net/aksb.min.js")};
+                    </script>
+                    </head>
+    <body id="www-ia-omron-com" class="layoutC03 energy-conservation-support_environment-measure-equipment">
+
+        <!-- === [omron-ia] === -->
+        <div class="omron-ia">
+            <p class="non-visual">
+                <a name="page-top" id="page-top">
+                    Page top
+                </a>
+            </p>
+
+
+
+
+<div class="header-area">
+     <div class="site-identity">
+          <div class="site-logo">
+               <a href="../../../index.html"><img src="../../../Images/logo_01_b13-260967.gif"  width="129" height="24" alt="OMRON" /></a>
+          </div>
+          <!-- /.site-identity -->
+     </div>
+     <div class="utilities">
+          <div class="country-select-area">
+               <p class="canpany"><img src="../../../Images/header_txt_0113-195.gif"  width="129" height="11" alt="" /></p>
+               <p class="current-country">
+                    <span class="area devider">
+                        <a href="javascript:void(0)" onclick="box.countryWebsiteLinks();" id="country"><img src="../../../resources/images/icon_right_b.gif" width="3" height="9" alt="" class="iconA01" />Global</a>
+                    </span>
+               </p>
+          </div>
+          <div class="function-area">
+               <ul>
+
+
+                    <li class="first-child">
+
+
+                    <a href="../../../view/contact/input.html" ><img src="../../../resources/images/icon_right_b.gif" width="3" height="9" alt="" class="iconA01" />Contact</a>
+                    </li>
+
+               </ul>
+               <div class="search">
+<form action="http://search2.ia.omron.com/IA/" method="get" name="search_website" id="search_website" class="search-form">
+	<p>
+		<input type="text" value="" size="20" name="q" id="search_str" class="search-str" />
+		<input type="submit" value="Search" class="submit60L" />
+	</p>
+</form>
+                    <!-- /.search -->
+               </div>
+               <!-- /.function-area -->
+          </div>
+          <!-- /.utilities -->
+     </div>
+     <!-- /.header-area -->
+</div>
+
+<div class="global-navi-area">
+<ul>
+
+<li>
+<a href="../../../index.html">Home</a>
+</li>
+
+<li class="stay-link">
+<a href="../../index-2.html">Products</a>
+</li>
+
+<li>
+<a href="../../../support/index-2.html">Technical Support</a>
+</li>
+
+<li>
+<a href="../../../global_network/index-2.html">Global Network</a>
+</li>
+
+<li>
+<a href="../../../corporate_profile/index.html">About Us</a>
+</li>
+
+</ul>
+</div> 
+<div class="bread-crumb-area">
+<ul>
+
+
+<li><a href="../../../index.html" >Home</a><span class="separator">&gt;</span></li>
+
+<li><a href="../../index-2.html" >Products</a><span class="separator">&gt;</span></li>
+
+<li><a href="../../category/index.html" >Product Category</a><span class="separator">&gt;</span></li>
+
+<li><a href="../../category/energy-conservation-support_environment-measure-equipment/index-2.html" >Energy Conservation Support / Environment Measure Equipment</a><span class="separator">&gt;</span></li>
+
+<li><a href="../../category/energy-conservation-support_environment-measure-equipment/electric-power-monitoring-equipment/index-2.html" >Electric Power Monitoring Equipment</a><span class="separator">&gt;</span></li>
+
+<li><a href="../../category/energy-conservation-support_environment-measure-equipment/electric-power-monitoring-equipment/multi-circuit-smart-power-monitor/index.html" >Smart Measurement and Power Monitor</a><span class="separator">&gt;</span></li>
+
+<li><strong>KE1</strong></li>
+
+
+</ul>
+</div>
+
+            <!-- === [contents-area] === -->
+            <div class="contents-area">
+
+                <!-- === [inner-contents-area] === -->
+                <div class="inner-contents-area">
+                    <!-- === [upper-contents-area] === -->
+                    <div class="upper-contents-area">
+                        <!-- === [lead-area] === -->
+                        <div class="lead-area">
+
+
+
+
+<!-- --------------------------------------------------------------------Product Family Start--------------------------------------------------------- -->
+<div class="heading-h1">
+
+
+    <h1>
+        KE1
+    </h1>
+    <p class="sub-title">
+        Smart Measurement and Monitor Units
+    </p>
+</div>
+<div class="image-blockA01">
+    <div class="image-left">
+        <p class="image">
+
+            <img src="../../../Images/l_3122-13-136678-198x198.jpg" width="198" height="198" alt="KE1" class="nopic" />
+
+
+        </p>
+    </div>
+    <div class="description">
+        <h2 class="heading-B02">
+            First in the Industry! Unit structure that enables Power and Earth Leakage Monitoring with just one Unit. Use just one Unit to implement multi-circuit measurements.
+        </h2>
+        
+
+
+
+
+        <div class="item-list-link">
+            <p>
+                <a href="itemlist/index.html">
+                    <img src="../../../resources/images/icon_right_b.gif" width="3" height="9" alt="" class="iconA01" />
+                    Item list of KE1
+                </a>
+            </p>
+        </div>
+    </div>
+<!-- /.image-blockA01 -->
+</div>
+
+
+
+                        </div>
+                        <!-- === /[lead-area] === -->
+
+
+                        <!-- === [utility-area] === -->
+                        <div class="utility-area">                         
+                       
+                            <div class="action-block">
+                                <p>
+                                    about this Product Family
+                                </p>
+                                <ul>
+                                    <li class="first-child">
+                                        <a href="../../../view/inquiry/b5family/input42b6.html?b5Id=3122">
+                                            Inquiry of this Product
+                                        </a>
+                                    </li>                                 
+                                </ul>
+                            </div>
+
+
+
+
+<div class="related-info-blockA01 vertical-slide">
+
+    <p>
+        <span>Related Contents</span>
+    </p>
+
+
+        <ul>
+            <li class="first-child">
+                <span>Common</span>
+            </li>
+            <li>
+                <ul class="list-indent01">
+
+
+                    <li class="first-child">
+
+
+                        <a href="../../../product/cautions/index.html">
+                            <img src="../../../resources/images/icon_right_b.gif" width="3" height="9" alt="" class="iconA01" />
+                            Cautions
+                        </a>
+                    </li>
+
+
+
+                    <li>
+
+                        <a href="../../../support/guide/index.html">
+                            <img src="../../../resources/images/icon_right_b.gif" width="3" height="9" alt="" class="iconA01" />
+                            Technical Guide
+                        </a>
+                    </li>
+
+
+
+                    <li>
+
+                        <a href="../../../support/models/index.html">
+                            <img src="../../../resources/images/icon_right_b.gif" width="3" height="9" alt="" class="iconA01" />
+                            Models with Standards Certification
+                        </a>
+                    </li>
+
+
+
+                    <li>
+
+                        <a href="../../../support/faq/index.html">
+                            <img src="../../../resources/images/icon_right_b.gif" width="3" height="9" alt="" class="iconA01" />
+                            FAQ 
+                        </a>
+                    </li>
+
+                </ul>
+            </li>
+        </ul>
+
+        <ul>
+            <li class="first-child">
+                <span>Energy Conservation Support/Environment Measure Equipment</span>
+            </li>
+            <li>
+                <ul class="list-indent01">
+
+
+                    <li class="first-child">
+
+
+                        <a href="../../applications/category/energy-conservation-support_environment-measure-equipment/index.html">
+                            <img src="../../../resources/images/icon_right_b.gif" width="3" height="9" alt="" class="iconA01" />
+                            Applications
+                        </a>
+                    </li>
+
+                </ul>
+            </li>
+        </ul>
+
+        <ul>
+            <li class="first-child">
+                <span>Electric Power Monitoring Equipment</span>
+            </li>
+            <li>
+                <ul class="list-indent01">
+
+
+                    <li class="first-child">
+
+
+                        <a href="../../index/energy-conservation-support_environment-measure-equipment/electric-power-monitoring-equipment/index.html">
+                            <img src="../../../resources/images/icon_right_b.gif" width="3" height="9" alt="" class="iconA01" />
+                            Item A to Z Index
+                        </a>
+                    </li>
+
+                </ul>
+            </li>
+        </ul>
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- /.related-info-blockA01 -->
+</div>
+
+
+
+                           
+                        </div>
+                        <!-- === /[utility-area] === -->
+
+                    </div>
+                    <!-- === /[upper-contents-area] === -->
+
+                    <!-- === [primary-contents-area] === -->
+                    <div class="primary-contents-area">
+                        <div class="tabpanel-blockA01">
+
+
+
+
+
+
+<div class="tab-block">
+    <ul class="tabs">
+
+
+
+
+
+
+
+        <li>
+            <a href="feature.html">Features</a>
+
+        </li>
+
+
+
+
+
+
+
+
+        <li>
+            <a href="lineup.html">Lineup</a>
+
+        </li>
+
+
+
+
+
+
+
+
+        <li class="active">
+            <span>Specifications</span>
+
+        </li>
+
+
+
+
+
+
+
+
+        <li>
+            <a href="dimension.html">Dimensions</a>
+
+        </li>
+
+
+
+
+
+
+        <li>
+            <a href="download/catalog.html">Catalog</a>
+
+        </li>
+
+
+
+
+
+    </ul>
+</div><!-- /.tab-block -->
+
+<div class="editable-block">
+
+
+<p class="date-line">last update: September 09, 2015</p>
+
+
+
+
+
+
+
+
+
+<h4 class="heading-A02">Ratings</h4>
+
+
+
+
+
+
+
+
+
+
+<div class="component-blockA01">
+
+
+
+
+
+    <div class="text">
+        <p>
+            
+          <div class="table-blockA01">
+							<table border="0" cellspacing="0" class="tableA01">
+								<tr class="first-child">
+									<th colspan="2" rowspan="1" class="heading right middle"><strong>Model</strong></th>
+									<th class="heading center middle"><strong>KE1-
+<br />
+PGR1C-
+<br />
+FLK
+<br />
+(Power/
+<br />
+Earth
+<br />
+Leakage)</strong></th>
+									<th class="heading center middle"><strong>KE1-
+<br />
+PVS1C-
+<br />
+FLK
+<br />
+(Power/
+<br />
+Momentary
+<br />
+Voltage Sag)</strong></th>
+									<th class="heading center middle"><strong>KE1-
+<br />
+VSU1B-
+<br />
+FLK
+<br />
+(Momentary
+<br />
+Voltage
+<br />
+Sag)</strong></th>
+									<th class="heading center middle"><strong>KE1-
+<br />
+VAU1B-
+<br />
+FLK
+<br />
+(Voltage/
+<br />
+Current)</strong></th>
+									<th class="heading center middle"><strong>KE1-
+<br />
+CTD8E
+<br />
+(CT
+<br />
+Expansion)</strong></th>
+									<th class="heading center middle"><strong>KE1-
+<br />
+ZCT8E
+<br />
+(ZCT
+<br />
+Expansion)</strong></th>
+								</tr>
+								<tr>
+									<th colspan="2" rowspan="1" class="heading left middle"><strong>Applicable phase wiring
+<br />
+method</strong></th>
+									<td colspan="6" rowspan="1" class="left middle">Single-phase two-wire, single-phase three-wire, three-phase three-wire, and three-
+<br />
+phase four-wire</td>
+								</tr>
+								<tr>
+									<th colspan="1" rowspan="5" class="heading left middle"><strong>Power
+<br />
+supply</strong></th>
+									<th class="heading left middle"><strong>Rated power
+<br />
+supply voltage</strong></th>
+									<td colspan="4" rowspan="1" class="left middle">100 to 240 VAC, 50/60 Hz</td>
+									<td colspan="2" rowspan="1" class="center middle">---</td>
+								</tr>
+								<tr>
+									<th class="heading left middle"><strong>Allowable supply
+<br />
+voltage range</strong></th>
+									<td colspan="4" rowspan="1" class="left middle">85% to 110% of rated power supply voltage</td>
+									<td colspan="2" rowspan="1" class="center middle">---</td>
+								</tr>
+								<tr>
+									<th class="heading left middle"><strong>Power supply
+<br />
+fluctuation
+<br />
+frequency range</strong></th>
+									<td colspan="4" rowspan="1" class="left middle">45 to 65 Hz</td>
+									<td colspan="2" rowspan="1" class="center middle">---</td>
+								</tr>
+								<tr>
+									<th class="heading left middle"><strong>Power
+<br />
+consumption</strong></th>
+									<td colspan="2" rowspan="1" class="left middle">Standalone: 10 VA max.,
+<br />
+Maximum connections:
+<br />
+14 VA max.</td>
+									<td colspan="4" rowspan="1" class="left middle">10 VA max.</td>
+								</tr>
+								<tr>
+									<th class="heading left middle"><strong>Power
+<br />
+interruption
+<br />
+compensation
+<br />
+method</strong></th>
+									<td class="center middle">---</td>
+									<td colspan="2" rowspan="1" class="left middle">Backup for 1.2 seconds min.
+<br />
+with electric double-layer
+<br />
+capacitor for voltage
+<br />
+measurement only.</td>
+									<td colspan="3" rowspan="1" class="center middle">---</td>
+								</tr>
+								<tr>
+									<th colspan="1" rowspan="11" class="heading left middle"><strong>Input</strong></th>
+									<th class="heading left middle"><strong>Rated input
+<br />
+voltage</strong></th>
+									<td colspan="4" rowspan="1" class="left middle">100 to 480 VAC (single-phase, 2-wire): Line voltage
+<br />
+100/200 VAC (single-phase, 3-wire): Phase voltage/line
+<br />
+voltage
+<br />
+100 to 480 VAC (3-phase, 3-wire): Line voltage
+<br />
+58 to 277 VAC/100 to 480 VAC (3-phase, 4-wire):
+<br />
+Phase voltage/line voltage</td>
+									<td colspan="2" rowspan="1" class="center middle">---</td>
+								</tr>
+								<tr>
+									<th class="heading left middle"><strong>Rated input
+<br />
+current for CT</strong></th>
+									<td colspan="2" rowspan="1" class="left middle">5 A, 50 A, 100 A, 200 A,
+<br />
+400 A, or 600 A
+<br />
+Special CTs used.</td>
+									<td class="center middle">---</td>
+									<td colspan="2" rowspan="1" class="left middle">5 A, 50 A, 100 A, 200 A,
+<br />
+400 A, or 600 A
+<br />
+Special CTs used.</td>
+									<td class="center middle">---</td>
+								</tr>
+								<tr>
+									<th class="heading left middle"><strong>Rated input
+<br />
+current for ZCT</strong></th>
+									<td class="left middle">50 A, 100 A,
+<br />
+150 A, 200
+<br />
+A, 400 A,
+<br />
+600 A, or
+<br />
+1,000 A</td>
+									<td colspan="4" rowspan="1" class="center middle">---</td>
+									<td class="left middle">50 A, 100 A,
+<br />
+150 A, 200 A,
+<br />
+400 A, 600 A,
+<br />
+or 1,000 A</td>
+								</tr>
+								<tr>
+									<th class="heading left middle"><strong>Rated input
+<br />
+power</strong></th>
+									<td colspan="2" rowspan="1" class="left middle">With 5-A CT: 4 kW
+<br />
+With 50-A CT: 40 kW
+<br />
+With 100-A CT: 80 kW
+<br />
+With 200-A CT: 160 kW
+<br />
+With 400-A CT: 320 kW
+<br />
+With 600-A CT: 480 kW</td>
+									<td colspan="2" rowspan="1" class="center middle">---</td>
+									<td class="left middle">With 5-A CT:
+<br />
+4 kW
+<br />
+With 50-A
+<br />
+CT: 40 kW
+<br />
+With 100-A
+<br />
+CT: 80 kW
+<br />
+With 200-A
+<br />
+CT: 160 kW
+<br />
+With 400-A
+<br />
+CT: 320 kW
+<br />
+With 600-A
+<br />
+CT: 80 kW</td>
+									<td class="center middle">---</td>
+								</tr>
+								<tr>
+									<th class="heading left middle"><strong>Rated input
+<br />
+frequency</strong></th>
+									<td colspan="4" rowspan="1" class="left middle">50/60 Hz</td>
+									<td colspan="2" rowspan="1" class="center middle">---</td>
+								</tr>
+								<tr>
+									<th class="heading left middle"><strong>Input frequency
+<br />
+fluctuation range</strong></th>
+									<td colspan="4" rowspan="1" class="left middle">45 to 65 Hz</td>
+									<td colspan="2" rowspan="1" class="center middle">---</td>
+								</tr>
+								<tr>
+									<th class="heading left middle"><strong>Input leakage
+<br />
+current</strong></th>
+									<td class="left middle">1,000 mA</td>
+									<td colspan="4" rowspan="1" class="center middle">---</td>
+									<td class="left middle">1,000 mA</td>
+								</tr>
+								<tr>
+									<th class="heading left middle"><strong>Allowable input
+<br />
+voltage</strong></th>
+									<td colspan="4" rowspan="1" class="left middle">110% of rated input voltage (continuous)</td>
+									<td colspan="2" rowspan="1" class="center middle">---</td>
+								</tr>
+								<tr>
+									<th class="heading left middle"><strong>Allowable input
+<br />
+current</strong></th>
+									<td colspan="2" rowspan="1" class="left middle">120% of rated input current
+<br />
+(continuous)</td>
+									<td class="center middle">---</td>
+									<td colspan="2" rowspan="1" class="left middle">120% of rated current
+<br />
+(continuous)</td>
+									<td class="center middle">---</td>
+								</tr>
+								<tr>
+									<th colspan="1" rowspan="2" class="heading left middle"><strong>Rated input load</strong></th>
+									<td colspan="4" rowspan="1" class="left middle">Voltage input: 0.5 VA max. (excluding power supply)</td>
+									<td colspan="2" rowspan="1" class="center middle">---</td>
+								</tr>
+								<tr>
+									<td colspan="3" rowspan="1" class="left middle">Current input: 0.5 VA max. (for each input)</td>
+									<td class="center middle">---</td>
+									<td class="left middle">Current
+<br />
+input: 0.5 VA
+<br />
+max. (for
+<br />
+each input)</td>
+									<td class="center middle">---</td>
+								</tr>
+								<tr>
+									<th colspan="1" rowspan="3" class="heading left middle"><strong>Clock</strong></th>
+									<th class="heading left middle"><strong>Clock setting</strong></th>
+									<td colspan="4" rowspan="1" class="left middle">2012 to 2099 (Adjusted for leap years during this period.)</td>
+									<td colspan="2" rowspan="1" class="center middle">---</td>
+								</tr>
+								<tr>
+									<th class="heading left middle"><strong>Clock accuracy</strong></th>
+									<td colspan="4" rowspan="1" class="left middle">±1.5 min./month (at 23°C)</td>
+									<td colspan="2" rowspan="1" class="center middle">---</td>
+								</tr>
+								<tr>
+									<th class="heading left middle"><strong>Clock backup
+<br />
+period</strong></th>
+									<td colspan="4" rowspan="1" class="left middle">Seven-day backup with an electric double-layer
+<br />
+capacitor (after being powered for at least 24 hours and
+<br />
+when the power is interrupted at 23°C)</td>
+									<td colspan="2" rowspan="1" class="center middle">---</td>
+								</tr>
+								<tr>
+									<th colspan="2" rowspan="1" class="heading left middle"><strong>Ambient operating
+<br />
+temperature</strong></th>
+									<td colspan="6" rowspan="1" class="left middle">-10 to 55°C (with no condensation or icing)</td>
+								</tr>
+								<tr>
+									<th colspan="2" rowspan="1" class="heading left middle"><strong>Storage temperature</strong></th>
+									<td colspan="6" rowspan="1" class="left middle">-25 to 65°C (with no condensation or icing)</td>
+								</tr>
+								<tr>
+									<th colspan="2" rowspan="1" class="heading left middle"><strong>Ambient operating humidity</strong></th>
+									<td colspan="6" rowspan="1" class="left middle">25% to 85%</td>
+								</tr>
+								<tr>
+									<th colspan="2" rowspan="1" class="heading left middle"><strong>Storage humidity</strong></th>
+									<td colspan="6" rowspan="1" class="left middle">25% to 85%</td>
+								</tr>
+								<tr>
+									<th colspan="2" rowspan="1" class="heading left middle"><strong>Altitude</strong></th>
+									<td colspan="6" rowspan="1" class="left middle">2,000 m max.</td>
+								</tr>
+								<tr>
+									<th colspan="2" rowspan="1" class="heading left middle"><strong>Installation environment</strong></th>
+									<td colspan="6" rowspan="1" class="left middle">Overvoltage category II, pollution degree 2, measurement category II</td>
+								</tr>
+								<tr>
+									<th class="heading left middle"><strong>Compliant
+<br />
+standards</strong></th>
+									<th class="heading left middle"><strong>All KE1 Units</strong></th>
+									<td colspan="6" rowspan="1" class="left middle">EN 61010-2-030 (IEC 61010-2-030)
+<br />
+EN61326-1 Industrial electromagnetic environment
+<br />
+UL61010-1 (*)
+<br />
+UL61010-2-030 (*)</td>
+								</tr>
+							</table>
+						</div>
+        
+        </p>
+    </div>
+
+
+
+
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="component-blockA01">
+
+
+
+
+
+    <div class="text">
+        <p>
+            * Use a UL-compliant current transformer (CT) (KM20-CTF-[][][]AU) for application as a UL-certified component.
+        </p>
+    </div>
+
+
+
+
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<h4 class="heading-A02">Characteristics</h4>
+
+
+
+
+
+
+
+
+
+
+<div class="component-blockA01">
+
+
+
+
+
+    <div class="text">
+        <p>
+            
+						<div class="table-blockA01">
+							<table border="0" cellspacing="0" class="tableA01">
+								<tr class="first-child">
+									<th colspan="2" rowspan="1" class="heading right middle"><strong>Model</strong></th>
+									<th class="heading center middle"><strong>KE1-
+<br />
+PGR1C-
+<br />
+FLK
+<br />
+(Power/
+<br />
+Earth
+<br />
+Leakage)</strong></th>
+									<th class="heading center middle"><strong>KE1-
+<br />
+PVS1C-
+<br />
+FLK
+<br />
+(Power/
+<br />
+Momentary
+<br />
+Voltage Sag)</strong></th>
+									<th class="heading center middle"><strong>KE1-
+<br />
+VSU1B-
+<br />
+FLK
+<br />
+(Momentary
+<br />
+Voltage
+<br />
+Sag)</strong></th>
+									<th class="heading center middle"><strong>KE1-
+<br />
+VAU1B-
+<br />
+FLK
+<br />
+(Voltage/
+<br />
+Current)</strong></th>
+									<th class="heading center middle"><strong>KE1-
+<br />
+CTD8E
+<br />
+(CT
+<br />
+Expansion)</strong></th>
+									<th class="heading center middle"><strong>KE1-
+<br />
+ZCT8E
+<br />
+(ZCT
+<br />
+Expansion)</strong></th>
+								</tr>
+								<tr>
+									<th colspan="1" rowspan="7" class="heading left middle"><strong>Accuracy
+<br />
+*1</strong></th>
+									<th class="heading left middle"><strong>Voltage</strong></th>
+									<td colspan="4" rowspan="1" class="left middle">±1.0% FS ±1 digit
+<br />
+The accuracy of the voltage across the Vtr is ±2.0% FS
+<br />
+±1 digit under the same conditions.</td>
+									<td colspan="2" rowspan="1" class="center middle">---</td>
+								</tr>
+								<tr>
+									<th class="heading left middle"><strong>Current</strong></th>
+									<td colspan="2" rowspan="1" class="left middle">±1.0% FS ±1 digit
+<br />
+However, the accuracy is
+<br />
+±2.0% FS ±1 digit for the
+<br />
+phase-S current for a
+<br />
+three-phase, three-wire
+<br />
+circuit and the phase-N
+<br />
+current for a single-phase,
+<br />
+three-wire circuit under
+<br />
+the same conditions.</td>
+									<td class="center middle">---</td>
+									<td colspan="2" rowspan="1" class="left middle">±1.0% FS ±1 digit
+<br />
+However, the accuracy
+<br />
+is ±2.0% FS ±1 digit for
+<br />
+the phase-S current for
+<br />
+a three-phase, three-
+<br />
+wire circuit and the
+<br />
+phase-N current for a
+<br />
+single-phase, three-wire
+<br />
+circuit under the same
+<br />
+conditions.</td>
+									<td class="center middle">---</td>
+								</tr>
+								<tr>
+									<th class="heading left middle"><strong>Leakage current</strong></th>
+									<td class="left middle">30 to 200
+<br />
+mA: ±5%
+<br />
+rdg ±1 digit
+<br />
+200 to
+<br />
+1,000 mA:
+<br />
+±1%FS
+<br />
+±1 digit</td>
+									<td colspan="4" rowspan="1" class="center middle">---</td>
+									<td class="left middle">30 to 200
+<br />
+mA: ±5%
+<br />
+rdg ±1 digit
+<br />
+200 to
+<br />
+1,000 mA:
+<br />
+±1%FS ±1
+<br />
+digit</td>
+								</tr>
+								<tr>
+									<th class="heading left middle"><strong>Power (active
+<br />
+power and
+<br />
+reactive power)</strong></th>
+									<td colspan="2" rowspan="1" class="left middle">Active power and reactive
+<br />
+power ±2.0% FS ±1 digit
+<br />
+(power factor = 1)</td>
+									<td colspan="2" rowspan="1" class="center middle">---</td>
+									<td class="left middle">Active
+<br />
+power and
+<br />
+reactive
+<br />
+power
+<br />
+±2.0% FS
+<br />
+±1 digit
+<br />
+(Power
+<br />
+factor = 1)</td>
+									<td class="center middle">---</td>
+								</tr>
+								<tr>
+									<th class="heading left middle"><strong>Frequency</strong></th>
+									<td colspan="4" rowspan="1" class="left middle">±0.3 Hz ±1 digit</td>
+									<td colspan="2" rowspan="1" class="center middle">---</td>
+								</tr>
+								<tr>
+									<th class="heading left middle"><strong>Power factor *2</strong></th>
+									<td colspan="2" rowspan="1" class="left middle">±5.0% FS (power factor =
+<br />
+0.5 to 1 to 0.5)</td>
+									<td colspan="2" rowspan="1" class="center middle">---</td>
+									<td class="left middle">±5.0% FS
+<br />
+(Power
+<br />
+factor = 0.5
+<br />
+to 1 to 0.5)</td>
+									<td class="center middle">---</td>
+								</tr>
+								<tr>
+									<th class="heading left middle"><strong>Temperature</strong></th>
+									<td colspan="6" rowspan="1" class="center middle">---</td>
+								</tr>
+								<tr>
+									<th colspan="2" rowspan="1" class="heading left middle"><strong>Temperature influence *1</strong></th>
+									<td colspan="6" rowspan="1" class="left middle">±1.0% FS (percentage of the measurement value at an ambient temperature of 23°C,
+<br />
+rated input, rated frequency, and a power factor of 1 in the operating temperature
+<br />
+range)</td>
+								</tr>
+								<tr>
+									<th colspan="2" rowspan="1" class="heading left middle"><strong>Frequency influence *1</strong></th>
+									<td colspan="6" rowspan="1" class="left middle">±1.0% FS (percentage of the measurement value at an ambient temperature of 23°C,
+<br />
+rated input, rated frequency, and a power factor of 1 in the rated frequency ±5 Hz
+<br />
+range)</td>
+								</tr>
+								<tr>
+									<th colspan="2" rowspan="1" class="heading left middle"><strong>Influence of harmonics *1</strong></th>
+									<td colspan="6" rowspan="1" class="left middle">±0.5% FS (at ambient temperature of 23°C, error for superimposed 2nd, 3rd, 5th,
+<br />
+7th, 9th, 11th, and 13th harmonics for a content percentage of 30% for current and
+<br />
+5% for voltage of the basic wave)</td>
+								</tr>
+								<tr>
+									<th colspan="2" rowspan="1" class="heading left middle"><strong>Low-cut current set value</strong></th>
+									<td colspan="2" rowspan="1" class="left middle">0.1% to 19.9% of rated input
+<br />
+in 0.1% increments</td>
+									<td class="center middle">---</td>
+									<td colspan="2" rowspan="1" class="left middle">0.1% to 19.9% of rated
+<br />
+input in 0.1% increments</td>
+									<td class="center middle">---</td>
+								</tr>
+								<tr>
+									<th colspan="2" rowspan="1" class="heading left middle"><strong>Low-cut leakage current
+<br />
+set value</strong></th>
+									<td colspan="2" rowspan="1" class="left middle">Variable in 0.1-mA
+<br />
+increments between 0.1
+<br />
+and 30.0 mA</td>
+									<td colspan="3" rowspan="1" class="center middle">---</td>
+									<td class="left middle">Variable in
+<br />
+0.1-mA
+<br />
+increments
+<br />
+between
+<br />
+0.1 and
+<br />
+30.0 mA</td>
+								</tr>
+								<tr>
+									<th colspan="2" rowspan="1" class="heading left middle"><strong>Sampling cycle</strong></th>
+									<td colspan="6" rowspan="1" class="left middle">100 ms for measurement voltage at 50 Hz and 83.3 ms for measurement voltage at
+<br />
+60 Hz</td>
+								</tr>
+								<tr>
+									<th colspan="2" rowspan="1" class="heading left middle"><strong>Insulation resistance</strong></th>
+									<td colspan="6" rowspan="1" class="left middle">Insulation resistance: 20 MΩ (at 500 VDC)</td>
+								</tr>
+								<tr>
+									<th colspan="2" rowspan="1" class="heading left middle"><strong>Dielectric strength</strong></th>
+									<td colspan="6" rowspan="1" class="left middle">All models: Locations to which 2,000 V was applied for one minute: Between all
+<br />
+terminals and case
+<br />
+KE1-PGR1C-FLK:
+<br />
+Between the power supply terminals and RS-485/transistor/relay outputs
+<br />
+Between the power supply terminals and current/voltage/earth leakage inputs
+<br />
+Between current/voltage/earth leakage inputs and RS-485/relay/transistor outputs
+<br />
+KE1-PVS1C-FLK:
+<br />
+Between the power supply terminals and RS-485/transistor/relay outputs
+<br />
+Between the power supply terminals and current/voltage input
+<br />
+Between current/voltage inputs and RS-485/relay/transistor outputs
+<br />
+KE1-VSU1B-FLK:
+<br />
+Between power supply terminals and RS-485/relay outputs
+<br />
+Between the power supply terminals and voltage inputs
+<br />
+Between voltage inputs and RS-485/relay outputs
+<br />
+KE1-VAU1B-FLK:
+<br />
+Between power supply terminals and RS-485/relay outputs
+<br />
+Between the power supply terminals and current/voltage input
+<br />
+Between current/voltage inputs and RS-485/relay outputs
+<br />
+KE1-CTD8E:
+<br />
+Between current inputs and relay outputs
+<br />
+KE1-ZCT8E:
+<br />
+Between earth leakage inputs and relay outputs</td>
+								</tr>
+								<tr>
+									<th colspan="2" rowspan="1" class="heading left middle"><strong>Vibration resistance</strong></th>
+									<td colspan="6" rowspan="1" class="left middle">Single-amplitude: 0.35 mm, Acceleration: 50 m/s<sup>2</sup>
+										<br />
+Vibration: 10 to 55 Hz, 10 sweeps of 5 minutes each along 3 axes</td>
+								</tr>
+								<tr>
+									<th colspan="2" rowspan="1" class="heading left middle"><strong>Shock resistance</strong></th>
+									<td colspan="6" rowspan="1" class="left middle">150 m/s<sup>2</sup>, 3 times each in 6 directions (up/down, left/right, forward/backward)</td>
+								</tr>
+								<tr>
+									<th colspan="2" rowspan="1" class="heading left middle"><strong>Weight</strong></th>
+									<td colspan="6" rowspan="1" class="left middle">Approx. 230 g</td>
+								</tr>
+								<tr>
+									<th colspan="2" rowspan="1" class="heading left middle"><strong>Memory backup</strong></th>
+									<td colspan="6" rowspan="1" class="left middle">No. of writes to non-volatile memory: 1,000,000 times</td>
+								</tr>
+								<tr>
+									<th colspan="1" rowspan="3" class="heading left middle"><strong>Event
+<br />
+inputs</strong></th>
+									<th class="heading left middle"><strong>Number of inputs</strong></th>
+									<td colspan="6" rowspan="1" class="center middle">---</td>
+								</tr>
+								<tr>
+									<th class="heading left middle"><strong>No-voltage
+<br />
+inputs</strong></th>
+									<td colspan="6" rowspan="1" class="center middle">---</td>
+								</tr>
+								<tr>
+									<th class="heading left middle"><strong>Voltage input</strong></th>
+									<td colspan="6" rowspan="1" class="center middle">---</td>
+								</tr>
+								<tr>
+									<th colspan="1" rowspan="2" class="heading left middle"><strong>Tempera-
+<br />
+ture in-
+<br />
+puts</strong></th>
+									<th class="heading left middle"><strong>Thermistor
+<br />
+inputs</strong></th>
+									<td colspan="6" rowspan="1" class="center middle">---</td>
+								</tr>
+								<tr>
+									<th class="heading left middle"><strong>Applicable
+<br />
+thermistor</strong></th>
+									<td colspan="6" rowspan="1" class="center middle">---</td>
+								</tr>
+								<tr>
+									<th colspan="2" rowspan="1" class="heading left middle"><strong>Combinations</strong></th>
+									<td colspan="2" rowspan="1" class="left middle">Capable of supporting 7
+<br />
+event inputs and 1
+<br />
+temperature input when
+<br />
+connected with the
+<br />
+KM1-EMU8A-FLK.</td>
+									<td colspan="4" rowspan="1" class="center middle">---</td>
+								</tr>
+								<tr>
+									<th colspan="1" rowspan="7" class="heading left middle"><strong>Transis-
+<br />
+tor out-
+<br />
+puts</strong></th>
+									<th class="heading left middle"><strong>Number of
+<br />
+outputs</strong></th>
+									<td colspan="2" rowspan="1" class="left middle">One open-collector output
+<br />
+(OUT2)</td>
+									<td colspan="4" rowspan="1" class="center middle">---</td>
+								</tr>
+								<tr>
+									<th class="heading left middle"><strong>Output capacity</strong></th>
+									<td colspan="2" rowspan="1" class="left middle">30 VDC, 30 mA</td>
+									<td colspan="4" rowspan="1" class="center middle">---</td>
+								</tr>
+								<tr>
+									<th class="heading left middle"><strong>ON residual
+<br />
+voltage</strong></th>
+									<td colspan="2" rowspan="1" class="left middle">1.2 V max.</td>
+									<td colspan="4" rowspan="1" class="center middle">---</td>
+								</tr>
+								<tr>
+									<th class="heading left middle"><strong>OFF leakage
+<br />
+current</strong></th>
+									<td colspan="2" rowspan="1" class="left middle">100 μA max.</td>
+									<td colspan="4" rowspan="1" class="center middle">---</td>
+								</tr>
+								<tr>
+									<th class="heading left middle"><strong>Total power
+<br />
+consumption
+<br />
+pulse output</strong></th>
+									<td colspan="2" rowspan="1" class="left middle">Outputs one pulse when
+<br />
+the power consumption
+<br />
+reaches the set pulse
+<br />
+output unit (1, 10, 100,
+<br />
+1k, 2k, 5k, 10k, 20k, 50k,
+<br />
+100k W/h).</td>
+									<td colspan="4" rowspan="1" class="center middle">---</td>
+								</tr>
+								<tr>
+									<th class="heading left middle"><strong>Alarm output</strong></th>
+									<td colspan="2" rowspan="1" class="left middle">Outputs an alarm based on
+<br />
+the set alarm output
+<br />
+threshold.</td>
+									<td colspan="4" rowspan="1" class="center middle">---</td>
+								</tr>
+								<tr>
+									<th class="heading left middle"><strong>Alarm recovery
+<br />
+method</strong></th>
+									<td colspan="2" rowspan="1" class="left middle">Automatic recovery only</td>
+									<td colspan="4" rowspan="1" class="center middle">---</td>
+								</tr>
+								<tr>
+									<th colspan="1" rowspan="7" class="heading left middle"><strong>Relay
+<br />
+outputs</strong></th>
+									<th class="heading left middle"><strong>Number of
+<br />
+outputs</strong></th>
+									<td class="left middle">One NO
+<br />
+contact
+<br />
+output
+<br />
+(OUT1)</td>
+									<td class="center middle">---</td>
+									<td class="left middle">One NO
+<br />
+contact
+<br />
+output (OUT1)</td>
+									<td class="left middle">Two NO
+<br />
+contact
+<br />
+outputs
+<br />
+(OUT1
+<br />
+and OUT2)</td>
+									<td colspan="2" rowspan="1" class="left middle">One NO contact output
+<br />
+(OUT1)</td>
+								</tr>
+								<tr>
+									<th class="heading left middle"><strong>Rated load</strong></th>
+									<td class="left middle">Resistance
+<br />
+load, 250
+<br />
+VAC, 3 A;
+<br />
+30 VDC, 3 A
+<br />
+Inductive
+<br />
+load (cosφ
+<br />
+= 0.4, L/R =
+<br />
+7 ms): 250
+<br />
+VAC, 1 A; 30
+<br />
+VDC, 1 A</td>
+									<td class="center middle">---</td>
+									<td colspan="2" rowspan="1" class="left middle">Resistance load, 250 VAC,
+<br />
+3 A; 30 VDC, 3 A
+<br />
+Inductive load (cosφ = 0.4,
+<br />
+L/R = 7 ms): 250 VAC, 1 A;
+<br />
+30 VDC, 1 A</td>
+									<td colspan="2" rowspan="1" class="left middle">Resistance load, 125 VAC,
+<br />
+3 A; 30 VDC, 3 A</td>
+								</tr>
+								<tr>
+									<th class="heading left middle"><strong>Mechanical life
+<br />
+expectancy</strong></th>
+									<td class="left middle">10,000,000
+<br />
+operations</td>
+									<td class="center middle">---</td>
+									<td colspan="2" rowspan="1" class="left middle">10,000,000 operations</td>
+									<td colspan="2" rowspan="1" class="left middle">5,000,000 operations min.</td>
+								</tr>
+								<tr>
+									<th class="heading left middle"><strong>Electrical life
+<br />
+expectancy</strong></th>
+									<td class="left middle">50,000
+<br />
+operations
+<br />
+min. (rated
+<br />
+load
+<br />
+switching
+<br />
+frequency:
+<br />
+1,800
+<br />
+times/h)</td>
+									<td class="center middle">---</td>
+									<td colspan="2" rowspan="1" class="left middle">50,000 operations min.
+<br />
+(rated load switching
+<br />
+frequency: 1,800 times/h)</td>
+									<td colspan="2" rowspan="1" class="left middle">200,000 times min. (rated
+<br />
+load switching frequency:
+<br />
+1,800 times/h)</td>
+								</tr>
+								<tr>
+									<th class="heading left middle"><strong>Failure rate P
+<br />
+level</strong></th>
+									<td class="left middle">5 VDC, 10
+<br />
+mA (at a
+<br />
+switching
+<br />
+frequency
+<br />
+of 120
+<br />
+times/min)</td>
+									<td class="center middle">---</td>
+									<td colspan="4" rowspan="1" class="left middle">5 VDC, 10 mA (at a switching frequency of 120 times/
+<br />
+min)</td>
+								</tr>
+								<tr>
+									<th class="heading left middle"><strong>Alarm output</strong></th>
+									<td class="left middle">Turns
+<br />
+output ON
+<br />
+or OFF
+<br />
+based on
+<br />
+the alarm
+<br />
+set value.</td>
+									<td class="center middle">---</td>
+									<td colspan="4" rowspan="1" class="left middle">Turns output ON or OFF based on the alarm set value.</td>
+								</tr>
+								<tr>
+									<th class="heading left middle"><strong>Recovery
+<br />
+method</strong></th>
+									<td class="left middle">Automatic
+<br />
+recovery
+<br />
+only</td>
+									<td class="center middle">---</td>
+									<td colspan="4" rowspan="1" class="left middle">Automatic recovery only</td>
+								</tr>
+								<tr>
+									<th colspan="1" rowspan="7" class="heading left middle"><strong>Semicon
+<br />
+ductor
+<br />
+relay
+<br />
+outputs</strong></th>
+									<th class="heading left middle"><strong>Number of
+<br />
+outputs</strong></th>
+									<td class="center middle">---</td>
+									<td class="left middle">One MOS
+<br />
+FET output
+<br />
+(OUT1)</td>
+									<td class="left middle">One MOS
+<br />
+FET output
+<br />
+(OUT2)</td>
+									<td colspan="3" rowspan="1" class="center middle">---</td>
+								</tr>
+								<tr>
+									<th class="heading left middle"><strong>Maximum load
+<br />
+voltage</strong></th>
+									<td class="center middle">---</td>
+									<td colspan="2" rowspan="1" class="left middle">Peak: 24 VAC/DC</td>
+									<td colspan="3" rowspan="1" class="center middle">---</td>
+								</tr>
+								<tr>
+									<th class="heading left middle"><strong>Continuous load
+<br />
+current</strong></th>
+									<td class="center middle">---</td>
+									<td colspan="2" rowspan="1" class="left middle">Peak: 80 mA AC/DC</td>
+									<td colspan="3" rowspan="1" class="center middle">---</td>
+								</tr>
+								<tr>
+									<th class="heading left middle"><strong>ON resistance</strong></th>
+									<td class="center middle">---</td>
+									<td colspan="2" rowspan="1" class="left middle">15 Ω max.</td>
+									<td colspan="3" rowspan="1" class="center middle">---</td>
+								</tr>
+								<tr>
+									<th class="heading left middle"><strong>Open-circuit
+<br />
+leakage current</strong></th>
+									<td class="center middle">---</td>
+									<td colspan="2" rowspan="1" class="left middle">1 nA max.</td>
+									<td colspan="3" rowspan="1" class="center middle">---</td>
+								</tr>
+								<tr>
+									<th class="heading left middle"><strong>Alarm output</strong></th>
+									<td class="center middle">---</td>
+									<td colspan="2" rowspan="1" class="left middle">Turns output ON or OFF
+<br />
+based on the alarm set value.</td>
+									<td colspan="3" rowspan="1" class="center middle">---</td>
+								</tr>
+								<tr>
+									<th class="heading left middle"><strong>Recovery
+<br />
+method</strong></th>
+									<td class="center middle">---</td>
+									<td colspan="2" rowspan="1" class="left middle">Automatic recovery only</td>
+									<td colspan="3" rowspan="1" class="center middle">---</td>
+								</tr>
+								<tr>
+									<th colspan="1" rowspan="3" class="heading left middle"><strong>Commu-
+<br />
+nications</strong></th>
+									<th class="heading left middle"><strong>Protocols</strong></th>
+									<td colspan="6" rowspan="1" class="left middle">Communications protocol setting OFF: CompoWay/F, ON: Modbus</td>
+								</tr>
+								<tr>
+									<th class="heading left middle"><strong>Unit number
+<br />
+setting</strong></th>
+									<td colspan="6" rowspan="1" class="left middle">CompoWay/F: 0 to 99, Modbus:1 to 99
+<br />
+When a switch operation is performed to set the protocol to Modbus when the node
+<br />
+number is set to 0, the node number is automatically changed to 1.</td>
+								</tr>
+								<tr>
+									<th class="heading left middle"><strong>Communication
+<br />
+items</strong></th>
+									<td colspan="6" rowspan="1" class="left middle">Refer to the KM1/KE1 Communications Manual.</td>
+								</tr>
+								<tr>
+									<th colspan="1" rowspan="8" class="heading left middle"><strong>RS-485</strong></th>
+									<th class="heading left middle"><strong>Sync method</strong></th>
+									<td colspan="4" rowspan="1" class="left middle">Start-stop</td>
+									<td colspan="2" rowspan="1" class="center middle">---</td>
+								</tr>
+								<tr>
+									<th class="heading left middle"><strong>Baud rate</strong></th>
+									<td colspan="4" rowspan="1" class="left middle">9,600 bps, 19,200 bps, or 38,400 bps</td>
+									<td colspan="2" rowspan="1" class="center middle">---</td>
+								</tr>
+								<tr>
+									<th class="heading left middle"><strong>Transmission
+<br />
+code</strong></th>
+									<td colspan="4" rowspan="1" class="left middle">CompoWay/F: ASCII, Modbus: Binary</td>
+									<td colspan="2" rowspan="1" class="center middle">---</td>
+								</tr>
+								<tr>
+									<th class="heading left middle"><strong>Data length</strong></th>
+									<td colspan="4" rowspan="1" class="left middle">CompoWay/F: 7 bits, 8 bits; Modbus: 8 bits</td>
+									<td colspan="2" rowspan="1" class="center middle">---</td>
+								</tr>
+								<tr>
+									<th class="heading left middle"><strong>Stop bits</strong></th>
+									<td colspan="4" rowspan="1" class="left middle">CompoWay/F: 1 bits or 2 bits
+<br />
+Modbus: 1 bit with priority, 2 bits without priority</td>
+									<td colspan="2" rowspan="1" class="center middle">---</td>
+								</tr>
+								<tr>
+									<th class="heading left middle"><strong>Parity</strong></th>
+									<td colspan="4" rowspan="1" class="left middle">Even, odd, or none</td>
+									<td colspan="2" rowspan="1" class="center middle">---</td>
+								</tr>
+								<tr>
+									<th class="heading left middle"><strong>Maximum
+<br />
+transmission
+<br />
+distance</strong></th>
+									<td colspan="4" rowspan="1" class="left middle">500 m</td>
+									<td colspan="2" rowspan="1" class="center middle">---</td>
+								</tr>
+								<tr>
+									<th class="heading left middle"><strong>Maximum number
+<br />
+of nodes</strong></th>
+									<td colspan="4" rowspan="1" class="left middle">CompoWay/F: 31, Modbus: 99</td>
+									<td colspan="2" rowspan="1" class="center middle">---</td>
+								</tr>
+								<tr>
+									<th colspan="2" rowspan="1" class="heading left middle"><strong>USB</strong></th>
+									<td colspan="6" rowspan="1" class="left middle">USB 1.1 compliant</td>
+								</tr>
+								<tr>
+									<th colspan="2" rowspan="1" class="heading left middle"><strong>Memory retention for power
+<br />
+interruptions</strong></th>
+									<td class="left middle">Parameter
+<br />
+data, alarm
+<br />
+history,
+<br />
+logged
+<br />
+data, and
+<br />
+backup
+<br />
+data</td>
+									<td class="left middle">Parameter
+<br />
+data, alarm
+<br />
+history,
+<br />
+logged data,
+<br />
+backup
+<br />
+data, and
+<br />
+momentary
+<br />
+voltage sag
+<br />
+history</td>
+									<td class="left middle">Parameter
+<br />
+data, alarm
+<br />
+history,
+<br />
+logged
+<br />
+data, and
+<br />
+momentary
+<br />
+voltage sag
+<br />
+history</td>
+									<td class="left middle">Parameter
+<br />
+data,
+<br />
+alarm
+<br />
+history,
+<br />
+and logged
+<br />
+data</td>
+									<td class="left middle">Parameter
+<br />
+data, alarm
+<br />
+history, and
+<br />
+backup data</td>
+									<td class="left middle">Parameter
+<br />
+data and
+<br />
+alarm
+<br />
+history</td>
+								</tr>
+								<tr>
+									<th colspan="2" rowspan="1" class="heading left middle"><strong>Number of connect
+<br />
+connector insertions/
+<br />
+removals</strong></th>
+									<td colspan="6" rowspan="1" class="left middle">25 times</td>
+								</tr>
+							</table>
+						</div>
+					
+        </p>
+    </div>
+
+
+
+
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="component-blockA01">
+
+
+
+
+
+    <div class="text">
+        <p>
+            
+						<div style="text-align: left;">*1. Based on JISC1111, without special CT error, at ambient temperature of 23°C, rated input, and rated frequency.
+<br />
+       Applicable to 2nd, 3rd, 5th,　7th, 9th, 11th, and 13th harmonics.
+<br />
+*2. Power factor formula: Power factor = Active power/Apparent power
+<br />
+                                                                         Apparent power = √(Active power)<sup>2</sup> + (Reactive power)<sup>2</sup></div>
+					
+        </p>
+    </div>
+
+
+
+
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<h4 class="heading-A02">Protection</h4>
+
+
+
+
+
+
+
+
+
+
+<div class="component-blockA01">
+
+
+
+
+
+    <div class="text">
+        <p>
+            
+						<div class="table-blockA01">
+							<table border="0" cellspacing="0" class="tableA01">
+								<tr class="first-child">
+									<th colspan="2" rowspan="1" class="heading right middle"><strong>Model</strong></th>
+									<th class="heading center middle"><strong>KE1-
+<br />
+PGR1C-
+<br />
+FLK
+<br />
+(Power/
+<br />
+Earth
+<br />
+Leakage)</strong></th>
+									<th class="heading center middle"><strong>KE1-
+<br />
+PVS1C-
+<br />
+FLK
+<br />
+(Power/
+<br />
+Momentary
+<br />
+Voltage Sag)</strong></th>
+									<th class="heading center middle"><strong>KE1-
+<br />
+VSU1B-
+<br />
+FLK
+<br />
+(Momentary
+<br />
+Voltage
+<br />
+Sag)</strong></th>
+									<th class="heading center middle"><strong>KE1-
+<br />
+VAU1B-
+<br />
+FLK
+<br />
+(Voltage/
+<br />
+Current)</strong></th>
+									<th class="heading center middle"><strong>KE1-
+<br />
+CTD8E
+<br />
+(CT
+<br />
+Expansion)</strong></th>
+									<th class="heading center middle"><strong>KE1-
+<br />
+ZCT8E
+<br />
+(ZCT
+<br />
+Expansion)</strong></th>
+								</tr>
+								<tr>
+									<th colspan="1" rowspan="7" class="heading left middle"><strong>Voltage
+<br />
+monitor-
+<br />
+ing</strong></th>
+									<th class="heading left middle"><strong>Alarm threshold
+<br />
+(overvoltage/
+<br />
+undervoltage)</strong></th>
+									<td colspan="4" rowspan="1" class="left middle">0.0 to 12,100.0 V</td>
+									<td colspan="2" rowspan="1" class="center middle">---</td>
+								</tr>
+								<tr>
+									<th class="heading left middle"><strong>Operation
+<br />
+characteristic</strong></th>
+									<td colspan="4" rowspan="1" class="left middle">±1.0% FS ±1 digit
+<br />
+The accuracy of the voltage across the Vtr is ±2.0%
+<br />
+FS ±1 digit under the same conditions.</td>
+									<td colspan="2" rowspan="1" class="center middle">---</td>
+								</tr>
+								<tr>
+									<th class="heading left middle"><strong>Alarm ON delay
+<br />
+(overvoltage/
+<br />
+undervoltage)</strong></th>
+									<td colspan="4" rowspan="1" class="left middle">0.1 to 10.0 s</td>
+									<td colspan="2" rowspan="1" class="center middle">---</td>
+								</tr>
+								<tr>
+									<th class="heading left middle"><strong>Operating time
+<br />
+characteristic</strong></th>
+									<td colspan="4" rowspan="1" class="left middle">±0.2 s</td>
+									<td colspan="2" rowspan="1" class="center middle">---</td>
+								</tr>
+								<tr>
+									<th class="heading left middle"><strong>Alarm hysteresis
+<br />
+(overvoltage/
+<br />
+undervoltage)</strong></th>
+									<td colspan="4" rowspan="1" class="left middle">0.0 to 2,200.0 V</td>
+									<td colspan="2" rowspan="1" class="center middle">---</td>
+								</tr>
+								<tr>
+									<th class="heading left middle"><strong>Resetting time</strong></th>
+									<td colspan="4" rowspan="1" class="left middle">0.5 s (Cannot be changed.)</td>
+									<td colspan="2" rowspan="1" class="center middle">---</td>
+								</tr>
+								<tr>
+									<th class="heading left middle"><strong>Resetting time
+<br />
+characteristic</strong></th>
+									<td colspan="4" rowspan="1" class="left middle">±0.2 s</td>
+									<td colspan="2" rowspan="1" class="center middle">---</td>
+								</tr>
+								<tr>
+									<th colspan="1" rowspan="7" class="heading left middle"><strong>Current
+<br />
+monitor-
+<br />
+ing</strong></th>
+									<th class="heading left middle"><strong>Alarm threshold
+<br />
+(overcurrent/
+<br />
+undercurrent)</strong></th>
+									<td colspan="2" rowspan="1" class="left middle">0.0 to 6,000.0 A</td>
+									<td class="center middle">---</td>
+									<td colspan="2" rowspan="1" class="left middle">0.0 to 6,000.0 A</td>
+									<td class="center middle">---</td>
+								</tr>
+								<tr>
+									<th class="heading left middle"><strong>Operation
+<br />
+characteristic</strong></th>
+									<td colspan="2" rowspan="1" class="left middle">±1.0% FS ±1 digit
+<br />
+However, the accuracy is
+<br />
+±2.0% FS ±1 digit for the
+<br />
+phase-S current for a
+<br />
+three-phase, three-wire
+<br />
+circuit and the phase-N
+<br />
+current for a single-
+<br />
+phase, three-wire circuit
+<br />
+under the same
+<br />
+conditions.</td>
+									<td class="center middle">---</td>
+									<td colspan="2" rowspan="1" class="left middle">±1.0% FS ±1 digit
+<br />
+However, the accuracy
+<br />
+is ±2.0% FS ±1 digit for
+<br />
+the phase-S current for
+<br />
+a three-phase, three-
+<br />
+wire circuit and the
+<br />
+phase-N current for a
+<br />
+single-phase, three-
+<br />
+wire circuit under the
+<br />
+same conditions.</td>
+									<td class="center middle">---</td>
+								</tr>
+								<tr>
+									<th class="heading left middle"><strong>Alarm ON delay
+<br />
+(overcurrent/
+<br />
+undercurrent)</strong></th>
+									<td colspan="2" rowspan="1" class="left middle">0.1 to 10.0 s</td>
+									<td class="center middle">---</td>
+									<td colspan="2" rowspan="1" class="left middle">0.1 to 10.0 s</td>
+									<td class="center middle">---</td>
+								</tr>
+								<tr>
+									<th class="heading left middle"><strong>Operation
+<br />
+characteristic</strong></th>
+									<td colspan="2" rowspan="1" class="left middle">±0.2 s</td>
+									<td class="center middle">---</td>
+									<td colspan="2" rowspan="1" class="left middle">±0.2 s</td>
+									<td class="center middle">---</td>
+								</tr>
+								<tr>
+									<th class="heading left middle"><strong>Alarm hysteresis
+<br />
+(overcurrent/
+<br />
+undercurrent)</strong></th>
+									<td colspan="2" rowspan="1" class="left middle">0.0 to 1,000.0 A</td>
+									<td class="center middle">---</td>
+									<td colspan="2" rowspan="1" class="left middle">0.0 to 1,000.0 A</td>
+									<td class="center middle">---</td>
+								</tr>
+								<tr>
+									<th class="heading left middle"><strong>Resetting time</strong></th>
+									<td colspan="2" rowspan="1" class="left middle">0.5 s (Cannot be changed.)</td>
+									<td class="center middle">---</td>
+									<td colspan="2" rowspan="1" class="left middle">0.5 s (Cannot be
+<br />
+changed.)</td>
+									<td class="center middle">---</td>
+								</tr>
+								<tr>
+									<th class="heading left middle"><strong>Resetting time
+<br />
+characteristic</strong></th>
+									<td colspan="2" rowspan="1" class="left middle">±0.2 s</td>
+									<td class="center middle">---</td>
+									<td colspan="2" rowspan="1" class="left middle">±0.2 s</td>
+									<td class="center middle">---</td>
+								</tr>
+								<tr>
+									<th colspan="1" rowspan="7" class="heading left middle"><strong>Active
+<br />
+power
+<br />
+monitor-
+<br />
+ing</strong></th>
+									<th class="heading left middle"><strong>Alarm thresholds
+<br />
+(upper limit/lower
+<br />
+limit)</strong></th>
+									<td colspan="2" rowspan="1" class="left middle">-120,000,000 to
+<br />
+120,000,000 W</td>
+									<td colspan="2" rowspan="1" class="center middle">---</td>
+									<td class="left middle">-120,000,000
+<br />
+to
+<br />
+120,000,000
+<br />
+W</td>
+									<td class="center middle">---</td>
+								</tr>
+								<tr>
+									<th class="heading left middle"><strong>Operation
+<br />
+characteristic</strong></th>
+									<td colspan="2" rowspan="1" class="left middle">±2.0% FS ±1 digit</td>
+									<td colspan="2" rowspan="1" class="center middle">---</td>
+									<td class="left middle">±2.0% FS
+<br />
+±1 digit</td>
+									<td class="center middle">---</td>
+								</tr>
+								<tr>
+									<th class="heading left middle"><strong>Alarm ON delay
+<br />
+(upper limit/lower
+<br />
+limit)</strong></th>
+									<td colspan="2" rowspan="1" class="left middle">0.5 to 10.0 s</td>
+									<td colspan="2" rowspan="1" class="center middle">---</td>
+									<td class="left middle">0.5 to 10.0 s</td>
+									<td class="center middle">---</td>
+								</tr>
+								<tr>
+									<th class="heading left middle"><strong>Operation
+<br />
+characteristic</strong></th>
+									<td colspan="2" rowspan="1" class="left middle">±0.2 s</td>
+									<td colspan="2" rowspan="1" class="center middle">---</td>
+									<td class="left middle">±0.2 s</td>
+									<td class="center middle">---</td>
+								</tr>
+								<tr>
+									<th class="heading left middle"><strong>Alarm hysteresis
+<br />
+(upper limit/lower
+<br />
+limit)</strong></th>
+									<td colspan="2" rowspan="1" class="left middle">0 to 24,000,000 W</td>
+									<td colspan="2" rowspan="1" class="center middle">---</td>
+									<td class="left middle">0 to
+<br />
+24,000,000 W</td>
+									<td class="center middle">---</td>
+								</tr>
+								<tr>
+									<th class="heading left middle"><strong>Resetting time</strong></th>
+									<td colspan="2" rowspan="1" class="left middle">0.5 s (Cannot be changed.)</td>
+									<td colspan="2" rowspan="1" class="center middle">---</td>
+									<td class="left middle">0.5 s (Cannot
+<br />
+be changed.)</td>
+									<td class="center middle">---</td>
+								</tr>
+								<tr>
+									<th class="heading left middle"><strong>Resetting time
+<br />
+characteristic</strong></th>
+									<td colspan="2" rowspan="1" class="left middle">±0.2 s</td>
+									<td colspan="2" rowspan="1" class="center middle">---</td>
+									<td class="left middle">±0.2 s</td>
+									<td class="center middle">---</td>
+								</tr>
+								<tr>
+									<th colspan="1" rowspan="7" class="heading left middle"><strong>Reactive
+<br />
+power
+<br />
+monitor-
+<br />
+ing</strong></th>
+									<th class="heading left middle"><strong>Alarm thresholds
+<br />
+(upper limit/lower
+<br />
+limit)</strong></th>
+									<td colspan="2" rowspan="1" class="left middle">-120,000,000 to
+<br />
+120,000,000 W</td>
+									<td colspan="2" rowspan="1" class="center middle">---</td>
+									<td class="left middle">-120,000,000
+<br />
+to
+<br />
+120,000,000
+<br />
+W</td>
+									<td class="center middle">---</td>
+								</tr>
+								<tr>
+									<th class="heading left middle"><strong>Operation
+<br />
+characteristic</strong></th>
+									<td colspan="2" rowspan="1" class="left middle">±2.0% FS ±1 digit</td>
+									<td colspan="2" rowspan="1" class="center middle">---</td>
+									<td class="left middle">±2.0% FS
+<br />
+±1 digit</td>
+									<td class="center middle">---</td>
+								</tr>
+								<tr>
+									<th class="heading left middle"><strong>Alarm ON delay
+<br />
+(upper limit/lower
+<br />
+limit)</strong></th>
+									<td colspan="2" rowspan="1" class="left middle">0.5 to 10.0 s</td>
+									<td colspan="2" rowspan="1" class="center middle">---</td>
+									<td class="left middle">0.5 to 10.0 s</td>
+									<td class="center middle">---</td>
+								</tr>
+								<tr>
+									<th class="heading left middle"><strong>Operation
+<br />
+characteristic</strong></th>
+									<td colspan="2" rowspan="1" class="left middle">±0.2 s</td>
+									<td colspan="2" rowspan="1" class="center middle">---</td>
+									<td class="left middle">±0.2 s</td>
+									<td class="center middle">---</td>
+								</tr>
+								<tr>
+									<th class="heading left middle"><strong>Alarm hysteresis
+<br />
+(upper limit/lower
+<br />
+limit)</strong></th>
+									<td colspan="2" rowspan="1" class="left middle">0 to 24,000,000 W</td>
+									<td colspan="2" rowspan="1" class="center middle">---</td>
+									<td class="left middle">0 to
+<br />
+24,000,000 W</td>
+									<td class="center middle">---</td>
+								</tr>
+								<tr>
+									<th class="heading left middle"><strong>Resetting time</strong></th>
+									<td colspan="2" rowspan="1" class="left middle">0.5 s (Cannot be changed.)</td>
+									<td colspan="2" rowspan="1" class="center middle">---</td>
+									<td class="left middle">0.5 s (Cannot
+<br />
+be changed.)</td>
+									<td class="center middle">---</td>
+								</tr>
+								<tr>
+									<th class="heading left middle"><strong>Resetting time
+<br />
+characteristic</strong></th>
+									<td colspan="2" rowspan="1" class="left middle">±0.2 s</td>
+									<td colspan="2" rowspan="1" class="center middle">---</td>
+									<td class="left middle">±0.2 s</td>
+									<td class="center middle">---</td>
+								</tr>
+								<tr>
+									<th colspan="1" rowspan="5" class="heading left middle"><strong>Power
+<br />
+factor
+<br />
+monitor-
+<br />
+ing</strong></th>
+									<th class="heading left middle"><strong>Alarm threshold</strong></th>
+									<td colspan="2" rowspan="1" class="left middle">-1.00 to 1.00</td>
+									<td colspan="2" rowspan="1" class="center middle">---</td>
+									<td class="left middle">-1.00 to 1.00</td>
+									<td class="center middle">---</td>
+								</tr>
+								<tr>
+									<th class="heading left middle"><strong>Operation
+<br />
+characteristic</strong></th>
+									<td colspan="2" rowspan="1" class="left middle">±5.0% FS (Power factor =
+<br />
+0.5 to 1 to 0.5)</td>
+									<td colspan="2" rowspan="1" class="center middle">---</td>
+									<td class="left middle">±5.0% FS
+<br />
+(Power factor
+<br />
+= 0.5 to 1 to
+<br />
+0.5)</td>
+									<td class="center middle">---</td>
+								</tr>
+								<tr>
+									<th class="heading left middle"><strong>Alarm ON delay</strong></th>
+									<td colspan="2" rowspan="1" class="left middle">0.5 to 10.0 s</td>
+									<td colspan="2" rowspan="1" class="center middle">---</td>
+									<td class="left middle">0.5 to 10.0 s</td>
+									<td class="center middle">---</td>
+								</tr>
+								<tr>
+									<th class="heading left middle"><strong>Operation
+<br />
+characteristic</strong></th>
+									<td colspan="2" rowspan="1" class="left middle">±0.2 s</td>
+									<td colspan="2" rowspan="1" class="center middle">---</td>
+									<td class="left middle">±0.2 s</td>
+									<td class="center middle">---</td>
+								</tr>
+								<tr>
+									<th class="heading left middle"><strong>Alarm hysteresis</strong></th>
+									<td colspan="2" rowspan="1" class="left middle">0.00 to 1.00</td>
+									<td colspan="2" rowspan="1" class="center middle">---</td>
+									<td class="left middle">0.00 to 1.00</td>
+									<td class="center middle">---</td>
+								</tr>
+								<tr>
+									<th colspan="1" rowspan="6" class="heading left middle"><strong>Earth
+<br />
+leakage
+<br />
+monitor-
+<br />
+ing</strong></th>
+									<th class="heading left middle"><strong>Earth leakage
+<br />
+comparison value</strong></th>
+									<td class="left middle">30 to
+<br />
+1,000 mA</td>
+									<td colspan="3" rowspan="1" class="center middle">---</td>
+									<td colspan="2" rowspan="1" class="left middle">30 to 1,000 mA</td>
+								</tr>
+								<tr>
+									<th class="heading left middle"><strong>Operation
+<br />
+characteristic</strong></th>
+									<td class="left middle">±5% rdg
+<br />
+±1 digit for
+<br />
+30 to 200
+<br />
+mA, ±1%
+<br />
+FS ±1 digit
+<br />
+for 200 to
+<br />
+1,000 mA</td>
+									<td colspan="3" rowspan="1" class="center middle">---</td>
+									<td colspan="2" rowspan="1" class="left middle">±5% rdg ±1 digit for 30 to
+<br />
+200 mA, ±1% FS ±1 digit
+<br />
+for 200 to 1,000 mA</td>
+								</tr>
+								<tr>
+									<th class="heading left middle"><strong>Earth leakage
+<br />
+operating time</strong></th>
+									<td class="left middle">0.1 to
+<br />
+20.0 s</td>
+									<td colspan="3" rowspan="1" class="center middle">---</td>
+									<td colspan="2" rowspan="1" class="left middle">0.1 to 20.0 s</td>
+								</tr>
+								<tr>
+									<th class="heading left middle"><strong>Operation
+<br />
+characteristic</strong></th>
+									<td class="left middle">±0.2 s</td>
+									<td colspan="3" rowspan="1" class="center middle">---</td>
+									<td colspan="2" rowspan="1" class="left middle">±0.2 s</td>
+								</tr>
+								<tr>
+									<th class="heading left middle"><strong>Resetting
+<br />
+condition</strong></th>
+									<td class="left middle">95% of
+<br />
+operating
+<br />
+value</td>
+									<td colspan="3" rowspan="1" class="center middle">---</td>
+									<td colspan="2" rowspan="1" class="left middle">95% of operating value</td>
+								</tr>
+								<tr>
+									<th class="heading left middle"><strong>Resetting time</strong></th>
+									<td class="left middle">0.5 s
+<br />
+(Cannot be
+<br />
+changed.)</td>
+									<td colspan="3" rowspan="1" class="center middle">---</td>
+									<td colspan="2" rowspan="1" class="left middle">0.5 s (Cannot be changed.)</td>
+								</tr>
+								<tr>
+									<th colspan="1" rowspan="5" class="heading left middle"><strong>Momen-
+<br />
+tary volt-
+<br />
+age sag
+<br />
+monitor-
+<br />
+ing</strong></th>
+									<th class="heading left middle"><strong>Momentary voltage
+<br />
+sag detection
+<br />
+voltage</strong></th>
+									<td class="center middle">---</td>
+									<td colspan="2" rowspan="1" class="left middle">0 to 480.0 V</td>
+									<td colspan="3" rowspan="1" class="center middle">---</td>
+								</tr>
+								<tr>
+									<th class="heading left middle"><strong>Allowable error in
+<br />
+detection voltage</strong></th>
+									<td class="center middle">---</td>
+									<td colspan="2" rowspan="1" class="left middle">±2.5% FS ±1 digit</td>
+									<td colspan="3" rowspan="1" class="center middle">---</td>
+								</tr>
+								<tr>
+									<th colspan="1" rowspan="2" class="heading left middle"><strong>Continuation time
+<br />
+for momentary
+<br />
+voltage sag</strong></th>
+									<td colspan="1" rowspan="2" class="center middle">---</td>
+									<td colspan="2" rowspan="1" class="left middle">Without backup: 0.02 to
+<br />
+0.2 s</td>
+									<td colspan="3" rowspan="2" class="center middle">---</td>
+								</tr>
+								<tr>
+									<td colspan="2" rowspan="1" class="left middle">With backup: 0.02 to 1.00 s</td>
+								</tr>
+								<tr>
+									<th class="heading left middle"><strong>Relay output
+<br />
+operating time
+<br />
+accuracy</strong></th>
+									<td class="center middle">---</td>
+									<td colspan="2" rowspan="1" class="left middle">±5 ms</td>
+									<td colspan="3" rowspan="1" class="center middle">---</td>
+								</tr>
+								<tr>
+									<th colspan="1" rowspan="7" class="heading left middle"><strong>Open
+<br />
+phase
+<br />
+monitor-
+<br />
+ing</strong></th>
+									<th class="heading left middle"><strong>Open phase
+<br />
+detection
+<br />
+condition</strong></th>
+									<td colspan="4" rowspan="1" class="left middle">(Largest error between any phase voltage and
+<br />
+average voltage) ÷ Average voltage × 100 . 85%</td>
+									<td colspan="2" rowspan="1" class="center middle">---</td>
+								</tr>
+								<tr>
+									<th class="heading left middle"><strong>Operation
+<br />
+characteristic</strong></th>
+									<td colspan="4" rowspan="1" class="left middle">±1.0% FS ±1 digit
+<br />
+The accuracy of the voltage across the Vtr is ±2.0%
+<br />
+FS ±1 digit under the same conditions.</td>
+									<td colspan="2" rowspan="1" class="center middle">---</td>
+								</tr>
+								<tr>
+									<th class="heading left middle"><strong>Operating time</strong></th>
+									<td colspan="4" rowspan="1" class="left middle">0.1 s</td>
+									<td colspan="2" rowspan="1" class="center middle">---</td>
+								</tr>
+								<tr>
+									<th class="heading left middle"><strong>Operation
+<br />
+characteristic</strong></th>
+									<td colspan="4" rowspan="1" class="left middle">±0.2 s</td>
+									<td colspan="2" rowspan="1" class="center middle">---</td>
+								</tr>
+								<tr>
+									<th class="heading left middle"><strong>Resetting
+<br />
+condition</strong></th>
+									<td colspan="4" rowspan="1" class="left middle">Non-balance ratio: Less than 13%</td>
+									<td colspan="2" rowspan="1" class="center middle">---</td>
+								</tr>
+								<tr>
+									<th class="heading left middle"><strong>Resetting time</strong></th>
+									<td colspan="4" rowspan="1" class="left middle">0.5 s (Cannot be changed.)</td>
+									<td colspan="2" rowspan="1" class="center middle">---</td>
+								</tr>
+								<tr>
+									<th class="heading left middle"><strong>Resetting time
+<br />
+characteristic</strong></th>
+									<td colspan="4" rowspan="1" class="left middle">±0.2 s</td>
+									<td colspan="2" rowspan="1" class="center middle">---</td>
+								</tr>
+								<tr>
+									<th colspan="1" rowspan="6" class="heading left middle"><strong>Re-
+<br />
+versed
+<br />
+phase
+<br />
+monitor-
+<br />
+ing</strong></th>
+									<th class="heading left middle"><strong>Reversed phase
+<br />
+detection
+<br />
+condition</strong></th>
+									<td colspan="4" rowspan="1" class="left middle">Change in voltage phase sequence lasts for 0.1
+<br />
+second or longer.</td>
+									<td colspan="2" rowspan="1" class="center middle">---</td>
+								</tr>
+								<tr>
+									<th class="heading left middle"><strong>Operating time</strong></th>
+									<td colspan="4" rowspan="1" class="left middle">0.1 s</td>
+									<td colspan="2" rowspan="1" class="center middle">---</td>
+								</tr>
+								<tr>
+									<th class="heading left middle"><strong>Operation
+<br />
+characteristic</strong></th>
+									<td colspan="4" rowspan="1" class="left middle">±0.2 s</td>
+									<td colspan="2" rowspan="1" class="center middle">---</td>
+								</tr>
+								<tr>
+									<th class="heading left middle"><strong>Resetting
+<br />
+condition</strong></th>
+									<td colspan="4" rowspan="1" class="left middle">Phase offset within ±45°</td>
+									<td colspan="2" rowspan="1" class="center middle">---</td>
+								</tr>
+								<tr>
+									<th class="heading left middle"><strong>Resetting time</strong></th>
+									<td colspan="4" rowspan="1" class="left middle">0.5 s (Cannot be changed.)</td>
+									<td colspan="2" rowspan="1" class="center middle">---</td>
+								</tr>
+								<tr>
+									<th class="heading left middle"><strong>Resetting time
+<br />
+characteristic</strong></th>
+									<td colspan="4" rowspan="1" class="left middle">±0.2 s</td>
+									<td colspan="2" rowspan="1" class="center middle">---</td>
+								</tr>
+							</table>
+						</div>
+					
+        </p>
+    </div>
+
+
+
+
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<h4 class="heading-A02">Special CTs</h4>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<h4 class="heading-A03">Current Transformers (CTs)</h4>
+
+
+
+
+
+
+
+
+
+<div class="component-blockA01">
+
+
+
+
+
+    <div class="text">
+        <p>
+            
+						<div class="table-blockA01">
+							<table border="0" cellspacing="0" class="tableA01">
+								<tr class="first-child">
+									<th class="heading right top"><strong>Structure</strong></th>
+									<th colspan="6" rowspan="1" class="heading center middle"><strong>Split-type</strong></th>
+									<th class="heading center middle"><strong>Through-
+<br />
+hole</strong></th>
+								</tr>
+								<tr>
+									<th class="heading right top"><strong>Model</strong></th>
+									<th class="heading center middle"><strong>KM20-
+<br />
+CTF-5A</strong></th>
+									<th class="heading center middle"><strong>KM20-
+<br />
+CTF-50A</strong></th>
+									<th class="heading center middle"><strong>KM20-
+<br />
+CTF-100A</strong></th>
+									<th class="heading center middle"><strong>KM20-
+<br />
+CTF-200A</strong></th>
+									<th class="heading center middle"><strong>KM20-
+<br />
+CTF-400A</strong></th>
+									<th class="heading center middle"><strong>KM20-
+<br />
+CTF-600A</strong></th>
+									<th colspan="1" rowspan="2" class="heading center middle"><strong>KM20-
+<br />
+CTB-
+<br />
+5A/50A</strong></th>
+								</tr>
+								<tr>
+									<th class="heading left bottom"><strong>Item</strong></th>
+									<th class="heading center middle"><strong>KM20-
+<br />
+CTF-5AU</strong></th>
+									<th class="heading center middle"><strong>KM20-
+<br />
+CTF-50AU</strong></th>
+									<th class="heading center middle"><strong>KM20-
+<br />
+CTF-
+<br />
+100AU</strong></th>
+									<th class="heading center middle"><strong>KM20-
+<br />
+CTF-
+<br />
+200AU</strong></th>
+									<th class="heading center middle"><strong>KM20-
+<br />
+CTF-
+<br />
+400AU</strong></th>
+									<th class="heading center middle"><strong>KM20-
+<br />
+CTF-
+<br />
+600AU</strong></th>
+								</tr>
+								<tr>
+									<th class="heading left middle"><strong>Rated primary current</strong></th>
+									<td class="left middle">5 A</td>
+									<td class="left middle">50 A</td>
+									<td class="left middle">100 A</td>
+									<td class="left middle">200 A</td>
+									<td class="left middle">400 A</td>
+									<td class="left middle">600 A</td>
+									<td class="left middle">5A/50 A</td>
+								</tr>
+								<tr>
+									<th class="heading left middle"><strong>Secondary winding</strong></th>
+									<td colspan="4" rowspan="1" class="left middle">3,000 turns</td>
+									<td class="left middle">6,000 turns</td>
+									<td class="left middle">9,000 turns</td>
+									<td class="left middle">3,000 turns</td>
+								</tr>
+								<tr>
+									<th class="heading left middle"><strong>Applicable frequency</strong></th>
+									<td colspan="7" rowspan="1" class="left middle">10 Hz to 5 kHz</td>
+								</tr>
+								<tr>
+									<th class="heading left middle"><strong>Insulation resistance</strong></th>
+									<td colspan="7" rowspan="1" class="left middle">Between output terminals and case: 50 MΩ min. (at 500 VDC)</td>
+								</tr>
+								<tr>
+									<th class="heading left middle"><strong>Dielectric strength</strong></th>
+									<td colspan="7" rowspan="1" class="left middle">Between output terminals and case: 2,000 VAC for 1 minute</td>
+								</tr>
+								<tr>
+									<th class="heading left middle"><strong>Protective element</strong></th>
+									<td colspan="7" rowspan="1" class="left middle">7.5-V clamp element</td>
+								</tr>
+								<tr>
+									<th class="heading left middle"><strong>Allowable number of
+<br />
+connections/
+<br />
+disconnections</strong></th>
+									<td colspan="7" rowspan="1" class="left middle">100 times</td>
+								</tr>
+								<tr>
+									<th class="heading left middle"><strong>Mountable wire
+<br />
+diameter</strong></th>
+									<td class="left middle">7.4 mm
+<br />
+max.</td>
+									<td class="left middle">8.5 mm
+<br />
+max.</td>
+									<td class="left middle">11 mm max.</td>
+									<td class="left middle">24 mm max.</td>
+									<td colspan="2" rowspan="1" class="left middle">35.5 mm max.</td>
+									<td class="left middle">8.4 mm
+<br />
+max.</td>
+								</tr>
+								<tr>
+									<th class="heading left middle"><strong>Operating
+<br />
+temperature and
+<br />
+humidity ranges</strong></th>
+									<td colspan="7" rowspan="1" class="left middle">-20 to 60°C, 85% max. (with no condensation)</td>
+								</tr>
+								<tr>
+									<th class="heading left middle"><strong>Storage temperature
+<br />
+and humidity ranges</strong></th>
+									<td colspan="7" rowspan="1" class="left middle">-30 to 65°C, 85% max. (with no condensation)</td>
+								</tr>
+							</table>
+						</div>
+					
+        </p>
+    </div>
+
+
+
+
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="component-blockA01">
+
+
+
+
+
+    <div class="text">
+        <p>
+            Note: Operate the Special CTs at a low voltage of 600 V or less.
+        </p>
+    </div>
+
+
+
+
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<h4 class="heading-A03">General Specifications</h4>
+
+
+
+
+
+
+
+
+
+<div class="component-blockA01">
+
+
+
+
+
+    <div class="text">
+        <p>
+            
+						<div class="table-blockA01">
+							<table border="0" cellspacing="0" class="tableA01">
+								<tr class="first-child">
+									<th class="heading left middle"><strong>Item</strong></th>
+									<th class="heading center middle"><strong>Specification</strong></th>
+								</tr>
+								<tr>
+									<th class="heading left middle"><strong>Rated power supply voltage</strong></th>
+									<td class="left middle">100 to 240 VAC, 50/60 Hz</td>
+								</tr>
+								<tr>
+									<th class="heading left middle"><strong>Allowable voltage range</strong></th>
+									<td class="left middle">85% to 110% of rated power supply voltage</td>
+								</tr>
+								<tr>
+									<th class="heading left middle"><strong>Power consumption (at maximum load)</strong></th>
+									<td class="left middle">6 VA max.</td>
+								</tr>
+								<tr>
+									<th class="heading left middle"><strong>Current consumption (DeviceNet
+<br />
+power supply)</strong></th>
+									<td class="left middle">45 mA max. (24 VDC)</td>
+								</tr>
+								<tr>
+									<th class="heading left middle"><strong>Vibration resistance</strong></th>
+									<td class="left middle">10 to 55 Hz, 10 m/s<sup>2</sup> for 2 hours along 3 axes</td>
+								</tr>
+								<tr>
+									<th class="heading left middle"><strong>Shock resistance</strong></th>
+									<td class="left middle">Single-amplitude: 0.35 mm, Acceleration: 50 m/s<sup>2</sup> Vibration: 10 to 55 Hz,
+<br />
+10 sweeps of 5 minutes each along 3 axes</td>
+								</tr>
+								<tr>
+									<th class="heading left middle"><strong>Dielectric strength</strong></th>
+									<td class="left middle">2,000 V for 1 min between all terminals and case, and between power
+<br />
+supply terminals and temperature input/RS-485 output/USB output/
+<br />
+DeviceNet output/transistor output</td>
+								</tr>
+								<tr>
+									<th class="heading left middle"><strong>Insulation resistance</strong></th>
+									<td class="left middle">20 MΩ min. (at 500 VDC)</td>
+								</tr>
+								<tr>
+									<th class="heading left middle"><strong>Ambient operating temperature</strong></th>
+									<td class="left middle">-10 to 55°C (with no condensation or icing)</td>
+								</tr>
+								<tr>
+									<th class="heading left middle"><strong>Ambient operating humidity</strong></th>
+									<td class="left middle">25% to 85%</td>
+								</tr>
+								<tr>
+									<th class="heading left middle"><strong>Ambient storage temperature</strong></th>
+									<td class="left middle">-25 to 65°C (with no condensation or icing)</td>
+								</tr>
+								<tr>
+									<th class="heading left middle"><strong>Dimensions</strong></th>
+									<td class="left middle">45 × 90 × 110 mm (W×H×D) (excluding protrusions)</td>
+								</tr>
+								<tr>
+									<th class="heading left middle"><strong>Memory backup</strong></th>
+									<td class="left middle">EEPROM (non-volatile memory), No. of writes: 1,000,000</td>
+								</tr>
+								<tr>
+									<th class="heading left middle"><strong>Weight</strong></th>
+									<td class="left middle">Approx. 170 g</td>
+								</tr>
+							</table>
+						</div>
+					
+        </p>
+    </div>
+
+
+
+
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<h4 class="heading-A03">Current Transformer (CT) Cable</h4>
+
+
+
+
+
+
+
+
+
+
+<div class="component-blockA01 set-width" style="width:350px;">
+
+
+
+
+    <div class="text">
+        <p>
+            
+						<div class="table-blockA01">
+							<table border="0" cellspacing="0" class="tableA01">
+								<tr class="first-child">
+									<th class="heading right middle"><strong>Model</strong></th>
+									<th class="heading center middle"><strong>KM20-CTF-CB3</strong></th>
+								</tr>
+								<tr>
+									<th class="heading left middle"><strong>Cable length</strong></th>
+									<td class="center middle">3 m</td>
+								</tr>
+							</table>
+						</div>
+					
+        </p>
+    </div>
+
+
+
+
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="component-blockA01">
+
+
+
+
+
+    <div class="text">
+        <p>
+            Note: Use only the CT Cable specified by OMRON.
+        </p>
+    </div>
+
+
+
+
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<h4 class="heading-A02">Special ZCTs</h4>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<h4 class="heading-A03">Zero-phase Current Transformers (Compatible ZCTs)</h4>
+
+
+
+
+
+
+
+
+
+<div class="component-blockA01">
+
+
+
+
+
+    <div class="text">
+        <p>
+            
+						<div class="table-blockA01">
+							<table border="0" cellspacing="0" class="tableA01">
+								<tr class="first-child">
+									<th class="heading right middle"><strong>Structure</strong></th>
+									<th colspan="6" rowspan="1" class="heading center middle"><strong>Indoor, through-hole</strong></th>
+								</tr>
+								<tr>
+									<th class="heading right middle"><strong>Model</strong></th>
+									<th class="heading center middle"><strong>OTG-L21</strong></th>
+									<th class="heading center middle"><strong>OTG-L30</strong></th>
+									<th class="heading center middle"><strong>OTG-L42</strong></th>
+									<th class="heading center middle"><strong>OTG-L68</strong></th>
+									<th class="heading center middle"><strong>OTG-L82</strong></th>
+									<th class="heading center middle"><strong>OTG-L156</strong></th>
+								</tr>
+								<tr>
+									<th class="heading left middle"><strong>Rated current</strong></th>
+									<td class="left middle">50 A</td>
+									<td class="left middle">100 A</td>
+									<td class="left middle">200 A</td>
+									<td class="left middle">400 A</td>
+									<td class="left middle">600 A</td>
+									<td class="left middle">1,000 A</td>
+								</tr>
+								<tr>
+									<th class="heading left middle"><strong>Through-hole diameter</strong></th>
+									<td class="left middle">21</td>
+									<td class="left middle">30</td>
+									<td class="left middle">42</td>
+									<td class="left middle">68</td>
+									<td class="left middle">82</td>
+									<td class="left middle">156</td>
+								</tr>
+								<tr>
+									<th class="heading left middle"><strong>Rated load</strong></th>
+									<td colspan="6" rowspan="1" class="left middle">600 VAC max, 50/60 Hz, Single-phase/three-phase</td>
+								</tr>
+								<tr>
+									<th class="heading left middle"><strong>Output terminal
+<br />
+polarity</strong></th>
+									<td colspan="6" rowspan="1" class="left middle">Polarity (Connect CT output terminal k to terminal 5 or 7 and terminal I to terminal 6 or 8.)</td>
+								</tr>
+								<tr>
+									<th class="heading left middle"><strong>Secondary connection</strong></th>
+									<td colspan="6" rowspan="1" class="left middle">Terminals (with test terminals kt and lt)</td>
+								</tr>
+								<tr>
+									<th class="heading left middle"><strong>Insulation resistance</strong></th>
+									<td colspan="6" rowspan="1" class="left middle">100 MΩ min. (between charged metal parts and ground)</td>
+								</tr>
+								<tr>
+									<th class="heading left middle"><strong>Dielectric strength</strong></th>
+									<td colspan="6" rowspan="1" class="left middle">2,200 VAC at 50/60 Hz for 1min (between charged metal parts and ground)</td>
+								</tr>
+								<tr>
+									<th class="heading left middle"><strong>Ambient operating
+<br />
+temperature</strong></th>
+									<td colspan="6" rowspan="1" class="left middle">-10 to 60°C (with no icing)</td>
+								</tr>
+								<tr>
+									<th class="heading left middle"><strong>Ambient operating
+<br />
+humidity</strong></th>
+									<td colspan="6" rowspan="1" class="left middle">45% to 85%</td>
+								</tr>
+								<tr>
+									<th class="heading left middle"><strong>Weight</strong></th>
+									<td class="left middle">Approx. 90 g</td>
+									<td class="left middle">Approx. 130 g</td>
+									<td class="left middle">Approx. 230 g</td>
+									<td class="left middle">Approx. 480 g</td>
+									<td class="left middle">Approx. 700 g</td>
+									<td class="left middle">Approx. 6.6 kg</td>
+								</tr>
+							</table>
+						</div>
+					
+        </p>
+    </div>
+
+
+
+
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="component-blockA01">
+
+
+
+
+
+    <div class="text">
+        <p>
+            
+						<div class="table-blockA01">
+							<table border="0" cellspacing="0" class="tableA01">
+								<tr class="first-child">
+									<th class="heading right middle"><strong>Structure</strong></th>
+									<th colspan="3" rowspan="1" class="heading center middle"><strong>Indoor, split-type</strong></th>
+									<th class="heading center middle"><strong>Outdoor,
+<br />
+through-hole</strong></th>
+									<th class="heading center middle"><strong>Outdoor,
+<br />
+split-type</strong></th>
+								</tr>
+								<tr>
+									<th class="heading right middle"><strong>Model</strong></th>
+									<th class="heading center middle"><strong>OTG-CN52</strong></th>
+									<th class="heading center middle"><strong>OTG-CN77</strong></th>
+									<th class="heading center middle"><strong>OTGCN112</strong></th>
+									<th class="heading center middle"><strong>OTG-LA30W</strong></th>
+									<th class="heading center middle"><strong>OTG-CN36W</strong></th>
+								</tr>
+								<tr>
+									<th class="heading left middle"><strong>Rated current</strong></th>
+									<td class="left middle">200 A</td>
+									<td class="left middle">400 A</td>
+									<td class="left middle">600 A</td>
+									<td class="left middle">100 A</td>
+									<td class="left middle">150 A</td>
+								</tr>
+								<tr>
+									<th class="heading left middle"><strong>Through-hole diameter</strong></th>
+									<td class="left middle">52</td>
+									<td class="left middle">77</td>
+									<td class="left middle">112</td>
+									<td class="left middle">30</td>
+									<td class="left middle">36</td>
+								</tr>
+								<tr>
+									<th class="heading left middle"><strong>Rated load</strong></th>
+									<td colspan="5" rowspan="1" class="left middle">600 VAC max, 50/60 Hz, Single-phase/three-phase</td>
+								</tr>
+								<tr>
+									<th class="heading left middle"><strong>Output terminal polarity</strong></th>
+									<td colspan="5" rowspan="1" class="left middle">Polarity (Connect CT output terminal k to terminal 5 or 7 and terminal I to terminal 6 or 8.)</td>
+								</tr>
+								<tr>
+									<th class="heading left middle"><strong>Secondary connection</strong></th>
+									<td colspan="3" rowspan="1" class="left middle">Terminals (with test terminals kt and lt)</td>
+									<td class="left middle">Lead wire I = 500</td>
+									<td class="left middle">Lead wire I = 450</td>
+								</tr>
+								<tr>
+									<th class="heading left middle"><strong>Insulation resistance</strong></th>
+									<td colspan="5" rowspan="1" class="left middle">100 MΩ min. (between charged metal parts and ground)</td>
+								</tr>
+								<tr>
+									<th class="heading left middle"><strong>Dielectric strength</strong></th>
+									<td colspan="5" rowspan="1" class="left middle">2,200 VAC at 50/60 Hz for 1min (between charged metal parts and ground)</td>
+								</tr>
+								<tr>
+									<th class="heading left middle"><strong>Ambient operating temperature</strong></th>
+									<td colspan="5" rowspan="1" class="left middle">-10 to 60°C (with no icing)</td>
+								</tr>
+								<tr>
+									<th class="heading left middle"><strong>Ambient operating humidity</strong></th>
+									<td colspan="5" rowspan="1" class="left middle">45% to 85%</td>
+								</tr>
+								<tr>
+									<th class="heading left middle"><strong>Weight</strong></th>
+									<td class="left middle">Approx. 1.3 kg</td>
+									<td class="left middle">Approx. 2.5 kg</td>
+									<td class="left middle">Approx. 3.5 kg</td>
+									<td class="left middle">Approx. 140 g</td>
+									<td class="left middle">Approx. 650 g</td>
+								</tr>
+							</table>
+						</div>
+					
+        </p>
+    </div>
+
+
+
+
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="component-blockA01">
+
+
+
+
+
+    <div class="text">
+        <p>
+            Note: Operate the Special ZCTs at a low voltage of 600 V or less.
+        </p>
+    </div>
+
+
+
+
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<h4 class="heading-A02">Current Transformer for Ground Wires</h4>
+
+
+
+
+
+
+
+
+
+
+<div class="component-blockA01">
+
+
+
+
+
+    <div class="text">
+        <p>
+            
+						<div class="table-blockA01">
+							<table border="0" cellspacing="0" class="tableA01">
+								<tr class="first-child">
+									<th class="heading right middle"><strong>Structure</strong></th>
+									<th class="heading center middle"><strong>Indoor, split-type</strong></th>
+								</tr>
+								<tr>
+									<th class="heading right middle"><strong>Model</strong></th>
+									<th class="heading center middle"><strong>K6ER-CN22</strong></th>
+								</tr>
+								<tr>
+									<th class="heading left middle"><strong>Rated current</strong></th>
+									<td class="left middle">2 A</td>
+								</tr>
+								<tr>
+									<th class="heading left middle"><strong>Through-hole diameter</strong></th>
+									<td class="left middle">22</td>
+								</tr>
+								<tr>
+									<th class="heading left middle"><strong>Rated load</strong></th>
+									<td class="left middle">600 VAC max, 50/60 Hz, Single-phase/three-phase</td>
+								</tr>
+								<tr>
+									<th class="heading left middle"><strong>Output terminal polarity</strong></th>
+									<td class="left middle">Polarity (Connect CT output terminal k to terminal 5 or 7 and terminal I to terminal
+<br />
+6 or 8.)</td>
+								</tr>
+								<tr>
+									<th class="heading left middle"><strong>Secondary connection</strong></th>
+									<td class="left middle">Lead wire I: 150, Enclosed cable: 3,000 mm</td>
+								</tr>
+								<tr>
+									<th class="heading left middle"><strong>Insulation resistance</strong></th>
+									<td class="left middle">100 MΩ min. (between core and output lead wire)</td>
+								</tr>
+								<tr>
+									<th class="heading left middle"><strong>Dielectric strength</strong></th>
+									<td class="left middle">1,000 VAC at 50/60 Hz for 1 min (between core and output lead wire)</td>
+								</tr>
+								<tr>
+									<th class="heading left middle"><strong>Ambient operating temperature</strong></th>
+									<td class="left middle">-10 to 60°C (with no icing)</td>
+								</tr>
+								<tr>
+									<th class="heading left middle"><strong>Ambient operating humidity</strong></th>
+									<td class="left middle">80% max.</td>
+								</tr>
+								<tr>
+									<th class="heading left middle"><strong>Weight</strong></th>
+									<td class="left middle">Approx. 65 g</td>
+								</tr>
+							</table>
+						</div>
+					
+        </p>
+    </div>
+
+
+
+
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<p class="date-line">last update: September 09, 2015</p>
+
+</div>
+
+                        </div>
+                    </div>
+	            <!-- === /[primary-contents-area] === -->
+                </div>
+                <!-- === /[inner-contents-area] === -->
+
+
+                <!-- === [local-navi] === -->
+                <div class="local-navi-area">
+                    <div class="local-navi-area">
+
+
+
+<div class="local-naviA01">
+<h2 class="heading-link">
+<a href="../../category/index.html" ><img src="../../../resources/images/icon_right_b.gif" width="3" height="9" alt="" class="iconA01" />Product Category</a>
+</h2>
+<ul><li><a href="../../category/energy-conservation-support_environment-measure-equipment/index-2.html"><img src="../../../resources/images/icon_right_b.gif" width="3" height="9" alt="" class="iconA01" />Energy Conservation Support / Environment Measure Equipment</a><ul class="list-indent01"><li><a href="../../category/energy-conservation-support_environment-measure-equipment/electric-power-monitoring-equipment/index-2.html"><img src="../../../resources/images/icon_right_b.gif" width="3" height="9" alt="" class="iconA01" />Electric Power Monitoring Equipment</a><ul class="list-indent02"><li><a href="../../category/energy-conservation-support_environment-measure-equipment/electric-power-monitoring-equipment/multi-circuit-smart-power-monitor/index.html"><img src="../../../resources/images/icon_right_b.gif" width="3" height="9" alt="" class="iconA01" />Smart Measurement and Power Monitor</a><ul class="list-indent03"><li class="stay"><span>KE1</span></li></ul></li></ul></li></ul></li></ul>
+<!-- /local-naviA01 -->
+</div>
+
+
+
+<div class="local-naviB01">
+<ul class="heading-link">
+
+<li class="first-child">
+<a href="../../category/index.html"><img src="../../../resources/images/icon_right_b.gif" width="3" height="9" alt="" class="iconA01" />Product Category</a>
+</li>
+
+<li>
+<a href="../../../product/cautions/index-2.html"><img src="../../../resources/images/icon_right_b.gif" width="3" height="9" alt="" class="iconA01" />Cautions</a>
+</li>
+
+<li>
+<a href="../../index/index.html"><img src="../../../resources/images/icon_right_b.gif" width="3" height="9" alt="" class="iconA01" />Item A to Z Index</a>
+</li>
+
+<li>
+<a href="../../applications/index.html"><img src="../../../resources/images/icon_right_b.gif" width="3" height="9" alt="" class="iconA01" />Applications</a>
+</li>
+
+<li>
+<a href="../../correct/index.html"><img src="../../../resources/images/icon_right_b.gif" width="3" height="9" alt="" class="iconA01" />Correction Notice</a>
+</li>
+
+</ul>
+<!-- /local-naviB01 -->
+</div>
+                    </div>
+                </div>
+                <!-- === /[local-navi] === -->
+
+            </div>
+            <!-- === /[contents-area] === -->
+
+            <!-- === [top-page-link-area] === -->
+            <div class="top-page-link-area">
+                <ul class="top-page-link-list">
+                    <li>
+                        <a href="#page-top"><img src="../../../resources/images/icon_up_b.gif" width="5" height="8" alt="" class="iconB01" />Top of Page</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- === /[top-page-link-area] === -->
+
+            <!-- === [footer-area] === -->
+
+
+<!-- === [footer-area] === -->
+<div class="footer-area">
+    <p class="non-visual">
+        <a name="footer" id="footer">Site Information</a>
+    </p>
+    <div class="realizing">
+        <p><a href="../../../realizing/index.html"><img src="../../../Images/logo_0213-192.gif"  width="86" height="19" alt="" /></a></p>
+    <!-- /.realizing -->
+    </div>
+    <div class="footer-link">
+        <ul>
+            <li>
+                <a href="http://www.omron.com/"  target="_blank"><img src="../../../resources/images/icon_right_b.gif" width="3" height="9" alt="" class="iconA01" />OMRON Corporation<img src="../../../resources/images/icon_07.gif" width="14" height="11" class="external_win" alt=" " /></a>
+            </li>
+
+            <li>
+                <a href="../../../sitemap.html" ><img src="../../../resources/images/icon_right_b.gif" width="3" height="9" alt="" class="iconA01" />Sitemap</a>
+            </li>
+
+            <li>
+                <a href="../../../terms/index-2.html" ><img src="../../../resources/images/icon_right_b.gif" width="3" height="9" alt="" class="iconA01" />Terms of Use</a>
+            </li>
+
+            <li>
+                <a href="../../../privacy/index-2.html" ><img src="../../../resources/images/icon_right_b.gif" width="3" height="9" alt="" class="iconA01" />Privacy Policy</a>
+            </li>
+        </ul>
+
+        <p class="copyright">© Copyright OMRON Corporation 2007 - 2016. All Rights Reserved.</p>
+    <!-- /.footer-link -->
+    </div>
+<!-- /.footer-area -->
+</div>
+<!-- === /[footer-area] === -->
+            <!-- === /[footer-area] === -->
+        </div>
+        <!-- === /[omron-ia] === -->
+    </body>
+
+<!-- Mirrored from www.ia.omron.com/products/family/3122/specification.html by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 16 Dec 2016 09:55:12 GMT -->
+</html>

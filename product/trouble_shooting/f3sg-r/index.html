@@ -1,0 +1,211 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xml:lang="en" lang="en" xmlns="http://www.w3.org/1999/xhtml">
+
+<!-- Mirrored from www.ia.omron.com/product/trouble_shooting/f3sg-r/ by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 15 Dec 2016 14:40:02 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=utf-8" /><!-- /Added by HTTrack -->
+<head>
+<META http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta http-equiv="Content-Language" content="en">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta http-equiv="Content-Style-Type" content="text/css">
+<meta http-equiv="Content-Script-Type" content="text/javascript">
+<title xml:lang="en" lang="en">Safety Light Curtain F3SG-R Troubleshooting | OMRON Industrial Automation</title>
+<meta name="keywords" content="Safety Components, Safety Sensors, F3SG-R Series" />
+<meta name="description" content="Troubleshooting for Safety Light Curtain F3SG-R series. You can find the error causes and the measures from the indicators." />
+<meta name="viewport" content="width=device-width,minimum-scale=1.0,maximum-scale=1.0" />
+<link rel="stylesheet" type="text/css" media="all" href="../../../common/css/common.css">
+<link rel="stylesheet" type="text/css" media="print" href="../../../common/css/print.css">
+<script type="text/javascript" src="../../../common/js/common.js"></script>
+<script type="text/javascript" src="../../../common/js/rollover.js"></script>
+<script type="text/javascript" src="../../../common/js/cssSupport.js"></script>
+
+<script type="text/javascript" src="../../../shared/js/jquery.js"></script>
+<script type="text/javascript" src="../../../shared/js/function.js"></script>
+<script type="text/javascript" src="../../../shared/js/country_website.js"></script>
+<script type="text/javascript" src="../../../shared/js/global/ga9d07.js?20121001"></script>
+
+<link rel="stylesheet" type="text/css" media="all" href="common/css/slc.css" />
+<script type="text/javascript">
+	<!--
+	$.langType = 'en';
+	-->
+</script>
+<script type="text/javascript" src="common/js/slc.js"></script>
+<script type="text/javascript" src="common/js/index.js"></script>
+</head>
+<body id="www-ia-omron-com" class="tmplA01_view">
+<div class="omron-ia"> 
+  <p class="non-visual"><a name="page-top" id="page-top">Page top</a></p>
+<div class="header-area">
+	<div class="site-identity">
+		<div class="site-logo">
+			<a href="../../../index.html" target="_blank"><img src="../../../shared/img/logo_01_b.gif" width="129" height="24" alt="OMRON" /></a>
+		</div>
+	<!-- /.site-identity --></div>
+	<div class="utilities">
+		<div class="country-select-area">
+			<p class="canpany">
+				<img src="../../../shared/img/header_txt_01.gif" width="129" height="11" alt="Industrial Automation" />
+			</p>
+			<p class="current-country">
+				<span class="area devider">
+					<a href="javascript:void(0)" onclick="box.countryWebsiteLinks();" id="country"><img src="../../../shared/img/icon_right_b.gif" width="3" height="9" alt="" class="iconA01" />Global</a>
+				</span>
+			</p>
+		</div>
+	<!-- /.utilities --></div>
+<!-- /.header-area --></div>
+
+  <div class="bread-crumb-area" xml:lang="en" lang="en">
+    <ul>
+      <li> <a href="../../../index.html">Home</a> <span class="separator">&gt;</span> </li>
+      <li> <a href="../../../products/index-2.html">Products</a> <span class="separator">&gt;</span> </li>
+      <li> <a href="../../../products/category/safety-components/index.html">Safety Components</a> <span class="separator">&gt;</span> </li>
+      <li> <a href="../../../products/category/safety-components/safety-sensors/index.html">Safety Sensors</a> <span class="separator">&gt;</span> </li>
+      <li> <strong>F3SG-R Troubleshooting</strong> </li>
+    </ul>
+  </div>
+  <div class="contents-area" xml:lang="en" lang="en">
+    <div class="primary-contents-area">
+      <p class="non-visual"> <a name="contents" id="contents">Primary Contents</a> </p>
+      <div class="heading-lvl01A01">
+        <h1><span>Safety Light Curtain</span><br />
+          F3SG-R<br />
+          Troubleshooting</h1>
+        <a href="sample.html" class="icon_device" target="_blank"><span>See indicator layout</span></a> </div>
+      <div id="shooting_flow">
+        <div id="shooting_flow_01">
+          <p class="shooting_txt"><span>1</span>Select the component with the indicators blinking.</p>
+          <div class="shooting_content">
+            <ul></ul>
+          </div>
+        </div>
+        <div id="shooting_flow_02">
+          <p class="shooting_txt"><span>2</span>Select the status of the lockout indicator.</p>
+          <div class="shooting_content">
+            <div class="shooting_title">LOCK<br />
+              OUT</div>
+            <ul></ul>
+          </div>
+        </div>
+        <div id="shooting_flow_03">
+          <p class="shooting_txt"><span>3</span>Select the blinking indicators.</p>
+          <div class="shooting_content">
+            <ul></ul>
+          </div>
+        </div>
+        <div id="shooting_resrt"> <a href="#">Reset</a> </div>
+        <div id="shooting_check"> <a href="#">Confirm combination and see solution</a> </div>
+        <div id="shooting_result">
+          <h2 class="heading-lvl02A01">Result</h2>
+          <h3 class="heading-lvl03A01">Indication status</h3>
+          <table></table>
+          <div id="error-area"></div>
+        </div>
+      </div>
+      <ul class="a-button_list mt50">
+        <li><a href="manual.html" class="a-button icon_manual"><span>Manual downloads</span></a></li>
+        <li><a href="tool/index.html" class="a-button icon_soft"><span>Setting Tool downloads</span></a></li>
+      </ul>
+      
+      <!-- links -->
+      <div id="reciprocal_link" class=" clearfix" style="display:none;">
+  <!--英語-->
+  <div id="reciprocal_link_en">
+    <a class="/f3sg-r/" href="index.html"><img src="../../../common/img/icon_01.gif" width="3" height="9" alt="" class="iconA01">F3SG-R Troubleshooting</a>
+    <a class="/f3w-ma/" href="../f3w-ma/index.html"><img src="../../../common/img/icon_01.gif" width="3" height="9" alt="" class="iconA01">F3W-MA Troubleshooting</a>
+  </div>
+  <!--日本語-->
+  <div id="reciprocal_link_jp">
+    <a class="/f3sg-r/" href="../../../jp/product/trouble_shooting/f3sg-r/index.html"><img src="../../../common/img/icon_01.gif" width="3" height="9" alt="" class="iconA01">F3SG-R トラブルシューティング</a>
+    <a class="/f3w-ma/" href="../../../jp/product/trouble_shooting/f3w-ma/index.html"><img src="../../../common/img/icon_01.gif" width="3" height="9" alt="" class="iconA01">F3W-MA トラブルシューティング</a>
+  </div>
+  <!--中国語-->
+  <div id="reciprocal_link_cn">
+    <a class="/f3sg-r/" href="index.html"><img src="../../../common/img/icon_01.gif" width="3" height="9" alt="" class="iconA01">F3SG-R Troubleshooting</a>
+    <a class="/f3w-ma/" href="../f3w-ma/index.html"><img src="../../../common/img/icon_01.gif" width="3" height="9" alt="" class="iconA01">F3W-MA Troubleshooting</a>
+  </div>
+  <!--ドイツ-->
+  <div id="reciprocal_link_de">
+    <a class="/f3sg-r/" href="index.html"><img src="../../../common/img/icon_01.gif" width="3" height="9" alt="" class="iconA01">F3SG-R Troubleshooting</a>
+    <a class="/f3w-ma/" href="../f3w-ma/index.html"><img src="../../../common/img/icon_01.gif" width="3" height="9" alt="" class="iconA01">F3W-MA Troubleshooting</a>
+  </div>
+  <!--スペイン-->
+  <div id="reciprocal_link_es">
+    <a class="/f3sg-r/" href="index.html"><img src="../../../common/img/icon_01.gif" width="3" height="9" alt="" class="iconA01">F3SG-R Troubleshooting</a>
+    <a class="/f3w-ma/" href="../f3w-ma/index.html"><img src="../../../common/img/icon_01.gif" width="3" height="9" alt="" class="iconA01">F3W-MA Troubleshooting</a>
+  </div>
+  <!--フランス-->
+  <div id="reciprocal_link_fr">
+    <a class="/f3sg-r/" href="index.html"><img src="../../../common/img/icon_01.gif" width="3" height="9" alt="" class="iconA01">F3SG-R Troubleshooting</a>
+    <a class="/f3w-ma/" href="../f3w-ma/index.html"><img src="../../../common/img/icon_01.gif" width="3" height="9" alt="" class="iconA01">F3W-MA Troubleshooting</a>
+  </div>
+  <!--イタリア-->
+  <div id="reciprocal_link_it">
+    <a class="/f3sg-r/" href="index.html"><img src="../../../common/img/icon_01.gif" width="3" height="9" alt="" class="iconA01">F3SG-R Troubleshooting</a>
+    <a class="/f3w-ma/" href="../f3w-ma/index.html"><img src="../../../common/img/icon_01.gif" width="3" height="9" alt="" class="iconA01">F3W-MA Troubleshooting</a>
+  </div>
+  <!--韓国-->
+  <div id="reciprocal_link_ko">
+    <a class="/f3sg-r/" href="index.html"><img src="../../../common/img/icon_01.gif" width="3" height="9" alt="" class="iconA01">F3SG-R Troubleshooting</a>
+    <a class="/f3w-ma/" href="../f3w-ma/index.html"><img src="../../../common/img/icon_01.gif" width="3" height="9" alt="" class="iconA01">F3W-MA Troubleshooting</a>
+  </div>
+</div>
+<script type="text/javascript" src="../common/js/reciprocal_link.js"></script>
+
+ 
+      
+    </div>
+    <div class="side-area">
+      <p class="non-visual"> <a name="related-info" id="related-info">Related Contents</a> </p>
+      <div class="related-info-area">
+        <form>
+          <div class="change-lang">
+            <select>
+              <option value="">Language</option>
+              <option value="cn">中文(簡体)</option>
+              <option value="en" selected="selected">English</option>
+              <option value="fr">Français</option>
+              <option value="de">Deutsch</option>
+              <option value="it">Italiano</option>
+              <option value="jp">日本語</option>
+              <option value="ko">한국어</option>
+              <option value="es">Español</option>
+            </select>
+          </div>
+        </form>
+        <div class="address_block"> <a href="../../../global_network/index-2.html" target="_blank">Contact (Global Network)<img src="../../../shared/img/icon_07.gif" width="14" height="11" alt="" class="external-win"></a> </div>
+      </div>
+    </div>
+  </div>
+	<!-- === [top-page-link-area] === -->
+	<div class="top-page-link-area">
+		<ul class="top-page-link">
+			<li><a href="#page-top"><img src="../../../common/img/icon_03.gif" width="5" height="8" alt="" class="iconB01" />Top of page</a></li>
+		</ul>
+	<!-- top-page-link-area -->
+	</div>
+	<!-- === /[top-page-link-area] === -->
+	
+	<div class="view-change-area">
+		<a href="sp_terms.html"><img src="../../../common/img/icon_01.gif" width="3" height="9" alt="" class="iconA01">For smartphone and tablet users</a>
+	</div>
+  <!-- === [footer-area] === -->
+<div class="footer-area">
+<p class="non-visual"><a name="footer" id="footer">Site Information</a></p>
+<div class="footer-link">
+<ul>
+<li><a href="../../../index.html" target="_blank"><img src="../../../common/img/icon_01.gif" width="3" height="9" alt="" class="iconA01" />OMRON Corporation<img src="../../../common/img/icon_07.gif" width="14" height="11" alt="" class="external-win" /></a></li>
+<li><a href="../../../sitemap.html" target="_blank"><img src="../../../common/img/icon_01.gif" width="3" height="9" alt="" class="iconA01" />Sitemap<img src="../../../common/img/icon_07.gif" width="14" height="11" alt="" class="external-win" /></a></li>
+<li><a href="../../../terms/index.html" target="_blank"><img src="../../../common/img/icon_01.gif" width="3" height="9" alt="" class="iconA01" />Terms of Use<img src="../../../common/img/icon_07.gif" width="14" height="11" alt="" class="external-win" /></a></li>
+<li><a href="../../../privacy/index.html" target="_blank"><img src="../../../common/img/icon_01.gif" width="3" height="9" alt="" class="iconA01" />Privacy Policy<img src="../../../common/img/icon_07.gif" width="14" height="11" alt="" class="external-win" /></a></li>
+</ul>
+<address>&copy; Copyright OMRON Corporation 2007 - 2016. All Rights Reserved.</address>
+<!-- footer-link --></div>
+<!-- === /[footer-area] === --></div>
+ 
+</div>
+</body>
+
+<!-- Mirrored from www.ia.omron.com/product/trouble_shooting/f3sg-r/ by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 15 Dec 2016 14:40:02 GMT -->
+</html>

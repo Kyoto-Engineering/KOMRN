@@ -1,0 +1,84 @@
+body.print div.function-area,
+body.print div.global-navi-area,
+body.print div.bread-crumb-area,
+body.print div.utility-area,
+body.print div.product-header-right,
+body.print div.top-page-link-area,
+body.print div.footer-sitemap,
+body.print div.realizing,
+body.print div.footer-link {
+	display: none;
+}
+
+body.print div.tabpanel-blockA01 div.editable-block {
+	display: block !important;
+}
+body.print div.omron-ia {
+	width: 718px;
+	overflow: hidden;
+}
+body.print div.header-area {
+	width: 718px;
+}
+body.print div.header-area div.utilities {
+	width: 548px;
+}
+body.print .print_txt button {
+	display:block;
+	width:180px;
+	height:20px;
+	background-image:url(../../../../../shared/img/button_light_sprite.gif);
+	background-repeat:no-repeat;
+	text-align:center;
+	line-height:20px;
+	font-weight:bold;
+	font-size:12px;
+	background-position: 0 -80px;
+	border: 0;
+	color: #666;
+	position: absolute;
+	right: 25px;
+	top: 22px;
+	z-index: 100;
+}
+body.print .print_txt button img {
+	position: relative;
+	margin-right: 6px;
+	top: 2px;
+}
+body.print div.contents-area {
+	width: 698px;
+	margin: 10px;
+}
+body.print .layoutB01 .contents-area .primary-contents-area {
+	width: 698px;
+}
+body.print .heading-C01 {
+	width: 678px;
+	margin-right: 0;
+}
+body.print div.image-blockC01 div.description p {
+	display: none;
+}
+
+body.print div.tab-block {
+	display: none;
+	border-bottom: 2px solid #ccc;
+}
+body.print div.tabpanel-blockA01 {
+	background-color: #fff;
+	border: 0;
+}
+body.print div.tab-block2 {
+	display: block;
+	border-bottom: 2px solid #ccc;
+}
+body.print div.tabpanel-blockA01 div.editable-block {
+	border: 1px solid #ccc;
+	margin-bottom: 15px;
+}
+
+body.print div.footer-area {
+	width: 718px;
+	min-height: 0;
+}

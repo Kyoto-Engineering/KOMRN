@@ -1,0 +1,315 @@
+
+/*------------------------------------
+	table-blockA01
+------------------------------------*/
+
+div.table-blockA01{
+	margin-top:1.62em;/*18px*/
+}
+
+
+/*odd,even*/
+
+div.table-blockA01 table tr.even td{
+	background-color:#fafafa;
+}
+
+
+/*
+div.table-blockA01 table tr:nth-child(even) td{
+	background-color:#fafafa;
+}
+*/
+
+
+/*caption*/
+
+div.table-blockA01 table caption{
+	_overflow:visible;
+	_height:1px;
+	zoom:1;
+	/*\*//*/
+	overflow:hidden;
+	/**/
+	width:684px;
+	
+	padding-bottom:0.9em;/*10px*/
+}
+
+/*684px section , tabpanel-unit*/
+
+div.section div.table-blockA01 table caption,
+div.tabpanel-unit div.table-blockA01 table caption{
+	width:664px;
+}
+
+/*684px tabpanel-unit > section*/
+
+div.tabpanel-unit div.section div.table-blockA01 table caption{
+	width:644px;
+}
+
+
+
+/*744px*/
+
+body.tmplD01 div.table-blockA01 table caption,
+body.tmplD02 div.table-blockA01 table caption,
+body.tmplE01 div.table-blockA01 table caption{
+	width:744px;
+}
+
+/*744px section , tabpanel-unit*/
+
+body.tmplD01 div.section div.table-blockA01 table caption,
+body.tmplD02 div.section div.table-blockA01 table caption,
+body.tmplE01 div.section div.table-blockA01 table caption,
+body.tmplD01 div.tabpanel-unit div.table-blockA01 table caption,
+body.tmplD02 div.tabpanel-unit div.table-blockA01 table caption,
+body.tmplE01 div.tabpanel-unit div.table-blockA01 table caption{
+	width:724px;
+}
+
+/*744px tabpanel-unit > section*/
+
+body.tmplD01 div.tabpanel-unit div.section div.table-blockA01 table caption,
+body.tmplD02 div.tabpanel-unit div.section div.table-blockA01 table caption,
+body.tmplE01 div.tabpanel-unit div.section div.table-blockA01 table caption{
+	width:704px;
+}
+
+
+
+div.table-blockA01 table caption.main-caption{
+	font-weight:bold;
+	text-align:left;
+	width:auto !important;
+}
+
+div.table-blockA01 table caption.sub-caption{
+	text-align:right;
+	color:#9b9b9b;
+	width:auto !important;
+}
+
+
+div.table-blockA01 table caption span.main-caption{
+	display:block;
+	float:left;
+	width:70%;
+	font-weight:bold;
+	text-align:left;
+}
+
+div.table-blockA01 table caption span.sub-caption{
+	display:block;
+	float:right;
+	width:30%;
+	text-align:right;
+	color:#9b9b9b;
+}
+
+
+
+/*note-blockA01,note-listA01*/
+
+div.table-blockA01 dl.note-blockA01{
+	margin-top:0.9em;/*10px*/
+	margin-left:18px;
+}
+
+div.table-blockA01 ul.note-listA01{
+	margin-top:0.9em;/*10px*/
+	margin-left:18px;
+}
+
+div.table-blockA01 dl.note-blockA01 ul.note-listA01{
+	margin-top:0;
+	margin-left:0;
+}
+
+div.table-blockA01 ul.note-listA01 li{
+	background:url(../img/note_listA01_icon_02.gif) left 0.55em no-repeat;
+}
+
+div.table-blockA01 ul.note-listA01 li.with-asterisk,
+div.table-blockA01 ul.note-listA01 li.with-asterisk-num{
+	background:none;
+}
+
+
+/*heading-kind*/
+
+div.table-blockA01 tr.h01 th,
+div.table-blockA01 th.h01{
+	background-color:#c9c9c9;
+}
+
+div.table-blockA01 tr.h02 th,
+div.table-blockA01 th.h02{
+	font-weight:normal;
+}
+
+
+/*long-table*/
+
+div.table-blockA01 table.long-table td{
+	padding-top:0.1em !important;
+	padding-bottom:0.1em !important;
+}
+
+
+
+/*------------------------------------
+	tableA01
+------------------------------------*/
+
+table.tableA01{
+	clear:both;
+	border-collapse:collapse;
+	border-width:1px 0 0 1px; 
+	border-style:solid;
+	border-color:#969696;
+	font-size:92%;
+}
+
+table.tableA01 th,
+table.tableA01 td{
+	padding:0.2em 5px;
+	border-width:0 1px 1px 0; 
+	border-style:solid;
+	border-color:#969696;
+	font-weight:normal;
+	vertical-align:middle;
+	text-align:center;
+}
+
+
+/*------------------------------------
+	tableB01
+------------------------------------*/
+
+table.tableB01{
+	clear:both;
+	border-collapse:collapse;
+	border-width:1px 0 0 1px;
+	border-style:solid;
+	border-color:#969696;
+	font-size:92%;
+}
+
+table.tableB01 th,
+table.tableB01 td{
+	padding:0.2em 5px;
+	border-width:0 1px 1px 0; 
+	border-style:solid;
+	border-color:#969696;
+	text-align:left;
+}
+
+table.tableB01 th{
+	vertical-align:middle;
+	font-weight:bold;
+	background-color:#e1e1e1;
+}
+table.tableB01 td{
+	vertical-align:top;
+	font-weight:normal;
+}
+
+table.tableB01 thead + tbody tr:first-child td,
+table.tableB01 thead + tbody tr.first-child td,
+table.tableB01 thead + tbody tr:first-child th,
+table.tableB01 thead + tbody tr.first-child th{
+	border-top:2px solid #969696;
+}
+
+table.tableB01 tr.with-thead td,
+table.tableB01 tr.with-thead th{
+	border-top:2px solid #969696;
+}
+
+
+/*not first-child*/
+
+table.tableB01 th.first,
+table.tableB01 td.first{
+	border-left:2px solid #969696;
+}
+
+
+
+/*------------------------------------
+	definition-tableA01
+------------------------------------*/
+
+table.definition-tableA01{
+	font-size:100%;
+	border: 0 none;
+}
+table.definition-tableA01 caption{
+	padding-top:1.99em;/*24px*/
+	padding-bottom:0.83em;/*10px*/
+	font-weight: bold;
+	text-align: left;
+	font-size:100%;
+	line-height:1.42;
+}
+
+table.definition-tableA01 th,
+table.definition-tableA01 td{
+	padding: 0.73em 10px 1.25em 13px;
+	font-size:92%;
+	line-height: 1.36;
+	text-align: left;
+	vertical-align: top;
+	border: 0 none;
+}
+table.definition-tableA01 th{
+	padding-left: 10px;
+	background: url(../img/definition_tableA01_bg_01.gif) 0 0 no-repeat;
+	font-weight: normal;
+	width: 118px;
+}
+table.definition-tableA01 td{
+	background: url(../img/definition_tableA01_bg_01.gif) 3px -2px no-repeat;
+}
+table.definition-tableA01 th>*:first-child,
+table.definition-tableA01 td>*:first-child,
+table.definition-tableA01 th>*:first-child li:first-child,
+table.definition-tableA01 td>*:first-child li:first-child{
+	margin-top: 0;
+}
+table.definition-tableA01 th *.first-child,
+table.definition-tableA01 td *.first-child{
+	margin-top: 0;
+}
+
+table.definition-tableA01 th a,
+table.definition-tableA01 th a:link{
+	text-decoration: none;
+	}
+table.definition-tableA01 th a:visited{
+	text-decoration: none;
+	}
+table.definition-tableA01 th a:focus,
+table.definition-tableA01 th a:hover,
+table.definition-tableA01 th a:active{
+	text-decoration: underline;
+	}
+
+/*------------------------------------
+	for WinIE5.x
+------------------------------------*/
+
+table.tableA01,
+table.tableB01,
+table.tableB02{
+	width:auto;
+	voice-family:"\"}\"";
+	voice-family:inherit;
+	width:100%;
+}
+
+
+

@@ -1,0 +1,62 @@
+/*-------------------------------------------------------------------------
+ TEXT
+-------------------------------------------------------------------------*/
+div.textA01{
+	margin-bottom:1.49em;/*18px*/
+}
+div.imageA01{
+	margin-bottom:1.49em;/*18px*/
+}
+
+/* text align */
+.taC	{text-align:center;}
+.taR	{text-align:right;}
+.taL	{text-align:left;}
+
+/* text decoration */
+.tdNormal	{text-decoration:none;}
+.tdUnderline	{text-decoration:underline;}
+.tdCancel	{text-decoration:line-through;}
+
+/* font-weight bold */
+.fb	{font-weight:bold;}
+
+/* item count */
+span.count{
+	margin-left:3px;
+}
+
+/*	date
+------------------------------------*/
+p.date-line{
+	clear:both;
+	margin-bottom:0.83em;
+	text-align:right;
+}
+p.date-line.border-top{
+	margin-bottom:1em;
+	padding:12px 0;
+	background:url(../images/common_dotline_bg_01.gif) left top repeat-x;
+}
+p.date-line.border-bottom{
+	margin-bottom:1em;
+	padding-bottom:12px;
+	background:url(../images/common_dotline_bg_01.gif) left bottom repeat-x;
+}
+
+/*	caption
+------------------------------------*/
+p.caption{
+	margin-top:0.9em;
+	line-height:1.2;
+	font-size:92%;
+}
+p.caption-red{
+	line-height:1.2;
+	font-size:92%;
+	color:#A00000;
+}
+p.caption.text-indent{
+	margin-left:0.64em;
+	text-indent:-0.64em;
+}

@@ -1,0 +1,1235 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xml:lang="en" lang="en" xmlns="http://www.w3.org/1999/xhtml">
+  
+<!-- Mirrored from www.ia.omron.com/support/guide/3/circuit_connection_examples.html by HTTrack Website Copier/3.x [XR&CO'2014], Sat, 17 Dec 2016 00:42:44 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=utf-8" /><!-- /Added by HTTrack -->
+<head>
+    <META http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta http-equiv="Content-Language" content="en">
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta http-equiv="Content-Style-Type" content="text/css">
+    <meta http-equiv="Content-Script-Type" content="text/javascript">
+    <title>Circuit Connection Examples of Safety Components | OMRON Industrial Automation</title>
+    <meta name="keywords" content="Connection Circuit Examples">
+    <meta name="description" content="This part presents basic examples in which a G9SA (Safety Relay Unit), G9SX (Flexible Safety Unit), F3SX (Safety Controller) and F3SP-B1P (Safety Light Curtain Controller) or D9M-CD1 (Safety Mat Controller) are used to configure an electrical interlock device connecting inputs and outputs.">
+    <script type="text/javascript" language="JavaScript" src="../../../resource/script/common/default.js">
+    </script>
+    <link rel="stylesheet" type="text/css" media="all" href="../../../common/css/common.css">
+    <link rel="stylesheet" type="text/css" media="all" href="../../../common/css_g/g_exist_ver3.css">
+    <link rel="stylesheet" type="text/css" media="print" href="../../../common/css/print.css">
+    <link rel="start index" href="../../../index-2.html" title="OMRON">
+    <link rel="chapter" href="../../../index.html" title="Our Strengths">
+    <link rel="chapter" href="../../../products/index.html" title="Products">
+    <link rel="chapter" href="../../index.html" title="Technical Support">
+    <link rel="chapter" href="../../../global_network/index.html" title="Global Network">
+    <link rel="chapter" href="../../../corporate_profile/index-2.html" title="About Us">
+    <link rel="chapter" href="../../../new/information/index.html" title="What's New">
+    <link rel="shortcut icon" href="../../../favicon.ico" type="image/x-icon">
+    <script type="text/javascript" src="../../../common/js/common.js"></script>
+<script type="text/javascript" src="../../../common/js/rollover.js"></script>
+<script type="text/javascript" src="../../../common/js/cssSupport.js"></script>
+
+<script type="text/javascript" src="../../../shared/js/jquery.js"></script>
+<script type="text/javascript" src="../../../shared/js/function.js"></script>
+<script type="text/javascript" src="../../../shared/js/country_website.js"></script>
+<script type="text/javascript" src="../../../shared/js/global/ga9d07.js?20121001"></script>
+
+  </head>
+  <body id="www-ia-omron-com" class="tmplC03 safety-components">
+    <div class="omron-ia">
+      <p class="non-visual"><a name="page-top" id="page-top">Page top</a></p>
+<div class="header-area">
+	<div class="site-identity">
+		<div class="site-logo">
+			<a href="../../../index.html"><img src="../../../shared/img/logo_01_b.gif" width="129" height="24" alt="OMRON" /></a>
+		</div>
+	<!-- /.site-identity --></div>
+	<div class="utilities">
+		<div class="country-select-area">
+			<p class="canpany">
+				<img src="../../../shared/img/header_txt_01.gif" width="129" height="11" alt="Industrial Automation" />
+			</p>
+			<p class="current-country">
+				<span class="area devider">
+					<a href="javascript:void(0)" onclick="box.countryWebsiteLinks();" id="country"><img src="../../../shared/img/icon_right_b.gif" width="3" height="9" alt="" class="iconA01" />Global</a>
+				</span>
+			</p>
+		</div>
+		<div class="function-area">
+			<ul>
+				<li class="first-child">
+					<a href="../../../contact/index.html"><img src="../../../shared/img/icon_right_b.gif" width="3" height="9" alt="" class="iconA01" />Contact</a>
+				</li>
+			</ul>
+			<div class="search">
+				<form action="http://search2.ia.omron.com/IA/" method="get" name="search_website" id="search_website" class="search-form">
+					<p><input type="text" value="" size="20" name="q" id="search_str" class="search-str" /><input type="submit" value="Search" class="submit60L" id=""  /></p>
+				</form>
+			<!-- /.search --></div>
+		<!-- /.function-area --></div>
+	<!-- /.utilities --></div>
+<!-- /.header-area --></div>
+
+      <!-- === [global-navi-area] === -->
+<div class="global-navi-area">
+<p class="non-visual"><a name="global-navi" id="global-navi">Global Navigation</a></p>
+<ul>
+<li class="home"><a href="../../../index.html">Home</a></li>
+<li class="product"><a href="../../../product/index.html">Products</a></li>
+<li class="support stay-link"><a href="../../index-2.html">Technical Support</a></li>
+<li class="global-network"><a href="../../../global_network/index-2.html">Global Network</a></li>
+<li class="corporate-profile"><a href="../../../corporate_profile/index.html">About Us</a></li>
+</ul>
+<!-- === /[global-navi-area] === --></div>
+      <div class="bread-crumb-area">
+        <ul>
+          <li>
+            <a href="../../../index-2.html">Home</a>
+            <span class="separator">&gt;</span>
+          </li>
+          <li>
+            <a href="../../index.html">Technical Support</a>
+            <span class="separator">&gt;</span>
+          </li>
+          <li>
+            <a href="../index-2.html">Technical Guide</a>
+            <span class="separator">&gt;</span>
+          </li>
+          <li>
+            <strong>Safety Components</strong>
+          </li>
+        </ul>
+      </div>
+      <div class="contents-area">
+        <div class="contents02-area">
+          <div class="contents03-area">
+            <div class="lead-area">
+              <p class="non-visual">
+                <a name="lead" id="lead">Lead Contents</a>
+              </p>
+              <div class="heading-lvl01A01">
+                <h1>Safety Components</h1>
+              </div>
+              <div class="textA01">
+                <p>This part presents basic examples in which a G9SA (Safety Relay Unit), G9SX (Flexible Safety Unit), F3SX (Safety Controller) and F3SP-B1P (Safety Light Curtain Controller) or D9M-CD1 (Safety Mat Controller) are used to configure an electrical interlock device connecting inputs and outputs.</p>
+              </div>
+              <div class="family-linkA01">
+                <table border="1" cellspacing="5">
+                  <tr>
+                    <td>
+                      <a href="machinary_safety.html">
+                        <img src="../../../common/img/icon_01.gif" width="3" height="9" alt="" class="iconA01">Machinary Safety</a>
+                    </td>
+                    <td>
+                      <a href="safety_requirements.html">
+                        <img src="../../../common/img/icon_01.gif" width="3" height="9" alt="" class="iconA01">Safety Requirements</a>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <a href="safety_functions.html">
+                        <img src="../../../common/img/icon_01.gif" width="3" height="9" alt="" class="iconA01">Safety Functions</a>
+                    </td>
+                    <td>
+                      <a href="safety_components.html">
+                        <img src="../../../common/img/icon_01.gif" width="3" height="9" alt="" class="iconA01">Safety Components</a>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <a href="safety_circuit_example.html">
+                        <img src="../../../common/img/icon_01.gif" width="3" height="9" alt="" class="iconA01">Safety Circuit Example</a>
+                    </td>
+                    <td class="stay">
+                      <em>Circuit Connection Examples</em>
+                    </td>
+                  </tr>
+                </table>
+              </div>
+            </div>
+            <div class="side-area">
+              <p class="non-visual">
+                <a name="related-info" id="related-info">Related Contents</a>
+              </p>
+              
+              <div class="related-info-area">
+                <div class="related-info-blockA01">
+                  <p class="lvl01">
+                    <em>Related Contents</em>
+                  </p>
+                  <ul>
+                    <li>
+                      <em class="lvl02">Safety Components</em>
+                      <ul>
+                        <li>
+                          <a href="../../../products/category/switches/index.html">
+                            <img src="../../../common/img/icon_01.gif" width="3" height="9" alt="" class="iconA01">Products</a>
+                        </li>
+                      </ul>
+                    </li>
+                  </ul>
+                </div>
+                <!-- banner-listA01 -->
+<div class="banner-listA01">
+<!--
+<ul>
+<li><a href="/feature/index.html"><img src="/common/banner/banner_01.gif" width="216" height="68" alt="OMRON Industrial Automation | Our Strengths" /></a></li>
+</ul>
+-->
+</div>
+<!-- /banner-listA01 -->
+
+              </div>
+            </div>
+          </div>
+          <div class="exist-primary-contents-area">
+            <p class="non-visual">
+              <a name="contents" id="contents">Primary Contents</a>
+            </p>
+            <div class="content-items">
+  <div class="column1">
+    <div class="positionleft" style="width:px;">
+      <p>
+        <strong class="headline1">Circuit Diagrams</strong>
+      </p>
+    </div>
+  </div>
+  <div class="column1">
+    <div class="positionleft" style="width:px;">
+      <p>
+        <strong class="headline1">1. List of Circuit Diagrams</strong>
+      </p>
+    </div>
+  </div>
+  <div class="column1">
+    <div class="positionleft" style="width:px;">
+      <p>
+        <strong class="headline2">This part presents basic examples in which a G9SA (Safety Relay Unit), G9SX (Flexible Safety Unit), F3SX (Safety Controller) and F3SP-B1P (Safety Light Curtain Controller) or D9M-CD1 (Safety Mat Controller) are used to configure an electrical interlock device connecting inputs and outputs.</strong>
+      </p>
+    </div>
+  </div>
+  <div class="column1">
+    <div class="positionleft" style="width:px;">
+      <div class="table-blockA01"><div class="table-blockA01"><table border="0" cellspacing="0" class="tableB01"><tr><td  class="heading center middle">Index No.</td><td  class="heading center middle">Safety detection devices</td><td  class="heading center middle">Input channels</td><td  class="heading center middle">Safety category</td><td  class="heading center middle">Stop category</td><td  class="heading center middle">Models used</td></tr><tr><td  class="heading center middle">1</td><td class="left top" >Emergency Stop Switches</td><td class="center middle" >2</td><td class="center middle" >4</td><td class="center middle" >0</td><td class="left top" >A22E/A165E G9SA-301/G9SA-501, S82K</td></tr><tr><td  class="heading center middle">2</td><td class="left top" >Emergency Stop Switches (Set of two)</td><td class="center middle" >2</td><td class="center middle" >4</td><td class="center middle" >0</td><td class="left top" >A22E/A165E G9SA-301/G9SA-501, S82K</td></tr><tr><td  class="heading center middle">3</td><td class="left top" >Safety Limit Switches (Set of two)</td><td class="center middle" >2</td><td class="center middle" >4</td><td class="center middle" >0</td><td class="left top" >D4B-N/D4N/D4F G9SA-301/G9SA-501, S82K</td></tr><tr><td  class="heading center middle">4</td><td class="left top" >Safety Door Switches</td><td class="center middle" >2</td><td class="center middle" >4</td><td class="center middle" >0</td><td class="left top" >D4GS-N/D4NS/D4BS G9SA-301/G9SA-501, S82K</td></tr><tr><td  class="heading center middle">5</td><td class="left top" >Safety Door Switches (Set of two)</td><td class="center middle" >2</td><td class="center middle" >3</td><td class="center middle" >0</td><td class="left top" >D4GS-N/D4NS/D4BS G9SA-301/G9SA-501, S82K</td></tr><tr><td  class="heading center middle">6</td><td class="left top" >Safety Door Switches (Set of two)</td><td class="center middle" >1</td><td class="center middle" >2</td><td class="center middle" >0</td><td class="left top" >D4GS-N/D4NS/D4BS G9SA-301/G9SA-501, S82K</td></tr><tr><td  class="heading center middle">7</td><td class="left top" >Guard Lock Safety-door Switches (Solenoid lock) Safety Limit Switches</td><td class="center middle" >2</td><td class="center middle" >4</td><td class="center middle" >0</td><td class="left top" >D4GL/D4NL/D4BL/D4JL D4B-N/D4N/D4F G9SA-301, S82K</td></tr><tr><td  class="heading center middle">8</td><td class="left top" >Guard Lock Safety-door Switches (Mechanical lock) Safety Limit Switches</td><td class="center middle" >2</td><td class="center middle" >3</td><td class="center middle" >0</td><td class="left top" >D4NL/D4BL/D4GL/D4JL D4B-N/D4N/D4F G9SA-321-T[], G7S/G7SA, S82K</td></tr><tr><td  class="heading center middle">9</td><td class="left top" >Guard Lock Safety-door Switches (Mechanical lock) Safety Limit Switches</td><td class="center middle" >2</td><td class="center middle" >3</td><td class="center middle" >1</td><td class="left top" >D4NL/D4BL/D4GL/D4JL D4B-N/D4N/D4F G9SA-321-T[], S82K</td></tr><tr><td  class="heading center middle">10</td><td class="left top" >Safety Mat Systems</td><td class="center middle" >2</td><td class="center middle" >3</td><td class="center middle" >0</td><td class="left top" >D9M-M[] D9M-CD1, S82K</td></tr><tr><td  class="heading center middle">11</td><td class="left top" >Two-hand Control Switches</td><td class="center middle" >2</td><td class="center middle" >4</td><td class="center middle" >0</td><td class="left top" >G9SA-TH301, S82K</td></tr><tr><td  class="heading center middle">12</td><td class="left top" >Two-hand Control Switches</td><td class="center middle" >1</td><td class="center middle" >2</td><td class="center middle" >0</td><td class="left top" >F3SX-N-L1D1R A22E/A165E/A22 D4GS-N/D4NS/D4BS F3SN/F3SH/F3SJ, S82K</td></tr><tr><td  class="heading center middle">13</td><td class="left top" >Safety Light Curtains (Relay unit connection)</td><td class="center middle" >2</td><td class="center middle" >4</td><td class="center middle" >0</td><td class="left top" >F3SN-A/F3SJ G9SA-301/G9SA-501, S82K</td></tr><tr><td  class="heading center middle">14</td><td class="left top" >Safety Light Curtains (Relay connection)</td><td class="center middle" >2</td><td class="center middle" >4</td><td class="center middle" >0</td><td class="left top" >F3SN-A/F3SJ G7S/G7SA, S82K</td></tr><tr><td  class="heading center middle">15</td><td class="left top" >Safety Light Curtains (Connector connection)</td><td class="center middle" >2</td><td class="center middle" >4</td><td class="center middle" >0</td><td class="left top" >F3SN-A/F3SJ F3SP-B1P, S82K</td></tr><tr><td  class="heading center middle">16</td><td class="left top" >Safety Light Curtains Emergency Stop Switches</td><td class="center middle" >2</td><td class="center middle" >4</td><td class="center middle" >0</td><td class="left top" >F3SN-A/F3SJ A22E/A165E G9SA-300-SC, S82K</td></tr><tr><td  class="heading center middle">17</td><td class="left top" >Safety Light Curtains Safety Mat Systems</td><td class="center middle" >2</td><td class="center middle" >3</td><td class="center middle" >0</td><td class="left top" >F3SN-A/F3SJ D9M-M[] F3SP-B1P D9M-CD1, S82K</td></tr><tr><td  class="heading center middle">18</td><td class="left top" >Emergency Stop Switches</td><td class="center middle" >1</td><td class="center middle" >2</td><td class="center middle" >1</td><td class="left top" >A22E/A165E G9SX-AD[]</td></tr><tr><td  class="heading center middle">19</td><td class="left top" >Emergency Stop Switches</td><td class="center middle" >2</td><td class="center middle" >3</td><td class="center middle" >0</td><td class="left top" >A22E/A165E G9SX-AD[]</td></tr><tr><td  class="heading center middle">20</td><td class="left top" >Emergency Stop Switches (Set of two)</td><td class="center middle" >2</td><td class="center middle" >3</td><td class="center middle" >0</td><td class="left top" >A22E/A165E G9SX-AD[]</td></tr><tr><td  class="heading center middle">21</td><td class="left top" >Emergency Stop Switches</td><td class="center middle" >2</td><td class="center middle" >4</td><td class="center middle" >0</td><td class="left top" >A22E/A165E/A22 F3SX-NR</td></tr><tr><td  class="heading center middle">22</td><td class="left top" >Single-beam Safety Sensors (Set of four) Safety Limit Switches Emergency Stop Switches</td><td class="center middle" >2</td><td class="center middle" >2</td><td class="center middle" >0</td><td class="left top" >E3FS-10B4/E3ZS-T31A F3SX-E-B1D1 D4B-N/D4N/D4F A22E/A165E/A22</td></tr><tr><td  class="heading center middle">23</td><td class="left top" >Safety Door Switches (Set of two)</td><td class="center middle" >1</td><td class="center middle" >2</td><td class="center middle" >0</td><td class="left top" >D4GS-N/D4NS/D4BS G9SX-AD322-T15</td></tr><tr><td  class="heading center middle">24</td><td class="left top" >Safety Door Switches (Set of two)</td><td class="center middle" >2</td><td class="center middle" >3</td><td class="center middle" >0</td><td class="left top" >D4GS-N/D4NS/D4BS G9SX-AD322-T15</td></tr><tr><td  class="heading center middle">25</td><td class="left top" >Guard Lock Safety-door Switches (Mechanical lock) Safety Limit Switches</td><td class="center middle" >2</td><td class="center middle" >4</td><td class="center middle" >0</td><td class="left top" >D4NL/D4BL/D4GL/D4JL D4B-N/D4N/D4F G9SX-AD322-T15</td></tr><tr><td  class="heading center middle">26</td><td class="left top" >Guard Lock Safety-door Switches (Mechanical lock) Safety Limit Switches</td><td class="center middle" >2</td><td class="center middle" >4</td><td class="center middle" >1</td><td class="left top" >D4NL/D4BL/D4GL/D4JL D4B-N/D4N/D4F G9SX-AD322-T15</td></tr><tr><td  class="heading center middle">27</td><td class="left top" >Safety Light Curtains</td><td class="center middle" >2</td><td class="center middle" >4</td><td class="center middle" >0</td><td class="left top" >F3SJ-A G9SX-AD322-T15</td></tr><tr><td  class="heading center middle">28</td><td class="left top" >Emergency Stop Switches Safety Limit Switches (Set of two)</td><td class="center middle" >2</td><td class="center middle" >4</td><td class="center middle" >1</td><td class="left top" >A22E/A165E D4B-N/D4N/D4F G9SX-BC202/G9SX-AD322-T15</td></tr><tr><td  class="heading center middle">29</td><td class="left top" >Emergency Stop Switches Guard Lock Safety-door Switches (Set of two) (Mechanical lock) Safety Limit Switches (Set of two)</td><td class="center middle" >2</td><td class="center middle" >4</td><td class="center middle" >1</td><td class="left top" >A22E/A165E D4NL/D4BL/D4GL D4B-N/D4N/D4F G9SX-BC202/G9SX-AD322-T15</td></tr></table></div></div>
+    </div>
+  </div>
+  <div class="column1">
+    <div class="positionleft" style="width:px;">
+      <p>
+        <strong class="headline1">2. Precautions</strong>
+      </p>
+    </div>
+  </div>
+  <div class="column1">
+    <div class="positionleft" style="width:px;">
+      <p>
+        <strong class="headline2">(1) Circuit Configurations for Safety-related Applications</strong>
+      </p>
+      <p>A variety of connection examples for electrical interlock devices are presented here, divided into safety categories. These examples, however, are only intended to show one type of configuration for securing the safety of control systems for machinery.<br/>In actual circuit configurations, it is necessary to use protective grounding, wiring protection, and other methods to prevent problems like open circuits and short circuits. With respect to specific measures, it is recommended that you comply with the standards in the following table, and any related standards, when designing and implementing circuit configurations, while also receiving confirmation from a third-party verification organization for the safety of the overall system.</p>
+      <div class="table-blockA01"><div class="table-blockA01"><table border="0" cellspacing="0" class="tableB01"><tr><td  class="heading center middle">Standards Number</td><td  class="heading center middle">Title</td></tr><tr><td class="left top" >ISO12100-1</td><td class="left top" >Safety of machinery --Basic concepts, general principles for design --Part 1: Basic terminology, methodology</td></tr><tr><td class="left top" >ISO12100-2</td><td class="left top" >Safety of machinery -- Basic concepts, general principles for design -- Part 2: Technical principles</td></tr><tr><td class="left top" >ISO14121</td><td class="left top" >Principles of risk assessment</td></tr><tr><td class="left top" >IEC60204-1</td><td class="left top" >Electrical equipment of machines -- Part 1: General requirements</td></tr><tr><td class="left top" >ISO13849-1</td><td class="left top" >Safety-related parts of control systems -- Part 1: General principles for design</td></tr><tr><td class="left top" >ISO13849-2</td><td class="left top" >Safety-related parts of control systems -- Part 2: Validation</td></tr></table></div></div>
+      <p class="note">
+        <em class="notemark"></em>Note: In some situations, it is also necessary to refer to other standards.</p>
+    </div>
+  </div>
+  <div class="column1">
+    <div class="positionleft" style="width:px;">
+      <p>
+        <strong class="headline2">(2) Determining the Safety Category</strong>
+      </p>
+      <p>The safety category, which is a performance evaluation of safety measures, is determined as a result of a risk assessment. To determine the actual safety category of safety-related parts, it is necessary to determine the safety category that is applicable to the entire machine by evaluating the machine specifications and the machine's equipment, usage, and operating environment for the duration of its service life.</p>
+    </div>
+  </div>
+  <div class="column1">
+    <div class="positionleft" style="width:px;">
+      <p>
+        <strong class="headline2">(3) About 2-channel Input</strong>
+      </p>
+      <p>The open/closed status of a protective door is confirmed by the contact signals of position detection equipment such as Safety Door Switches. It is possible to provide 2-channel input of the open/closed confirmation signal to the Controller by using two contacts inside a single position detection unit. However, when this is done, an incorrectly inserted Operation Key or a certain degree of impact may damage the head of the position detection equipment, with the result that both of the output signals lack asymmetric error characteristics and the same failure occurs to both. The method for selecting 2-channel input depends largely on the risk assessment results for the entire system, but it is recommended that two position detection units with a reciprocal mode be used to ensure correct confirmation of the open/closed status of protective doors.</p>
+    </div>
+  </div>
+  <div class="column1">
+    <div class="positionleft" style="width:px;">
+      <p>
+        <strong class="headline2">(4) The Role of Safety Components</strong>
+      </p>
+      <p>Safety-related control systems must minimize the possibility of danger occurring even when there is a failure in the interlock device. As stipulated by standards, OMRON safety components are equipped with functions such as direct opening mechanisms for switches, and forced guide contact mechanisms. These functions are designed to operate effectively within the control system in which they are contained.</p>
+    </div>
+  </div>
+  <div class="column1">
+    <div class="positionleft" style="width:px;">
+      <p>
+        <strong class="headline2">(5) Using Safety Components</strong>
+      </p>
+      <p>Refer to the precautions listed in this catalog for the use of safety components. It is particularly recommended that you use clamps, couplings, etc., to secure doors fitted with a guard lock safety-door switch. When a switch is used as a direct door lock, errors in the circuit functions can occur due to the weight of the door itself, vibration from machinery, or impacts during erroneous door opening in holding status.</p>
+    </div>
+  </div>
+  <div class="column1">
+    <div class="positionleft" style="width:px;">
+      <p>
+        <strong class="headline2">(6) Detecting Entry and Presence</strong>
+      </p>
+      <p>The basic feature of the Safety Light Curtain is to detect the entry of a person's finger, hand, or body. When it is necessary to have a presence-detecting function in a hazardous area in response to the overall system risk assessment, e.g., due to frequent entry in the hazardous area, it is recommended that the Safety Light Curtain be used together with a Safety Mat, Safety Laser Scanner, or similar device. Refer to page 29 for information on presence detection.</p>
+    </div>
+  </div>
+  <div class="column1">
+    <div class="positionleft" style="width:px;">
+      <p>
+        <strong class="headline2">(7) Reset Methods</strong>
+      </p>
+      <p>These connection examples use manual resetting.<br/>In order to use an auto reset method, the dimensions from the opening to the hazardous source must be such that they will not allow a person to reach the hazardous source. For information on the connection for a system using an auto reset method, refer to the connection circuit examples in the relevant product catalog.</p>
+    </div>
+  </div>
+  <div class="column1">
+    <div class="positionleft" style="width:px;">
+      <p>
+        <strong class="headline2">(8) Contactors</strong>
+      </p>
+      <p>It is recommended that the auxiliary NC contacts used as monitors for main contact welding be equipped with a function to prevent the same failure.</p>
+    </div>
+  </div>
+  <div class="column1">
+    <div class="positionleft" style="width:px;">
+      <div class="table-blockA01"><div class="table-blockA01"><table border="0" cellspacing="0" class="tableB01"><tr><td  class="heading center middle">Index No.</td><td  class="heading center middle">Safety category</td><td  class="heading center middle">Safety detection devices</td><td  class="heading center middle">Stop category</td><td  class="heading center middle">Reset method</td><td  class="heading center middle">Models used</td></tr><tr><td class="center middle" >1</td><td class="center middle" >4</td><td class="left middle" >Emergency Stop Switches</td><td class="center middle" >0</td><td class="left middle" >Manual</td><td class="left middle" >A22E/A165E G9SA-301/G9SA-501, S82K</td></tr></table></div></div>
+    </div>
+  </div>
+  <div class="column1">
+    <div class="positionleft" style="width:px;">
+      <div class="img">
+        <img src="img/safety__tg_circuit_diagrams_fig01.html" alt="">
+      </div>
+    </div>
+  </div>
+  <div class="column1">
+    <div class="positionleft" style="width:px;">
+      <p>
+        <strong class="headline2">&#9679; Timing Chart</strong>
+      </p>
+      <div class="img">
+        <img src="img/safety__tg_circuit_diagrams_fig02.html" alt="">
+      </div>
+      <p class="note">
+        <em class="notemark"></em>Note:<br/>1. Refer to the precautions when actually configuring the circuit.<br/>2. Use manual resetting for the emergency stop circuit. (ISO 13850)</p>
+      <p>
+        <strong class="headline2">Examples of Applicable Control Parts</strong>
+      </p>
+      <p>S1: Reset switch (momentary operation)<br/>S2: Emergency stop switch<br/>KM1 and KM2: Magnetic contactors<br/>M: 3-phase </p>
+    </div>
+  </div>
+  <div class="column1">
+    <div class="positionleft" style="width:px;">
+      <div class="table-blockA01"><div class="table-blockA01"><table border="0" cellspacing="0" class="tableB01"><tr><td  class="heading center middle">Index No.</td><td  class="heading center middle">Safety category</td><td  class="heading center middle">Safety detection devices</td><td  class="heading center middle">Stop category</td><td  class="heading center middle">Reset method</td><td  class="heading center middle">Models used</td></tr><tr><td class="center middle" >2</td><td class="center middle" >4</td><td class="left bottom" >Emergency Stop Switches (Set of two)</td><td class="center middle" >0</td><td class="left middle" >Manual</td><td class="left bottom" >A22E/A165E G9SA-301/G9SA-501, S82K</td></tr></table></div></div>
+    </div>
+  </div>
+  <div class="column1">
+    <div class="positionleft" style="width:px;">
+      <div class="img">
+        <img src="img/safety__tg_circuit_diagrams_fig03.html" alt="">
+      </div>
+    </div>
+  </div>
+  <div class="column1">
+    <div class="positionleft" style="width:px;">
+      <p>
+        <strong class="headline2">&#9679; Timing Chart</strong>
+      </p>
+      <div class="img">
+        <img src="img/safety__tg_circuit_diagrams_fig04.html" alt="">
+      </div>
+      <p class="note">
+        <em class="notemark"></em>Note:<br/>1. Refer to the precautions when actually configuring the circuit.<br/>2. Use manual resetting for the emergency stop circuit. (ISO 13850)</p>
+      <p>
+        <strong class="headline2">Examples of Applicable Control Parts</strong>
+      </p>
+      <p>S1: Reset switch (momentary operation)<br/>S2: Emergency stop switch<br/>S3: Emergency stop switch<br/>KM1 and KM2: Magnetic contactors<br/>M: 3-phase </p>
+    </div>
+  </div>
+  <div class="column1">
+    <div class="positionleft" style="width:px;">
+      <div class="table-blockA01"><div class="table-blockA01"><table border="0" cellspacing="0" class="tableB01"><tr><td  class="heading center middle">Index No.</td><td  class="heading center middle">Safety category</td><td  class="heading center middle">Safety detection devices</td><td  class="heading center middle">Stop category</td><td  class="heading center middle">Reset method</td><td  class="heading center middle">Models used</td></tr><tr><td class="center middle" >3</td><td class="center middle" >4</td><td class="left middle" >Safety Limit Switches (Set of two)</td><td class="center middle" >0</td><td class="left middle" >Manual</td><td class="left bottom" >D4B-N/D4N/D4F G9SA-301/G9SA-501, S82K</td></tr></table></div></div>
+    </div>
+  </div>
+  <div class="column1">
+    <div class="positionleft" style="width:px;">
+      <div class="img">
+        <img src="img/safety__tg_circuit_diagrams_fig05.html" alt="">
+      </div>
+    </div>
+  </div>
+  <div class="column1">
+    <div class="positionleft" style="width:px;">
+      <p>
+        <strong class="headline2">&#9679; Timing Chart</strong>
+      </p>
+      <div class="img">
+        <img src="img/safety__tg_circuit_diagrams_fig06.html" alt="">
+      </div>
+      <p class="note">
+        <em class="notemark"></em>Note: Refer to the precautions when actually configuring the circuit.</p>
+      <p>
+        <strong class="headline2">Examples of Applicable Control Parts</strong>
+      </p>
+      <p>S1: Reset switch<br/>S2 and S3: Safety limit switches<br/>KM1 and KM2: Magnetic contactors<br/>M: 3-phase</p>
+    </div>
+  </div>
+  <div class="column1">
+    <div class="positionleft" style="width:px;">
+      <div class="table-blockA01"><div class="table-blockA01"><table border="0" cellspacing="0" class="tableB01"><tr><td  class="heading center middle">Index No.</td><td  class="heading center middle">Safety category</td><td  class="heading center middle">Safety detection devices</td><td  class="heading center middle">Stop category</td><td  class="heading center middle">Reset method</td><td  class="heading center middle">Models used</td></tr><tr><td class="center middle" >4</td><td class="center middle" >4</td><td class="left middle" >Safety Door Switches</td><td class="center middle" >0</td><td class="left middle" >Manual</td><td class="left bottom" >D4GS-N/D4NS/D4BS G9SA-301/G9SA-501, S82K</td></tr></table></div></div>
+    </div>
+  </div>
+  <div class="column1">
+    <div class="positionleft" style="width:px;">
+      <div class="img">
+        <img src="img/safety__tg_circuit_diagrams_fig07.html" alt="">
+      </div>
+    </div>
+  </div>
+  <div class="column1">
+    <div class="positionleft" style="width:px;">
+      <p>
+        <strong class="headline2">&#9679; Timing Chart</strong>
+      </p>
+      <div class="img">
+        <img src="img/safety__tg_circuit_diagrams_fig08.html" alt="">
+      </div>
+      <p class="note">
+        <em class="notemark"></em>Note: Refer to the precautions when actually configuring the circuit.</p>
+      <p>
+        <strong class="headline2">Examples of Applicable Control Parts<br/></strong>
+      </p>
+      <p>S1: Reset switch (momentary operation)<br/>S2: Safety door switch<br/>KM1 and KM2: Magnetic contactors<br/>M: 3-phase</p>
+    </div>
+  </div>
+  <div class="column1">
+    <div class="positionleft" style="width:px;">
+      <div class="table-blockA01"><div class="table-blockA01"><table border="0" cellspacing="0" class="tableB01"><tr><td  class="heading center middle">Index No.</td><td  class="heading center middle">Safety category</td><td  class="heading center middle">Safety detection devices</td><td  class="heading center middle">Stop category</td><td  class="heading center middle">Reset method</td><td  class="heading center middle">Models used</td></tr><tr><td class="center middle" >5</td><td class="center middle" >3</td><td class="center middle" >Safety Door Switches (Set of two)</td><td class="center middle" >0</td><td class="left middle" >Manual</td><td class="left bottom" >D4GS-N/D4NS/D4BS G9SA-301/G9SA-501, S82K</td></tr></table></div></div>
+    </div>
+  </div>
+  <div class="column1">
+    <div class="positionleft" style="width:px;">
+      <div class="img">
+        <img src="img/safety__tg_circuit_diagrams_fig09.html" alt="">
+      </div>
+    </div>
+  </div>
+  <div class="column1">
+    <div class="positionleft" style="width:px;">
+      <p>
+        <strong class="headline2">&#9679; Timing Chart</strong>
+      </p>
+      <div class="img">
+        <img src="img/safety__tg_circuit_diagrams_fig10.html" alt="">
+      </div>
+      <p class="note">
+        <em class="notemark"></em>Note: Refer to the precautions when actually configuring the circuit.</p>
+      <p>
+        <strong class="headline2">Examples of Applicable Control Parts</strong>
+      </p>
+      <p>S1: Reset switch (momentary operation)<br/>S2: Safety door switch<br/>S3: Safety door switch<br/>KM1 and KM2: Magnetic contactors<br/>M: 3-phase </p>
+    </div>
+  </div>
+  <div class="column1">
+    <div class="positionleft" style="width:px;">
+      <div class="table-blockA01"><div class="table-blockA01"><table border="0" cellspacing="0" class="tableB01"><tr><td  class="heading center middle">Index No.</td><td  class="heading center middle">Safety category</td><td  class="heading center middle">Safety detection devices</td><td  class="heading center middle">Stop category</td><td  class="heading center middle">Reset method</td><td  class="heading center middle">Models used</td></tr><tr><td class="center middle" >6</td><td class="center middle" >2</td><td class="left bottom" >Safety Door Switches (Set of two)</td><td class="center middle" >0</td><td class="left middle" >Manual</td><td class="left bottom" >D4GS-N/D4NS/D4BS G9SA-301/G9SA-501, S82K</td></tr></table></div></div>
+    </div>
+  </div>
+  <div class="column1">
+    <div class="positionleft" style="width:px;">
+      <div class="img">
+        <img src="img/safety__tg_circuit_diagrams_fig11.html" alt="">
+      </div>
+    </div>
+  </div>
+  <div class="column1">
+    <div class="positionleft" style="width:px;">
+      <p>
+        <strong class="headline2">&#9679; Timing Chart</strong>
+      </p>
+      <div class="img">
+        <img src="img/safety__tg_circuit_diagrams_fig12.html" alt="">
+      </div>
+      <p class="note">
+        <em class="notemark"></em>Note: Refer to the precautions when actually configuring the circuit.</p>
+      <p>
+        <strong class="headline2">Examples of Applicable Control</strong>
+      </p>
+      <p>PartsS1: Safety door switch<br/>S2: Safety door switch<br/>S3: Reset switch (momentary operation)<br/>KM1 and KM2: Magnetic contactors<br/>M: 3-phase </p>
+    </div>
+  </div>
+  <div class="column1">
+    <div class="positionleft" style="width:px;">
+      <div class="table-blockA01"><div class="table-blockA01"><table border="0" cellspacing="0" class="tableB01"><tr><td  class="heading center middle">Index No.</td><td  class="heading center middle">Safety category</td><td  class="heading center middle">Safety detection devices</td><td  class="heading center middle">Stop category</td><td  class="heading center middle">Reset method</td><td  class="heading center middle">Models used</td></tr><tr><td class="center middle" >7</td><td class="center middle" >4</td><td class="left middle" >Guard Lock Safety-door Switches <br>(Solenoid lock) <br>Safety Limit Switches</td><td class="center middle" >0</td><td class="left middle" >Manual</td><td class="left middle" >D4GL/D4NL/D4BL/D4JL <br>D4B-N/D4N/D4F <br>G9SA-301, S82K</td></tr></table></div></div>
+    </div>
+  </div>
+  <div class="column1">
+    <div class="positionleft" style="width:px;">
+      <div class="img">
+        <img src="img/safety__tg_circuit_diagrams_fig13.html" alt="">
+      </div>
+      <p class="note">
+        <em class="notemark"></em>Note:<br/>A solenoid lock may cause danger to the operator if the lock is released by an unlock error operation signal during operation and the door is opened. A model with a solenoid lock can be used if a risk assessment confirms that safety can be assured, but if not, a model with a mechanical lock must be used. (EN 1088 (ISO 14119))</p>
+    </div>
+  </div>
+  <div class="column1">
+    <div class="positionleft" style="width:px;">
+      <p>
+        <strong class="headline2">&#9679; Timing Chart</strong>
+      </p>
+      <div class="img">
+        <img src="img/safety__tg_circuit_diagrams_fig14.html" alt="">
+      </div>
+      <p class="note">
+        <em class="notemark"></em>Note: Refer to the precautions when actually configuring the circuit.</p>
+      <p>
+        <strong class="headline2">Examples of Applicable Control Parts</strong>
+      </p>
+      <p>S1: Lock/unlock signal<br/>S2: Guard lock safety-door switch<br/>S3: Safety limit switch<br/>S4: Stop signal<br/>S5: Reset switch (momentary operation)<br/>KM1 and KM2: Magnetic contactors<br/>M: 3-phase</p>
+    </div>
+  </div>
+  <div class="column1">
+    <div class="positionleft" style="width:px;">
+      <div class="table-blockA01"><div class="table-blockA01"><table border="0" cellspacing="0" class="tableB01"><tr><td  class="heading center middle">Index No.</td><td  class="heading center middle">Safety category</td><td  class="heading center middle">Safety detection devices</td><td  class="heading center middle">Stop category</td><td  class="heading center middle">Reset method</td><td  class="heading center middle">Models used</td></tr><tr><td class="center middle" >8</td><td class="center middle" >3</td><td class="left middle" >Guard Lock Safety-door Switches<br>(Mechanical lock)<br>Safety Limit Switches</td><td class="center middle" >0</td><td class="center middle" >Manual</td><td class="left middle" >D4NL/D4BL/D4GL/D4JL<br>D4B-N/D4N/D4F<br>G9SA-321-T[], G7S/G7SA, S82K</td></tr></table></div></div>
+    </div>
+  </div>
+  <div class="column1">
+    <div class="positionleft" style="width:px;">
+      <div class="img">
+        <img src="img/safety__tg_circuit_diagrams_fig15.html" alt="">
+      </div>
+      <p class="note">
+        <em class="notemark"></em>Note:<br/>A solenoid lock may cause danger to the operator if the lock is released by an unlock error operation signal during operation and the door is opened. A model with a solenoid lock can be used if a risk assessment confirms that safety can be assured, but if not, a model with a mechanical lock must be used. (EN 1088 (ISO 14119))</p>
+    </div>
+  </div>
+  <div class="column1">
+    <div class="positionleft" style="width:px;">
+      <p>
+        <strong class="headline2">&#9679; Timing Chart</strong>
+      </p>
+      <div class="img">
+        <img src="img/safety__tg_circuit_diagrams_fig16.html" alt="">
+      </div>
+      <p class="note">
+        <em class="notemark"></em>Note: Refer to the precautions when actually configuring the circuit.</p>
+      <p>
+        <strong class="headline2">Examples of Applicable Control Parts</strong>
+      </p>
+      <p>S1: Lock release signal<br/>S2: Guard lock safety-door switchS3: Safety limit switch<br/>S4: Stop signal<br/>S5: Reset switch<br/>RY1 and RY2: Safety relays<br/>KM1 and KM2: Magnetic contactors<br/>M: 3-phase </p>
+    </div>
+  </div>
+  <div class="column1">
+    <div class="positionleft" style="width:px;">
+      <div class="table-blockA01"><div class="table-blockA01"><table border="0" cellspacing="0" class="tableB01"><tr><td  class="heading center middle">Index No.</td><td  class="heading center middle">Safety category</td><td  class="heading center middle">Safety detection devices</td><td  class="heading center middle">Stop category</td><td  class="heading center middle">Reset method</td><td  class="heading center middle">Models used</td></tr><tr><td class="center middle" >9</td><td class="center middle" >3</td><td class="left middle" >Guard Lock Safety-door Switches<br>(Mechanical lock)<br>Safety Limit Switches</td><td class="center middle" >1</td><td class="left middle" >Manual</td><td class="left middle" >D4NL/D4BL/D4GL/D4JL<br>D4B-N/D4N/D4F<br>G9SA-321-T[], S82K</td></tr></table></div></div>
+    </div>
+  </div>
+  <div class="column1">
+    <div class="positionleft" style="width:px;">
+      <div class="img">
+        <img src="img/safety__tg_circuit_diagrams_fig17.html" alt="">
+      </div>
+      <p class="note">
+        <em class="notemark"></em>Note:<br/>A solenoid lock may cause danger to the operator if the lock is released by an unlock error operation signal during operation and the door is opened. A model with a solenoid lock can be used if a risk assessment confirms that safety can be assured, but if not, a model with a mechanical lock must be used. (EN 1088 (ISO 14119))</p>
+    </div>
+  </div>
+  <div class="column1">
+    <div class="positionleft" style="width:px;">
+      <p>
+        <strong class="headline2">&#9679; Timing Chart</strong>
+      </p>
+      <div class="img">
+        <img src="img/safety__tg_circuit_diagrams_fig18.html" alt="">
+      </div>
+      <p class="note">
+        <em class="notemark"></em>Note: Refer to the precautions when actually configuring the circuit.</p>
+      <p>
+        <strong class="headline2">Examples of Applicable Control Parts</strong>
+      </p>
+      <p>S1: Lock release signal<br/>S2: Guard lock safety-door switch<br/>S3: Safety limit switch<br/>S4: Stop signal<br/>S5: Reset switch<br/>KM1 and KM2: Magnetic contactors<br/>M: 3-phase</p>
+    </div>
+  </div>
+  <div class="column1">
+    <div class="positionleft" style="width:px;">
+      <div class="table-blockA01"><div class="table-blockA01"><table border="0" cellspacing="0" class="tableB01"><tr><td  class="heading center middle">Index No.</td><td  class="heading center middle">Safety category</td><td  class="heading center middle">Safety detection devices</td><td  class="heading center middle">Stop category</td><td  class="heading center middle">Reset method</td><td  class="heading center middle">Models used</td></tr><tr><td class="center middle" >10</td><td class="center middle" >3</td><td class="left middle" >Safety Mat Systems</td><td class="center middle" >0</td><td class="left middle" >Manual</td><td class="left middle" >D9M-M[]<br>D9M-CD1, S82K</td></tr></table></div></div>
+    </div>
+  </div>
+  <div class="column1">
+    <div class="positionleft" style="width:px;">
+      <div class="img">
+        <img src="img/safety__tg_circuit_diagrams_fig19.html" alt="">
+      </div>
+    </div>
+  </div>
+  <div class="column1">
+    <div class="positionleft" style="width:px;">
+      <p>
+        <strong class="headline2">&#9679; Timing Chart</strong>
+      </p>
+      <div class="img">
+        <img src="img/safety__tg_circuit_diagrams_fig20.html" alt="">
+      </div>
+      <p class="note">
+        <em class="notemark"></em>Note:<br/>1. Refer to the precautions when actually configuring the circuit.<br/>2. Select Manual Reset Mode with the D9M-CD1's internal selector switch. (Default setting)</p>
+      <p>
+        <strong class="headline2">Examples of Applicable Control Parts</strong>
+      </p>
+      <p>S1: Reset switch (momentary operation)<br/>KM1 and KM2: Magnetic contactors<br/>M: 3-phase motor</p>
+    </div>
+  </div>
+  <div class="column1">
+    <div class="positionleft" style="width:px;">
+      <div class="table-blockA01"><div class="table-blockA01"><table border="0" cellspacing="0" class="tableB01"><tr><td  class="heading center middle">Index No.</td><td  class="heading center middle">Safety category</td><td  class="heading center middle">Safety detection devices</td><td  class="heading center middle">Stop category</td><td  class="heading center middle">Reset method</td><td  class="heading center middle">Models used</td></tr><tr><td class="center middle" >11</td><td class="center middle" >4</td><td class="left middle" >4Two-hand Control Switches</td><td class="center middle" >0</td><td class="left middle" >Manual</td><td class="left middle" >G9SA-TH301, S82K</td></tr></table></div></div>
+    </div>
+  </div>
+  <div class="column1">
+    <div class="positionleft" style="width:px;">
+      <div class="img">
+        <img src="img/safety__tg_circuit_diagrams_fig21.html" alt="">
+      </div>
+    </div>
+  </div>
+  <div class="column1">
+    <div class="positionleft" style="width:px;">
+      <p>
+        <strong class="headline2">&#9679; Timing Chart</strong>
+      </p>
+      <div class="img">
+        <img src="img/safety__tg_circuit_diagrams_fig22.html" alt="">
+      </div>
+      <p class="note">
+        <em class="notemark"></em>Note: Refer to the precautions when actually configuring the circuit.</p>
+      <p>
+        <strong class="headline2">Examples of Applicable Control Parts</strong>
+      </p>
+      <p>S11 and S12: Two-hand control switch (momentary operation)<br/>KM1 and KM2: Magnetic contactors<br/>M: 3-phase </p>
+    </div>
+  </div>
+  <div class="column1">
+    <div class="positionleft" style="width:px;">
+      <div class="table-blockA01"><div class="table-blockA01"><table border="0" cellspacing="0" class="tableB01"><tr><td  class="heading center middle">Index No.</td><td  class="heading center middle">Safety category</td><td  class="heading center middle">Safety detection devices</td><td  class="heading center middle">Stop category</td><td  class="heading center middle">Reset method</td><td  class="heading center middle">Models used</td></tr><tr><td class="center middle" >12</td><td class="center middle" >2</td><td class="left middle" >Two-hand Control Switches</td><td class="center middle" >0</td><td class="left middle" >Manual</td><td class="left middle" >F3SX-N-L1D1R<br>A22E/A165E/A22<br>D4GS-N/D4NS/D4BS<br>F3SN/F3SH/F3SJ, S82K</td></tr></table></div></div>
+    </div>
+  </div>
+  <div class="column1">
+    <div class="positionleft" style="width:px;">
+      <div class="img">
+        <img src="img/safety__tg_circuit_diagrams_fig23.html" alt="">
+      </div>
+      <p class="note">
+        <em class="notemark"></em>Note: Refer to the precautions when actually configuring the circuit.</p>
+    </div>
+  </div>
+  <div class="column1">
+    <div class="positionleft" style="width:px;">
+      <p>
+        <strong class="headline2">&#9679; Timing Chart</strong>
+      </p>
+      <div class="img">
+        <img src="img/safety__tg_circuit_diagrams_fig24.html" alt="">
+      </div>
+      <p class="note">
+        <em class="notemark"></em>Note: Refer to the precautions when actually configuring the circuit.</p>
+      <p>
+        <strong class="headline2">Examples of Applicable Control Parts</strong>
+      </p>
+      <p>S1: Emergency stop switch with direct opening mechanism)<img src="img/Safety__TG_functions_fig12.html" /><br/>S2: Reset switch<br/>S31, S32: Two-hand control switch<br/>S4, S5: Safety limit switch with direct opening mechanism<img src="img/Safety__TG_functions_fig12.html" /><br/>KM1, KM2: Magnetic contactors<br/>M: 3-phase motor<br/>E1: 24-VDC power supply<br/>External indicator: Filament-type indicator (When an external indicator is not necessary, connect resistance of 1/4 W, 4.7 k&#937;.)<br/>S6: External test switch<br/>AS1: Auxiliary control output (synchronized with K1, K2 NO contacts)<br/>AS2: Information trigger<br/>AS3: Standby output<br/>SSC: Start command input (Not connected in the above circuit diagram. When this input is not necessary, connect it to terminal A1.)</p>
+      <p class="note">
+        <em class="notemark"></em>Note:<br/></p>
+      <p class="note">
+        <em class="notemark">1.</em>In this connection example, the auxiliary output is set to the standard setting (Dark-ON operation). To operate using non-standard settings, refer to the catalog or operation manuals for the F3SN/F3SH.</p>
+      <p class="note">
+        <em class="notemark">2.</em>Make sure the wiring arrangement satisfies EN574.</p>
+      <p class="note">
+        <em class="notemark">3.</em>Use switches that can be used with microloads.</p>
+    </div>
+  </div>
+  <div class="column1">
+    <div class="positionleft" style="width:px;">
+      <div class="table-blockA01"><div class="table-blockA01"><table border="0" cellspacing="0" class="tableB01"><tr><td  class="heading center middle">Index No.</td><td  class="heading center middle">Safety category</td><td  class="heading center middle">Safety detection devices</td><td  class="heading center middle">Stop category</td><td  class="heading center middle">Reset method</td><td  class="heading center middle">Models used</td></tr><tr><td class="center middle" >13</td><td class="center middle" >4</td><td class="left middle" >Safety Light Curtains<br>(Relay unit connection)</td><td class="center middle" >0</td><td class="left middle" >Manual (Relay unit)</td><td class="left middle" >F3SN-A/F3SJ<br>G9SA-301/G9SA-501, S82K</td></tr></table></div></div>
+    </div>
+  </div>
+  <div class="column1">
+    <div class="positionleft" style="width:px;">
+      <div class="img">
+        <img src="img/safety__tg_circuit_diagrams_fig26.html" alt="">
+      </div>
+    </div>
+  </div>
+  <div class="column1">
+    <div class="positionleft" style="width:px;">
+      <p>
+        <strong class="headline2">&#9679; Timing Chart</strong>
+      </p>
+      <div class="img">
+        <img src="img/safety__tg_circuit_diagrams_fig27.html" alt="">
+      </div>
+      <p class="note">
+        <em class="notemark"></em>Note:<br/>1. Refer to the precautions when actually configuring the circuit.<br/>2. Note that the safety category depends on the type of Safety Light Curtain being connected.<br/>3. The F3SN-A uses auto reset.</p>
+      <p>
+        <strong class="headline2">Examples of Applicable Control Parts</strong>
+      </p>
+      <p>S1: External test switch<br/>S2: Lockout reset switch (momentary operation)<br/>S3: Reset switch<br/>KM1 and KM2: Magnetic contactors<br/>M: 3-phase motor<br/>Note: Use switches that can be used with microloads.</p>
+    </div>
+  </div>
+  <div class="column1">
+    <div class="positionleft" style="width:px;">
+      <div class="table-blockA01"><div class="table-blockA01"><table border="0" cellspacing="0" class="tableB01"><tr><td  class="heading center middle">Index No.</td><td  class="heading center middle">Safety category</td><td  class="heading center middle">Safety detection devices</td><td  class="heading center middle">Stop category</td><td  class="heading center middle">Reset method</td><td  class="heading center middle">Models used</td></tr><tr><td class="center middle" >14</td><td class="center middle" >4</td><td class="left middle" >Safety Light Curtains<br>(Relay connection)</td><td class="center middle" >0</td><td class="left middle" >Manual</td><td class="left middle" >F3SN-A/F3SJ<br>G7S/G7SA, S82K</td></tr></table></div></div>
+    </div>
+  </div>
+  <div class="column1">
+    <div class="positionleft" style="width:px;">
+      <div class="img">
+        <img src="img/safety__tg_circuit_diagrams_fig28.html" alt="">
+      </div>
+    </div>
+  </div>
+  <div class="column1">
+    <div class="positionleft" style="width:px;">
+      <p>
+        <strong class="headline2">&#9679; Timing Chart</strong>
+      </p>
+      <div class="img">
+        <img src="img/safety__tg_circuit_diagrams_fig29.html" alt="">
+      </div>
+      <p class="note">
+        <em class="notemark"></em>Note:<br/>1. Refer to the precautions when actually configuring the circuit.<br/>2. Interlock FunctionManual resetSetting: Start/restart interlock<br/>3. Note that the safety category depends on the type of Safety Light Curtain being connected.</p>
+      <p>
+        <strong class="headline2">Examples of Applicable Control Parts</strong>
+      </p>
+      <p>S1: External test switch<br/>S2: Lockout reset switch (momentary operation)<br/>KM1 and KM2: Magnetic contactors<br/>K3: PLC (for monitoring)<br/>M: 3-phase motor<br/>Note: Use switches that can be used with microloads.</p>
+    </div>
+  </div>
+  <div class="column1">
+    <div class="positionleft" style="width:px;">
+      <div class="table-blockA01"><div class="table-blockA01"><table border="0" cellspacing="0" class="tableB01"><tr><td  class="heading center middle">Index No.</td><td  class="heading center middle">Safety category</td><td  class="heading center middle">Safety detection devices</td><td  class="heading center middle">Stop category</td><td  class="heading center middle">Reset method</td><td  class="heading center middle">Models used</td></tr><tr><td class="center middle" >15</td><td class="center middle" >4</td><td class="left middle" >Safety Light Curtains<br>(Connector connection)</td><td class="center middle" >0</td><td class="left middle" >Manual</td><td class="left middle" >F3SN-A/F3SJ<br>F3SP-B1P, S82K</td></tr></table></div></div>
+    </div>
+  </div>
+  <div class="column1">
+    <div class="positionleft" style="width:px;">
+      <div class="img">
+        <img src="img/safety__tg_circuit_diagrams_fig30.html" alt="">
+      </div>
+    </div>
+  </div>
+  <div class="column1">
+    <div class="positionleft" style="width:px;">
+      <p>
+        <strong class="headline2">&#9679; Timing Chart</strong>
+      </p>
+      <div class="img">
+        <img src="img/safety__tg_circuit_diagrams_fig31.html" alt="">
+      </div>
+      <p class="note">
+        <em class="notemark"></em>Note:<br/>1. Refer to the precautions when actually configuring the circuit.<br/>2. Interlock FunctionManual resetSetting: Start/restart interlock<br/>3. Note that the safety category depends on the type of Safety Light Curtain being connected.</p>
+      <p>
+        <strong class="headline2">Examples of Applicable Control Parts</strong>
+      </p>
+      <p>S1: External test switch<br/>S2: Lockout reset switch (momentary operation)<br/>KM1 and KM2: Magnetic contactors<br/>K3: PLC (for monitoring)<br/>M: 3-phase motor<br/>Note: Use switches that can be used with microloads.</p>
+    </div>
+  </div>
+  <div class="column1">
+    <div class="positionleft" style="width:px;">
+      <div class="table-blockA01"><div class="table-blockA01"><table border="0" cellspacing="0" class="tableB01"><tr><td  class="heading center middle">Index No.</td><td  class="heading center middle">Safety category</td><td  class="heading center middle">Safety detection devices</td><td  class="heading center middle">Stop category</td><td  class="heading center middle">Reset method</td><td  class="heading center middle">Models used</td></tr><tr><td class="center middle" >16</td><td class="center middle" >4</td><td class="left middle" >Safety Light Curtains<br>Emergency Stop Switches</td><td class="center middle" >0</td><td class="left middle" >Manual</td><td class="left middle" >F3SN-A/F3SJ<br>A22E/A165E<br>G9SA-300-SC, S82K</td></tr></table></div></div>
+    </div>
+  </div>
+  <div class="column1">
+    <div class="positionleft" style="width:px;">
+      <div class="img">
+        <img src="img/safety__tg_circuit_diagrams_fig32.html" alt="">
+      </div>
+    </div>
+  </div>
+  <div class="column1">
+    <div class="positionleft" style="width:px;">
+      <p>
+        <strong class="headline2">&#9679; Timing Chart</strong>
+      </p>
+      <div class="img">
+        <img src="img/safety__tg_circuit_diagrams_fig33.html" alt="">
+      </div>
+      <p class="note">
+        <em class="notemark"></em>Note:<br/>1. Refer to the precautions when actually configuring the circuit.<br/>2. Interlock FunctionManual resetSetting: Start/restart interlock<br/>3. Note that the safety category depends on the type of Safety Light Curtain being connected.</p>
+      <p>
+        <strong class="headline2">Examples of Applicable Control Parts</strong>
+      </p>
+      <p>S1: Reset switch (momentary operation)<br/>S2: Emergency stop switch<br/>S3: External test switch (momentary operation)<br/>KM1 and KM2: Magnetic contactors<br/>M: 3-phase motor<br/>Note: Use switches that can be used with microloads.</p>
+    </div>
+  </div>
+  <div class="column1">
+    <div class="positionleft" style="width:px;">
+      <div class="table-blockA01"><div class="table-blockA01"><table border="0" cellspacing="0" class="tableB01"><tr><td  class="heading center middle">Index No.</td><td  class="heading center middle">Safety category</td><td  class="heading center middle">Safety detection devices</td><td  class="heading center middle">Stop category</td><td  class="heading center middle">Reset method</td><td  class="heading center middle">Models used</td></tr><tr><td class="center middle" >17</td><td class="center middle" >3</td><td class="left middle" >Safety Light Curtains<br>Safety Mat Systems</td><td class="center middle" >0</td><td class="left middle" >Manual</td><td class="left middle" >F3SN-A/F3SJ<br>D9M-M[]<br>F3SP-B1P<br>D9M-CD1, S82K</td></tr></table></div></div>
+    </div>
+  </div>
+  <div class="column1">
+    <div class="positionleft" style="width:px;">
+      <div class="img">
+        <img src="img/safety__tg_circuit_diagrams_fig34.html" alt="">
+      </div>
+    </div>
+  </div>
+  <div class="column1">
+    <div class="positionleft" style="width:px;">
+      <p>
+        <strong class="headline2">&#9679; Timing Chart</strong>
+      </p>
+      <div class="img">
+        <img src="img/safety__tg_circuit_diagrams_fig35.html" alt="">
+      </div>
+      <p class="note">
+        <em class="notemark"></em>Note:<br/>1. Refer to the precautions when actually configuring the circuit.<br/>2. Select Manual Reset Mode with the D9M-CD1's internal selector switch. (Default setting)<br/>3. The D9M-CD1 Safety Mat Controller can be used up to safety category 3.<br/>4. Interlock FunctionManual resetSetting: Start/restart interlock<br/>5. Note that the safety category depends on the type of Safety Light Curtain being connected.</p>
+      <p>
+        <strong class="headline2">Examples of Applicable Control Parts</strong>
+      </p>
+      <p>S1: Reset switch (momentary operation)<br/>KM1 and KM2: Magnetic contactors<br/>M: 3-phase </p>
+    </div>
+  </div>
+  <div class="column1">
+    <div class="positionleft" style="width:px;">
+      <div class="table-blockA01"><div class="table-blockA01"><table border="0" cellspacing="0" class="tableB01"><tr><td  class="heading center middle">Index No.</td><td  class="heading center middle">Safety category</td><td  class="heading center middle">Safety detection devices</td><td  class="heading center middle">Stop category</td><td  class="heading center middle">Reset method</td><td  class="heading center middle">Models used</td></tr><tr><td class="center middle" >18</td><td class="center middle" >2</td><td class="left middle" >Emergency Stop Switches</td><td class="center middle" >1</td><td class="left middle" >Manual</td><td class="left middle" >A22E/A165E<br>G9SX-AD322-T15</td></tr></table></div></div>
+    </div>
+  </div>
+  <div class="column1">
+    <div class="positionleft" style="width:px;">
+      <div class="img">
+        <img src="img/safety__tg_circuit_diagrams_fig36.html" alt="">
+      </div>
+    </div>
+  </div>
+  <div class="column1">
+    <div class="positionleft" style="width:px;">
+      <p>
+        <strong class="headline2">&#9679; Timing Chart</strong>
+      </p>
+      <div class="img">
+        <img src="img/safety__tg_circuit_diagrams_fig37.html" alt="">
+      </div>
+      <p class="note">
+        <em class="notemark"></em>Note:<br/>1. Refer to the precautions when actually configuring the circuit.<br/>2. Use manual resetting for the emergency stop circuit. </p>
+      <p>
+        <strong class="headline2">Examples of Applicable Control Parts</strong>
+      </p>
+      <p>S1: Emergency stop switch<br/>S2: Reset switch<br/>KM1 to KM4: Magnetic contactors<br/>M1 and M2: 3-phase motors</p>
+    </div>
+  </div>
+  <div class="column1">
+    <div class="positionleft" style="width:px;">
+      <div class="table-blockA01"><div class="table-blockA01"><table border="0" cellspacing="0" class="tableB01"><tr><td  class="heading center middle">Index No.</td><td  class="heading center middle">Safety category</td><td  class="heading center middle">Safety detection devices</td><td  class="heading center middle">Stop category</td><td  class="heading center middle">Reset method</td><td  class="heading center middle">Models used</td></tr><tr><td class="center middle" >19</td><td class="center middle" >3</td><td class="left middle" >Emergency Stop Switches</td><td class="center middle" >0</td><td class="left middle" >Manual</td><td class="left middle" >A22E/A165E<br>G9SX-AD322-T15</td></tr></table></div></div>
+    </div>
+  </div>
+  <div class="column1">
+    <div class="positionleft" style="width:px;">
+      <div class="img">
+        <img src="img/safety__tg_circuit_diagrams_fig38.html" alt="">
+      </div>
+    </div>
+  </div>
+  <div class="column1">
+    <div class="positionleft" style="width:px;">
+      <p>
+        <strong class="headline2">&#9679; Timing Chart</strong>
+      </p>
+      <div class="img">
+        <img src="img/safety__tg_circuit_diagrams_fig39.html" alt="">
+      </div>
+      <p class="note">
+        <em class="notemark"></em>Note:<br/>1. Refer to the precautions when actually configuring the circuit.<br/>2. Use manual resetting for the emergency stop circuit.</p>
+      <p>
+        <strong class="headline2">Examples of Applicable Control Parts</strong>
+      </p>
+      <p>S1: Emergency stop switch<br/>S2: Reset switch<br/>KM1 and KM2: Magnetic contactors<br/>M: 3-phase </p>
+    </div>
+  </div>
+  <div class="column1">
+    <div class="positionleft" style="width:px;">
+      <div class="table-blockA01"><div class="table-blockA01"><table border="0" cellspacing="0" class="tableB01"><tr><td  class="heading center middle">Index No.</td><td  class="heading center middle">Safety category</td><td  class="heading center middle">Safety detection devices</td><td  class="heading center middle">Stop category</td><td  class="heading center middle">Reset method</td><td  class="heading center middle">Models used</td></tr><tr><td class="center middle" >20</td><td class="center middle" >3</td><td class="left middle" >Emergency Stop Switches<br>(Set of two)</td><td class="center middle" >0</td><td class="left middle" >Manual</td><td class="left middle" >A22E/A165E<br>G9SX-AD322-T15</td></tr></table></div></div>
+    </div>
+  </div>
+  <div class="column1">
+    <div class="positionleft" style="width:px;">
+      <div class="img">
+        <img src="img/safety__tg_circuit_diagrams_fig40.html" alt="">
+      </div>
+    </div>
+  </div>
+  <div class="column1">
+    <div class="positionleft" style="width:px;">
+      <p>
+        <strong class="headline2">&#9679; Timing Chart</strong>
+      </p>
+      <div class="img">
+        <img src="img/safety__tg_circuit_diagrams_fig41.html" alt="">
+      </div>
+      <p class="note">
+        <em class="notemark"></em>Note:<br/>1. Refer to the precautions when actually configuring the circuit.<br/>2. Use manual resetting for the emergency stop circuit.</p>
+      <p>
+        <strong class="headline2">Examples of Applicable Control Parts</strong>
+      </p>
+      <p>S1 and S2: Emergency stop switches<br/>S3: Reset switch<br/>KM1 and KM2: Magnetic contactors<br/>M: 3-phase </p>
+    </div>
+  </div>
+  <div class="column1">
+    <div class="positionleft" style="width:px;">
+      <div class="table-blockA01"><div class="table-blockA01"><table border="0" cellspacing="0" class="tableB01"><tr><td  class="heading center middle">Index No.</td><td  class="heading center middle">Safety category</td><td  class="heading center middle">Safety detection devices</td><td  class="heading center middle">Stop category</td><td  class="heading center middle">Reset method</td><td  class="heading center middle">Models used</td></tr><tr><td class="center middle" >21</td><td class="center middle" >4</td><td class="left middle" >Emergency Stop Switches</td><td class="center middle" >0</td><td class="left middle" >Manual</td><td class="left middle" >A22E/A165E/A22<br>F3SX-NR</td></tr></table></div></div>
+    </div>
+  </div>
+  <div class="column1">
+    <div class="positionleft" style="width:px;">
+      <div class="img">
+        <img src="img/safety__tg_circuit_diagrams_fig42.html" alt="">
+      </div>
+    </div>
+  </div>
+  <div class="column1">
+    <div class="positionleft" style="width:px;">
+      <p>
+        <strong class="headline2">&#9679; Timing Chart</strong>
+      </p>
+      <div class="img">
+        <img src="img/safety__tg_circuit_diagrams_fig43.html" alt="">
+      </div>
+      <p class="note">
+        <em class="notemark"></em>Note:<br/>1. Refer to the precautions when actually configuring the circuit.<br/>2. Use manual resetting for the emergency stop circuit.</p>
+      <p>
+        <strong class="headline2">Examples of Applicable Control Parts</strong>
+      </p>
+      <p>S1: Emergency stop switch<br/>S2: Reset switch<br/>KM1 and KM2: Magnetic contactors<br/>M: 3-phase motor<br/>E1: 24 VDC power supply<br/>External indicator: Filament-type indicator(When an external indicator is not necessary, connect resistance of 1/4 W, 4.7 k&#937;.)<br/>PLC: Programmable controller (The PLC is not part of the safety system.)<br/>AS1: Instant-breaking auxiliary output (synchronized with K1 and K2 NO contacts)<br/>AS2: Information trigger<br/>AS3: Standby output<br/>SSC: Start command input</p>
+    </div>
+  </div>
+  <div class="column1">
+    <div class="positionleft" style="width:px;">
+      <div class="table-blockA01"><div class="table-blockA01"><table border="0" cellspacing="0" class="tableB01"><tr><td  class="heading center middle">Index No.</td><td  class="heading center middle">Safety category</td><td  class="heading center middle">Safety detection devices</td><td  class="heading center middle">Stop category</td><td  class="heading center middle">Reset method</td><td  class="heading center middle">Models used</td></tr><tr><td class="center middle" >22</td><td class="center middle" >2</td><td class="left middle" >Single Beam Safety Sensors (Set of four)<br>Safety Limit Switches<br>Emergency Stop Switches</td><td class="center middle" >0</td><td class="left middle" >Manual</td><td class="left middle" >E3FS-10B4/E3ZS-T31A<br>F3SX-E-B1D1<br>D4B-N/D4N/D4F<br>A22E/A165E/A22</td></tr></table></div></div>
+    </div>
+  </div>
+  <div class="column1">
+    <div class="positionleft" style="width:px;">
+      <div class="img">
+        <img src="img/safety__tg_circuit_diagrams_fig44.html" alt="">
+      </div>
+    </div>
+  </div>
+  <div class="column1">
+    <div class="positionleft" style="width:px;">
+      <p>
+        <strong class="headline2">&#9679; Timing Chart</strong>
+      </p>
+      <div class="img">
+        <img src="img/safety__tg_circuit_diagrams_fig45.html" alt="">
+      </div>
+      <p class="note">
+        <em class="notemark"></em>Note:</p>
+      <p class="note">
+        <em class="notemark">1.</em>The next reset input is ON only when the time difference between inputs is 500 ms max.<br/></p>
+      <p class="note">
+        <em class="notemark">2.</em>This chart does not consider the response delay time for each I/O device.</p>
+      <p>
+        <strong class="headline2">Examples of Applicable Control Parts</strong>
+      </p>
+      <p>S1: Emergency stop switch (direct opening mechanism)<br/>S2: Reset switch<br/>S3 to S6: Safety limit switches (direct opening mechanism)<br/>KM1 and KM2: Magnetic contactors<br/>RY1 and RY2: Safety relays with forcibly guided contacts<br/>M: 3-phase motor<br/>E1: 24 VDC power supply<br/>AS1: Safety output monitor (synchronized with SS1 and SS2)<br/>AS2: Ready output<br/>AS3: Standby output<br/>SSC: Start command input (SSC is not used in the above circuit example. When it is not used, connect it to terminal A1.)</p>
+      <p class="note">
+        <em class="notemark"></em>Note:<br/></p>
+      <p class="note">
+        <em class="notemark">1.</em>The black wire is used when the Cable with Connector (Socket) on One End (XS2F-D42[]-[]80-[]) is connected to an E3FS-10B4-M1-M Connector.</p>
+      <p class="note">
+        <em class="notemark">2.</em>The white wire is used when the Cable with Connector (Socket) on One End (XS2F-D42[]-[]80-[]) is connected to an E3FS-10B4-M1-M Connector.</p>
+    </div>
+  </div>
+  <div class="column1">
+    <div class="positionleft" style="width:px;">
+      <div class="table-blockA01"><div class="table-blockA01"><table border="0" cellspacing="0" class="tableB01"><tr><td  class="heading center middle">Index No.</td><td  class="heading center middle">Safety category</td><td  class="heading center middle">Safety detection devices</td><td  class="heading center middle">Stop category</td><td  class="heading center middle">Reset method</td><td  class="heading center middle">Models used</td></tr><tr><td class="center middle" >23</td><td class="center middle" >2</td><td class="left middle" >Safety Door Switches (Set of two)</td><td class="center middle" >0</td><td class="left middle" >Manual</td><td class="left middle" >D4GS-N/D4NS/D4BS<br>G9SX-AD322-T5</td></tr></table></div></div>
+    </div>
+  </div>
+  <div class="column1">
+    <div class="positionleft" style="width:px;">
+      <div class="img">
+        <img src="img/safety__tg_circuit_diagrams_fig46.html" alt="">
+      </div>
+    </div>
+  </div>
+  <div class="column1">
+    <div class="positionleft" style="width:px;">
+      <p>
+        <strong class="headline2">&#9679; Timing Chart</strong>
+      </p>
+      <div class="img">
+        <img src="img/safety__tg_circuit_diagrams_fig47.html" alt="">
+      </div>
+      <p class="note">
+        <em class="notemark"></em>Note: Off-delay time is 0 s.</p>
+      <p class="note">
+        <em class="notemark"></em>Note: Refer to the precautions when actually configuring the circuit.</p>
+      <p>
+        <strong class="headline2">Examples of Applicable Control Parts</strong>
+      </p>
+      <p>S1 and S2: Safety door switches<br/>S3 : Reset switch<br/>KM1 to KM4: Magnetic contactors<br/>M1 and M2 : 3-phase motors</p>
+    </div>
+  </div>
+  <div class="column1">
+    <div class="positionleft" style="width:px;">
+      <div class="table-blockA01"><div class="table-blockA01"><table border="0" cellspacing="0" class="tableB01"><tr><td  class="heading center middle">Index No.</td><td  class="heading center middle">Safety category</td><td  class="heading center middle">Safety detection devices</td><td  class="heading center middle">Stop category</td><td  class="heading center middle">Reset method</td><td  class="heading center middle">Models used</td></tr><tr><td class="center middle" >24</td><td class="center middle" >3</td><td class="left middle" >Safety Door Switches (Set of two)</td><td class="center middle" >0</td><td class="left middle" >Manual</td><td class="left middle" >D4GS-N/D4NS/D4BS<br>G9SX-AD322-T15</td></tr></table></div></div>
+    </div>
+  </div>
+  <div class="column1">
+    <div class="positionleft" style="width:px;">
+      <div class="img">
+        <img src="img/safety__tg_circuit_diagrams_fig48.html" alt="">
+      </div>
+    </div>
+  </div>
+  <div class="column1">
+    <div class="positionleft" style="width:px;">
+      <p>
+        <strong class="headline2">&#9679; Timing Chart</strong>
+      </p>
+      <div class="img">
+        <img src="img/safety__tg_circuit_diagrams_fig49.html" alt="">
+      </div>
+      <p class="note">
+        <em class="notemark"></em>Note: Off-delay time is 0 s.</p>
+      <p class="note">
+        <em class="notemark"></em>Note: Refer to the precautions when actually configuring the circuit.</p>
+      <p>
+        <strong class="headline2">Examples of Applicable Control Parts</strong>
+      </p>
+      <p>S1 and S2: Safety door switches<br/>S3 : Reset switch<br/>KM1 to KM4: Magnetic contactors<br/>M1 and M2 : 3-phase motors</p>
+    </div>
+  </div>
+  <div class="column1">
+    <div class="positionleft" style="width:px;">
+      <div class="table-blockA01"><div class="table-blockA01"><table border="0" cellspacing="0" class="tableB01"><tr><td  class="heading center middle">Index No.</td><td  class="heading center middle">Safety category</td><td  class="heading center middle">Safety detection devices</td><td  class="heading center middle">Stop category</td><td  class="heading center middle">Reset method</td><td  class="heading center middle">Models used</td></tr><tr><td class="center middle" >25</td><td class="center middle" >4</td><td class="left middle" >Guard Lock Safety-door Switches<br>(Mechanical lock)<br>Safety Limit Switches</td><td class="center middle" >0</td><td class="left middle" >Manual</td><td class="left middle" >D4NL/D4BL/D4GL/D4JL<br>D4B-N/D4N/D4F<br>G9SX-AD322-T15</td></tr></table></div></div>
+    </div>
+  </div>
+  <div class="column1">
+    <div class="positionleft" style="width:px;">
+      <div class="img">
+        <img src="img/safety__tg_circuit_diagrams_fig50.html" alt="">
+      </div>
+    </div>
+  </div>
+  <div class="column1">
+    <div class="positionleft" style="width:px;">
+      <p>
+        <strong class="headline2">&#9679; Timing Chart</strong>
+      </p>
+      <div class="img">
+        <img src="img/safety__tg_circuit_diagrams_fig51.html" alt="">
+      </div>
+      <p class="note">
+        <em class="notemark"></em>Note: Off-delay time is 0 s.</p>
+      <p class="note">
+        <em class="notemark"></em>Note: Refer to the precautions when actually configuring the circuit.</p>
+      <p>
+        <strong class="headline2">Examples of Applicable Control Parts</strong>
+      </p>
+      <p>S1 : Safety limit switch<br/>S3 : Guard lock safety switch<br/>S3 : Reset switch<br/>S4 : Lock release signal<br/>KM1 and KM2: Magnetic contactors<br/>M : 3-phase motor</p>
+    </div>
+  </div>
+  <div class="column1">
+    <div class="positionleft" style="width:px;">
+      <div class="table-blockA01"><div class="table-blockA01"><table border="0" cellspacing="0" class="tableB01"><tr><td  class="heading center middle">Index No.</td><td  class="heading center middle">Safety category</td><td  class="heading center middle">Safety detection devices</td><td  class="heading center middle">Stop category</td><td  class="heading center middle">Reset method</td><td  class="heading center middle">Models used</td></tr><tr><td class="center middle" >26</td><td class="center middle" >4</td><td class="left middle" >Guard Lock Safety-door Switches<br>(Mechanical lock)<br>Safety Limit Switches</td><td class="center middle" >1</td><td class="left middle" >Manual</td><td class="left middle" >D4NL/D4BL/D4GL/D4JL<br>D4B-N/D4N/D4F<br>G9SX-AD322-T15</td></tr></table></div></div>
+    </div>
+  </div>
+  <div class="column1">
+    <div class="positionleft" style="width:px;">
+      <div class="img">
+        <img src="img/safety__tg_circuit_diagrams_fig52.html" alt="">
+      </div>
+    </div>
+  </div>
+  <div class="column1">
+    <div class="positionleft" style="width:px;">
+      <p>
+        <strong class="headline2">&#9679; Timing Chart</strong>
+      </p>
+      <div class="img">
+        <img src="img/safety__tg_circuit_diagrams_fig53.html" alt="">
+      </div>
+      <p class="note">
+        <em class="notemark"></em>Note: Off-delay time is 0.2 to 15 s.</p>
+      <p class="note">
+        <em class="notemark"></em>Note: Refer to the precautions when actually configuring the circuit.</p>
+      <p>
+        <strong class="headline2">Examples of Applicable Control Parts</strong>
+      </p>
+      <p>S1 : Safety limit switch<br/>S3 : Guard lock safety switch<br/>S3 : Reset switch<br/>S4 : Lock release signal<br/>KM1 and KM2: Magnetic contactors<br/>M : 3-phase motor</p>
+    </div>
+  </div>
+  <div class="column1">
+    <div class="positionleft" style="width:px;">
+      <div class="table-blockA01"><div class="table-blockA01"><table border="0" cellspacing="0" class="tableB01"><tr><td  class="heading center middle">Index No.</td><td  class="heading center middle">Safety category</td><td  class="heading center middle">Safety detection devices</td><td  class="heading center middle">Stop category</td><td  class="heading center middle">Reset method</td><td  class="heading center middle">Models used</td></tr><tr><td class="center middle" >27</td><td class="center middle" >4</td><td class="left middle" >Safety Light Curtains</td><td class="center middle" >0</td><td class="left middle" >Manual</td><td class="left middle" >F3SJ-A<br>G9SX-AD322-T15</td></tr></table></div></div>
+    </div>
+  </div>
+  <div class="column1">
+    <div class="positionleft" style="width:px;">
+      <div class="img">
+        <img src="img/safety__tg_circuit_diagrams_fig54.html" alt="">
+      </div>
+    </div>
+  </div>
+  <div class="column1">
+    <div class="positionleft" style="width:px;">
+      <p>
+        <strong class="headline2">&#9679; Timing Chart</strong>
+      </p>
+      <div class="img">
+        <img src="img/safety__tg_circuit_diagrams_fig55.html" alt="">
+      </div>
+      <p class="note">
+        <em class="notemark"></em>Note: Off-delay time is 0 s.</p>
+      <p class="note">
+        <em class="notemark"></em>Note: Refer to the precautions when actually configuring the circuit.</p>
+      <p>
+        <strong class="headline2">Examples of Applicable Control Parts</strong>
+      </p>
+      <p>S1 : External test switch<br/>S2 : Lockout reset switch<br/>S3 : Reset switch<br/>F3SJ-A : Safety light curtain<br/>KM1 to KM4: Magnetic contactors<br/>M1 and M2 : 3-phase motors</p>
+    </div>
+  </div>
+  <div class="column1">
+    <div class="positionleft" style="width:px;">
+      <div class="table-blockA01"><div class="table-blockA01"><table border="0" cellspacing="0" class="tableB01"><tr><td  class="heading center middle">Index No.</td><td  class="heading center middle">Safety category</td><td  class="heading center middle">Safety detection devices</td><td  class="heading center middle">Stop category</td><td  class="heading center middle">Reset method</td><td  class="heading center middle">Models used</td></tr><tr><td class="center middle" >28</td><td class="center middle" >4</td><td class="left middle" >Emergency Stop Switches<br>Safety Limit Switches (Set of two)</td><td class="center middle" >1</td><td class="left middle" >Manual<br>/Auto</td><td class="left middle" >A22E/A165E<br>D4B-N/D4N/D4F<br>G9SX-BC202/G9SX-AD322-T15</td></tr></table></div></div>
+    </div>
+  </div>
+  <div class="column1">
+    <div class="positionleft" style="width:px;">
+      <div class="img">
+        <img src="img/safety__tg_circuit_diagrams_fig56.html" alt="">
+      </div>
+    </div>
+  </div>
+  <div class="column1">
+    <div class="positionleft" style="width:px;">
+      <p>
+        <strong class="headline2">&#9679; Timing Chart</strong>
+      </p>
+      <div class="img">
+        <img src="img/safety__tg_circuit_diagrams_fig57.html" alt="">
+      </div>
+      <p class="note">
+        <em class="notemark"></em>Note: Off-delay time is 0.2 to 15 s.</p>
+      <p class="note">
+        <em class="notemark"></em>Note: Refer to the precautions when actually configuring the circuit.</p>
+      <p>
+        <strong class="headline2">Examples of Applicable Control Parts</strong>
+      </p>
+      <p>S1 : Emergency stop switch<br/>S2 : Reset switch<br/>S3 : Safety limit switch<br/>S4 : Limit switch<br/>KM1 to KM6: Magnetic contactors<br/>M1 to M3 : 3-phase motors</p>
+    </div>
+  </div>
+  <div class="column1">
+    <div class="positionleft" style="width:px;">
+      <div class="table-blockA01"><div class="table-blockA01"><table border="0" cellspacing="0" class="tableB01"><tr><td  class="heading center middle">Index No.</td><td  class="heading center middle">Safety category</td><td  class="heading center middle">Safety detection devices</td><td  class="heading center middle">Stop category</td><td  class="heading center middle">Reset method</td><td  class="heading center middle">Models used</td></tr><tr><td class="center middle" >29</td><td class="center middle" >4</td><td class="left middle" >Emergency Stop Switches<br>Guard Lock Safety-door Switches (Set of two)<br>(Mechanical lock)<br>Safety Limit Switches (Set of two)</td><td class="center middle" >1</td><td class="left middle" >Manual<br>/Auto</td><td class="left middle" >A22E/A165E<br>D4NL/D4BL/D4GL<br>D4B-N/D4N/D4F<br>G9SX-BC202/G9SX-AD322-T15</td></tr></table></div></div>
+    </div>
+  </div>
+  <div class="column1">
+    <div class="positionleft" style="width:px;">
+      <div class="img">
+        <img src="img/safety__tg_circuit_diagrams_fig58.html" alt="">
+      </div>
+    </div>
+  </div>
+  <div class="column1">
+    <div class="positionleft" style="width:px;">
+      <p>
+        <strong class="headline2">&#9679; Timing Chart</strong>
+      </p>
+      <div class="img">
+        <img src="img/safety__tg_circuit_diagrams_fig59.html" alt="">
+      </div>
+      <p class="note">
+        <em class="notemark"></em>Note: Off-delay time is 0.2 to 15 s.</p>
+      <p class="note">
+        <em class="notemark"></em>Note: Refer to the precautions when actually configuring the circuit.</p>
+      <p>
+        <strong class="headline2">Examples of Applicable Control Parts</strong>
+      </p>
+      <p>S1 : Emergency stop switch<br/>S3 and S7 : Guard lock safety door switches<br/>S2 : Reset switch<br/>S6 and S10 : Lock release switches<br/>S4 and S8 : Safety limit switches<br/>(Direct opening contacts)<br/>KM1 to KM4: Magnetic contactors<br/>M1 and M2 : 3-phase motors</p>
+    </div>
+  </div>
+</div>
+          </div>
+          <div class="primary-contents-area">
+            <h2 class="heading-lvl02A01">
+              <a name="h1-1" id="h1-1">Recommended Products</a>
+            </h2>
+            <div class="index-blockB01">
+              <div class="index-blockB01-group">
+                <div class="index-blockB01-unit">
+                  <h3 class="index-title">
+                    <a name="h1-1-1" id="h1-1-1" href="../../../products/family/1497/feature.html">
+                      <img src="../../../common/img/icon_01.gif" alt="" class="iconA01" height="9" width="3">D4N<img src="../../../product/thumbnail/family/m_1497.jpg" width="50" height="50" class="image"></a>
+                  </h3>
+                  <div class="index-description">
+                    <p>Upgraded Safety Limit Switches Based on the Popular D4D, Pro...</p>
+                  </div>
+                </div>
+                <div class="index-blockB01-unit">
+                  <h3 class="index-title">
+                    <a name="h1-1-2" id="h1-1-2" href="../../../products/family/1581/feature.html">
+                      <img src="../../../common/img/icon_01.gif" alt="" class="iconA01" height="9" width="3">F3SJ Ver.2<img src="../../../product/thumbnail/family/m_1581.jpg" width="50" height="50" class="image"></a>
+                  </h3>
+                  <div class="index-description">
+                    <p>The updated F3SJ is even easier to use.</p>
+                  </div>
+                </div>
+                <div class="index-blockB01-unit">
+                  <h3 class="index-title">
+                    <a name="h1-1-3" id="h1-1-3" href="../../../products/family/1893/feature.html">
+                      <img src="../../../common/img/icon_01.gif" alt="" class="iconA01" height="9" width="3">OS3101<img src="../../../product/thumbnail/family/m_1893.jpg" width="50" height="50" class="image"></a>
+                  </h3>
+                  <div class="index-description">
+                    <p>Operator Presence Detection in Work Areas with Complex Shape...</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="local-navi-area">
+          <p class="non-visual">
+            <a name="local-navi" id="local-navi">Local Navigation</a>
+          </p>
+          <div class="local-naviA01">
+            <h2>
+              <a href="../index-2.html">
+                <img src="../../../common/img/icon_01.gif" width="3" height="9" alt="" class="iconA01">Technical Guide</a>
+            </h2>
+            <ul>
+              <li class="stay">Safety Components</li>
+            </ul>
+          </div>
+          <div class="local-naviB01">
+<ul>
+<li><a href="../../faq/index-2.html"><img src="../../../common/img/icon_01.gif" width="3" height="9" alt="" class="iconA01" />FAQ</a></li>
+<li><a href="../index-2.html"><img src="../../../common/img/icon_01.gif" width="3" height="9" alt="" class="iconA01" />Technical Guide</a></li>
+<li><a href="../../models/index-2.html"><img src="../../../common/img/icon_01.gif" width="3" height="9" alt="" class="iconA01" />Models with Standards Certification</a></li>
+<li><a href="../../sistemalibrary/index.html"><img src="../../../common/img/icon_01.gif" width="3" height="9" alt="" class="iconA01" />SISTEMA Library</a></li>
+<li><a href="../../elearning/index-2.html"><img src="../../../common/img/icon_01.gif" width="3" height="9" alt="" class="iconA01" />eLearning</a></li>
+<li><a href="../../glossary/index.html"><img src="../../../common/img/icon_01.gif" width="3" height="9" alt="" class="iconA01" />Glossary of Industrial Automation</a></li>
+</ul>
+<!-- /local-naviB01 --></div>
+        </div>
+      </div>
+      <!-- === [top-page-link-area] === -->
+<div class="top-page-link-area">
+<ul class="top-page-link">
+<li><a href="#page-top"><img src="../../../common/img/icon_03.gif" width="5" height="8" alt="" class="iconB01" />Top of page</a></li>
+</ul>
+<!-- top-page-link-area --></div>
+<!-- === /[top-page-link-area] === -->
+
+<!-- === [footer-area] === -->
+<div class="footer-area">
+<p class="non-visual"><a name="footer" id="footer">Site Information</a></p>
+<div class="realizing">
+<p><a href="../../../realizing/index.html"><img src="../../../common/img/logo_02.gif" width="86" height="19" alt="realizing" /></a></p>
+<!-- realizing --></div>
+<div class="footer-link">
+<ul>
+<li><a href="http://www.omron.com/" target="_blank"><img src="../../../common/img/icon_01.gif" width="3" height="9" alt="" class="iconA01" />OMRON Corporation<img src="../../../common/img/icon_07.gif" width="14" height="11" alt="" class="external-win" /></a></li>
+<li><a href="../../../sitemap.html"><img src="../../../common/img/icon_01.gif" width="3" height="9" alt="" class="iconA01" />Sitemap</a></li>
+<li><a href="../../../terms/index.html"><img src="../../../common/img/icon_01.gif" width="3" height="9" alt="" class="iconA01" />Terms of Use</a></li>
+<li><a href="../../../privacy/index.html"><img src="../../../common/img/icon_01.gif" width="3" height="9" alt="" class="iconA01" />Privacy Policy</a></li>
+</ul>
+<address>&copy; Copyright OMRON Corporation 2007 - 2016. All Rights Reserved.</address>
+<!-- footer-link --></div>
+<!-- === /[footer-area] === --></div>
+
+    </div>
+  </body>
+
+<!-- Mirrored from www.ia.omron.com/support/guide/3/circuit_connection_examples.html by HTTrack Website Copier/3.x [XR&CO'2014], Sat, 17 Dec 2016 00:43:05 GMT -->
+</html>

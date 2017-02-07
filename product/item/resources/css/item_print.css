@@ -1,0 +1,267 @@
+
+/*------------------------------------
+	zoom
+------------------------------------*/
+body.print {
+	_zoom: 93%;
+}
+
+/*------------------------------------
+	upper-contents-area,
+	div.inner-contents-area
+------------------------------------*/
+body.print div.contents-area,
+body.print div.upper-contents-area,
+body.print div.inner-contents-area{
+	margin-bottom:1.49em;
+	background-image:none;
+}
+
+
+/*------------------------------------
+	footer-area
+------------------------------------*/
+
+body.print div.footer-area{
+	position:relative;
+	overflow:hidden;
+}
+
+
+/*------------------------------------
+	global-navi-area
+------------------------------------*/
+
+body.print div.global-navi-area{
+	*margin-top:1em;
+	margin-bottom:1em;
+	padding-bottom:0;
+	background-image:none;
+}
+
+
+/*------------------------------------
+	heading-lvl02A01
+------------------------------------*/
+
+body.print .heading-A01{
+	border-bottom:1px dotted #ccc;
+	background:none;
+}
+
+
+/*------------------------------------
+	listA01
+------------------------------------*/
+
+body.print ul.listA01 li{
+	list-style-type:disc;
+	background:none !important;
+	padding-left:0;
+}
+
+
+
+/*------------------------------------
+	time-line-list
+------------------------------------*/
+body.print dl.time-line-list dt{
+	border-top:1px dotted #ccc;
+	background:none;
+}
+
+body.print dl.time-line-list dt.first-child{
+	border-top:0;
+}
+
+
+
+/*------------------------------------
+	index-blockA01-group02
+------------------------------------*/
+body.print .index-blockA01-group02{
+	page-break-after:always;
+}
+
+/*------------------------------------
+	index-blockA01-unit01
+------------------------------------*/
+body.print .index-blockA01-unit01{
+	border-right:1px solid #ccc;
+	border-bottom:1px solid #ccc;
+	border-left:1px solid #ccc;
+	width:214px !important;
+	margin-right:13px !important;
+	*margin-right:13px !important;
+	_margin-right:13px !important;
+}
+
+
+/*------------------------------------
+	index-blockA01-unit02
+------------------------------------*/
+body.print .index-blockA01-unit02{
+	border-right:1px solid #ccc;
+	border-bottom:1px solid #ccc;
+	border-left:1px solid #ccc;
+	width:331px !important;
+	margin-right:13px !important;
+	*margin-right:13px !important;
+	_margin-right:13px !important;
+}
+
+
+/*------------------------------------
+	family-indexA01,
+	family-indexA02
+------------------------------------*/
+body.print div.family-indexA01{
+	border-bottom:1px dotted #ccc;
+	background:none;
+}
+body.print div.family-indexA01.border-none{
+	background:none;
+	border:none;
+}
+
+body.print div.family-indexA01 div.family-index-unit{
+	border-top:1px dotted #ccc;
+	background:none;
+}
+
+body.print div.family-indexA01 div.family-index-unit.first-child{
+	border:none;
+	background:none;
+	padding:0 0 15px;
+}
+
+
+/*------------------------------------
+	.search-blockA01
+	.search-blockB01,
+	.search-blockC01
+------------------------------------*/
+body.print .search-blockA01 div.search-description, 
+body.print .search-blockB01 div.search-description,
+body.print .search-blockC01 div.search-description {
+	padding-bottom:0.58em;
+}
+
+
+/*------------------------------------
+	tabpanel-blockA01,
+	editable-block
+------------------------------------*/
+body.print div.tabpanel-blockA01{
+	border:1px solid #cccccc;
+}
+body.print div.tabpanel-blockA01 div.editable-block{
+	border-top:1px solid #cccccc;
+	border-bottom:none;
+	_zoom:99%;
+}
+
+
+/*------------------------------------
+	initials-list-blockA01
+------------------------------------*/
+body.print .initials-list-blockA01{
+	border:1px solid #cccccc;
+}
+
+
+/*------------------------------------
+	initials-list-blockA01
+------------------------------------*/
+body.print ul.image-listA01{
+	width:430px;
+}
+
+
+/*------------------------------------
+	index-listA02 li.odd
+------------------------------------*/
+body.print ul.index-listA02 li.odd{
+	margin-right:18px !important;
+	*margin-right:17px !important;
+	_margin-right:13px !important;
+}
+
+/*------------------------------------
+	date-line.border-bottom
+------------------------------------*/
+body.print p.date-line.border-bottom{
+	background:none;
+	border-bottom:1px solid #cccccc;
+}
+
+/*------------------------------------
+	date-line.border-top
+------------------------------------*/
+body.print p.date-line.border-top{
+	background:none;
+	border-top:1px solid #cccccc;
+}
+
+/*------------------------------------
+	index-listA02 li.odd
+------------------------------------*/
+body.print input.submit40L,
+body.print input.submit60L,
+body.print input.submit90L,
+body.print input.submit120L,
+body.print input.submit180L,
+body.print input.submit40D,
+body.print input.submit60D,
+body.print input.submit90D,
+body.print input.submit120D,
+body.print input.submit180D{
+	background:none;
+	border:1px solid #cccccc;
+	font-size:12px;
+	height:auto !important;
+	line-height:13px !important;
+}
+
+
+/*------------------------------------
+	related-info-blockB01
+------------------------------------*/
+
+body.print div.related-info-blockB01-group{
+	background:none;
+}
+
+
+/*------------------------------------
+	form-blockA01
+------------------------------------*/
+
+body.print div.form-blockA01-unit{
+	background:none;
+}
+
+
+
+/*--- product top -----------------------------------------------------------------------*/
+
+/*------------------------------------
+	product-index-block
+------------------------------------*/
+body.print div.product-index-block{
+	border:1px solid #cccccc !important;
+}
+body.print div.product-index-block .index-title{
+	border-right:none !important;
+}
+body.print div.product-index-block div.product-index-block-group div.product-index-block-unit.first-child{
+	padding-left:1px !important;
+}
+body.print div.product-index-block div.product-index-block-group div.product-index-block-unit{
+	background:none !important;
+	width: 226px !important;
+}
+
+body.print .print_txt {
+	display: block;
+}

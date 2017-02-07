@@ -1,0 +1,61 @@
+@charset "UTF-8";
+
+/*header*/
+div.header-area {
+	width: 660px;
+}
+
+div.header-area div.utilities {
+	width: 490px;
+}
+
+body#www-ia-omron-co-jp div.contents-area{
+		width: 560px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+/*title h2*/
+div.heading-lvl01A01 h2 {
+    font-size: 166% !important;
+    margin-top: 1.55em !important;
+    margin-bottom: 0.6em !important;
+}
+
+/*list*/
+ol.listB03{
+	margin-left: 2em;
+	margin-top: 10px;
+}
+
+ol.listB03 li{
+	margin-bottom: 5px;
+}
+
+/*close button*/
+.link-close-winA01 li a{
+	  display: block;
+		width: 50px;
+		height: 20px;
+		margin-left: auto;
+		margin-right: auto;
+    background: url(../../../../common/img/close_btn_01_a.gif) no-repeat;
+}
+
+.link-close-winA01 li a:hover{
+	 background: url(../../../../common/img/close_btn_01_a_o.gif) no-repeat;
+}
+
+.link-close-winA01 li a:active{
+	 background: url(../../../../common/img/close_btn_01_a_a.gif) no-repeat;
+}
+
+/*footer*/
+div.omron-ia{
+	padding-bottom: 30px;
+	border-bottom: 3px solid #0055c4;
+}
+
+.alert_list{
+	margin-left: 1em;
+}

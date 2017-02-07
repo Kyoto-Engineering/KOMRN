@@ -1,0 +1,218 @@
+/*-------------------------------------------------------------------------
+ related-info-blockA01
+	related-info-blockA02
+-------------------------------------------------------------------------*/
+div.related-info-blockA01,
+div.related-info-blockA02{
+	margin-bottom:16px;
+	background:url(../img/related_info_blockA01_bg_01.gif) left top repeat-x;
+	border-top:1px solid #ccc;
+	border-bottom:1px solid #ccc;
+	font-size:92%;
+}
+div.related-info-blockA01 p,
+div.related-info-blockA02 p{
+	margin:0 1px;
+	background-color:#E5E5E5;
+	font-weight:bold;
+}
+
+/* sensors */
+body.sensors div.related-info-blockA01.category-color p,
+body.sensors div.related-info-blockA02.category-color p{background-color:#E9ECF6;}
+body.sensors div.related-info-blockA01.category-color p a:hover,
+body.sensors div.related-info-blockA02.category-color p a:hover{background-color:#DFE2F1;}
+/* switches */
+body.switches div.related-info-blockA01.category-color p,
+body.switches div.related-info-blockA02.category-color p{background-color:#F3EBF5;}
+body.switches div.related-info-blockA01.category-color p a:hover,
+body.switches div.related-info-blockA02.category-color p a:hover{background-color:#EDE1F0;}
+/* safety-components */
+body.safety-components div.related-info-blockA01.category-color p,
+body.safety-components div.related-info-blockA02.category-color p{background-color:#FCF9E2;}
+body.safety-components div.related-info-blockA01.category-color p a:hover,
+body.safety-components div.related-info-blockA02.category-color p a:hover{background-color:#FBF6D3;}
+/* relays */
+body.relays div.related-info-blockA01.category-color p,
+body.relays div.related-info-blockA02.category-color p{background-color:#FAE7E3;}
+body.relays div.related-info-blockA01.category-color p a:hover,
+body.relays div.related-info-blockA02.category-color p a:hover{background-color:#F7DCD5;}
+/* control-components */
+body.control-components div.related-info-blockA01.category-color p,
+body.control-components div.related-info-blockA02.category-color p{background-color:#FAEDDE;}
+body.control-components div.related-info-blockA01.category-color p a:hover,
+body.control-components div.related-info-blockA02.category-color p a:hover{background-color:#F7E4CE;}
+/* automation-systems */
+body.automation-systems div.related-info-blockA01.category-color p,
+body.automation-systems div.related-info-blockA02.category-color p{background-color:#EEF5E4;}
+body.automation-systems div.related-info-blockA01.category-color p a:hover,
+body.automation-systems div.related-info-blockA02.category-color p a:hover{background-color:#E5F0D7;}
+/* motion_drives */
+body.motion_drives div.related-info-blockA01.category-color p,
+body.motion_drives div.related-info-blockA02.category-color p{background-color:#F4F4E0;}
+body.motion_drives div.related-info-blockA01.category-color p a:hover,
+body.motion_drives div.related-info-blockA02.category-color p a:hover{background-color:#EFEFD1;}
+/* energy-conservation-support_environment-measure-equipment */
+body.energy-conservation-support_environment-measure-equipment div.related-info-blockA01.category-color p,
+body.energy-conservation-support_environment-measure-equipment div.related-info-blockA02.category-color p{background-color:#E9F2F6;}
+body.energy-conservation-support_environment-measure-equipment div.related-info-blockA01.category-color p a:hover,
+body.energy-conservation-support_environment-measure-equipment div.related-info-blockA02.category-color p a:hover{background-color:#DEEDF4;}
+/* power-supplies_in-addition */
+body.power-supplies_in-addition div.related-info-blockA01.category-color p,
+body.power-supplies_in-addition div.related-info-blockA02.category-color p{background-color:#F2F2F2;}
+body.power-supplies_in-addition div.related-info-blockA01.category-color p a:hover,
+body.power-supplies_in-addition div.related-info-blockA02.category-color p a:hover{background-color:#ECECEC;}
+/* robotics */
+body.robotics div.related-info-blockA01.category-color p,
+body.robotics div.related-info-blockA02.category-color p{background-color:#EEF6F2;}
+body.robotics div.related-info-blockA01.category-color p a:hover,
+body.robotics div.related-info-blockA02.category-color p a:hover{background-color:#DDEDE6;}
+
+div.related-info-blockA01 p a,
+div.related-info-blockA01 p span,
+div.related-info-blockA02 p a,
+div.related-info-blockA02 p span{
+	display:block;
+	padding:0.4em 9px;
+	_padding:0.45em 9px;
+	zoom:1;
+}
+div.related-info-blockA01 ul,
+div.related-info-blockA02 ul{
+	margin:0 1px;
+	background-color:#FFFFFF;
+}
+div.related-info-blockA01 ul li,
+div.related-info-blockA02 ul li{
+	zoom:1;
+	border-top:1px solid #E5E5E5;
+}
+
+/*	related-info-blockA01
+------------------------------------*/
+div.related-info-blockA01 ul li span{
+	display:block;
+	padding:0.4em 9px;
+	_padding:0.45em 9px;
+	font-weight:bold;
+	zoom:1;
+}
+div.related-info-blockA01.vertical-slide ul li span{
+	padding-right:18px;
+	_padding-right:18px;
+}
+div.related-info-blockA01 ul li a{
+	display:block;
+	padding:0.4em 9px 0.4em 15px;
+	_padding:0.45em 9px 0.45em 15px;
+	zoom:1;
+	text-indent:-6px;
+}
+
+div.related-info-blockA01 ul li ul.list-indent01{margin-left:10px;}
+div.related-info-blockA01 ul li ul.list-indent01 li.first-child{border-top:0;}
+
+/*	related-info-blockA02
+------------------------------------*/
+div.related-info-blockA02 ul li span.description{
+	display:block;
+	padding:0.4em 9px;
+	_padding:0.45em 9px;
+}
+div.related-info-blockA02 ul li span.description a span.image img{
+	float:left;
+	overflow:hidden;
+	margin-top:0.3em;
+	margin-right:9px;
+	cursor:pointer;
+}
+div.related-info-blockA02 ul li span.description a span.title,
+div.related-info-blockA02 ul li span.description span.text{
+	display:block;
+	overflow:hidden;
+}
+div.related-info-blockA02 ul li span.description a span.title{margin-bottom:0.5em;}
+div.related-info-blockA02 ul li span.description span.text{width:133px; margin-left:60px;}
+
+
+/*-------------------------------------------------------------------------
+ action-block
+-------------------------------------------------------------------------*/
+div.action-block{
+	margin-bottom:16px;
+	padding:1px;
+	background-color:#F5F5F5;
+	border:1px solid #CCCCCC;
+}
+div.action-block p{
+	height:18px;
+	margin-bottom:0;
+	text-align:center;
+	line-height:18px;
+	font-size:92%;
+}
+div.action-block ul{
+	display:block;
+	padding:12px 15px;
+	background-color:#FFFFFF;
+	border:1px solid #E5E5E5;
+}
+div.action-block ul li{
+	display:block;
+	margin-top:12px;
+}
+div.action-block ul li.first-child{
+	margin-top:0;
+}
+div.action-block ul li a{
+	display:block;
+	width:180px;
+	height:20px;
+	background-image:url(../img/button_light_sprite.gif);
+	background-repeat:no-repeat;
+	text-align:center;
+	line-height:20px;
+	font-weight:bold;
+	font-size:12px;
+}
+div.action-block ul li a:link,
+div.action-block ul li a:visited,
+div.action-block ul li a:active,
+div.action-block ul li a:hover{
+	text-decoration:none;
+	color:#666666;
+}
+div.action-block ul li a:link	{background-position:	0px	-80px;}
+div.action-block ul li a:visited	{background-position:	0px	-80px;}
+div.action-block ul li a:hover	{background-position:-360px -80px;}
+div.action-block ul li a:focus	{background-position:-540px -80px;}
+div.action-block ul li a:active	{background-position:-180px -80px;}
+
+div.action-block ul li a img{
+	position:relative;
+	top:2px;
+	_top:3px;
+	margin-right:6px;
+}
+
+/*-------------------------------------------------------------------------
+ another-country-box
+-------------------------------------------------------------------------*/
+.another-country-box{
+	margin-bottom:16px;
+}
+.another-country-box .another-country-btn{
+	padding-bottom:4px;
+	background:url(../img/bg_another_country.gif) left bottom no-repeat;
+}
+.another-country-box .another-country-btn a{
+	display:block;
+	zoom:1;
+}
+
+/*-------------------------------------------------------------------------
+ banner-listA01
+-------------------------------------------------------------------------*/
+div.banner-listA01{margin-bottom:16px;}
+div.banner-listA01 ul li{margin-bottom:10px;}
+div.banner-listA01 ul li a{display:block;}

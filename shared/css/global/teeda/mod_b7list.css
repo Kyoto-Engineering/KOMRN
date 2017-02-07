@@ -1,0 +1,31 @@
+div.local-naviA01 div{
+	display:inline;
+}
+
+div.local-naviA01 ul li a span,
+div.local-naviA01 ul.list-indent01 li a span,
+div.local-naviA01 ul.list-indent02 li a span,
+div.local-naviA01 ul.list-indent03 li a span,
+div.local-naviA01 ul.list-indent04 li a span,
+div.local-naviA01 ul.list-indent05 li a span{
+	padding-left:0;
+	_padding:0 0 0 6px;
+	display:inline;
+}
+
+form.search-form div.input-block p input.search-str{
+	_width:145px;
+}
+
+div.table-blockA01 table.tableA01 .block-link-cell a span{
+	padding-left:0;
+	display:inline;
+}
+
+div.table-blockA01 table.tableA01 .block-link-cell span span{
+	padding-left:0px;
+}
+
+div.table-blockA01 table.tableA01 td span#productOutline{
+	white-space:normal;
+}

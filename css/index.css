@@ -1,0 +1,743 @@
+/*------------------------------------
+	common
+------------------------------------*/
+
+/*frame*/
+
+@import "../common/css/frame_base_style.css";
+@import "../common/css/frame_base_style_winie.css";
+@import "../common/css/frame_header_footer.css";
+@import "../common/css/frame_global_navi.css";
+@import "../common/css/frame_local_navi.css";
+@import "../common/css/frame_layout.css";
+
+@import "../shared/css/mod_button.css";
+@import "top.css";
+
+
+/*components*/
+
+@import "../common/css/mod_list.css";
+
+
+
+
+/*------------------------------------
+	header-area
+------------------------------------*/
+
+div.header-area{
+	background-image:none;
+}
+
+
+/*------------------------------------
+	primary-contents-area
+------------------------------------*/
+
+div.primary-contents-area{
+	margin-top:15px;/*10px*/
+}
+
+
+/*h2*/
+
+div.primary-contents-area h2 a{
+	display:block;
+	padding-bottom:0.24em;
+	padding-left:6px;
+	text-indent:-6px;
+	background-color:#fff;
+	border-bottom:4px solid #0055c4;
+}
+
+
+/*anchor*/
+
+div.primary-contents-area h2 a:link{
+	text-decoration:none;
+}
+div.primary-contents-area h2 a:visited{
+	text-decoration:none;
+}
+div.primary-contents-area h2 a:link:hover,
+div.primary-contents-area h2 a:visited:hover,
+div.primary-contents-area h2 a:link:active,
+div.primary-contents-area h2 a:visited:active,
+div.primary-contents-area h2 a:link:focus,
+div.primary-contents-area h2 a:visited:focus{
+	text-decoration:underline;
+}
+
+
+div.primary-contents-area h2 a:link{
+	_text-decoration:none;
+}
+div.primary-contents-area h2 a:visited{
+	_text-decoration:none;
+}
+div.primary-contents-area h2 a:hover,
+div.primary-contents-area h2 a:active{
+	_text-decoration:underline;
+}
+
+/*------------------------------------
+	site-description-area
+------------------------------------*/
+div.site-description-area{
+	background:url(../img/bg_02.gif) left top no-repeat;
+	border-bottom: solid 1px #ccc;
+	margin:0 0 20px 0;
+}
+
+div.site-description-area h1{
+	background:url(../img/bg_01.gif) left top repeat-y;
+	line-height: 2;
+	margin:1px 1px 0 0;
+	padding:0 10px 0 10px;
+}
+
+div.site-description-area p{
+	padding:3px 10px 9px 10px;
+}
+
+
+/*------------------------------------
+	product-area
+------------------------------------*/
+
+/* index-blockH01
+------------------------------------*/
+div.index-blockH01{
+	float:left;
+	width:468px;
+	margin: 1em 0 0;
+	_margin-top: -0.5em;
+	padding: 0;
+	zoom: 1;
+	}
+
+div.index-blockH01:after{
+	display: block;
+	clear: both;
+	content: ".";
+	visibility: hidden;
+	height: 0;
+	line-height: 0;
+	}
+
+/*group*/
+
+div.index-blockH01-group{
+	float: left;
+	margin: 1.5em -18px 0 0;
+	padding: 0;
+	background: url(../common/img/index_blockA01_bg_01.gif) 0 100% repeat-x;
+	zoom: 1;
+	}
+
+div.index-blockH01 div.short{
+	background: url(../common/img/index_blockA01_bg_02.gif) 100% 100% no-repeat;
+	}
+
+div.index-blockH01-group:first-child{
+	margin-top: 0;
+	}
+
+div.index-blockH01-group:after{
+	display: block;
+	clear: both;
+	content: ".";
+	visibility: hidden;
+	height: 0;
+	line-height: 0;
+	}
+
+/*unit*/
+div.index-blockH01-unit{
+	float: left;
+	margin: 0;
+	width: 234px;
+	}
+
+div.index-blockH01-group div.closed{
+	background: url(../common/img/index_blockA01_bg_01.gif) 0 100% no-repeat;
+	}
+
+div.index-blockH01-unit h3{
+	margin: 0 19px 0 1px;
+	padding: 0;
+	font-weight: bold;
+	line-height: 1.42;
+	}
+
+div.index-blockH01-unit h3 a{
+	display: block;
+	padding: 0.5em 9px 0.5em 16px;
+	text-indent: -6px;
+	border-top: 1px solid #ccc;
+	border-bottom: 3px solid #0055c4;
+	font-weight: bold;
+	}
+
+
+/*anchor*/
+
+div.index-blockH01-unit h3 a:link{
+	text-decoration:none;
+	color:#555;
+	}
+div.index-blockH01-unit h3 a:visited{
+	text-decoration:none;
+	color:#808080;
+	}
+div.index-blockH01-unit h3 a:link:hover,
+div.index-blockH01-unit h3 a:visited:hover,
+div.index-blockH01-unit h3 a:link:active,
+div.index-blockH01-unit h3 a:visited:active,
+div.index-blockH01-unit h3 a:link:focus,
+div.index-blockH01-unit h3 a:visited:focus{
+	text-decoration:underline;
+	color:#3b3b3b;
+	}
+
+div.index-blockH01-unit h3 a:link{
+	_text-decoration:none;
+	}
+div.index-blockH01-unit h3 a:visited{
+	_text-decoration:none;
+	}
+div.index-blockH01-unit h3 a:hover,
+div.index-blockH01-unit h3 a:active{
+	_text-decoration:underline;
+	}
+
+div.index-blockH01-unit div{
+	margin: 0 18px 0 0;
+	padding: 0 1px;
+	}
+
+div.index-blockH01-unit div.index-list{
+	padding: 0 10px 0.66em;
+	border-top: 1px solid #cccccc;
+	}
+div.index-blockH01-unit div.index-list ul.link-listA01{
+	margin: 0.66em 0 0;
+	}
+div.index-blockH01-unit div.index-list ul.link-listA01 li{
+	margin: 0.63em 0 0;
+	}
+
+
+/* color
+------------------------------------*/
+/*sensors*/
+div.index-blockH01 div.index-blockH01-group div.sensors h3 a:link,
+div.index-blockH01 div.index-blockH01-group div.sensors h3 a:visited{
+	border-bottom-color: #929fd0;
+	background-color: #e9ecf6;
+}
+div.index-blockH01 div.index-blockH01-group div.sensors h3 a:hover,
+div.index-blockH01 div.index-blockH01-group div.sensors h3 a:active{
+	background-color: #dfe2f1;
+}
+div.index-blockH01 div.index-blockH01-group div.sensors h3 a:focus{
+	background-color: #dfe2f1;
+}
+
+/*switches*/
+
+div.index-blockH01 div.index-blockH01-group div.switches h3 a:link,
+div.index-blockH01 div.index-blockH01-group div.switches h3 a:visited{
+	border-bottom-color: #c399cc;
+	background-color: #f3ebf5;
+}
+div.index-blockH01 div.index-blockH01-group div.switches h3 a:hover,
+div.index-blockH01 div.index-blockH01-group div.switches h3 a:active{
+	background-color: #ede1f0;
+}
+div.index-blockH01 div.index-blockH01-group div.switches h3 a:focus{
+	background-color: #ede1f0;
+}
+
+/*safety-components*/
+
+div.index-blockH01 div.index-blockH01-group div.safety-components h3 a:link,
+div.index-blockH01 div.index-blockH01-group div.safety-components h3 a:visited{
+	border-bottom-color: #f2e06d;
+	background-color: #fcf9e2;
+}
+div.index-blockH01 div.index-blockH01-group div.safety-components h3 a:hover,
+div.index-blockH01 div.index-blockH01-group div.safety-components h3 a:active{
+	background-color: #fbf6d3;
+}
+div.index-blockH01 div.index-blockH01-group div.safety-components h3 a:focus{
+	background-color: #fbf6d3;
+}
+
+/*relay*/
+
+div.index-blockH01 div.index-blockH01-group div.relay h3 a:link,
+div.index-blockH01 div.index-blockH01-group div.relay h3 a:visited{
+	border-bottom-color: #e58873;
+	background-color: #fae7e3;
+}
+div.index-blockH01 div.index-blockH01-group div.relay h3 a:hover,
+div.index-blockH01 div.index-blockH01-group div.relay h3 a:active{
+	background-color: #f7dcd5;
+}
+div.index-blockH01 div.index-blockH01-group div.relay h3 a:focus{
+	background-color: #f7dcd5;
+}
+
+/*control-components*/
+
+div.index-blockH01 div.index-blockH01-group div.control-components h3 a:link,
+div.index-blockH01 div.index-blockH01-group div.control-components h3 a:visited{
+	border-bottom-color: #e5a35c;
+	background-color: #faedde;
+}
+div.index-blockH01 div.index-blockH01-group div.control-components h3 a:hover,
+div.index-blockH01 div.index-blockH01-group div.control-components h3 a:active{
+	background-color: #f7e4ce;
+}
+div.index-blockH01 div.index-blockH01-group div.control-components h3 a:focus{
+	background-color: #f7e4ce;
+}
+
+/*automation-systems,fa-systems*/
+
+div.index-blockH01 div.index-blockH01-group div.automation-systems h3 a:link,
+div.index-blockH01 div.index-blockH01-group div.automation-systems h3 a:visited,
+div.index-blockH01 div.index-blockH01-group div.fa-systems h3 a:link,
+div.index-blockH01 div.index-blockH01-group div.fa-systems h3 a:visited{
+	border-bottom-color: #a9cc7a;
+	background-color: #eef5e4;
+}
+div.index-blockH01 div.index-blockH01-group div.automation-systems h3 a:hover,
+div.index-blockH01 div.index-blockH01-group div.automation-systems h3 a:active,
+div.index-blockH01 div.index-blockH01-group div.fa-systems h3 a:hover,
+div.index-blockH01 div.index-blockH01-group div.fa-systems h3 a:active{
+	background-color: #e5f0d7;
+}
+div.index-blockH01 div.index-blockH01-group div.automation-systems h3 a:focus,
+div.index-blockH01 div.index-blockH01-group div.fa-systems h3 a:focus{
+	background-color: #e5f0d7;
+}
+
+/*motion-drive*/
+
+div.index-blockH01 div.index-blockH01-group div.motion-drive h3 a:link,
+div.index-blockH01 div.index-blockH01-group div.motion-drive h3 a:visited{
+	border-bottom-color: #c8ca66;
+	background-color: #f4f4e0;
+}
+div.index-blockH01 div.index-blockH01-group div.motion-drive h3 a:hover,
+div.index-blockH01 div.index-blockH01-group div.motion-drive h3 a:active{
+	background-color: #efefd1;
+}
+div.index-blockH01 div.index-blockH01-group div.motion-drive h3 a:focus{
+	background-color: #efefd1;
+}
+
+/*Robotics*/
+
+div.index-blockH01 div.index-blockH01-group div.Robotics h3 a:link,
+div.index-blockH01 div.index-blockH01-group div.Robotics h3 a:visited{
+	border-bottom-color: #208C5B;
+	background-color: #EEF6F2;
+}
+div.index-blockH01 div.index-blockH01-group div.Robotics h3 a:hover,
+div.index-blockH01 div.index-blockH01-group div.Robotics h3 a:active{
+	background-color: #DDEDE6;
+}
+div.index-blockH01 div.index-blockH01-group div.Robotics h3 a:focus{
+	background-color: #DDEDE6;
+}
+
+/*energy-conservation-support_environment-measure-equipment*/
+
+div.index-blockH01 div.index-blockH01-group div.energy-conservation-support h3 a:link,
+div.index-blockH01 div.index-blockH01-group div.energy-conservation-support h3 a:visited{
+	border-bottom-color: #68BDEA;
+	background-color: #E9F2F6;
+}
+div.index-blockH01 div.index-blockH01-group div.energy-conservation-support h3 a:hover,
+div.index-blockH01 div.index-blockH01-group div.energy-conservation-support h3 a:active{
+	background-color: #DEEDF4;
+}
+div.index-blockH01 div.index-blockH01-group div.energy-conservation-support h3 a:focus{
+	background-color: #DEEDF4;
+}
+
+/*addition,other*/
+
+div.index-blockH01 div.index-blockH01-group div.addition h3 a:link,
+div.index-blockH01 div.index-blockH01-group div.addition h3 a:visited,
+div.index-blockH01 div.index-blockH01-group div.other h3 a:link,
+div.index-blockH01 div.index-blockH01-group div.other h3 a:visited{
+	border-bottom-color: #bfbfbf;
+	background-color: #f2f2f2;
+}
+div.index-blockH01 div.index-blockH01-group div.addition h3 a:hover,
+div.index-blockH01 div.index-blockH01-group div.addition h3 a:active,
+div.index-blockH01 div.index-blockH01-group div.other h3 a:hover,
+div.index-blockH01 div.index-blockH01-group div.other h3 a:active{
+	background-color: #ececec;
+}
+div.index-blockH01 div.index-blockH01-group div.addition h3 a:focus,
+div.index-blockH01 div.index-blockH01-group div.other h3 a:focus{
+	background-color: #ececec;
+}
+
+/*closed*/
+
+div.index-blockH01 div.index-blockH01-group div.closed h3 a:link,
+div.index-blockH01 div.index-blockH01-group div.closed h3 a:visited{
+	border-bottom-color: #e8e8e8;
+	background-color: #e8e8e8;
+}
+div.index-blockH01 div.index-blockH01-group div.closed h3 a:hover,
+div.index-blockH01 div.index-blockH01-group div.closed h3 a:active{
+	background-color: #e8e8e8;
+}
+div.index-blockH01 div.index-blockH01-group div.closed h3 a:focus{
+	background-color: #e8e8e8;
+}
+
+
+
+/* featured-product
+------------------------------------*/
+div.product-area h3.featured-product{
+	display:block;
+	margin: 1em 0 0 0;
+	padding: 0.5em 9px 0.5em 9px;
+	zoom:1;
+	_height:1px;
+	border-style: solid;
+	border-width: 1px 1px 0 1px;
+	border-color: #ccc;
+	background-color:#ebebeb;
+}
+
+div.product-list h3.featured-product{
+	display: none;
+	margin: 1.08em 0 0;
+	padding: 0.25em 9px 0.25em 16px;
+	background-image: url(../common/img/transparent.gif);
+	text-align: left;
+}
+
+/*featured-product-list*/
+div.product-area div.featured-product-list dl {
+	margin: 0 0 0 0;
+	width: 216px;
+	font-size: 92%;
+	line-height: 1.19;
+}
+div.product-area div.featured-product-list dl.current {
+	display: block;
+}
+
+div.product-area div.featured-product-list dt {
+	background:url(../img/bg_04.gif) left top no-repeat;
+	display: block;
+	margin: 0;
+	font-weight: bold;
+	padding: 10px 8px 0;
+}
+
+div.product-area div.featured-product-list dt a:link,
+div.product-area div.featured-product-list dt a:visited{
+	text-decoration: none;
+}
+div.product-area div.featured-product-list dt a:focus{
+	text-decoration: underline;
+}
+div.product-area div.featured-product-list dt a:link:hover,
+div.product-area div.featured-product-list dt a:link:active,
+div.product-area div.featured-product-list dt a:visited:hover,
+div.product-area div.featured-product-list dt a:visited:active{
+	text-decoration: underline;
+}
+div.product-area div.featured-product-list dt img.product-image{
+	display: block;
+}
+div.product-area div.featured-product-list dd{
+	background:url(../img/bg_05.gif) left bottom no-repeat;
+	margin: 0;
+	padding: 0 10px 10px 10px;
+}
+
+
+/*------------------------------------
+	about-us-area
+------------------------------------*/
+div.about-us-area{
+	float:left;
+}
+
+div.about-us-area div.about-us-section{
+	font-size:92%;
+}
+
+div.about-us-area div.link-list-block ul.link-listA01 li{
+	margin-top:0.4em;
+}
+
+/*------------------------------------
+	banner-area
+------------------------------------*/
+div.banner-area{
+	float:left;
+	margin-top:1.92em;
+}
+
+div.banner-listA01{
+	margin-bottom:1.49em;
+	_margin-bottom:1.24em;
+}
+
+*+html body div.banner-listA01{
+	margin-bottom:1.24em;
+}
+
+div.banner-listA01 ul,
+div.top-special-banner ul{
+	list-style-type:none;
+}
+
+div.banner-listA01 ul li,
+div.top-special-banner ul li{
+	margin-bottom:0.9em;
+	_margin-bottom:0.58em;
+}
+
+*+html body div.banner-listA01 ul li,
+*+html body div.top-special-banner ul li{
+	margin-bottom:0.58em;
+}
+
+div.banner-listA01 a,
+div.top-special-banner a{
+	display:block;
+	zoom:1;
+	_height:1;
+}
+
+div.banner-area div.top-special-banner ul li a {
+	text-decoration: none;
+}
+div.banner-area div.top-special-banner ul li a:hover {
+	text-decoration: underline;
+}
+
+div.top-special-banner h3 {
+	border-bottom: 3px solid #ccc;
+	padding-bottom: 0.2em;
+	margin-bottom: 0.5em;
+	font-size: 116%;
+	color: #5E1C1C;
+}
+
+
+
+/*------------------------------------
+	whats-new-area
+------------------------------------*/
+
+div.whats-new-area{
+	float:left;
+}
+
+div.whats-new-area div.whats-new-section{
+	font-size:92%;
+}
+
+div.whats-new-area dl.time-line-list{
+	padding-bottom:0;
+}
+
+div.whats-new-area dl.time-line-list dt{
+	margin-bottom:0;
+	padding-top:0.6em;
+	background:none;
+}
+
+dl.time-line-list dd{
+	margin-bottom:0;
+	padding-bottom:0.5em;
+	background:url(../common/img/line_02.gif) left bottom repeat-x;
+}
+
+div.whats-new-area ul.link-listA01{
+	padding-top:0;
+	padding-bottom:2em;
+}
+
+div.whats-new-area ul.link-listA01 li{
+	padding-top:0;
+	padding-bottom:0.5em;
+	background:url(../common/img/line_02.gif) left bottom repeat-x;
+}
+
+
+/*------------------------------------
+	applications-area
+------------------------------------*/
+
+div.applications-area{
+	padding-top:20px;
+}
+
+div.applications-area div.appli-list a:link,
+div.applications-area div.appli-list a:visited{
+	text-decoration: none;
+}
+
+div.applications-area div.appli-list a:focus,
+div.applications-area div.appli-list a:link:hover,
+div.applications-area div.appli-list a:link:active,
+div.applications-area div.appli-list a:visited:hover,
+div.applications-area div.appli-list a:visited:active{
+	text-decoration: underline;
+}
+
+div.applications-area div.appli-list h3 a:link,
+div.applications-area div.appli-list h3 a:visited,
+div.applications-area div.appli-list h3 a:focus,
+div.applications-area div.appli-list h3 a:link:hover,
+div.applications-area div.appli-list h3 a:link:active,
+div.applications-area div.appli-list h3 a:visited:hover,
+div.applications-area div.appli-list h3 a:visited:active{
+	color: #555;
+}
+
+
+div.applications-area div.appli-list{
+	clear:both;
+	margin-top:1em;
+	margin-bottom:1.65em;
+	font-size:92%;
+	background:url(../img/bg_06.gif) left bottom repeat-y;
+}
+
+div.applications-area div.appli-list h3{
+	clear:both;
+	border-style: solid;
+	border-width: 1px 0 1px 0;
+	border-color: #ccc;
+}
+
+div.applications-area div.appli-list h3 a{
+	display: block;
+	padding: 7px 10px 7px 10px;
+}
+
+div.applications-area div.appli-list ul{
+	float: left;
+	list-style-type:none;
+	margin-bottom:0.5em;
+}
+
+div.applications-area div.appli-list ul li{
+	float: left;
+	_overflow:visible;
+	_height:1px;
+	zoom:1;
+	_height:1;
+	width:227px;
+	padding:7px 0 0 0;
+}
+
+div.applications-area div.appli-list ul li span.image img{
+	float:left;
+	margin-top:0;
+	margin-left:-40px;
+	margin-bottom:0.2em;
+}
+
+div.applications-area div.appli-list ul li span.description{
+	display:block;
+	margin-left:50px;
+	margin-right:3px;
+}
+
+
+
+
+
+
+
+
+/*------------------------------------
+	global-network,flash-alternate
+------------------------------------*/
+
+div.flash-alternate{
+	position:relative;
+}
+
+dl.global-network{
+	position:absolute;
+	top:0;
+	right:18px;
+	width:294px;
+	min-height:200px;
+	_height:200px;
+	background:#fff url(../img/global_network_bg_01.gif) left top no-repeat;
+	font-size:92%;
+}
+
+dl.global-network dd{
+	/*\*//*/
+	height:173px;
+	/**/
+}
+dl.global-network dt{
+	border-bottom:4px solid #0055c4;
+	line-height:0;
+}
+
+dl.global-network ul.link-listA01{
+	margin-right:10px;
+	margin-left:10px;
+}
+
+
+/*anchor*/
+
+dl.global-network ul.link-listA01 a:link{
+	text-decoration:none;
+	color:#666;
+}
+dl.global-network ul.link-listA01 a:visited{
+	text-decoration:none;
+	color:#878787;
+}
+dl.global-network ul.link-listA01 a:link:hover,
+dl.global-network ul.link-listA01 a:visited:hover,
+dl.global-network ul.link-listA01 a:link:active,
+dl.global-network ul.link-listA01 a:visited:active,
+dl.global-network ul.link-listA01 a:link:focus,
+dl.global-network ul.link-listA01 a:visited:focus{
+	text-decoration:underline;
+	color:#4d4d4d;
+}
+
+dl.global-network ul.link-listA01 a:link{
+	_text-decoration:none;
+}
+dl.global-network ul.link-listA01 a:visited{
+	_text-decoration:none;
+}
+dl.global-network ul.link-listA01 a:hover,
+dl.global-network ul.link-listA01 a:active{
+	_text-decoration:underline;
+}
+
+
+
+
+

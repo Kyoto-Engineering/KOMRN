@@ -1,0 +1,1617 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xml:lang="en" lang="en" xmlns="http://www.w3.org/1999/xhtml">
+  
+<!-- Mirrored from www.ia.omron.com/support/guide/3/safety_functions.html by HTTrack Website Copier/3.x [XR&CO'2014], Sat, 17 Dec 2016 00:42:09 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=utf-8" /><!-- /Added by HTTrack -->
+<head>
+    <meta http-equiv="Content-Language" content="en" />
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta http-equiv="Content-Style-Type" content="text/css" />
+    <meta http-equiv="Content-Script-Type" content="text/javascript" />
+    <title>Safety Functions of Safety Components | OMRON Industrial Automation</title>
+    <meta name="keywords" content="Ensure Safety,Risk Assessment,Safety Category Assessment,Categories,Validation,Documentation&#xA;," />
+    <meta name="description" content="Risk and Safety Category Assessments,Interlocking Devices,Basic Safety Functions in the Event of a Fault,Presence Detection,Two-hand Controller,Functional Safety Technology,&#xA;&#xA;" />
+    <script type="text/javascript" language="JavaScript" src="../../../resource/script/common/default.js"><!----></script>
+    <link rel="stylesheet" type="text/css" media="all" href="../../../common/css/common.css" />
+    <link rel="stylesheet" type="text/css" media="all" href="../../../common/css_g/g_exist_ver3.css" />
+    <link rel="stylesheet" type="text/css" media="print" href="../../../common/css/print.css" />
+    <link rel="start index" href="../../../index-2.html" title="OMRON" />
+    <link rel="chapter" href="../../../index.html" title="Our Strengths" />
+    <link rel="chapter" href="../../../products/index.html" title="Products" />
+    <link rel="chapter" href="../../index.html" title="Technical Support" />
+    <link rel="chapter" href="../../../global_network/index.html" title="Global Network" />
+    <link rel="chapter" href="../../../corporate_profile/index-2.html" title="About Us" />
+    <link rel="chapter" href="../../../new/information/index.html" title="What's New" />
+    <link rel="shortcut icon" href="../../../favicon.ico" type="image/x-icon" /><script type="text/javascript" src="../../../common/js/common.js"></script>
+<script type="text/javascript" src="../../../common/js/rollover.js"></script>
+<script type="text/javascript" src="../../../common/js/cssSupport.js"></script>
+
+<script type="text/javascript" src="../../../shared/js/jquery.js"></script>
+<script type="text/javascript" src="../../../shared/js/function.js"></script>
+<script type="text/javascript" src="../../../shared/js/country_website.js"></script>
+<script type="text/javascript" src="../../../shared/js/global/ga9d07.js?20121001"></script>
+</head>
+  <body id="www-ia-omron-com" class="tmplC03 safety-components">
+    <div class="omron-ia"><p class="non-visual"><a name="page-top" id="page-top">Page top</a></p>
+<div class="header-area">
+	<div class="site-identity">
+		<div class="site-logo">
+			<a href="../../../index.html"><img src="../../../shared/img/logo_01_b.gif" width="129" height="24" alt="OMRON" /></a>
+		</div>
+	<!-- /.site-identity --></div>
+	<div class="utilities">
+		<div class="country-select-area">
+			<p class="canpany">
+				<img src="../../../shared/img/header_txt_01.gif" width="129" height="11" alt="Industrial Automation" />
+			</p>
+			<p class="current-country">
+				<span class="area devider">
+					<a href="javascript:void(0)" onclick="box.countryWebsiteLinks();" id="country"><img src="../../../shared/img/icon_right_b.gif" width="3" height="9" alt="" class="iconA01" />Global</a>
+				</span>
+			</p>
+		</div>
+		<div class="function-area">
+			<ul>
+				<li class="first-child">
+					<a href="../../../contact/index.html"><img src="../../../shared/img/icon_right_b.gif" width="3" height="9" alt="" class="iconA01" />Contact</a>
+				</li>
+			</ul>
+			<div class="search">
+				<form action="http://search2.ia.omron.com/IA/" method="get" name="search_website" id="search_website" class="search-form">
+					<p><input type="text" value="" size="20" name="q" id="search_str" class="search-str" /><input type="submit" value="Search" class="submit60L" id=""  /></p>
+				</form>
+			<!-- /.search --></div>
+		<!-- /.function-area --></div>
+	<!-- /.utilities --></div>
+<!-- /.header-area --></div>
+<!-- === [global-navi-area] === -->
+<div class="global-navi-area">
+<p class="non-visual"><a name="global-navi" id="global-navi">Global Navigation</a></p>
+<ul>
+<li class="home"><a href="../../../index.html">Home</a></li>
+<li class="product"><a href="../../../product/index.html">Products</a></li>
+<li class="support stay-link"><a href="../../index-2.html">Technical Support</a></li>
+<li class="global-network"><a href="../../../global_network/index-2.html">Global Network</a></li>
+<li class="corporate-profile"><a href="../../../corporate_profile/index.html">About Us</a></li>
+</ul>
+<!-- === /[global-navi-area] === --></div><div class="bread-crumb-area">
+        <ul>
+          <li>
+            <a href="../../../index-2.html">Home</a>
+            <span class="separator">&gt;</span>
+          </li>
+          <li>
+            <a href="../../index.html">Technical Support</a>
+            <span class="separator">&gt;</span>
+          </li>
+          <li>
+            <a href="../index-2.html">Technical Guide</a>
+            <span class="separator">&gt;</span>
+          </li>
+          <li>
+            <a href="../3.html">Safety Components</a>
+            <span class="separator">&gt;</span>
+          </li>
+          <li>
+            <strong>Safety Components</strong>
+          </li>
+        </ul>
+      </div>
+      <div class="contents-area">
+        <div class="contents02-area">
+          <div class="contents03-area">
+            <div class="lead-area">
+              <p class="non-visual">
+                <a name="lead" id="lead">Lead Contents</a>
+              </p>
+              <div class="heading-lvl01A01">
+                <h1>Safety Components</h1>
+              </div>
+              <div class="textA01">
+                <p>Risk and Safety Category Assessments,Interlocking Devices,Basic Safety Functions in the Event of a Fault,Presence Detection,Two-hand Controller,Functional Safety Technology,
+
+</p>
+              </div>
+              <div class="family-linkA01">
+                <table border="1" cellspacing="5">
+                  <tr>
+                    <td>
+                      <a href="overview.html">
+                        <img src="../../../common/img/icon_01.gif" width="3" height="9" alt="" class="iconA01" />Overview</a>
+                    </td>
+                    <td>
+                      <a href="safety_requirements.html">
+                        <img src="../../../common/img/icon_01.gif" width="3" height="9" alt="" class="iconA01" />Safety Requirements</a>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td class="stay">
+                      <em>Safety Functions</em>
+                    </td>
+                    <td>
+                      <a href="safety_components.html">
+                        <img src="../../../common/img/icon_01.gif" width="3" height="9" alt="" class="iconA01" />Safety Components</a>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <a href="safety_circuit_example.html">
+                        <img src="../../../common/img/icon_01.gif" width="3" height="9" alt="" class="iconA01" />Safety Circuit Example</a>
+                    </td>
+                    <td>
+                      <a href="circuit_diagrams.html">
+                        <img src="../../../common/img/icon_01.gif" width="3" height="9" alt="" class="iconA01" />Circuit Diagrams</a>
+                    </td>
+                  </tr>
+                </table>
+              </div>
+            </div>
+            <div class="side-area">
+              <p class="non-visual">
+                <a name="related-info" id="related-info">Related Contents</a>
+              </p><div class="related-info-area">
+                <div class="related-info-blockA01">
+                  <p class="lvl01">
+                    <em>Related Contents</em>
+                  </p>
+                  <ul>
+                    <li>
+                      <em class="lvl02">Safety Components</em>
+                      <ul>
+                        <li>
+                          <a href="../../../products/category/switches/index.html">
+                            <img src="../../../common/img/icon_01.gif" width="3" height="9" alt="" class="iconA01" />Products</a>
+                        </li>
+                        <li>
+                          <a href="../../../product/cautions/3.html">
+                            <img src="../../../common/img/icon_01.gif" width="3" height="9" alt="" class="iconA01" />Cautions</a>
+                        </li>
+                        <li>
+                          <a href="../../../products/applications/category/safety-components/index.html">
+                            <img src="../../../common/img/icon_01.gif" width="3" height="9" alt="" class="iconA01" />Applications</a>
+                        </li>
+                      </ul>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="exist-primary-contents-area">
+            <p class="non-visual">
+              <a name="contents" id="contents">Primary Contents</a>
+            </p><div class="content-items">
+  <ul class="link-listA01">
+    <li>
+      <a href="#1">
+        <img src="../../../common/img/icon_05.gif" alt="" class="iconC01" width="5" height="3">1.Risk and Safety Category Assessments</a>
+    </li>
+    <li>
+      <a href="#2">
+        <img src="../../../common/img/icon_05.gif" alt="" class="iconC01" width="5" height="3">2. Interlocking Devices</a>
+    </li>
+    <li>
+      <a href="#3">
+        <img src="../../../common/img/icon_05.gif" alt="" class="iconC01" width="5" height="3">3. Basic Safety Functions in the Event of a Fault</a>
+    </li>
+    <li>
+      <a href="#4">
+        <img src="../../../common/img/icon_05.gif" alt="" class="iconC01" width="5" height="3">4. Presence Detection</a>
+    </li>
+    <li>
+      <a href="#5">
+        <img src="../../../common/img/icon_05.gif" alt="" class="iconC01" width="5" height="3">5. Two-hand Controller</a>
+    </li>
+    <li>
+      <a href="#6">
+        <img src="../../../common/img/icon_05.gif" alt="" class="iconC01" width="5" height="3">6. Enabling Switches</a>
+    </li>
+    <li>
+      <a href="#7">
+        <img src="../../../common/img/icon_05.gif" alt="" class="iconC01" width="5" height="3">7. Functional Safety Technology</a>
+    </li>
+  </ul>
+  <div class="column1">
+    <div class="positionleft" style="width:px;">
+      <p>
+        <strong class="headline1">Safety Functions</strong>
+      </p>
+    </div>
+  </div>
+  <div class="top-page-link-area">
+    <ul class="top-page-link">
+      <li>
+        <a href="#page-top">
+          <img height="8" width="5" class="iconB01" alt="" src="../../../common/img/icon_03.gif">Top of page</a>
+      </li>
+    </ul>
+  </div>
+  <div class="column1">
+    <div class="positionleft" style="width:px;" id="1">
+      <p>
+        <strong class="headline1">1.Risk and Safety Category Assessments</strong>
+      </p>
+    </div>
+  </div>
+  <div class="column1">
+    <div class="positionleft" style="width:px;">
+      <p>
+        <strong class="headline2">(1) Ensure Safety</strong>
+      </p>
+      <p>The responsible machine or process designer no longer considers the production requirements and adds safety systems later, but addresses the two issues as a whole. Legislation demands that the machine or process design meets the necessary safety standards and regulations - it is a legal requirement.<br/>Different types of machines will have different levels of associated risk. These risk levels need to be addressed for the whole machine life span. In particular the requirements at commissioning, application/usage and decommissioning of the machine must be considered.<br/>Risk assessment according to ISO14121 is a series of logical steps that enables designers and safety engineers to examine in a systematic way the hazards arising from the use of machinery so that appropriate safety measures can be selected.</p>
+    </div>
+  </div>
+  <div class="column1">
+    <div class="positionleft" style="width:px;">
+      <p>
+        <strong class="headline2">(2) Risk Assessment</strong>
+      </p>
+      <p>ISO14121 - Safety of Machinery - Principles for Risk Assessment The main objective is to describe a systematic procedure for risk assessment so that adequate and constant safety measures can be adopted. These are appropriate during the design, construction, modification, use and decommissioning of the machine.<br/>The safety of machines can be determined in 5 steps.<br/>Documentation of the risk assessment process must be kept.</p>
+      <div class="img">
+        <img src="img/safety_tg_functions_1.html" alt="">
+      </div>
+    </div>
+  </div>
+  <div class="column1">
+    <div class="positionleft" style="width:px;">
+      <p>
+        <strong class="headline2">&#9679; Step 1 Determination of the limits of machinery</strong>
+      </p>
+      <p>Defining machine limits requires the following points to be considered when assessing risk.</p>
+      <p class="disc">Determining requirements for all phases of the machine's life</p>
+      <p class="disc">Defining the intended use and operation and the foreseeable misuse and malfunction</p>
+      <p class="disc">Defining the machine's range of use as limited by factors such as the operator's gender, age, dominant hand, and physical abilities (e.g., impaired eyesight or hearing, size, and strength)</p>
+      <p class="disc">Expected user training, experience, and competence</p>
+      <p class="disc">Possibility that people may be exposed to machine hazards</p>
+      <p class="disc">Possibility that people may be exposed to machine hazards if a foreseeable machine hazard occurs</p>
+    </div>
+  </div>
+  <div class="column1">
+    <div class="positionleft" style="width:px;">
+      <p>
+        <strong class="headline2">&#9679; Step 2 Hazard Identification</strong>
+      </p>
+      <p>Hazard identification means checking for all the hazardous conditions and hazardous events associated with the machine. This involves predicting hazards that may be caused by the machine, such as the following:<br/>Mechanical hazards: Severing, entanglement, crushing, etc.<br/>Electrical hazards: Contact with live parts, static electricity, etc.<br/>Thermal hazards: Health disorders due to contact with high-temperature parts or working in a high-temperature or low-temperature environment</p>
+      <p>Methods for clarifying hazards include the following:</p>
+      <p class="disc">Check lists</p>
+      <p class="disc">Hazard and Operability Study (HAZOP)</p>
+      <p class="disc">Failure Mode and Effect Analysis (FMEA)</p>
+      <p class="disc">Fault Tree Analysis (FTA)</p>
+      <p class="disc">"What-if" method</p>
+    </div>
+  </div>
+  <div class="column1">
+    <div class="positionleft" style="width:px;">
+      <p>
+        <strong class="headline2">&#9679; Step 3 Risk Estimation</strong>
+      </p>
+      <p>After checking for hazardous conditions and hazardous events, the risk factors are determined and the risks are estimated from the degree or possible harm and the probability of the hazard occurring.</p>
+    </div>
+  </div>
+  <div class="column1">
+    <div class="positionleft" style="width:px;">
+      <p>
+        <strong class="headline2">&#9679; Step 4 Risk Evaluation</strong>
+      </p>
+      <p>After estimating the risk, the risks are evaluated to determine whether the level of risk must be reduced. If the level of risk must be reduced, safety measures, such as changing the design or providing safeguards, are taken.</p>
+    </div>
+  </div>
+  <div class="column1">
+    <div class="positionleft" style="width:px;">
+      <p>
+        <strong class="headline2">&#9679; Step 5 Risk Reduction</strong>
+      </p>
+      <p>The following actions are taken.</p>
+      <p class="disc">Eliminate or reduce exposure to hazard as far as practical.</p>
+      <p class="disc">Reduce the probability and severity.</p>
+      <p class="disc">Use safeguards and safety devices.</p>
+      <p class="disc">Determine that the performance and functional characteristics of the safety measures are suitable for the machine and its use.</p>
+    </div>
+  </div>
+  <div class="column1">
+    <div class="positionleft" style="width:px;">
+      <p>
+        <strong class="headline2">&#9679; Risk Reduction under ISO12100</strong>
+      </p>
+      <p>ISO 12100 (-1/-2) has been formed into JIS standard JISB9700 (-1/-2).<br/>The main purpose of this standard is to set out a framework and directions for general machine safety, so that designers can design safe machines.<br/>The introduction of ISO12100-1:2003 states that "The concept of safety of machinery considers the ability of a machine to perform its intended function(s) during its lifecycle where risk has been adequately reduced". The 3-step method, which is an expression of this risk reduction methodology, has been further implemented into the <b>"Risk Reduction Process"</b> illustrated on the following page, but it does not yet seem to have been fully recognized in actual applications. ISO12100-2 sets out examples of various measures, a sample of which are shown below.</p>
+    </div>
+  </div>
+  <div class="column1">
+    <div class="positionleft" style="width:px;">
+      <p>
+        <strong class="headline2">What is Inherently Safe Design? (ISO12100-1: 2003, para. 4)</strong>
+      </p>
+      <p class="disc">Remove dangers and reduce exposure frequency (4.1 General)</p>
+      <p class="disc">Maintain visibility, and avoid dangerous projections and parts (4.2.1 Geometric Elements)</p>
+      <p class="disc">Employ alternative materials with few dangers that reduce noise and radiation levels (4.2.2 Physical Elements)</p>
+      <p class="disc">Select appropriate materials (Material quality, stresses, corrosiveness etc.) (4.3 General Technical Information on Machine Design)</p>
+      <p class="disc">Employ inherently safe design measures in the below control system (4.11)</p>
+      <p class="disc">Perform automatic surveillance of safety functions implemented under safeguarding measures (4.11.6)</p>
+      <p class="disc">Employ diagnostic system to support fault detection (4.11.12)</p>
+      <p class="disc">Employ redundant systems for components and sub systems (4.12.3)</p>
+      <p class="disc">Automatically limit exposure to sources of danger (4.14)</p>
+    </div>
+  </div>
+  <div class="column1">
+    <div class="positionleft" style="width:px;">
+      <p>
+        <strong class="headline2">What is Safeguarding? (ISO12100-2: 2003 para. 5)</strong>
+      </p>
+      <p class="disc">Employ Sensitive Protective Equipment (Light Curtain, Scanner etc.) (5.2.5)</p>
+      <p class="disc">Employ fixed guards (5.3.2.2)</p>
+      <p class="disc">Employ movable guards (guards with interlocks) (5.3.2.3)</p>
+    </div>
+  </div>
+  <div class="column1">
+    <div class="positionleft" style="width:px;">
+      <p>
+        <strong class="headline2">What are Complimentary Protective Measures? (ISO12100-2: 2003 para. 5)</strong>
+      </p>
+      <p class="disc">Emergency stop function designed to be clearly identified and quickly applied (5.5.2)</p>
+      <p class="disc">Employ an isolation device that can be locked (5.5.4)</p>
+    </div>
+  </div>
+  <div class="column1">
+    <div class="positionleft" style="width:px;">
+      <p>
+        <strong class="headline2">What is Information for use? (ISO12100-2: 2003 para. 6)</strong>
+      </p>
+      <p class="disc">Supplementary documentation or labels should notify of remaining risks, and necessary training, protective equipment, and additional protective devices (6.1.1)</p>
+      <p class="disc">Emit an audiovisual warning (6.3)</p>
+      <p class="disc">Display manufacturer, model, and specifications of the machine (6.4)</p>
+      <p class="disc">Supplementary documentation to include storage conditions, mass, dimensions, and installation and disposal methods (6.5.1)</p>
+    </div>
+  </div>
+  <div class="column1">
+    <div class="positionleft" style="width:px;">
+      <p>
+        <strong class="headline2">Risk Reduction Processes from the Designer窶冱 Perspective</strong>
+      </p>
+      <div class="img">
+        <img src="img/safety_tg_functions_2.html" alt="">
+      </div>
+    </div>
+  </div>
+  <div class="column1">
+    <div class="positionleft" style="width:px;">
+      <p>
+        <strong class="headline2">(3) Safety Category Assessment</strong>
+      </p>
+    </div>
+  </div>
+  <div class="column1">
+    <div class="positionleft" style="width:px;">
+      <p>
+        <strong class="headline2">&#9679; Safety Categories Based on ISO 13849-1</strong>
+      </p>
+      <p>The size of the machine risk is evaluated according to ISO 14121 and measures are taken to reduce the risk. Measures to reduce risk, however, include design measures and mounting safety devices. First, the measures are taken in the design and the category that should be selected is determined by considering two factors: the degree of potential injury (from slight to serious) according to the Category Assessment Table at the right, and the probability of that injury occurring (from almost never to always). The safety category for safety-related parts of control systems in sometimes assessed assigning one category for the entire control circuit of one machine, and in other cases the category is assessed for each part.</p>
+    </div>
+  </div>
+  <div class="column1">
+    <div class="positionleft" style="width:px;">
+      <p>
+        <strong class="headline2">Selecting Parameter S: Severity of Injury<br/>S1: Slight injury (e.g., bruising)<br/>S2: Serious injury (e.g., limb amputation or death)</strong>
+      </p>
+      <p>The risk caused by failures in safety-related parts of the control system is accessed taking into account the worst degree of injury. S1 is selected if the injury is slight and S2 is selected if it is serious.</p>
+    </div>
+  </div>
+  <div class="column1">
+    <div class="positionleft" style="width:px;">
+      <p>
+        <strong class="headline2">Selecting Parameter F: Frequency and/or Exposure Time to the Hazard<br/>F1: Occurs rarely or for a short time.<br/>F2: Occurs frequently or for a long time.</strong>
+      </p>
+      <p>For example, if a worker must periodically insert his hands between parts of a machine while it is operating to mount and remove machine tool parts, F2 is selected. If the machine is rarely approached, F1 is selected.</p>
+    </div>
+  </div>
+  <div class="column1">
+    <div class="positionleft" style="width:px;">
+      <p>
+        <strong class="headline2">Selecting Parameter P: Possibility of Avoiding the Hazard<br/>P1: Avoidable<br/>P2: Unavoidable</strong>
+      </p>
+      <p>Aspects that influence the selection of parameter P include the following:</p>
+      <p class="disc">operation with or without supervision;</p>
+      <p class="disc">operation by experts or non-professionals;</p>
+      <p class="disc">speed with which the hazard arises, e.g., quickly or slowly,</p>
+      <p class="disc">possibilities for hazard avoidance,</p>
+      <p class="disc">practical safety experiences relating to the process.</p>
+      <p>When a hazardous situation occurs P1 should only be selected if there is realistic chance of avoiding an accident or of significantly reducing its effect. P2 should be selected if there is almost no chance of avoiding the hazard.</p>
+    </div>
+  </div>
+  <div class="column1">
+    <div class="positionleft" style="width:px;">
+      <div class="img">
+        <img src="img/safety_tg_functions_3.html" alt="">
+      </div>
+      <p class="note">
+        <em class="notemark"></em>ISO13849-1 : 1999 (EN954-1)</p>
+    </div>
+  </div>
+  <div class="column1">
+    <div class="positionleft" style="width:px;">
+      <p>
+        <strong class="headline2">(4) Categories</strong>
+      </p>
+    </div>
+  </div>
+  <div class="column1">
+    <div class="positionleft" style="width:px;">
+      <p>
+        <strong class="headline2">ISO 13849-1 Safety of Machinery &#8212; Safety-related Parts of Control Systems</strong>
+      </p>
+      <p>Describes risk reduction, which is necessary when designing and constructing safety-related parts of control systems and devices. The categories represent a classification of the control system with respect to their ability to withstand faults and their behavior in the event of a fault.</p>
+      <div class="table-blockA01"><div class="table-blockA01"><table border="0" cellspacing="0" class="tableB01"><tr><td  class="heading center middle">Category</td><td  class="heading center middle">Overview of requirements</td><td  class="heading center middle">Basis for assuring safety</td></tr><tr><td  class="heading center middle">B</td><td class="left top" >The safety-related parts of control systems shall, as a minimum, be designed, constructed, selected, assembled, and combined, in accordance with the relevant standards, using basic safety principles for the specific application so that they can withstand:<br>&#9734; The following are examples of resisting operating environment stress.<br>&#12539; Expected operation stress, such as the reliability of the breaking capacity and the frequency of breaking<br>&#12539; Selecting materials that are resistant to the operating environment<br>&#12539; External factors, such as mechanical vibration, external magnetic fields, power interruptions, and disturbances<br>&#12539; Compliance of components with relevant standards<br>Therefore, special safety standards do not apply to category B parts, and safety functions may decrease when a failure occurs.</td><td colspan="1" rowspan="2" class="left middle" >Depends mainly on the selection of components.</td></tr><tr><td  class="heading center middle">1</td><td class="left top" >The requirements of category B and of this subclause shall apply. Safety-related parts of control systems to category 1 shall be designed and constructed using well-tried components and well-tried safety principles.<br>&#9734; The following are examples of well-tried parts.<br>&#12539; Parts that have previously been used for a broad variety of applications<br>&#12539; Parts that are suitable for safety-related applications and that have had their reliability validated<br>&#9734; The following are examples of well-tried safety principles.<br>&#12539; Protection using fuses when a short circuit occurs<br>&#12539; Decreasing the probability of failure occurrence by providing a margin in part dimensions and by lowering the ratings<br>&#12539; Defining the failure mode, such as by opening the circuit and turning OFF the power supply when a failure occurs<br>&#12539; Early detection of failures<br>&#12539; Post-failure measures, such as grounding the device<br>Therefore, the probability of failure occurrence for category 1 is lower than that for category B. Safety functionality may decrease, however, when a failure occurs.</td></tr><tr><td  class="heading center middle">2</td><td class="left top" >The requirements of category B, the use of well-tried safety principles and the requirements in this subclause shall apply. Safety-related parts of control systems to category 2 shall be designed so that their function(s) are checked at suitable intervals by the machine control system. The check of the safety function(s) shall be performed.<br>&#9734; The following are examples of designing for inspection at intervals appropriate for the machine control system. Safety functions are inspected as follows:<br>&#12539; Before starting the machine and before a hazardous condition occurs.<br>&#12539; Inspection periodically during operation if risk assessment and operation category require inspection. Inspection may be started automatically or manually, but inspection of safety functions is one of the following.<br>&#12539; If no failure is detected, operation is possible.<br>&#12539; If a failure is detected, the output to start the appropriate control operation is output, and the output produces a safe condition. If a safe condition is not produced (e.g., contact fusing in the final switching device), a hazard alarm is output. After a failure is detected, the safety condition is maintained until there is no longer a failure. <br>Therefore, in category 2, safety functions may be lost between inspections if a failure occurs.</td><td colspan="1" rowspan="3" class="left middle" >Mainly depends on configuration</td></tr><tr><td  class="heading center middle">3</td><td class="left top" >The requirements of category B, the use of well-tried safety principles and the requirements in this subclause shall apply. Safety-related parts of control systems to category 3 shall be designed so that a single fault in any of these parts does not lead to the loss of the safety function. Common mode faults shall be taken into account when the probability of such a fault occurring is significant. Whenever reasonably practicable the single fault shall be detected at or before the next demand upon the safety function.<br>&#9734; Designing to prevent single faults from lowering safety functions, means, for example, the following:<br>&#12539; Providing redundancy and diversity<br>&#12539; Automatically checking safety functions<br>Therefore, safety functions may not operate if multiple failures overlap.</td></tr><tr><td  class="heading center middle">4</td><td class="left top" >The requirements of category B, the use of well-tried safety principles and the requirements in this subclause shall apply. Safety-related parts of control systems to category 4 shall be designed so that:<br>&#12539; A single fault in any of these safety-related parts does not lead to a loss of the safety function.<br>&#12539; The single fault is detected at or before the next demand upon the safety functions, e.g. immediately, at switch on, at end of a machine operating cycle.<br>&#12539; If this detection is not possible, then an accumulation of faults shall not lead to a loss of the safety function.</td></tr></table></div></div>
+      <p class="note">
+        <em class="notemark">Note:</em>ISO13849-1: 2006 follows the above categories.</p>
+    </div>
+  </div>
+  <div class="column1">
+    <div class="positionleft" style="width:px;">
+      <p>
+        <strong class="headline2">(5) Validation</strong>
+      </p>
+    </div>
+  </div>
+  <div class="column1">
+    <div class="positionleft" style="width:px;">
+      <p>The safety category of safety-related parts is selected based on ISO 13849-1 to attempt to check and reduce the occurrence of hazards associated with the entire machine based on ISO 14121.<br/>Next, analysis and testing is performed to confirm that the safety-related parts conform to the requirements for the safety of the entire machine.<br/>Although the analysis is performed using a list of foreseeable faults based on ISO 13849-2 and design criteria based on ISO 13849-1, as an example, the following faults are excluded as examples of 'fault exception items'.</p>
+      <p class="decimal">
+        <em class="decimalmark">1.</em>The NC contact of a safety switch with a direct opening/positive opening mechanism does not open.</p>
+      <p class="decimal">
+        <em class="decimalmark">2.</em>The forcibly guided NC and NO contacts of a safety relay contacts are closed at the same time.</p>
+      <p class="decimal">
+        <em class="decimalmark">3.</em>A secured cable reliably protected with a cable duct or other means causes a short circuit between wiring due to an external shock.</p>
+      <p class="decimal">
+        <em class="decimalmark">4.</em>A short circuit occurs in adjacent terminals whose connections are reliably covered with an insulating tube or other means.</p>
+      <div class="img">
+        <img src="img/safety_tg_functions_5.html" alt="">
+      </div>
+    </div>
+  </div>
+  <div class="column1">
+    <div class="positionleft" style="width:px;">
+      <p>
+        <strong class="headline2">(6) Documentation</strong>
+      </p>
+    </div>
+  </div>
+  <div class="column1">
+    <div class="positionleft" style="width:px;">
+      <p>A technical file containing the following information should be recorded:</p>
+      <p class="disc">Drawings, control circuit drawings, calculations, test results</p>
+      <p class="disc">List of necessary safety requirements for ISO 12100, plus other relevant standards and technical specifications used</p>
+      <p class="disc">Details of the methods used to eliminate hazards, risk assessment data</p>
+      <p class="disc">A test report/certificate from a competent body if required</p>
+      <p class="disc">A copy of the instructions</p>
+      <p class="disc">Series manufacture details of internal measures and QA systems</p>
+    </div>
+  </div>
+  <div class="column1">
+    <div class="positionleft" style="width:px;">
+      <p>Items that are required to be documented are shown below, by category (extracted from ISO 13849-2 Table 2)</p>
+      <div class="table-blockA01"><div class="table-blockA01"><table border="0" cellspacing="0" class="tableB01"><tr><td colspan="1" rowspan="2"  class="heading center middle" ><strong>Items Requiring Documentation</strong></td><td colspan="5" rowspan="1"  class="heading center middle" ><strong>Category</strong></td></tr><tr><td  class="heading center middle" ><strong>B</strong></td><td  class="heading center middle" ><strong>1</strong></td><td  class="heading center middle" ><strong>2</strong></td><td  class="heading center middle" ><strong>3</strong></td><td  class="heading center middle" ><strong>4</strong></td></tr><tr><td class="left middle" >Basic Safety Principles</td><td class="center middle" >&#9675;</td><td class="center middle" >&#9675;</td><td class="center middle" >&#9675;</td><td class="center middle" >&#9675;</td><td class="center middle" >&#9675;</td></tr><tr><td class="left middle" >Expected operating stresses</td><td class="center middle" >&#9675;</td><td class="center middle" >&#9675;</td><td class="center middle" >&#9675;</td><td class="center middle" >&#9675;</td><td class="center middle" >&#9675;</td></tr><tr><td class="left middle" >Influences of processed material</td><td class="center middle" >&#9675;</td><td class="center middle" >&#9675;</td><td class="center middle" >&#9675;</td><td class="center middle" >&#9675;</td><td class="center middle" >&#9675;</td></tr><tr><td class="left middle" >Performance during other relevant external influences</td><td class="center middle" >&#9675;</td><td class="center middle" >&#9675;</td><td class="center middle" >&#9675;</td><td class="center middle" >&#9675;</td><td class="center middle" >&#9675;</td></tr><tr><td class="left middle" >Well-tried Components</td><td class="center middle" >---</td><td class="center middle" >&#9675;</td><td class="center middle" >---</td><td class="center middle" >---</td><td class="center middle" >---</td></tr><tr><td class="left middle" >Well-tried Safety Principles</td><td class="center middle" >---</td><td class="center middle" >&#9675;</td><td class="center middle" >&#9675;</td><td class="center middle" >&#9675;</td><td class="center middle" >&#9675;</td></tr><tr><td class="left middle" >The check procedure of the safety function(s)</td><td class="center middle" >---</td><td class="center middle" >---</td><td class="center middle" >&#9675;</td><td class="center middle" >---</td><td class="center middle" >---</td></tr><tr><td class="left middle" >Checking intervals, when specified</td><td class="center middle" >---</td><td class="center middle" >---</td><td class="center middle" >&#9675;</td><td class="center middle" >---</td><td class="center middle" >---</td></tr><tr><td class="left middle" >Foreseeable, single faults considered in the design and the detection method used</td><td class="center middle" >---</td><td class="center middle" >---</td><td class="center middle" >&#9675;</td><td class="center middle" >&#9675;</td><td class="center middle" >&#9675;</td></tr><tr><td class="left middle" >The common mode failures identified and how prevented</td><td class="center middle" >---</td><td class="center middle" >---</td><td class="center middle" >---</td><td class="center middle" >&#9675;</td><td class="center middle" >&#9675;</td></tr><tr><td class="left middle" >The foreseeable, single faults excluded</td><td class="center middle" >---</td><td class="center middle" >---</td><td class="center middle" >---</td><td class="center middle" >&#9675;</td><td class="center middle" >&#9675;</td></tr><tr><td class="left middle" >The faults to be detected</td><td class="center middle" >---</td><td class="center middle" >---</td><td class="center middle" >&#9675;</td><td class="center middle" >&#9675;</td><td class="center middle" >&#9675;</td></tr><tr><td class="left middle" >The variety of accumulations of faults considered in the design</td><td class="center middle" >---</td><td class="center middle" >---</td><td class="center middle" >---</td><td class="center middle" >---</td><td class="center middle" >&#9675;</td></tr><tr><td class="left middle" >How the safety function is maintained in the case of each of the fault(s)</td><td class="center middle" >---</td><td class="center middle" >---</td><td class="center middle" >---</td><td class="center middle" >&#9675;</td><td class="center middle" >&#9675;</td></tr><tr><td class="left middle" >How the safety function is maintained for each of the combination(s) of faults</td><td class="center middle" >---</td><td class="center middle" >---</td><td class="center middle" >---</td><td class="center middle" >---</td><td class="center middle" >&#9675;</td></tr></table></div></div>
+    </div>
+  </div>
+  <div class="column1">
+    <div class="positionleft" style="width:px;">
+      <p>
+        <strong class="headline2">(7) What is ISO13849-1: 2006 (PL)</strong>
+      </p>
+    </div>
+  </div>
+  <div class="column1">
+    <div class="positionleft" style="width:px;">
+      <p>
+        <strong class="headline2">&#9679; Background of ISO 13849-1 Revision</strong>
+      </p>
+      <p>Until now, the 'category', i.e. the classification of the architecture (structure) of a safety control system, has been a deterministic theory focused on the composition of hardware.<br/>But as technology advances, electronic components such as transistors, integrated circuits and software based components such as microprocessors were adopted as core elements of safety related control systems.<br/>Since year 2000, work has been underway to define the performance of machine safety control systems in terms of function and reliability rather than component failure modes. This is the concept of "functional safety." IEC61508, the international standard for safety related electrical and electronic control systems, provides definitions of safety of complicated controls, down to the constituent components level such as designing reliability including life (until a loss of safety function) and programs based upon probability theory.<br/>IEC61508 has a very wide scope of application, so a new standard specifically designed for the machine control systems, IEC62061, was developed to provide for mechanical safety. However, because this standard basically assumes complicated controls, it assumes many safety control system architectures, and individual architecture requires complicated calculation of probability. This is the reason why IEC62061 was not familiar among machine designers who are accustomed to the relatively easy-to-follow definitions of "Categories."<br/>The latest version of ISO13849-1: 2006 combines the straight forward deterministic features of EN954-1's Categories with IEC62061's probabilistic and systematic design considerations (a reliability model). In other words, the revised version of ISO13849-1 selects the architecture models in IEC62061 that match the definitions of the Categories, and applies those reliability models.<br/>This version can be called a functional safety standard in its simplified version.</p>
+      <div class="img">
+        <img src="img/safety_tg_functions_31.html" alt="">
+      </div>
+    </div>
+  </div>
+  <div class="column1">
+    <div class="positionleft" style="width:px;">
+      <p>
+        <strong class="headline2">&#9679; Main Changes</strong>
+      </p>
+      <p>
+        <strong class="headline2">Changes in Risk Estimation Methods</strong>
+      </p>
+      <p>Both methods require estimating risk of hazards at the risk assessment stages.<br/>In estimating risks, EN954-1 evaluated and classified the results of its risk estimations into the risk levels of I to IV.<br/>But the evaluation process did not encompass any notion of targeted performance that safety measures to reduce risks should reach. As a result, safety control system's structure Categories B to 4 are generally determined directly from the risk graph. When trying to establish a common parameter between persons who perform risk assessment (for example, users) and persons who implement risk reduction (for example, machine designers), the users may not understand the functional differences of safety control system structures from the designer's viewpoint, and the designer in turnfinds it difficult to understand user requirements. Also, the overwhelming majority of risks at actual working sites are minor damage such as suspension of operation for several days, while EN954-1's risk graph gave more stress for risk estimations to serious damage, and the previous standard did not accurately reflect this aspect.</p>
+      <div class="img">
+        <img src="img/safety_tg_functions_32.html" alt="">
+      </div>
+      <p>The latest revision in ISO 13849-1: 2006 allows users to determine risk estimations homogeneously and uniquely, and makes risk assessment easier for persons responsible for implementing it.</p>
+    </div>
+  </div>
+  <div class="column1">
+    <div class="positionleft" style="width:px;">
+      <p>
+        <strong class="headline2">Change in Definitions of Safety Control System's Performance</strong>
+      </p>
+      <p>How should designers reduce risks?<br/>If designers are required to satisfy Category requirements only, once determined safety control system structure will maintain the same level of safety performance.<br/>The question is whether or not this is a correct concept considering that every machine can fail at some future time. The components comprising the safety control system also will deteriorate and can fail at some future time. It is important to figure out in what mode the system will encounter a failure at such times. When a machine experiences a failure that causes the expected safety function to fail during a period expected by its users, and if the failure is not detected, it is equal to non performance of safety functions. But, definitions only based upon deterministic theory cannot cover such time related elements.<br/>To improve this aspect, the latest revision includes additional features to the previous structure definitions with two-layer structure definitions that enable users to probabilistically evaluate a safety control system's reliability, including mean time to dangerous failure at the component level and the level of detecting dangerous failure. This allows users to make quantitative evaluation according to how they actually use the machine. This is the core component of the 2006 revision.</p>
+      <div class="img">
+        <img src="img/safety_tg_functions_33.html" alt="">
+      </div>
+    </div>
+  </div>
+  <div class="column1">
+    <div class="positionleft" style="width:px;">
+      <p>
+        <strong class="headline2">Common Indicator Criteria</strong>
+      </p>
+      <p>The revised standard establishes indicators of a safety control system performance level that can be clearly communicated between a person who implements risk assessment and a person who designs a machine.<br/>These indicators are called Performance Level (hereinafter abbreviated as "PL"), and are evaluated using five levels from "a" to "e." Required performance levels as seen from the standpoint of a person who implements risk assessment are specifically called PLr.<br/>PL, the achieved performance level of a safety control system after risk reduction has been implemented, must be equal to or greater than required Performance Level (PLr).</p>
+      <div class="img">
+        <img src="img/safety_tg_functions_34.html" alt="">
+      </div>
+    </div>
+  </div>
+  <div class="column1">
+    <div class="positionleft" style="width:px;">
+      <p>
+        <strong class="headline2">&#9679; How to Determine Performance Level</strong>
+      </p>
+      <p>
+        <strong class="headline2">Required Performance Level: PLr</strong>
+      </p>
+      <p>As with the risk graph in EN954-1, a required performance level is evaluated in terms of severity of injury (S), frequency and/or exposure to hazard (F) and possibility of avoiding hazard or limiting harm (P). As a result, the required performance level (PLr) ranging from "a" to "e" is determined depending on the scale of the risk.</p>
+      <div class="img">
+        <img src="img/safety_tg_functions_35.html" alt="">
+      </div>
+      <p>&#65308;Meaning of Symbols&#65310;<br/>S1: slight (normally reversible injury)<br/>S2: serious (normally irreversible injury or death)<br/>F1: seldom-to-less-often and/or exposure time is short<br/>F2: frequent-to-continuous and/or exposure time is long<br/>P1: possible under specific conditions<br/>P2: scarcely possible</p>
+    </div>
+  </div>
+  <div class="column1">
+    <div class="positionleft" style="width:px;">
+      <p>
+        <strong class="headline2">Method to Evaluate Performance Level (PL)</strong>
+      </p>
+      <p>Four parameters are used to evaluate a safety related control system's performance level (PL).</p>
+    </div>
+  </div>
+  <div class="column1">
+    <div class="positionleft" style="width:px;">
+      <p class="decimal">
+        <em class="decimalmark">1.</em>Category</p>
+      <p class="decimal">
+        <em class="decimalmark">2.</em>MTTFd (Mean Time To Dangerous Failure)</p>
+      <p class="decimal">
+        <em class="decimalmark">3.</em>DCavg (Average Diagnostic Coverage)</p>
+      <p class="decimal">
+        <em class="decimalmark">4.</em>CCF (Common Cause Failure)</p>
+    </div>
+  </div>
+  <div class="column1">
+    <div class="positionleft" style="width:px;">
+      <p>The Categories refer to the architecture of a safety related control system, and are classified into five categories as defined in the previous version of EN954-1.<br/>MTTFd refers to an average life before the dangerous failure of a component. DC refers to the certainty of detecting failures in the entire system including software. CCF refers to the protection of the entire system from failing due to a common cause. As parameters for reliability, MTTFd and DCavg are determined by formulas, and CCF is determined with a checklist method.<br/>Each of the parameters is classified into levels using standard values: three levels for MTTFd, three levels for DC and two levels for CCF. Performance Levels are evaluated comprehensively in terms of these four parameters.<br/>The following sections show how each of the parameters is calculated.</p>
+    </div>
+  </div>
+  <div class="column1">
+    <div class="positionleft" style="width:px;">
+      <p>
+        <strong class="headline2">&#9679; How to Evaluate Performance Level</strong>
+      </p>
+      <p>As described above, when the four parameters are calculated, the PL can be determined from the following graph:</p>
+      <p class="disc">Category (the five categories of B, 1, 2, 3, and 4)</p>
+      <p class="disc">MTTFd (the three levels of High, Medium, and Low)</p>
+      <p class="disc">DCavg (the four levels of High, Medium, Low, and None)</p>
+      <p class="disc">CCF (the two levels of 65 or more points and less than 65 points)</p>
+      <div class="img">
+        <img src="img/safety_tg_functions_36.html" alt="">
+      </div>
+      <p>For example, with "Category 4, MTTFd=High, DCavg=High, CCF of 65 points or higher," then the PL is evaluated as "e". However, the thresholds in the above graph for MTTFd determination are not easy to locate therefore the below table is provided to give a more simplified view. Either the graph or the table may be used.</p>
+      <div class="table-blockA01"><div class="table-blockA01"><table border="0" cellspacing="0" class="tableB01"><tr><td colspan="2" rowspan="1"  class="heading left middle"><strong>Category</strong></td><td class="center middle" >B</td><td class="center middle" >1</td><td class="center middle" >2</td><td class="center middle" >2</td><td class="center middle" >3</td><td class="center middle" >3</td><td class="center middle" >4</td></tr><tr><td colspan="2" rowspan="1"  class="heading left middle"><strong>DCavg</strong></td><td class="center middle" >None</td><td class="center middle" >None</td><td class="center middle" >Low</td><td class="center middle" >Medium</td><td class="center middle" >Low</td><td class="center middle" >Medium</td><td class="center middle" >High</td></tr><tr><td colspan="2" rowspan="1"  class="heading left middle"><strong>MTTFd of each channel</strong></td><td colspan="7" rowspan="1" class="center middle" ></td></tr><tr><td colspan="1" rowspan="3"  class="heading left middle"></td><td  class="heading left middle" ><strong>Low</strong></td><td class="center middle" >a</td><td class="center middle" >---</td><td class="center middle" >a</td><td class="center middle" >b</td><td class="center middle" >b</td><td class="center middle" >c</td><td class="center middle" >---</td></tr><tr><td  class="heading left middle"><strong>Medium</strong></td><td class="center middle" >b</td><td class="center middle" >---</td><td class="center middle" >b</td><td class="center middle" >c</td><td class="center middle" >c</td><td class="center middle" >d</td><td class="center middle" >---</td></tr><tr><td  class="heading left middle"><strong>High</strong></td><td class="center middle" >---</td><td class="center middle" >c</td><td class="center middle" >c</td><td class="center middle" >d</td><td class="center middle" >d</td><td class="center middle" >d</td><td class="center middle" >e</td></tr></table></div></div>
+      <p class="note">
+        <em class="notemark">*</em>Notice that in both the graph and the table methods some combinations of parameters are not allowed. For example, combining Category 4 with medium reliability and low diagnostic coverage is not considered.</p>
+    </div>
+  </div>
+  <div class="column1">
+    <div class="positionleft" style="width:px;">
+      <p>
+        <strong class="headline2">&#9679; How to Calculate PL Parameter</strong>
+      </p>
+      <div class="img">
+        <img src="img/safety_tg_functions_38_1.html" alt="">
+      </div>
+      <div class="img">
+        <img src="img/safety_tg_functions_38_2.html" alt="">
+      </div>
+    </div>
+  </div>
+  <div class="top-page-link-area">
+    <ul class="top-page-link">
+      <li>
+        <a href="#page-top">
+          <img height="8" width="5" class="iconB01" alt="" src="../../../common/img/icon_03.gif">Top of page</a>
+      </li>
+    </ul>
+  </div>
+  <div class="column1">
+    <div class="positionleft" style="width:px;" id="2">
+      <p>
+        <strong class="headline1">2. Interlocking Devices</strong>
+      </p>
+    </div>
+  </div>
+  <div class="column1">
+    <div class="positionleft" style="width:px;">
+      <p>
+        <strong class="headline2">An interlocking device is a mechanical or electrical device that can prevent the machine from operating unless certain conditions are met, such as closing a guard.<br/>Provisions for interlocking are stipulated in ISO14120 for guards, ISO14119 for interlocking devices associated with guards, and ISO13849-1 for the method that is used to process the signal from an interlocking device and to stop machinery. This section describes interlocking parts linked to guards like safety limit switches and safety door switches in accordance with ISO14119 along with a description of each.</strong>
+      </p>
+    </div>
+  </div>
+  <div class="column1">
+    <div class="positionleft" style="width:px;">
+      <p>
+        <strong class="headline2">(1) The role of Interlocking Devices</strong>
+      </p>
+    </div>
+  </div>
+  <div class="column1">
+    <div class="positionleft" style="width:px;">
+      <p>Safety machinery and equipment consist of a control system and an operative system as shown in <b>Fig. 1 Role of Interlocking Devices</b>. The power control element combines the roles of the control and operative systems, and machine actuators are equipped with safeguards and interlocking devices.<br/>Electricity is supplied to the power control elements only if a safety check signal is sent from the interlock device and an operate command is sent from the control system.<br/>The interlock device is used to send safety check results to the power control elements as shown in the figure below. A safety signal can be sent from a PLC in some cases as long as the PLC does not have a negative impact on the interlock device.<br/>In other words, the interlock device (safety-related part) and the PLC (non safety-related part) are completely independent of each other.<br/>Control systems are divided into safety-related and non-safety-related parts in international safety standards, and they must be constructed so that non-safety-related parts do not have a negative impact on safety-related parts during normal operation or when a malfunction occurs.</p>
+      <div class="img">
+        <img src="img/Safety__TG_functions_fig6.html" alt="">
+      </div>
+    </div>
+  </div>
+  <div class="column1">
+    <div class="positionleft" style="width:px;">
+      <p>
+        <strong class="headline2">(2) Types of Interlocking Devices</strong>
+      </p>
+    </div>
+  </div>
+  <div class="column1">
+    <div class="positionleft" style="width:px;">
+      <p>Interlocking devices are classified by type.</p>
+    </div>
+  </div>
+  <div class="column1">
+    <div class="positionleft" style="width:px;">
+      <p>
+        <strong class="headline2">&#9679; Interlocking Types</strong>
+      </p>
+    </div>
+  </div>
+  <div class="column1">
+    <div class="positionleft" style="width:px;">
+      <p>
+        <strong class="headline2">Control Interlock</strong>
+      </p>
+      <p>This type of interlocking device inputs a stop command to a control system, like an electromagnetic relay that interrupts or removes the energy supplied to machine actuators.</p>
+    </div>
+  </div>
+  <div class="column1">
+    <div class="positionleft" style="width:px;">
+      <p>
+        <strong class="headline2">Power Interlock</strong>
+      </p>
+      <p>This type of interlocking device sends a stop command that directly interrupts or removes the energy supplied to machine actuators.<br/>Under the power interlock system, the control system does not intervene between the interlock device and the power supply, but instead the interlock device itself uses a safety switch or some similar measure to control interlocking.</p>
+    </div>
+  </div>
+  <div class="column1">
+    <div class="positionleft" style="width:px;">
+      <p>
+        <strong class="headline2">&#9679; Guard Locking Types</strong>
+      </p>
+    </div>
+  </div>
+  <div class="column1">
+    <div class="positionleft" style="width:px;">
+      <p>
+        <strong class="headline2">Non-locking Type</strong>
+      </p>
+      <p>The guard can be opened or closed at any time and the interlocking device sends a stop command only if the guard is open.</p>
+    </div>
+  </div>
+  <div class="column1">
+    <div class="positionleft" style="width:px;">
+      <p>
+        <strong class="headline2">Locking Type</strong>
+      </p>
+      <p>
+        <strong class="headline2">(1) Unconditional Unlocking</strong>
+      </p>
+      <p>An operator can unlock the guard at any time with this type of unlocking, but it does have a precondition in that it must take longer to unlock the guard than it does to clear the hazard.</p>
+      <p>
+        <strong class="headline2">(2) Conditional Unlocking</strong>
+      </p>
+      <p>The guard can be unlocked under certain conditions, such as when confirming that the hazardous condition has been cleared (e.g. confirming that rotation has stopped).</p>
+      <div class="table-blockA01"><div class="table-blockA01"><table border="0" cellspacing="0" class="tableB01"><tr><td  class="heading left middle" ><strong>Example of non-locking type</strong></td><td class="center middle" ><div class="image"><img src="img/safety_tg_functions_7_1.html"/></td></tr><tr><td  class="heading left middle" ><strong>Example of locking type</strong></td><td class="center middle" ><div class="image"><img src="img/safety_tg_functions_7_2.html"/></td></tr></table></div></div>
+    </div>
+  </div>
+  <div class="column1">
+    <div class="positionleft" style="width:px;">
+      <p>
+        <strong class="headline2">&#9679; Locking and Unlocking Types</strong>
+      </p>
+    </div>
+  </div>
+  <div class="column1">
+    <div class="positionleft" style="width:px;">
+      <p>Locking and unlocking types can be classified by the actuating mechanism that is used to apply and release the lock.</p>
+    </div>
+  </div>
+  <div class="column1">
+    <div class="positionleft" style="width:px;">
+      <p>
+        <strong class="headline2">Spring Applied, Power Released Type</strong>
+      </p>
+      <p>OMRON uses a mechanical lock/solenoid release method.</p>
+    </div>
+  </div>
+  <div class="column1">
+    <div class="positionleft" style="width:px;">
+      <p>
+        <strong class="headline2">Power Applied, Spring Released Type</strong>
+      </p>
+      <p>OMRON uses a solenoid lock/mechanical release method.</p>
+    </div>
+  </div>
+  <div class="column1">
+    <div class="positionleft" style="width:px;">
+      <p>
+        <strong class="headline2">Power Applied, Power Released Type</strong>
+      </p>
+      <div class="table-blockA01"><div class="table-blockA01"><table border="0" cellspacing="0" class="tableB01"><tr><td  class="heading left middle"></td><td  class="heading center middle" ><strong>Mechanical lock and solenoid release</strong></td><td  class="heading center middle" ><strong>Solenoid lock and mechanical release</strong></td></tr><tr><td  class="heading left middle"><strong>Guard (close)</strong></td><td class="left middle" >Mechanical (Spring) Lock <div class="image"><img src="img/safety_tg_functions_39_1.html"/></td><td class="left middle" >Solenoid (Power) Lock <div class="image"><img src="img/safety_tg_functions_39_3.html"/></td></tr><tr><td  class="heading left middle"><strong>Guard (open)</strong></td><td class="left middle" >Solenoid (Power) Lock Release <div class="image"><img src="img/safety_tg_functions_39_2.html"/></td><td class="left middle" >Mechanical (Spring) Lock Release <div class="image"><img src="img/safety_tg_functions_39_4.html"/></td></tr></table></div></div>
+      <p class="note">
+        <em class="notemark">Note: </em>In a specific application, either a "power applied, spring released type" or "power applied, power released type" may be used if they provide an equivalent level of safety. In principle, however, the part (bolt) intended to provide the lock the guard must be the "spring applied, power released type."</p>
+    </div>
+  </div>
+  <div class="column1">
+    <div class="positionleft" style="width:px;">
+      <p>
+        <strong class="headline2">(3) Designing Interlocking Devices</strong>
+      </p>
+    </div>
+  </div>
+  <div class="column1">
+    <div class="positionleft" style="width:px;">
+      <p>The following items must be considered in the design of interlocking devices that use a safety limit switch or safety door switch.</p>
+    </div>
+  </div>
+  <div class="column1">
+    <div class="positionleft" style="width:px;">
+      <p>
+        <strong class="headline2">&#9679; Using a Mechanically Actuated Position Detector Switch</strong>
+      </p>
+      <p class="decimal">
+        <em class="decimalmark">(1)</em>When designing an interlocking device that uses a single mechanically actuated position detector switch, the switch must be actuated in positive operation (positive opening mechanism).</p>
+      <p class="decimal">
+        <em class="decimalmark">(2)</em>When designing an interlocking device that uses two mechanically actuated position detector switches, one switch must be actuated in positive operation (positive opening mechanism) and the other must be activated in negative operation (negative opening mechanism) notably to avoid common cause failures.</p>
+      <p class="note">
+        <em class="notemark">Note:</em>See the part of Negative Operation and Positive Operation of Safety Components for details on positive and negative actuation.</p>
+    </div>
+  </div>
+  <div class="column1">
+    <div class="positionleft" style="width:px;">
+      <p>
+        <strong class="headline2">&#9679; Fixing Position Detector Switches</strong>
+      </p>
+      <p class="decimal">
+        <em class="decimalmark">(1)</em>Position detector switches must be tightened and loosened with a tool.</p>
+      <p class="decimal">
+        <em class="decimalmark">(2)</em>The use of slots for mounting must be limited to initial adjustment and provisions must be made so adjustment will not be needed after the switch is replaced.</p>
+      <p class="decimal">
+        <em class="decimalmark">(3)</em>Guard movement produced by switch activation must be within a range that will not defeat the safeguard effectiveness.</p>
+      <p class="decimal">
+        <em class="decimalmark">(4)</em>The mechanical operating range must remain within the specified operating range of the switch.</p>
+      <p class="decimal">
+        <em class="decimalmark">(5)</em>Switches must not be used as mechanical stops.</p>
+      <p class="decimal">
+        <em class="decimalmark">(6)</em>Switches must be located, and if necessary protected, to avoid damage from external causes.</p>
+      <p class="decimal">
+        <em class="decimalmark">(7)</em>Easy access for switch maintenance and inspection must be afforded.</p>
+    </div>
+  </div>
+  <div class="column1">
+    <div class="positionleft" style="width:px;">
+      <p>
+        <strong class="headline2">&#9679; Reducing Faults Due to Common Causes</strong>
+      </p>
+      <p>Faults due to common causes must be avoided with redundant designs using one positive-actuated and one negative-actuated switch.</p>
+    </div>
+  </div>
+  <div class="column1">
+    <div class="positionleft" style="width:px;">
+      <p>
+        <strong class="headline2">(4) Selecting Interlocking Devices</strong>
+      </p>
+    </div>
+  </div>
+  <div class="column1">
+    <div class="positionleft" style="width:px;">
+      <p>When selecting an interlocking device it is necessary to consider all phases of the interlocking device, including the conditions of use and intended use of the machine, hazards present at the machine and their evaluation, stopping time and access time to the machine, and frequency of access.</p>
+    </div>
+  </div>
+  <div class="column1">
+    <div class="positionleft" style="width:px;">
+      <p>
+        <strong class="headline2">&#9679; Stopping Time and Access Time</strong>
+      </p>
+      <p>An interlocking device with a guard locking must be used when the stopping time is greater than the time it takes a person to reach the danger zone (access time).</p>
+    </div>
+  </div>
+  <div class="column1">
+    <div class="positionleft" style="width:px;">
+      <p>
+        <strong class="headline2">Frequency of Access<br/>(Frequency of Opening the Guard)</strong>
+      </p>
+      <p class="decimal">
+        <em class="decimalmark">(1)</em>For applications requiring frequent access, conduct a risk evaluation and then select an interlocking device that provides the least possible hindrance to the operation of the guard.</p>
+      <p class="decimal">
+        <em class="decimalmark">(2)</em>For applications using interlocking devices with automatic monitoring, the interlocking device should be used with additional measures, such as conditional guard unlocking, because the frequency of function checks decreases and the probability of an undetected fault occurring increases as the opening frequency decreases.</p>
+    </div>
+  </div>
+  <div class="column1">
+    <div class="positionleft" style="width:px;">
+      <p>
+        <strong class="headline2">(5) Control Requirements for Interlock Devices</strong>
+      </p>
+    </div>
+  </div>
+  <div class="column1">
+    <div class="positionleft" style="width:px;">
+      <p>The following control requirements must be satisfied for interlocking devices for movable guards (ISO 12100-1).</p>
+      <p class="decimal">
+        <em class="decimalmark">(1)</em>Closing the movable guard enables operation of the machine that was covered by the guard. Closing the movable guard causes the operation to start automatically. At actual startup, restarting can be performed by pressing the start button after all other start conditions are met.</p>
+      <p class="decimal">
+        <em class="decimalmark">(2)</em>The stop signal for the machine will be output if the guard is opened during operation of a machine that is covered by a guard. In other words, the machine will not be permitted to operate as long as it has not been detected that the guard is closed.</p>
+      <div class="img">
+        <img src="img/Safety__TG_functions_fig8.html" alt="">
+      </div>
+    </div>
+  </div>
+  <div class="top-page-link-area">
+    <ul class="top-page-link">
+      <li>
+        <a href="#page-top">
+          <img height="8" width="5" class="iconB01" alt="" src="../../../common/img/icon_03.gif">Top of page</a>
+      </li>
+    </ul>
+  </div>
+  <div class="column1">
+    <div class="positionleft" style="width:px;" id="3">
+      <p>
+        <strong class="headline1">3. Basic Safety Functions in the Event of a Fault</strong>
+      </p>
+    </div>
+  </div>
+  <div class="column1">
+    <div class="positionleft" style="width:px;">
+      <p>
+        <strong class="headline2">When a fault or disturbance in electrical equipment leads to a hazardous condition and the possibility that the machine as well as the item being processed may be damaged, appropriate steps must be taken to minimize the probability of a hazard. This section uses the safety principles found in EN 60204-1 to describe and illustrate the main procedures to follow to minimize risk in the event of a fault.</strong>
+      </p>
+    </div>
+  </div>
+  <div class="column1">
+    <div class="positionleft" style="width:px;">
+      <p>
+        <strong class="headline2">&#9679; Application of the claims postulated by ISO13849-1 and IEC62061</strong>
+      </p>
+      <p>
+        <strong class="headline2">The control circuit must comply with the appropriate safe performance level as determined in the risk assessment.</strong>
+      </p>
+    </div>
+  </div>
+  <div class="column1">
+    <div class="positionleft" style="width:px;">
+      <p class="decimal">
+        <em class="decimalmark">(1)</em>Use of Proven Circuit Techniques and Components</p>
+      <p class="decimal">
+        <em class="decimalmark">(2)</em>Functional Tests</p>
+      <p class="decimal">
+        <em class="decimalmark">(3)</em>Provisions of Redundancy</p>
+      <p class="decimal">
+        <em class="decimalmark">(4)</em>Use of Diversity</p>
+      <p class="decimal">
+        <em class="decimalmark">(5)</em>Self-monitoring by Safety Relays in Application Circuits</p>
+      <p class="decimal">
+        <em class="decimalmark">(6)</em>Single-fault Detection</p>
+      <p class="decimal">
+        <em class="decimalmark">(7)</em>Short-circuit Detection</p>
+      <p class="decimal">
+        <em class="decimalmark">(8)</em>Emergency Stop</p>
+    </div>
+  </div>
+  <div class="column1">
+    <div class="positionleft" style="width:px;">
+      <p>
+        <strong class="headline2">(1) Use of Proven Circuit Techniques and Components</strong>
+      </p>
+    </div>
+  </div>
+  <div class="column1">
+    <div class="positionleft" style="width:px;">
+      <p>
+        <strong class="headline2">1. Basic Circuit Configuration for Ground Faults</strong>
+      </p>
+      <p>The following examples are typical.</p>
+    </div>
+  </div>
+  <div class="column1">
+    <div class="positionleft" style="width:px;">
+      <p>
+        <strong class="headline2">&#9679; Basic Circuit Configuration</strong>
+      </p>
+      <p>The following must be taken into consideration when designing safety circuits for a control system.</p>
+      <p class="decimal">
+        <em class="decimalmark">(1)</em>The relay contacts must open when a coil is not energized.</p>
+      <p class="decimal">
+        <em class="decimalmark">(2)</em>One line must be grounded on the secondary side of the insulating transformer.</p>
+      <p class="decimal">
+        <em class="decimalmark">(3)</em>All coils in the safety circuit must be connected directly and as close as possible to the line that connects to the ground line.</p>
+      <p class="decimal">
+        <em class="decimalmark">(4)</em>The safety circuit must employ a fuse.</p>
+      <p>The figure below shows the basic configuration of a safety circuit containing all the preceding items.</p>
+      <div class="img">
+        <img src="img/safety_tg_functions_9.html" alt="">
+      </div>
+      <p>The fuse will blow and power to the circuit will cut off if a ground fault occurs on line A.<br/>A ground fault will not occur on line B because it is grounded.</p>
+    </div>
+  </div>
+  <div class="column1">
+    <div class="positionleft" style="width:px;">
+      <p>
+        <strong class="headline2">&#9679; Examples of Ground Faults</strong>
+      </p>
+      <p>
+        <strong class="headline2">A: Safety Circuit Not Grounded</strong>
+      </p>
+      <div class="img">
+        <img src="img/Safety__TG_functions_fig10.html" alt="">
+      </div>
+      <p>Two ground faults act as a bypass. As a result, the machine may start abruptly or its operation may not be interrupted.</p>
+      <p>
+        <strong class="headline2">B: Safety Circuit Transformer Grounded from the Midpoint on the Secondary Side</strong>
+      </p>
+      <div class="img">
+        <img src="img/safety_tg_functions_11.html" alt="">
+      </div>
+      <p>A ground fault causes half the voltage to be applied to the relay coil. As a result, the machine in operation may not be interrupted.</p>
+    </div>
+  </div>
+  <div class="column1">
+    <div class="positionleft" style="width:px;">
+      <p>
+        <strong class="headline2">2. A procedure must be established to cut off power to stop control and power circuits instantly.</strong>
+      </p>
+      <p>See (8) Emergency Stop for details.</p>
+    </div>
+  </div>
+  <div class="column1">
+    <div class="positionleft" style="width:px;">
+      <p>
+        <strong class="headline2">3. Parts with safety standards approvals must be used.</strong>
+      </p>
+      <p>Obtaining safety standards approval means obtaining approval from an independent body such as T&#220;V.</p>
+    </div>
+  </div>
+  <div class="column1">
+    <div class="positionleft" style="width:px;">
+      <p>
+        <strong class="headline2">4. Safety switches that operate reliably must be used.</strong>
+      </p>
+      <p>Parts with safety standards approval display the <img src="img/Safety__TG_functions_fig12.html" /></p>
+    </div>
+  </div>
+  <div class="column1">
+    <div class="positionleft" style="width:px;">
+      <p>
+        <strong class="headline2">5. Safety designs including fail-safe or foolproof functions must be used.</strong>
+      </p>
+      <p>A fail-safe function ensures safety in the event of fault, break down, or incorrect operation. A fail proof function ensures safety despite human error, fault, or incorrect operation.</p>
+    </div>
+  </div>
+  <div class="column1">
+    <div class="positionleft" style="width:px;">
+      <p>
+        <strong class="headline2">(2) Functional Tests</strong>
+      </p>
+      <p>Functional tests that ensure safety must be conducted at regular intervals and whenever electric products are started, and they must be conducted either automatically by the control systems of electric products or manually through inspections and tests. If faulty operation occurs, product operation must be suspended until troubleshooting has been completed.</p>
+    </div>
+  </div>
+  <div class="column1">
+    <div class="positionleft" style="width:px;">
+      <p>
+        <strong class="headline2">(3) Provisions of Redundancy</strong>
+      </p>
+      <p>Whole or parts of electric circuits must be redundant (duplicated) to minimize the probability that a malfunction in the circuits will result in a hazard. </p>
+    </div>
+  </div>
+  <div class="column1">
+    <div class="positionleft" style="width:px;">
+      <p>
+        <strong class="headline2">The following are examples of redundant electric circuits that employ more than one relay or switch in combination so the circuits will function even if one of the relays or switches fails to operate.</strong>
+      </p>
+    </div>
+  </div>
+  <div class="column1">
+    <div class="positionleft" style="width:px;">
+      <p>
+        <strong class="headline2">&#9679; Circuit with Two Relays</strong>
+      </p>
+      <div class="img">
+        <img src="img/Safety__TG_functions_fig13.html" alt="">
+      </div>
+    </div>
+  </div>
+  <div class="column1">
+    <div class="positionleft" style="width:px;">
+      <p>
+        <strong class="headline2">&#9679; Circuit with Two Switches</strong>
+      </p>
+      <div class="img">
+        <img src="img/Safety__TG_functions_fig14.html" alt="">
+      </div>
+    </div>
+  </div>
+  <div class="column1">
+    <div class="positionleft" style="width:px;">
+      <p>
+        <strong class="headline2">(4) Use of Diversity</strong>
+      </p>
+      <p>Common malfunctions and the probability of failure in electric products can be reduced if each product uses a variety of control circuits as well as various types of devices and components. The following are examples showing the use of diversity.</p>
+      <p class="decimal">
+        <em class="decimalmark">1.</em>Safety door with safety components that use a combination of NC and NO contacts.</p>
+      <p class="decimal">
+        <em class="decimalmark">2.</em>Circuits using control components that are different from each other in type.</p>
+      <p class="decimal">
+        <em class="decimalmark">3.</em>Redundant combinations of electromechanical and electronic circuits.</p>
+    </div>
+  </div>
+  <div class="column1">
+    <div class="positionleft" style="width:px;">
+      <p>
+        <strong class="headline2">&#9679; Examples of Safety Doors with Switches in Negative and Positive Operation</strong>
+      </p>
+      <div class="img">
+        <img src="img/safety_tg_functions_15.html" alt="">
+      </div>
+    </div>
+  </div>
+  <div class="column1">
+    <div class="positionleft" style="width:px;">
+      <p>
+        <strong class="headline2">(5) Self-monitoring by Safety Relays in Application Circuits</strong>
+      </p>
+      <p>When the reset switch is operated, the interface circuits containing safety relays automatically check to see if there are any faults. If there are faults in any circuit, then this safety control circuit will turn OFF power to stop operation.</p>
+    </div>
+  </div>
+  <div class="column1">
+    <div class="positionleft" style="width:px;">
+      <p>
+        <strong class="headline2">&#9679; Examples of Self Monitoring by Relay Units</strong>
+      </p>
+      <p>
+        <strong class="headline2">G9S-301 (24 VDC) - Two Limit Switch Input Channels</strong>
+      </p>
+      <div class="img">
+        <img src="img/Safety__TG_functions_fig16.html" alt="">
+      </div>
+      <p class="note">
+        <em class="notemark"></em>Fault detection 1: Detect closed door switches (K1, K2)Fault detection 2: Detect fused interface relay and contactor contacts (K3)</p>
+    </div>
+  </div>
+  <div class="column2">
+    <div class="positionleft" style="width:px;">
+      <p>
+        <strong class="headline2">&#9679; Normal Operation</strong>
+      </p>
+      <div class="img">
+        <img src="img/Safety__TG_functions_fig17.html" alt="">
+      </div>
+    </div>
+    <div class="positionright" style="width:px;">
+      <p>
+        <strong class="headline2">&#9679; Failure</strong>
+      </p>
+      <div class="img">
+        <img src="img/Safety__TG_functions_fig18.html" alt="">
+      </div>
+    </div>
+  </div>
+  <div class="column1">
+    <div class="positionleft" style="width:px;">
+      <p>If the normally open contact (8) of the contactor is welded, the normally closed contact (7) will be neutral (not conducting), and no voltage will be applied to the coil of safety relay K3. K3 will not operate, in which case the relay sequence will not operate even if the reset switch (2) is turned ON and power will not be supplied. The auxiliary contacts of the contactor must be mirror contacts.</p>
+    </div>
+  </div>
+  <div class="column1">
+    <div class="positionleft" style="width:px;">
+      <p>
+        <strong class="headline2">(6) Single-fault Detection</strong>
+      </p>
+      <p>
+        <strong class="headline2">Programmable controllers are usually used only to monitor safety-related functions, to test functions periodically, or to serve as a backup. Programmable controllers conforming to IEC61131 must be used.</strong>
+      </p>
+      <p>The following example shows a basic circuit with a programmable controller for single-fault detection.</p>
+      <p class="disc">Switch S1 turns OFF the input signal to the programmable controller to shut down the power supply when the door is open.</p>
+      <p class="disc">Switch S2 has a safety protection function that prevents hazards from developing in the event of a fault. Therefore, switch S2 must be a safety switch that incorporates a positive opening mechanism.</p>
+      <p class="disc">One power load switching requires a power contactor.</p>
+    </div>
+  </div>
+  <div class="column1">
+    <div class="positionleft" style="width:px;">
+      <p>
+        <strong class="headline2">&#9679; Basic Circuit with a Programmable Controller for Single-fault Detection</strong>
+      </p>
+      <div class="img">
+        <img src="img/Safety__TG_functions_fig19.html" alt="">
+      </div>
+    </div>
+  </div>
+  <div class="column1">
+    <div class="positionleft" style="width:px;">
+      <p>
+        <strong class="headline2">(7) Short-circuit Detection</strong>
+      </p>
+      <p>The lead wires of a safety control circuit may be bypassed or short-circuited due to damage caused by force, heat, shock, or acid.Such damage can be detected if the safety control circuit incorporates a short-circuit detecting function that satisfies the following criteria.</p>
+      <p class="decimal">
+        <em class="decimalmark">(1)</em>The safety circuit must have two input channels that each employ an NC contact.</p>
+      <p class="decimal">
+        <em class="decimalmark">(2)</em>There must be a potential difference between these channels.</p>
+      <p>The following example shows a circuit for short-circuit protection.</p>
+    </div>
+  </div>
+  <div class="column1">
+    <div class="positionleft" style="width:px;">
+      <p>
+        <strong class="headline2">&#9679; Safety Control Circuit with Two Input Channels and a Short-circuit Detecting Function</strong>
+      </p>
+      <div class="img">
+        <img src="img/Safety__TG_functions_fig20.html" alt="">
+      </div>
+    </div>
+  </div>
+  <div class="column1">
+    <div class="positionleft" style="width:px;">
+      <p>
+        <strong class="headline2">(8) Emergency Stop</strong>
+      </p>
+      <p>The following items are required for emergency stopping.</p>
+    </div>
+  </div>
+  <div class="column1">
+    <div class="positionleft" style="width:px;">
+      <p>
+        <strong class="headline2">&#9679; Emergency Stop Equipment</strong>
+      </p>
+      <p class="decimal">
+        <em class="decimalmark">(1)</em>Emergency stop equipment must be located at each operator control station and at other locations where the initiation of an emergency stop can be required.</p>
+      <p class="decimal">
+        <em class="decimalmark">(2)</em>When machinery is divided into several emergency stop zones, emergency stop equipment must be placed where operators can see and access them easily and can operate them without exposure to hazards.</p>
+      <p class="decimal">
+        <em class="decimalmark">(3)</em>The emergency stop function must have priority over all other functions and operation in any mode.</p>
+      <p class="decimal">
+        <em class="decimalmark">(4)</em>The emergency stop function must work so that it falls under category 0 or category 1. The choice of category 0 or category 1 must depend on the risk assessment.</p>
+    </div>
+  </div>
+  <div class="column1">
+    <div class="positionleft" style="width:px;">
+      <p>
+        <strong class="headline2">Type of Stop Functions</strong>
+      </p>
+    </div>
+  </div>
+  <div class="column1">
+    <div class="positionleft" style="width:px;">
+      <p>
+        <strong class="headline2">Stop Category 0</strong>
+      </p>
+      <p>Stop category 0 is an uncontrolled stop that is achieved by immediately removing power to the machine actuators (e.g., directly cutting off the power supply).</p>
+    </div>
+  </div>
+  <div class="column1">
+    <div class="positionleft" style="width:px;">
+      <p>
+        <strong class="headline2">Stop Category 1</strong>
+      </p>
+      <p>Stop category 1 is a controlled stop that is achieved by sending a stop command from the control circuit to stop (e.g., brake) the machine actuators and then removing power to the actuators (e.g., cutting off control circuit power) after the stop is achieved.</p>
+    </div>
+  </div>
+  <div class="column1">
+    <div class="positionleft" style="width:px;">
+      <p>
+        <strong class="headline2">Stop Category 2</strong>
+      </p>
+      <p>Stop category 2 stops machine actuators without cutting off the power.</p>
+    </div>
+  </div>
+  <div class="column1">
+    <div class="positionleft" style="width:px;">
+      <p class="decimal">
+        <em class="decimalmark">(5)</em>Where several emergency stop devices are provided in a circuit, it must not be possible to restore that circuit until all triggered emergency stop devices have been reset.</p>
+      <p class="decimal">
+        <em class="decimalmark">(6)</em>Emergency stop equipment must be used as neither an alternative to proper safeguarding measures nor as an alternative for automatic safety devices, but they may be used as a back-up measure.</p>
+    </div>
+  </div>
+  <div class="column1">
+    <div class="positionleft" style="width:px;">
+      <div class="img">
+        <img src="img/Safety__TG_functions_fig21.html" alt="">
+      </div>
+    </div>
+  </div>
+  <div class="column1">
+    <div class="positionleft" style="width:px;">
+      <p>
+        <strong class="headline2">&#9679; Emergency Stop Requirements</strong>
+      </p>
+      <p>The functional and design-related principles of emergency stop buttons, pull-cord switches, foot pedals, and other emergency stop devices are defined in ISO 13850. Devices built in accordance with ISO 13850 are suitable for emergency stop applications. Their general design is as shown below.</p>
+      <div class="img">
+        <img src="img/Safety__TG_functions_fig22.html" alt="">
+      </div>
+      <p>The requirements for the emergency stop function as stipulated in IEC 60204-1 are as follows:</p>
+      <p class="disc">The emergency stop function must deactivate all other functions and operation in any mode.</p>
+      <p class="disc">The power supply for all machines that are capable of inducing a dangerous condition must be removed as quickly as possible without causing any other dangers.</p>
+      <p class="disc">The reset function must not restart the stopped machine.</p>
+      <p>The relevant standards divide applications into numerous stop categories. The selection of the appropriate category must be made depending on a risk assessment of the machine involved.</p>
+    </div>
+  </div>
+  <div class="top-page-link-area">
+    <ul class="top-page-link">
+      <li>
+        <a href="#page-top">
+          <img height="8" width="5" class="iconB01" alt="" src="../../../common/img/icon_03.gif">Top of page</a>
+      </li>
+    </ul>
+  </div>
+  <div class="column1">
+    <div class="positionleft" style="width:px;" id="4">
+      <p>
+        <strong class="headline1">4. Presence Detection</strong>
+      </p>
+    </div>
+  </div>
+  <div class="column1">
+    <div class="positionleft" style="width:px;">
+      <p>
+        <strong class="headline2">(1) Basic Safety</strong>
+      </p>
+      <p>Basic safety is broadly classified into the following categories.</p>
+      <p class="decimal">
+        <em class="decimalmark">(1)</em>Machines and equipment will not start until it is safe to do so.</p>
+      <p class="decimal">
+        <em class="decimalmark">(2)</em>Machinery will be stopped whenever a hazardous condition is detected.</p>
+      <p>In order to maintain a safe environment, measures must be employed on one level to detect operators entering or present in a hazardous area and on another level to eliminate hazardous conditions.</p>
+    </div>
+  </div>
+  <div class="column1">
+    <div class="positionleft" style="width:px;">
+      <p>
+        <strong class="headline2">(2) Safety Requirements</strong>
+      </p>
+      <p>The safety requirements for presence detection, such as those shown below, are defined by the standards and guidelines of each country.</p>
+      <p class="disc"><b>Guidelines Related to the Comprehensive Safety Standards for Machinery: Ministry of Health, Labor and Welfare Attached Table 3: Procedure for Safeguarding Against Mechanical Hazards</b><br/>A device that will detect operators must be installed in a protected area if an operator can pass through an opening and enter that protected area to perform his job.</p>
+      <p class="disc"><b>ANSI/RIA R15.06: US robot-related safety standardsArticle 10.4.7 Starting and Restarting</b><br/>When an operator is required to enter a protected area, the operator must be protected from inadvertent starting or restarting of the robot and/or robot system. (Part omitted) If the protected area is clearly marked and the cell cannot start or restart, some means of detecting operators in hidden areas must be provided. The ideal means would be automatic detection. (Remainder omitted.)</p>
+      <p class="disc"><b>EN201: European safety standards for injection molding machinesArticle 5.3.1</b><br/>If an operator can fit between the movable guard and the mold, a device that will detect the presence of the operator must be installed there.</p>
+    </div>
+  </div>
+  <div class="column1">
+    <div class="positionleft" style="width:px;">
+      <p>
+        <strong class="headline2">(3) Presence Detection Sensor Functions</strong>
+      </p>
+      <p>The sensor detects the presence of a worker in dangerous environments.</p>
+    </div>
+  </div>
+  <div class="column1">
+    <div class="positionleft" style="width:px;">
+      <p>
+        <strong class="headline2">(4) Detection Methods</strong>
+      </p>
+      <p>Presence detection methods are broadly classified into the following categories.</p>
+    </div>
+  </div>
+  <div class="column1">
+    <div class="positionleft" style="width:px;">
+      <p>
+        <strong class="headline2">&#9679; Reflective</strong>
+      </p>
+      <p>Features: Relative freedom in defining protected areas.</p>
+      <div class="img">
+        <img src="img/Safety__TG_functions_fig23.html" alt="">
+      </div>
+    </div>
+  </div>
+  <div class="column1">
+    <div class="positionleft" style="width:px;">
+      <p>
+        <strong class="headline2">&#9679; Pressure detection</strong>
+      </p>
+      <p>Features: Excellent environmental resistance</p>
+      <div class="img">
+        <img src="img/Safety__TG_functions_fig24.html" alt="">
+      </div>
+    </div>
+  </div>
+  <div class="column1">
+    <div class="positionleft" style="width:px;">
+      <p>
+        <strong class="headline1">(5) Safe Distance</strong>
+      </p>
+      <p>When an operator enters a hazardous area, the machine in the area must come to a complete stop before that operator reaches the hazardous part of the machine. Safe distance refers to the minimum calculated distance that the protective device must be installed from the hazardous part of the machine. </p>
+    </div>
+  </div>
+  <div class="column1">
+    <div class="positionleft" style="width:px;">
+      <p>
+        <strong class="headline2">(6) Operating Principles (ISO13856-1)</strong>
+      </p>
+      <p>
+        <strong class="headline2">&#9679; Safety Mats (ISO13856-1)</strong>
+      </p>
+      <p>As shown in <b>Fig. 1</b>, two plates inside the Safety Mat make contact when an operator steps on the Mat. A Controller detects the contact and generates an output.</p>
+      <div class="img">
+        <img src="img/safety_tg_functions_25.html" alt="">
+      </div>
+    </div>
+  </div>
+  <div class="column1">
+    <div class="positionleft" style="width:px;">
+      <p>
+        <strong class="headline2">&#9679; Laser Scanner (IEC61496-3)</strong>
+      </p>
+      <p>As shown in <b>Fig. 2</b>, the laser scanner emits a beam that is reflected by surrounding objects. It calculates the distance to the object from the time that it takes to receive the reflected light.</p>
+      <div class="img">
+        <img src="img/Safety__TG_functions_fig26.html" alt="">
+      </div>
+    </div>
+  </div>
+  <div class="top-page-link-area">
+    <ul class="top-page-link">
+      <li>
+        <a href="#page-top">
+          <img height="8" width="5" class="iconB01" alt="" src="../../../common/img/icon_03.gif">Top of page</a>
+      </li>
+    </ul>
+  </div>
+  <div class="column1">
+    <div class="positionleft" style="width:px;" id="5">
+      <p>
+        <strong class="headline1">5. Two-hand Controller</strong>
+      </p>
+    </div>
+  </div>
+  <div class="column1">
+    <div class="positionleft" style="width:px;">
+      <p>
+        <strong class="headline2">One way to prevent operators from approaching hazardous areas too closely when conditions are hazardous is to install two-hand controllers at specified locations.<br/>The guidelines for designing Two-hand Controllers are given in ISO13851. The major safety requirements for Controller design are listed there under Functional Aspects and Principles of Design for Two-hand Controllers.</strong>
+      </p>
+      <p class="note">
+        <em class="notemark">Note:</em>Conduct actual designing in compliance with the detailed stipulations of ISO13851.</p>
+    </div>
+  </div>
+  <div class="column1">
+    <div class="positionleft" style="width:px;">
+      <p>
+        <strong class="headline2">(1) Main Characteristics</strong>
+      </p>
+      <p>The characteristics that must be provided are categorized by type into Type I, Type II, and Type III categories. The major characteristics listed here are Type III characteristics used in Category 3 and 4, as determined by risk assessment.</p>
+      <p class="decimal">
+        <em class="decimalmark">(1)</em>Two hands must be used together to start up the machine.</p>
+      <p class="decimal">
+        <em class="decimalmark">(2)</em>Two input signals are required to produce an output signal.</p>
+      <p class="decimal">
+        <em class="decimalmark">(3)</em>The output signal must turn OFF if either or both input signals turn OFF.</p>
+      <p class="decimal">
+        <em class="decimalmark">(4)</em>Both input signals must be turned OFF before the output signal is restarted.</p>
+      <p class="decimal">
+        <em class="decimalmark">(5)</em>Both input signals must turn ON within 0.5 s to enable synchronous startup output.</p>
+      <p class="decimal">
+        <em class="decimalmark">(6)</em>Preventing inadvertent startup and disable prevention: Refer to Article 2.</p>
+    </div>
+  </div>
+  <div class="column1">
+    <div class="positionleft" style="width:px;">
+      <p>
+        <strong class="headline2">(2) Preventing Inadvertent Startup and Disable Prevention</strong>
+      </p>
+      <p class="decimal">
+        <em class="decimalmark">1.</em>One-hand Disable Prevention</p>
+      <p>The two startup switches must be at least 260 mm (inside dimensions laterally) apart.</p>
+      <p class="note">
+        <em class="notemark">Note: </em>A shield must be installed between the two startup switches. This does not apply to applications where disable prevention is possible.</p>
+      <p class="decimal">
+        <em class="decimalmark">2.</em>Disable Prevention with the Hand and Elbow of the Same Arm</p>
+      <p>The two startup switches must be at least 550 mm (inside dimensions laterally) apart.</p>
+      <p class="note">
+        <em class="notemark">Note: </em>A shield must be installed between the two startup switches. This does not apply to applications where disable prevention is possible.</p>
+      <p class="decimal">
+        <em class="decimalmark">3.</em>Disable Prevention with the Forearm and Elbow</p>
+      <p>Install a cover or enclosure.</p>
+      <p class="decimal">
+        <em class="decimalmark">4.</em>Disable Prevention with One Hand and Another Part of the Body</p>
+      <p>Install the startup switches at least 1,100 mm off the floor or from the operating level to prevent operators from employing disable prevention with one hand and another part of the body (e.g. knees, hips, etc.).</p>
+      <p class="note">
+        <em class="notemark">Note:</em>Safe Distance<br/>The safe distance from the startup switches to the hazardous area must be calculated using factors such as hand and arm speed, response time of the startup switches, and maximum time required to eliminate a hazard according to ISO13855.</p>
+      <p class="decimal">
+        <em class="decimalmark">5.</em>Typical Example</p>
+      <p><b>Fig. 1</b> shows a typical example of a Two-hand Controller according to Articles 2.1 to 2.3.</p>
+      <div class="img">
+        <img src="img/Safety__TG_functions_fig27.html" alt="">
+      </div>
+    </div>
+  </div>
+  <div class="column1">
+    <div class="positionleft" style="width:px;">
+      <p>
+        <strong class="headline2">(3) Connection Examples</strong>
+      </p>
+      <p class="decimal">
+        <em class="decimalmark">1.</em>Connection Circuit Example Using a Safety Relay Unit</p>
+      <p>The part of "circuit Diagrams" includes shows an example of a G9SA-TH301 Safety Relay Unit connected to a Two-hand Controller.</p>
+      <p class="decimal">
+        <em class="decimalmark">2.</em>Connection Circuit Example Using a Safety Controller</p>
+      <p>The part of "circuit Diagrams" includes shows an example of an F3SX Safety Controller, F3SN-A Safety Light Curtain, and A22 Pushbutton Switch connected to a Two-hand Controller for the caulking machine shown below.</p>
+      <div class="img">
+        <img src="img/Safety__TG_functions_fig28.html" alt="">
+      </div>
+    </div>
+  </div>
+  <div class="top-page-link-area">
+    <ul class="top-page-link">
+      <li>
+        <a href="#page-top">
+          <img height="8" width="5" class="iconB01" alt="" src="../../../common/img/icon_03.gif">Top of page</a>
+      </li>
+    </ul>
+  </div>
+  <div class="column1">
+    <div class="positionleft" style="width:px;" id="6">
+      <p>
+        <strong class="headline1">6. Enabling Switches</strong>
+      </p>
+    </div>
+  </div>
+  <div class="column1">
+    <div class="positionleft" style="width:px;">
+      <p>
+        <strong class="headline2">An enabling switch is a safety component used so that workers can avoid unexpected machine movement when performing non-scheduled maintenance work or other non-scheduled operations in hazardous areas, such as those inside safety fences.</strong>
+      </p>
+      <p>
+        <strong class="headline2">When a worker is using a hand-held console with operation switches to teach a robot, retool, or perform maintenance, unexpected movement of a hazard can result in a hazardous state. When this occurs, it's impossible to predict whether the operator will instinctively release the console or will grip it with force. A normal switch thus does not turn OFF when excessive force is applied, which may result in a worker accident.<br/>With an Enabling Switch, machines or robots can be controlled only when the switch is gripped lightly to the middle position. If the switch is gripped with force past the middle position or if the switch is released, the machine or robot will be shut OFF, disabling operation.</strong>
+      </p>
+      <p>
+        <strong class="headline2">Enabling Switches are normally used built into teaching pendants, grip switches, and other hand-held controls. They can be combined with safety circuits built with Safety Relay Units and other devices to ensure safety.</strong>
+      </p>
+    </div>
+  </div>
+  <div class="column1">
+    <div class="positionleft" style="width:px;">
+      <p>
+        <strong class="headline2">(1) Structure of Enabling Switches</strong>
+      </p>
+      <p>Enabling Switches operate through three positions: OFF - ON - OFF.<br/>They are OFF when not pressed, ON when pressed to the middle position, and then OFF again when pressed past the middle position.</p>
+      <p>
+        <strong class="headline2">&#9679; Three Positions: OFF - ON - OFF</strong>
+      </p>
+      <div class="img">
+        <img src="img/Safety__TG_functions_fig29.html" alt="">
+      </div>
+    </div>
+  </div>
+  <div class="top-page-link-area">
+    <ul class="top-page-link">
+      <li>
+        <a href="#page-top">
+          <img height="8" width="5" class="iconB01" alt="" src="../../../common/img/icon_03.gif">Top of page</a>
+      </li>
+    </ul>
+  </div>
+  <div class="column1">
+    <div class="positionleft" style="width:px;" id="7">
+      <p>
+        <strong class="headline1">7. Functional Safety Technology</strong>
+      </p>
+    </div>
+  </div>
+  <div class="column1">
+    <div class="positionleft" style="width:px;">
+      <p>
+        <strong class="headline2">Until recently, there were no means to confirm the safety of technologies such as complex electronic components or software, which made it difficult to apply them safely. Demands have increased, however, by companies that want greater safety in the use of various devices.This has led to the concept of functional safety, which is a method of confirming safety by providing the reliability that electronic equipment and programmable devices used in safety equipment will operate properly when the safety related demand is given. Reliability here refers to "lowering human risk to the level of socially tolerable risk." This includes the following factors:</strong>
+      </p>
+    </div>
+  </div>
+  <div class="column1">
+    <div class="positionleft" style="width:px;">
+      <p class="decimal">
+        <em class="decimalmark">1.</em>Periodic confirmation tests are conducted, showing that there are no latent hazards.<br/>For example, a failure is detected in self-diagnosis and a safe state is achieved.</p>
+      <p class="decimal">
+        <em class="decimalmark">2.</em>Reliability with respect to deterioration and lifetime of assembly components.<br/>For example, the probability of a hazardous failure is determined for each part.</p>
+      <p class="decimal">
+        <em class="decimalmark">3.</em>System reliability. <br/>It is confirmed that protection against one type of hazard will not invite a different type of hazard.</p>
+    </div>
+  </div>
+  <div class="column1">
+    <div class="positionleft" style="width:px;">
+      <p>IEC 61508, which was issued in 1998, is representative of common standards for functional safety. IEC 61508 is further divided into seven detailed standards for individual fields of application. Standards for industrial machinery are stipulated in IEC 62061. For detailed information, refer to these standards.<br/>In the above standards, the SIL (Safety Integrity Level) is defined as parameters that specify the requirements of safety functions. In the area of machinery, it has been decided to coordinate the SIL with the performance level (PL) defined by ISO 13849-1,2006.<br/>(Extracted from the NECA Safety Guide Handbook.)</p>
+    </div>
+  </div>
+  <div class="column1">
+    <div class="positionleft" style="width:px;">
+      <div class="img">
+        <img src="img/safety_tg_functions_30.html" alt="">
+      </div>
+      <p>The required SIL (Safety Integrity Level) is greatly determined by whether the operation demand is low or high/continuous.</p>
+    </div>
+  </div>
+  <div class="column2">
+    <div class="positionleft" style="width:325px;">
+      <p>SIL Required of Safety-related Controls in Low Demand Mode (for Example, Safety-related Controls That Operate Only for a Short Time When There Is Demand, Such as ABS on Cars)</p>
+      <p>Example: If risk assessment determined that SIL2 is suitable, the TFM that needs to be achieved by the related safety controls would be 10<sup>-2</sup> &lt; TFM &#8805; 10<sup>-3</sup>.</p>
+      <p class="note">
+        <em class="notemark">Note:</em>TFM (Target Failure Measure)</p>
+      <div class="table-blockA01"><div class="table-blockA01"><table border="0" cellspacing="0" class="tableB01"><tr><td  class="heading center middle">SIL (Safety Integrity Level)</td><td  class="heading center middle">Low operation demand mode (average failure rate per operation demand)</td></tr><tr><td class="center middle" >4</td><td class="center middle" >&#8805; 10<sup>-5</sup> to &lt; 10<sup>-4</sup></td></tr><tr><td class="center middle" >3</td><td class="center middle" >&#8805; 10<sup>-4</sup> to &lt; 10<sup>-3</sup></td></tr><tr><td class="center middle" >2</td><td class="center middle" >&#8805; 10<sup>-3</sup> to &lt; 10<sup>-2</sup></td></tr><tr><td class="center middle" >1</td><td class="center middle" >&#8805; 10<sup>-2</sup> to &lt; 10<sup>-1</sup></td></tr></table></div></div>
+    </div>
+    <div class="positionright" style="width:325px;">
+      <p>SIL Required of Safety-related Controls in High or Continuous Demand Mode (for Example, Safety-related Controls That Operate Continuously or Frequently over a Long Period of Time, Such as a Pacemaker)</p>
+      <p>Example: If risk assessment determined that SIL2 is suitable, the<br/>TFM that needs to be achieved by the related safety<br/>controls would be 10<sup>-6</sup> &lt; TFM &#8805; 10<sup>-7</sup>.</p>
+      <p class="note">
+        <em class="notemark">Note:</em>TFM (Target Failure Measure)</p>
+      <div class="table-blockA01"><div class="table-blockA01"><table border="0" cellspacing="0" class="tableB01"><tr><td  class="heading center middle">SIL (Safety Integrity Level)</td><td  class="heading center middle">High or continuous operation demand mode (hazardous failure rate per unit time (1/h))</td></tr><tr><td class="center middle" >4</td><td class="center middle" >&#8805; 10<sup>-9</sup> to &lt; 10<sup>-8</sup></td></tr><tr><td class="center middle" >3</td><td class="center middle" >&#8805; 10<sup>-8</sup> to &lt; 10<sup>-7</sup></td></tr><tr><td class="center middle" >2</td><td class="center middle" >&#8805; 10<sup>-7</sup> to &lt; 10<sup>-6</sup></td></tr><tr><td class="center middle" >1</td><td class="center middle" >&#8805; 10<sup>-6</sup> to &lt; 10<sup>-5</sup></td></tr></table></div></div>
+    </div>
+  </div>
+  <div class="pdf">
+    <ul>
+      <li>
+        <a href="../../../data_pdf/guide/3/safety_components_series_tg_e_8_1_18-44(safety_functions).html">
+          <img src="../../../common/img/icon_06.gif" alt="" width="11" height="12">PDF Download(2258KB)</a>
+      </li>
+    </ul>
+  </div>
+</div></div>
+          <div class="primary-contents-area"><!----></div>
+        </div>
+        <div class="local-navi-area">
+          <p class="non-visual">
+            <a name="local-navi" id="local-navi">Local Navigation</a>
+          </p>
+          <div class="local-naviA01">
+            <h2>
+              <a href="../index-2.html">
+                <img src="../../../common/img/icon_01.gif" width="3" height="9" alt="" class="iconA01" />Technical Guide</a>
+            </h2>
+            <ul>
+              <li class="stay">Safety Components</li>
+            </ul>
+          </div><div class="local-naviB01">
+<ul>
+<li><a href="../../faq/index-2.html"><img src="../../../common/img/icon_01.gif" width="3" height="9" alt="" class="iconA01" />FAQ</a></li>
+<li><a href="../index-2.html"><img src="../../../common/img/icon_01.gif" width="3" height="9" alt="" class="iconA01" />Technical Guide</a></li>
+<li><a href="../../models/index-2.html"><img src="../../../common/img/icon_01.gif" width="3" height="9" alt="" class="iconA01" />Models with Standards Certification</a></li>
+<li><a href="../../sistemalibrary/index.html"><img src="../../../common/img/icon_01.gif" width="3" height="9" alt="" class="iconA01" />SISTEMA Library</a></li>
+<li><a href="../../elearning/index-2.html"><img src="../../../common/img/icon_01.gif" width="3" height="9" alt="" class="iconA01" />eLearning</a></li>
+<li><a href="../../glossary/index.html"><img src="../../../common/img/icon_01.gif" width="3" height="9" alt="" class="iconA01" />Glossary of Industrial Automation</a></li>
+</ul>
+<!-- /local-naviB01 --></div></div>
+      </div><!-- === [top-page-link-area] === -->
+<div class="top-page-link-area">
+<ul class="top-page-link">
+<li><a href="#page-top"><img src="../../../common/img/icon_03.gif" width="5" height="8" alt="" class="iconB01" />Top of page</a></li>
+</ul>
+<!-- top-page-link-area --></div>
+<!-- === /[top-page-link-area] === -->
+
+<!-- === [footer-area] === -->
+<div class="footer-area">
+<p class="non-visual"><a name="footer" id="footer">Site Information</a></p>
+<div class="realizing">
+<p><a href="../../../realizing/index.html"><img src="../../../common/img/logo_02.gif" width="86" height="19" alt="realizing" /></a></p>
+<!-- realizing --></div>
+<div class="footer-link">
+<ul>
+<li><a href="http://www.omron.com/" target="_blank"><img src="../../../common/img/icon_01.gif" width="3" height="9" alt="" class="iconA01" />OMRON Corporation<img src="../../../common/img/icon_07.gif" width="14" height="11" alt="" class="external-win" /></a></li>
+<li><a href="../../../sitemap.html"><img src="../../../common/img/icon_01.gif" width="3" height="9" alt="" class="iconA01" />Sitemap</a></li>
+<li><a href="../../../terms/index.html"><img src="../../../common/img/icon_01.gif" width="3" height="9" alt="" class="iconA01" />Terms of Use</a></li>
+<li><a href="../../../privacy/index.html"><img src="../../../common/img/icon_01.gif" width="3" height="9" alt="" class="iconA01" />Privacy Policy</a></li>
+</ul>
+<address>&copy; Copyright OMRON Corporation 2007 - 2016. All Rights Reserved.</address>
+<!-- footer-link --></div>
+<!-- === /[footer-area] === --></div>
+</div>
+  </body>
+
+<!-- Mirrored from www.ia.omron.com/support/guide/3/safety_functions.html by HTTrack Website Copier/3.x [XR&CO'2014], Sat, 17 Dec 2016 00:42:26 GMT -->
+</html>

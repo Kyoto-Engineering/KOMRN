@@ -1,0 +1,14 @@
+@charset "utf-8";
+
+div.header-area {
+	margin-bottom: 18px;
+}
+
+@media screen and (max-width: 768px) {
+	body.tmplF01 div.header-area {
+		margin-bottom: 0px;
+	}
+	body.tmplF01 div.contents-area {
+		padding: 15px 2.5% 0;
+	}
+}

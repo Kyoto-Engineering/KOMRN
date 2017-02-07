@@ -1,0 +1,453 @@
+
+/*------------------------------------
+	zoom
+------------------------------------*/
+
+body{
+	_zoom:68%;
+}
+
+body.iweb-login{
+	_zoom:100%;
+}
+
+div.iweb-login-area ul.iweb-utility{
+	zoom: 98%;
+}
+
+
+/*------------------------------------
+	home
+------------------------------------*/
+
+body.home div.main-area{
+	background-image:none;
+}
+body.home div.products-section{
+	background-image:none !important;
+}
+
+
+/*------------------------------------
+	oej home
+------------------------------------*/
+
+body.home div.contents02-area{
+	background:none;
+}
+
+
+/*------------------------------------
+	footer-area
+------------------------------------*/
+
+div.footer-area{
+	position:relative;
+	overflow: auto;
+}
+
+
+/*------------------------------------
+	global-navi-area
+------------------------------------*/
+
+div.global-navi-area{
+	*margin-top:1em;
+	margin-bottom:1em;
+	padding-bottom:0;
+	background-image:none;
+}
+
+
+/*------------------------------------
+	heading-lvl02A01
+------------------------------------*/
+
+h2.heading-lvl02A01,
+h3.heading-lvl02A01,
+h4.heading-lvl02A01,
+h5.heading-lvl02A01,
+h6.heading-lvl02A01,
+p.heading-lvl02A01,
+h2.heading-lvl02A01-link a,
+h3.heading-lvl02A01-link a,
+h4.heading-lvl02A01-link a,
+h5.heading-lvl02A01-link a,
+h6.heading-lvl02A01-link a,
+p.heading-lvl02A01-link a{
+	border-bottom:1px dotted #ccc;
+	background:none;
+}
+
+
+/*------------------------------------
+	listA01
+------------------------------------*/
+
+ul.listA01 li{
+	list-style-type:disc;
+	background:none !important;
+	padding-left:0;
+	margin-left:33px;
+}
+
+
+/*------------------------------------
+	note-listA01
+------------------------------------*/
+
+ul.note-listA01 li{
+	list-style-type:disc;
+	background:none !important;
+	padding-left:0;
+	margin-left:16px;
+}
+
+
+ul.note-listA01 li.with-asterisk,
+ul.note-listA01 li.with-asterisk-num{
+	list-style-type:none;
+}
+
+
+/*------------------------------------
+	qa-blockA01
+------------------------------------*/
+
+div.qa-blockA01 dl.question,
+div.qa-blockA01 dl.answer{
+	background:none;
+}
+
+
+/*------------------------------------
+	page-linkB01
+------------------------------------*/
+
+div.page-linkB01 div.page-linkB01-group{
+	background:none;
+}
+div.page-linkB01 div.page-linkB01-group ul{
+	border-top:1px dotted #ccc;
+}
+
+
+/*------------------------------------
+	definition-tableA01
+------------------------------------*/
+
+table.definition-tableA01{
+	border-collapse: separate;
+	border-spacing: 3px 0;
+}
+table.definition-tableA01 th{
+	border-top: 3px solid #ccc;
+	background: none;
+}
+table.definition-tableA01 td{
+	padding-top: 0.91em;
+	border-top: 1px solid #ccc;
+	background: none;
+}
+
+
+/*------------------------------------
+	paginationA01
+------------------------------------*/
+
+ul.paginationA01{
+	width:666px;
+}
+
+
+/*------------------------------------
+	related-info-blockA04
+------------------------------------*/
+
+div.related-info-blockA04 ul li{
+	border-top: 1px solid #ccc;
+	background:none;
+}
+
+div.related-info-blockA04 ul li:first-child,
+div.related-info-blockA04 ul li.first-child{
+	border-top:0;
+}
+
+
+/*------------------------------------
+	time-line-list
+------------------------------------*/
+
+dl.time-line-list dt{
+	border-top:1px dotted #ccc;
+	background:none;
+}
+
+dl.time-line-list dt:first-child,
+dl.time-line-list dt.first-child{
+	border-top:0;
+}
+
+
+body.home dl.time-line-list dd{
+	background:none;
+	border-bottom:1px dotted #ccc;
+}
+
+
+/*------------------------------------
+	global-network-area
+------------------------------------*/
+
+div.global-network-area {
+	background:none;
+	_zoom:98%;
+}
+
+div.global-network-area div.global-network-group {
+	background:none;
+}
+
+
+/*------------------------------------
+	index-blockA01
+------------------------------------*/
+
+div.index-blockH01-group,
+div.index-blockA01-group{
+	background:none;
+	float: none;
+}
+
+div.index-blockH01-unit,
+div.index-blockA01-unit,
+dl.index-blockA01-unit{
+	border-right:1px solid #ccc;
+	border-bottom:1px solid #ccc;
+	border-left:1px solid #ccc;
+	width:214px;
+	margin-right:18px;
+	*margin-right:17px;
+	_margin-right:13px;
+}
+
+div.index-blockH01-unit h3,
+div.index-blockA01-unit h2,
+dl.index-blockA01-unit dt{
+	margin:0;
+}
+
+div.index-blockH01-unit div.index-description,
+div.index-blockA01-unit div.index-description,
+dl.index-blockA01-unit dd{
+	margin:0;
+	padding:0;
+}
+
+
+/*------------------------------------
+	index-blockB01,
+	index-blockB02,
+	index-blockC01
+------------------------------------*/
+
+div.index-blockB01-group,
+div.index-blockB02-group,
+div.index-blockC01{
+	background:none;
+}
+
+div.index-blockC01 div.index-blockC01-group div.last-child{
+	border-bottom:1px solid #ccc;
+}
+
+
+/*------------------------------------
+	family-indexA01,
+	family-indexA02
+------------------------------------*/
+
+div.family-indexA01{
+	border-bottom:1px dotted #ccc;
+	background:none;
+}
+
+dl.family-indexA01-unit{
+	border-top:1px dotted #ccc;
+	background:none;
+}
+
+dl.family-indexA02-unit{
+	border-top:1px dotted #ccc;
+	background:none;
+}
+
+div.family-indexA02 dl.first-child,
+div.family-indexA02 dl.family-indexA02-unit:first-child{
+	border-top:0;
+}
+
+
+
+/*------------------------------------
+	detail
+------------------------------------*/
+
+.index-description p:after{
+	content: "";
+}
+.index-description p span.detail{
+	display: inline;
+}
+.index-description p.more-less{
+	display: none !important;
+}
+
+
+/*------------------------------------
+	related-info-blockB01
+------------------------------------*/
+
+div.related-info-blockB01-group{
+	background:none;
+}
+
+
+/*------------------------------------
+	news-block
+------------------------------------*/
+
+div.news-block-unit{
+	background:none;
+	border-top:1px dotted #ccc;
+}
+
+div.news-block div.news-block-unit:first-child,
+div.news-block div.first-child{
+	border-top:0;
+}
+
+
+/*------------------------------------
+	search-results-listA01
+------------------------------------*/
+
+dl.search-results-listA01{
+	background:none;
+	border-bottom:1px dotted #ccc;
+}
+
+dl.search-results-listA01 dt{
+	background:none;
+	border-top:1px dotted #ccc;
+}
+
+
+/*------------------------------------
+	form-blockA01
+------------------------------------*/
+
+div.form-blockA01-unit{
+	background:none;
+}
+
+
+/*------------------------------------
+	index-blockB03,
+	image-blockA01,
+	image-blockB01,
+	image-blockB01-f,
+	image-blockB02,
+	image-blockB02-f,
+	search-blockB01,
+	tabpanel-blockA01
+------------------------------------*/
+
+div.index-blockB03,
+div.image-blockA01,
+div.image-blockB01,
+div.image-blockB01-f,
+div.image-blockB02,
+div.image-blockB02-f,
+div.search-blockB01,
+div.tabpanel-blockA01{
+	_zoom:99%;
+}
+
+#main-image{
+	_zoom:99%;
+}
+
+
+
+/*------------------------------------
+	feature-index
+------------------------------------*/
+
+body.feature div.body-area{
+	background:none !important;
+}
+
+body.feature div.global-navi-area{
+	margin-bottom:0;
+}
+
+body.feature div.primary-contents-area {
+	background:none !important;
+}
+
+
+
+/*------------------------------------
+	frame_layout.css
+------------------------------------*/
+body.tmplD02 div.side-area,
+body.tmplC03 div.side-area{
+	width:251px;
+	}
+
+body.tmplC02 div.local-navi-area{
+	margin-right:0;
+	}
+
+body.tmplC02 div.index-blockB01-group{
+	float: none;
+	}
+
+body.tmplC03 div.exist-primary-contents-area div.tabpanel-blockA01 div.tabpanel-group,
+body.tmplD02 div.exist-primary-contents-area div.tabpanel-blockA01 div.tabpanel-group{
+	float: none;
+	clear:both;
+	}
+
+body.tmplD02 div.column1,
+body.tmplD02 div.column2{
+	_float: none;
+	_clear:both;
+	}
+
+*:first-child+html body.tmplD02 div.column1,
+*:first-child+html body.tmplD02 div.column2{
+	float: none;
+	clear:both;
+	}
+
+body.tmplB02 div.omron-ia{
+	_left:0;
+	}
+
+body.home div.site-description-area,
+body.home div.product-area{
+	_float:none;
+}
+
+body.home div.index-blockH01-unit div.index-list{
+	margin: 0 0 0 0;
+	}
+
+body.tmplB03 .noprint { display:none; }
+body.tmplB03{_zoom:75%; }
+*+html body.tmplB03 { zoom:100%; }
+
+

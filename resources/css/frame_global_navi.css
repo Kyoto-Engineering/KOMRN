@@ -1,0 +1,58 @@
+/*-------------------------------------------------------------------------
+ global-navi-area
+-------------------------------------------------------------------------*/
+div.global-navi-area{
+	padding-bottom:8px;
+	background:#ccc url(../images/global_navi_bg_01.gif) left bottom repeat-x;
+	font-weight:bold;
+}
+div.global-navi-area ul{
+	/zoom:1;
+	margin-left:18px;
+	padding-left:1px;
+	background:url(../images/global_navi_line_01.gif) left no-repeat;
+	letter-spacing:-.40em;
+}
+div.global-navi-area ul li{
+	display:inline-block;
+	/display:inline;
+	/zoom:1;
+	padding-right:1px;
+	background:url(../images/global_navi_line_01.gif) right no-repeat;
+	letter-spacing:normal;
+}
+div.global-navi-area ul li a,
+div.global-navi-area ul li span{
+	display:block;
+	/display:inline;
+	/zoom:1;
+	padding:0 13px;
+	line-height:2.3;
+}
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+	div.global-navi-area ul li{
+		margin-right:1px;
+	}
+	div.global-navi-area ul li a,
+	div.global-navi-area ul li span{
+		line-height:2.4;
+	}
+}
+
+/* anchor */
+div.global-navi-area ul li.stay-link a,
+div.global-navi-area ul li.stay-link span{
+	background-color:#808080 !important;
+	color:#fff !important;
+	/* text-decoration:none !important; */
+}
+div.global-navi-area ul li a:link,
+div.global-navi-area ul li a:visited{
+	background-color:#ccc;
+	color:#555555;
+}
+div.global-navi-area ul li a:hover,
+div.global-navi-area ul li a:active{
+	background-color:#bfbfbf;
+	color:#3b3b3b;
+}

@@ -1,0 +1,53 @@
+/* CSS Document */
+
+div.heading-comment {
+	border-bottom: 3px solid #CCC;
+}
+
+div.heading-comment p {
+	padding: 20px 0 20px 10px;
+}
+
+div.section-comment p {
+	padding: 20px 0;
+}
+
+div.image-blockA01 p.teaser {
+	padding: 0 0 15px 10px;
+	font-size: 150%;
+	font-weight: bold;
+}
+
+div.dlBlock {
+	padding: 20px 0;
+}
+
+div.dlBlock .imgL {
+    float: left;
+	padding-right: 20px;
+}
+
+div.dlBlock .link-list {
+	list-style: none;
+    margin-top: 10px;
+    text-indent: -6px;
+}
+
+div.dlBlock .link-list a {
+	text-decoration: none;
+}
+
+/*-----------------------------------------------------
+CLEARFIX
+-------------------------------------------------------*/
+/* new clearfix */
+.clearfix:after {
+	visibility: hidden;
+	display: block;
+	font-size: 0;
+	content: " ";
+	clear: both;
+	height: 0;
+	}
+* html .clearfix             { zoom: 1; } /* IE6 */
+*:first-child+html .clearfix { zoom: 1; } /* IE7 */

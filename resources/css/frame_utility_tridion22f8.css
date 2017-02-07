@@ -1,0 +1,10 @@
+/*-------------------------------------------------------------------------
+	related-info-blockA02
+-------------------------------------------------------------------------*/
+div.related-info-blockA02 ul li {
+	clear: left;
+	overflow: hidden;
+}
+div.related-info-blockA02 ul li span.description a span.image img {
+	margin-bottom: 0.4em;
+}

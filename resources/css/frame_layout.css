@@ -1,0 +1,205 @@
+/*-------------------------------------------------------------------------
+ layout 6 patterns
+-------------------------------------------------------------------------*/
+
+/*------------------------------------
+	common
+------------------------------------*/
+/* omron-ia */
+div.omron-ia{
+	position:relative;
+	width:954px;
+	margin:0 auto;
+	background-color:#fff;
+	border-left:1px solid #ccc;
+	border-right:1px solid #ccc;
+	text-align:left;
+}
+/* contents-area */
+div.contents-area{
+	position:relative;
+	_overflow:visible;
+	_height:1px;
+	zoom:1;
+	/*\*//*/
+	overflow:hidden;
+	/**/	
+	width:918px;
+	margin:0 auto;
+	z-index:0;
+}
+div.contents-area:after{
+	content:"."; 
+	display:block;
+	height:0;
+	clear:both;
+	visibility:hidden;
+}
+
+/*------------------------------------
+	layoutA01
+	: 1column [ 918px ]
+------------------------------------*/
+.layoutA01 .contents-area .primary-contents-area{
+	width:100%;
+	margin-top:15px;
+}
+
+/*------------------------------------
+	layoutB01
+	: 2column [ 684px | 216px ]
+------------------------------------*/
+.layoutB01 .contents-area .primary-contents-area{
+	float:left;
+	width:684px;
+}
+.layoutB01 .contents-area .utility-area{
+	float:right;
+	width:216px;
+}
+
+/*------------------------------------
+	layoutB02
+	: 2column [ 684px(918px) | 216px(0px) ]
+------------------------------------*/
+body.layoutB02 div.upper-contents-area{
+	_overflow:visible;
+	_height:1px;
+	zoom:1;
+	/*\*//*/
+	overflow:hidden;
+	/**/
+	width:918px;
+}
+body.layoutB02 div.upper-contents-area:after{
+	content:"."; 
+	display:block;
+	height:0;
+	clear:both;
+	visibility:hidden;
+}
+body.layoutB02 div.lead-area{
+	float:left;
+	width:684px;
+}
+body.layoutB02 div.utility-area{
+	float:right;
+	width:216px;
+}
+body.layoutB02 div.related-info-area{
+	float:right;
+	width:216px;
+}
+body.layoutB02 div.primary-contents-area,
+body.layoutB02 div.primary-contents-area{
+	width:918px;
+}
+
+/*------------------------------------
+	layoutC01
+	: 2column [ 216px | 684px ]
+------------------------------------*/
+.layoutC01 .contents-area .primary-contents-area{
+	float:right;
+	width:684px;
+}
+.layoutC01 .contents-area .local-navi-area{
+	float:left;
+	width:216px;
+}
+
+/*------------------------------------
+	layoutC02
+	: 3column [ 216px | 450px | 216px ]
+------------------------------------*/
+.layoutC02 .contents-area .inner-contents-area{
+	float:right;
+	width:684px;
+}
+.layoutC02 .contents-area .inner-contents-area .primary-contents-area{
+	float:left;
+	width:450px;
+	_overflow:hidden;
+	_zoom:1;
+}
+.layoutC02 .contents-area .inner-contents-area .utility-area{
+	float:right;
+	width:216px;
+}
+.layoutC02 .contents-area .local-navi-area{
+	float:left;
+	width:216px;
+}
+
+/*------------------------------------
+	layoutC03
+	: 3column [ 216px | 450px(684px) | 216px(0px) ]
+------------------------------------*/
+body.layoutC03 div.local-navi-area{
+	float:left;
+	width:216px;
+}
+body.layoutC03 div.inner-contents-area{
+	float:right;
+	width:684px;
+	_overflow:hidden;
+	_zoom:1;
+}
+body.layoutC03 div.upper-contents-area{
+	width:684px;
+	_height:1px;
+	_overflow:visible;
+	zoom:1;
+	/*\*//*/
+	overflow:hidden;
+	/**/
+}
+body.layoutC03 div.upper-contents-area:after{
+	content:"."; 
+	display:block;
+	height:0;
+	clear:both;
+	visibility:hidden;
+}
+body.layoutC03 div.lead-area{
+	float:left;
+	width:450px;
+}
+body.layoutC03 div.utility-area{
+	float:right;
+	width:216px;
+}
+body.layoutC03 div.primary-contents-area,
+body.layoutC03 div.primary-contents-area{
+	width:100%;
+}
+
+
+/*-------------------------------------------------------------------------
+ section
+-------------------------------------------------------------------------*/
+div.section{
+	margin:0 10px;
+}
+
+/*-------------------------------------------------------------------------
+ img link 2013/08/19
+-------------------------------------------------------------------------*/
+.img_caption{
+	display:block;
+}
+a.link_list{
+	margin-top:10px;
+	display:block;
+  padding-left: 6px;
+	background: url("../images/icon_right_b.gif") no-repeat left 50% transparent;
+}
+a.blank_link span{
+	background: url("../images/icon_blank_b.gif") no-repeat right 50% transparent;
+  padding-right: 16px;
+}
+a.popup_link span{
+	background: url("../images/icon_08.gif") no-repeat right 50% transparent;
+  padding-right: 16px;
+}
+

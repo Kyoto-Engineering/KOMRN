@@ -1,0 +1,1270 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<html xml:lang="en" lang="en" xmlns="http://www.w3.org/1999/xhtml">
+    
+<!-- Mirrored from www.ia.omron.com/products/family/3243/specification.html by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 15 Dec 2016 15:25:14 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=utf-8" /><!-- /Added by HTTrack -->
+<head>
+        <meta http-equiv="Content-Language" content="en" />
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <meta http-equiv="Content-Style-Type" content="text/css" />
+        <meta http-equiv="Content-Script-Type" content="text/javascript" />
+        <title>
+            NX-SL Safety CPU Unit/Specifications | OMRON Industrial Automation
+        </title>
+        <meta name="keywords" content="Automation Systems,Machine Automation Controllers,Safety Control Unit NX-Series,Safety CPU Unit,NX-SL" />
+        <meta name="description" content="Safety CPU Unit The Safety CPU Unit controls up to 32 Safety I/O Units." />
+        
+
+<link rel="alternate" href="../../../index.html" hreflang="en" />
+<link rel="stylesheet" type="text/css" media="all" href="../../../resources/css/common22f8.css?201611151200" />
+<link rel="stylesheet" type="text/css" media="all" href="../../../resources/css/global/common22f8.css?201611151200" />
+<link rel="stylesheet" type="text/css" media="all" href="../../../resources/css/frame_utility_tridion22f8.css?201611151200" />
+<link rel="stylesheet" type="text/css" media="print" href="../../../resources/css/print22f8.css?201611151200" />
+<script type="text/javascript" src="../../../resources/js/jquery22f8.js?201611151200"></script>
+<script type="text/javascript" src="../../../resources/js/function22f8.js?201611151200"></script>
+<script type="text/javascript" src="../../../resources/js/country_website22f8.js?201611151200"></script>
+<script type="text/javascript" src="../../../resources/js/global/ga22f8.js?201611151200"></script>
+<link rel="stylesheet" type="text/css" media="all" href="../../../resources/css/jquery-ui22f8.css?201611151200" charset='UTF-8'/>
+<link rel="stylesheet" type="text/css" media="all" href="../../../resources/css/jquery.multiselect22f8.css?201611151200" charset='UTF-8'/>
+<script type="text/javascript" language="JavaScript" src="../../../common/js/marketing_tag22f8.js?201611151200"></script>
+<script type="text/javascript" src="../../../resources/js/jquery-ui.min22f8.js?201611151200" charset='UTF-8'></script>
+<script type="text/javascript" src="../../../resources/js/jquery.ex-table-filter22f8.js?201611151200" charset='UTF-8'></script>
+<script type="text/javascript" src="../../../resources/js/jquery.tablesorter.min22f8.js?201611151200" charset='UTF-8'></script>
+<script type="text/javascript" src="../../../resources/js/filter22f8.js?201611151200" charset='UTF-8'></script>
+<link rel="shortcut icon" href="../../../resources/images/favicon.ico" type="image/x-icon" />
+
+        <link rel="stylesheet" type="text/css" media="all" href="../../../resources/css/tablesorter6c9b.css?201611150900" />
+        <script type="text/javascript" src="../../../resources/js/global/products6c9b.js?201611150900" charset='UTF-8'></script>
+
+    </head>
+    <body id="www-ia-omron-com" class="layoutC03 automation-systems">
+
+        <!-- === [omron-ia] === -->
+        <div class="omron-ia">
+            <p class="non-visual">
+                <a name="page-top" id="page-top">
+                    Page top
+                </a>
+            </p>
+
+
+
+
+<div class="header-area">
+     <div class="site-identity">
+          <div class="site-logo">
+               <a href="../../../index.html"><img src="../../../Images/logo_01_b13-260967.gif"  width="129" height="24" alt="OMRON" /></a>
+          </div>
+          <!-- /.site-identity -->
+     </div>
+     <div class="utilities">
+          <div class="country-select-area">
+               <p class="canpany"><img src="../../../Images/header_txt_0113-195.gif"  width="129" height="11" alt="" /></p>
+               <p class="current-country">
+                    <span class="area devider">
+                        <a href="javascript:void(0)" onclick="box.countryWebsiteLinks();" id="country"><img src="../../../resources/images/icon_right_b.gif" width="3" height="9" alt="" class="iconA01" />Global</a>
+                    </span>
+               </p>
+          </div>
+          <div class="function-area">
+               <ul>
+
+
+                    <li class="first-child">
+
+
+                    <a href="../../../view/contact/input.html" ><img src="../../../resources/images/icon_right_b.gif" width="3" height="9" alt="" class="iconA01" />Contact</a>
+                    </li>
+
+               </ul>
+               <div class="search">
+<form action="http://search2.ia.omron.com/IA/" method="get" name="search_website" id="search_website" class="search-form">
+	<p>
+		<input type="text" value="" size="20" name="q" id="search_str" class="search-str" />
+		<input type="submit" value="Search" class="submit60L" />
+	</p>
+</form>
+                    <!-- /.search -->
+               </div>
+               <!-- /.function-area -->
+          </div>
+          <!-- /.utilities -->
+     </div>
+     <!-- /.header-area -->
+</div>
+
+<div class="global-navi-area">
+<ul>
+
+<li>
+<a href="../../../index.html">Home</a>
+</li>
+
+<li class="stay-link">
+<a href="../../index-2.html">Products</a>
+</li>
+
+<li>
+<a href="../../../support/index-2.html">Technical Support</a>
+</li>
+
+<li>
+<a href="../../../global_network/index-2.html">Global Network</a>
+</li>
+
+<li>
+<a href="../../../corporate_profile/index.html">About Us</a>
+</li>
+
+</ul>
+</div> 
+<div class="bread-crumb-area">
+<ul>
+
+
+<li><a href="../../../index.html" >Home</a><span class="separator">&gt;</span></li>
+
+<li><a href="../../index-2.html" >Products</a><span class="separator">&gt;</span></li>
+
+<li><a href="../../category/index.html" >Product Category</a><span class="separator">&gt;</span></li>
+
+<li><a href="../../category/automation-systems/index-2.html" >Automation Systems</a><span class="separator">&gt;</span></li>
+
+<li><a href="../../category/automation-systems/machine-automation-controllers/index-2.html" >Machine Automation Controllers</a><span class="separator">&gt;</span></li>
+
+<li><a href="../../category/automation-systems/machine-automation-controllers/safety-control-unit-nx-series/index.html" >Safety Control Unit NX-Series</a><span class="separator">&gt;</span></li>
+
+<li><a href="../../category/automation-systems/machine-automation-controllers/safety-control-unit-nx-series/safety-cpu-unit/index.html" >Safety CPU Unit</a><span class="separator">&gt;</span></li>
+
+<li><strong>NX-SL</strong></li>
+
+
+</ul>
+</div>
+
+            <!-- === [contents-area] === -->
+            <div class="contents-area">
+
+                <!-- === [inner-contents-area] === -->
+                <div class="inner-contents-area">
+                    <!-- === [upper-contents-area] === -->
+                    <div class="upper-contents-area">
+                        <!-- === [lead-area] === -->
+                        <div class="lead-area">
+
+
+
+
+<!-- --------------------------------------------------------------------Product Family Start--------------------------------------------------------- -->
+<div class="heading-h1">
+
+
+    <h1>
+        NX-SL
+    </h1>
+    <p class="sub-title">
+        Safety CPU Unit
+    </p>
+</div>
+<div class="image-blockA01">
+    <div class="image-left">
+        <p class="image">
+
+            <img src="../../../Images/l_3243-13-176955-198x198.jpg" width="198" height="198" alt="NX-SL" class="nopic" />
+
+
+        </p>
+    </div>
+    <div class="description">
+        <h2 class="heading-B02">
+            The Safety CPU Unit controls up to 32 Safety I/O Units.
+        </h2>
+        
+
+
+
+
+        <div class="item-list-link">
+            <p>
+                <a href="itemlist/index.html">
+                    <img src="../../../resources/images/icon_right_b.gif" width="3" height="9" alt="" class="iconA01" />
+                    Item list of NX-SL
+                </a>
+            </p>
+        </div>
+    </div>
+<!-- /.image-blockA01 -->
+</div>
+
+
+
+                        </div>
+                        <!-- === /[lead-area] === -->
+
+
+                        <!-- === [utility-area] === -->
+                        <div class="utility-area">                         
+                       
+                            <div class="action-block">
+                                <p>
+                                    about this Product Family
+                                </p>
+                                <ul>
+                                    <li class="first-child">
+                                        <a href="../../../view/inquiry/b5family/input1553.html?b5Id=3243">
+                                            Inquiry of this Product
+                                        </a>
+                                    </li>                                 
+                                </ul>
+                            </div>
+
+
+
+
+<div class="related-info-blockA01 vertical-slide">
+
+    <p>
+        <span>Related Contents</span>
+    </p>
+
+
+        <ul>
+            <li class="first-child">
+                <span>Common</span>
+            </li>
+            <li>
+                <ul class="list-indent01">
+
+
+                    <li class="first-child">
+
+
+                        <a href="../../../product/cautions/index.html">
+                            <img src="../../../resources/images/icon_right_b.gif" width="3" height="9" alt="" class="iconA01" />
+                            Cautions
+                        </a>
+                    </li>
+
+
+
+                    <li>
+
+                        <a href="../../../support/guide/index.html">
+                            <img src="../../../resources/images/icon_right_b.gif" width="3" height="9" alt="" class="iconA01" />
+                            Technical Guide
+                        </a>
+                    </li>
+
+
+
+                    <li>
+
+                        <a href="../../../support/models/index.html">
+                            <img src="../../../resources/images/icon_right_b.gif" width="3" height="9" alt="" class="iconA01" />
+                            Models with Standards Certification
+                        </a>
+                    </li>
+
+
+
+                    <li>
+
+                        <a href="../../../support/faq/index.html">
+                            <img src="../../../resources/images/icon_right_b.gif" width="3" height="9" alt="" class="iconA01" />
+                            FAQ 
+                        </a>
+                    </li>
+
+                </ul>
+            </li>
+        </ul>
+
+        <ul>
+            <li class="first-child">
+                <span>Automation Systems</span>
+            </li>
+            <li>
+                <ul class="list-indent01">
+
+
+                    <li class="first-child">
+
+
+                        <a href="../../applications/category/automation-systems/index.html">
+                            <img src="../../../resources/images/icon_right_b.gif" width="3" height="9" alt="" class="iconA01" />
+                            Applications 
+                        </a>
+                    </li>
+
+                </ul>
+            </li>
+        </ul>
+
+        <ul>
+            <li class="first-child">
+                <span>Machine Automation Controllers</span>
+            </li>
+            <li>
+                <ul class="list-indent01">
+
+
+                    <li class="first-child">
+
+
+                        <a href="../../index/automation-systems/machine-automation-controllers/index.html">
+                            <img src="../../../resources/images/icon_right_b.gif" width="3" height="9" alt="" class="iconA01" />
+                            Item A to Z Index 
+                        </a>
+                    </li>
+
+
+
+                    <li>
+
+                        <a href="../../../support/glossary/automation-systems/machine-automation-controllers/index.html">
+                            <img src="../../../resources/images/icon_right_b.gif" width="3" height="9" alt="" class="iconA01" />
+                            Glossary of Industrial Automation 
+                        </a>
+                    </li>
+
+                </ul>
+            </li>
+        </ul>
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- /.related-info-blockA01 -->
+</div>
+
+
+
+                           
+                        </div>
+                        <!-- === /[utility-area] === -->
+
+                    </div>
+                    <!-- === /[upper-contents-area] === -->
+
+                    <!-- === [primary-contents-area] === -->
+                    <div class="primary-contents-area">
+                        <div class="tabpanel-blockA01">
+
+
+
+
+
+
+<div class="tab-block">
+    <ul class="tabs">
+
+
+
+
+
+
+
+        <li>
+            <a href="feature.html">Features</a>
+
+        </li>
+
+
+
+
+
+
+
+
+        <li>
+            <a href="lineup.html">Lineup</a>
+
+        </li>
+
+
+
+
+
+
+
+
+        <li class="active">
+            <span>Specifications</span>
+
+        </li>
+
+
+
+
+
+
+
+
+        <li>
+            <a href="dimension.html">Dimensions</a>
+
+        </li>
+
+
+
+
+
+
+        <li>
+            <a href="download/catalog.html">Catalog</a>
+
+        </li>
+
+
+
+
+
+    </ul>
+</div><!-- /.tab-block -->
+
+<div class="editable-block">
+
+
+<p class="date-line">last update: May 09, 2016</p>
+
+
+
+
+
+
+
+
+
+<h4 class="heading-A02">Regulations and Standards</h4>
+
+
+
+
+
+
+
+
+
+
+<div class="component-blockA01">
+
+
+
+
+
+    <div class="text">
+        <p>
+            
+						<div class="table-blockA01">
+							<table cellspacing="0" border="0" class="tableA01">
+								<tr class="first-child">
+									<th class="heading left middle"><strong>Certification body</strong></th>
+									<th class="heading center middle"><strong>Standards</strong></th>
+								</tr>
+								<tr>
+									<th class="heading left middle"><strong>TÜV Rheinland *</strong></th>
+									<td class="left middle">EN ISO 13849-1: 2008 + AC: 2009
+<br />
+EN ISO 13849-2: 2012
+<br />
+IEC 61508 parts 1-7: 2010
+<br />
+EN 62061: 2005
+<br />
+EN 61131-2: 2007
+<br />
+EN ISO 13850: 2008
+<br />
+EN 60204-1: 2006 + A1: 2009 + AC: 2010
+<br />
+EN 61000-6-2: 2005
+<br />
+EN 61000-6-4: 2007
+<br />
+NFPA 79: 2012
+<br />
+ANSI RIA 15.06-1999
+<br />
+ANSI B11.19-2010
+<br />
+UL1998
+<br />
+IEC 61326-3-1: 2008</td>
+								</tr>
+								<tr>
+									<th class="heading left middle"><strong>UL</strong></th>
+									<td class="left middle">cULus: Listed (UL508) and ANSI/ISA 12.12.01</td>
+								</tr>
+							</table>
+						</div>
+					
+        </p>
+    </div>
+
+
+
+
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="component-blockA01">
+
+
+
+
+
+    <div class="text">
+        <p>
+            * Certification was received for applications in which OMRON FSoE devices are connected to each other.
+        </p>
+    </div>
+
+
+
+
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="component-blockA01">
+
+
+
+
+
+    <div class="text">
+        <p>
+            The NX-series Safety Control Units allow you to build a safety control system that meets the following standards.
+<br />
+						<ul class="listA01">
+							<li>Requirements for SIL 3 (Safety Integrity Level 3) in IEC 61508, EN 62061, Safety Standard for Safety Instrumented Systems (Functional Safety of Electrical/Electronic/Programmable Electronic Safety-related Systems)</li>
+							<li>Requirements for PLe (Performance Level e) and for safety category 4 in EN ISO13849-1</li>
+							</ul>
+The NX-series Safety Control Units are also registered for C-Tick and KC compliance.
+        </p>
+    </div>
+
+
+
+
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<h4 class="heading-A02">General Specification</h4>
+
+
+
+
+
+
+
+
+
+
+<div class="component-blockA01">
+
+
+
+
+
+    <div class="text">
+        <p>
+            
+						<div class="table-blockA01">
+							<table cellspacing="0" border="0" class="tableA01">
+								<tr class="first-child">
+									<th colspan="2" rowspan="1" class="heading center middle"><strong>Item</strong></th>
+									<th class="heading center middle"><strong>Specification</strong></th>
+								</tr>
+								<tr>
+									<th colspan="2" rowspan="1" class="heading left middle"><strong>Enclosure</strong></th>
+									<td class="left middle">Mounted in a panel (open)</td>
+								</tr>
+								<tr>
+									<th colspan="2" rowspan="1" class="heading left middle"><strong>Grounding method</strong></th>
+									<td class="left middle">Ground to 100 Ω or less.</td>
+								</tr>
+								<tr>
+									<th colspan="1" rowspan="14" class="heading left middle"><strong>Operating
+<br />
+environment</strong></th>
+									<th class="heading left middle"><strong>Ambient operating
+<br />
+temperature</strong></th>
+									<td class="left middle">0 to 55°C (The upper limit of the ambient operating temperature is
+<br />
+restricted by the installation orientation.)</td>
+								</tr>
+								<tr>
+									<th class="heading left middle"><strong>Ambient operating
+<br />
+humidity</strong></th>
+									<td class="left middle">10% to 95% (with no condensation or icing)</td>
+								</tr>
+								<tr>
+									<th class="heading left middle"><strong>Atmosphere</strong></th>
+									<td class="left middle">Must be free from corrosive gases.</td>
+								</tr>
+								<tr>
+									<th class="heading left middle"><strong>Ambient storage
+<br />
+temperature</strong></th>
+									<td class="left middle">-25 to 70°C (with no condensation or icing)</td>
+								</tr>
+								<tr>
+									<th class="heading left middle"><strong>Altitude</strong></th>
+									<td class="left middle">2,000 m max.</td>
+								</tr>
+								<tr>
+									<th class="heading left middle"><strong>Pollution degree</strong></th>
+									<td class="left middle">2 or less: Conforms to JIS B3502 and IEC 61131-2.</td>
+								</tr>
+								<tr>
+									<th class="heading left middle"><strong>Noise immunity</strong></th>
+									<td class="left middle">Conforms to IEC 61131-2.
+<br />
+2 kV on power supply line (Conforms to IEC 61000-4-4.)</td>
+								</tr>
+								<tr>
+									<th class="heading left middle"><strong>Insulation class</strong></th>
+									<td class="left middle">Class III (SELV)</td>
+								</tr>
+								<tr>
+									<th class="heading left middle"><strong>Overvoltage category</strong></th>
+									<td class="left middle">Category II: Conforms to JIS B3502 and IEC 61131-2.</td>
+								</tr>
+								<tr>
+									<th class="heading left middle"><strong>EMC immunity level</strong></th>
+									<td class="left middle">Zone B</td>
+								</tr>
+								<tr>
+									<th class="heading left middle"><strong>Vibration resistance</strong></th>
+									<td class="left middle">Conforms to IEC 60068-2-6.
+<br />
+5 to 8.4 Hz with 3.5-mm amplitude, 8.4 to 150 Hz, acceleration of 9.8 m/s<sup>2</sup>,
+<br />
+100 minutes each in X, Y, and Z directions (10 sweeps of 10 min each = 100
+<br />
+min total)</td>
+								</tr>
+								<tr>
+									<th class="heading left middle"><strong>Shock resistance</strong></th>
+									<td class="left middle">Conforms to IEC 60068-2-27.
+<br />
+147 m/s<sup>2</sup>, 3 times each in X, Y, and Z directions</td>
+								</tr>
+								<tr>
+									<th class="heading left middle"><strong>Insulation resistance</strong></th>
+									<td class="left middle">20 MΩ between isolated circuits (at 100 VDC)</td>
+								</tr>
+								<tr>
+									<th class="heading left middle"><strong>Dielectric strength</strong></th>
+									<td class="left middle">510 VAC for 1 min between isolated circuits, leakage current: 5 mA max.</td>
+								</tr>
+								<tr>
+									<th colspan="2" rowspan="1" class="heading left middle"><strong>Installation method</strong></th>
+									<td class="left middle">DIN Track (IEC 60715 TH35-7.5/TH35-15)</td>
+								</tr>
+								<tr>
+									<th colspan="2" rowspan="1" class="heading left middle"><strong>Applicable standards</strong></th>
+									<td class="left middle">IEC 61508: 2010 SIL 3, EN 62061: 2005 SIL CL3
+<br />
+EN ISO 13849-1, 13849-2: 2008 PL e/Safety Category 4
+<br />
+UL 1998
+<br />
+cULus: Listed UL508, ANSI/ISA 12.12.01
+<br />
+EN 61131-2, C-Tick, KC: KC Registration, NK, LR</td>
+								</tr>
+							</table>
+						</div>
+					
+        </p>
+    </div>
+
+
+
+
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<h4 class="heading-A02">Specifications of Individual Units</h4>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<h4 class="heading-A03">Safety CPU Unit NX-SL3300/SL3500</h4>
+
+
+
+
+
+
+
+
+
+<div class="component-blockA01">
+
+
+
+
+
+    <div class="text">
+        <p>
+            
+						<div class="table-blockA01">
+							<table cellspacing="0" border="0" class="tableA01">
+								<tbody>
+									<tr class="first-child">
+										<th class="heading left middle"><strong>Unit name</strong></th>
+										<th colspan="2" rowspan="1" class="heading center middle"><strong>Safety CPU Unit</strong></th>
+									</tr>
+									<tr>
+										<th class="heading left middle"><strong>Model</strong></th>
+										<td class="left middle">NX-SL3300</td>
+										<td class="left middle">NX-SL3500</td>
+									</tr>
+									<tr>
+										<th class="heading left middle"><strong>Maximum number of safety I/O
+<br />
+points</strong></th>
+										<td class="left middle">256 points</td>
+										<td class="left middle">1024 points</td>
+									</tr>
+									<tr>
+										<th class="heading left middle"><strong>Program capacity</strong></th>
+										<td class="left middle">512 KB</td>
+										<td class="left middle">2048 KB</td>
+									</tr>
+									<tr>
+										<th class="heading left middle"><strong>Number of safety master
+<br />
+connections</strong></th>
+										<td class="left middle">32</td>
+										<td class="left middle">128</td>
+									</tr>
+									<tr>
+										<th class="heading left middle"><strong>I/O refreshing method</strong></th>
+										<td class="left middle">Free-Run refreshing</td>
+										<td class="left middle">Free-Run refreshing</td>
+									</tr>
+									<tr>
+										<th class="heading left middle"><strong>External connection terminals</strong></th>
+										<td class="left middle">None</td>
+										<td class="left middle">None</td>
+									</tr>
+									<tr>
+										<th class="heading left middle"><strong>Indicators</strong></th>
+										<td class="left middle">FS indicator, VALID indicator, DEBUG indicator,
+<br />
+TS indicator, and RUN indicator
+<div class="image"><img src="../../../Images/3243_sp_3_113-178162.gif"  alt="3243_sp_3_1" title="3243_sp_3_1" style="width: 147px; height: 79px;" /></div>
+										</td>
+										<td class="left middle">FS indicator, VALID indicator, DEBUG indicator,
+<br />
+TS indicator, and RUN indicator
+<div class="image"><img src="../../../Images/3243_sp_3_213-182767.gif"  alt="3243_sp_3_2" title="3243_sp_3_2" style="width: 153px; height: 81px;" /></div>
+										</td>
+									</tr>
+									<tr>
+										<th class="heading left middle"><strong>Dimensions</strong></th>
+										<td colspan="2" rowspan="1" class="left middle">30 × 100 × 71 mm (W × H × D)</td>
+									</tr>
+									<tr>
+										<th class="heading left middle"><strong>I/O power supply method</strong></th>
+										<td colspan="2" rowspan="1" class="left middle">Not supplied.</td>
+									</tr>
+									<tr>
+										<th class="heading left middle"><strong>Current capacity of I/O power
+<br />
+supply terminals</strong></th>
+										<td colspan="2" rowspan="1" class="left middle">No I/O power supply terminals</td>
+									</tr>
+									<tr>
+										<th class="heading left middle"><strong>NX Unit power consumption</strong></th>
+										<td colspan="2" rowspan="1" class="left middle">0.90 W max.</td>
+									</tr>
+									<tr>
+										<th class="heading left middle"><strong>Current consumption from I/O
+<br />
+power supply</strong></th>
+										<td colspan="2" rowspan="1" class="left middle">No consumption</td>
+									</tr>
+									<tr>
+										<th class="heading left middle"><strong>Weight</strong></th>
+										<td colspan="2" rowspan="1" class="left middle">75 g max.</td>
+									</tr>
+									<tr>
+										<th class="heading left middle"><strong>Installation orientation and
+<br />
+restrictions</strong></th>
+										<td colspan="2" rowspan="1" class="left middle">Installation orientation: 6 possible orientations
+<br />
+Restrictions: None</td>
+									</tr>
+								</tbody>
+							</table>
+						</div>
+					
+        </p>
+    </div>
+
+
+
+
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<h4 class="heading-A02">Version Information</h4>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<h4 class="heading-A03">The combinations that can be used of the unit versions of the Safety Control Units, NJ/NX-series CPU Units, and NX-series EtherCAT Coupler Unit, and the version of the Sysmac Studio</h4>
+
+
+
+
+
+
+
+
+
+<div class="component-blockA01">
+
+
+
+
+
+    <div class="text">
+        <p>
+            
+          <div class="table-blockA01">
+							<table cellspacing="0" border="0" class="tableA01">
+								<tr class="first-child">
+									<th colspan="2" rowspan="1" class="heading center middle"><strong>NX Unit</strong></th>
+									<th colspan="5" rowspan="1" class="heading center middle"><strong>Corresponding version *</strong></th>
+								</tr>
+								<tr>
+									<th class="heading center middle"><strong>Model number</strong></th>
+									<th class="heading center middle"><strong>Unit
+<br />
+version</strong></th>
+									<th class="heading center middle"><strong>EtherCAT
+<br />
+Coupler Unit
+<br />
+NX-ECC20[]</strong></th>
+									<th class="heading center middle"><strong>NJ/NX-series
+<br />
+CPU Units</strong></th>
+									<th class="heading center middle"><strong>Sysmac
+<br />
+Studio</strong></th>
+									<th class="heading center middle"><strong>ErherNet/IP
+<br />
+Coupler Unit
+<br />
+(NX-EIC202)</strong></th>
+									<th class="heading center middle"><strong>Sysmac
+<br />
+Studio</strong></th>
+								</tr>
+								<tr>
+									<td colspan="1" rowspan="2" class="left middle">NX-SL3300</td>
+									<td class="center middle">1.0</td>
+									<td colspan="1" rowspan="2" class="center middle">1.1 or later</td>
+									<td colspan="1" rowspan="2" class="center middle">1.06 or later</td>
+									<td class="center middle">1.07 or later</td>
+									<td class="center middle">---</td>
+									<td class="center middle">---</td>
+								</tr>
+								<tr>
+									<td class="center middle">1.1</td>
+									<td class="center middle">1.10 or later</td>
+									<td class="center middle">1.0 or later</td>
+									<td class="center middle">1.10 or later</td>
+								</tr>
+								<tr>
+									<td colspan="1" rowspan="2" class="left middle">NX-SL3500</td>
+									<td class="center middle">1.0</td>
+									<td colspan="1" rowspan="2" class="center middle">1.2 or later</td>
+									<td colspan="1" rowspan="2" class="center middle">1.07 or later</td>
+									<td class="center middle">1.08 or later</td>
+									<td class="center middle">---</td>
+									<td class="center middle">---</td>
+								</tr>
+								<tr>
+									<td class="center middle">1.1</td>
+									<td class="center middle">1.10 or later</td>
+									<td class="center middle">---</td>
+									<td class="center middle">---</td>
+								</tr>
+							</table>
+						</div>
+        
+        </p>
+    </div>
+
+
+
+
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="component-blockA01">
+
+
+
+
+
+    <div class="text">
+        <p>
+            
+          <div style="text-align: left;">* Some Units do not have all of the versions given in the above table.
+<br />
+  If a Unit does not have the specified version, support is provided by the oldest available version after the specified version.
+<br />
+  Refer to the user’s manuals for the specific Units for the relation between models and versions.</div>
+        
+        </p>
+    </div>
+
+
+
+
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<p class="date-line">last update: May 09, 2016</p>
+
+</div>
+
+                        </div>
+                    </div>
+	            <!-- === /[primary-contents-area] === -->
+                </div>
+                <!-- === /[inner-contents-area] === -->
+
+
+                <!-- === [local-navi] === -->
+                <div class="local-navi-area">
+                    <div class="local-navi-area">
+
+
+
+<div class="local-naviA01">
+<h2 class="heading-link">
+<a href="../../category/index.html" ><img src="../../../resources/images/icon_right_b.gif" width="3" height="9" alt="" class="iconA01" />Product Category</a>
+</h2>
+<ul><li><a href="../../category/automation-systems/index-2.html"><img src="../../../resources/images/icon_right_b.gif" width="3" height="9" alt="" class="iconA01" />Automation Systems</a><ul class="list-indent01"><li><a href="../../category/automation-systems/machine-automation-controllers/index-2.html"><img src="../../../resources/images/icon_right_b.gif" width="3" height="9" alt="" class="iconA01" />Machine Automation Controllers</a><ul class="list-indent02"><li><a href="../../category/automation-systems/machine-automation-controllers/safety-control-unit-nx-series/index.html"><img src="../../../resources/images/icon_right_b.gif" width="3" height="9" alt="" class="iconA01" />Safety Control Unit NX-Series</a><ul class="list-indent03"><li><a href="../../category/automation-systems/machine-automation-controllers/safety-control-unit-nx-series/safety-cpu-unit/index.html"><img src="../../../resources/images/icon_right_b.gif" width="3" height="9" alt="" class="iconA01" />Safety CPU Unit</a><ul class="list-indent04"><li class="stay"><span>NX-SL</span></li></ul></li></ul></li></ul></li></ul></li></ul>
+<!-- /local-naviA01 -->
+</div>
+
+
+
+<div class="local-naviB01">
+<ul class="heading-link">
+
+<li class="first-child">
+<a href="../../category/index.html"><img src="../../../resources/images/icon_right_b.gif" width="3" height="9" alt="" class="iconA01" />Product Category</a>
+</li>
+
+<li>
+<a href="../../../product/cautions/index-2.html"><img src="../../../resources/images/icon_right_b.gif" width="3" height="9" alt="" class="iconA01" />Cautions</a>
+</li>
+
+<li>
+<a href="../../index/index.html"><img src="../../../resources/images/icon_right_b.gif" width="3" height="9" alt="" class="iconA01" />Item A to Z Index</a>
+</li>
+
+<li>
+<a href="../../applications/index.html"><img src="../../../resources/images/icon_right_b.gif" width="3" height="9" alt="" class="iconA01" />Applications</a>
+</li>
+
+<li>
+<a href="../../correct/index.html"><img src="../../../resources/images/icon_right_b.gif" width="3" height="9" alt="" class="iconA01" />Correction Notice</a>
+</li>
+
+</ul>
+<!-- /local-naviB01 -->
+</div>
+                    </div>
+                </div>
+                <!-- === /[local-navi] === -->
+
+            </div>
+            <!-- === /[contents-area] === -->
+
+            <!-- === [top-page-link-area] === -->
+            <div class="top-page-link-area">
+                <ul class="top-page-link-list">
+                    <li>
+                        <a href="#page-top"><img src="../../../resources/images/icon_up_b.gif" width="5" height="8" alt="" class="iconB01" />Top of Page</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- === /[top-page-link-area] === -->
+
+            <!-- === [footer-area] === -->
+
+
+<!-- === [footer-area] === -->
+<div class="footer-area">
+    <p class="non-visual">
+        <a name="footer" id="footer">Site Information</a>
+    </p>
+    <div class="realizing">
+        <p><a href="../../../realizing/index.html"><img src="../../../Images/logo_0213-192.gif"  width="86" height="19" alt="" /></a></p>
+    <!-- /.realizing -->
+    </div>
+    <div class="footer-link">
+        <ul>
+            <li>
+                <a href="http://www.omron.com/"  target="_blank"><img src="../../../resources/images/icon_right_b.gif" width="3" height="9" alt="" class="iconA01" />OMRON Corporation<img src="../../../resources/images/icon_07.gif" width="14" height="11" class="external_win" alt=" " /></a>
+            </li>
+
+            <li>
+                <a href="../../../sitemap.html" ><img src="../../../resources/images/icon_right_b.gif" width="3" height="9" alt="" class="iconA01" />Sitemap</a>
+            </li>
+
+            <li>
+                <a href="../../../terms/index-2.html" ><img src="../../../resources/images/icon_right_b.gif" width="3" height="9" alt="" class="iconA01" />Terms of Use</a>
+            </li>
+
+            <li>
+                <a href="../../../privacy/index-2.html" ><img src="../../../resources/images/icon_right_b.gif" width="3" height="9" alt="" class="iconA01" />Privacy Policy</a>
+            </li>
+        </ul>
+
+        <p class="copyright">© Copyright OMRON Corporation 2007 - 2016. All Rights Reserved.</p>
+    <!-- /.footer-link -->
+    </div>
+<!-- /.footer-area -->
+</div>
+<!-- === /[footer-area] === -->
+            <!-- === /[footer-area] === -->
+        </div>
+        <!-- === /[omron-ia] === -->
+    </body>
+
+<!-- Mirrored from www.ia.omron.com/products/family/3243/specification.html by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 15 Dec 2016 15:25:14 GMT -->
+</html>
