@@ -91,7 +91,6 @@
 <li class="home stay"><strong>Home</strong></li>
 <li class="product"><a href="product/index.html">Products</a></li>
 <li class="support"><a href="support/index-2.html">Technical Support</a></li>
-<li class="global-network"><a href="global_network/index-2.html">Global Network</a></li>
 <li class="corporate-profile"><a href="corporate_profile/index.html">About Us</a></li>
 <li class="corporate-profile"><a href="contact/index.html">Contact Us</a></li>
 <li class="function-area"><div class="search"><form action="http://search2.ia.omron.com/IA/" method="get" name="search_website" id="search_website" class="search-form">
@@ -637,11 +636,7 @@ we enable manufacturers to operate with greater productivity and streamlined eff
             </div>
             <div class="banner-area">
               <div class="banner-listA01">
-<ul>
-<li><a href="search/index.html"><img src="resource/banner/img/gsearch_banner.gif" width="216" height="68" alt="IA Global Search" /></a></li>
-<li><a href="support/global_catalog/index.html"><img src="common/banner/global_catalog.jpg" width="216" height="68" alt="Global Service Support Catalog" /></a></li>
-<li><a href="support/elearning/index.html"><img src="resource/banner/img/150323-KT-01_ban_small_elearning.jpg" width="216" height="68" alt="eLearning" /></a></li>
-</ul>
+
 <!-- /banner-listA01 --></div>
 <div class="top-special-banner">
 <h3>our automation story</h3>
