@@ -91,7 +91,6 @@
 <li class="home stay"><strong>Home</strong></li>
 <li class="product"><a href="product/index.html">Products</a></li>
 <li class="support"><a href="support/index-2.html">Technical Support</a></li>
-<li class="corporate-profile"><a href="corporate_profile/index.html">About Us</a></li>
 <li class="corporate-profile"><a href="contact/index.html">Contact Us</a></li>
 <li class="function-area"><div class="search"><form action="http://search2.ia.omron.com/IA/" method="get" name="search_website" id="search_website" class="search-form">
 					<p><input type="text" value="" size="20" name="q" id="search_str" class="search-str" /><input type="submit" value="Search" class="submit60L" id=""  /></p>
@@ -603,7 +602,7 @@ we enable manufacturers to operate with greater productivity and streamlined eff
                 </ul>
               </div>
             </div>
-            <div class="about-us-area">
+            <!--<div class="about-us-area">
               <h2>
                 <a href="corporate_profile/index-2.html">
                   <img src="common/img/icon_01.gif" width="3" height="9" alt="" class="iconA01">About Us</a>
@@ -633,13 +632,13 @@ we enable manufacturers to operate with greater productivity and streamlined eff
                   </ul>
                 </div>
               </div>
-            </div>
+            </div>-->
             <div class="banner-area">
               <div class="banner-listA01">
 
 <!-- /banner-listA01 --></div>
 <div class="top-special-banner">
-<h3>our automation story</h3>
+<h3>Omron's automation story</h3>
 <ul>
 <li><a href="http://www.omron.com/about/story/detail22.html" target="_blank"><img src="resource/image/banner/151001-KT-04_ban_smalldouble_omronstory-en.jpg" width="216" height="136" alt="Every motion stops in 0.05 seconds and innovation starts on the factory floor" /></a><a href="http://www.omron.com/about/story/detail22.html" target="_blank">Omron's vibration control technology makes sure the cup of liquid stops its motion completely with no spillage.<img src="common/img/icon_07.gif" width="14" height="11" alt="" class="external-win"></a></li>
 <li><a href="http://www.omron.com/about/story/detail07.html" target="_blank"><img src="resource/image/banner/141027-KT-01_ban_smalldouble_fa-takkyu-en.jpg" width="216" height="136" alt="Harmony between people and technology" /></a><a href="http://www.omron.com/about/story/detail07.html" target="_blank">Link to the story about development of the ping-pong robot which is controlled by OMRON's IA system.<img src="common/img/icon_07.gif" width="14" height="11" alt="" class="external-win"></a></li>
