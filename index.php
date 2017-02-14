@@ -20,10 +20,6 @@
     <link rel="start index" href="index-2.html" title="OMRON">
     <link rel="chapter" href="index.html" title="Our Strengths">
     <link rel="chapter" href="products/index.html" title="Products">
-    <link rel="chapter" href="support/index.html" title="Technical Support">
-    <link rel="chapter" href="global_network/index.html" title="Global Network">
-    <link rel="chapter" href="about/index.html" title="About Us">
-    <link rel="chapter" href="whats_new/index.html" title="What's New">
     <link rel="alternate" href="index.html" hreflang="en" />
 
 <script type="text/javascript" src="common/js/common.js"></script>
@@ -90,7 +86,6 @@
 <ul>
 <li class="home stay"><strong>Home</strong></li>
 <li class="product"><a href="product/index.html">Products</a></li>
-<li class="support"><a href="support/index-2.html">Technical Support</a></li>
 <li class="corporate-profile"><a href="contact/index.html">Contact Us</a></li>
 <li class="function-area"><div class="search"><form action="http://search2.ia.omron.com/IA/" method="get" name="search_website" id="search_website" class="search-form">
 					<p><input type="text" value="" size="20" name="q" id="search_str" class="search-str" /><input type="submit" value="Search" class="submit60L" id=""  /></p>
@@ -541,67 +536,7 @@ we enable manufacturers to operate with greater productivity and streamlined eff
 
           </div>
           <div class="contents03-area">
-            <div class="whats-new-area">
-              <h2>
-                <a href="new/information/index.html">
-                  <img src="common/img/icon_01.gif" width="3" height="9" alt="" class="iconA01">What's New</a>
-              </h2>
-              <div class="whats-new-section">
-                <dl class="time-line-list">
-	
-	<dt class="first-child">
-	
-		<span>December 01, 2016</span>
-</dt>
-<dd>
-	
-	
-	<a href="new/information/2016/12/001.html">We have introduced Switch Mode Power Supply S8FS-G.</a>
-	
-</dd>	
-	
-	<dt>
-		<span>October 11, 2016</span>
-</dt>
-<dd>
-	
-	
-	<a href="new/information/2016/10/001.html">We have introduced NX-series CPU Units NX1P2.</a>
-	
-</dd>	
-	
-	<dt>
-		<span>September 01, 2016</span>
-</dt>
-<dd>
-	
-	
-	<a href="new/information/2016/09/001.html">We have introduced Industrial PC Platform NY-series IPC Machine Controller NY5[][]-1.</a>
-	
-</dd>	
-	
-	<dt>
-		<span>September 01, 2016</span>
-</dt>
-<dd>
-	
-	
-	<a href="new/information/2016/09/002.html">We have introduced Industrial PC Platform NY-series Industrial Monitor NYM.</a>
-	
-</dd>	
-</dl>
-                <ul class="link-listA01">
-                  <li class="first">
-                    <a href="new/information/index.html">
-                      <img src="common/img/icon_01.gif" width="3" height="9" alt="" class="iconA01">See all</a>
-                  </li>
-                  <li>
-                    <a href="rss/index.html">
-                      <img src="common/img/feed_icon_01.gif" width="14" height="14" alt="" class="rss">Feed from OMRON IA</a>
-                  </li>
-                </ul>
-              </div>
-            </div>
+        
             <!--<div class="about-us-area">
               <h2>
                 <a href="corporate_profile/index-2.html">
@@ -652,14 +587,10 @@ we enable manufacturers to operate with greater productivity and streamlined eff
 <!-- === [footer-area] === -->
 <div class="footer-area">
 <p class="non-visual"><a name="footer" id="footer">Site Information</a></p>
-<div class="realizing">
-
-<!-- realizing --></div>
 <div class="footer-link">
 <ul>
 
 <li><a href="sitemap.html"><img src="common/img/icon_01.gif" width="3" height="9" alt="" class="iconA01" />Sitemap</a></li>
-<li><a href="terms/index.html"><img src="common/img/icon_01.gif" width="3" height="9" alt="" class="iconA01" />Terms of Use</a></li>
 <li><a href="privacy/index.html"><img src="common/img/icon_01.gif" width="3" height="9" alt="" class="iconA01" />Privacy Policy</a></li>
 </ul>
 <address>&copy; Copyright Kyoto Engineering & Automation(c). All Rights Reserved.</address>
