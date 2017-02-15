@@ -91,7 +91,7 @@
 					<p><input type="text" value="" size="20" name="q" id="search_str" class="search-str" /><input type="submit" value="Search" class="submit60L" id=""  /></p>
 				</form></div>
 </li>
-</ul>l>
+</ul>
 <!-- === /[global-navi-area] === --></div>
       <div class="main-image-area">
         <p class="non-visual"> <a name="main-image" id="main-image">Promotion Contents</a> </p>
