@@ -121,8 +121,8 @@
             <div class="site-description-area">
               <h1>OMRON Industrial Automation</h1>
               <p>OMRON Industrial Automation functions as a partner to help innovate worldwide manufacturing.<br>
-Through our expertise in sensing and control technology, </br>
-we enable manufacturers to operate with greater productivity and streamlined efficiency.</p>
+                Through our expertise in sensing and control technology, </br>
+                 we enable manufacturers to operate with greater productivity and streamlined efficiency.</p>
             </div>
             <div class="product-area">
               <h2>
@@ -134,7 +134,7 @@ we enable manufacturers to operate with greater productivity and streamlined eff
                   <div class="index-blockH01-unit sensors">
                     <h3>
                       <a href="products/category/sensors/index.html">
-                        <img src="common/img/icon_01.gif" width="3" height="9" alt="" class="iconA01">Sensors</a>
+                        <img src="common/img/icon_01.gif" width="3" height="9" alt="" class="iconA01"/>Sensors</a>
                     </h3>
                     <div class="index-list">
                       <ul class="link-listA01">
