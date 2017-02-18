@@ -593,7 +593,7 @@
 <li><a href="sitemap.html"><img src="common/img/icon_01.gif" width="3" height="9" alt="" class="iconA01" />Sitemap</a></li>
 <li><a href="privacy/index.html"><img src="common/img/icon_01.gif" width="3" height="9" alt="" class="iconA01" />Privacy Policy</a></li>
 </ul>
-<address>&copy; Copyright Kyoto Engineering & Automation(c). All Rights Reserved.</address>
+<address>&copy; Copyright Kyoto Engineering & Automation Ltd. All Rights Reserved.</address>
 <!-- footer-link --></div>
 <!-- === /[footer-area] === --></div>
 
