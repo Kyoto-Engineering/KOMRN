@@ -1,0 +1,1794 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<html xml:lang="en" lang="en" xmlns="http://www.w3.org/1999/xhtml">
+    
+<!-- Mirrored from www.ia.omron.com/products/family/3177/specification.html by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 15 Dec 2016 17:36:06 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=utf-8" /><!-- /Added by HTTrack -->
+<head>
+        <meta http-equiv="Content-Language" content="en" />
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <meta http-equiv="Content-Style-Type" content="text/css" />
+        <meta http-equiv="Content-Script-Type" content="text/javascript" />
+        <title>
+            E3NW Sensor Communications Unit/Specifications | OMRON Industrial Automation
+        </title>
+        <meta name="keywords" content="Sensors,Fiber Sensors,Sensor Communications Units,E3NW" />
+        <meta name="description" content="Sensor Communications Unit The Next-generation Sensor Networking Units That Revolutionize the Workplace from Introduction and Startup though Operation" />
+        
+
+<link rel="alternate" href="../../../index.html" hreflang="en" />
+<link rel="stylesheet" type="text/css" media="all" href="../../../resources/css/common22f8.css?201611151200" />
+<link rel="stylesheet" type="text/css" media="all" href="../../../resources/css/global/common22f8.css?201611151200" />
+<link rel="stylesheet" type="text/css" media="all" href="../../../resources/css/frame_utility_tridion22f8.css?201611151200" />
+<link rel="stylesheet" type="text/css" media="print" href="../../../resources/css/print22f8.css?201611151200" />
+<script type="text/javascript" src="../../../resources/js/jquery22f8.js?201611151200"></script>
+<script type="text/javascript" src="../../../resources/js/function22f8.js?201611151200"></script>
+<script type="text/javascript" src="../../../resources/js/country_website22f8.js?201611151200"></script>
+<script type="text/javascript" src="../../../resources/js/global/ga22f8.js?201611151200"></script>
+<link rel="stylesheet" type="text/css" media="all" href="../../../resources/css/jquery-ui22f8.css?201611151200" charset='UTF-8'/>
+<link rel="stylesheet" type="text/css" media="all" href="../../../resources/css/jquery.multiselect22f8.css?201611151200" charset='UTF-8'/>
+<script type="text/javascript" language="JavaScript" src="../../../common/js/marketing_tag22f8.js?201611151200"></script>
+<script type="text/javascript" src="../../../resources/js/jquery-ui.min22f8.js?201611151200" charset='UTF-8'></script>
+<script type="text/javascript" src="../../../resources/js/jquery.ex-table-filter22f8.js?201611151200" charset='UTF-8'></script>
+<script type="text/javascript" src="../../../resources/js/jquery.tablesorter.min22f8.js?201611151200" charset='UTF-8'></script>
+<script type="text/javascript" src="../../../resources/js/filter22f8.js?201611151200" charset='UTF-8'></script>
+<link rel="shortcut icon" href="../../../resources/images/favicon.ico" type="image/x-icon" />
+
+        <link rel="stylesheet" type="text/css" media="all" href="../../../resources/css/tablesorter6c9b.css?201611150900" />
+        <script type="text/javascript" src="../../../resources/js/global/products6c9b.js?201611150900" charset='UTF-8'></script>
+
+    </head>
+    <body id="www-ia-omron-com" class="layoutC03 sensors">
+
+        <!-- === [omron-ia] === -->
+        <div class="omron-ia">
+            <p class="non-visual">
+                <a name="page-top" id="page-top">
+                    Page top
+                </a>
+            </p>
+
+
+
+
+<div class="header-area">
+     <div class="site-identity">
+          <div class="site-logo">
+               <a href="../../../index.html"><img src="../../../Images/logo_01_b13-260967.gif"  width="129" height="24" alt="OMRON" /></a>
+          </div>
+          <!-- /.site-identity -->
+     </div>
+     <div class="utilities">
+          <div class="country-select-area">
+               <p class="canpany"><img src="../../../Images/header_txt_0113-195.gif"  width="129" height="11" alt="" /></p>
+               <p class="current-country">
+                    <span class="area devider">
+                        <a href="javascript:void(0)" onclick="box.countryWebsiteLinks();" id="country"><img src="../../../resources/images/icon_right_b.gif" width="3" height="9" alt="" class="iconA01" />Global</a>
+                    </span>
+               </p>
+          </div>
+          <div class="function-area">
+               <ul>
+
+
+                    <li class="first-child">
+
+
+                    <a href="../../../view/contact/input.html" ><img src="../../../resources/images/icon_right_b.gif" width="3" height="9" alt="" class="iconA01" />Contact</a>
+                    </li>
+
+               </ul>
+               <div class="search">
+<form action="http://search2.ia.omron.com/IA/" method="get" name="search_website" id="search_website" class="search-form">
+	<p>
+		<input type="text" value="" size="20" name="q" id="search_str" class="search-str" />
+		<input type="submit" value="Search" class="submit60L" />
+	</p>
+</form>
+                    <!-- /.search -->
+               </div>
+               <!-- /.function-area -->
+          </div>
+          <!-- /.utilities -->
+     </div>
+     <!-- /.header-area -->
+</div>
+
+<div class="global-navi-area">
+<ul>
+
+<li>
+<a href="../../../index.html">Home</a>
+</li>
+
+<li class="stay-link">
+<a href="../../index-2.html">Products</a>
+</li>
+
+<li>
+<a href="../../../support/index-2.html">Technical Support</a>
+</li>
+
+<li>
+<a href="../../../global_network/index-2.html">Global Network</a>
+</li>
+
+<li>
+<a href="../../../corporate_profile/index.html">About Us</a>
+</li>
+
+</ul>
+</div> 
+<div class="bread-crumb-area">
+<ul>
+
+
+<li><a href="../../../index.html" >Home</a><span class="separator">&gt;</span></li>
+
+<li><a href="../../index-2.html" >Products</a><span class="separator">&gt;</span></li>
+
+<li><a href="../../category/index.html" >Product Category</a><span class="separator">&gt;</span></li>
+
+<li><a href="../../category/sensors/index-2.html" >Sensors</a><span class="separator">&gt;</span></li>
+
+<li><a href="../../category/sensors/fiber-sensors/index-2.html" >Fiber Sensors</a><span class="separator">&gt;</span></li>
+
+<li><a href="../../category/sensors/fiber-sensors/sensor-communications-units/index.html" >Sensor Communications Units</a><span class="separator">&gt;</span></li>
+
+<li><strong>E3NW</strong></li>
+
+
+</ul>
+</div>
+
+            <!-- === [contents-area] === -->
+            <div class="contents-area">
+
+                <!-- === [inner-contents-area] === -->
+                <div class="inner-contents-area">
+                    <!-- === [upper-contents-area] === -->
+                    <div class="upper-contents-area">
+                        <!-- === [lead-area] === -->
+                        <div class="lead-area">
+
+
+
+
+<!-- --------------------------------------------------------------------Product Family Start--------------------------------------------------------- -->
+<div class="heading-h1">
+
+
+    <h1>
+        E3NW
+    </h1>
+    <p class="sub-title">
+        Sensor Communications Unit
+    </p>
+</div>
+<div class="image-blockA01">
+    <div class="image-left">
+        <p class="image">
+
+            <img src="../../../Images/l_3177-13-164725-198x198.jpg" width="198" height="198" alt="E3NW" class="nopic" />
+
+
+        </p>
+    </div>
+    <div class="description">
+        <h2 class="heading-B02">
+            The Next-generation Sensor Networking Units That Revolutionize the Workplace from Introduction and Startup though Operation
+        </h2>
+        
+
+
+
+
+        <div class="item-list-link">
+            <p>
+                <a href="itemlist/index.html">
+                    <img src="../../../resources/images/icon_right_b.gif" width="3" height="9" alt="" class="iconA01" />
+                    Item list of E3NW
+                </a>
+            </p>
+        </div>
+    </div>
+<!-- /.image-blockA01 -->
+</div>
+
+
+
+                        </div>
+                        <!-- === /[lead-area] === -->
+
+
+                        <!-- === [utility-area] === -->
+                        <div class="utility-area">                         
+                       
+                            <div class="action-block">
+                                <p>
+                                    about this Product Family
+                                </p>
+                                <ul>
+                                    <li class="first-child">
+                                        <a href="../../../view/inquiry/b5family/inputf2ba.html?b5Id=3177">
+                                            Inquiry of this Product
+                                        </a>
+                                    </li>                                 
+                                </ul>
+                            </div>
+
+
+
+
+<div class="related-info-blockA01 vertical-slide">
+
+    <p>
+        <span>Related Contents</span>
+    </p>
+
+
+        <ul>
+            <li class="first-child">
+                <span>Common</span>
+            </li>
+            <li>
+                <ul class="list-indent01">
+
+
+                    <li class="first-child">
+
+
+                        <a href="../../../product/cautions/index.html">
+                            <img src="../../../resources/images/icon_right_b.gif" width="3" height="9" alt="" class="iconA01" />
+                            Cautions
+                        </a>
+                    </li>
+
+
+
+                    <li>
+
+                        <a href="../../../support/guide/index.html">
+                            <img src="../../../resources/images/icon_right_b.gif" width="3" height="9" alt="" class="iconA01" />
+                            Technical Guide
+                        </a>
+                    </li>
+
+
+
+                    <li>
+
+                        <a href="../../../support/models/index.html">
+                            <img src="../../../resources/images/icon_right_b.gif" width="3" height="9" alt="" class="iconA01" />
+                            Models with Standards Certification
+                        </a>
+                    </li>
+
+
+
+                    <li>
+
+                        <a href="../../../support/faq/index.html">
+                            <img src="../../../resources/images/icon_right_b.gif" width="3" height="9" alt="" class="iconA01" />
+                            FAQ 
+                        </a>
+                    </li>
+
+                </ul>
+            </li>
+        </ul>
+
+        <ul>
+            <li class="first-child">
+                <span>Sensors</span>
+            </li>
+            <li>
+                <ul class="list-indent01">
+
+
+                    <li class="first-child">
+
+
+                        <a href="../../../support/glossary/sensors/index.html">
+                            <img src="../../../resources/images/icon_right_b.gif" width="3" height="9" alt="" class="iconA01" />
+                            Glossary of Industrial Automation 
+                        </a>
+                    </li>
+
+                </ul>
+            </li>
+        </ul>
+
+        <ul>
+            <li class="first-child">
+                <span>Fiber Sensors</span>
+            </li>
+            <li>
+                <ul class="list-indent01">
+
+
+                    <li class="first-child">
+
+
+                        <a href="../../index/sensors/fiber-sensors/index.html">
+                            <img src="../../../resources/images/icon_right_b.gif" width="3" height="9" alt="" class="iconA01" />
+                            Item A to Z Index 
+                        </a>
+                    </li>
+
+
+
+                    <li>
+
+                        <a href="../../applications/category/sensors/fiber-sensors/index.html">
+                            <img src="../../../resources/images/icon_right_b.gif" width="3" height="9" alt="" class="iconA01" />
+                            Applications 
+                        </a>
+                    </li>
+
+                </ul>
+            </li>
+        </ul>
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- /.related-info-blockA01 -->
+</div>
+
+
+
+                           
+                        </div>
+                        <!-- === /[utility-area] === -->
+
+                    </div>
+                    <!-- === /[upper-contents-area] === -->
+
+                    <!-- === [primary-contents-area] === -->
+                    <div class="primary-contents-area">
+                        <div class="tabpanel-blockA01">
+
+
+
+
+
+
+<div class="tab-block">
+    <ul class="tabs">
+
+
+
+
+
+
+
+        <li>
+            <a href="feature.html">Features</a>
+
+        </li>
+
+
+
+
+
+
+
+
+        <li>
+            <a href="lineup.html">Lineup</a>
+
+        </li>
+
+
+
+
+
+
+
+
+        <li class="active">
+            <span>Specifications</span>
+
+        </li>
+
+
+
+
+
+
+
+
+        <li>
+            <a href="dimension.html">Dimensions</a>
+
+        </li>
+
+
+
+
+
+
+        <li>
+            <a href="download/catalog.html">Catalog</a>
+
+        </li>
+
+
+
+
+
+    </ul>
+</div><!-- /.tab-block -->
+
+<div class="editable-block">
+
+
+<p class="date-line">last update: September 14, 2016</p>
+
+
+
+
+
+
+
+
+
+<h4 class="heading-A02">Sensor Communications Unit</h4>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<h4 class="heading-A03">EtherCAT</h4>
+
+
+
+
+
+
+
+
+
+<div class="component-blockA01">
+
+
+
+
+
+    <div class="text">
+        <p>
+            
+          <div class="table-blockA01">
+							<table cellspacing="0" border="0" class="tableA01">
+								<tr class="first-child">
+									<th class="heading right middle"><strong>Model</strong></th>
+									<th class="heading center middle"><strong>E3NW-ECT</strong></th>
+								</tr>
+								<tr>
+									<th class="heading left middle"><strong>Connectable Sensor Amplifier Units</strong></th>
+									<td class="left middle">N-Smart
+<br />
+Smart Fiber Amplifier Unit: E3NX-FA0
+<br />
+Color Fiber Amplifier Unit: E3NX-CA0 *1
+<br />
+Smart Laser Amplifier Unit: E3NC-LA0
+<br />
+Smart Laser Amplifier Unit (CMOS type): E3NC-SA0
+<br />
+Contact-Type Smart Amplifier Unit: E9NC-TA0 *2</td>
+								</tr>
+								<tr>
+									<th class="heading left middle"><strong>Power supply voltage</strong></th>
+									<td class="left middle">24 VDC (20.4 to 26.4 V)</td>
+								</tr>
+								<tr>
+									<th class="heading left middle"><strong>Power and current consumption</strong></th>
+									<td class="left middle">2.4 W max. (Not including the power supplied to Sensors.),
+<br />
+100 mA max. (Not including the current supplied to Sensors.)</td>
+								</tr>
+								<tr>
+									<th class="heading left middle"><strong>Indicators</strong></th>
+									<td class="left middle">L/A IN indicator (green), L/A OUT indicator (green), PWR indicator (green), RUN
+<br />
+indicator (green), ERROR indicator (red), and SS (Sensor Status) indicator
+<br />
+(green/red)</td>
+								</tr>
+								<tr>
+									<th class="heading left middle"><strong>Vibration resistance (destruction)</strong></th>
+									<td class="left middle">10 to 60 Hz with a 0.7-mm double amplitude, 50 m/s<sup>2</sup> at 60 to 150 Hz, for 1.5
+<br />
+hours each in X, Y, and Z directions</td>
+								</tr>
+								<tr>
+									<th class="heading left middle"><strong>Shock resistance (destruction)</strong></th>
+									<td class="left middle">150 m/s<sup>2</sup> for 3 times each in X, Y, and Z directions</td>
+								</tr>
+								<tr>
+									<th class="heading left middle"><strong>Ambient temperature range</strong></th>
+									<td class="left middle">Operating: 0 to 55°C; *3
+<br />
+Storage: -30 to 70°C (with no icing or condensation)</td>
+								</tr>
+								<tr>
+									<th class="heading left middle"><strong>Ambient humidity range</strong></th>
+									<td class="left middle">Operating and storage: 25% to 85% (with no condensation)</td>
+								</tr>
+								<tr>
+									<th class="heading left middle"><strong>Maximum connectable Sensors *3</strong></th>
+									<td class="left middle">30 *4</td>
+								</tr>
+								<tr>
+									<th class="heading left middle"><strong>Maximum connectable Distributed
+<br />
+Sensor Units</strong></th>
+									<td class="left middle">8</td>
+								</tr>
+								<tr>
+									<th class="heading left middle"><strong>Insulation resistance</strong></th>
+									<td class="left middle">20 MΩ min. (at 500 VDC)</td>
+								</tr>
+								<tr>
+									<th class="heading left middle"><strong>Dielectric strength</strong></th>
+									<td class="left middle">500 VAC at 50/60 Hz for 1 min</td>
+								</tr>
+								<tr>
+									<th class="heading left middle"><strong>Mounting method</strong></th>
+									<td class="left middle">35-mm DIN track - mounting</td>
+								</tr>
+								<tr>
+									<th class="heading left middle"><strong>Weight (packed state/Unit only)</strong></th>
+									<td class="left middle">Approx. 185 g/approx. 95 g</td>
+								</tr>
+								<tr>
+									<th class="heading left middle"><strong>Materials</strong></th>
+									<td class="left middle">Polycarbonate</td>
+								</tr>
+								<tr>
+									<th class="heading left middle"><strong>Accessories</strong></th>
+									<td class="left middle">Power supply connector, communications connector for E3NW-DS connection,
+<br />
+DIN Track End Plates (2 pieces), and instruction manual</td>
+								</tr>
+							</table>
+						</div>
+        
+        </p>
+    </div>
+
+
+
+
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="component-blockA01">
+
+
+
+
+
+    <div class="text">
+        <p>
+            
+          <div style="text-align: left;">*1. The E3NX-CA0 is supported for firmware version 1.06 or higher (Sensor Communications Units manufactured in
+<br />
+       June 2016 or later).
+<br />
+*2. The E9NC-TA0 is supported for firmware version 1.03 or higher (Sensor Communications Units manufactured in
+<br />
+       July 2014 or later).
+<br />
+*3. Temperature Limitations Based on Number of Connected Amplifier Units:
+<br />
+       Groups of 1 or 2 Amplifier Units: 0 to 55°C, Groups of 3 to 10 Amplifier Units: 0 to 50°C, Groups of 11 to 16 Amplifier
+<br />
+       Units: 0 to 45°C, Groups of 17 to 30 Amplifier Units: 0 to 40°C
+<br />
+*4. You can connect up to 30 Sensors total to the Sensor Communications Unit and Distributed Sensor Units.
+</div>
+        
+        </p>
+    </div>
+
+
+
+
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<h4 class="heading-B02">Communications Specifications</h4>
+
+
+
+
+
+
+
+<div class="component-blockA01">
+
+
+
+
+
+    <div class="text">
+        <p>
+            
+						<div class="table-blockA01">
+							<table cellspacing="0" border="0" class="tableA01">
+								<tr class="first-child">
+									<th class="heading center middle"><strong>Item</strong></th>
+									<th class="heading center middle"><strong>Specification</strong></th>
+								</tr>
+								<tr>
+									<th class="heading left middle"><strong>Communications protocol</strong></th>
+									<td class="left middle">Dedicated protocol for EtherCAT</td>
+								</tr>
+								<tr>
+									<th class="heading left middle"><strong>Modulation</strong></th>
+									<td class="left middle">Baseband method</td>
+								</tr>
+								<tr>
+									<th class="heading left middle"><strong>Baud rate</strong></th>
+									<td class="left middle">100 Mbps</td>
+								</tr>
+								<tr>
+									<th class="heading left middle"><strong>Physical layer</strong></th>
+									<td class="left middle">100BASE-TX (IEEE 802.3u)</td>
+								</tr>
+								<tr>
+									<th class="heading left middle"><strong>Topology</strong></th>
+									<td class="left middle">Daisy chain</td>
+								</tr>
+								<tr>
+									<th class="heading left middle"><strong>Communications media</strong></th>
+									<td class="left middle">STP category 5 or higher</td>
+								</tr>
+								<tr>
+									<th class="heading left middle"><strong>Communications distance</strong></th>
+									<td class="left middle">Distance between nodes: 100 m max.</td>
+								</tr>
+								<tr>
+									<th class="heading left middle"><strong>Noise immunity</strong></th>
+									<td class="left middle">Conforms to IEC 61000-4-4, 1 kV or higher</td>
+								</tr>
+								<tr>
+									<th class="heading left middle"><strong>Node address setting method</strong></th>
+									<td class="left middle">Set with decimal rotary switches or software *1</td>
+								</tr>
+								<tr>
+									<th class="heading left middle"><strong>Node address range</strong></th>
+									<td class="left middle">000 to 192 *2</td>
+								</tr>
+							</table>
+						</div>
+					
+        </p>
+    </div>
+
+
+
+
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="component-blockA01">
+
+
+
+
+
+    <div class="text">
+        <p>
+            
+						<div style="text-align: left;">*1. The software setting is used when the node address setting switches are set to 0.
+<br />
+*2. The range depends on the EtherCAT master that is used. Refer to the E3NW-ECT EtherCAT Digital Sensor
+<br />
+       Communications Unit Operation Manual (Cat. No. E429) for details.</div>
+					
+        </p>
+    </div>
+
+
+
+
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<h4 class="heading-A03">CompoNet</h4>
+
+
+
+
+
+
+
+
+
+<div class="component-blockA01">
+
+
+
+
+
+    <div class="text">
+        <p>
+            
+						<div class="table-blockA01">
+							<table cellspacing="0" border="0" class="tableA01">
+								<tr class="first-child">
+									<th class="heading right middle"><strong>Model</strong></th>
+									<th class="heading center middle"><strong>E3NW-CRT</strong></th>
+								</tr>
+								<tr>
+									<th class="heading left middle"><strong>Connectable Sensor Amplifier Units</strong></th>
+									<td class="left middle">N-Smart
+<br />
+Smart Fiber Amplifier Unit: E3NX-FA0
+<br />
+Smart Laser Amplifier Unit: E3NC-LA0
+<br />
+Smart Laser Amplifier Unit (CMOS type): E3NC-SA0</td>
+								</tr>
+								<tr>
+									<th class="heading left middle"><strong>Power supply voltage</strong></th>
+									<td class="left middle">14 to 26.4 VDC</td>
+								</tr>
+								<tr>
+									<th class="heading left middle"><strong>Power and current consumption</strong></th>
+									<td class="left middle">At 24 VDC
+<br />
+1.7 W max. (Not including the power supplied to Sensors.),
+<br />
+70 mA max. (Not including the current supplied to Sensors.)</td>
+								</tr>
+								<tr>
+									<th class="heading left middle"><strong>Indicators</strong></th>
+									<td class="left middle">MS (Machine Status) indicator (green/red), NS (Network Status) indicator
+<br />
+(green/red), and SS (Sensor Status) indicator (green/red)</td>
+								</tr>
+								<tr>
+									<th class="heading left middle"><strong>Vibration resistance (destruction)</strong></th>
+									<td class="left middle">10 to 60 Hz with a 0.7-mm double amplitude, 50 m/s<sup>2</sup> at 60 to 150 Hz, for 1.5
+<br />
+hours each in X, Y, and Z directions</td>
+								</tr>
+								<tr>
+									<th class="heading left middle"><strong>Shock resistance (destruction)</strong></th>
+									<td class="left middle">150 m/s<sup>2</sup> for 3 times each in X, Y, and Z directions</td>
+								</tr>
+								<tr>
+									<th class="heading left middle"><strong>Ambient temperature range</strong></th>
+									<td class="left middle">Operating: 0 to 55°C; *1
+<br />
+Storage: -30 to 70°C (with no icing or condensation)</td>
+								</tr>
+								<tr>
+									<th class="heading left middle"><strong>Ambient humidity range</strong></th>
+									<td class="left middle">Operating and storage: 25% to 85% (with no condensation)</td>
+								</tr>
+								<tr>
+									<th class="heading left middle"><strong>Maximum connectable Sensors *1</strong></th>
+									<td class="left middle">16 *2</td>
+								</tr>
+								<tr>
+									<th class="heading left middle"><strong>Maximum connectable Distributed
+<br />
+Sensor Units</strong></th>
+									<td class="left middle">8</td>
+								</tr>
+								<tr>
+									<th class="heading left middle"><strong>Insulation resistance</strong></th>
+									<td class="left middle">20 MΩ min. (at 500 VDC)</td>
+								</tr>
+								<tr>
+									<th class="heading left middle"><strong>Dielectric strength</strong></th>
+									<td class="left middle">500 VAC at 50/60 Hz for 1 min</td>
+								</tr>
+								<tr>
+									<th class="heading left middle"><strong>Mounting method</strong></th>
+									<td class="left middle">35-mm DIN track - mounting</td>
+								</tr>
+								<tr>
+									<th class="heading left middle"><strong>Weight (packed state/Unit only)</strong></th>
+									<td class="left middle">Approx. 165 g/approx. 70 g</td>
+								</tr>
+								<tr>
+									<th class="heading left middle"><strong>Materials</strong></th>
+									<td class="left middle">Polycarbonate</td>
+								</tr>
+								<tr>
+									<th class="heading left middle"><strong>Accessories</strong></th>
+									<td class="left middle">Communications connector for E3NW-DS connection, DIN Track End Plates
+<br />
+(2 pieces), and instruction manual</td>
+								</tr>
+							</table>
+						</div>
+					
+        </p>
+    </div>
+
+
+
+
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="component-blockA01">
+
+
+
+
+
+    <div class="text">
+        <p>
+            
+						<div style="text-align: left;">*1. Temperature Limitations Based on Number of Connected Amplifier Units:
+<br />
+       Groups of 1 or 2 Amplifier Units: 0 to 55°C, Groups of 3 to 10 Amplifier Units: 0 to 50°C, Groups of 11 to 16 Amplifier
+<br />
+       Units: 0 to 45°C
+<br />
+*2. You can connect up to 16 Sensors total to the Sensor Communications Unit and Distributed Sensor Units.</div>
+					
+        </p>
+    </div>
+
+
+
+
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<h4 class="heading-B02">Communications Specifications</h4>
+
+
+
+
+
+
+
+<div class="component-blockA01">
+
+
+
+
+
+    <div class="text">
+        <p>
+            
+						<div class="table-blockA01">
+							<table cellspacing="0" border="0" class="tableA01">
+								<tr class="first-child">
+									<th class="heading center middle"><strong>Item</strong></th>
+									<th class="heading center middle"><strong>Specifications</strong></th>
+								</tr>
+								<tr>
+									<th class="heading left middle"><strong>Communications method</strong></th>
+									<td class="left middle">Dedicated protocol for CompoNet</td>
+								</tr>
+								<tr>
+									<th class="heading left middle"><strong>Types of communications</strong></th>
+									<td class="left middle">Remote I/O communications (program-free, constant sharing of data) and message
+<br />
+communications (explicit message communications as required)</td>
+								</tr>
+								<tr>
+									<th class="heading left middle"><strong>Baud rate</strong></th>
+									<td class="left middle">4 Mbps, 3 Mbps, 1.5 Mbps, 93.75 kbps</td>
+								</tr>
+								<tr>
+									<th class="heading left middle"><strong>Modulation</strong></th>
+									<td class="left middle">Baseband method</td>
+								</tr>
+								<tr>
+									<th class="heading left middle"><strong>Coding</strong></th>
+									<td class="left middle">Manchester code</td>
+								</tr>
+								<tr>
+									<th class="heading left middle"><strong>Error control</strong></th>
+									<td class="left middle">Manchester encoding rules and CRC</td>
+								</tr>
+								<tr>
+									<th class="heading left middle"><strong>Communications media</strong></th>
+									<td class="left middle">The following media can be used.
+<br />
+Round Cable I
+<br />
+Round Cable II
+<br />
+Flat Cable I (DCA4-4F10 Standard Flat Cable)
+<br />
+Flat Cable II (DCA5-4F10 Sheathed Flat Cable)
+<br />
+Note: Round Cable I, Round Cable II, Flat Cable I, and Flat Cable II cables are all treated
+<br />
+as different types of cables. When two or more types of cables are used in a single
+<br />
+network, a Repeater Unit must be used to separate any two different types of cables
+<br />
+between the trunk line and a sub-trunk line.</td>
+								</tr>
+								<tr>
+									<th class="heading left middle"><strong>Communications
+<br />
+distance and wiring</strong></th>
+									<td class="left middle">Refer to 1-2-1 Cable Types, Maximum Distances, and Number of Slave Units in the
+<br />
+CompoNet Master Units Operation Manual (Cat. No. W456).</td>
+								</tr>
+								<tr>
+									<th class="heading left middle"><strong>Signal lines</strong></th>
+									<td class="left middle">Two lines: BDH (communications data high) and BDL (communications data low)</td>
+								</tr>
+								<tr>
+									<th class="heading left middle"><strong>Power lines</strong></th>
+									<td class="left middle">Two lines: BS+ and BS- (power for communications and internal Slave Unit circuits)
+<br />
+Power is supplied from the Master Unit or Repeater Unit.</td>
+								</tr>
+								<tr>
+									<th colspan="1" rowspan="2" class="heading left middle"><strong>Connection forms</strong></th>
+									<td class="left middle">Round Cable II, Flat Cable I, or Flat Cable II at a baud rate of 93.75 kbps: No restrictions
+<br />
+Other cables or baud rates: Trunk line and branch lines</td>
+								</tr>
+								<tr>
+									<td class="left middle">Connections for Slave Units and Repeater Units: T-branch or multidrop connections</td>
+								</tr>
+								<tr>
+									<th class="heading left middle"><strong>Noise immunity</strong></th>
+									<td class="left middle">Conforms to IEC 61000-4-4, 1 kV or higher</td>
+								</tr>
+								<tr>
+									<th class="heading left middle"><strong>Address setting method</strong></th>
+									<td class="left middle">Decimal rotary address switch</td>
+								</tr>
+								<tr>
+									<th class="heading left middle"><strong>Address range</strong></th>
+									<td class="left middle">0 to 62</td>
+								</tr>
+							</table>
+						</div>
+					
+        </p>
+    </div>
+
+
+
+
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<h4 class="heading-A03">CC-Link</h4>
+
+
+
+
+
+
+
+
+
+<div class="component-blockA01">
+
+
+
+
+
+    <div class="text">
+        <p>
+            
+						<div class="table-blockA01">
+							<table cellspacing="0" border="0" class="tableA01">
+								<tr class="first-child">
+									<th class="heading right middle"><strong>Model</strong></th>
+									<th class="heading center middle"><strong>E3NW-CCL</strong></th>
+								</tr>
+								<tr>
+									<th class="heading left middle"><strong>Connectable Sensor Amplifier Units</strong></th>
+									<td class="left middle">N-Smart
+<br />
+Smart Fiber Amplifier Unit: E3NX-FA0
+<br />
+Smart Laser Amplifier Unit: E3NC-LA0
+<br />
+Smart Laser Amplifier Unit (CMOS type): E3NC-SA0
+<br />
+Contact-Type Smart Amplifier Unit: E9NC-TA0 *1</td>
+								</tr>
+								<tr>
+									<th class="heading left middle"><strong>Power supply voltage</strong></th>
+									<td class="left middle">24 VDC (20.4 to 26.4 V)</td>
+								</tr>
+								<tr>
+									<th class="heading left middle"><strong>Power and current consumption</strong></th>
+									<td class="left middle">2.4 W max. (Not including the power supplied to Sensors.),
+<br />
+100 mA max. (Not including the current supplied to Sensors.)</td>
+								</tr>
+								<tr>
+									<th class="heading left middle"><strong>Indicators</strong></th>
+									<td class="left middle">RUN indicator (green), ERROR indicator (red), and SS (Sensor Status) indicator
+<br />
+(green/red)</td>
+								</tr>
+								<tr>
+									<th class="heading left middle"><strong>Vibration resistance (destruction)</strong></th>
+									<td class="left middle">10 to 60 Hz with a 0.7-mm double amplitude, 50 m/s<sup>2</sup> at 60 to 150 Hz, for 1.5
+<br />
+hours each in X, Y, and Z directions</td>
+								</tr>
+								<tr>
+									<th class="heading left middle"><strong>Shock resistance (destruction)</strong></th>
+									<td class="left middle">150 m/s<sup>2</sup> for 3 times each in X, Y, and Z directions</td>
+								</tr>
+								<tr>
+									<th class="heading left middle"><strong>Ambient temperature range</strong></th>
+									<td class="left middle">Operating: 0 to 55°C; *2
+<br />
+Storage: -30 to 70°C (with no icing or condensation)</td>
+								</tr>
+								<tr>
+									<th class="heading left middle"><strong>Ambient humidity range</strong></th>
+									<td class="left middle">Operating and storage: 25% to 85% (with no condensation)</td>
+								</tr>
+								<tr>
+									<th class="heading left middle"><strong>Maximum connectable Sensors *2</strong></th>
+									<td class="left middle">16 *3</td>
+								</tr>
+								<tr>
+									<th class="heading left middle"><strong>Maximum connectable Distributed
+<br />
+Sensor Units</strong></th>
+									<td class="left middle">8</td>
+								</tr>
+								<tr>
+									<th class="heading left middle"><strong>Insulation resistance</strong></th>
+									<td class="left middle">20 MΩ min. (at 500 VDC)</td>
+								</tr>
+								<tr>
+									<th class="heading left middle"><strong>Dielectric strength</strong></th>
+									<td class="left middle">500 VAC at 50/60 Hz for 1 min</td>
+								</tr>
+								<tr>
+									<th class="heading left middle"><strong>Mounting method</strong></th>
+									<td class="left middle">35-mm DIN track - mounting</td>
+								</tr>
+								<tr>
+									<th class="heading left middle"><strong>Weight (packed state/Unit only)</strong></th>
+									<td class="left middle">Approx. 180 g/approx. 80 g</td>
+								</tr>
+								<tr>
+									<th class="heading left middle"><strong>Materials</strong></th>
+									<td class="left middle">Polycarbonate</td>
+								</tr>
+								<tr>
+									<th class="heading left middle"><strong>Accessories</strong></th>
+									<td class="left middle">Power Supply Connector, E3NW-DS Communications Connector,
+<br />
+Network Connectors (2), DIN Track End Plates (2), and Instruction
+<br />
+Manual</td>
+								</tr>
+							</table>
+						</div>
+					
+        </p>
+    </div>
+
+
+
+
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="component-blockA01">
+
+
+
+
+
+    <div class="text">
+        <p>
+            
+          <div style="text-align: left;">*1. The E9NC-TA0 is supported for firmware version 1.03 or higher (Sensor Communications Units manufactured in
+<br />
+       July 2014 or later).
+<br />
+*2. Temperature Limitations Based on Number of Connected Amplifier Units:
+<br />
+       Groups of 1 or 2 Amplifier Units: 0 to 55°C, Groups of 3 to 10 Amplifier Units: 0 to 50°C, Groups of 11 to 16 Amplifier
+<br />
+       Units: 0 to 45°C
+<br />
+*3. You can connect up to 16 Sensors total to the Sensor Communications Unit and Distributed Sensor Units.</div>
+        
+        </p>
+    </div>
+
+
+
+
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<h4 class="heading-B02">Communications Specifications</h4>
+
+
+
+
+
+
+
+<div class="component-blockA01">
+
+
+
+
+
+    <div class="text">
+        <p>
+            
+          <div class="table-blockA01">
+							<table cellspacing="0" border="0" class="tableA01">
+								<tr class="first-child">
+									<th class="heading center middle"><strong>Item</strong></th>
+									<th class="heading center middle"><strong>Specifications</strong></th>
+								</tr>
+								<tr>
+									<th class="heading left middle"><strong>Communications protocol</strong></th>
+									<td class="left middle">Dedicated protocol for CC-Link</td>
+								</tr>
+								<tr>
+									<th class="heading left middle"><strong>Communications method</strong></th>
+									<td class="left middle">Broadcast polling</td>
+								</tr>
+								<tr>
+									<th class="heading left middle"><strong>Baud rate</strong></th>
+									<td class="left middle">10 Mbps/5 Mbps/2.5 Mbps/625 kbps/156 kbps</td>
+								</tr>
+								<tr>
+									<th class="heading left middle"><strong>Physical layer</strong></th>
+									<td class="left middle">Bus (based on EIA RS485)</td>
+								</tr>
+								<tr>
+									<th class="heading left middle"><strong>Topology</strong></th>
+									<td class="left middle">Daisy chain (T-branching can be used.)</td>
+								</tr>
+								<tr>
+									<th class="heading left middle"><strong>Communications media</strong></th>
+									<td class="left middle">CC-Link Cables</td>
+								</tr>
+								<tr>
+									<th class="heading left middle"><strong>Communications distance</strong></th>
+									<td class="left middle">Cable length between nodes: 20 cm min.
+<br />
+Maximum total cable length
+<br />
+Baud rate of 156 kbps: 1,200 m
+<br />
+Baud rate of 625 kbps: 900 m
+<br />
+Baud rate of 2.5 Mbps: 400 m
+<br />
+Baud rate of 5 Mbps: 160 m
+<br />
+Baud rate of 10 Mbps: 100 m</td>
+								</tr>
+								<tr>
+									<th class="heading left middle"><strong>Noise immunity</strong></th>
+									<td class="left middle">Conforms to IEC 61000-4-4, 1 kV or higher</td>
+								</tr>
+								<tr>
+									<th class="heading left middle"><strong>Address setting method</strong></th>
+									<td class="left middle">Decimal rotary address switch</td>
+								</tr>
+								<tr>
+									<th class="heading left middle"><strong>Address range</strong></th>
+									<td class="left middle">64 max. *</td>
+								</tr>
+								<tr>
+									<th class="heading left middle"><strong>Synchronization mode</strong></th>
+									<td class="left middle">Cyclic transmissions (synchronization)</td>
+								</tr>
+							</table>
+						</div>
+        
+        </p>
+    </div>
+
+
+
+
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="component-blockA01">
+
+
+
+
+
+    <div class="text">
+        <p>
+            
+						<div style="text-align: left;">* The range depends on the CC-Link master that is used. Refer to 5-3-2 Node Setting Switches in the E3NW-CCL CC-
+<br />
+    Link Digital Sensor Communications Unit Operation Manual (Cat. No. E431) for details.</div>
+					
+        </p>
+    </div>
+
+
+
+
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<h4 class="heading-A02">Distributed Sensor Unit</h4>
+
+
+
+
+
+
+
+
+
+
+<div class="component-blockA01">
+
+
+
+
+
+    <div class="text">
+        <p>
+            
+          <div class="table-blockA01">
+							<table cellspacing="0" border="0" class="tableA01">
+								<tr class="first-child">
+									<th class="heading right middle"><strong>Model</strong></th>
+									<th class="heading center middle"><strong>E3NW-DS</strong></th>
+								</tr>
+								<tr>
+									<th class="heading left middle"><strong>Connectable Sensor Amplifier Units</strong></th>
+									<td class="left middle">N-Smart
+<br />
+Smart Fiber Amplifier Unit: E3NX-FA0
+<br />
+Color Fiber Amplifier Unit: E3NX-CA0
+<br />
+Smart Laser Amplifier Unit: E3NC-LA0
+<br />
+Smart Laser Amplifier Unit (CMOS type): E3NC-SA0
+<br />
+Contact-Type Smart Amplifier Unit: E9NC-TA0</td>
+								</tr>
+								<tr>
+									<th class="heading left middle"><strong>Power supply voltage</strong></th>
+									<td class="left middle">24 VDC (20.4 to 26.4 V)</td>
+								</tr>
+								<tr>
+									<th class="heading left middle"><strong>Power and current consumption</strong></th>
+									<td class="left middle">2 W max. (Not including the power supplied to Sensors.),
+<br />
+80 mA max. (Not including the current supplied to Sensors.)</td>
+								</tr>
+								<tr>
+									<th class="heading left middle"><strong>Indicators</strong></th>
+									<td class="left middle">RUN indicator (green) and SS (Sensor Status) indicator (green/red)</td>
+								</tr>
+								<tr>
+									<th class="heading left middle"><strong>Vibration resistance (destruction)</strong></th>
+									<td class="left middle">10 to 60 Hz with a 0.7-mm double amplitude, 50 m/s<sup>2</sup> at 60 to 150 Hz, for 1.5
+<br />
+hours each in X, Y, and Z directions</td>
+								</tr>
+								<tr>
+									<th class="heading left middle"><strong>Shock resistance (destruction)</strong></th>
+									<td class="left middle">150 m/s<sup>2</sup> for 3 times each in X, Y, and Z directions</td>
+								</tr>
+								<tr>
+									<th class="heading left middle"><strong>Ambient temperature range</strong></th>
+									<td class="left middle">Operating: 0 to 55°C; *
+<br />
+Storage: -30 to 70°C (with no icing or condensation)</td>
+								</tr>
+								<tr>
+									<th class="heading left middle"><strong>Ambient humidity range</strong></th>
+									<td class="left middle">Operating and storage: 25% to 85% (with no condensation)</td>
+								</tr>
+								<tr>
+									<th class="heading left middle"><strong>Maximum connectable Sensors *</strong></th>
+									<td class="left middle">10</td>
+								</tr>
+								<tr>
+									<th class="heading left middle"><strong>Insulation resistance</strong></th>
+									<td class="left middle">20 MΩ min. (at 500 VDC)</td>
+								</tr>
+								<tr>
+									<th class="heading left middle"><strong>Dielectric strength</strong></th>
+									<td class="left middle">500 VAC at 50/60 Hz for 1 min</td>
+								</tr>
+								<tr>
+									<th class="heading left middle"><strong>Mounting method</strong></th>
+									<td class="left middle">35-mm DIN track - mounting</td>
+								</tr>
+								<tr>
+									<th class="heading left middle"><strong>Weight (packed state/Unit only)</strong></th>
+									<td class="left middle">Approx. 160 g/approx. 40 g</td>
+								</tr>
+								<tr>
+									<th class="heading left middle"><strong>Materials</strong></th>
+									<td class="left middle">Polycarbonate</td>
+								</tr>
+								<tr>
+									<th class="heading left middle"><strong>Accessories</strong></th>
+									<td class="left middle">Power supply/communications connector, DIN Track End Plates (2 pieces),
+<br />
+ferrite cores (2 pieces), and instruction manual</td>
+								</tr>
+							</table>
+						</div>
+        
+        </p>
+    </div>
+
+
+
+
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="component-blockA01">
+
+
+
+
+
+    <div class="text">
+        <p>
+            
+						<div style="text-align: left;">* Temperature Limitations Based on Number of Connected Amplifier Units:
+<br />
+    Groups of 1 or 2 Amplifier Units: 0 to 55°C, Groups of 3 to 10 Amplifier Units: 0 to 50°C</div>
+					
+        </p>
+    </div>
+
+
+
+
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<p class="date-line">last update: September 14, 2016</p>
+
+</div>
+
+                        </div>
+                    </div>
+	            <!-- === /[primary-contents-area] === -->
+                </div>
+                <!-- === /[inner-contents-area] === -->
+
+
+                <!-- === [local-navi] === -->
+                <div class="local-navi-area">
+                    <div class="local-navi-area">
+
+
+
+<div class="local-naviA01">
+<h2 class="heading-link">
+<a href="../../category/index.html" ><img src="../../../resources/images/icon_right_b.gif" width="3" height="9" alt="" class="iconA01" />Product Category</a>
+</h2>
+<ul><li><a href="../../category/sensors/index-2.html"><img src="../../../resources/images/icon_right_b.gif" width="3" height="9" alt="" class="iconA01" />Sensors</a><ul class="list-indent01"><li><a href="../../category/sensors/fiber-sensors/index-2.html"><img src="../../../resources/images/icon_right_b.gif" width="3" height="9" alt="" class="iconA01" />Fiber Sensors</a><ul class="list-indent02"><li><a href="../../category/sensors/fiber-sensors/sensor-communications-units/index.html"><img src="../../../resources/images/icon_right_b.gif" width="3" height="9" alt="" class="iconA01" />Sensor Communications Units</a><ul class="list-indent03"><li class="stay"><span>E3NW</span></li><li><a href="../1604/index.html"><img src="../../../resources/images/icon_right_b.gif" width="3" height="9" alt="" class="iconA01" />E3X-DRT21-S VER.3</a></li><li><a href="../404/index.html"><img src="../../../resources/images/icon_right_b.gif" width="3" height="9" alt="" class="iconA01" />E3X-DRT21 / SRT21 / CIF11</a></li></ul></li></ul></li></ul></li></ul>
+<!-- /local-naviA01 -->
+</div>
+
+
+
+<div class="local-naviB01">
+<ul class="heading-link">
+
+<li class="first-child">
+<a href="../../category/index.html"><img src="../../../resources/images/icon_right_b.gif" width="3" height="9" alt="" class="iconA01" />Product Category</a>
+</li>
+
+<li>
+<a href="../../../product/cautions/index-2.html"><img src="../../../resources/images/icon_right_b.gif" width="3" height="9" alt="" class="iconA01" />Cautions</a>
+</li>
+
+<li>
+<a href="../../index/index.html"><img src="../../../resources/images/icon_right_b.gif" width="3" height="9" alt="" class="iconA01" />Item A to Z Index</a>
+</li>
+
+<li>
+<a href="../../applications/index.html"><img src="../../../resources/images/icon_right_b.gif" width="3" height="9" alt="" class="iconA01" />Applications</a>
+</li>
+
+<li>
+<a href="../../correct/index.html"><img src="../../../resources/images/icon_right_b.gif" width="3" height="9" alt="" class="iconA01" />Correction Notice</a>
+</li>
+
+</ul>
+<!-- /local-naviB01 -->
+</div>
+                    </div>
+                </div>
+                <!-- === /[local-navi] === -->
+
+            </div>
+            <!-- === /[contents-area] === -->
+
+            <!-- === [top-page-link-area] === -->
+            <div class="top-page-link-area">
+                <ul class="top-page-link-list">
+                    <li>
+                        <a href="#page-top"><img src="../../../resources/images/icon_up_b.gif" width="5" height="8" alt="" class="iconB01" />Top of Page</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- === /[top-page-link-area] === -->
+
+            <!-- === [footer-area] === -->
+
+
+<!-- === [footer-area] === -->
+<div class="footer-area">
+    <p class="non-visual">
+        <a name="footer" id="footer">Site Information</a>
+    </p>
+    <div class="realizing">
+        <p><a href="../../../realizing/index.html"><img src="../../../Images/logo_0213-192.gif"  width="86" height="19" alt="" /></a></p>
+    <!-- /.realizing -->
+    </div>
+    <div class="footer-link">
+        <ul>
+            <li>
+                <a href="http://www.omron.com/"  target="_blank"><img src="../../../resources/images/icon_right_b.gif" width="3" height="9" alt="" class="iconA01" />OMRON Corporation<img src="../../../resources/images/icon_07.gif" width="14" height="11" class="external_win" alt=" " /></a>
+            </li>
+
+            <li>
+                <a href="../../../sitemap.html" ><img src="../../../resources/images/icon_right_b.gif" width="3" height="9" alt="" class="iconA01" />Sitemap</a>
+            </li>
+
+            <li>
+                <a href="../../../terms/index-2.html" ><img src="../../../resources/images/icon_right_b.gif" width="3" height="9" alt="" class="iconA01" />Terms of Use</a>
+            </li>
+
+            <li>
+                <a href="../../../privacy/index-2.html" ><img src="../../../resources/images/icon_right_b.gif" width="3" height="9" alt="" class="iconA01" />Privacy Policy</a>
+            </li>
+        </ul>
+
+        <p class="copyright">© Copyright OMRON Corporation 2007 - 2016. All Rights Reserved.</p>
+    <!-- /.footer-link -->
+    </div>
+<!-- /.footer-area -->
+</div>
+<!-- === /[footer-area] === -->
+            <!-- === /[footer-area] === -->
+        </div>
+        <!-- === /[omron-ia] === -->
+    </body>
+
+<!-- Mirrored from www.ia.omron.com/products/family/3177/specification.html by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 15 Dec 2016 17:36:06 GMT -->
+</html>

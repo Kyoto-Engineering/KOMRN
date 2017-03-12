@@ -1,0 +1,5724 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<html xml:lang="en" lang="en" xmlns="http://www.w3.org/1999/xhtml">
+    
+<!-- Mirrored from www.ia.omron.com/products/family/3077/specification.html by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 15 Dec 2016 15:32:59 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=utf-8" /><!-- /Added by HTTrack -->
+<head>
+        <meta http-equiv="Content-Language" content="en" />
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <meta http-equiv="Content-Style-Type" content="text/css" />
+        <meta http-equiv="Content-Script-Type" content="text/javascript" />
+        <title>
+            SYSMAC-SE2[][][] Automation Software Sysmac Studio/Specifications | OMRON Industrial Automation
+        </title>
+        <meta name="keywords" content="Automation Systems,Machine Automation Controllers,Software,SYSMAC-SE2[][][]" />
+        <meta name="description" content="Automation Software Sysmac Studio Provides an integrated development environment for NJ/NX/NY-series Controllers. With its intuitive user interface, integrates programming, test and debug of logic, motion, safety and vision sensors and achieves an advanced security function." />
+        
+
+<link rel="alternate" href="../../../index.html" hreflang="en" />
+<link rel="stylesheet" type="text/css" media="all" href="../../../resources/css/common22f8.css?201611151200" />
+<link rel="stylesheet" type="text/css" media="all" href="../../../resources/css/global/common22f8.css?201611151200" />
+<link rel="stylesheet" type="text/css" media="all" href="../../../resources/css/frame_utility_tridion22f8.css?201611151200" />
+<link rel="stylesheet" type="text/css" media="print" href="../../../resources/css/print22f8.css?201611151200" />
+<script type="text/javascript" src="../../../resources/js/jquery22f8.js?201611151200"></script>
+<script type="text/javascript" src="../../../resources/js/function22f8.js?201611151200"></script>
+<script type="text/javascript" src="../../../resources/js/country_website22f8.js?201611151200"></script>
+<script type="text/javascript" src="../../../resources/js/global/ga22f8.js?201611151200"></script>
+<link rel="stylesheet" type="text/css" media="all" href="../../../resources/css/jquery-ui22f8.css?201611151200" charset='UTF-8'/>
+<link rel="stylesheet" type="text/css" media="all" href="../../../resources/css/jquery.multiselect22f8.css?201611151200" charset='UTF-8'/>
+<script type="text/javascript" language="JavaScript" src="../../../common/js/marketing_tag22f8.js?201611151200"></script>
+<script type="text/javascript" src="../../../resources/js/jquery-ui.min22f8.js?201611151200" charset='UTF-8'></script>
+<script type="text/javascript" src="../../../resources/js/jquery.ex-table-filter22f8.js?201611151200" charset='UTF-8'></script>
+<script type="text/javascript" src="../../../resources/js/jquery.tablesorter.min22f8.js?201611151200" charset='UTF-8'></script>
+<script type="text/javascript" src="../../../resources/js/filter22f8.js?201611151200" charset='UTF-8'></script>
+<link rel="shortcut icon" href="../../../resources/images/favicon.ico" type="image/x-icon" />
+
+        <link rel="stylesheet" type="text/css" media="all" href="../../../resources/css/tablesorter6c9b.css?201611150900" />
+        <script type="text/javascript" src="../../../resources/js/global/products6c9b.js?201611150900" charset='UTF-8'></script>
+
+    </head>
+    <body id="www-ia-omron-com" class="layoutC03 automation-systems">
+
+        <!-- === [omron-ia] === -->
+        <div class="omron-ia">
+            <p class="non-visual">
+                <a name="page-top" id="page-top">
+                    Page top
+                </a>
+            </p>
+
+
+
+
+<div class="header-area">
+     <div class="site-identity">
+          <div class="site-logo">
+               <a href="../../../index.html"><img src="../../../Images/logo_01_b13-260967.gif"  width="129" height="24" alt="OMRON" /></a>
+          </div>
+          <!-- /.site-identity -->
+     </div>
+     <div class="utilities">
+          <div class="country-select-area">
+               <p class="canpany"><img src="../../../Images/header_txt_0113-195.gif"  width="129" height="11" alt="" /></p>
+               <p class="current-country">
+                    <span class="area devider">
+                        <a href="javascript:void(0)" onclick="box.countryWebsiteLinks();" id="country"><img src="../../../resources/images/icon_right_b.gif" width="3" height="9" alt="" class="iconA01" />Global</a>
+                    </span>
+               </p>
+          </div>
+          <div class="function-area">
+               <ul>
+
+
+                    <li class="first-child">
+
+
+                    <a href="../../../view/contact/input.html" ><img src="../../../resources/images/icon_right_b.gif" width="3" height="9" alt="" class="iconA01" />Contact</a>
+                    </li>
+
+               </ul>
+               <div class="search">
+<form action="http://search2.ia.omron.com/IA/" method="get" name="search_website" id="search_website" class="search-form">
+	<p>
+		<input type="text" value="" size="20" name="q" id="search_str" class="search-str" />
+		<input type="submit" value="Search" class="submit60L" />
+	</p>
+</form>
+                    <!-- /.search -->
+               </div>
+               <!-- /.function-area -->
+          </div>
+          <!-- /.utilities -->
+     </div>
+     <!-- /.header-area -->
+</div>
+
+<div class="global-navi-area">
+<ul>
+
+<li>
+<a href="../../../index.html">Home</a>
+</li>
+
+<li class="stay-link">
+<a href="../../index-2.html">Products</a>
+</li>
+
+<li>
+<a href="../../../support/index-2.html">Technical Support</a>
+</li>
+
+<li>
+<a href="../../../global_network/index-2.html">Global Network</a>
+</li>
+
+<li>
+<a href="../../../corporate_profile/index.html">About Us</a>
+</li>
+
+</ul>
+</div> 
+<div class="bread-crumb-area">
+<ul>
+
+
+<li><a href="../../../index.html" >Home</a><span class="separator">&gt;</span></li>
+
+<li><a href="../../index-2.html" >Products</a><span class="separator">&gt;</span></li>
+
+<li><a href="../../category/index.html" >Product Category</a><span class="separator">&gt;</span></li>
+
+<li><a href="../../category/automation-systems/index-2.html" >Automation Systems</a><span class="separator">&gt;</span></li>
+
+<li><a href="../../category/automation-systems/machine-automation-controllers/index-2.html" >Machine Automation Controllers</a><span class="separator">&gt;</span></li>
+
+<li><a href="../../category/automation-systems/machine-automation-controllers/software/index.html" >Software</a><span class="separator">&gt;</span></li>
+
+<li><strong>SYSMAC-SE2[][][]</strong></li>
+
+
+</ul>
+</div>
+
+            <!-- === [contents-area] === -->
+            <div class="contents-area">
+
+                <!-- === [inner-contents-area] === -->
+                <div class="inner-contents-area">
+                    <!-- === [upper-contents-area] === -->
+                    <div class="upper-contents-area">
+                        <!-- === [lead-area] === -->
+                        <div class="lead-area">
+
+
+
+
+<!-- --------------------------------------------------------------------Product Family Start--------------------------------------------------------- -->
+<div class="heading-h1">
+
+
+    <h1>
+        SYSMAC-SE2[][][]
+    </h1>
+    <p class="sub-title">
+        Automation Software Sysmac Studio
+    </p>
+</div>
+<div class="image-blockA01">
+    <div class="image-left">
+        <p class="image">
+
+            <img src="../../../Images/l_3077-13-119027-198x198.jpg" width="198" height="198" alt="SYSMAC-SE2[][][]" class="nopic" />
+
+
+        </p>
+    </div>
+    <div class="description">
+        <h2 class="heading-B02">
+            Provides an integrated development environment for NJ/NX/NY-series Controllers. With its intuitive user interface, integrates programming, test and debug of logic, motion, safety and vision sensors and achieves an advanced security function.
+        </h2>
+        
+
+
+
+
+        <div class="item-list-link">
+            <p>
+                <a href="itemlist/index.html">
+                    <img src="../../../resources/images/icon_right_b.gif" width="3" height="9" alt="" class="iconA01" />
+                    Item list of SYSMAC-SE2[][][]
+                </a>
+            </p>
+        </div>
+    </div>
+<!-- /.image-blockA01 -->
+</div>
+
+
+
+                        </div>
+                        <!-- === /[lead-area] === -->
+
+
+                        <!-- === [utility-area] === -->
+                        <div class="utility-area">                         
+                       
+                            <div class="action-block">
+                                <p>
+                                    about this Product Family
+                                </p>
+                                <ul>
+                                    <li class="first-child">
+                                        <a href="../../../view/inquiry/b5family/input6b22.html?b5Id=3077">
+                                            Inquiry of this Product
+                                        </a>
+                                    </li>                                 
+                                </ul>
+                            </div>
+
+
+
+
+<div class="related-info-blockA01 vertical-slide">
+
+    <p>
+        <span>Related Contents</span>
+    </p>
+
+
+        <ul>
+            <li class="first-child">
+                <span>Common</span>
+            </li>
+            <li>
+                <ul class="list-indent01">
+
+
+                    <li class="first-child">
+
+
+                        <a href="../../../product/cautions/index.html">
+                            <img src="../../../resources/images/icon_right_b.gif" width="3" height="9" alt="" class="iconA01" />
+                            Cautions
+                        </a>
+                    </li>
+
+
+
+                    <li>
+
+                        <a href="../../../support/guide/index.html">
+                            <img src="../../../resources/images/icon_right_b.gif" width="3" height="9" alt="" class="iconA01" />
+                            Technical Guide
+                        </a>
+                    </li>
+
+
+
+                    <li>
+
+                        <a href="../../../support/models/index.html">
+                            <img src="../../../resources/images/icon_right_b.gif" width="3" height="9" alt="" class="iconA01" />
+                            Models with Standards Certification
+                        </a>
+                    </li>
+
+
+
+                    <li>
+
+                        <a href="../../../support/faq/index.html">
+                            <img src="../../../resources/images/icon_right_b.gif" width="3" height="9" alt="" class="iconA01" />
+                            FAQ 
+                        </a>
+                    </li>
+
+                </ul>
+            </li>
+        </ul>
+
+        <ul>
+            <li class="first-child">
+                <span>Automation Systems</span>
+            </li>
+            <li>
+                <ul class="list-indent01">
+
+
+                    <li class="first-child">
+
+
+                        <a href="../../applications/category/automation-systems/index.html">
+                            <img src="../../../resources/images/icon_right_b.gif" width="3" height="9" alt="" class="iconA01" />
+                            Applications 
+                        </a>
+                    </li>
+
+                </ul>
+            </li>
+        </ul>
+
+        <ul>
+            <li class="first-child">
+                <span>Machine Automation Controllers</span>
+            </li>
+            <li>
+                <ul class="list-indent01">
+
+
+                    <li class="first-child">
+
+
+                        <a href="../../index/automation-systems/machine-automation-controllers/index.html">
+                            <img src="../../../resources/images/icon_right_b.gif" width="3" height="9" alt="" class="iconA01" />
+                            Item A to Z Index 
+                        </a>
+                    </li>
+
+
+
+                    <li>
+
+                        <a href="../../../support/glossary/automation-systems/machine-automation-controllers/index.html">
+                            <img src="../../../resources/images/icon_right_b.gif" width="3" height="9" alt="" class="iconA01" />
+                            Glossary of Industrial Automation 
+                        </a>
+                    </li>
+
+                </ul>
+            </li>
+        </ul>
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- /.related-info-blockA01 -->
+</div>
+
+
+
+                           
+                        </div>
+                        <!-- === /[utility-area] === -->
+
+                    </div>
+                    <!-- === /[upper-contents-area] === -->
+
+                    <!-- === [primary-contents-area] === -->
+                    <div class="primary-contents-area">
+                        <div class="tabpanel-blockA01">
+
+
+
+
+
+
+<div class="tab-block">
+    <ul class="tabs">
+
+
+
+
+
+
+
+        <li>
+            <a href="feature.html">Features</a>
+
+        </li>
+
+
+
+
+
+
+
+
+        <li>
+            <a href="lineup.html">Lineup</a>
+
+        </li>
+
+
+
+
+
+
+
+
+        <li class="active">
+            <span>Specifications</span>
+
+        </li>
+
+
+
+
+
+
+
+
+        <li>
+            <a href="dimension.html">Dimensions</a>
+
+        </li>
+
+
+
+
+
+
+        <li>
+            <a href="download/catalog.html">Catalog</a>
+
+        </li>
+
+
+
+
+
+    </ul>
+</div><!-- /.tab-block -->
+
+<div class="editable-block">
+
+
+<p class="date-line">last update: October 03, 2016</p>
+
+
+
+
+
+
+
+
+
+<h4 class="heading-A02">System Requirements</h4>
+
+
+
+
+
+
+
+
+
+
+<div class="component-blockA01">
+
+
+
+
+
+    <div class="text">
+        <p>
+            
+						<div class="table-blockA01">
+							<table class="tableA01" cellspacing="0" border="0">
+								<tr class="first-child">
+									<th class="heading center middle"><strong>Item</strong></th>
+									<th class="heading center middle"><strong>Requirement</strong></th>
+								</tr>
+								<tr>
+									<th class="heading left middle"><strong>Operating system (OS)
+<br />
+*1 *2 *3</strong></th>
+									<td class="left middle">Windows 7 (32-bit/64-bit version)/Windows 8 (32-bit/64-bit version)/Windows 8.1 (32-bit/
+<br />
+64-bit version) *4/Windows 10 (32-bit/64-bit version)</td>
+								</tr>
+								<tr>
+									<th class="heading left middle"><strong>CPU *3</strong></th>
+									<td class="left middle">Windows computers with Intel® Celeron™ processor 540 (1.8 GHz) or faster CPU.
+<br />
+Intel® Core™ i5 M520 processor (2.4 GHz) or equivalent or faster recommended.</td>
+								</tr>
+								<tr>
+									<th class="heading left middle"><strong>Main memory *3 *5</strong></th>
+									<td class="left middle">2 GB min.
+<br />
+4 GB min. recommended.</td>
+								</tr>
+								<tr>
+									<th class="heading left middle"><strong>Recommended video
+<br />
+memory/video card for
+<br />
+using 3D motion trace</strong></th>
+									<td class="left middle">Video memory: 512 MB min.
+<br />
+Video card: Either of the following video cards:
+<br />
+• NVIDIA® GeForce® 200 Series or higher
+<br />
+• ATI RadeonHD5000 Series or higher</td>
+								</tr>
+								<tr>
+									<th class="heading left middle"><strong>Hard disk</strong></th>
+									<td class="left middle">Minimum 4.6 GB of Hard disk space is required to install.</td>
+								</tr>
+								<tr>
+									<th class="heading left middle"><strong>Display</strong></th>
+									<td class="left middle">XGA 1024 × 768, 16 million colors.
+<br />
+WXGA 1280 × 800 min. recommended</td>
+								</tr>
+								<tr>
+									<th class="heading left middle"><strong>Disk drive</strong></th>
+									<td class="left middle">DVD-ROM drive</td>
+								</tr>
+								<tr>
+									<th class="heading left middle"><strong>Communications ports</strong></th>
+									<td class="left middle">USB port corresponded to USB 2.0, or Ethernet port *6</td>
+								</tr>
+								<tr>
+									<th class="heading left middle"><strong>Supported languages *7</strong></th>
+									<td class="left middle">Japanese, English, German, French, Italian, Spanish, simplified Chinese, traditional Chinese,
+<br />
+Korean</td>
+								</tr>
+							</table>
+						</div>
+					
+        </p>
+    </div>
+
+
+
+
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="component-blockA01">
+
+
+
+
+
+    <div class="text">
+        <p>
+            
+						<div style="text-align: left;">*1. Sysmac Studio Operating System Precaution: System requirements and hard disk space may vary with the system
+<br />
+       environment.
+<br />
+*2. The following restrictions apply to some application operations when Sysmac Studio is used with Microsoft Windows 7,
+<br />
+      Windows 8 / Windows 8.1 or Windows10.</div>
+					
+        </p>
+    </div>
+
+
+
+
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="component-blockA01">
+
+
+
+
+
+    <div class="text">
+        <p>
+            
+						<div class="table-blockA01">
+							<table class="tableA01" cellspacing="0" border="0">
+								<tr class="first-child">
+									<th class="heading center middle"><strong>Application</strong></th>
+									<th class="heading center middle"><strong>Restriction</strong></th>
+								</tr>
+								<tr>
+									<th class="heading left middle"><strong>CX-Designer</strong></th>
+									<td class="left middle">If a new Windows 7, Windows 8/Windows 8.1 or Windows 10 font (e.g., Meiryo) is used in a
+<br />
+project, the font size on labels may be bigger and protrude from the components if the project is
+<br />
+transferred from CX-Designer running on a Windows XP or earlier OS to the NS/NSJ.</td>
+								</tr>
+								<tr>
+									<th class="heading left middle"><strong>CX-Integrator/
+<br />
+Network Configurator</strong></th>
+									<td class="left middle">Although you can install CPS files, EDS files, Expansion Modules, and Interface Modules, the
+<br />
+virtual store function of Windows 7, Windows 8/Windows 8.1 or Windows 10 imposes the following
+<br />
+restrictions on the use of the software after installation.
+<br />
+• If another user logs in, the applications data will need to be installed again.
+<br />
+• The CPS files will not be automatically updated.
+<br />
+These restrictions will not exist if application data is installed using Run as Administrator.</td>
+								</tr>
+								<tr>
+									<th class="heading left middle"><strong>CX-ConfiguratorFDT</strong></th>
+									<td class="left middle">.NET Framework 3.5.1 is required to install when CX-ConfiguratorFDT is used with Windows 8/
+<br />
+Windows 8.1, or Windows 10.</td>
+								</tr>
+							</table>
+						</div>
+					
+        </p>
+    </div>
+
+
+
+
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="component-blockA01">
+
+
+
+
+
+    <div class="text">
+        <p>
+            
+						<div style="text-align: left;">*3. If you create a user program with a memory size that exceeds 20 MB, use the 64-bit edition of the operating
+<br />
+        system and 8 GB or more of RAM.
+<br />
+        If the user program size is large, we recommend that you use the 64-bit edition of the operating system,
+<br />
+        an Intel® Core™ i7 processor or the equivalent, and 8 GB or more of RAM.
+<br />
+        If you use Vision&amp;Robot integrated simulation with Robot Additional Option, use the 64-bit edition of the
+<br />
+        operating system, an Intel® Core™ i5 processor or the equivalent, and 8 GB or more of RAM.
+<br />
+*4. Windows 8.1 Update (KB2919355) must be applied.
+<br />
+*5. The amount of memory required varies with the Support Software used in Sysmac Studio for the following Support
+<br />
+       Software. Refer to user documentation for individual Support Software for details.
+<br />
+       CX-Designer, CX-Protocol, and Network Configurator
+<br />
+*6. Refer to the hardware manual for your CPU unit for hardware connection methods and cables to connect the computer
+<br />
+       and CPU unit.
+<br />
+*7. Supported only by the Sysmac Studio version 1.01 or higher about German, French, Italian and Spanish.
+<br />
+       Supported only by the Sysmac Studio version 1.02 or higher about simplified Chinese, traditional Chinese
+<br />
+       and Korean.</div>
+					
+        </p>
+    </div>
+
+
+
+
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<h4 class="heading-A02">Common Function Specifications</h4>
+
+
+
+
+
+
+
+
+
+
+<div class="component-blockA01">
+
+
+
+
+
+    <div class="text">
+        <p>
+            
+          <div class="table-blockA01">
+							<table class="tableA01" cellspacing="0" border="0">
+								<tr class="first-child">
+									<th colspan="3" rowspan="1" class="heading center middle"><strong>Item</strong></th>
+									<th class="heading center middle"><strong>Function</strong></th>
+									<th class="heading center middle"><strong>Applicable
+<br />
+versions</strong></th>
+								</tr>
+								<tr>
+									<th colspan="1" rowspan="69" class="heading left middle"><strong>Setting
+<br />
+Parame-
+<br />
+ters</strong></th>
+									<th colspan="2" rowspan="1" class="heading left middle"><strong>EtherCAT Configuration and Setup</strong></th>
+									<td class="left middle">You can create a configuration in the Sysmac Studio of
+<br />
+the EtherCAT slaves connected to the built-in EtherCAT
+<br />
+port of the NJ/NX-series CPU Unit or NY-series
+<br />
+Industrial PC, and set the parameters for the EtherCAT
+<br />
+masters and slaves.</td>
+									<td colspan="1" rowspan="2" class="left middle">All
+<br />
+versions</td>
+								</tr>
+								<tr>
+									<th colspan="1" rowspan="7" class="heading left middle" />
+									<th class="heading left middle"><strong>Registering slaves</strong></th>
+									<td class="left middle">You can set up devices by dragging slaves from the
+<br />
+device list displayed in the Toolbox Pane to the locations
+<br />
+where you want to connect them.</td>
+								</tr>
+								<tr>
+									<th class="heading left middle"><strong>Changing the Coupler
+<br />
+model</strong></th>
+									<td class="left middle">You change the model number or unit version of a
+<br />
+Coupler Unit. Use this function to change the model
+<br />
+number and version of the Coupler Unit registered in
+<br />
+the project to the new model number and version when
+<br />
+replacing a Coupler Unit.</td>
+									<td class="left middle">Ver. 1.09
+<br />
+or higher</td>
+								</tr>
+								<tr>
+									<th class="heading left middle"><strong>Setting master
+<br />
+parameters</strong></th>
+									<td class="left middle">You set the common parameters of the EtherCAT
+<br />
+network (e.g., the fail-soft operation and wait time for
+<br />
+slave startup settings).</td>
+									<td colspan="1" rowspan="5" class="left middle">All
+<br />
+versions</td>
+								</tr>
+								<tr>
+									<th class="heading left middle"><strong>Setting slave
+<br />
+parameters</strong></th>
+									<td class="left middle">You set the standard slave parameters and assign PDOs
+<br />
+(process data objects).</td>
+								</tr>
+								<tr>
+									<th class="heading left middle"><strong>Comparing and
+<br />
+merging network
+<br />
+configuration
+<br />
+information</strong></th>
+									<td class="left middle">The EtherCAT network configuration information in the
+<br />
+NJ/NX-series CPU Unit or NY-series Industrial PC and in
+<br />
+the Sysmac Studio are compared and the differences are
+<br />
+displayed.</td>
+								</tr>
+								<tr>
+									<th class="heading left middle"><strong>Transferring the
+<br />
+network configuration
+<br />
+information</strong></th>
+									<td class="left middle">The EtherCAT network configuration information is
+<br />
+transferred to the NJ/NX-series CPU Unit or NY-series
+<br />
+Industrial PC. Or, the EtherCAT network configuration
+<br />
+information in the CPU Unit or PC is transferred to the
+<br />
+Sysmac Studio and displayed in the EtherCAT Editor.</td>
+								</tr>
+								<tr>
+									<th class="heading left middle"><strong>Installing ESI files</strong></th>
+									<td class="left middle">ESI (EtherCAT slave information) files are installed.</td>
+								</tr>
+								<tr>
+									<th colspan="2" rowspan="1" class="heading left middle"><strong>EtherCAT Slave Terminal
+<br />
+Configuration and Setup</strong></th>
+									<td class="left middle">The configuration of any Slave Terminal that is
+<br />
+connected to an EtherCAT network is created on the
+<br />
+Sysmac Studio. The NX Units that compose the Slave
+<br />
+Terminal are set in the configuration.</td>
+									<td colspan="1" rowspan="6" class="left middle">Ver. 1.06
+<br />
+or higher</td>
+								</tr>
+								<tr>
+									<th colspan="1" rowspan="5" class="heading left middle" />
+									<th class="heading left middle"><strong>Registering NX Units</strong></th>
+									<td class="left middle">A Slave Terminal is built by dragging NX Units from the
+<br />
+device list displayed in the Toolbox to the locations
+<br />
+where you want to mount them.</td>
+								</tr>
+								<tr>
+									<th class="heading left middle"><strong>Setting NX Units</strong></th>
+									<td class="left middle">The I/O allocations, mounting settings, and Unit operation
+<br />
+settings of the NX Units are edited.</td>
+								</tr>
+								<tr>
+									<th class="heading left middle"><strong>Displaying the width
+<br />
+of a Slave Terminal
+<br />
+configuration</strong></th>
+									<td class="left middle">The width and power consumption of a Slave Terminal
+<br />
+are displayed based on the Unit configuration
+<br />
+information.</td>
+								</tr>
+								<tr>
+									<th class="heading left middle"><strong>Comparing and
+<br />
+merging the Slave
+<br />
+Terminal
+<br />
+configuration
+<br />
+information</strong></th>
+									<td class="left middle">When online, you can compare the configuration
+<br />
+information in the project with the physical configuration.
+<br />
+You can also select the missing Units and add them to
+<br />
+the project.</td>
+								</tr>
+								<tr>
+									<th class="heading left middle"><strong>Transferring the
+<br />
+Slave Terminal
+<br />
+configuration
+<br />
+information</strong></th>
+									<td class="left middle">The Unit configuration information is transferred to the
+<br />
+CPU Unit or NY-series Industrial PC using the
+<br />
+synchronize function.</td>
+								</tr>
+								<tr>
+									<th colspan="2" rowspan="1" class="heading left middle"><strong>CPU/Expansion Rack
+<br />
+Configuration and Setup</strong></th>
+									<td class="left middle">You create the configuration in the Sysmac Studio of the
+<br />
+Units mounted in the CPU Rack and Expansion Racks of
+<br />
+NJ-series and NX1P2 CPU Units and set the Special
+<br />
+Units.</td>
+									<td colspan="1" rowspan="14" class="left middle">All
+<br />
+versions</td>
+								</tr>
+								<tr>
+									<th colspan="1" rowspan="8" class="heading left middle" />
+									<th class="heading left middle"><strong>Registering Units</strong></th>
+									<td class="left middle">A Rack is built by dragging Units from the device list
+<br />
+displayed in the Toolbox Pane to the locations where you
+<br />
+want to mount them.</td>
+								</tr>
+								<tr>
+									<th class="heading left middle"><strong>Creating Racks</strong></th>
+									<td class="left middle">An Expansion Rack (Power Supply Unit, I/O Interface
+<br />
+Unit, and End Cover) is added.</td>
+								</tr>
+								<tr>
+									<th class="heading left middle"><strong>Switching Unit
+<br />
+displays</strong></th>
+									<td class="left middle">For NJ-series CPU Units, model numbers, unit numbers,
+<br />
+and slot numbers are displayed.
+<br />
+For NX1P2 CPU Units, model numbers and unit numbers
+<br />
+are displayed. *1</td>
+								</tr>
+								<tr>
+									<th class="heading left middle"><strong>Setting Special Units</strong></th>
+									<td class="left middle">The input time constants are set for Input Units and
+<br />
+parameters are set for Special Units.</td>
+								</tr>
+								<tr>
+									<th class="heading left middle"><strong>Displaying Rack
+<br />
+widths, current
+<br />
+consumption, and
+<br />
+power consumption</strong></th>
+									<td class="left middle">For NJ-series CPU Units, rack width, current
+<br />
+consumption, and power consumption are displayed
+<br />
+based on the Unit configuration information.
+<br />
+For NX1P2 CPU Units, rack width is displayed based on
+<br />
+the Unit configuration information. *1</td>
+								</tr>
+								<tr>
+									<th class="heading left middle"><strong>Comparing the CPU/
+<br />
+Expansion Rack
+<br />
+configuration
+<br />
+information with the
+<br />
+physical configuration</strong></th>
+									<td class="left middle">When online, you can compare the configuration
+<br />
+information in the project with the physical
+<br />
+configuration. You can also select the missing Units and
+<br />
+add them.</td>
+								</tr>
+								<tr>
+									<th class="heading left middle"><strong>Transferring the CPU/
+<br />
+Expansion Rack
+<br />
+configuration
+<br />
+information</strong></th>
+									<td class="left middle">The Unit configuration information is transferred using
+<br />
+the synchronization function.</td>
+								</tr>
+								<tr>
+									<th class="heading left middle"><strong>Printing the Unit
+<br />
+configuration information</strong></th>
+									<td class="left middle">The Unit configuration information is printed.</td>
+								</tr>
+								<tr>
+									<th colspan="2" rowspan="1" class="heading left middle"><strong>Controller Setup</strong></th>
+									<td class="left middle">The Controller Setup is used to change settings related
+<br />
+to the operation of the Controller. The Controller Setup
+<br />
+contains PLC Function Module operation settings and
+<br />
+built-in EtherNet/IP Function Module port settings.</td>
+								</tr>
+								<tr>
+									<th colspan="1" rowspan="10" class="heading left middle" />
+									<th class="heading left middle"><strong>Operation Settings</strong></th>
+									<td class="left middle">The Startup Mode, SD Memory Card diagnosis at
+<br />
+Startup, Write Protection at Startup, Controller Error
+<br />
+Level Changes *2, and other settings are made.</td>
+								</tr>
+								<tr>
+									<th class="heading left middle"><strong>Transferring
+<br />
+Operation Settings</strong></th>
+									<td class="left middle">The synchronization function is used to transfer the
+<br />
+operation settings to the NJ/Nxseries CPU Unit or NY-
+<br />
+series Industrial PC.</td>
+								</tr>
+								<tr>
+									<th class="heading left middle"><strong>Built-in EtherNet/
+<br />
+IP Port Settings</strong></th>
+									<td class="left middle">These settings are made to perform communications
+<br />
+using the built-in EtherNet/IP port of the NJ/NX-series
+<br />
+CPU Unit or NY-series Industrial PC.</td>
+								</tr>
+								<tr>
+									<th class="heading left middle"><strong>Transferring Built-in
+<br />
+EtherNet/IP Port
+<br />
+Settings</strong></th>
+									<td class="left middle">The synchronization function is used to transfer the
+<br />
+Built-in EtherNet/IP Port Settings to the NJ/NX-series
+<br />
+CPU Unit or NY-series Industrial PC.</td>
+								</tr>
+								<tr>
+									<th class="heading left middle"><strong>Built-in I/O Settings</strong></th>
+									<td class="left middle">You make the settings related to built-in I/O of the
+<br />
+NX1P2 CPU Unit.</td>
+									<td colspan="1" rowspan="6" class="left middle">Ver. 1.17
+<br />
+or higher</td>
+								</tr>
+								<tr>
+									<th class="heading left middle"><strong>Transferring Built-in
+<br />
+I/O Settings</strong></th>
+									<td class="left middle">The synchronization function is used to transfer the
+<br />
+built-in I/O settings to the NX1P2 CPU Unit.</td>
+								</tr>
+								<tr>
+									<th class="heading left middle"><strong>Option Board Settings</strong></th>
+									<td class="left middle">You make the settings related to the option boards
+<br />
+mounted on the NX1P2 CPU Unit.</td>
+								</tr>
+								<tr>
+									<th class="heading left middle"><strong>Transferring Option
+<br />
+Board Settings</strong></th>
+									<td class="left middle">The synchronization function is used to transfer the
+<br />
+option board settings to the NX1P2 CPU Unit.</td>
+								</tr>
+								<tr>
+									<th class="heading left middle"><strong>Memory Settings</strong></th>
+									<td class="left middle">You make the settings related to the memory area for
+<br />
+CJ-series Units in the NX1P2 CPU Unit.</td>
+								</tr>
+								<tr>
+									<th class="heading left middle"><strong>Transferring Memory
+<br />
+Settings</strong></th>
+									<td class="left middle">The synchronization function is used to transfer the
+<br />
+memory settings to the NX1P2 CPU Unit.</td>
+								</tr>
+								<tr>
+									<th colspan="2" rowspan="1" class="heading left middle"><strong>Motion Control Setup</strong></th>
+									<td class="left middle">The Motion Control Setup is used to create the axes
+<br />
+to use in motion control instructions, assign those axes
+<br />
+to Servo Drives and encoders, and set axis parameters.</td>
+									<td colspan="1" rowspan="12" class="left middle">All
+<br />
+versions</td>
+								</tr>
+								<tr>
+									<th colspan="1" rowspan="2" class="heading left middle" />
+									<th class="heading left middle"><strong>Axis Settings</strong></th>
+									<td class="left middle">Axes are added to the project.</td>
+								</tr>
+								<tr>
+									<th class="heading left middle"><strong>Axis Setting Table</strong></th>
+									<td class="left middle">The Axis Setting Table is a table of all registered axis parameters. You can edit any axis parameters here just
+<br />
+as you can on the Axis Settings Tab Page.</td>
+								</tr>
+								<tr>
+									<th colspan="2" rowspan="1" class="heading left middle"><strong>Axes Group Settings</strong></th>
+									<td class="left middle">You can set up axes to perform interpolated motions
+<br />
+as an axes group.</td>
+								</tr>
+								<tr>
+									<th colspan="1" rowspan="2" class="heading left middle" />
+									<th class="heading left middle"><strong>Axes Group Basic
+<br />
+Settings</strong></th>
+									<td class="left middle">Set the axes group number, whether to use the axes
+<br />
+group, the composition, and the composition axes.</td>
+								</tr>
+								<tr>
+									<th class="heading left middle"><strong>Operation Settings</strong></th>
+									<td class="left middle">Set the interpolated velocity, the maximum interpolated
+<br />
+acceleration and deceleration, and the interpolated
+<br />
+operation settings.</td>
+								</tr>
+								<tr>
+									<th colspan="2" rowspan="1" class="heading left middle"><strong>Cam Data Settings</strong></th>
+									<td class="left middle">The Cam Data Settings are used to create electronic
+<br />
+cam data. When you build the project for the Controller,
+<br />
+a cam table is created according to the Cam Data
+<br />
+Settings.</td>
+								</tr>
+								<tr>
+									<th colspan="1" rowspan="12" class="heading left middle" />
+									<th class="heading left middle"><strong>Registering cam
+<br />
+data settings</strong></th>
+									<td class="left middle">Cam data settings is added to the project.</td>
+								</tr>
+								<tr>
+									<th class="heading left middle"><strong>Editing cam data
+<br />
+settings</strong></th>
+									<td class="left middle">You can set properties and node points for cam data
+<br />
+settings.</td>
+								</tr>
+								<tr>
+									<th class="heading left middle"><strong>Transferring cam
+<br />
+data settings</strong></th>
+									<td class="left middle">You can select to transfer all or part of the cam data.</td>
+								</tr>
+								<tr>
+									<th class="heading left middle"><strong>Importing cam data
+<br />
+settings</strong></th>
+									<td class="left middle">You can import cam data settings from a CSV file.</td>
+								</tr>
+								<tr>
+									<th class="heading left middle"><strong>Exporting cam data
+<br />
+settings</strong></th>
+									<td class="left middle">You can export cam data to a CSV file.</td>
+								</tr>
+								<tr>
+									<th class="heading left middle"><strong>Registering cam
+<br />
+definitions</strong></th>
+									<td class="left middle">You add new cam definitions to change cam table in the
+<br />
+program.</td>
+									<td colspan="1" rowspan="3" class="left middle">Ver.1.09
+<br />
+or higher</td>
+								</tr>
+								<tr>
+									<th class="heading left middle"><strong>Editing cam
+<br />
+definitions</strong></th>
+									<td class="left middle">You set cam definitions.</td>
+								</tr>
+								<tr>
+									<th class="heading left middle"><strong>Transferring cam
+<br />
+definitions</strong></th>
+									<td class="left middle">You transfer cam definitions to the Controller.</td>
+								</tr>
+								<tr>
+									<th class="heading left middle"><strong>Exporting cam tables</strong></th>
+									<td class="left middle">You can export a cam table to a CSV file.</td>
+									<td colspan="1" rowspan="14" class="left middle">All
+<br />
+versions</td>
+								</tr>
+								<tr>
+									<th class="heading left middle"><strong>Transferring cam
+<br />
+tables from the
+<br />
+Controller to files</strong></th>
+									<td class="left middle">You can save a cam table in the NJ/NX-series CPU Unit
+<br />
+or NY-series Industrial PC to a CSV file.</td>
+								</tr>
+								<tr>
+									<th class="heading left middle"><strong>Transferring cam
+<br />
+tables from files to
+<br />
+the Controller</strong></th>
+									<td class="left middle">You can transfer a cam table that is saved in a CSV file to
+<br />
+update the contents of a cam table that is already in the
+<br />
+NJ/NX-series CPU Unit or NY-series Industrial PC.</td>
+								</tr>
+								<tr>
+									<th class="heading left middle"><strong>Superimposing
+<br />
+Cam Table</strong></th>
+									<td class="left middle">You can superimpose the cam table from a CSV file on
+<br />
+the cam profile curve position graph that is currently
+<br />
+displayed.</td>
+								</tr>
+								<tr>
+									<th colspan="2" rowspan="1" class="heading left middle"><strong>Task Settings</strong></th>
+									<td class="left middle">Programs are executed in tasks in the NJ/NX-series CPU
+<br />
+Unit or NY-series Industrial PC. The Task Settings define
+<br />
+the execution period, the execution timing, the programs
+<br />
+executed by the task, the I/O refreshing performed by the
+<br />
+task, and which variables to share between tasks.</td>
+								</tr>
+								<tr>
+									<th colspan="1" rowspan="4" class="heading left middle" />
+									<th class="heading left middle"><strong>Registering tasks</strong></th>
+									<td class="left middle">The tasks, which are used to execute programs, are
+<br />
+registered.</td>
+								</tr>
+								<tr>
+									<th class="heading left middle"><strong>Setting task I/O</strong></th>
+									<td class="left middle">The task I/O settings define what Units the task should
+<br />
+perform I/O refreshing for.</td>
+								</tr>
+								<tr>
+									<th class="heading left middle"><strong>Assigning programs</strong></th>
+									<td class="left middle">Program assignments define what programs a task will
+<br />
+execute.</td>
+								</tr>
+								<tr>
+									<th class="heading left middle"><strong>Setting exclusive
+<br />
+control of variables
+<br />
+in tasks</strong></th>
+									<td class="left middle">You can specify if a task can write to its own values
+<br />
+(known as a refreshing task) or if it can only access
+<br />
+them (an accessing task) for global variables. This
+<br />
+ensures concurrency for global variable values from all
+<br />
+tasks that reference them.</td>
+								</tr>
+								<tr>
+									<th colspan="2" rowspan="1" class="heading left middle"><strong>I/O Map Settings</strong></th>
+									<td class="left middle">The I/O ports that correspond to the registered
+<br />
+EtherCAT slaves and to the registered Units on the CPU
+<br />
+Rack and Expansion Racks are displayed. The I/O Map is
+<br />
+edited to assign variables to I/O ports.
+<br />
+The variables are used in the user program.</td>
+								</tr>
+								<tr>
+									<th colspan="1" rowspan="4" class="heading left middle" />
+									<th class="heading left middle"><strong>Displaying I/O ports</strong></th>
+									<td class="left middle">I/O ports are displayed based on the configuration
+<br />
+information of the devices (slaves and Units).</td>
+								</tr>
+								<tr>
+									<th class="heading left middle"><strong>Assigning variables</strong></th>
+									<td class="left middle">Variables are assigned to I/O ports.</td>
+								</tr>
+								<tr>
+									<th class="heading left middle"><strong>Creating device
+<br />
+variables</strong></th>
+									<td class="left middle">Device variables are created in the I/O Map. You can
+<br />
+either automatically create a device variable or manually
+<br />
+enter the device variable to create.</td>
+								</tr>
+								<tr>
+									<th class="heading left middle"><strong>Checking I/O
+<br />
+assignments</strong></th>
+									<td class="left middle">The assignments of external I/O devices and variables
+<br />
+are checked.</td>
+								</tr>
+								<tr>
+									<th colspan="2" rowspan="1" class="heading left middle"><strong>Vision Sensor Settings</strong></th>
+									<td class="left middle">You can set and calibrate Vision Sensors.
+<br />
+Refer to "Function Specifications of Vision Sensor
+<br />
+Functions".</td>
+									<td class="left middle">Ver.1.01
+<br />
+or higher</td>
+								</tr>
+								<tr>
+									<th colspan="2" rowspan="1" class="heading left middle"><strong>Displacement Sensor Settings</strong></th>
+									<td class="left middle">You can set and calibrate Displacement Sensors.
+<br />
+Refer to "Function Specifications of Displacement
+<br />
+Sensor Functions".</td>
+									<td class="left middle">Ver.1.05
+<br />
+or higher</td>
+								</tr>
+								<tr>
+									<th colspan="2" rowspan="1" class="heading left middle"><strong>DB Connection Function Settings</strong></th>
+									<td class="left middle">You can set and transfer the DB connection function
+<br />
+settings.
+<br />
+Refer to "Function Specifications of DB Connection
+<br />
+Function".</td>
+									<td class="left middle">Ver.1.06 or
+<br />
+higher with
+<br />
+the NJ501-
+<br />
+1[]20
+<br />
+selected</td>
+								</tr>
+								<tr>
+									<th colspan="2" rowspan="1" class="heading left middle"><strong>EtherNet/IP Connection Settings</strong></th>
+									<td class="left middle">You can make settings related to tag data links
+<br />
+(connections) in an EtherNet/IP network.
+<br />
+Refer to "Function Specifications of EtherNet/IP
+<br />
+Connection Settings".</td>
+									<td class="left middle">Ver.1.10
+<br />
+or higher</td>
+								</tr>
+								<tr>
+									<th colspan="2" rowspan="1" class="heading left middle"><strong>EtherNet/IP Slave Terminal Settings</strong></th>
+									<td class="left middle">You can make and transfer settings for EtherNet/IP
+<br />
+Slave Terminals. Refer to "Functional Specifications of
+<br />
+EtherNet/IP Slave Terminal Settings" for details.</td>
+									<td class="left middle">Ver.1.11
+<br />
+or higher</td>
+								</tr>
+								<tr>
+									<th colspan="2" rowspan="1" class="heading left middle"><strong>NA-series Programmable Terminal
+<br />
+(PT) Settings</strong></th>
+									<td class="left middle">You can make settings and transfer projects for NA-
+<br />
+series Programmable Terminals.
+<br />
+Refer to "Functional Specifications of HMI".</td>
+									<td class="left middle">Ver.1.11
+<br />
+or higher</td>
+								</tr>
+								<tr>
+									<th colspan="1" rowspan="37" class="heading left middle"><strong>Pro-
+<br />
+gram-
+<br />
+ming</strong></th>
+									<th colspan="2" rowspan="1" class="heading left middle"><strong>Instruction list (Toolbox)</strong></th>
+									<td class="left middle">A hierarchy of the instructions that you can use is
+<br />
+displayed in the Toolbox. You can drag the required
+<br />
+instruction to a program in the Ladder Editor or ST Editor
+<br />
+to insert the instruction.</td>
+									<td colspan="1" rowspan="14" class="left middle">All
+<br />
+versions</td>
+								</tr>
+								<tr>
+									<th colspan="2" rowspan="1" class="heading left middle"><strong>Programming ladder diagrams</strong></th>
+									<td class="left middle">Ladder diagram programming involves connecting rung
+<br />
+components with connecting lines to build algorithms.
+<br />
+Rung components and connecting lines are entered in
+<br />
+the Ladder Editor.</td>
+								</tr>
+								<tr>
+									<th colspan="1" rowspan="13" class="heading left middle" />
+									<th class="heading left middle"><strong>Starting the Ladder
+<br />
+Editor</strong></th>
+									<td class="left middle">The Ladder Editor for the program is started.</td>
+								</tr>
+								<tr>
+									<th class="heading left middle"><strong>Adding and deleting
+<br />
+sections</strong></th>
+									<td class="left middle">You can divide your ladder diagrams into smaller units
+<br />
+for easier management. These units of division are
+<br />
+called sections.</td>
+								</tr>
+								<tr>
+									<th class="heading left middle"><strong>Inserting rung
+<br />
+components</strong></th>
+									<td class="left middle">You insert rung components in the Ladder Editor to
+<br />
+create an algorithm.</td>
+								</tr>
+								<tr>
+									<th class="heading left middle"><strong>Inserting and deleting
+<br />
+function blocks</strong></th>
+									<td class="left middle">You can insert a function block instruction or user-
+<br />
+defined function block into the Ladder Editor.</td>
+								</tr>
+								<tr>
+									<th class="heading left middle"><strong>Inserting and deleting
+<br />
+functions</strong></th>
+									<td class="left middle">You can insert a function instruction or user-defined
+<br />
+function into the Ladder Editor.</td>
+								</tr>
+								<tr>
+									<th class="heading left middle"><strong>Inserting and deleting
+<br />
+inline ST</strong></th>
+									<td class="left middle">You can insert a rung component in a ladder diagram to
+<br />
+enable programming in ST. This allows you to include ST
+<br />
+in a ladder diagram.</td>
+								</tr>
+								<tr>
+									<th class="heading left middle"><strong>Editing rung
+<br />
+components</strong></th>
+									<td class="left middle">You can copy and past rung components.</td>
+								</tr>
+								<tr>
+									<th class="heading left middle"><strong>Inserting and deleting
+<br />
+jump labels and
+<br />
+jumps</strong></th>
+									<td class="left middle">You can insert a jump label in the rung to jump to and
+<br />
+then specify that jump label when you insert a jump.</td>
+								</tr>
+								<tr>
+									<th class="heading left middle"><strong>Inserting and deleting
+<br />
+bookmarks</strong></th>
+									<td class="left middle">You can add bookmarks to the beginning of rungs and
+<br />
+move between them.</td>
+								</tr>
+								<tr>
+									<th class="heading left middle"><strong>Rung comments</strong></th>
+									<td class="left middle">You can add comments to rungs.</td>
+								</tr>
+								<tr>
+									<th class="heading left middle"><strong>Displaying rung errors</strong></th>
+									<td class="left middle">When you enter a rung component, the format is always
+<br />
+checked and any mistakes are displayed as errors. If
+<br />
+there are any errors, a red line is displayed between the
+<br />
+rung number and the left bus bar.</td>
+								</tr>
+								<tr>
+									<th class="heading left middle"><strong>Entry assistance</strong></th>
+									<td class="left middle">When you enter instructions or parameters, each
+<br />
+character that you enter from the keyboard narrows the
+<br />
+list of candidates that is displayed for selection.</td>
+								</tr>
+								<tr>
+									<th class="heading left middle"><strong>Displaying variable
+<br />
+comments *3</strong></th>
+									<td class="left middle">A specified variable comment can be displayed with each
+<br />
+variable of rung components on the ladder diagrams.
+<br />
+You can change the length of the displayed variable
+<br />
+comments to make them easier to read. *4</td>
+									<td class="left middle">Ver.1.01
+<br />
+or higher</td>
+								</tr>
+								<tr>
+									<th colspan="2" rowspan="1" class="heading left middle"><strong>Programming structured text</strong></th>
+									<td class="left middle">You combine different ST statements to build algorithms.</td>
+									<td colspan="1" rowspan="11" class="left middle">All
+<br />
+versions</td>
+								</tr>
+								<tr>
+									<th colspan="1" rowspan="10" class="heading left middle" />
+									<th class="heading left middle"><strong>Starting the ST Editor</strong></th>
+									<td class="left middle">The ST Editor for programs or for functions/function
+<br />
+blocks is started.</td>
+								</tr>
+								<tr>
+									<th class="heading left middle"><strong>Editing ST</strong></th>
+									<td class="left middle">You combine different ST statements to build algorithms.</td>
+								</tr>
+								<tr>
+									<th class="heading left middle"><strong>Entering calls to
+<br />
+functions and
+<br />
+function blocks</strong></th>
+									<td class="left middle">You can enter the first character of the instance name
+<br />
+of the function or the function block in the ST Editor to
+<br />
+call and enter a function or function block.</td>
+								</tr>
+								<tr>
+									<th class="heading left middle"><strong>Entering constants</strong></th>
+									<td class="left middle">You can enter constants in the ST Editor.</td>
+								</tr>
+								<tr>
+									<th class="heading left middle"><strong>Entering comments</strong></th>
+									<td class="left middle">Enter "(*" at the beginning and "*)" at the end of any
+<br />
+text to be treated as a comment in the ST Editor. If you
+<br />
+only want to comment out a single line, enter a double
+<br />
+forward slash (//) at the beginning of the line.</td>
+								</tr>
+								<tr>
+									<th class="heading left middle"><strong>Copying, pasting, and
+<br />
+deleting ST elements</strong></th>
+									<td class="left middle">You can copy, paste, and delete text strings.</td>
+								</tr>
+								<tr>
+									<th class="heading left middle"><strong>Indenting</strong></th>
+									<td class="left middle">You can indent nested statements to make them
+<br />
+easier to read.</td>
+								</tr>
+								<tr>
+									<th class="heading left middle"><strong>Moving to a specified
+<br />
+line</strong></th>
+									<td class="left middle">You can specify a line number to jump directly to that
+<br />
+line.</td>
+								</tr>
+								<tr>
+									<th class="heading left middle"><strong>Bookmarks</strong></th>
+									<td class="left middle">You can add bookmarks to any lines and move between
+<br />
+them.</td>
+								</tr>
+								<tr>
+									<th class="heading left middle"><strong>Entry assistance</strong></th>
+									<td class="left middle">When you enter instructions or parameters, each
+<br />
+character that you enter from the keyboard narrows the
+<br />
+list of candidates that is displayed for selection.</td>
+								</tr>
+								<tr>
+									<th colspan="2" rowspan="1" class="heading left middle"><strong>Namespaces</strong></th>
+									<td class="left middle">Namespaces allow you to group and nest the names
+<br />
+of functions, function block definitions, and data types
+<br />
+so that you can manage them. This reduces the chance
+<br />
+of duplicated names and makes the entities easier to
+<br />
+access.</td>
+									<td class="left middle">Ver.1.02
+<br />
+or higher</td>
+								</tr>
+								<tr>
+									<th colspan="2" rowspan="1" class="heading left middle"><strong>Variable Manager</strong></th>
+									<td class="left middle">A list of the variables in the global and local variable
+<br />
+tables is displayed in a separate window. You can
+<br />
+display variable usage, sort and filter the variables, edit
+<br />
+and delete variables, or move variables while displaying
+<br />
+another editing view.</td>
+									<td colspan="1" rowspan="2" class="left middle">Ver.1.04
+<br />
+or higher</td>
+								</tr>
+								<tr>
+									<th colspan="2" rowspan="1" class="heading left middle"><strong>Changing variable comments and
+<br />
+data type comments</strong></th>
+									<td class="left middle">You can globally change variable comments and data
+<br />
+type comments to other comments.
+<br />
+You can change the comments to different language for
+<br />
+users in a different country.</td>
+								</tr>
+								<tr>
+									<th colspan="2" rowspan="1" class="heading left middle"><strong>Sorting and filtering variables</strong></th>
+									<td class="left middle">You can sort and filter variables in each variable table.</td>
+									<td class="left middle">Ver.1.08
+<br />
+or higher</td>
+								</tr>
+								<tr>
+									<th colspan="2" rowspan="1" class="heading left middle"><strong>Searching and replacing</strong></th>
+									<td class="left middle">You can search for and replace strings in the data of
+<br />
+a project.</td>
+									<td class="left middle">All
+<br />
+versions</td>
+								</tr>
+								<tr>
+									<th colspan="2" rowspan="1" class="heading left middle"><strong>Retrace searching</strong></th>
+									<td class="left middle">You can search for the program inputs and the input
+<br />
+parameters to functions or function blocks that use the
+<br />
+selected variable if the selected variable is used as a
+<br />
+program output or as the output parameter of a function
+<br />
+or function block. Also, you can search for the program
+<br />
+outputs and the output parameters to functions or
+<br />
+function blocks that use the selected variable if the
+<br />
+selected variable is used as a program input or as the
+<br />
+input parameter of a function or function block.</td>
+									<td class="left middle">Ver.1.01
+<br />
+or higher</td>
+								</tr>
+								<tr>
+									<th colspan="2" rowspan="1" class="heading left middle"><strong>Jumping</strong></th>
+									<td class="left middle">You can jump to the specified rung number or line
+<br />
+number in the program.</td>
+									<td colspan="1" rowspan="4" class="left middle">All
+<br />
+versions</td>
+								</tr>
+								<tr>
+									<th colspan="1" rowspan="3" class="heading left middle"><strong>Building</strong></th>
+									<th class="heading left middle"><strong>Building</strong></th>
+									<td class="left middle">The programs in the project are converted into a format
+<br />
+that is executable in the NJ/NX-series CPU Unit or NY-
+<br />
+series Industrial PC.</td>
+								</tr>
+								<tr>
+									<th class="heading left middle"><strong>Rebuilding</strong></th>
+									<td class="left middle">A rebuild is used to build project programs that have
+<br />
+already been built.</td>
+								</tr>
+								<tr>
+									<th class="heading left middle"><strong>Aborting a build
+<br />
+operation</strong></th>
+									<td class="left middle">You can abort a build operation.</td>
+								</tr>
+								<tr>
+									<th colspan="2" rowspan="1" class="heading left middle"><strong>Creating applications for
+<br />
+NA-series PTs</strong></th>
+									<td class="left middle">You can create and transfer pages and subroutines for
+<br />
+NA-series Programmable Terminals.
+<br />
+Refer to "Functional Specifications of HMI".</td>
+									<td class="left middle">Ver.1.11
+<br />
+or higher</td>
+								</tr>
+								<tr>
+									<th colspan="1" rowspan="3" class="heading left middle"><strong>Reuse
+<br />
+Func-
+<br />
+tions</strong></th>
+									<th colspan="2" rowspan="1" class="heading left middle"><strong>Library</strong></th>
+									<td class="left middle">You can create functions, function block definitions,
+<br />
+programs *5, and data types in a library file to use them
+<br />
+as objects in other projects.</td>
+									<td colspan="1" rowspan="3" class="left middle">Ver.1.02
+<br />
+or higher</td>
+								</tr>
+								<tr>
+									<th colspan="1" rowspan="2" class="heading left middle" />
+									<th class="heading left middle"><strong>Creating libraries</strong></th>
+									<td class="left middle">You can create library files to enable using functions,
+<br />
+function block definitions, and data types in other
+<br />
+projects.</td>
+								</tr>
+								<tr>
+									<th class="heading left middle"><strong>Using libraries</strong></th>
+									<td class="left middle">You can access and reuse objects from library files that
+<br />
+were created in other projects.</td>
+								</tr>
+								<tr>
+									<th colspan="1" rowspan="20" class="heading left middle"><strong>File
+<br />
+opera-
+<br />
+tions</strong></th>
+									<th colspan="1" rowspan="10" class="heading left middle"><strong>File
+<br />
+operations</strong></th>
+									<th class="heading left middle"><strong>Creating a project file</strong></th>
+									<td class="left middle">A project file is created.</td>
+									<td colspan="1" rowspan="4" class="left middle">All
+<br />
+versions</td>
+								</tr>
+								<tr>
+									<th class="heading left middle"><strong>Opening a project file</strong></th>
+									<td class="left middle">A project file is opened.</td>
+								</tr>
+								<tr>
+									<th class="heading left middle"><strong>Saving the project file</strong></th>
+									<td class="left middle">The project file is saved.</td>
+								</tr>
+								<tr>
+									<th class="heading left middle"><strong>Saving a project file
+<br />
+under a different
+<br />
+name</strong></th>
+									<td class="left middle">A project file is saved under a different name.</td>
+								</tr>
+								<tr>
+									<th class="heading left middle"><strong>Project update history
+<br />
+management</strong></th>
+									<td class="left middle">You can assign numbers to projects to manage the
+<br />
+project history.</td>
+									<td class="left middle">Ver.1.03
+<br />
+or higher</td>
+								</tr>
+								<tr>
+									<th class="heading left middle"><strong>Exporting a project
+<br />
+file</strong></th>
+									<td class="left middle">You can export a project to an .smc2 or .csm2 project
+<br />
+file *6. You can also export aproject to a previous
+<br />
+project file format, i.e., .smc or .csm.*7.</td>
+									<td colspan="1" rowspan="2" class="left middle">All
+<br />
+versions</td>
+								</tr>
+								<tr>
+									<th class="heading left middle"><strong>Importing a project
+<br />
+file</strong></th>
+									<td class="left middle">You can import a project from an .smc2 *6, .csm2 *6,
+<br />
+.smc, or .csm *7 project file.</td>
+								</tr>
+								<tr>
+									<th class="heading left middle"><strong>Importing a ST project
+<br />
+file</strong></th>
+									<td class="left middle">Import of ST program files created by the Simulink®
+<br />
+PLC Coder™ (version R2013a or higher) from
+<br />
+MathWorks® Inc.</td>
+									<td class="left middle">Ver.1.04
+<br />
+or higher</td>
+								</tr>
+								<tr>
+									<th class="heading left middle"><strong>Offline comparison</strong></th>
+									<td class="left middle">You can compare the data for an open project with the
+<br />
+data for a project file and display the results.
+<br />
+You can also compare the open project with an xported
+<br />
+.smc2 *6 or .smc project file.
+<br />
+Or, you can merge detailed comparison results. *8</td>
+									<td class="left middle">Ver.1.02
+<br />
+or higher</td>
+								</tr>
+								<tr>
+									<th class="heading left middle"><strong>Importing motor
+<br />
+sizing tool results</strong></th>
+									<td class="left middle">You can import the EtherCAT configuration and motion
+<br />
+control settings created by the motor sizing tool.</td>
+									<td class="left middle">Ver.1.16
+<br />
+or higher</td>
+								</tr>
+								<tr>
+									<th colspan="2" rowspan="1" class="heading left middle"><strong>Cutting, copying, and pasting</strong></th>
+									<td class="left middle">You can cut, copy, or paste items that are selected in
+<br />
+the Multiview Explorer or any of the editors.</td>
+									<td colspan="1" rowspan="2" class="left middle">All
+<br />
+versions</td>
+								</tr>
+								<tr>
+									<th colspan="2" rowspan="1" class="heading left middle"><strong>Synchronize</strong></th>
+									<td class="left middle">The project file in the computer is compared with the
+<br />
+data in the online NJ/NX-series CPU Unit or NY-series
+<br />
+Industrial PC and any differences are displayed. You can
+<br />
+specify the transfer direction for any type of data and
+<br />
+transfer all of the data.</td>
+								</tr>
+								<tr>
+									<th colspan="2" rowspan="1" class="heading left middle"><strong>Batch transfer</strong></th>
+									<td class="left middle">You transfer data between the computer and NJ/NX-
+<br />
+series CPU Unit or NY-series Industrial PC that are
+<br />
+connected online. You can select the same data to
+<br />
+transfer as in the synchronization operation. Unlike the
+<br />
+synchronization operation, the data is transferred in the
+<br />
+specified direction without displaying the comparison
+<br />
+results.</td>
+									<td class="left middle">Ver.1.09
+<br />
+or higher</td>
+								</tr>
+								<tr>
+									<th colspan="2" rowspan="1" class="heading left middle"><strong>Printing</strong></th>
+									<td class="left middle">You can print various data. You can select the items
+<br />
+to print.</td>
+									<td colspan="1" rowspan="8" class="left middle">All
+<br />
+versions</td>
+								</tr>
+								<tr>
+									<th colspan="2" rowspan="1" class="heading left middle"><strong>Clear All Memory</strong></th>
+									<td class="left middle">The Clear All Memory Menu command is used to
+<br />
+initialize the user program, Controller Configurations
+<br />
+and Setup, and variables in the CPU Unit to the defaults
+<br />
+from the Sysmac Studio.</td>
+								</tr>
+								<tr>
+									<th colspan="2" rowspan="1" class="heading left middle"><strong>SD Memory Cards</strong></th>
+									<td class="left middle">The following procedures are used to execute file
+<br />
+operations for the SD Memory Card mounted in the
+<br />
+NJ/NX-series CPU Unit or the virtual SD Memory Card
+<br />
+of the NY-series Industrial PC (hereinafter called SD
+<br />
+Memory Card), and to copy files between the SD Memory
+<br />
+Card and computer.</td>
+								</tr>
+								<tr>
+									<th colspan="1" rowspan="4" class="heading left middle" />
+									<th class="heading left middle"><strong>Formatting the SD
+<br />
+Memory Card</strong></th>
+									<td class="left middle">The SD Memory Card is formatted.</td>
+								</tr>
+								<tr>
+									<th class="heading left middle"><strong>Displaying properties</strong></th>
+									<td class="left middle">The properties of the selected file or folder in the SD
+<br />
+Memory Card are displayed.</td>
+								</tr>
+								<tr>
+									<th class="heading left middle"><strong>Copying files and
+<br />
+folders in the SD
+<br />
+Memory Card</strong></th>
+									<td class="left middle">The selected file or folder in the SD Memory Card is
+<br />
+copied to the SD Memory Card.</td>
+								</tr>
+								<tr>
+									<th class="heading left middle"><strong>Copying files and
+<br />
+folders between the
+<br />
+SD Memory Card
+<br />
+and the computer</strong></th>
+									<td class="left middle">The selected file or folder in the SD Memory Card is
+<br />
+copied to the computer. Or, the selected file or folder
+<br />
+in the computer is copied to the SD Memory Card.</td>
+								</tr>
+								<tr>
+									<th colspan="1" rowspan="18" class="heading left middle"><strong>De-
+<br />
+bugging</strong></th>
+									<th colspan="2" rowspan="1" class="heading left middle"><strong>Monitoring</strong></th>
+									<td class="left middle">Variables are monitored during ladder program execution.
+<br />
+You can monitor the TRUE/FALSE status of inputs and
+<br />
+outputs and the present values of variables in the NJ/NX-
+<br />
+series CPU Unit or NY-series Industrial PC. You can
+<br />
+monitor operation on the Ladder Editor, ST Editor, Watch
+<br />
+Tab Page, or I/O Map.</td>
+								</tr>
+								<tr>
+									<th colspan="2" rowspan="1" class="heading left middle"><strong>Differential monitoring</strong></th>
+									<td class="left middle">You can detect the number of times the specified BOOL
+<br />
+variable or BOOL member changes to TRUE or FALSE
+<br />
+and display the count in the Differential Monitor Window.
+<br />
+You can check if bits turn ON and OFF and the number
+<br />
+of times that they turn ON and OFF.</td>
+									<td class="left middle">Ver.1.04
+<br />
+or higher</td>
+								</tr>
+								<tr>
+									<th colspan="2" rowspan="1" class="heading left middle"><strong>Changing present values and
+<br />
+TRUE/FALSE</strong></th>
+									<td class="left middle">You can change the values of variables that are used in
+<br />
+the user program and settings to any desired value, and
+<br />
+you can change program inputs and outputs to TRUE or
+<br />
+FALSE. This allows you to check the operation of the
+<br />
+user program and settings.</td>
+									<td colspan="1" rowspan="5" class="left middle">All
+<br />
+versions</td>
+								</tr>
+								<tr>
+									<th colspan="2" rowspan="1" class="heading left middle"><strong>Changing the present values of
+<br />
+variables *9</strong></th>
+									<td class="left middle">You can change the present values of user-defined
+<br />
+variables, system-defined variables, and device variables
+<br />
+as required. You can do this in the Ladder Editor, ST
+<br />
+Editor, Watch Tab Page or I/O Map.</td>
+								</tr>
+								<tr>
+									<th colspan="2" rowspan="1" class="heading left middle"><strong>Forced refreshing</strong></th>
+									<td class="left middle">Forced refreshing allows the user to refresh external
+<br />
+inputs and outputs with user-specified values from the
+<br />
+Sysmac Studio. The specified value is retained even if
+<br />
+the value of the variable is overwritten from the user
+<br />
+program. You can use forced refreshing to force BOOL
+<br />
+variables to TRUE or FALSE in the Ladder Editor, Watch
+<br />
+Tab Page, or I/O Map.</td>
+								</tr>
+								<tr>
+									<th colspan="2" rowspan="1" class="heading left middle"><strong>Online editing</strong></th>
+									<td class="left middle">Online editing allows you to edit programs on systems
+<br />
+that are currently in operation. Online editing can be
+<br />
+used to edit only POUs and global variables. User-
+<br />
+defined data types cannot be edited with online editing.</td>
+								</tr>
+								<tr>
+									<th colspan="2" rowspan="1" class="heading left middle"><strong>Cross Reference Tab Page</strong></th>
+									<td class="left middle">Cross references allow you to see the programs and
+<br />
+locations where program elements (variables, data types,
+<br />
+I/O ports, functions, or function blocks) are used. You
+<br />
+can view all locations where an element is used from
+<br />
+this list.</td>
+								</tr>
+								<tr>
+									<th colspan="2" rowspan="1" class="heading left middle"><strong>Data tracing</strong></th>
+									<td class="left middle">Data tracing allows you to sample the specified
+<br />
+variables and store the values of the variables in trace
+<br />
+memory without any programming. You can choose
+<br />
+between two continuous trace methods: a triggered
+<br />
+trace, where you set a trigger condition and data is
+<br />
+saved before and after that condition is met, or a
+<br />
+continuous trace, in which continuous sampling is
+<br />
+performed without any trigger and the results are stored
+<br />
+in a file on your computer.
+<br />
+However, you can still display data retrieved on the
+<br />
+Sysmac Studio and save those results to a file even if
+<br />
+you use a triggered trace. These same functions can be
+<br />
+used with the Simulator as well.</td>
+									<td colspan="1" rowspan="9" class="left middle">All
+<br />
+versions</td>
+								</tr>
+								<tr>
+									<th colspan="1" rowspan="8" class="heading left middle" />
+									<th class="heading left middle"><strong>Setting sampling
+<br />
+intervals</strong></th>
+									<td class="left middle">The interval to perform sampling on the target data is
+<br />
+set. Sampling is performed for the specified task period,
+<br />
+at the specified time, or when a trace sampling
+<br />
+instruction is executed.</td>
+								</tr>
+								<tr>
+									<th class="heading left middle"><strong>Setting triggers</strong></th>
+									<td class="left middle">To perform a triggered trace, you set a condition to
+<br />
+trigger sampling. A suitable trigger condition is set to
+<br />
+record data before and after an event.</td>
+								</tr>
+								<tr>
+									<th class="heading left middle"><strong>Setting a continuous
+<br />
+trace</strong></th>
+									<td class="left middle">The method to save the data traced during a continuous
+<br />
+trace is set.</td>
+								</tr>
+								<tr>
+									<th class="heading left middle"><strong>Setting variables to
+<br />
+sample</strong></th>
+									<td class="left middle">The variables to store in trace memory are registered.
+<br />
+The sampling intervals can also be set.</td>
+								</tr>
+								<tr>
+									<th class="heading left middle"><strong>Starting and stopping
+<br />
+tracing</strong></th>
+									<td class="left middle">The data trace settings are transferred to the NJ/NX-
+<br />
+series CPU Unit or NY-series Industrial PC and the
+<br />
+tracing starts. If you selected Trigger (Single) as the
+<br />
+trace type, tracing waits for the trigger to begin sampling.
+<br />
+If you selected Continuous, sampling begins immediately
+<br />
+and all traced data is transferred to the computer as it is
+<br />
+gathered and saved to a file.</td>
+								</tr>
+								<tr>
+									<th class="heading left middle"><strong>Displaying trace
+<br />
+results</strong></th>
+									<td class="left middle">You view the results of the traced data in either a chart
+<br />
+or the 3D Motion Monitor. After sampling begins, sample
+<br />
+data is immediately transferred and drawn on the graph.
+<br />
+The trace target variable table shows the maximum,
+<br />
+minimum, and average values for each variable.
+<br />
+You can change the line colors on the graph. *10
+<br />
+You can consecutively read and display continuous trace
+<br />
+results from more than one file. *11</td>
+								</tr>
+								<tr>
+									<th class="heading left middle"><strong>Exporting/Importing
+<br />
+trace results</strong></th>
+									<td class="left middle">Trace results are saved within your project
+<br />
+automatically when you save the project on the Sysmac
+<br />
+Studio. If you want to save this data as a separate file,
+<br />
+you can export the data to a CSV file.
+<br />
+You can import trace results that you have exported.</td>
+								</tr>
+								<tr>
+									<th class="heading left middle"><strong>Printing trace results</strong></th>
+									<td class="left middle">You can print out data trace settings along with digital
+<br />
+and analog charts.</td>
+								</tr>
+								<tr>
+									<th colspan="2" rowspan="1" class="heading left middle"><strong>Debugging Vision Sensors</strong></th>
+									<td class="left middle">You can debug the Vision Sensor offline.
+<br />
+Refer to "Function Specifications of Vision Sensor
+<br />
+Functions".</td>
+									<td class="left middle">Ver.1.01
+<br />
+or higher</td>
+								</tr>
+								<tr>
+									<th colspan="2" rowspan="1" class="heading left middle"><strong>Debugging Displacement Sensors</strong></th>
+									<td class="left middle">You can debug Displacement Sensors offline.
+<br />
+Refer to "Function Specifications of Displacement
+<br />
+Sensor Functions".</td>
+									<td class="left middle">Ver.1.05
+<br />
+or higher</td>
+								</tr>
+								<tr>
+									<th colspan="1" rowspan="13" class="heading left middle"><strong>Simula-
+<br />
+tion</strong></th>
+									<th colspan="2" rowspan="1" class="heading left middle"><strong>Programs for debugging</strong></th>
+									<td class="left middle">You can create programs for debugging that are used
+<br />
+only to execute simulations and specify virtual inputs
+<br />
+for simulation.</td>
+									<td colspan="1" rowspan="4" class="left middle">All
+<br />
+versions</td>
+								</tr>
+								<tr>
+									<th colspan="1" rowspan="9" class="heading left middle"><strong>Executing
+<br />
+a
+<br />
+simulation</strong></th>
+									<th class="heading left middle"><strong>Selecting what to
+<br />
+simulate</strong></th>
+									<td class="left middle">You can select the programs to simulate from all of the
+<br />
+programs in the Sysmac Studio. Programs can be
+<br />
+dragged to select them.</td>
+								</tr>
+								<tr>
+									<th class="heading left middle"><strong>Setting breakpoints</strong></th>
+									<td class="left middle">You can set breakpoints to stop the simulation in the
+<br />
+Program Editor.</td>
+								</tr>
+								<tr>
+									<th colspan="1" rowspan="2" class="heading left middle"><strong>Executing and
+<br />
+stopping simulations</strong></th>
+									<td class="left middle">You can control simulation execution to monitor the
+<br />
+user program or to check operation through data
+<br />
+tracing. Step execution and pausing are also possible.</td>
+								</tr>
+								<tr>
+									<td class="left middle">You can perform a linked simulation between sequence
+<br />
+control and continuous control (operations controlled
+<br />
+by Simulink) to debug the sequence control program and
+<br />
+continuous control program. *12</td>
+									<td class="left middle">Ver.1.09
+<br />
+or higher</td>
+								</tr>
+								<tr>
+									<th class="heading left middle"><strong>Changing the
+<br />
+simulation speed</strong></th>
+									<td class="left middle">You can change the execution speed.</td>
+									<td colspan="1" rowspan="2" class="left middle">All
+<br />
+versions</td>
+								</tr>
+								<tr>
+									<th class="heading left middle"><strong>Task period
+<br />
+simulation</strong></th>
+									<td class="left middle">You can display the task periods.</td>
+								</tr>
+								<tr>
+									<th class="heading left middle"><strong>Batch transfer of the
+<br />
+present values of
+<br />
+variables</strong></th>
+									<td class="left middle">You can save the values of variables at specific times
+<br />
+during simulations in a file, or you can write the values
+<br />
+of variables that were saved in a file back to the
+<br />
+Simulator. This allows you to write the initial values of
+<br />
+variables, e.g., for test applications, before you start a
+<br />
+simulation.</td>
+									<td colspan="1" rowspan="2" class="left middle">Ver.1.02
+<br />
+or higher</td>
+								</tr>
+								<tr>
+									<th class="heading left middle"><strong>Integrated NS-series
+<br />
+PT simulation *13</strong></th>
+									<td class="left middle">You can simulate the linked operation of a sequence
+<br />
+program and an NS-series Programmable Terminal to
+<br />
+debug the sequence program and screen data offline.</td>
+								</tr>
+								<tr>
+									<th class="heading left middle"><strong>Simultaneous
+<br />
+simulation of
+<br />
+Controller and
+<br />
+NA-series PT</strong></th>
+									<td class="left middle">You can simultaneously simulate sequence control and
+<br />
+NA-series PT operation, including displaying pages and
+<br />
+subroutines created with Visual Basic and debugging the
+<br />
+sequence programming.</td>
+									<td class="left middle">Ver.1.11
+<br />
+or higher</td>
+								</tr>
+								<tr>
+									<th colspan="1" rowspan="3" class="heading left middle"><strong>Setting
+<br />
+the virtual
+<br />
+equipment</strong></th>
+									<th class="heading left middle"><strong>Creating 3D
+<br />
+equipment models</strong></th>
+									<td class="left middle">You can create a 3D equipment model at the control
+<br />
+target to monitor with the 3D Motion Monitor function.</td>
+									<td colspan="1" rowspan="13" class="left middle">All
+<br />
+versions</td>
+								</tr>
+								<tr>
+									<th class="heading left middle"><strong>3D Motion Monitor
+<br />
+Display Mode</strong></th>
+									<td class="left middle">You set the axis variables for each element of the 3D
+<br />
+equipment model, and then set the 3D equipment into
+<br />
+motion according to those axis motions.</td>
+								</tr>
+								<tr>
+									<th class="heading left middle"><strong>Displaying 2D paths</strong></th>
+									<td class="left middle">You can display the 2D paths of the markers for the
+<br />
+projections in the 3D display.</td>
+								</tr>
+								<tr>
+									<th colspan="1" rowspan="11" class="heading left middle"><strong>Moni-
+<br />
+toring
+<br />
+Informa-
+<br />
+tion</strong></th>
+									<th colspan="2" rowspan="1" class="heading left middle"><strong>Displaying unit production
+<br />
+information</strong></th>
+									<td class="left middle">You can display the production information of the NJ/
+<br />
+NX-series CPU Unit or NY-series Industrial PC, and
+<br />
+Special Units, including the models of the Units and unit
+<br />
+versions.</td>
+								</tr>
+								<tr>
+									<th colspan="2" rowspan="1" class="heading left middle"><strong>Monitoring task execution times</strong></th>
+									<td class="left middle">You can monitor the execution time of each task when
+<br />
+the user program is executed on an NJ/NX-series CPU
+<br />
+Unit, NY-series Industrial PC, or in the Simulator. When
+<br />
+the Simulator is connected, you can also monitor the
+<br />
+real processing time of tasks. This allows you to perform
+<br />
+a Controller performance test.</td>
+								</tr>
+								<tr>
+									<th colspan="2" rowspan="1" class="heading left middle"><strong>Troubleshooting</strong></th>
+									<td class="left middle">You can use troubleshooting to check the errors that
+<br />
+occurred in the Controller, display corrections for the
+<br />
+errors, and clear the errors.</td>
+								</tr>
+								<tr>
+									<th colspan="1" rowspan="5" class="heading left middle" />
+									<th class="heading left middle"><strong>Controller errors</strong></th>
+									<td class="left middle">Any current Controller errors are displayed.
+<br />
+(Observations and information are not displayed.)</td>
+								</tr>
+								<tr>
+									<th class="heading left middle"><strong>User-defined errors</strong></th>
+									<td class="left middle">Information is displayed on current errors.</td>
+								</tr>
+								<tr>
+									<th class="heading left middle"><strong>Controller event log</strong></th>
+									<td class="left middle">You can display a log of Controller events (including
+<br />
+Controller errors and Controller information). (You
+<br />
+cannot display logs from EtherCAT slaves.)</td>
+								</tr>
+								<tr>
+									<th class="heading left middle"><strong>User-defined event
+<br />
+log</strong></th>
+									<td class="left middle">The log of user-defined events that were stored for the
+<br />
+Create User-defined Error (SetAlarm) instruction and
+<br />
+the Create User-defined Information (SetInfo)
+<br />
+instruction is displayed.</td>
+								</tr>
+								<tr>
+									<th class="heading left middle"><strong>Event Settings Table</strong></th>
+									<td class="left middle">The Event Setting Table is used to register the contents
+<br />
+displayed on the Sysmac Studio and on HMIs for User-
+<br />
+defined events that occur for execution of the Create
+<br />
+User-defined Error (SetAlarm) instruction and the
+<br />
+Create User-defined Information (SetInfo) instruction.</td>
+								</tr>
+								<tr>
+									<th colspan="2" rowspan="1" class="heading left middle"><strong>User memory usage monitor</strong></th>
+									<td class="left middle">The space that is used by the user program that you are
+<br />
+editing in the Sysmac Studio is displayed in relation to
+<br />
+the size of memory for the NJ/NX-series CPU Unit or
+<br />
+NY-series Industrial PC.</td>
+								</tr>
+								<tr>
+									<th colspan="2" rowspan="1" class="heading left middle"><strong>Setting clock information</strong></th>
+									<td class="left middle">You can read and set the clock of NJ/NX-series CPU
+<br />
+Unit or NY-series Industrial PC.
+<br />
+The computer's clock information is also displayed.</td>
+								</tr>
+								<tr>
+									<th colspan="2" rowspan="1" class="heading left middle"><strong>DB connection function</strong></th>
+									<td class="left middle">You can monitor information for the DB connection.
+<br />
+Refer to "Function Specifications of DB Connection
+<br />
+Function".</td>
+									<td class="left middle">Ver. 1.06 or
+<br />
+higher with
+<br />
+the NJ501-
+<br />
+1[]20
+<br />
+selected</td>
+								</tr>
+								<tr>
+									<th colspan="1" rowspan="2" class="heading left middle"><strong>Com-
+<br />
+muni-
+<br />
+cations</strong></th>
+									<th colspan="2" rowspan="1" class="heading left middle"><strong>Going online with a Controller</strong></th>
+									<td class="left middle">An online connection is established with the Controller.
+<br />
+You also can transfer a project from the connected
+<br />
+Controller to the computer with a simple operation
+<br />
+without creating a new project or opening an existing
+<br />
+project. *6</td>
+									<td colspan="1" rowspan="6" class="left middle">All
+<br />
+versions</td>
+								</tr>
+								<tr>
+									<th colspan="2" rowspan="1" class="heading left middle"><strong>Checking for forced refreshing</strong></th>
+									<td class="left middle">When you go offline, any forced refreshing is cleared.</td>
+								</tr>
+								<tr>
+									<th colspan="1" rowspan="7" class="heading left middle"><strong>Mainte-
+<br />
+nance</strong></th>
+									<th colspan="2" rowspan="1" class="heading left middle"><strong>Changing the operating mode of
+<br />
+the Controller</strong></th>
+									<td class="left middle">There are two operating modes for NJ/NX-series CPU
+<br />
+Unit or NY-series Industrial PC, depending on if control
+<br />
+programs are executed or not. These are RUN mode and
+<br />
+PROGRAM mode.</td>
+								</tr>
+								<tr>
+									<th colspan="2" rowspan="1" class="heading left middle"><strong>Resetting the Controller</strong></th>
+									<td class="left middle">The operations and status when the power supply to the
+<br />
+Controller is cycled are emulated. This can be performed
+<br />
+only in PROGRAM mode. You cannot reset the
+<br />
+Controller in RUN mode.</td>
+								</tr>
+								<tr>
+									<th colspan="2" rowspan="1" class="heading left middle"><strong>Backup functions</strong></th>
+									<td class="left middle">You can back up, restore, and compare the user program
+<br />
+and other data of the NJ/NX-series CPU Unit or NY-
+<br />
+series Industrial PC to replace hardware, such as the
+<br />
+CPU Unit, or to restore device data.</td>
+								</tr>
+								<tr>
+									<th colspan="1" rowspan="4" class="heading left middle" />
+									<th class="heading left middle"><strong>Variables and memory
+<br />
+backup</strong></th>
+									<td class="left middle">You can back up the contents of retained memory to
+<br />
+a file and restore the contents of the backup file.
+<br />
+You can individually select the retained variables to
+<br />
+restore. *14</td>
+								</tr>
+								<tr>
+									<th class="heading left middle"><strong>Controller backup</strong></th>
+									<td class="left middle">You can back up data (user program and settings,
+<br />
+variable values, memory values, Unit settings, and slave
+<br />
+settings) from a Controller to a file and restore the
+<br />
+backed up data from the file to the Controller.</td>
+									<td colspan="1" rowspan="3" class="left middle">Ver.1.04
+<br />
+or higher</td>
+								</tr>
+								<tr>
+									<th class="heading left middle"><strong>SD Memory Card
+<br />
+backup</strong></th>
+									<td class="left middle">You can backup the Controller data to an SD Memory
+<br />
+Card mounted in the NJ/NX-series CPU Unit or to the
+<br />
+Virtual SD Memory Card of the NY-series Industrial PC,
+<br />
+or compare the Controller data to the data in these SD
+<br />
+Memory Cards.</td>
+								</tr>
+								<tr>
+									<th class="heading left middle"><strong>Importing/exporting
+<br />
+to/from backup files</strong></th>
+									<td class="left middle">You can import the data in a backup file created for a
+<br />
+Controller backup or SD Memory Card backup to a
+<br />
+project. Also, you can export project data to a backup
+<br />
+file.</td>
+								</tr>
+								<tr>
+									<th colspan="1" rowspan="7" class="heading left middle"><strong>Security
+<br />
+Meas-
+<br />
+ures</strong></th>
+									<th class="heading left middle"><strong>Prevention
+<br />
+of incor-
+<br />
+rect con-
+<br />
+nections</strong></th>
+									<th class="heading left middle"><strong>Confirming CPU Unit
+<br />
+names and serial IDs</strong></th>
+									<td class="left middle">If the name or the serial ID is different between the
+<br />
+project and the CPU Unit when an online connection is
+<br />
+established, a confirmation dialog box is displayed.</td>
+									<td colspan="1" rowspan="6" class="left middle">All
+<br />
+versions</td>
+								</tr>
+								<tr>
+									<th colspan="1" rowspan="2" class="heading left middle"><strong>Prevention
+<br />
+of
+<br />
+incorrect
+<br />
+operation</strong></th>
+									<th class="heading left middle"><strong>Operation authority
+<br />
+verification</strong></th>
+									<td class="left middle">You can set any of five levels of operation authority
+<br />
+(Administrator, Designer, Maintainer, Operator, and
+<br />
+Observer) for a Sysmac Studio project file or NJ/NX-
+<br />
+series CPU Unit or NY-series Industrial PC to restrict
+<br />
+the operations that can be performed according to the
+<br />
+operation authority of the user.</td>
+								</tr>
+								<tr>
+									<th class="heading left middle"><strong>Write protection of the
+<br />
+CPU Unit</strong></th>
+									<td class="left middle">You can prevent rewriting of data in the CPU Unit from
+<br />
+the Sysmac Studio.</td>
+								</tr>
+								<tr>
+									<th colspan="1" rowspan="4" class="heading left middle"><strong>Prevention
+<br />
+of the theft
+<br />
+of assets</strong></th>
+									<th class="heading left middle"><strong>Authentication of user
+<br />
+program execution
+<br />
+IDs</strong></th>
+									<td class="left middle">You can ensure that a user program cannot be operated
+<br />
+on another CPU Unit even if copied.</td>
+								</tr>
+								<tr>
+									<th class="heading left middle"><strong>User program transfer
+<br />
+with no restoration
+<br />
+information</strong></th>
+									<td class="left middle">The program source code is not transferred. If this
+<br />
+option is selected, programs are not displayed even if
+<br />
+uploaded from another computer. However, variables and
+<br />
+settings are transferred even if this option is selected.</td>
+								</tr>
+								<tr>
+									<th class="heading left middle"><strong>Password protection
+<br />
+for project files</strong></th>
+									<td class="left middle">You can place a password on the file to protect your
+<br />
+assets.</td>
+								</tr>
+								<tr>
+									<th class="heading left middle"><strong>Data protection</strong></th>
+									<td class="left middle">You can set passwords for individual POUs (programs,
+<br />
+functions, and function block definitions) to prohibit
+<br />
+displaying, changing, and copying them.</td>
+									<td class="left middle">Ver.1.02
+<br />
+or higher</td>
+								</tr>
+								<tr>
+									<th class="heading left middle"><strong>Window
+<br />
+Opera-
+<br />
+tion</strong></th>
+									<th colspan="2" rowspan="1" class="heading left middle"><strong>Docking</strong></th>
+									<td class="left middle">You can dock and undock configuration tab pages,
+<br />
+program editors, Watch Tab Pages, Cross Reference
+<br />
+Tab Page, and other window parts to/from the main
+<br />
+Sysmac Studio window.</td>
+									<td class="left middle">Ver.1.09
+<br />
+or higher</td>
+								</tr>
+								<tr>
+									<th colspan="1" rowspan="4" class="heading left middle"><strong>Online
+<br />
+Help</strong></th>
+									<th colspan="2" rowspan="1" class="heading left middle"><strong>Sysmac Studio help system</strong></th>
+									<td class="left middle">You can access Sysmac Studio operating procedures.</td>
+									<td colspan="1" rowspan="4" class="left middle">All
+<br />
+versions</td>
+								</tr>
+								<tr>
+									<th colspan="2" rowspan="1" class="heading left middle"><strong>Instructions reference</strong></th>
+									<td class="left middle">Information is provided on how to use the instructions
+<br />
+that are supported by the NJ/NX-series CPU Unit or
+<br />
+NY-series Industrial PC.</td>
+								</tr>
+								<tr>
+									<th colspan="2" rowspan="1" class="heading left middle"><strong>System-defined variable reference</strong></th>
+									<td class="left middle">You can display a list of descriptions of the system-
+<br />
+defined variables that you can use on the Sysmac Studio.</td>
+								</tr>
+								<tr>
+									<th colspan="2" rowspan="1" class="heading left middle"><strong>Keyboard mapping reference</strong></th>
+									<td class="left middle">You can display a list of convenient shortcut keys that
+<br />
+you can use on the Sysmac Studio.</td>
+								</tr>
+							</table>
+						</div>
+        
+        </p>
+    </div>
+
+
+
+
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="component-blockA01">
+
+
+
+
+
+    <div class="text">
+        <p>
+            
+						<div style="text-align: left;">*1. Version 1.17 or higher.
+<br />
+*2. Changing event levels for Controller errors is supported by version 1.04 or higher.
+<br />
+*3. Displaying comments for members of arrays, structures, and unions and displaying long comments for variables (up
+<br />
+        to five lines) are supported by version 1.04 or higher.
+<br />
+*4. Changing the length of the displayed variable comments is supported by version 1.05 or higher.
+<br />
+*5. Creating programs in a library file is supported by version 1.06 or higher.
+<br />
+*6. Supported only by the Sysmac Studio version 1.08 or higher.
+<br />
+*7. The .csm format is supported by version 1.04 or higher. The size of a csm file is smaller than the size of the smc file.
+<br />
+*8. Merging detailed comparison results is supported by version 1.03 or higher.
+<br />
+*9. Changing present values in the Ladder Editor or ST Editor is supported by version 1.03 or higher.
+<br />
+*10. Changing the colors of graph lines is supported by version 1.01 or higher.
+<br />
+*11. Consecutively reading and displaying continuous trace results from more than one file is supported by version 1.05
+<br />
+       or higher.
+<br />
+*12. MATLAB®/Simulink R2013a or higher is required.
+<br />
+*13. CX-Designer version 3.41 or higher is required.
+<br />
+*14. Individual selection of the retained variables to restore is supported by version 1.05 or higher.</div>
+					
+        </p>
+    </div>
+
+
+
+
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<h4 class="heading-A02">Function Specifications of DB Connection Function</h4>
+
+
+
+
+
+
+
+
+
+
+<div class="component-blockA01">
+
+
+
+
+
+    <div class="text">
+        <p>
+            
+						<div class="table-blockA01">
+							<table class="tableA01" cellspacing="0" border="0">
+								<tr class="first-child">
+									<th colspan="3" rowspan="1" class="heading center middle"><strong>Item</strong></th>
+									<th class="heading center middle"><strong>Function</strong></th>
+								</tr>
+								<tr>
+									<th colspan="3" rowspan="1" class="heading left middle"><strong>Setting Parameters</strong></th>
+									<td class="center middle">-</td>
+								</tr>
+								<tr>
+									<th colspan="1" rowspan="5" class="heading left middle" />
+									<th colspan="2" rowspan="1" class="heading left middle"><strong>DBMS settings</strong></th>
+									<td class="left middle">The database to connect is selected.</td>
+								</tr>
+								<tr>
+									<th colspan="2" rowspan="1" class="heading left middle"><strong>Run mode setting of the DB
+<br />
+connection service</strong></th>
+									<td class="left middle">The Operation Mode is selected to send SQL statements when DB
+<br />
+connection instructions are executed or Test Mode is selected to not
+<br />
+send SQL statements when DB connection instructions are executed.</td>
+								</tr>
+								<tr>
+									<th colspan="2" rowspan="1" class="heading left middle"><strong>Spooling settings</strong></th>
+									<td class="left middle">You can set the service so that SQL statements are spooled when
+<br />
+problems occur and resent when operation is restored.</td>
+								</tr>
+								<tr>
+									<th colspan="2" rowspan="1" class="heading left middle"><strong>Operation log settings</strong></th>
+									<td class="left middle">Settings are made for the execution log for execution of the DB
+<br />
+connection service, the debug log for execution of SQL statements for
+<br />
+the DB connection service, and the SQL execution failure log for SQL
+<br />
+execution failures.</td>
+								</tr>
+								<tr>
+									<th colspan="2" rowspan="1" class="heading left middle"><strong>Database connection service
+<br />
+shutdown settings</strong></th>
+									<td class="left middle">Settings are made to control operation in order to end the DB
+<br />
+connection service after automatically storing the operation log files
+<br />
+on an SD Memory Card.</td>
+								</tr>
+								<tr>
+									<th colspan="2" rowspan="1" class="heading left middle"><strong>Programming</strong></th>
+									<th class="heading left middle"><strong>DB connection instructions</strong></th>
+									<td class="left middle">You can use the following DB connection instructions to write the
+<br />
+user program for controlling the data in the database.
+<br />
+DB_Insert (Insert DB Record), DB_Select (Retrieve DB Record),
+<br />
+DB_Update (Update DB Record), and DB_Delete (Delete DB Record)</td>
+								</tr>
+								<tr>
+									<th colspan="3" rowspan="1" class="heading left middle"><strong>Monitoring information</strong></th>
+									<td class="center middle">-</td>
+								</tr>
+								<tr>
+									<th colspan="1" rowspan="3" class="heading center middle" />
+									<th colspan="2" rowspan="1" class="heading left middle"><strong>Monitoring the DB connection
+<br />
+service</strong></th>
+									<td class="left middle">The status of the DB connection service is monitored.</td>
+								</tr>
+								<tr>
+									<th colspan="2" rowspan="1" class="heading left middle"><strong>Monitoring the DB connections</strong></th>
+									<td class="left middle">The status of each DB connection is monitored.</td>
+								</tr>
+								<tr>
+									<th colspan="2" rowspan="1" class="heading left middle"><strong>Displaying the operation logs</strong></th>
+									<td class="left middle">The contents of the execution log, debug log, and SQL execution
+<br />
+failure log are displayed.</td>
+								</tr>
+							</table>
+						</div>
+					
+        </p>
+    </div>
+
+
+
+
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="component-blockA01">
+
+
+
+
+
+    <div class="text">
+        <p>
+            Note: The DB connection service can be used if the NJ501-1[]20 is selected with Sysmac Studio version 1.06 or higher.
+<br />
+           The DB connection service can be used if the NJ101-[][]20 is selected with Sysmac Studio version 1.14 or higher.
+        </p>
+    </div>
+
+
+
+
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<h4 class="heading-A02">Function Specifications of EtherNet/IP Connection Settings</h4>
+
+
+
+
+
+
+
+
+
+
+<div class="component-blockA01">
+
+
+
+
+
+    <div class="text">
+        <p>
+            
+						<div class="table-blockA01">
+							<table class="tableA01" cellspacing="0" border="0">
+								<tr class="first-child">
+									<th colspan="3" rowspan="1" class="heading center middle"><strong>Item</strong></th>
+									<th class="heading center middle"><strong>Function</strong></th>
+								</tr>
+								<tr>
+									<th colspan="3" rowspan="1" class="heading left middle"><strong>EtherNet/IP Connection Settings</strong></th>
+									<td class="left middle">Functions related to tag data link (connection) settings in the
+<br />
+EtherNet/IP network are provided.</td>
+								</tr>
+								<tr>
+									<th colspan="1" rowspan="9" class="heading center middle" />
+									<th colspan="1" rowspan="4" class="heading left middle"><strong>Setting
+<br />
+Connections</strong></th>
+									<th class="heading left middle"><strong>Editing Tag Sets</strong></th>
+									<td class="left middle">You create tags and tag sets using network variables.</td>
+								</tr>
+								<tr>
+									<th class="heading left middle"><strong>Editing Target
+<br />
+Devices</strong></th>
+									<td class="left middle">You add target devices to connect to.</td>
+								</tr>
+								<tr>
+									<th class="heading left middle"><strong>Editing Connections</strong></th>
+									<td class="left middle">You select tag sets from a list and create connections.</td>
+								</tr>
+								<tr>
+									<th class="heading left middle"><strong>Adding EDS Files</strong></th>
+									<td class="left middle">You can add the types of EtherNet/IP devices that can be set as targets.</td>
+								</tr>
+								<tr>
+									<th colspan="1" rowspan="2" class="heading left middle"><strong>Transferring
+<br />
+Connections</strong></th>
+									<th class="heading left middle"><strong>Synchronized
+<br />
+Transfer and
+<br />
+Batch Transfer</strong></th>
+									<td class="left middle">All the connection settings in the Controller or the project are transferred
+<br />
+at the same time.</td>
+								</tr>
+								<tr>
+									<th class="heading left middle"><strong>Individual Transfer
+<br />
+and Comparison</strong></th>
+									<td class="left middle">You can transfer or compare the connection settings of each
+<br />
+EtherNet/IP device individually.</td>
+								</tr>
+								<tr>
+									<th colspan="1" rowspan="3" class="heading left middle"><strong>Monitoring
+<br />
+Connections</strong></th>
+									<th class="heading left middle"><strong>Status Monitor</strong></th>
+									<td class="left middle">The operating status of one or more connections is displayed.
+<br />
+You can start or stop all the connections at the same time.</td>
+								</tr>
+								<tr>
+									<th class="heading left middle"><strong>Tag/Tag Set Monitor</strong></th>
+									<td class="left middle">The detailed operation information of tags and tag sets, such as the presence
+<br />
+or absence of tags and connection times of tag sets, is displayed.</td>
+								</tr>
+								<tr>
+									<th class="heading left middle"><strong>Ethernet Information
+<br />
+Monitor</strong></th>
+									<td class="left middle">The detailed operation information of EtherNet/IP devices, such as
+<br />
+bandwidth usage (pps), is displayed.</td>
+								</tr>
+							</table>
+						</div>
+					
+        </p>
+    </div>
+
+
+
+
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="component-blockA01">
+
+
+
+
+
+    <div class="text">
+        <p>
+            Note: Supported only by the Sysmac Studio version 1.10 or higher.
+        </p>
+    </div>
+
+
+
+
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<h4 class="heading-A02">Function Specifications of EtherNet/IP Slave Terminal Settings</h4>
+
+
+
+
+
+
+
+
+
+
+<div class="component-blockA01">
+
+
+
+
+
+    <div class="text">
+        <p>
+            
+						<div class="table-blockA01">
+							<table class="tableA01" cellspacing="0" border="0">
+								<tr class="first-child">
+									<th colspan="2" rowspan="1" class="heading center middle"><strong>Item</strong></th>
+									<th class="heading center middle"><strong>Function</strong></th>
+								</tr>
+								<tr>
+									<th colspan="2" rowspan="1" class="heading left middle"><strong>EtherNet/IP Slave Terminal
+<br />
+Configuration and Setup</strong></th>
+									<td class="left middle">You create the configuration of Slave Terminal to be connected to the
+<br />
+EtherNet/IP network on the Sysmac Studio and set the NX Units that
+<br />
+compose the Slave Terminal.</td>
+								</tr>
+								<tr>
+									<th colspan="1" rowspan="5" class="heading center middle" />
+									<th class="heading left middle"><strong>Registering the NX Units</strong></th>
+									<td class="left middle">You configure the Slave Terminal by dragging the NX Units from the
+<br />
+device list displayed in the Toolbox to the positions where to mount
+<br />
+the Units.</td>
+								</tr>
+								<tr>
+									<th class="heading left middle"><strong>Setting the NX Units</strong></th>
+									<td class="left middle">You edit the I/O allocation settings, mounting settings and Unit operation
+<br />
+settings of the NX Units.</td>
+								</tr>
+								<tr>
+									<th class="heading left middle"><strong>Displaying the Width of Slave
+<br />
+Terminal Configuration</strong></th>
+									<td class="left middle">The width and power consumption of the Slave Terminal configuration
+<br />
+are displayed based on the Unit configuration information.</td>
+								</tr>
+								<tr>
+									<th class="heading left middle"><strong>Comparing and Merging the
+<br />
+Slave Terminal Configuration
+<br />
+Information</strong></th>
+									<td class="left middle">You can compare the configuration information on the project with
+<br />
+actual configuration online, select the Units with different information to
+<br />
+correct, and merge the information.</td>
+								</tr>
+								<tr>
+									<th class="heading left middle"><strong>Transferring the Slave
+<br />
+Terminal Configuration
+<br />
+Information</strong></th>
+									<td class="left middle">You transfer the Unit configuration information to the Slave Terminal.</td>
+								</tr>
+							</table>
+						</div>
+					
+        </p>
+    </div>
+
+
+
+
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="component-blockA01">
+
+
+
+
+
+    <div class="text">
+        <p>
+            Note: Supported only by the Sysmac Studio version 1.11 or higher.
+        </p>
+    </div>
+
+
+
+
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<h4 class="heading-A02">Function Specifications of Safety Control Units</h4>
+
+
+
+
+
+
+
+
+
+
+<div class="component-blockA01">
+
+
+
+
+
+    <div class="text">
+        <p>
+            
+						<div class="table-blockA01">
+							<table class="tableA01" cellspacing="0" border="0">
+								<tr class="first-child">
+									<th colspan="3" rowspan="1" class="heading center middle"><strong>Item</strong></th>
+									<th class="heading center middle"><strong>Function</strong></th>
+								</tr>
+								<tr>
+									<th colspan="1" rowspan="8" class="heading left middle"><strong>Setting
+<br />
+Parameters</strong></th>
+									<th colspan="2" rowspan="1" class="heading left middle"><strong>Safety I/O Settings</strong></th>
+									<td class="left middle">You make a setting for safety process data communications
+<br />
+and connection with safety I/O devices.</td>
+								</tr>
+								<tr>
+									<th colspan="1" rowspan="2" class="heading left middle" />
+									<th class="heading left middle"><strong>Safety Process Data
+<br />
+Communications
+<br />
+Settings</strong></th>
+									<td class="left middle">You select Safety I/O Units to perform safety process data
+<br />
+communications (FSoE communications) and make necessary
+<br />
+settings.</td>
+								</tr>
+								<tr>
+									<th class="heading left middle"><strong>Safety Device
+<br />
+Allocation Settings</strong></th>
+									<td class="left middle">You set the connection between Safety I/O Units and safety
+<br />
+devices.</td>
+								</tr>
+								<tr>
+									<th colspan="1" rowspan="2" class="heading left middle"><strong>Standard I/O
+<br />
+Settings</strong></th>
+									<th class="heading left middle"><strong>Exposed Variable
+<br />
+Settings</strong></th>
+									<td class="left middle">You set whether to expose global variables of the Safety CPU
+<br />
+Unit. The values of exposed variables can be referenced from
+<br />
+NJ/NX-series CPU Units and NY-series Industrial PCs.</td>
+								</tr>
+								<tr>
+									<th class="heading left middle"><strong>Standard Process Data
+<br />
+Communications *1</strong></th>
+									<td class="left middle">You set the devices and ports of the Standard I/O Units for
+<br />
+the exposed variables of the Safety CPU Unit.</td>
+								</tr>
+								<tr>
+									<th colspan="2" rowspan="1" class="heading left middle"><strong>Safety Task Settings</strong></th>
+									<td class="left middle">You define the execution cycle and timing of the safety task
+<br />
+and programs to be executed in the task.</td>
+								</tr>
+								<tr>
+									<th class="heading left middle" />
+									<th class="heading left middle"><strong>Assigning Programs</strong></th>
+									<td class="left middle">You assign safety programs to execute to the task.</td>
+								</tr>
+								<tr>
+									<th colspan="2" rowspan="1" class="heading left middle"><strong>I/O Map Settings</strong></th>
+									<td class="left middle">The ports of Safety I/O Units used in safety process data
+<br />
+communications are displayed. You assign device variables
+<br />
+used in safety programs to the I/O ports.</td>
+								</tr>
+								<tr>
+									<th colspan="1" rowspan="13" class="heading left middle"><strong>Creating
+<br />
+Safety
+<br />
+Programs</strong></th>
+									<th colspan="2" rowspan="1" class="heading left middle"><strong>Instruction List (Toolbox)</strong></th>
+									<td class="left middle">A hierarchy of the functions and function blocks that you can
+<br />
+use is displayed in the Toolbox. You can drag the required
+<br />
+functions and function blocks onto the FBD editor to insert it
+<br />
+to a safety program.</td>
+								</tr>
+								<tr>
+									<th colspan="2" rowspan="1" class="heading left middle"><strong>FBD Programming</strong></th>
+									<td class="left middle">You connect variables, functions, and function blocks with
+<br />
+connecting lines to build networks. The FBD editor is used to
+<br />
+enter them.</td>
+								</tr>
+								<tr>
+									<th colspan="1" rowspan="4" class="heading left middle" />
+									<th class="heading left middle"><strong>Adding FBD
+<br />
+Networks</strong></th>
+									<td class="left middle">You create FBD networks on the FBD editor to create
+<br />
+algorithms.</td>
+								</tr>
+								<tr>
+									<th class="heading left middle"><strong>Inserting and Deleting
+<br />
+Functions and
+<br />
+Function blocks</strong></th>
+									<td class="left middle">You insert and delete functions and function blocks on the
+<br />
+FBD editor.</td>
+								</tr>
+								<tr>
+									<th class="heading left middle"><strong>Entry Assistance</strong></th>
+									<td class="left middle">When you enter functions, function blocks, or parameters,
+<br />
+each character that you enter from the keyboard narrows the
+<br />
+list of candidates that is displayed for selection.</td>
+								</tr>
+								<tr>
+									<th class="heading left middle"><strong>Commenting Out
+<br />
+FBD Networks</strong></th>
+									<td class="left middle">You can comment out each FBD network. When a network is
+<br />
+commented out, it is no longer executed.</td>
+								</tr>
+								<tr>
+									<th colspan="2" rowspan="1" class="heading left middle"><strong>Creating Variables</strong></th>
+									<td class="left middle">You create variables used in safety programs in the global or
+<br />
+local variable table.</td>
+								</tr>
+								<tr>
+									<th colspan="2" rowspan="1" class="heading left middle"><strong>User-defined Function Blocks</strong></th>
+									<td class="left middle">You create user-defined function blocks.</td>
+								</tr>
+								<tr>
+									<th class="heading left middle" />
+									<th class="heading left middle"><strong>Help Reference *2</strong></th>
+									<td class="left middle">You can display the user-defined function block help with the
+<br />
+popup menu or shortcut key.</td>
+								</tr>
+								<tr>
+									<th colspan="2" rowspan="1" class="heading left middle"><strong>Export/Import</strong></th>
+									<td class="left middle">POUs can be exported and imported.</td>
+								</tr>
+								<tr>
+									<th colspan="1" rowspan="2" class="heading left middle" />
+									<th class="heading left middle"><strong>Programs *3</strong></th>
+									<td class="left middle">You can export/import POUs.</td>
+								</tr>
+								<tr>
+									<th class="heading left middle"><strong>User-defined
+<br />
+Function Blocks *2</strong></th>
+									<td class="left middle">You can export/import user-defined function blocks.</td>
+								</tr>
+								<tr>
+									<th colspan="2" rowspan="1" class="heading left middle"><strong>Searching and Replacing</strong></th>
+									<td class="left middle">You can search for and replace strings in the variable tables,
+<br />
+programs, and function blocks of a Safety CPU Unit.</td>
+								</tr>
+								<tr>
+									<th colspan="1" rowspan="8" class="heading left middle"><strong>Debugging</strong></th>
+									<th colspan="2" rowspan="1" class="heading left middle"><strong>Monitoring</strong></th>
+									<td class="left middle">Variables are monitored during safety program execution. You
+<br />
+can monitor the present values of device variables assigned to
+<br />
+Safety I/O Units and user-defined variables. The values can be
+<br />
+monitored on the FBD editor or Watch Tab Page.</td>
+								</tr>
+								<tr>
+									<th colspan="2" rowspan="1" class="heading left middle"><strong>Changing the Present Values of
+<br />
+Variables</strong></th>
+									<td class="left middle">You can change the present values of user-defined variables
+<br />
+and device variables as required. You can do this on the FBD
+<br />
+editor or Watch Tab Page.</td>
+								</tr>
+								<tr>
+									<th colspan="2" rowspan="1" class="heading left middle"><strong>Forced Refreshing</strong></th>
+									<td class="left middle">The inputs from external devices and outputs to external
+<br />
+devices are refreshed with a specified value on the Sysmac
+<br />
+Studio. The specified value is retained even if the value of the
+<br />
+variable is overwritten from the user program.
+<br />
+You can use forced refreshing on the FBD editor or Watch Tab
+<br />
+Page.</td>
+								</tr>
+								<tr>
+									<th colspan="2" rowspan="1" class="heading left middle"><strong>Offline Debugging *4</strong></th>
+									<td class="left middle">You can check if the control program logic works as
+<br />
+designed in advance using a special debugging function for the
+<br />
+Simulator without connecting online with the Safety CPU Unit.</td>
+								</tr>
+								<tr>
+									<th colspan="1" rowspan="3" class="heading center middle" />
+									<th class="heading left middle"><strong>Initial Value Settings
+<br />
+*5</strong></th>
+									<td class="left middle">You can set the initial values of variables when you start
+<br />
+execution of simulation.</td>
+								</tr>
+								<tr>
+									<th class="heading left middle"><strong>Feedback Settings
+<br />
+*5</strong></th>
+									<td class="left middle">You can set input status that is linked to changes in output
+<br />
+status when simulator is running.</td>
+								</tr>
+								<tr>
+									<th class="heading left middle"><strong>Simple Automatic
+<br />
+Test *6</strong></th>
+									<td class="left middle">You can check that expected values of the outputs to the
+<br />
+inputs of the program are designed as intended using the
+<br />
+Simulator functions of the Safety CPU Unit.</td>
+								</tr>
+								<tr>
+									<th colspan="2" rowspan="1" class="heading left middle"><strong>User Memory Usage Monitor *5</strong></th>
+									<td class="left middle">The memory usage of the safety control system and usage of
+<br />
+safety network such as I/O data size are displayed.</td>
+								</tr>
+								<tr>
+									<th colspan="1" rowspan="2" class="heading left middle"><strong>Safety</strong></th>
+									<th colspan="2" rowspan="1" class="heading left middle"><strong>Safety Validation</strong></th>
+									<td class="left middle">You append the "safety-validated" information to a safety
+<br />
+program when you can ensure safety of the program after you
+<br />
+complete debugging.</td>
+								</tr>
+								<tr>
+									<th colspan="2" rowspan="1" class="heading left middle"><strong>Changing Operating Mode</strong></th>
+									<td class="left middle">There are four operating modes; PROGRAM mode, DEBUG
+<br />
+mode (STOPPED), DEBUG mode (RUN), and RUN mode. The
+<br />
+RUN mode can be selected only for the validated safety
+<br />
+programs.</td>
+								</tr>
+								<tr>
+									<th colspan="1" rowspan="4" class="heading left middle"><strong>Security
+<br />
+Measures</strong></th>
+									<th class="heading left middle"><strong>Prevention
+<br />
+of Incorrect
+<br />
+Connections</strong></th>
+									<th class="heading left middle"><strong>Setting the Node
+<br />
+Name</strong></th>
+									<td class="left middle">You set a unique name for each Safety CPU Unit to confirm
+<br />
+that you operate the correct Safety CPU Unit.</td>
+								</tr>
+								<tr>
+									<th class="heading left middle"><strong>Prevention
+<br />
+of Incorrect
+<br />
+Operation</strong></th>
+									<th class="heading left middle"><strong>Safety Password</strong></th>
+									<td class="left middle">You can prevent unauthorized access to safety functions of
+<br />
+Safety CPU Units by setting a safety password for online
+<br />
+operations that affect the safety functions.</td>
+								</tr>
+								<tr>
+									<th colspan="1" rowspan="2" class="heading left middle"><strong>Prevention
+<br />
+of Theft of
+<br />
+Assets</strong></th>
+									<th class="heading left middle"><strong>Data Protection
+<br />
+(Programs) *3</strong></th>
+									<td class="left middle">You can set passwords for individual programs to prohibit
+<br />
+displaying or changing them.</td>
+								</tr>
+								<tr>
+									<th class="heading left middle"><strong>Data Protection
+<br />
+(User-defined
+<br />
+Function Blocks) *4</strong></th>
+									<td class="left middle">You can set passwords for individual user-defined function
+<br />
+blocks to prohibit displaying or changing them.</td>
+								</tr>
+							</table>
+						</div>
+					
+        </p>
+    </div>
+
+
+
+
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="component-blockA01">
+
+
+
+
+
+    <div class="text">
+        <p>
+            Note: Supported only by the Sysmac Studio version 1.07 or higher.
+<br />
+*1. Supported if the EtherNet/IP Coupler is selected with Sysmac Studio version 1.11 or higher.
+<br />
+*2. Supported only by the Sysmac Studio version 1.12 or higher.
+<br />
+*3. Supported only by the Sysmac Studio version 1.17 or higher.
+<br />
+*4. Supported only by the Sysmac Studio version 1.08 or higher.
+<br />
+*5. Supported only by the Sysmac Studio version 1.10 or higher.
+<br />
+*6. Supported only by the Sysmac Studio version 1.15 or higher.
+        </p>
+    </div>
+
+
+
+
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<h4 class="heading-A02">Function Specifications of HMI</h4>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<h4 class="heading-A03">NA-series Programmable Terminals</h4>
+
+
+
+
+
+
+
+
+
+<div class="component-blockA01">
+
+
+
+
+
+    <div class="text">
+        <p>
+            
+						<div class="table-blockA01">
+							<table class="tableA01" cellspacing="0" border="0">
+								<tr class="first-child">
+									<th colspan="3" rowspan="1" class="heading center middle"><strong>Item</strong></th>
+									<th class="heading center middle"><strong>Function</strong></th>
+								</tr>
+								<tr>
+									<th colspan="1" rowspan="17" class="heading left middle"><strong>Parame-
+<br />
+ter
+<br />
+settings</strong></th>
+									<th colspan="2" rowspan="1" class="heading left middle"><strong>Device references</strong></th>
+									<td class="left middle">Devices, such as Controllers, through which the NA-series PT can
+<br />
+read and write information with communications are created on the
+<br />
+Sysmac Studio and settings are made for them.</td>
+								</tr>
+								<tr>
+									<th colspan="1" rowspan="2" class="heading left middle" />
+									<th class="heading left middle"><strong>Displaying internal
+<br />
+devices</strong></th>
+									<td class="left middle">Controllers that were created in the project are displayed.</td>
+								</tr>
+								<tr>
+									<th class="heading left middle"><strong>Registering external
+<br />
+devices</strong></th>
+									<td class="left middle">Devices, such as Controllers, that were not created in the project are
+<br />
+registered. The communications settings of the devices to
+<br />
+communicate with the NA-series PT and information, such as
+<br />
+variables and addresses within the devices that the NA-series PT will
+<br />
+read and write, are also registered.</td>
+								</tr>
+								<tr>
+									<th colspan="2" rowspan="1" class="heading left middle"><strong>Mapping variables</strong></th>
+									<td class="left middle">The information on the devices registered in the device references,
+<br />
+such as variables and addresses, are mapped to the global variables of
+<br />
+the NA-series PT.</td>
+								</tr>
+								<tr>
+									<th colspan="2" rowspan="1" class="heading left middle"><strong>HMI settings</strong></th>
+									<td class="left middle">Settings for NA-series PT operation are made.</td>
+								</tr>
+								<tr>
+									<th colspan="1" rowspan="7" class="heading left middle" />
+									<th class="heading left middle"><strong>Device settings</strong></th>
+									<td class="left middle">Settings, such as the startup page, default language, layout of the
+<br />
+USB keyboard, automatic logout, screen saver, screen brightness,
+<br />
+and method to change to the System Menu, are made.</td>
+								</tr>
+								<tr>
+									<th class="heading left middle"><strong>TCP/IP settings</strong></th>
+									<td class="left middle">Settings for the Ethernet port that is built-in to the NA-series PT are
+<br />
+made.</td>
+								</tr>
+								<tr>
+									<th class="heading left middle"><strong>FTP settings</strong></th>
+									<td class="left middle">Settings to communicate with FTP clients using the Ethernet port are
+<br />
+made.</td>
+								</tr>
+								<tr>
+									<th class="heading left middle"><strong>NTP settings</strong></th>
+									<td class="left middle">Settings to communicate with an NTP server using the Ethernet port
+<br />
+are made.</td>
+								</tr>
+								<tr>
+									<th class="heading left middle"><strong>FINS settings</strong></th>
+									<td class="left middle">Settings to communicate with devices that support FINS are made.</td>
+								</tr>
+								<tr>
+									<th class="heading left middle"><strong>VNC settings</strong></th>
+									<td class="left middle">Settings to communicate with VNC clients using the Ethernet port are
+<br />
+made.</td>
+								</tr>
+								<tr>
+									<th class="heading left middle"><strong>Print settings *1</strong></th>
+									<td class="left middle">Print settings are made.</td>
+								</tr>
+								<tr>
+									<th colspan="2" rowspan="1" class="heading left middle"><strong>Security settings</strong></th>
+									<td class="left middle">Settings, such as user registration and permissions to restrict NA-
+<br />
+series PT operation and displays, are made.</td>
+								</tr>
+								<tr>
+									<th colspan="1" rowspan="2" class="heading left middle" />
+									<th class="heading left middle"><strong>User account settings</strong></th>
+									<td class="left middle">The user names, login passwords, and permissions for each user to
+<br />
+operate the NA-series PT are set.</td>
+								</tr>
+								<tr>
+									<th class="heading left middle"><strong>Permission and
+<br />
+access level settings</strong></th>
+									<td class="left middle">The range of information that can be accessed for different
+<br />
+permissions are set.</td>
+								</tr>
+								<tr>
+									<th colspan="2" rowspan="1" class="heading left middle"><strong>Troubleshooter *2</strong></th>
+									<td class="left middle">Troubleshooter settings are made.</td>
+								</tr>
+								<tr>
+									<th colspan="2" rowspan="1" class="heading left middle"><strong>Language settings</strong></th>
+									<td class="left middle">Language settings to perform multi-language displays on the NA-series
+<br />
+PT are made.</td>
+								</tr>
+								<tr>
+									<th colspan="1" rowspan="50" class="heading left middle"><strong>Creating
+<br />
+data and
+<br />
+program-
+<br />
+ming</strong></th>
+									<th colspan="2" rowspan="1" class="heading left middle"><strong>Editing pages</strong></th>
+									<td class="left middle">The pages to display on the NA-series PT are edited.</td>
+								</tr>
+								<tr>
+									<th colspan="1" rowspan="15" class="heading left middle" />
+									<th class="heading left middle"><strong>Adding and deleting
+<br />
+pages</strong></th>
+									<td class="left middle">Pages are added, deleted, or copied with the Multiview Explorer. Pages
+<br />
+can also be copied to other projects.</td>
+								</tr>
+								<tr>
+									<th class="heading left middle"><strong>Adding and deleting
+<br />
+page groups</strong></th>
+									<td class="left middle">Groups to organize and manage pages on the Multiview Explorer are
+<br />
+added and deleted. Pages can be added to or moved to the groups.</td>
+								</tr>
+								<tr>
+									<th class="heading left middle"><strong>Page properties
+<br />
+settings</strong></th>
+									<td class="left middle">The page type, overlapping, background color, etc., are set in the
+<br />
+Properties Window.</td>
+								</tr>
+								<tr>
+									<th class="heading left middle"><strong>Changing the display
+<br />
+language</strong></th>
+									<td class="left middle">If using multiple languages is set in the language settings, the
+<br />
+resources displayed on the Page Editor are displayed in the language
+<br />
+set for each resource.</td>
+								</tr>
+								<tr>
+									<th class="heading left middle"><strong>Changing the display
+<br />
+status of each object
+<br />
+*1</strong></th>
+									<td class="left middle">You can check display status changes for lamp and other objects on
+<br />
+the Page Editor.</td>
+								</tr>
+								<tr>
+									<th class="heading left middle"><strong>Displaying object
+<br />
+configuration</strong></th>
+									<td class="left middle">The objects and groups that were added to each page can be
+<br />
+confirmed in a tree structure using the Page Explorer.</td>
+								</tr>
+								<tr>
+									<th class="heading left middle"><strong>Adding objects</strong></th>
+									<td class="left middle">Objects, such as buttons or graphics, to display on a page are added
+<br />
+by dragging them from the Toolbox to the Page Editor.</td>
+								</tr>
+								<tr>
+									<th class="heading left middle"><strong>Grouping objects</strong></th>
+									<td class="left middle">Settings to operate multiple objects together as a group are made.</td>
+								</tr>
+								<tr>
+									<th class="heading left middle"><strong>Aligning objects</strong></th>
+									<td class="left middle">Multiple objects are aligned.</td>
+								</tr>
+								<tr>
+									<th class="heading left middle"><strong>Editing objects</strong></th>
+									<td class="left middle">Objects and groups can be copied within a page or to another page.
+<br />
+Objects can also be deleted, and locations, sizes, rotations, and
+<br />
+position relationships with other objects can be set. Also, labels can
+<br />
+be edited *1.</td>
+								</tr>
+								<tr>
+									<th class="heading left middle"><strong>Setting object entry
+<br />
+order *1</strong></th>
+									<td class="left middle">Entry order of Data Edit objects can be set.</td>
+								</tr>
+								<tr>
+									<th class="heading left middle"><strong>Object property
+<br />
+settings</strong></th>
+									<td class="left middle">Properties, such as the colors and shapes of objects and the mapped
+<br />
+variables, can be changed.
+<br />
+Properties are displayed and changed in the Properties Window.</td>
+								</tr>
+								<tr>
+									<th class="heading left middle"><strong>Duplicating objects
+<br />
+*3</strong></th>
+									<td class="left middle">You can duplicate a specified number of objects. Offsets are set to
+<br />
+the element numbers of the array set for the object.</td>
+								</tr>
+								<tr>
+									<th class="heading left middle"><strong>Animation settings</strong></th>
+									<td class="left middle">Animation to modify dynamically the appearance of objects are set.
+<br />
+Animation is displayed and changed in the Animation Window.</td>
+								</tr>
+								<tr>
+									<th class="heading left middle"><strong>Event and action
+<br />
+settings</strong></th>
+									<td class="left middle">The events that can be set for objects and the actions that can be
+<br />
+executed when an event occurs are set.</td>
+								</tr>
+								<tr>
+									<th colspan="2" rowspan="1" class="heading left middle"><strong>Programming with Visual Basic</strong></th>
+									<td class="left middle">Subroutines are created with Visual Basic.</td>
+								</tr>
+								<tr>
+									<th colspan="1" rowspan="5" class="heading left middle" />
+									<th class="heading left middle"><strong>Language
+<br />
+specifications</strong></th>
+									<td class="left middle">Visual Basic 2008 and .NET Compact Framework 3.5 are supported. *4</td>
+								</tr>
+								<tr>
+									<th class="heading left middle"><strong>Adding subroutine
+<br />
+groups</strong></th>
+									<td class="left middle">Groups to organize and manage global subroutines on the Multiview
+<br />
+Explorer are added or deleted.
+<br />
+Subroutines can be added or moved to the groups.</td>
+								</tr>
+								<tr>
+									<th class="heading left middle"><strong>Editing subroutines</strong></th>
+									<td class="left middle">Subroutines are created using the Code Editor, which is optimized for
+<br />
+Visual Basic.</td>
+								</tr>
+								<tr>
+									<th class="heading left middle"><strong>Bookmarks</strong></th>
+									<td class="left middle">Bookmark can be added to any code line and you can move between
+<br />
+the bookmarks.</td>
+								</tr>
+								<tr>
+									<th class="heading left middle"><strong>Data entry assistance</strong></th>
+									<td class="left middle">The characters that are entered from the keyboard are used to display
+<br />
+candidates when entering source code.</td>
+								</tr>
+								<tr>
+									<th colspan="2" rowspan="1" class="heading left middle"><strong>User alarms</strong></th>
+									<td class="left middle">Settings for detection conditions and displaying messages for user
+<br />
+alarms are made.</td>
+								</tr>
+								<tr>
+									<th colspan="1" rowspan="4" class="heading left middle" />
+									<th class="heading left middle"><strong>Adding and deleting
+<br />
+user alarm groups</strong></th>
+									<td class="left middle">Groups to organize and manage user alarms on the Multiview Explorer
+<br />
+are added or deleted. User alarms can be created in the groups.</td>
+								</tr>
+								<tr>
+									<th class="heading left middle"><strong>Registering and
+<br />
+deleting User Alarm</strong></th>
+									<td class="left middle">Settings for detection conditions for user alarms and displaying
+<br />
+messages or popup pages are made for user alarm groups.</td>
+								</tr>
+								<tr>
+									<th class="heading left middle"><strong>Copying user alarms</strong></th>
+									<td class="left middle">User alarms can be copied within a group or to another group.</td>
+								</tr>
+								<tr>
+									<th class="heading left middle"><strong>Event and action
+<br />
+settings</strong></th>
+									<td class="left middle">Events and the actions that are executed when the events occur are
+<br />
+set for the user alarms.
+<br />
+Displaying and changing the settings for events and actions is
+<br />
+performed in the Events and Actions Window.</td>
+								</tr>
+								<tr>
+									<th class="heading left middle"><strong>Controller
+<br />
+events *1</strong></th>
+									<th class="heading left middle"><strong>User-defined event
+<br />
+settings</strong></th>
+									<td class="left middle">Settings for pages that can be changed from user-defined events'
+<br />
+display in Troubleshooter.</td>
+								</tr>
+								<tr>
+									<th colspan="2" rowspan="1" class="heading left middle"><strong>Data logging</strong></th>
+									<td class="left middle">Data logging is set to log specified data in the NA-series PT at the
+<br />
+specified times.</td>
+								</tr>
+								<tr>
+									<th colspan="1" rowspan="2" class="heading left middle" />
+									<th class="heading left middle"><strong>Adding and deleting
+<br />
+data sets</strong></th>
+									<td class="left middle">Data sets are added to perform data logging.</td>
+								</tr>
+								<tr>
+									<th class="heading left middle"><strong>Log condition setting</strong></th>
+									<td class="left middle">Conditions to perform data logging and target global variables are set
+<br />
+for the data sets.</td>
+								</tr>
+								<tr>
+									<th colspan="2" rowspan="1" class="heading left middle"><strong>Broken-line graph *1</strong></th>
+									<td class="left middle">Settings for the data that is displayed in a broken-line graph.</td>
+								</tr>
+								<tr>
+									<th colspan="1" rowspan="2" class="heading left middle" />
+									<th class="heading left middle"><strong>Adding and deleting
+<br />
+data sets</strong></th>
+									<td class="left middle">Data groups for which a broken-line graph is drawn are added and
+<br />
+deleted.</td>
+								</tr>
+								<tr>
+									<th class="heading left middle"><strong>Log condition setting</strong></th>
+									<td class="left middle">Conditions to display a broken-line graph and target global variables
+<br />
+are set for data groups.</td>
+								</tr>
+								<tr>
+									<th colspan="2" rowspan="1" class="heading left middle"><strong>Recipes</strong></th>
+									<td class="left middle">Data groups that are retained in the NA-series PT and can be
+<br />
+switched for user requests are set.</td>
+								</tr>
+								<tr>
+									<th colspan="1" rowspan="2" class="heading left middle" />
+									<th class="heading left middle"><strong>Adding and deleting
+<br />
+templates</strong></th>
+									<td class="left middle">Data storage locations, value ranges, and data names are added or
+<br />
+deleted.</td>
+								</tr>
+								<tr>
+									<th class="heading left middle"><strong>Recipe data settings</strong></th>
+									<td class="left middle">The actual data is set for each recipe.</td>
+								</tr>
+								<tr>
+									<th colspan="2" rowspan="1" class="heading left middle"><strong>Keypad customization *1</strong></th>
+									<td class="left middle">Keypads can be customized.</td>
+								</tr>
+								<tr>
+									<th colspan="2" rowspan="1" class="heading left middle"><strong>Global events</strong></th>
+									<td class="left middle">The events that are detected on any page and the actions that are
+<br />
+executed when the events occur are set.</td>
+								</tr>
+								<tr>
+									<th colspan="2" rowspan="1" class="heading left middle"><strong>Resource management</strong></th>
+									<td class="left middle">All of the character strings and graphics that are displayed on pages
+<br />
+are managed. Also, registered resources can be indirectly accessed.</td>
+								</tr>
+								<tr>
+									<th colspan="1" rowspan="6" class="heading left middle" />
+									<th class="heading left middle"><strong>Registering and
+<br />
+deleting general
+<br />
+character strings</strong></th>
+									<td class="left middle">The character strings that are displayed on pages are registered and
+<br />
+deleted, except for character stings used for user alarms.</td>
+								</tr>
+								<tr>
+									<th class="heading left middle"><strong>Registering and
+<br />
+deleting character
+<br />
+strings for user
+<br />
+alarms</strong></th>
+									<td class="left middle">The character strings used for user alarms are added or deleted.</td>
+								</tr>
+								<tr>
+									<th class="heading left middle"><strong>Registering and
+<br />
+deleting document
+<br />
+files</strong></th>
+									<td class="left middle">Document files that are displayed with the Document Viewer are set
+<br />
+or deleted.</td>
+								</tr>
+								<tr>
+									<th class="heading left middle"><strong>Registering and
+<br />
+deleting image files</strong></th>
+									<td class="left middle">Image files that are displayed for objects are set or deleted.</td>
+								</tr>
+								<tr>
+									<th class="heading left middle"><strong>Registering and
+<br />
+deleting movies</strong></th>
+									<td class="left middle">Movie files that are displayed for Media Player objects are set or
+<br />
+deleted.</td>
+								</tr>
+								<tr>
+									<th class="heading left middle"><strong>Importing and
+<br />
+exporting</strong></th>
+									<td class="left middle">The general character strings and alarm character strings can be
+<br />
+imported and exported using Excel files.</td>
+								</tr>
+								<tr>
+									<th colspan="2" rowspan="1" class="heading left middle"><strong>Scaling *1</strong></th>
+									<td class="left middle">Values of variables and objects are converted by a specified a scaling
+<br />
+factor set for them.</td>
+								</tr>
+								<tr>
+									<th colspan="2" rowspan="1" class="heading left middle"><strong>Searching and replacing</strong></th>
+									<td class="left middle">You can search all strings in a project to find and replace a specified
+<br />
+string.</td>
+								</tr>
+								<tr>
+									<th colspan="2" rowspan="1" class="heading left middle"><strong>Cross reference *1</strong></th>
+									<td class="left middle">Where a specified program element (variable, data type, page, or
+<br />
+resource) is used in a project can be checked with a list.
+<br />
+You can access the use locations of the element from the list.</td>
+								</tr>
+								<tr>
+									<th colspan="2" rowspan="1" class="heading left middle"><strong>Building</strong></th>
+									<td class="left middle">The project is converted into a format that can be executed in the
+<br />
+NA-series PT.</td>
+								</tr>
+								<tr>
+									<th colspan="1" rowspan="8" class="heading left middle"><strong>Reusa-
+<br />
+bility</strong></th>
+									<th colspan="2" rowspan="1" class="heading left middle"><strong>IAGs (intelligent application
+<br />
+gadgets)</strong></th>
+									<td class="left middle">Multiple objects and subroutines are combined to create a reusable
+<br />
+object.</td>
+								</tr>
+								<tr>
+									<th colspan="1" rowspan="4" class="heading left middle" />
+									<th class="heading left middle"><strong>Creating IAGs</strong></th>
+									<td class="left middle">An IAG that consists of multiple objects and subroutines is created
+<br />
+as a functional unit in an IAG project.</td>
+								</tr>
+								<tr>
+									<th class="heading left middle"><strong>Creating IAG
+<br />
+collection files</strong></th>
+									<td class="left middle">A created IAG is built and saved as a module that can be distributed
+<br />
+and reused.</td>
+								</tr>
+								<tr>
+									<th class="heading left middle"><strong>Creating user-defined
+<br />
+events *1</strong></th>
+									<td class="left middle">You can create user-defined events that can be used in an IAG.</td>
+								</tr>
+								<tr>
+									<th class="heading left middle"><strong>Using IAGs</strong></th>
+									<td class="left middle">IAG collection files are imported using the IAG Collection Manager.
+<br />
+The imported IAGs are displayed in the Toolbox and can be used in
+<br />
+the same way as other objects.</td>
+								</tr>
+								<tr>
+									<th colspan="2" rowspan="1" class="heading left middle"><strong>Custom objects</strong></th>
+									<td class="left middle">The selected objects are registered in a reusable format in the
+<br />
+Toolbox.</td>
+								</tr>
+								<tr>
+									<th colspan="1" rowspan="2" class="heading left middle" />
+									<th class="heading left middle"><strong>Registering custom
+<br />
+objects</strong></th>
+									<td class="left middle">Objects or grouped objects are dragged to the Toolbox to register
+<br />
+them.</td>
+								</tr>
+								<tr>
+									<th class="heading left middle"><strong>Using custom objects</strong></th>
+									<td class="left middle">Custom objects are displayed on a page by dragging them from the
+<br />
+Toolbox to the Page Editor.</td>
+								</tr>
+								<tr>
+									<th colspan="1" rowspan="3" class="heading left middle"><strong>File
+<br />
+opera-
+<br />
+tions</strong></th>
+									<th colspan="2" rowspan="1" class="heading left middle"><strong>Synchronization</strong></th>
+									<td class="left middle">The data in the NA-series PT that is online is compared with the data
+<br />
+in the Sysmac Studio.
+<br />
+You can check the differences and then transfer the data after
+<br />
+specifying the transfer direction.</td>
+								</tr>
+								<tr>
+									<th colspan="2" rowspan="1" class="heading left middle"><strong>Transferring files via storage
+<br />
+media</strong></th>
+									<td class="left middle">The data in a storage media in the computer is compared with the
+<br />
+data in the Sysmac Studio.
+<br />
+You can check the differences and then transfer the data to the
+<br />
+storage media. You can use the System Menu to transfer a saved
+<br />
+project file to the NA-series PT.</td>
+								</tr>
+								<tr>
+									<th colspan="2" rowspan="1" class="heading left middle"><strong>Clearing all memory</strong></th>
+									<td class="left middle">All of the data except for the clock information is deleted from the
+<br />
+NA-series PT.</td>
+								</tr>
+								<tr>
+									<th colspan="1" rowspan="3" class="heading left middle"><strong>Simu-
+<br />
+lation</strong></th>
+									<th colspan="2" rowspan="1" class="heading left middle"><strong>Executing simulations</strong></th>
+									<td class="left middle">A project file on the computer is virtually executed to debug it.</td>
+								</tr>
+								<tr>
+									<th colspan="1" rowspan="2" class="heading left middle" />
+									<th class="heading left middle"><strong>Setting and clearing
+<br />
+breakpoints</strong></th>
+									<td class="left middle">Breakpoints can be set at the specified positions in a subroutine.</td>
+								</tr>
+								<tr>
+									<th class="heading left middle"><strong>Synchronized
+<br />
+simulation with
+<br />
+Controller Simulator</strong></th>
+									<td class="left middle">Sequence control and NA-series PT operation, such as displaying
+<br />
+pages and subroutine operation, is simulated together to debug the
+<br />
+application in the NA-series PT.</td>
+								</tr>
+								<tr>
+									<th class="heading left middle"><strong>Monito-
+<br />
+ring
+<br />
+informa-
+<br />
+tion</strong></th>
+									<th colspan="2" rowspan="1" class="heading left middle"><strong>Setting clock information</strong></th>
+									<td class="left middle">The clock information in the NA-series PT can be checked and set.</td>
+								</tr>
+								<tr>
+									<th colspan="1" rowspan="2" class="heading left middle"><strong>Com-
+<br />
+muni-
+<br />
+cations</strong></th>
+									<th colspan="2" rowspan="1" class="heading left middle"><strong>Going online with NA-series PT</strong></th>
+									<td class="left middle">The computer can be placed online with the NA-series PT. However,
+<br />
+information in the NA-series PT, such as the values of variables,
+<br />
+cannot be read.</td>
+								</tr>
+								<tr>
+									<th colspan="2" rowspan="1" class="heading left middle"><strong>Upgrading system program</strong></th>
+									<td class="left middle">When the Sysmac Studio is online with the NA-series PT, the system
+<br />
+program in the NA-series PT can be upgraded as required.</td>
+								</tr>
+								<tr>
+									<th class="heading left middle"><strong>Print *1</strong></th>
+									<th colspan="2" rowspan="1" class="heading left middle"><strong>Printing</strong></th>
+									<td class="left middle">Settings of each project can be printed out.</td>
+								</tr>
+								<tr>
+									<th colspan="1" rowspan="2" class="heading left middle"><strong>Security</strong></th>
+									<th colspan="2" rowspan="1" class="heading left middle"><strong>Preventing malfunctions</strong></th>
+									<td class="left middle">If the name or serial ID of the project and the NA-series PT are
+<br />
+different when the Sysmac Studio goes online, a confirmation dialog
+<br />
+box is displayed.</td>
+								</tr>
+								<tr>
+									<th colspan="2" rowspan="1" class="heading left middle"><strong>Preventing incorrect operation</strong></th>
+									<td class="left middle">You can prevent data in the NA-series PT from being overwritten
+<br />
+from the Sysmac Studio.</td>
+								</tr>
+							</table>
+						</div>
+					
+        </p>
+    </div>
+
+
+
+
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="component-blockA01">
+
+
+
+
+
+    <div class="text">
+        <p>
+            Note: These specifications are supported by Sysmac Studio version 1.11 or higher.
+<br />
+*1. Supported only by the Sysmac Studio version 1.14 or higher.
+<br />
+*2. Supported only by the Sysmac Studio version 1.13 or higher.
+<br />
+*3. Supported only by the Sysmac Studio version 1.16 or higher.
+<br />
+*4. There are restrictions on the functions that can be used.
+        </p>
+    </div>
+
+
+
+
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<h4 class="heading-A02">Function Specifications of Vision Sensor Functions</h4>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<h4 class="heading-A03">FQ-M-series Vision Sensors</h4>
+
+
+
+
+
+
+
+
+
+<div class="component-blockA01">
+
+
+
+
+
+    <div class="text">
+        <p>
+            
+						<div class="table-blockA01">
+							<table class="tableA01" cellspacing="0" border="0">
+								<tr class="first-child">
+									<th colspan="3" rowspan="1" class="heading center middle"><strong>Item</strong></th>
+									<th class="heading center middle"><strong>Function</strong></th>
+								</tr>
+								<tr>
+									<th colspan="3" rowspan="1" class="heading left middle"><strong>Setting Parameters</strong></th>
+									<td class="center middle">-</td>
+								</tr>
+								<tr>
+									<th colspan="1" rowspan="20" class="heading center middle" />
+									<th colspan="1" rowspan="5" class="heading left middle"><strong>Main
+<br />
+Edit</strong></th>
+									<th class="heading left middle"><strong>General Settings</strong></th>
+									<td class="left middle">Displays and sets basic information of the sensor.</td>
+								</tr>
+								<tr>
+									<th class="heading left middle"><strong>Sensor connection</strong></th>
+									<td class="left middle">Changes the connection status of the Sensor, and sets the conditions for
+<br />
+communications with the Sensor.</td>
+								</tr>
+								<tr>
+									<th class="heading left middle"><strong>Sensor control in online</strong></th>
+									<td class="left middle">Performs various controls for the sensor mode change, data transfer/save,
+<br />
+and monitoring.</td>
+								</tr>
+								<tr>
+									<th class="heading left middle"><strong>Sensor error history</strong></th>
+									<td class="left middle">Displays and clears the error history of an online Sensor.</td>
+								</tr>
+								<tr>
+									<th class="heading left middle"><strong>Tool</strong></th>
+									<td class="left middle">Restarts and initializes the sensor, updates the firmware of the sensor, reads
+<br />
+sensor data from a file, saves sensor data to a file, prints the sensor
+<br />
+parameters, and displays help.</td>
+								</tr>
+								<tr>
+									<th colspan="1" rowspan="7" class="heading left middle"><strong>Scene
+<br />
+data
+<br />
+Edit</strong></th>
+									<th class="heading left middle"><strong>Image condition Settings</strong></th>
+									<td class="left middle">Adjusts the image condition.</td>
+								</tr>
+								<tr>
+									<th class="heading left middle"><strong>Specifies the calibration
+<br />
+pattern</strong></th>
+									<td class="left middle">Sets a registered calibration pattern.</td>
+								</tr>
+								<tr>
+									<th class="heading left middle"><strong>Registers inspection
+<br />
+item</strong></th>
+									<td class="left middle">Registers the inspection item to use in the measurement.
+<br />
+You can select from the following inspection items:
+<br />
+Edge position, Search, Labeling, Shape search</td>
+								</tr>
+								<tr>
+									<th class="heading left middle"><strong>Calculation Settings</strong></th>
+									<td class="left middle">Makes a setting for basic arithmetic operations and function operations using
+<br />
+inspection item judgment results and measurement data.</td>
+								</tr>
+								<tr>
+									<th class="heading left middle"><strong>Logging Settings</strong></th>
+									<td class="left middle">Makes a setting for logging measurement results of inspection items and
+<br />
+calculation results.</td>
+								</tr>
+								<tr>
+									<th class="heading left middle"><strong>Output Settings</strong></th>
+									<td class="left middle">Makes a setting for data to output to external devices.</td>
+								</tr>
+								<tr>
+									<th class="heading left middle"><strong>Run Settings</strong></th>
+									<td class="left middle">Switch Sensor modes or monitors measurement results.</td>
+								</tr>
+								<tr>
+									<th colspan="1" rowspan="7" class="heading left middle"><strong>Sensor
+<br />
+system
+<br />
+data
+<br />
+Edit</strong></th>
+									<th class="heading left middle"><strong>Trigger condition
+<br />
+Settings</strong></th>
+									<td class="left middle">Sets the trigger type and image timing.</td>
+								</tr>
+								<tr>
+									<th class="heading left middle"><strong>I/O Settings</strong></th>
+									<td class="left middle">Sets the conditions of output signals.
+<br />
+You can check the status of I/O signal while online.</td>
+								</tr>
+								<tr>
+									<th class="heading left middle"><strong>Encoder Settings</strong></th>
+									<td class="left middle">Make settings for the encoder such as common encoder settings, ring counter
+<br />
+settings, and encoder trigger settings.</td>
+								</tr>
+								<tr>
+									<th class="heading left middle"><strong>Ethernet communication
+<br />
+Settings</strong></th>
+									<td class="left middle">Makes Ethernet communication settings. You can select data communication
+<br />
+from no-protocol data, PLC link data, and programmable no-protocol data.</td>
+								</tr>
+								<tr>
+									<th class="heading left middle"><strong>EtherCAT
+<br />
+communication Settings</strong></th>
+									<td class="left middle">Makes the EtherCAT communication settings according to the communication
+<br />
+settings of the EtherCAT master.</td>
+								</tr>
+								<tr>
+									<th class="heading left middle"><strong>Logging condition
+<br />
+Settings</strong></th>
+									<td class="left middle">Sets the conditions to log to the internal memory of sensor.</td>
+								</tr>
+								<tr>
+									<th class="heading left middle"><strong>Sensor Settings</strong></th>
+									<td class="left middle">Makes the settings for startup scene control function, password setting
+<br />
+function, and adjustment judgment function.</td>
+								</tr>
+								<tr>
+									<th colspan="2" rowspan="1" class="heading left middle"><strong>Calibration Scene Data Settings</strong></th>
+									<td class="left middle">Calculates, views, and edits the calibration parameters. The Vision Sensor
+<br />
+supports general-purpose calibration and calibration for conveyor tracking.</td>
+								</tr>
+								<tr>
+									<th colspan="2" rowspan="2" class="heading left middle"><strong>Debugging</strong></th>
+									<th class="heading left middle"><strong>Offline debugging of
+<br />
+sensor operation</strong></th>
+									<td class="left middle">Simulates measurements offline without connecting to the Vision Sensor. You
+<br />
+can use external image files and perform measurements under the conditions
+<br />
+set in the offline settings, then display the results of those measurements.</td>
+								</tr>
+								<tr>
+									<th class="heading left middle"><strong>Offline debugging of the
+<br />
+sensor control program
+<br />
+and sensor operation</strong></th>
+									<td class="left middle">Performs a linked simulation between the sequence control of an NJ/NX-
+<br />
+series CPU Unit or NY-series Industrial PC and the operation of an FQ-M
+<br />
+Sensor in EtherCAT configuration systems.
+<br />
+This allows you to debug operation offline from when measurements and other
+<br />
+processing are performed for control signals such as measurement triggers
+<br />
+through the output of processing results.</td>
+								</tr>
+							</table>
+						</div>
+					
+        </p>
+    </div>
+
+
+
+
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="component-blockA01">
+
+
+
+
+
+    <div class="text">
+        <p>
+            Note: Supported only by the Sysmac Studio version 1.01 or higher.
+        </p>
+    </div>
+
+
+
+
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<h4 class="heading-A03">FH-series Vision Sensors</h4>
+
+
+
+
+
+
+
+
+
+<div class="component-blockA01">
+
+
+
+
+
+    <div class="text">
+        <p>
+            
+						<div class="table-blockA01">
+							<table class="tableA01" cellspacing="0" border="0">
+								<tr class="first-child">
+									<th colspan="3" rowspan="1" class="heading center middle"><strong>Item</strong></th>
+									<th class="heading center middle"><strong>Function</strong></th>
+								</tr>
+								<tr>
+									<th colspan="3" rowspan="1" class="heading left middle"><strong>Setting Parameters</strong></th>
+									<td class="center middle">-</td>
+								</tr>
+								<tr>
+									<th colspan="1" rowspan="28" class="heading left middle" />
+									<th colspan="1" rowspan="2" class="heading left middle"><strong>Main Edit</strong></th>
+									<th class="heading left middle"><strong>Sensor Information</strong></th>
+									<td class="left middle">Displays and sets basic information of the sensor.</td>
+								</tr>
+								<tr>
+									<th class="heading left middle"><strong>Online</strong></th>
+									<td class="left middle">Changes the connection status of the sensor, and performs various controls
+<br />
+such as sensor restart and initialization.</td>
+								</tr>
+								<tr>
+									<th colspan="1" rowspan="2" class="heading left middle"><strong>Line Edit</strong></th>
+									<th class="heading left middle"><strong>Operation View</strong></th>
+									<td class="left middle">Monitors the measurement images of the sensor and detailed results of each
+<br />
+process unit.</td>
+								</tr>
+								<tr>
+									<th class="heading left middle"><strong>Scene Maintenance View</strong></th>
+									<td class="left middle">Edits, manages, and saves the scene groups and scenes.</td>
+								</tr>
+								<tr>
+									<th colspan="1" rowspan="2" class="heading left middle"><strong>Scene
+<br />
+Data Edit</strong></th>
+									<th class="heading left middle"><strong>Flow Edit</strong></th>
+									<td class="left middle">Creates the process flow in combination of user-specified units.</td>
+								</tr>
+								<tr>
+									<th class="heading left middle"><strong>Process Unit Edit</strong></th>
+									<td class="left middle">Edits each process unit.</td>
+								</tr>
+								<tr>
+									<th colspan="1" rowspan="8" class="heading left middle"><strong>Sensor
+<br />
+System
+<br />
+Data Edit</strong></th>
+									<th class="heading left middle"><strong>Camera Settings</strong></th>
+									<td class="left middle">Checks the camera connection status and sets the camera's imaging timing
+<br />
+and communications speed.</td>
+								</tr>
+								<tr>
+									<th class="heading left middle"><strong>Controller Settings</strong></th>
+									<td class="left middle">Makes the system environment settings for the sensor.</td>
+								</tr>
+								<tr>
+									<th class="heading left middle"><strong>Parallel I/O Settings</strong></th>
+									<td class="left middle">Sets the conditions of output signals.</td>
+								</tr>
+								<tr>
+									<th class="heading left middle"><strong>RS-232C/422 Settings</strong></th>
+									<td class="left middle">Makes the RS-232C/422 communications settings.</td>
+								</tr>
+								<tr>
+									<th class="heading left middle"><strong>Ethernet Communication
+<br />
+Settings</strong></th>
+									<td class="left middle">Makes the Ethernet communication settings.</td>
+								</tr>
+								<tr>
+									<th class="heading left middle"><strong>EtherNet/IP
+<br />
+Communication Settings</strong></th>
+									<td class="left middle">Makes the EtherNet/IP communications settings.</td>
+								</tr>
+								<tr>
+									<th class="heading left middle"><strong>EtherCAT Communication
+<br />
+Settings</strong></th>
+									<td class="left middle">Makes the EtherCAT communications settings.</td>
+								</tr>
+								<tr>
+									<th class="heading left middle"><strong>Encoder Settings</strong></th>
+									<td class="left middle">Makes the encoder settings.</td>
+								</tr>
+								<tr>
+									<th colspan="1" rowspan="14" class="heading left middle"><strong>Tools</strong></th>
+									<th class="heading left middle"><strong>Communication Command
+<br />
+Customization Tool</strong></th>
+									<td class="left middle">Makes the settings for customized communication commands.</td>
+								</tr>
+								<tr>
+									<th class="heading left middle"><strong>File Saving Tool</strong></th>
+									<td class="left middle">Copies and transfers the files in the sensor memory.</td>
+								</tr>
+								<tr>
+									<th class="heading left middle"><strong>Calibration Support Tool</strong></th>
+									<td class="left middle">Checks the calibration information.</td>
+								</tr>
+								<tr>
+									<th class="heading left middle"><strong>User Data Tool</strong></th>
+									<td class="left middle">Edits the data (user data) that can be shared and used in sensors.</td>
+								</tr>
+								<tr>
+									<th class="heading left middle"><strong>Security Setting Tool *1</strong></th>
+									<td class="left middle">Edits the security settings of the sensor.</td>
+								</tr>
+								<tr>
+									<th class="heading left middle"><strong>Scene Group Save
+<br />
+Destination Setting Tool
+<br />
+*1</strong></th>
+									<td class="left middle">Sets the destination to save the scene group data.</td>
+								</tr>
+								<tr>
+									<th class="heading left middle"><strong>Image File Save Tool *1</strong></th>
+									<td class="left middle">Saves the logging images and image files stored in the sensor memory.</td>
+								</tr>
+								<tr>
+									<th class="heading left middle"><strong>Registered Image
+<br />
+Management Tool *1</strong></th>
+									<td class="left middle">Saves the images used for model registration and reference registration as
+<br />
+registered images.</td>
+								</tr>
+								<tr>
+									<th class="heading left middle"><strong>Reference Position
+<br />
+Update Tool *1</strong></th>
+									<td class="left middle">Edits all reference positions of more than one processing unit.</td>
+								</tr>
+								<tr>
+									<th class="heading left middle"><strong>Scene Group Data
+<br />
+Conversion Tool *1</strong></th>
+									<td class="left middle">Creates the scene group data with more than 128 scenes.</td>
+								</tr>
+								<tr>
+									<th class="heading left middle"><strong>Scene Control Macro
+<br />
+Tool *1</strong></th>
+									<td class="left middle">Makes a setting for complementing and expanding the measurement
+<br />
+flow and scene control.</td>
+								</tr>
+								<tr>
+									<th class="heading left middle"><strong>Conveyor Calibration
+<br />
+Wizard Tool *2</strong></th>
+									<td class="left middle">Calibrates cameras, conveyors, and robots in a conveyor tracking
+<br />
+application.</td>
+								</tr>
+								<tr>
+									<th class="heading left middle"><strong>Calibration Plate Print
+<br />
+Tool *2</strong></th>
+									<td class="left middle">Prints out calibration patterns that are used in the Conveyor
+<br />
+Calibration Wizard.</td>
+								</tr>
+								<tr>
+									<th class="heading left middle"><strong>Conveyor Panorama
+<br />
+Display Tool *2</strong></th>
+									<td class="left middle">Displays a panoramic image in a conveyor tracking application.</td>
+								</tr>
+								<tr>
+									<th colspan="2" rowspan="2" class="heading left middle"><strong>Debugging</strong></th>
+									<th class="heading left middle"><strong>Offline Debugging of
+<br />
+Sensor Operation</strong></th>
+									<td class="left middle">Simulates measurements offline without connecting to the sensor. You can
+<br />
+use external image files and perform measurements under the conditions
+<br />
+set in the offline settings, then display the results of those measurements.</td>
+								</tr>
+								<tr>
+									<th class="heading left middle"><strong>Offline Debugging of
+<br />
+Sensor Control Program
+<br />
+and Sensor Operation *3</strong></th>
+									<td class="left middle">Simulates the linked operation of the sequence controls in the NJ/NX-
+<br />
+series CPU Unit or NY-series Industrial PC and FH-series Sensor
+<br />
+operation for an EtherCAT system.
+<br />
+You can debug a series of operations offline to perform the measurement
+<br />
+and other processing and output the results when a control signal such
+<br />
+as measurement trigger is input to the Sensor.</td>
+								</tr>
+								<tr>
+									<th colspan="2" rowspan="1" class="heading left middle"><strong>Security</strong></th>
+									<th class="heading left middle"><strong>Prevention of Incorrect
+<br />
+Operation *4</strong></th>
+									<td class="left middle">Prevents unauthorized access by setting an account password for online
+<br />
+operations.</td>
+								</tr>
+							</table>
+						</div>
+					
+        </p>
+    </div>
+
+
+
+
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="component-blockA01">
+
+
+
+
+
+    <div class="text">
+        <p>
+            Note: Supported only by the Sysmac Studio version 1.07 or higher.
+<br />
+*1. Supported only by the Sysmac Studio version 1.10 or higher.
+<br />
+*2. Supported only by the Sysmac Studio version 1.14 or higher.
+<br />
+*3. Supported only by the Sysmac Studio version 1.08 or higher.
+<br />
+*4. Supported only by the Sysmac Studio version 1.09 or higher.
+        </p>
+    </div>
+
+
+
+
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<h4 class="heading-A02">Function Specifications of Displacement Sensor Functions</h4>
+
+
+
+
+
+
+
+
+
+
+<div class="component-blockA01">
+
+
+
+
+
+    <div class="text">
+        <p>
+            
+						<div class="table-blockA01">
+							<table class="tableA01" cellspacing="0" border="0">
+								<tr class="first-child">
+									<th colspan="3" rowspan="1" class="heading center middle"><strong>Item</strong></th>
+									<th class="heading center middle"><strong>Function</strong></th>
+								</tr>
+								<tr>
+									<th colspan="3" rowspan="1" class="heading left middle"><strong>Setting Parameters</strong></th>
+									<td class="center middle">-</td>
+								</tr>
+								<tr>
+									<th colspan="1" rowspan="11" class="heading center middle" />
+									<th colspan="1" rowspan="4" class="heading left middle"><strong>Main
+<br />
+Editing</strong></th>
+									<th class="heading left middle"><strong>General Settings</strong></th>
+									<td class="left middle">Displays and sets basic information on the Sensor.</td>
+								</tr>
+								<tr>
+									<th class="heading left middle"><strong>Sensor Connection</strong></th>
+									<td class="left middle">Changes the connection status of the Sensor, and sets the conditions for
+<br />
+communications with the Sensor.</td>
+								</tr>
+								<tr>
+									<th class="heading left middle"><strong>Online Sensor Control</strong></th>
+									<td class="left middle">Performs various controls for the Sensor (e.g., changing the mode,
+<br />
+controlling internal logging, and monitoring).</td>
+								</tr>
+								<tr>
+									<th class="heading left middle"><strong>Tools</strong></th>
+									<td class="left middle">Restarts and initializes the Sensor, updates the firmware in the Sensor,
+<br />
+recovers ROM data, prints the Sensor parameters, and displays help.</td>
+								</tr>
+								<tr>
+									<th colspan="1" rowspan="7" class="heading left middle"><strong>Editing
+<br />
+Bank
+<br />
+Data</strong></th>
+									<th class="heading left middle"><strong>Setting Sensing Conditions</strong></th>
+									<td class="left middle">Adjusts the light reception conditions for each measurement region.</td>
+								</tr>
+								<tr>
+									<th class="heading left middle"><strong>Setting Task Conditions</strong></th>
+									<td class="left middle">Used to select the measurement items to use in measurements. You can
+<br />
+select from the height, thickness, or calculations.
+<br />
+The following are set for the measurement items: scaling, filters, holding,
+<br />
+zero-resetting, and judgement conditions.</td>
+								</tr>
+								<tr>
+									<th class="heading left middle"><strong>Setting I/O Conditions</strong></th>
+									<td class="left middle">Sets parameters for outputting judgements and analog values to external
+<br />
+devices.</td>
+								</tr>
+								<tr>
+									<th class="heading left middle"><strong>Sensor Settings</strong></th>
+									<td class="left middle">Sets the following: ZW Sensor Controller's key lock, number of displayed
+<br />
+digits below the decimal point, the bank mode, the analog output mode,
+<br />
+and timing/reset key inputs.</td>
+								</tr>
+								<tr>
+									<th class="heading left middle"><strong>Ethernet Communications
+<br />
+Settings</strong></th>
+									<td class="left middle">Sets up Ethernet communications and field bus parameters.</td>
+								</tr>
+								<tr>
+									<th class="heading left middle"><strong>RS-232C Communications
+<br />
+Settings</strong></th>
+									<td class="left middle">Sets up RS-232C communications.</td>
+								</tr>
+								<tr>
+									<th class="heading left middle"><strong>Data Output Settings</strong></th>
+									<td class="left middle">Sets serial output parameters for holding values.</td>
+								</tr>
+								<tr>
+									<th colspan="2" rowspan="2" class="heading left middle"><strong>Monitoring</strong></th>
+									<th class="heading left middle"><strong>Senor monitoring</strong></th>
+									<td class="left middle">Monitors the light-detection status and the measurement results of the
+<br />
+sensor.</td>
+								</tr>
+								<tr>
+									<th class="heading left middle"><strong>Trend monitoring</strong></th>
+									<td class="left middle">Logs and monitors the measurement results that meet the specific
+<br />
+conditions of the sensor.</td>
+								</tr>
+								<tr>
+									<th colspan="2" rowspan="1" class="heading left middle"><strong>Debugging</strong></th>
+									<th class="heading left middle"><strong>Offline Debugging of
+<br />
+Sensor Control Programs
+<br />
+and Sensor Operation</strong></th>
+									<td class="left middle">Performs a linked simulation between the sequence control of an NJ/NX-
+<br />
+series CPU Unit or NY-series Industrial PC and the operation of a ZW
+<br />
+Sensor in EtherCAT configuration systems.
+<br />
+This allows you to simulate the operation of signals when timing signals
+<br />
+and other control signals are input to the Sensor to debug the control
+<br />
+logic offline.</td>
+								</tr>
+							</table>
+						</div>
+					
+        </p>
+    </div>
+
+
+
+
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="component-blockA01">
+
+
+
+
+
+    <div class="text">
+        <p>
+            
+						<div style="text-align: left;">Note: The ZW-series can be used with the Sysmac Studio version 1.05 or higher.
+<br />
+          The ZW-7000-series can be used with the Sysmac Studio version 1.15 or higher.</div>
+					
+        </p>
+    </div>
+
+
+
+
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<h4 class="heading-A02">Function Specifications of Robot Additional Option</h4>
+
+
+
+
+
+
+
+
+
+
+<div class="component-blockA01">
+
+
+
+
+
+    <div class="text">
+        <p>
+            
+						<div class="table-blockA01">
+							<table class="tableA01" cellspacing="0" border="0">
+								<tr class="first-child">
+									<th colspan="3" rowspan="1" class="heading center middle"><strong>Item</strong></th>
+									<th class="heading center middle"><strong>Function</strong></th>
+								</tr>
+								<tr>
+									<th colspan="3" rowspan="1" class="heading left middle"><strong>3D machine models</strong></th>
+									<td class="center middle">-</td>
+								</tr>
+								<tr>
+									<th class="heading center middle" />
+									<th class="heading left middle"><strong>Conveyor for
+<br />
+picking</strong></th>
+									<th class="heading left middle"><strong>Setting</strong></th>
+									<td class="left middle">This conveyor is for picking workpieces in a pick-and-place 3D equipment
+<br />
+model that uses a Vision Sensor and delta robots.
+<br />
+A workpiece is displayed at the specified coordinates in the field of vision
+<br />
+of the Vision Sensor and the workpiece is moved on a conveyor at the
+<br />
+set speed.</td>
+								</tr>
+								<tr>
+									<th colspan="2" rowspan="1" class="heading left middle"><strong>Pick-and-place
+<br />
+3D Equipment
+<br />
+Model Creation
+<br />
+Wizard</strong></th>
+									<th class="heading left middle"><strong>Setup with a wizard</strong></th>
+									<td class="left middle">You can easily build a pick-and-place 3D equipment model that uses a
+<br />
+Vision Sensor and delta robots.
+<br />
+You can select from configuration elements (such as one conveyor for
+<br />
+picking, one conveyor for placing, and two robots) and enter the required
+<br />
+parameters in a wizard to complete the 3D equipment model.</td>
+								</tr>
+								<tr>
+									<th colspan="2" rowspan="1" class="heading left middle"><strong>Calibration
+<br />
+parameter
+<br />
+output</strong></th>
+									<th class="heading left middle"><strong>Text output</strong></th>
+									<td class="left middle">The calibration parameters required in programming to operate a
+<br />
+pick-and-place 3D equipment model are output in ST program format.</td>
+								</tr>
+							</table>
+						</div>
+					
+        </p>
+    </div>
+
+
+
+
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="component-blockA01">
+
+
+
+
+
+    <div class="text">
+        <p>
+            Note: This option can be used by applying the Robot Additional Option to Sysmac Studio version 1.14 or higher.
+        </p>
+    </div>
+
+
+
+
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<p class="date-line">last update: October 03, 2016</p>
+
+</div>
+
+                        </div>
+                    </div>
+	            <!-- === /[primary-contents-area] === -->
+                </div>
+                <!-- === /[inner-contents-area] === -->
+
+
+                <!-- === [local-navi] === -->
+                <div class="local-navi-area">
+                    <div class="local-navi-area">
+
+
+
+<div class="local-naviA01">
+<h2 class="heading-link">
+<a href="../../category/index.html" ><img src="../../../resources/images/icon_right_b.gif" width="3" height="9" alt="" class="iconA01" />Product Category</a>
+</h2>
+<ul><li><a href="../../category/automation-systems/index-2.html"><img src="../../../resources/images/icon_right_b.gif" width="3" height="9" alt="" class="iconA01" />Automation Systems</a><ul class="list-indent01"><li><a href="../../category/automation-systems/machine-automation-controllers/index-2.html"><img src="../../../resources/images/icon_right_b.gif" width="3" height="9" alt="" class="iconA01" />Machine Automation Controllers</a><ul class="list-indent02"><li><a href="../../category/automation-systems/machine-automation-controllers/software/index.html"><img src="../../../resources/images/icon_right_b.gif" width="3" height="9" alt="" class="iconA01" />Software</a><ul class="list-indent03"><li class="stay"><span>SYSMAC-SE2[][][]</span></li><li><a href="../3459/index.html"><img src="../../../resources/images/icon_right_b.gif" width="3" height="9" alt="" class="iconA01" />SYSMAC-XR[][][]</a></li></ul></li></ul></li></ul></li></ul>
+<!-- /local-naviA01 -->
+</div>
+
+
+
+<div class="local-naviB01">
+<ul class="heading-link">
+
+<li class="first-child">
+<a href="../../category/index.html"><img src="../../../resources/images/icon_right_b.gif" width="3" height="9" alt="" class="iconA01" />Product Category</a>
+</li>
+
+<li>
+<a href="../../../product/cautions/index-2.html"><img src="../../../resources/images/icon_right_b.gif" width="3" height="9" alt="" class="iconA01" />Cautions</a>
+</li>
+
+<li>
+<a href="../../index/index.html"><img src="../../../resources/images/icon_right_b.gif" width="3" height="9" alt="" class="iconA01" />Item A to Z Index</a>
+</li>
+
+<li>
+<a href="../../applications/index.html"><img src="../../../resources/images/icon_right_b.gif" width="3" height="9" alt="" class="iconA01" />Applications</a>
+</li>
+
+<li>
+<a href="../../correct/index.html"><img src="../../../resources/images/icon_right_b.gif" width="3" height="9" alt="" class="iconA01" />Correction Notice</a>
+</li>
+
+</ul>
+<!-- /local-naviB01 -->
+</div>
+                    </div>
+                </div>
+                <!-- === /[local-navi] === -->
+
+            </div>
+            <!-- === /[contents-area] === -->
+
+            <!-- === [top-page-link-area] === -->
+            <div class="top-page-link-area">
+                <ul class="top-page-link-list">
+                    <li>
+                        <a href="#page-top"><img src="../../../resources/images/icon_up_b.gif" width="5" height="8" alt="" class="iconB01" />Top of Page</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- === /[top-page-link-area] === -->
+
+            <!-- === [footer-area] === -->
+
+
+<!-- === [footer-area] === -->
+<div class="footer-area">
+    <p class="non-visual">
+        <a name="footer" id="footer">Site Information</a>
+    </p>
+    <div class="realizing">
+        <p><a href="../../../realizing/index.html"><img src="../../../Images/logo_0213-192.gif"  width="86" height="19" alt="" /></a></p>
+    <!-- /.realizing -->
+    </div>
+    <div class="footer-link">
+        <ul>
+            <li>
+                <a href="http://www.omron.com/"  target="_blank"><img src="../../../resources/images/icon_right_b.gif" width="3" height="9" alt="" class="iconA01" />OMRON Corporation<img src="../../../resources/images/icon_07.gif" width="14" height="11" class="external_win" alt=" " /></a>
+            </li>
+
+            <li>
+                <a href="../../../sitemap.html" ><img src="../../../resources/images/icon_right_b.gif" width="3" height="9" alt="" class="iconA01" />Sitemap</a>
+            </li>
+
+            <li>
+                <a href="../../../terms/index-2.html" ><img src="../../../resources/images/icon_right_b.gif" width="3" height="9" alt="" class="iconA01" />Terms of Use</a>
+            </li>
+
+            <li>
+                <a href="../../../privacy/index-2.html" ><img src="../../../resources/images/icon_right_b.gif" width="3" height="9" alt="" class="iconA01" />Privacy Policy</a>
+            </li>
+        </ul>
+
+        <p class="copyright">© Copyright OMRON Corporation 2007 - 2016. All Rights Reserved.</p>
+    <!-- /.footer-link -->
+    </div>
+<!-- /.footer-area -->
+</div>
+<!-- === /[footer-area] === -->
+            <!-- === /[footer-area] === -->
+        </div>
+        <!-- === /[omron-ia] === -->
+    </body>
+
+<!-- Mirrored from www.ia.omron.com/products/family/3077/specification.html by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 15 Dec 2016 15:32:59 GMT -->
+</html>
