@@ -2,24 +2,27 @@
 <html xml:lang="en" lang="en" xmlns="http://www.w3.org/1999/xhtml">
   
 <!-- Mirrored from www.ia.omron.com/ by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 15 Dec 2016 14:23:32 GMT -->
-<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=utf-8" /><!-- /Added by HTTrack -->
+<!-- Added by HTTrack --><!-- /Added by HTTrack -->
 <head>
-    <META http-equiv="Content-Type" content="text/html; charset=UTF-8">
-    <meta http-equiv="Content-Language" content="en">
-    <meta http-equiv="Content-Style-Type" content="text/css">
-    <meta http-equiv="Content-Script-Type" content="text/javascript">
-    <title>OMRON Industrial Automation</title>
-    <meta name="keywords" content="OMRON IA,OMRON Industrial Automation,Industrial Web,IA Global,Industrial Global website,MONOZUKURI,MONODUKURI,Manufacturing Site">
-    <meta name="description" content="OMRON Industrial Automation functions as a partner to help innovate worldwide manufacturing. Through our experience in sensing and control technology, we enable manufacturers to operate with greater productivity and streamlined efficiency.">
-    <link rel="alternate" type="application/rss+xml" title="RSS 1.0 Feed" href="rss/rss10.rdf">
-    <link rel="alternate" type="application/rss+xml" title="RSS 2.0 Feed" href="rss/rss20.xml">
-    <link rel="alternate" type="application/atom+xml" title="Atom Feed" href="rss/atom.xml">
-    <link rel="stylesheet" type="text/css" media="all" href="css/index.css">
-    <link rel="stylesheet" type="text/css" media="all" href="css/top.css">
-    <link rel="stylesheet" type="text/css" media="print" href="common/css/print.css">
-    <link rel="start index" href="index-2.html" title="OMRON">
-    <link rel="chapter" href="index.html" title="Our Strengths">
-    <link rel="chapter" href="products/index.html" title="Products">
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+    <meta http-equiv="content-type" content="text/html;charset=utf-8" />
+    <meta http-equiv="Content-Language" content="en"/>
+    <meta http-equiv="Content-Style-Type" content="text/css"/>
+    <meta http-equiv="Content-Script-Type" content="text/javascript"/>
+    <title>OMRON By Kyoto Engineering and Automation</title>
+    <meta name="keywords" content="OMRON IA,OMRON Industrial Automation,Industrial Web,IA Global,Industrial Global website,MONOZUKURI,MONODUKURI,Manufacturing Site"/>
+    <meta name="description" content="OMRON Industrial Automation functions as a partner to help innovate worldwide manufacturing. Through our experience in sensing and control technology, we enable manufacturers to operate with greater productivity and streamlined efficiency."/>
+    
+    
+    <link rel="alternate" type="application/rss+xml" title="RSS 1.0 Feed" href="rss/rss10.rdf"/>
+    <link rel="alternate" type="application/rss+xml" title="RSS 2.0 Feed" href="rss/rss20.xml"/>
+    <link rel="alternate" type="application/atom+xml" title="Atom Feed" href="rss/atom.xml"/>
+    <link rel="stylesheet" type="text/css" media="all" href="css/index.css"/>
+    <link rel="stylesheet" type="text/css" media="all" href="css/top.css"/>
+    <link rel="stylesheet" type="text/css" media="print" href="common/css/print.css"/>
+    <link rel="start index" href="index-2.html" title="OMRON"/>
+    <link rel="chapter" href="index.html" title="Our Strengths"/>
+    <link rel="chapter" href="products/index.html" title="Products"/>
     <link rel="alternate" href="index.html" hreflang="en" />
 
 <script type="text/javascript" src="common/js/common.js"></script>
@@ -52,11 +55,11 @@
 		<div class="country-select-area">
 			<p class="canpany">Building Automation</p>
                         <?php echo '&nbsp' ; ?>
-                        <br>
+                        <br/>
                         <p class="canpany">Industrial Automation</p>
                         <?php echo '&nbsp' ; ?>
-                        <br>
-                        <p class="canpany">Power Automation & Safety </p>
+                        <br/>
+                        <p class="canpany">Power Automation and Safety </p>
 			
 		</div>
             
@@ -88,7 +91,7 @@
 <li class="product"><a href="products/index.html">Products</a></li>
 <li class="corporate-profile"><a href="view/contact/input.php">Contact Us</a></li>
 <li class="function-area"><div class="search"><form action="http://search2.ia.omron.com/IA/" method="get" name="search_website" id="search_website" class="search-form">
-					<p><input type="text" value="" size="20" name="q" id="search_str" class="search-str" /><input type="submit" value="Search" class="submit60L" id=""  /></p>
+					<p><input type="text" value="" size="20" name="q" id="search_str" class="search-str" /><input type="submit" value="Search" class="submit60L" id="query"  /></p>
 				</form></div>
 </li>
 </ul>
@@ -104,10 +107,12 @@
           </div>
         </div>
         <div class="mainImageNavi">
-          <h2><a href="global_network/index-2.html"><img src="resources/images/icon_01.gif" width="3" height="9" alt="" class="iconA01"> Channels Partners</a></h2>
+          <h2><a href="global_network/index-2.html"><img src="resources/images/icon_01.gif" width="3" height="9" alt="" class="iconA01"/> Channels Partners</a></h2>
           <ul>
-            <li><a href="#" class="mainImageTitle"><img src="resources/images/icon_01.gif" width="3" height="9" alt="" class="iconA01">Dhaka</a>
-            <li><a href="#" class="mainImageTitle"><img src="resources/images/icon_01.gif" width="3" height="9" alt="" class="iconA01">Chittagong</a>
+            <li><a href="#" class="mainImageTitle"><img src="resources/images/icon_01.gif" width="3" height="9" alt="" class="iconA01"/>Dhaka</a>
+              </li>
+            <li><a href="#" class="mainImageTitle"><img src="resources/images/icon_01.gif" width="3" height="9" alt="" class="iconA01"/>Chittagong</a>
+            </li>
           </ul>
         </div>
       </div>
@@ -120,14 +125,14 @@
              
             <div class="site-description-area">
               <h1>OMRON Industrial Automation</h1>
-              <p>OMRON Industrial Automation functions as a partner to help innovate worldwide manufacturing.<br>
-                Through our expertise in sensing and control technology, </br>
+              <p>OMRON Industrial Automation functions as a partner to help innovate worldwide manufacturing.<br/>
+                Through our expertise in sensing and control technology, <br/>
                  we enable manufacturers to operate with greater productivity and streamlined efficiency.</p>
             </div>
             <div class="product-area">
               <h2>
                 <a href="products/index.html">
-                  <img src="common/img/icon_01.gif" width="3" height="9" alt="" class="iconA01">Products</a>
+                  <img src="common/img/icon_01.gif" width="3" height="9" alt="" class="iconA01"/>Products</a>
               </h2>
               <div class="index-blockH01">
                 <div class="index-blockH01-group">
@@ -140,15 +145,15 @@
                       <ul class="link-listA01">
                         <li>
                           <a href="products/category/sensors/fiber-sensors/index.html">
-                            <img src="common/img/icon_01.gif" width="3" height="9" alt="" class="iconA01">Fiber Sensors</a>
+                            <img src="common/img/icon_01.gif" width="3" height="9" alt="" class="iconA01"/>Fiber Sensors</a>
                         </li>
                         <li>
                           <a href="products/category/sensors/photoelectric-sensors/index.html">
-                            <img src="common/img/icon_01.gif" width="3" height="9" alt="" class="iconA01">Photoelectric Sensors</a>
+                            <img src="common/img/icon_01.gif" width="3" height="9" alt="" class="iconA01"/>Photoelectric Sensors</a>
                         </li>
                         <li>
                           <a href="products/category/sensors/displacement-sensors_measurement-sensors/index.html">
-                            <img src="common/img/icon_01.gif" width="3" height="9" alt="" class="iconA01">Displacement Sensors / Measurement Sensors</a>
+                            <img src="common/img/icon_01.gif" width="3" height="9" alt="" class="iconA01"/>Displacement Sensors / Measurement Sensors</a>
                         </li>
                       </ul>
                     </div>
@@ -156,7 +161,7 @@
                       <ul class="link-listA01 right">
                         <li>
                           <a href="products/category/sensors/index.html">
-                            <img src="common/img/icon_01.gif" width="3" height="9" alt="" class="iconA01">All in Sensors</a>
+                            <img src="common/img/icon_01.gif" width="3" height="9" alt="" class="iconA01"/>All in Sensors</a>
                         </li>
                       </ul>
                     </div>
@@ -164,21 +169,21 @@
                   <div class="index-blockH01-unit switches">
                     <h3>
                       <a href="products/category/switches/index.html">
-                        <img src="common/img/icon_01.gif" width="3" height="9" alt="" class="iconA01">Switches</a>
+                        <img src="common/img/icon_01.gif" width="3" height="9" alt="" class="iconA01"/>Switches</a>
                     </h3>
                     <div class="index-list">
                       <ul class="link-listA01">
                         <li>
                           <a href="products/category/switches/level-switches/index.html">
-                            <img src="common/img/icon_01.gif" width="3" height="9" alt="" class="iconA01">Level Switches</a>
+                            <img src="common/img/icon_01.gif" width="3" height="9" alt="" class="iconA01"/>Level Switches</a>
                         </li>
                         <li>
                           <a href="products/category/switches/basic-switches/index.html">
-                            <img src="common/img/icon_01.gif" width="3" height="9" alt="" class="iconA01">Basic Switches</a>
+                            <img src="common/img/icon_01.gif" width="3" height="9" alt="" class="iconA01"/>Basic Switches</a>
                         </li>
                         <li>
                           <a href="products/category/switches/limit-switches/index.html">
-                            <img src="common/img/icon_01.gif" width="3" height="9" alt="" class="iconA01">Limit Switches</a>
+                            <img src="common/img/icon_01.gif" width="3" height="9" alt="" class="iconA01"/>Limit Switches</a>
                         </li>
                       </ul>
                     </div>
@@ -186,7 +191,7 @@
                       <ul class="link-listA01 right">
                         <li>
                           <a href="products/category/switches/index.html">
-                            <img src="common/img/icon_01.gif" width="3" height="9" alt="" class="iconA01">All in Switches</a>
+                            <img src="common/img/icon_01.gif" width="3" height="9" alt="" class="iconA01"/>All in Switches</a>
                         </li>
                       </ul>
                     </div>
@@ -196,21 +201,21 @@
                   <div class="index-blockH01-unit safety-components">
                     <h3>
                       <a href="products/category/safety-components/index.html">
-                        <img src="common/img/icon_01.gif" width="3" height="9" alt="" class="iconA01">Safety Components</a>
+                        <img src="common/img/icon_01.gif" width="3" height="9" alt="" class="iconA01"/>Safety Components</a>
                     </h3>
                     <div class="index-list">
                       <ul class="link-listA01">
                         <li>
                           <a href="products/category/safety-components/safety-sensors/index.html">
-                            <img src="common/img/icon_01.gif" width="3" height="9" alt="" class="iconA01">Safety Sensors</a>
+                            <img src="common/img/icon_01.gif" width="3" height="9" alt="" class="iconA01"/>Safety Sensors</a>
                         </li>
                         <li>
                           <a href="products/category/safety-components/safety-door-switches/index.html">
-                            <img src="common/img/icon_01.gif" width="3" height="9" alt="" class="iconA01">Safety Door Switches</a>
+                            <img src="common/img/icon_01.gif" width="3" height="9" alt="" class="iconA01"/>Safety Door Switches</a>
                         </li>
                         <li>
                           <a href="products/category/safety-components/safety-limit-switches/index.html">
-                            <img src="common/img/icon_01.gif" width="3" height="9" alt="" class="iconA01">Safety Limit Switches</a>
+                            <img src="common/img/icon_01.gif" width="3" height="9" alt="" class="iconA01"/>Safety Limit Switches</a>
                         </li>
                       </ul>
                     </div>
@@ -218,7 +223,7 @@
                       <ul class="link-listA01 right">
                         <li>
                           <a href="products/category/safety-components/index.html">
-                            <img src="common/img/icon_01.gif" width="3" height="9" alt="" class="iconA01">All in Safety Components</a>
+                            <img src="common/img/icon_01.gif" width="3" height="9" alt="" class="iconA01"/>All in Safety Components</a>
                         </li>
                       </ul>
                     </div>
@@ -226,21 +231,21 @@
                   <div class="index-blockH01-unit relay">
                     <h3>
                       <a href="products/category/relays/index.html">
-                        <img src="common/img/icon_01.gif" width="3" height="9" alt="" class="iconA01">Relays</a>
+                        <img src="common/img/icon_01.gif" width="3" height="9" alt="" class="iconA01"/>Relays</a>
                     </h3>
                     <div class="index-list">
                       <ul class="link-listA01">
                         <li>
                           <a href="products/category/relays/general-purpose-relays/index.html">
-                            <img src="common/img/icon_01.gif" width="3" height="9" alt="" class="iconA01">General Purpose Relays</a>
+                            <img src="common/img/icon_01.gif" width="3" height="9" alt="" class="iconA01"/>General Purpose Relays</a>
                         </li>
                         <li>
                           <a href="products/category/relays/terminal-relays/index.html">
-                            <img src="common/img/icon_01.gif" width="3" height="9" alt="" class="iconA01">Terminal Relays</a>
+                            <img src="common/img/icon_01.gif" width="3" height="9" alt="" class="iconA01"/>Terminal Relays</a>
                         </li>
                         <li>
                           <a href="products/category/relays/io-relay-terminals/index.html">
-                            <img src="common/img/icon_01.gif" width="3" height="9" alt="" class="iconA01">I/O Relay terminals</a>
+                            <img src="common/img/icon_01.gif" width="3" height="9" alt="" class="iconA01"/>I/O Relay terminals</a>
                         </li>
                       </ul>
                     </div>
@@ -248,7 +253,7 @@
                       <ul class="link-listA01 right">
                         <li>
                           <a href="products/category/relays/index.html">
-                            <img src="common/img/icon_01.gif" width="3" height="9" alt="" class="iconA01">All in Relays</a>
+                            <img src="common/img/icon_01.gif" width="3" height="9" alt="" class="iconA01"/>All in Relays</a>
                         </li>
                       </ul>
                     </div>
@@ -258,21 +263,21 @@
                   <div class="index-blockH01-unit control-components">
                     <h3>
                       <a href="products/category/control-components/index.html">
-                        <img src="common/img/icon_01.gif" width="3" height="9" alt="" class="iconA01">Control Components</a>
+                        <img src="common/img/icon_01.gif" width="3" height="9" alt="" class="iconA01"/>Control Components</a>
                     </h3>
                     <div class="index-list">
                       <ul class="link-listA01">
                         <li>
                           <a href="products/category/control-components/temperature-controllers/index.html">
-                            <img src="common/img/icon_01.gif" width="3" height="9" alt="" class="iconA01">Temperature Controllers</a>
+                            <img src="common/img/icon_01.gif" width="3" height="9" alt="" class="iconA01"/>Temperature Controllers</a>
                         </li>											
                         <li>
                           <a href="products/category/control-components/timers/index.html">
-                            <img src="common/img/icon_01.gif" width="3" height="9" alt="" class="iconA01">Timers</a>
+                            <img src="common/img/icon_01.gif" width="3" height="9" alt="" class="iconA01"/>Timers</a>
                         </li>
                         <li>
                           <a href="products/category/control-components/counters/index.html">
-                            <img src="common/img/icon_01.gif" width="3" height="9" alt="" class="iconA01">Counters</a>
+                            <img src="common/img/icon_01.gif" width="3" height="9" alt="" class="iconA01"/>Counters</a>
                         </li>
                       </ul>
                     </div>
@@ -280,7 +285,7 @@
                       <ul class="link-listA01 right">
                         <li>
                           <a href="products/category/control-components/index.html">
-                            <img src="common/img/icon_01.gif" width="3" height="9" alt="" class="iconA01">All in Control Components</a>
+                            <img src="common/img/icon_01.gif" width="3" height="9" alt="" class="iconA01"/>All in Control Components</a>
                         </li>
                       </ul>
                     </div>
@@ -288,17 +293,17 @@
                   <div class="index-blockH01-unit automation-systems">
                     <h3>
                       <a href="products/category/automation-systems/index.html">
-                        <img src="common/img/icon_01.gif" width="3" height="9" alt="" class="iconA01">Automation Systems</a>
+                        <img src="common/img/icon_01.gif" width="3" height="9" alt="" class="iconA01"/>Automation Systems</a>
                     </h3>
                     <div class="index-list">
                       <ul class="link-listA01">
                         <li>
                           <a href="products/category/automation-systems/machine-automation-controllers/index.html">
-                            <img src="common/img/icon_01.gif" width="3" height="9" alt="" class="iconA01">Machine Automation Controllers</a>
+                            <img src="common/img/icon_01.gif" width="3" height="9" alt="" class="iconA01"/>Machine Automation Controllers</a>
                         </li>
                         <li>
                           <a href="products/category/automation-systems/industrial-pc-platform/index.html">
-                            <img src="common/img/icon_01.gif" width="3" height="9" alt="" class="iconA01">Industrial PC Platform</a>
+                            <img src="common/img/icon_01.gif" width="3" height="9" alt="" class="iconA01"/>Industrial PC Platform</a>
                         </li>
                         <!--
                         <li>
@@ -308,7 +313,7 @@
                         -->
                         <li>
                           <a href="products/category/automation-systems/programmable-controllers/index.html">
-                            <img src="common/img/icon_01.gif" width="3" height="9" alt="" class="iconA01">Programmable Controllers</a>
+                            <img src="common/img/icon_01.gif" width="3" height="9" alt="" class="iconA01"/>Programmable Controllers</a>
                         </li>
                       </ul>
                     </div>
@@ -316,7 +321,7 @@
                       <ul class="link-listA01 right">
                         <li>
                           <a href="products/category/automation-systems/index.html">
-                            <img src="common/img/icon_01.gif" width="3" height="9" alt="" class="iconA01">All in Automation Systems</a>
+                            <img src="common/img/icon_01.gif" width="3" height="9" alt="" class="iconA01"/>All in Automation Systems</a>
                         </li>
                       </ul>
                     </div>
@@ -326,20 +331,20 @@
                   <div class="index-blockH01-unit motion-drive">
                     <h3>
                       <a href="products/category/motion_drives/index.html">
-                        <img src="common/img/icon_01.gif" width="3" height="9" alt="" class="iconA01">Motion / Drives</a>
+                        <img src="common/img/icon_01.gif" width="3" height="9" alt="" class="iconA01"/>Motion / Drives</a>
                     </h3>
                     <div class="index-list">
                       <ul class="link-listA01">
 <li>
-<a href="products/category/motion_drives/machine-automation-controllers/index.html"><img src="common/img/icon_01.gif" width="3" height="9" alt="" class="iconA01">Machine Automation Controllers</a>
+<a href="products/category/motion_drives/machine-automation-controllers/index.html"><img src="common/img/icon_01.gif" width="3" height="9" alt="" class="iconA01"/>Machine Automation Controllers</a>
 </li>
                         <li>
                           <a href="products/category/motion_drives/inverters/index.html">
-                            <img src="common/img/icon_01.gif" width="3" height="9" alt="" class="iconA01">Inverters</a>
+                            <img src="common/img/icon_01.gif" width="3" height="9" alt="" class="iconA01"/>Inverters</a>
                         </li>
                         <li>
                           <a href="products/category/motion_drives/servomotors_servo-drivers/index.html">
-                            <img src="common/img/icon_01.gif" width="3" height="9" alt="" class="iconA01">Servomotors / Servo Drivers</a>
+                            <img src="common/img/icon_01.gif" width="3" height="9" alt="" class="iconA01"/>Servomotors / Servo Drivers</a>
                         </li>
                       </ul>
                     </div>
@@ -347,7 +352,7 @@
                       <ul class="link-listA01 right">
                         <li>
                           <a href="products/category/motion_drives/index.html">
-                            <img src="common/img/icon_01.gif" width="3" height="9" alt="" class="iconA01">All in Motion / Drives</a>
+                            <img src="common/img/icon_01.gif" width="3" height="9" alt="" class="iconA01"/>All in Motion / Drives</a>
                         </li>
                       </ul>
                     </div>
@@ -355,13 +360,13 @@
                   <div class="index-blockH01-unit Robotics">
                     <h3>
                       <a href="products/category/robotics/index.html">
-                        <img src="common/img/icon_01.gif" width="3" height="9" alt="" class="iconA01">Robotics</a>
+                        <img src="common/img/icon_01.gif" width="3" height="9" alt="" class="iconA01"/>Robotics</a>
                     </h3>
                     <div class="index-list">
                       <ul class="link-listA01">
                         <li>
                           <a href="products/category/robotics/industrial-robots/index.html">
-                            <img src="common/img/icon_01.gif" width="3" height="9" alt="" class="iconA01">Industrial Robots</a>
+                            <img src="common/img/icon_01.gif" width="3" height="9" alt="" class="iconA01"/>Industrial Robots</a>
                         </li>
                       </ul>
                     </div>
@@ -369,7 +374,7 @@
                       <ul class="link-listA01 right">
                         <li>
                           <a href="products/category/robotics/index.html">
-                            <img src="common/img/icon_01.gif" width="3" height="9" alt="" class="iconA01">All in Robots</a>
+                            <img src="common/img/icon_01.gif" width="3" height="9" alt="" class="iconA01"/>All in Robots</a>
                         </li>
                       </ul>
                     </div>
@@ -379,21 +384,21 @@
 								 <div class="index-blockH01-unit energy-conservation-support">
                     <h3>
                       <a href="products/category/energy-conservation-support_environment-measure-equipment/index.html">
-                        <img src="common/img/icon_01.gif" width="3" height="9" alt="" class="iconA01">Energy Conservation Support / Environment Measure Equipment</a>
+                        <img src="common/img/icon_01.gif" width="3" height="9" alt="" class="iconA01"/>Energy Conservation Support / Environment Measure Equipment</a>
                     </h3>
                     <div class="index-list">
                       <ul class="link-listA01">
                         <li>
                           <a href="products/category/energy-conservation-support_environment-measure-equipment/electric-power-monitoring-equipment/index.html">
-                            <img src="common/img/icon_01.gif" width="3" height="9" alt="" class="iconA01">Electric Power Monitoring Equipment</a>
+                            <img src="common/img/icon_01.gif" width="3" height="9" alt="" class="iconA01"/>Electric Power Monitoring Equipment</a>
                         </li>
                         <li>
                           <a href="products/category/energy-conservation-support_environment-measure-equipment/equo-environment-sensor/index.html">
-                            <img src="common/img/icon_01.gif" width="3" height="9" alt="" class="iconA01">EQUO Environment Sensor</a>
+                            <img src="common/img/icon_01.gif" width="3" height="9" alt="" class="iconA01"/>EQUO Environment Sensor</a>
                         </li>
                         <li>
                           <a href="products/category/energy-conservation-support_environment-measure-equipment/monitoring_analyzing-software/index.html">
-                            <img src="common/img/icon_01.gif" width="3" height="9" alt="" class="iconA01">Monitoring / Analyzing Software</a>
+                            <img src="common/img/icon_01.gif" width="3" height="9" alt="" class="iconA01"/>Monitoring / Analyzing Software</a>
                         </li>
                       </ul>
                     </div>
@@ -401,7 +406,7 @@
                       <ul class="link-listA01 right">
                         <li>
                           <a href="products/category/energy-conservation-support_environment-measure-equipment/index.html">
-                            <img src="common/img/icon_01.gif" width="3" height="9" alt="" class="iconA01">All in Energy Conservation Support / Environment Measure Equipment</a>
+                            <img src="common/img/icon_01.gif" width="3" height="9" alt="" class="iconA01"/>All in Energy Conservation Support / Environment Measure Equipment</a>
                         </li>
                       </ul>
                     </div>
@@ -409,20 +414,20 @@
                   <div class="index-blockH01-unit addition">
                     <h3>
                       <a href="products/category/power-supplies_in-addition/index.html">
-                        <img src="common/img/icon_01.gif" width="3" height="9" alt="" class="iconA01">Power Supplies / In Addition</a>
+                        <img src="common/img/icon_01.gif" width="3" height="9" alt="" class="iconA01"/>Power Supplies / In Addition</a>
                     </h3>
                     <div class="index-list">
                       <ul class="link-listA01">
                         <li>
                           <a href="products/category/power-supplies_in-addition/power-supplies/index.html">
-                            <img src="common/img/icon_01.gif" width="3" height="9" alt="" class="iconA01">Power Supplies</a>
+                            <img src="common/img/icon_01.gif" width="3" height="9" alt="" class="iconA01"/>Power Supplies</a>
                         </li>
 <li>
-<a href="products/category/power-supplies_in-addition/uninterruptible-power-supply/index.html"><img src="common/img/icon_01.gif" width="3" height="9" alt="" class="iconA01">Uninterruptible Power Supply (UPS)</a>
+<a href="products/category/power-supplies_in-addition/uninterruptible-power-supply/index.html"><img src="common/img/icon_01.gif" width="3" height="9" alt="" class="iconA01"/>Uninterruptible Power Supply (UPS)</a>
 </li>
                         <li>
                           <a href="products/category/power-supplies_in-addition/axial-fans/index.html">
-                            <img src="common/img/icon_01.gif" width="3" height="9" alt="" class="iconA01">Axial Fans</a>
+                            <img src="common/img/icon_01.gif" width="3" height="9" alt="" class="iconA01"/>Axial Fans</a>
                         </li>
                       </ul>
                     </div>
@@ -430,7 +435,7 @@
                       <ul class="link-listA01 right">
                         <li>
                           <a href="products/category/power-supplies_in-addition/index.html">
-                            <img src="common/img/icon_01.gif" width="3" height="9" alt="" class="iconA01">All in Power Supplies / In Addition</a>
+                            <img src="common/img/icon_01.gif" width="3" height="9" alt="" class="iconA01"/>All in Power Supplies / In Addition</a>
                         </li>
                       </ul>
                     </div>
@@ -446,7 +451,7 @@
 	<dt>
 		<a href="products/family/3656/index.html">
 			
-			<img src="Images/l_3656-13-271451-198x198.jpg" alt="S8FS-G" class="product-image" />
+			<img src="images/l_3656-13-271451-198x198.jpg" alt="S8FS-G" class="product-image" />
 			
 			
 			<img src="resources/images/icon_right_b.gif" width="3" height="9" alt="" class="iconA01" />S8FS-G
@@ -466,7 +471,7 @@
 	<dt>
 		<a href="products/family/3549/index.html">
 			
-			<img src="Images/l_3549-13-262512-198x198.jpg" alt="R88M-1[] / R88D-1SN[]-ECT" class="product-image" />
+			<img src="images/l_3549-13-262512-198x198.jpg" alt="R88M-1[] / R88D-1SN[]-ECT" class="product-image" />
 			
 			
 			<img src="resources/images/icon_right_b.gif" width="3" height="9" alt="" class="iconA01" />R88M-1[] / R88D-1SN[]-ECT
@@ -486,7 +491,7 @@
 	<dt>
 		<a href="products/family/3516/index.html">
 			
-			<img src="Images/l_3516-13-257435-198x198.jpg" alt="eCobra 600 Lite / Standard / Pro" class="product-image" />
+			<img src="images/l_3516-13-257435-198x198.jpg" alt="eCobra 600 Lite / Standard / Pro" class="product-image" />
 			
 			
 			<img src="resources/images/icon_right_b.gif" width="3" height="9" alt="" class="iconA01" />eCobra 600 Lite / Standard / Pro
@@ -511,12 +516,48 @@
 <h2><a href="product/applications/index.html"><img src="common/img/icon_01.gif" width="3" height="9" alt="" class="iconA01"/>Applications</a></h2>
 
 <div class="appli-list">
-<h3><a href="product/applications/industry/index.html"><img src="common/img/icon_01.gif" width="3" height="9" alt="" class="iconA01"/>Applications Sorted by Industry</a></h3><ul><li class="iconApp"><span class="description"><a href="product/applications/industry/semicon/index.html"><span class="image"><img src="common/img/app_icon_m_01.gif" alt="" width="32" height="32"/></span><span class="lvl02">Semiconductor Applications, Electronics Applications</span></a></span></li>
-<li class="iconApp"><span class="description"><a href="product/applications/industry/home_electronics/index.html"><span class="image"><img src="common/img/app_icon_m_03.gif" alt="" width="32" height="32"/></span><span class="lvl02">Home Electronics / Office Automation</span></a></span></li>
-<li class="iconApp"><span class="description"><a href="product/applications/industry/automotive/index.html"><span class="image"><img src="common/img/app_icon_m_04.gif" alt="" width="32" height="32"/></span><span class="lvl02">Automotive / Machine Tools / Robotics</span></a></span></li>
-<li class="iconApp"><span class="description"><a href="product/applications/industry/molding/index.html"><span class="image"><img src="common/img/app_icon_m_05.gif" alt="" width="32" height="32"/></span><span class="lvl02">Molding Machines / Rubber / Plastics</span></a></span></li>
-<li class="iconApp"><span class="description"><a href="product/applications/industry/conveyors/index.html"><span class="image"><img src="common/img/app_icon_m_06.gif" alt="" width="32" height="32"/></span><span class="lvl02">Conveyors / Automated Warehouses</span></a></span></li>
-<li class="iconApp"><span class="description"><a href="product/applications/industry/others/index.html"><span class="image"><img src="common/img/app_icon_m_07.gif" alt="" width="32" height="32"/></span><span class="lvl02">Other Industry</span></a></span></li></ul><h3><a href="product/applications/work/index.html"><img src="common/img/icon_01.gif" width="3" height="9" alt="" class="iconA01" />Applications Sorted by Work/Process</a></h3>
+<h3><a href="product/applications/industry/index.html">
+<img src="common/img/icon_01.gif" width="3" height="9" alt="" class="iconA01"/>Applications Sorted by Industry</a></h3>
+
+<ul>
+
+<li class="iconApp"><span class="description"><a href="product/applications/industry/semicon/index.html">
+<span class="image"><img src="common/img/app_icon_m_01.gif" alt="" width="32" height="32"/></span>
+<span class="lvl02">Semiconductor Applications, Electronics Applications</span></a>
+</span>
+</li>
+
+<li class="iconApp"><span class="description"><a href="product/applications/industry/home_electronics/index.html">
+<span class="image"><img src="common/img/app_icon_m_03.gif" alt="" width="32" height="32"/>
+</span><span class="lvl02">Home Electronics / Office Automation</span></a>
+</span>
+</li>
+
+<li class="iconApp"><span class="description"><a href="product/applications/industry/automotive/index.html">
+<span class="image"><img src="common/img/app_icon_m_04.gif" alt="" width="32" height="32"/></span>
+<span class="lvl02">Automotive / Machine Tools / Robotics</span></a>
+</span>
+</li>
+
+<li class="iconApp"><span class="description"><a href="product/applications/industry/molding/index.html">
+<span class="image"><img src="common/img/app_icon_m_05.gif" alt="" width="32" height="32"/></span>
+<span class="lvl02">Molding Machines / Rubber / Plastics</span></a>
+</span>
+</li>
+
+<li class="iconApp"><span class="description"><a href="product/applications/industry/conveyors/index.html">
+<span class="image"><img src="common/img/app_icon_m_06.gif" alt="" width="32" height="32"/></span>
+<span class="lvl02">Conveyors / Automated Warehouses</span></a>
+</span>
+</li>
+
+<li class="iconApp"><span class="description"><a href="product/applications/industry/others/index.html">
+<span class="image"><img src="common/img/app_icon_m_07.gif" alt="" width="32" height="32"/></span>
+<span class="lvl02">Other Industry</span></a>
+</span>
+</li>
+</ul>
+<h3><a href="product/applications/work/index.html"><img src="common/img/icon_01.gif" width="3" height="9" alt="" class="iconA01" />Applications Sorted by Work/Process</a></h3>
 
 </div>
 
@@ -575,8 +616,8 @@
 <div class="top-special-banner">
 <h3>Omron's automation story</h3>
 <ul>
-<li><a href="http://www.omron.com/about/story/detail22.html" target="_blank"><img src="resource/image/banner/151001-KT-04_ban_smalldouble_omronstory-en.jpg" width="216" height="136" alt="Every motion stops in 0.05 seconds and innovation starts on the factory floor" /></a><a href="http://www.omron.com/about/story/detail22.html" target="_blank">Omron's vibration control technology makes sure the cup of liquid stops its motion completely with no spillage.<img src="common/img/icon_07.gif" width="14" height="11" alt="" class="external-win"></a></li>
-<li><a href="http://www.omron.com/about/story/detail07.html" target="_blank"><img src="resource/image/banner/141027-KT-01_ban_smalldouble_fa-takkyu-en.jpg" width="216" height="136" alt="Harmony between people and technology" /></a><a href="http://www.omron.com/about/story/detail07.html" target="_blank">Link to the story about development of the ping-pong robot which is controlled by OMRON's IA system.<img src="common/img/icon_07.gif" width="14" height="11" alt="" class="external-win"></a></li>
+<li><a href="http://www.omron.com/about/story/detail22.html" target="_blank"><img src="resource/image/banner/151001-KT-04_ban_smalldouble_omronstory-en.jpg" width="216" height="136" alt="Every motion stops in 0.05 seconds and innovation starts on the factory floor" /></a><a href="http://www.omron.com/about/story/detail22.html" target="_blank">Omron's vibration control technology makes sure the cup of liquid stops its motion completely with no spillage.<img src="common/img/icon_07.gif" width="14" height="11" alt="" class="external-win"/></a></li>
+<li><a href="http://www.omron.com/about/story/detail07.html" target="_blank"><img src="resource/image/banner/141027-KT-01_ban_smalldouble_fa-takkyu-en.jpg" width="216" height="136" alt="Harmony between people and technology" /></a><a href="http://www.omron.com/about/story/detail07.html" target="_blank">Link to the story about development of the ping-pong robot which is controlled by OMRON's IA system.<img src="common/img/icon_07.gif" width="14" height="11" alt="" class="external-win"/></a></li>
 </ul>
 <!-- /top-special-banner --></div>
             </div>
@@ -593,7 +634,7 @@
 <li><a href="sitemap.html"><img src="common/img/icon_01.gif" width="3" height="9" alt="" class="iconA01" />Sitemap</a></li>
 <li><a href="privacy/index.html"><img src="common/img/icon_01.gif" width="3" height="9" alt="" class="iconA01" />Privacy Policy</a></li>
 </ul>
-<address>&copy; Copyright Kyoto Engineering & Automation Ltd. All Rights Reserved.</address>
+<address>&copy; Copyright Kyoto Engineering and Automation Ltd. All Rights Reserved.</address>
 <!-- footer-link --></div>
 <!-- === /[footer-area] === --></div>
 
