@@ -24,7 +24,7 @@
     <link rel="chapter" href="index.html" title="Our Strengths"/>
     <link rel="chapter" href="products/index.html" title="Products"/>
     <link rel="alternate" href="index.html" hreflang="en" />
-
+<link rel="shortcut icon" href="../resources/images/favicon.ico" type="image/x-icon" />
 <script type="text/javascript" src="common/js/common.js"></script>
 <script type="text/javascript" src="common/js/rollover.js"></script>
 <script type="text/javascript" src="common/js/cssSupport.js"></script>
@@ -90,9 +90,11 @@
 <li class="home stay"><strong>Home</strong></li>
 <li class="product"><a href="products/index.html">Products</a></li>
 <li class="corporate-profile"><a href="view/contact/input.php">Contact Us</a></li>
-<li class="function-area"><div class="search"><form action="http://search2.ia.omron.com/IA/" method="get" name="search_website" id="search_website" class="search-form">
-					<p><input type="text" value="" size="20" name="q" id="search_str" class="search-str" /><input type="submit" value="Search" class="submit60L" id="query"  /></p>
-				</form></div>
+<li class="function-area"><div class="search"><form action="https://omron.keal.com.bd/sphider/search.php" method="get"> 
+<input type="text" name="query" id="query" size="40" value="" action="include/js_suggest/suggest.php" columns="2" autocomplete="off" delay="1500">	
+<input type="submit" value="Search"> 
+<input type="hidden" name="search" value="1"> 
+</form></div>
 </li>
 </ul>
 <!-- === /[global-navi-area] === --></div>
@@ -100,7 +102,7 @@
         <p class="non-visual"> <a name="main-image" id="main-image">Promotion Contents</a> </p>
         <div class="imageRotation">
           <div class="imageRotationMain">
-            <div><img src="images/top/factory.jpg" width="684" height="233" alt="factory" /></div>
+            <div><img src="images/top/factory.png" width="684" height="233" alt="factory" /></div>
 <!--
             <div><img src="/images/top/safety.jpg" width="684" height="233" alt="safety" /></div>
 -->
