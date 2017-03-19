@@ -359,7 +359,7 @@ body.tmplC02 div.local-navi-area{
 body.tmplC02 div.primary-contents-area,
 body.tmplC02 div.exist-primary-contents-area{
 	width:450px;
-	float:right;
+	float:left;
 }
 
 body.tmplC02 div.side-area{
