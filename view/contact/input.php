@@ -8,7 +8,7 @@ if(isset($_POST['inputForm:doConfirm']))
 
 
 //mail from customer
-            $to_mail = "sshakilsultan74@gmail.com";   
+            $to_mail = "info@keal.com.bd";   
             $email_subject="Omron Product Inquiry";
             
             $email_message="Sent From        : ".$_POST['inputForm:userEmail']."\r\n".$_POST['inputForm:userAddress']."\r".$_POST['inputForm:postalCode']."\r\n".
@@ -173,7 +173,7 @@ var x = document.forms["inputForm"]["inputForm:userTel"].value;
 <div class="header-area">
 	<div class="site-identity">
 		<div class="site-logo">
-			<a href="../../index.html"><img src="../../shared/img/logo_01_b.gif" width="129" height="24" alt="OMRON" /></a>
+			<a href="../../index.php"><img src="../../shared/img/logo_01_b.gif" width="129" height="24" alt="OMRON" /></a>
 		</div>
 	<!-- /.site-identity --></div>
 	<div class="utilities">
@@ -184,7 +184,7 @@ var x = document.forms["inputForm"]["inputForm:userTel"].value;
                         <p class="canpany">Industrial Automation</p>
                         <?php echo '&nbsp' ; ?>
                         <br>
-                        <p class="canpany">Power Automation & Safety </p>
+                        <p class="canpany">Power Automation &amp; Safety </p>
 			
 		</div>
             
@@ -219,7 +219,7 @@ var x = document.forms["inputForm"]["inputForm:userTel"].value;
 <!-- === [bread-crumb-area] === -->
 <div class="bread-crumb-area">
 <!--+bread-crumb-->
-<ul><li><a shape="rect" href="../../index-2.php">Home</a><span class="separator"></span></li><li>Contact<span id="addTitleText"></span></li></ul>
+<ul><li><a shape="rect" href="../../index.php">Home</a><span class="separator"></span></li><li>Contact<span id="addTitleText"></span></li></ul>
 <!--+/bread-crumb-->
 <!-- === /[bread-crumb-area] === --></div>
 
@@ -269,7 +269,7 @@ Certificate</a> </div> <script type="text/javascript"> var __dcid = __dcid
 <!-- information -->
 <!-- /information -->
 
-<p>Please fill out the contact form below. All languages are welcome.<br clear="none" />
+<p>Please fill out the contact form below.<br clear="none" />
 A customer service representative in your area/country will respond to you.</p>
 <p class="required">* is required information. Please complete all the mandatory fields marked with *.</p>
 </div>
@@ -293,7 +293,14 @@ A customer service representative in your area/country will respond to you.</p>
 
 <div class="form-blockA01-unit"><!-- Type -->
 <dl><dt><span><em class="required">*</em><em>Type</em><br clear="none" /></span></dt><dd>
-<p><select id="inquiryType" name="inputForm:inquiryType" size="1" name="required" onchange="productTypeEnable();"><option value="" selected="selected">Please select.</option><option value="Products">Products</option><option value="Web Site">Web Site</option><option value="Others">Others</option></select></p>
+<p>
+    <select id="inquiryType" name="inputForm:inquiryType" size="1" name="required" onchange="productTypeEnable();">
+        <option value="" selected="selected">Please select.</option>
+        <option value="Products">Products</option>
+        <option value="Web Site">Web Site</option>
+        <option value="Others">Others</option>
+    </select>
+</p>
 </dd></dl>
 <!-- /form-blockA01-unit --></div><!-- /Type -->
 
@@ -344,12 +351,20 @@ A customer service representative in your area/country will respond to you.</p>
 <div class="form-blockA01-unit"><!-- I may receive your answer by: -->
 <input id="receiveAnswerItemsSave" type="hidden" />
 <dl><dt><span><label for="receiveAnswer"><em class="required">*</em><em>I may receive your answer by</em><br clear="none" /></label></span></dt><dd class="listWrapG2">
-<ul><li><label for="receiveAnswer" name="required" class=""><input type="checkbox" id="receiveAnswer0" name="inputForm:receiveAnswer0" value="true" type="checkbox" />Phone</label></li><li><label for="receiveAnswer" name="required" class=""><input type="checkbox" id="receiveAnswer1" name="inputForm:receiveAnswer1" value="true" type="checkbox" />Email</label></li><li><label for="receiveAnswer" name="required" class=""><input type="checkbox" id="receiveAnswer2" name="inputForm:receiveAnswer2" value="true" type="checkbox" />Fax</label></li><li><label for="receiveAnswer" name="required" class=""><input type="checkbox" id="receiveAnswer3" name="inputForm:receiveAnswer3" value="true" type="checkbox" />Visit</label></li></ul>
-</dd></dl>
+
+<form>
+ <ul>
+  <input type="radio" name="select" value="Phone" checked> Phone
+  <input type="radio" name="select" value="Email"> Email
+  <input type="radio" name="select" value="Visit"> visit 
+    </ul>
+</form>
+</dd>
+</dl>
 <!-- /form-blockA01-unit --></div><!-- /I may receive your answer by: -->
 
 <div class="form-blockA01-unit"><!-- Name: First, Last -->
-<dl><dt><span><label for="userName"><em class="required">*</em><em>User Name: First, Last</em></label></span></dt><dd>
+<dl><dt><span><label for="userName"><em class="required">*</em><em>Your Name:</em></label></span></dt><dd>
 <p><input type="text" id="userName" name="inputForm:userName" value="" class="form-str" /></p>
 </dd></dl>
 <!-- /form-blockA01-unit --></div><!-- /Name: First, Last -->
@@ -366,7 +381,7 @@ A customer service representative in your area/country will respond to you.</p>
 <dl><dt><span><label for="postalCode"><em class="required">*</em><em>Postal Code</em></label></span></dt><dd>
 <p>
 <input type="text" id="postalCode" name="inputForm:postalCode" value="" class="form-str" /><br clear="none" />
-If there is no Postal Code in your country, please enter “none” in this blank.
+
 </p>
 </dd></dl>
 <!-- /form-blockA01-unit --></div><!-- /postal code -->
@@ -378,18 +393,13 @@ If there is no Postal Code in your country, please enter “none” in this blan
 <!-- /form-blockA01-unit --></div><!-- /address -->
 
 <div class="form-blockA01-unit"><!-- telephone number -->
-<dl><dt><span><label for="userTel"><em class="required">*</em><em>Telephone Number</em><br clear="none" />
+<dl><dt><span><label for="userTel"><em class="required">*</em><em>Mobile Number</em><br clear="none" />
 </label></span></dt><dd>
 <p><input type="text" id="userTel" name="inputForm:userTel" value="" class="form-str" /></p>
 </dd></dl>
 <!-- /form-blockA01-unit --></div><!-- /Telephone number -->
 
-<div class="form-blockA01-unit"><!-- Fax -->
-<dl><dt><span><label for="userFax">Fax<br clear="none" />
-</label></span></dt><dd>
-<p><input type="text" id="userFax" name="inputForm:userFax" value="" class="form-str" /></p>
-</dd></dl>
-<!-- /form-blockA01-unit --></div><!-- /Fax -->
+
 
 <div class="form-blockA01-unit"><!-- Email Address -->
 <dl><dt><span><label for="userEmail"><em class="required">*</em><em>Email Address </em><br clear="none" />
@@ -439,7 +449,7 @@ If there is no Postal Code in your country, please enter “none” in this blan
 
 <li><a href="../../privacy/index.html"><img src="../../common/img/icon_01.gif" width="3" height="9" alt="" class="iconA01" />Privacy Policy</a></li>
 </ul>
-<address>&copy; Copyright Kyoto Engineering & Automation. All Rights Reserved.</address>
+<address>&copy; Copyright Kyoto Engineering &amp; Automation. All Rights Reserved.</address>
 <!-- footer-link --></div>
 <!-- === /[footer-area] === --></div>
 
