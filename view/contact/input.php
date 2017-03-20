@@ -232,7 +232,7 @@ var x = document.forms["inputForm"]["inputForm:userTel"].value;
 <!--+local-navi-->
 
 <div class="related-info-listA01">
-<ul><li><a shape="rect" href="../../sitemap.html"><img height="9" alt="" width="3" class="iconA01" src="../../common/img/icon_01.gif" />Sitemap</a></li><li class="stay">Contact</li></ul>
+<ul></ul>
 <!-- /related-info-listA01 --></div>
 
 <div class="secure-sign">
@@ -443,12 +443,7 @@ A customer service representative in your area/country will respond to you.</p>
 <p class="non-visual"><a name="footer" id="footer">Site Information</a></p>
 
 <div class="footer-link">
-<ul>
 
-<li><a href="../../sitemap.html"><img src="../../common/img/icon_01.gif" width="3" height="9" alt="" class="iconA01" />Sitemap</a></li>
-
-<li><a href="../../privacy/index.html"><img src="../../common/img/icon_01.gif" width="3" height="9" alt="" class="iconA01" />Privacy Policy</a></li>
-</ul>
 <address>&copy; Copyright Kyoto Engineering &amp; Automation. All Rights Reserved.</address>
 <!-- footer-link --></div>
 <!-- === /[footer-area] === --></div>
