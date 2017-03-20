@@ -9,7 +9,7 @@
     <meta http-equiv="Content-Language" content="en"/>
     <meta http-equiv="Content-Style-Type" content="text/css"/>
     <meta http-equiv="Content-Script-Type" content="text/javascript"/>
-    <title>OMRON By Kyoto Engineering and Automation</title>
+    <title>OMRON By Kyoto Engineering &amp; Automation</title>
     <meta name="keywords" content="OMRON IA,OMRON Industrial Automation,Industrial Web,IA Global,Industrial Global website,MONOZUKURI,MONODUKURI,Manufacturing Site"/>
     <meta name="description" content="OMRON Industrial Automation functions as a partner to help innovate worldwide manufacturing. Through our experience in sensing and control technology, we enable manufacturers to operate with greater productivity and streamlined efficiency."/>
     
@@ -631,12 +631,8 @@
 <div class="footer-area">
 <p class="non-visual"><a name="footer" id="footer">Site Information</a></p>
 <div class="footer-link">
-<ul>
 
-<li><a href="sitemap.html"><img src="common/img/icon_01.gif" width="3" height="9" alt="" class="iconA01" />Sitemap</a></li>
-<li><a href="privacy/index.html"><img src="common/img/icon_01.gif" width="3" height="9" alt="" class="iconA01" />Privacy Policy</a></li>
-</ul>
-<address>&copy; Copyright Kyoto Engineering and Automation Ltd. All Rights Reserved.</address>
+<address>&copy; Copyright Kyoto Engineering &amp; Automation Ltd. All Rights Reserved.</address>
 <!-- footer-link --></div>
 <!-- === /[footer-area] === --></div>
 
