@@ -9,8 +9,8 @@
     <meta http-equiv="Content-Language" content="en"/>
     <meta http-equiv="Content-Style-Type" content="text/css"/>
     <meta http-equiv="Content-Script-Type" content="text/javascript"/>
-    <title>OMRON By Kyoto Engineering &amp; Automation</title>
-    <meta name="keywords" content="OMRON IA,OMRON Industrial Automation,Industrial Web,IA Global,Industrial Global website,MONOZUKURI,MONODUKURI,Manufacturing Site"/>
+    <title>OMRON Bangladesh By Kyoto Engineering &amp; Automation</title>
+    <meta name="keywords" content="OMRON IA,OMRON Industrial Automation,Industrial Web,IA Global,Industrial Global website,MONOZUKURI,MONODUKURI,Omron Product,buy Omron Product, Manufacturing Site"/>
     <meta name="description" content="OMRON Industrial Automation functions as a partner to help innovate worldwide manufacturing. Through our experience in sensing and control technology, we enable manufacturers to operate with greater productivity and streamlined efficiency."/>
     
     
