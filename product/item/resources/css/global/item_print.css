@@ -37,8 +37,8 @@ body.print .print_txt button {
 	border: 0;
 	color: #666;
 	position: absolute;
-	right: 25px;
-	top: 22px;
+	left: 250px;
+	top: 60px;
 	z-index: 100;
 }
 body.print .print_txt button img {
