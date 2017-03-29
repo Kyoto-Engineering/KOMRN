@@ -37,13 +37,13 @@ body.print .print_txt button {
 	border: 0;
 	color: #666;
 	position: absolute;
-	left: 250px;
+	left: 265px;
 	top: 60px;
 	z-index: 100;
 }
 body.print .print_txt button img {
 	position: relative;
-	margin-right: 6px;
+	margin-top: 6px;
 	top: 2px;
 }
 body.print div.contents-area {
