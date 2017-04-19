@@ -376,7 +376,8 @@ reuiredForm.prototype = {
 					document.getElementById("contentOfInquiry4").className += " error";
 					if( document.getElementById("contentOfInquiry5") ){
 						document.getElementById("contentOfInquiry5").className += " error";
-					}				}else if ( ids[i]=='receiveAnswer0' ){
+					}
+				}else if ( ids[i]=='receiveAnswer0' ){
 					var obj1 = document.getElementsByTagName("Label");
 					for (var j=0; j < obj1.length; j++) {
 						var name = obj1[j].getAttribute('name');
@@ -388,12 +389,13 @@ reuiredForm.prototype = {
 					document.getElementById("receiveAnswer1").className += " error";
 					document.getElementById("receiveAnswer2").className += " error";
 					document.getElementById("receiveAnswer3").className += " error";
-				}				
+				}
+				
 				obj.className += " error";
 				
 //				alert(obj.className);
 			}
-			document.title = FORM_NAME + ' : Confirm | OMRON Industrial Automation';
+			document.title = FORM_NAME + ' : Confirm | Omron by Kyoto engineering &amp; Automation';
 			var addTitleText = document.getElementById('addTitleText');
 			addTitleText.innerHTML = ' : Confirm';
 			var addTitleTextH2 = document.getElementById('addTitleTextH2');
