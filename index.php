@@ -1,8 +1,7 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xml:lang="en" lang="en" xmlns="http://www.w3.org/1999/xhtml">
   
-<!-- Mirrored from www.ia.omron.com/ by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 15 Dec 2016 14:23:32 GMT -->
-<!-- Added by HTTrack --><!-- /Added by HTTrack -->
+
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
     <meta http-equiv="content-type" content="text/html;charset=utf-8" />
@@ -10,7 +9,9 @@
     <meta http-equiv="Content-Style-Type" content="text/css"/>
     <meta http-equiv="Content-Script-Type" content="text/javascript"/>
     <title>OMRON Bangladesh By Kyoto Engineering &amp; Automation</title>
-    <meta name="keywords" content="OMRON IA,OMRON Industrial Automation,Industrial Web,IA Global,Industrial Global website,MONOZUKURI,MONODUKURI,Omron Product,buy Omron Product, Manufacturing Site"/>
+    <meta name="keywords" content="bms,Omron bangladesh,hmi, plc, proximity sensor,power monitor,power safety, temperature controller,led lights,limit switch, switch, automation,servo motor, power supply product, rotary encoder, relay, inverter, sensor, robotics, plc industrial automation,home automation, alarm, power supply, electrical inverter, inductive sensor, plc automation, industrial automation technology, basic sensors, sensor products, rotary encoder, motor encoder, industrial automation companies, omron plc software, photoelectric sensor ,temperature sensor,distribution company, Omron dealer, Omron authorized distributer, control system,power meter, power company, touch switch, stepper moto, stepper motor controller, power test equipment, photoelectric sensor , relay timer, industrial relay, industrial sensor, timer relay, electric control, stepper motor, encoder, magnetic sensor, magnetic door sensor, temperature meter, electrical relay, hmi software, Siemens automation, plc system, about switch, solid state relay, light sensor, automation distributors, Japanese products, OMRON Industrial Automation,yaskawa inveter,yaskawa servo drive, yaskawa inverter,Mitsubishi inverter,micro controller,Omron products in Bangladesh, ahsan, optical rotary encoder, timer electrical, servo motor controller, sensor info, industrial sensor, latest sensor technology, scada, basic switch, electrical relay, process automation, timer switch, plc programmable logic controller, home automation system, photo sensor switch, relay circuit, network switch price, origins products, relay switch, human machine interface,applications of sensors, electrical distribution, electric timer, relay manufacturers, automation system, home automation companies, siemens, electric company website, plc controller, servo motor working, plc software, sensor companies, best home security system, electrical power substation, ac motor speed control, servo motor controller, electrical substation components, servo motor price, Omron products, switches and sensor , home and office Automation in bd , power automaton and safety,
+
+ Manufacturing Site"/>
     <meta name="description" content="OMRON Industrial Automation functions as a partner to help innovate worldwide manufacturing. Through our experience in sensing and control technology, we enable manufacturers to operate with greater productivity and streamlined efficiency."/>
     
     
@@ -639,5 +640,4 @@
     </div>
   </body>
 
-<!-- Mirrored from www.ia.omron.com/ by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 15 Dec 2016 14:23:40 GMT -->
 </html>
