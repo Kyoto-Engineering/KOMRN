@@ -11,7 +11,9 @@
 <script type="text/javascript" src="../../../shared/js/function.js"></script>
 <script type="text/javascript" src="../../../shared/js/country_website.js"></script>
 <script type="text/javascript" src="../../../shared/js/global/ga9d07.js?20121001"></script>
-<script type="text/javascript" language="JavaScript" src="js/ratingFaqBcon.js" xml:space="preserve"></script></head>
+<script type="text/javascript" language="JavaScript" src="js/ratingFaqBcon.js" xml:space="preserve"></script><link rel="stylesheet" type="text/css" media="all" href="../../../css/index.css"/>
+<link rel="stylesheet" type="text/css" media="all" href="../../../css/top.css"/>
+</head>
 <body>
 <!-- === [contents-area] === -->
 <div class="contents-area">
