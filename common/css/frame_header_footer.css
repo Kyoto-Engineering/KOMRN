@@ -4,9 +4,12 @@
 div.header-area{
 	position:relative;
 	width:954px;
+    
 	background:#fff url(../../shared/img/header_bg_01.gif) left bottom repeat-x;
 	border-top:3px solid #0055c4;
 	z-index:100;
+    
+    
 }
 div.header-area:after{
 	content:"."; 
@@ -21,6 +24,9 @@ div.header-area div.site-identity{
 	_overflow:visible;
 	_height:1px;
 	zoom:1;
+        
+
+    
 	/*\*//*/
 	overflow:hidden;
 	/**/
@@ -72,6 +78,7 @@ div.header-area div.utilities .kyoto{
 
 div.header-area div.utilities .japani{
     margin-left:270px;
+   
 }
 
 div.header-area div.utilities .flag{
