@@ -93,9 +93,15 @@
 <li class="home stay"><a href="../../../index.php">Home</a></li>
 <li class="product"><a href="../../../products/index.html">Products</a></li>
 <li class="corporate-profile"><a href="../../../view/contact/input.php">Contact Us</a></li>
-<li class="function-area"><div class="search"><form action="http://search2.ia.omron.com/IA/" method="get" name="search_website" id="search_website" class="search-form">
-                    <p><input type="text" value="" size="20" name="q" id="search_str" class="search-str" /><input type="submit" value="Search" class="submit60L" id=""  /></p>
-                </form></div>
+<li class="function-area"><div class="search">
+    
+    <form action="https://omron.keal.com.bd/sphider/search.php" method="get">       
+<input type="text" name="query" id="query" size="40" value="" />
+      <input type="submit" value="Search" /> <input type="hidden"
+      name="search" value="1" />
+    </form>
+    
+    </div>
 </li>
 </ul>
 </div>
@@ -134,15 +140,12 @@
 					<span style="color: rgb(85, 85, 85); font-family: Arial, sans-serif; font-size: 12px; line-height: 16px; background-color: rgb(244, 244, 244);">Product search is now easier with our new Suggest Function.</span>
 				</p>
 
-        <form action="http://www.ia.omron.com/view/search/product/index.cgi" method="get" name="search_product" id="search_product" class="search-form">
-            <div class="input-block">
-                <input type="hidden" name="headForm:doSearch" value="search" />
-                <p>
-                    <input type="text" value="" size="20" name="keyword" id="keyword" class="search-str" autocomplete="off" />
-                </p>
-                <p>
-                    <input type="submit" value="Product Search" class="submit120D" id="doSearch">
-                </p>
+        <form action="https://omron.keal.com.bd/sphider/search.php" method="get">       
+<input type="text" name="query" id="query" size="40" value="" />
+      <input type="submit" value="Search" /> <input type="hidden"
+      name="search" value="1" />
+    </form>
+
                 <div class="suggest-form">
                     <div class="suggest-list" id="suggest-list1">
                         <div class="suggestBox1" id="suggestBox1" style="display: none;"></div>
