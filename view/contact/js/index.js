@@ -375,7 +375,7 @@ reuiredForm.prototype = {
 					obj.className += " error";
 				}
 			}
-			document.title = FORM_NAME + ' : Confirm | OMRON Industrial Automation';
+			document.title = FORM_NAME + ' : Confirm | Omron by Kyoto engineering &amp; Automation';
 			var addTitleText = document.getElementById('addTitleText');
 			addTitleText.innerHTML = ' : Confirm';
 			var addTitleTextH2 = document.getElementById('addTitleTextH2');
