@@ -13,7 +13,7 @@
         <meta name="description" content="Product Category" /
         
 
-   <link rel="alternate" href="../index.php" hreflang="en" />
+<link rel="alternate" href="../index.html" hreflang="en" />
 <link rel="stylesheet" type="text/css" media="all" href="../resources/css/common22f8.css?201611151200" />
 <link rel="stylesheet" type="text/css" media="all" href="../resources/css/global/common22f8.css?201611151200" />
 <link rel="stylesheet" type="text/css" media="all" href="../resources/css/frame_utility_tridion22f8.css?201611151200" />
@@ -90,25 +90,19 @@
 
 <div class="global-navi-area">
 <ul>
-<li class="home stay"><a href="../index.php">Home</a></li>
-<li class="product"><a href="../products/index-2.html">Products</a></li>
-<li class="corporate-profile"><a href="http://keal.com.bd/about.html">Contact Us</a></li>
-<li class="function-area"><div class="search">
-    
-    <form action="https://omron.keal.com.bd/sphider/search.php" method="get">       
-<input type="text" name="query" id="query" size="40" value="" />
-      <input type="submit" value="Search" /> <input type="hidden"
-      name="search" value="1" />
-    </form>
-    
-    </div>
+<li class="home stay"><a href="../../../index.php">Home</a></li>
+<li class="product"><a href="../../../products/index.html">Products</a></li>
+<li class="corporate-profile"><a href="../../../view/contact/input.php">Contact Us</a></li>
+<li class="function-area"><div class="search"><form action="http://search2.ia.omron.com/IA/" method="get" name="search_website" id="search_website" class="search-form">
+                    <p><input type="text" value="" size="20" name="q" id="search_str" class="search-str" /><input type="submit" value="Search" class="submit60L" id=""  /></p>
+                </form></div>
 </li>
 </ul>
 </div>
 <div class="bread-crumb-area">
 <ul>
 
-<li><a href="../index.php" >Home</a><span class="separator">&gt;</span></li>
+<li><a href="../index.html" >Home</a><span class="separator">&gt;</span></li>
 
 <li><strong>Products</strong></li>
 
@@ -140,12 +134,15 @@
 					<span style="color: rgb(85, 85, 85); font-family: Arial, sans-serif; font-size: 12px; line-height: 16px; background-color: rgb(244, 244, 244);">Product search is now easier with our new Suggest Function.</span>
 				</p>
 
-        <form action="https://omron.keal.com.bd/sphider/search.php" method="get">       
-<input type="text" name="query" id="query" size="40" value="" />
-      <input type="submit" value="Search" /> <input type="hidden"
-      name="search" value="1" />
-    </form>
-
+        <form action="http://www.ia.omron.com/view/search/product/index.cgi" method="get" name="search_product" id="search_product" class="search-form">
+            <div class="input-block">
+                <input type="hidden" name="headForm:doSearch" value="search" />
+                <p>
+                    <input type="text" value="" size="20" name="keyword" id="keyword" class="search-str" autocomplete="off" />
+                </p>
+                <p>
+                    <input type="submit" value="Product Search" class="submit120D" id="doSearch">
+                </p>
                 <div class="suggest-form">
                     <div class="suggest-list" id="suggest-list1">
                         <div class="suggestBox1" id="suggestBox1" style="display: none;"></div>
@@ -169,7 +166,7 @@
                 </p>
             <!-- /.option-block -->
             </div>
-    
+        </form>
     <!-- /.description -->
     </div>
 <!-- /.search-blockA01 -->
