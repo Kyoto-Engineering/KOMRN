@@ -18,9 +18,7 @@ if(isset($_POST['inputForm:doConfirm']))
             		   "Inquiry Product  : ".$_POST['inputForm:productsType']."\r\n".
                      "Inquiry Product Model  : ".$_POST['inputForm:productModel']."\r\n\r\n".
                      
-            		   
-            		   
-            		   
+            
             		  "Inquiry Deacription: " .$_POST['inputForm:description-textarea']."\r\n\r\n";
             		    
             		    
@@ -34,8 +32,8 @@ if(isset($_POST['inputForm:doConfirm']))
 
             'MIME-Version: 1.0'."\r\n\r\n";
 
-            mail("<$to_mail>", "$email_subject","$email_message", "$headers"); 
-}        
+         
+
 ?>
 
 
@@ -66,8 +64,7 @@ function validateForm() {
         return false;
    }
    
- 
-   
+
    
    
       var x = document.forms["inputForm"]["inputForm:productModel"].value;
@@ -112,10 +109,7 @@ function validateForm() {
    
    
    
-   
-  
-   
-   
+
    
      var x = document.forms["inputForm"]["inputForm:userAddress"].value;
     if (x == null || x == "") {
@@ -136,8 +130,6 @@ var x = document.forms["inputForm"]["inputForm:userTel"].value;
         alert("Please fill out the Fax field.");
         return false;
    }
-
-
 
 
     var x = document.forms["inputForm"]["inputForm:userEmail"].value;
@@ -219,7 +211,14 @@ var x = document.forms["inputForm"]["inputForm:userTel"].value;
 <!-- === [bread-crumb-area] === -->
 <div class="bread-crumb-area">
 <!--+bread-crumb-->
-<ul><li><a shape="rect" href="../../index.php">Home</a><span class="separator"></span></li><li>Contact<span id="addTitleText"></span></li></ul>
+<ul>
+<li>
+<a shape="rect" href="../../index.php">Home</a>
+<span class="separator"></span>
+</li>
+<li>Contact<span id="addTitleText"></span>
+</li>
+</ul>
 <!--+/bread-crumb-->
 <!-- === /[bread-crumb-area] === --></div>
 
