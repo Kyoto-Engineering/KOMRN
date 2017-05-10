@@ -1,0 +1,3543 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<html xml:lang="en" lang="en" xmlns="http://www.w3.org/1999/xhtml">
+    
+<!-- Mirrored from www.ia.omron.com/products/family/3192/specification.html by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 16 Dec 2016 06:36:52 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=utf-8" /><!-- /Added by HTTrack -->
+<head>
+
+<link rel="stylesheet" type="text/css" media="all" href="../../../css/index.css"/>
+	<link rel="stylesheet" type="text/css" media="all" href="../../../css/top.css"/>
+
+        <meta http-equiv="Content-Language" content="en" />
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <meta http-equiv="Content-Style-Type" content="text/css" />
+        <meta http-equiv="Content-Script-Type" content="text/javascript" />
+        <title>
+            NX-PG0[][][] NX-series Pulse Output Unit/Specifications | OMRON By Kyoto Engineering &amp; Automation
+        </title>
+        <meta name="keywords" content="Automation Systems,Machine Automation Controllers,EtherCAT Slave Terminals NX-Series,Position Interface Unit,NX-PG0[][][]" />
+        <meta name="description" content="NX-series Pulse Output Unit Positioning with Pulse Input Type Motor Drivers Such As Stepper Motor Drive" />
+        
+
+<link rel="alternate" href="../../../index.html" hreflang="en" />
+<link rel="stylesheet" type="text/css" media="all" href="../../../resources/css/common22f8.css?201611151200" />
+<link rel="stylesheet" type="text/css" media="all" href="../../../resources/css/global/common22f8.css?201611151200" />
+<link rel="stylesheet" type="text/css" media="all" href="../../../resources/css/frame_utility_tridion22f8.css?201611151200" />
+<link rel="stylesheet" type="text/css" media="print" href="../../../resources/css/print22f8.css?201611151200" />
+<script type="text/javascript" src="../../../resources/js/jquery22f8.js?201611151200"></script>
+<script type="text/javascript" src="../../../resources/js/function22f8.js?201611151200"></script>
+<script type="text/javascript" src="../../../resources/js/country_website22f8.js?201611151200"></script>
+<script type="text/javascript" src="../../../resources/js/global/ga22f8.js?201611151200"></script>
+<link rel="stylesheet" type="text/css" media="all" href="../../../resources/css/jquery-ui22f8.css?201611151200" charset='UTF-8'/>
+<link rel="stylesheet" type="text/css" media="all" href="../../../resources/css/jquery.multiselect22f8.css?201611151200" charset='UTF-8'/>
+<script type="text/javascript" language="JavaScript" src="../../../common/js/marketing_tag22f8.js?201611151200"></script>
+<script type="text/javascript" src="../../../resources/js/jquery-ui.min22f8.js?201611151200" charset='UTF-8'></script>
+<script type="text/javascript" src="../../../resources/js/jquery.ex-table-filter22f8.js?201611151200" charset='UTF-8'></script>
+<script type="text/javascript" src="../../../resources/js/jquery.tablesorter.min22f8.js?201611151200" charset='UTF-8'></script>
+<script type="text/javascript" src="../../../resources/js/filter22f8.js?201611151200" charset='UTF-8'></script>
+<link rel="shortcut icon" href="../../../resources/images/favicon.ico" type="image/x-icon" />
+
+        <link rel="stylesheet" type="text/css" media="all" href="../../../resources/css/tablesorter6c9b.css?201611150900" />
+        <script type="text/javascript" src="../../../resources/js/global/products6c9b.js?201611150900" charset='UTF-8'></script>
+
+    </head>
+    <body id="www-ia-omron-com" class="layoutC03 automation-systems">
+
+        <!-- === [omron-ia] === -->
+        <div class="omron-ia">
+            <p class="non-visual">
+                <a name="page-top" id="page-top">
+                    Page top
+                </a>
+            </p>
+
+
+
+
+<div class="header-area">
+     <div class="site-identity">
+          <div class="site-logo">
+               <a href="../../../index.php"><img src="../../../images/logo_01_b13-260967.gif"  width="129" height="24" alt="OMRON" /></a>
+          </div>
+          <!-- /.site-identity -->
+     </div>
+     <div class="utilities">
+		<div class="country-select-area">
+			<p class="canpany">Building Automation</p>
+                        <?php echo '&nbsp' ; ?>
+                        <br/>
+                        <p class="canpany">Industrial Automation</p>
+                        <?php echo '&nbsp' ; ?>
+                        <br/>
+                        <p class="canpany">Power Automation &amp; Safety </p>
+			
+		</div>
+            
+            <div class="japani">
+                <img  src="../../../shared/img/Japani Technology mnemonic.png" width="90" height="50" alt=""/>
+            </div>
+          
+            
+            
+            <div class="flag">
+            <img src="../../../shared/img/Bangladesh-Flag_1.png" alt=""/>
+            </div>
+            <div class="kyoto">
+                <p><b>Bangladesh Distributor</b></p>
+                <img style="margin-left:-5px;"  src="../../../shared/img/Kyoto-logo-Png.png" alt=""/>
+            </div>
+	<!-- /.utilities --> </div>
+	<!-- /.header-area --></div>
+
+
+<div class="global-navi-area">
+<ul>
+<li class="home stay"><a href="../../../index.php">Home</a></li>
+<li class="product"><a href="../../../products/index.html">Products</a></li>
+<li class="corporate-profile"><a href="../../../view/contact/input.php">Contact Us</a></li>
+<li class="function-area"><div class="search"><form action="https://omron.keal.com.bd/sphider/search.php" method="get">       
+<input type="text" name="query" id="query" size="40" value="" />
+      <input type="submit" value="Search" /> <input type="hidden"
+      name="search" value="1" />
+    </form>
+</div>
+</li>
+</ul>
+</div> 
+<div class="bread-crumb-area">
+<ul>
+
+
+<li><a href="../../../index.php">Home</a><span class="separator">&gt;</span></li>
+
+<li><a href="../../index-2.html" >Products</a><span class="separator">&gt;</span></li>
+
+<li><a href="../../category/index.html" >Product Category</a><span class="separator">&gt;</span></li>
+
+<li><a href="../../category/automation-systems/index-2.html" >Automation Systems</a><span class="separator">&gt;</span></li>
+
+<li><a href="../../category/automation-systems/machine-automation-controllers/index-2.html" >Machine Automation Controllers</a><span class="separator">&gt;</span></li>
+
+<li><a href="../../category/automation-systems/machine-automation-controllers/ethercat-slave-terminals-nx-series/index.html" >EtherCAT Slave Terminals NX-Series</a><span class="separator">&gt;</span></li>
+
+<li><a href="../../category/automation-systems/machine-automation-controllers/ethercat-slave-terminals-nx-series/position-interface-unit/index.html" >Position Interface Unit</a><span class="separator">&gt;</span></li>
+
+<li><strong>NX-PG0[][][]</strong></li>
+
+
+</ul>
+</div>
+
+            <!-- === [contents-area] === -->
+            <div class="contents-area">
+
+                <!-- === [inner-contents-area] === -->
+                <div class="inner-contents-area">
+                    <!-- === [upper-contents-area] === -->
+                    <div class="upper-contents-area">
+                        <!-- === [lead-area] === -->
+                        <div class="lead-area">
+
+
+
+
+<!-- --------------------------------------------------------------------Product Family Start--------------------------------------------------------- -->
+<div class="heading-h1">
+
+
+    <h1>
+        NX-PG0[][][]
+    </h1>
+    <p class="sub-title">
+        NX-series Pulse Output Unit
+    </p>
+</div>
+<div class="image-blockA01">
+    <div class="image-left">
+        <p class="image">
+
+            <img src="../../../images/l_3192-13-171936-198x198.jpg" width="198" height="198" alt="NX-PG0[][][]" class="nopic" />
+
+
+        </p>
+    </div>
+    <div class="description">
+        <h2 class="heading-B02">
+            Positioning with Pulse Input Type Motor Drivers Such As Stepper Motor Drive
+        </h2>
+        
+
+
+
+
+        <div class="item-list-link">
+            <p>
+                <a href="itemlist/index.html">
+                    <img src="../../../resources/images/icon_right_b.gif" width="3" height="9" alt="" class="iconA01" />
+                    Item list of NX-PG0[][][]
+                </a>
+            </p>
+        </div>
+    </div>
+<!-- /.image-blockA01 -->
+</div>
+
+
+
+                        </div>
+                        <!-- === /[lead-area] === -->
+
+
+                        <!-- === [utility-area] === -->
+                        <div class="utility-area">                         
+                       
+                            <div class="action-block">
+                                <p>
+                                    about this Product Family
+                                </p>
+                                <ul>
+                                    <li class="first-child">
+                                        <a href="../../../view/contact/input.php">
+                                            Inquiry of this Product
+                                        </a>
+                                    </li>                                 
+                                </ul>
+                            </div>
+
+
+
+
+<div class="related-info-blockA01 vertical-slide">
+
+    <p>
+        <span>Related Contents</span>
+    </p>
+
+
+        
+
+        <ul>
+            <li class="first-child">
+                <span>Automation Systems</span>
+            </li>
+            <li>
+                <ul class="list-indent01">
+
+
+                    <li class="first-child">
+
+
+                        <a href="../../applications/category/automation-systems/index.html">
+                            <img src="../../../resources/images/icon_right_b.gif" width="3" height="9" alt="" class="iconA01" />
+                            Applications 
+                        </a>
+                    </li>
+
+                </ul>
+            </li>
+        </ul>
+
+        <ul>
+            <li class="first-child">
+                <span>Machine Automation Controllers</span>
+            </li>
+            <li>
+                <ul class="list-indent01">
+
+
+                    <li class="first-child">
+
+
+                        <a href="../../index/automation-systems/machine-automation-controllers/index.html">
+                            <img src="../../../resources/images/icon_right_b.gif" width="3" height="9" alt="" class="iconA01" />
+                            Item A to Z Index 
+                        </a>
+                    </li>
+
+
+
+                    <li>
+
+                        <a href="../../../support/glossary/automation-systems/machine-automation-controllers/index.html">
+                            <img src="../../../resources/images/icon_right_b.gif" width="3" height="9" alt="" class="iconA01" />
+                            Glossary of Industrial Automation 
+                        </a>
+                    </li>
+
+                </ul>
+            </li>
+        </ul>
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- /.related-info-blockA01 -->
+</div>
+
+
+
+                           
+                        </div>
+                        <!-- === /[utility-area] === -->
+
+                    </div>
+                    <!-- === /[upper-contents-area] === -->
+
+                    <!-- === [primary-contents-area] === -->
+                    <div class="primary-contents-area">
+                        <div class="tabpanel-blockA01">
+
+
+
+
+
+
+<div class="tab-block">
+    <ul class="tabs">
+
+
+
+
+
+
+
+        <li>
+            <a href="feature.html">Features</a>
+
+        </li>
+
+
+
+
+
+
+
+
+        <li>
+            <a href="lineup.html">Lineup</a>
+
+        </li>
+
+
+
+
+
+
+
+
+        <li class="active">
+            <span>Specifications</span>
+
+        </li>
+
+
+
+
+
+
+
+
+        <li>
+            <a href="dimension.html">Dimensions</a>
+
+        </li>
+
+
+
+
+
+
+        <li>
+            <a href="download/catalog.html">Catalog</a>
+
+        </li>
+
+
+
+
+
+    </ul>
+</div><!-- /.tab-block -->
+
+<div class="editable-block">
+
+
+<p class="date-line">last update: October 11, 2016</p>
+
+
+
+
+
+
+
+
+<h4 class="heading-A01">General Specification</h4>
+
+
+
+
+
+
+
+
+
+
+
+<div class="component-blockA01">
+
+
+
+
+
+    <div class="text">
+        <p>
+            
+						<div class="table-blockA01">
+							<table class="tableA01" cellspacing="0" border="0">
+								<tr class="first-child">
+									<th colspan="2" rowspan="1" class="heading center middle"><strong>Item</strong></th>
+									<th class="heading center middle"><strong>Specification</strong></th>
+								</tr>
+								<tr>
+									<th colspan="2" rowspan="1" class="heading left middle"><strong>Enclosure</strong></th>
+									<td class="left middle">Mounted in a panel</td>
+								</tr>
+								<tr>
+									<th colspan="2" rowspan="1" class="heading left middle"><strong>Grounding method</strong></th>
+									<td class="left middle">Ground to less than 100 Ω or less</td>
+								</tr>
+								<tr>
+									<th colspan="1" rowspan="11" class="heading left middle"><strong>Operating
+<br />
+environment</strong></th>
+									<th class="heading left middle"><strong>Ambient operating
+<br />
+temperature</strong></th>
+									<td class="left middle">0 to 55°C</td>
+								</tr>
+								<tr>
+									<th class="heading left middle"><strong>Ambient operating
+<br />
+humidity</strong></th>
+									<td class="left middle">10% to 95% (with no condensation or icing)</td>
+								</tr>
+								<tr>
+									<th class="heading left middle"><strong>Atmosphere</strong></th>
+									<td class="left middle">Must be free from corrosive gases.</td>
+								</tr>
+								<tr>
+									<th class="heading left middle"><strong>Ambient storage
+<br />
+temperature</strong></th>
+									<td class="left middle">-25 to 70°C (with no condensation or icing)</td>
+								</tr>
+								<tr>
+									<th class="heading left middle"><strong>Altitude</strong></th>
+									<td class="left middle">2,000 m max.</td>
+								</tr>
+								<tr>
+									<th class="heading left middle"><strong>Pollution degree</strong></th>
+									<td class="left middle">Pollution degree 2 or less: Conforms to JIS B3502 and IEC 61131-2.</td>
+								</tr>
+								<tr>
+									<th class="heading left middle"><strong>Noise immunity</strong></th>
+									<td class="left middle">Conforms to IEC61000-4-4, 2 kV (power supply line)</td>
+								</tr>
+								<tr>
+									<th class="heading left middle"><strong>Overvoltage category</strong></th>
+									<td class="left middle">Category II: Conforms to JIS B3502 and IEC 61131-2.</td>
+								</tr>
+								<tr>
+									<th class="heading left middle"><strong>EMC immunity level</strong></th>
+									<td class="left middle">Zone B</td>
+								</tr>
+								<tr>
+									<th class="heading left middle"><strong>Vibration resistance</strong></th>
+									<td class="left middle">Conforms to IEC 60068-2-6.
+<br />
+5 to 8.4 Hz with 3.5-mm amplitude, 8.4 to 150 Hz, acceleration of 9.8 m/s<sup>2</sup>,
+<br />
+100 min each in X, Y, and Z directions (10 sweeps of 10 min each = 100 min
+<br />
+total)</td>
+								</tr>
+								<tr>
+									<th class="heading left middle"><strong>Shock resistance</strong></th>
+									<td class="left middle">Conforms to IEC 60068-2-27. 147 m/s<sup>2</sup>, 3 times each in X, Y, and Z
+<br />
+directions</td>
+								</tr>
+								<tr>
+									<th colspan="2" rowspan="1" class="heading left middle"><strong>Applicable standards</strong></th>
+									<td class="left middle">cULus: Listed (UL508 or UL61010-2-201), ANSI/ISA 12.12.01,
+<br />
+EU: EN 61131-2, C-Tick or RCM, KC (KC Registration), NK, and LR</td>
+								</tr>
+							</table>
+						</div>
+					
+        </p>
+    </div>
+
+
+
+
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="component-blockA01">
+
+
+
+
+
+    <div class="text">
+        <p>
+            *Consult your OMRON representative for the most recent applicable standards for each model.
+        </p>
+    </div>
+
+
+
+
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<h4 class="heading-A01">Specification</h4>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<h4 class="heading-A02">Pulse Output Units (Open collector output, NPN type) NX-PG0112</h4>
+
+
+
+
+
+
+
+
+
+
+<div class="component-blockA01">
+
+
+
+
+
+    <div class="text">
+        <p>
+            
+						<div class="table-blockA01">
+							<table class="tableA01" cellspacing="0" border="0">
+								<tbody>
+									<tr class="first-child">
+										<th colspan="2" rowspan="1" class="heading left middle"><strong>Unit name</strong></th>
+										<td class="left middle">Pulse Output Units</td>
+										<th class="heading left middle"><strong>Model</strong></th>
+										<td class="left middle">NX-PG0112</td>
+									</tr>
+									<tr>
+										<th colspan="2" rowspan="1" class="heading left middle"><strong>Number of axes</strong></th>
+										<td class="left middle">1</td>
+										<th class="heading left middle"><strong>Type of external
+<br />
+connections</strong></th>
+										<td class="left middle">Screwless clamping terminal
+<br />
+block (16 terminals)</td>
+									</tr>
+									<tr>
+										<th colspan="2" rowspan="1" class="heading left middle"><strong>I/O refreshing method *1</strong></th>
+										<td colspan="3" rowspan="1" class="left middle">Synchronous I/O refreshing or task period prioritized refreshing</td>
+									</tr>
+									<tr>
+										<th colspan="2" rowspan="1" class="heading left middle"><strong>Indicators</strong></th>
+										<td class="left middle"><img src="../../../images/3192_sp_3_113-224905.gif"  alt="3192_sp_3_1" title="3192_sp_3_1" style="width: 89px; height: 108px;" /></td>
+										<th class="heading left middle"><strong>I/O signals</strong></th>
+										<td class="left middle">Inputs: 2, External inputs
+<br />
+Outputs: 3, The outputs are
+<br />
+the forward direction
+<br />
+pulse output, reverse direction pulse
+<br />
+output, and external output
+<br />
+(one of each output).</td>
+									</tr>
+									<tr>
+										<th colspan="2" rowspan="1" class="heading left middle"><strong>Control method</strong></th>
+										<td colspan="3" rowspan="1" class="left middle">Open-loop control through pulse string output</td>
+									</tr>
+									<tr>
+										<th colspan="2" rowspan="1" class="heading left middle"><strong>Controlled drive</strong></th>
+										<td colspan="3" rowspan="1" class="left middle">Servo drive with a pulse string input or a stepper motor drive</td>
+									</tr>
+									<tr>
+										<th colspan="2" rowspan="1" class="heading left middle"><strong>Pulse output form</strong></th>
+										<td colspan="3" rowspan="1" class="left middle">Open collector output</td>
+									</tr>
+									<tr>
+										<th colspan="2" rowspan="1" class="heading left middle"><strong>Control unit</strong></th>
+										<td colspan="3" rowspan="1" class="left middle">Pulses</td>
+									</tr>
+									<tr>
+										<th colspan="2" rowspan="1" class="heading left middle"><strong>Maximum pulse output
+<br />
+speed</strong></th>
+										<td colspan="3" rowspan="1" class="left middle">500kpps</td>
+									</tr>
+									<tr>
+										<th colspan="2" rowspan="1" class="heading left middle"><strong>Pulse output method</strong></th>
+										<td colspan="3" rowspan="1" class="left middle">Forward/reverse direction pulse outputs or pulse + direction outputs</td>
+									</tr>
+									<tr>
+										<th colspan="2" rowspan="1" class="heading left middle"><strong>Position control range</strong></th>
+										<td colspan="3" rowspan="1" class="left middle">-2,147,483,648 to 2,147,483,647 pulses</td>
+									</tr>
+									<tr>
+										<th colspan="2" rowspan="1" class="heading left middle"><strong>Velocity control range</strong></th>
+										<td colspan="3" rowspan="1" class="left middle">1 to 500,000 pps</td>
+									</tr>
+									<tr>
+										<th colspan="5" rowspan="1" class="heading left middle"><strong>Positioning *2</strong></th>
+									</tr>
+									<tr>
+										<th colspan="1" rowspan="5" class="heading center middle" />
+										<th class="heading left middle"><strong>Single-axis position
+<br />
+control</strong></th>
+										<td colspan="3" rowspan="1" class="left middle">Absolute positioning, relative positioning, and interrupt feeding</td>
+									</tr>
+									<tr>
+										<th class="heading left middle"><strong>Single-axis velocity
+<br />
+control</strong></th>
+										<td colspan="3" rowspan="1" class="left middle">Velocity control (velocity feeding in Position Control Mode)</td>
+									</tr>
+									<tr>
+										<th class="heading left middle"><strong>Single-axis
+<br />
+synchronized control</strong></th>
+										<td colspan="3" rowspan="1" class="left middle">Cam operation and gear operation</td>
+									</tr>
+									<tr>
+										<th class="heading left middle"><strong>Single-axis manual
+<br />
+operation</strong></th>
+										<td colspan="3" rowspan="1" class="left middle">Jogging</td>
+									</tr>
+									<tr>
+										<th class="heading left middle"><strong>Auxiliary function for
+<br />
+single-axis control</strong></th>
+										<td colspan="3" rowspan="1" class="left middle">Homing, stopping, and override changes</td>
+									</tr>
+									<tr>
+										<th colspan="5" rowspan="1" class="heading left middle"><strong>External input specifications</strong></th>
+									</tr>
+									<tr>
+										<th colspan="1" rowspan="4" class="heading center middle" />
+										<th class="heading left middle"><strong>Input voltage</strong></th>
+										<td class="left middle">20.4 to 28.8 VDC
+<br />
+(24 VDC +20%/-15%)</td>
+										<th class="heading left middle"><strong>ON voltage/
+<br />
+ON current</strong></th>
+										<td class="left middle">15 VDC min./3 mA min.</td>
+									</tr>
+									<tr>
+										<th class="heading left middle"><strong>Input current</strong></th>
+										<td class="left middle">4.6 mA typical (24 VDC)</td>
+										<th class="heading left middle"><strong>OFF voltage/OFF
+<br />
+current</strong></th>
+										<td class="left middle">4.0 VDC max./1 mA max.</td>
+									</tr>
+									<tr>
+										<th class="heading left middle"><strong>ON/OFF response time</strong></th>
+										<td colspan="3" rowspan="1" class="left middle">1 μs max./2 μs max.</td>
+									</tr>
+									<tr>
+										<th class="heading left middle"><strong>Internal I/O common
+<br />
+processing</strong></th>
+										<td colspan="3" rowspan="1" class="left middle">NPN</td>
+									</tr>
+									<tr>
+										<th colspan="5" rowspan="1" class="heading left middle"><strong>Pulse output and external output specifications</strong></th>
+									</tr>
+									<tr>
+										<th colspan="1" rowspan="5" class="heading left middle" />
+										<th class="heading left middle"><strong>Rated voltage</strong></th>
+										<td colspan="3" rowspan="1" class="left middle">24 VDC</td>
+									</tr>
+									<tr>
+										<th class="heading left middle"><strong>Load voltage range</strong></th>
+										<td class="left middle">15 to 28.8 VDC</td>
+										<th class="heading left middle"><strong>Residual voltage</strong></th>
+										<td class="left middle">1.0 V max.</td>
+									</tr>
+									<tr>
+										<th class="heading left middle"><strong>Maximum load current</strong></th>
+										<td class="left middle">30mA</td>
+										<th class="heading left middle"><strong>Leakage current</strong></th>
+										<td class="left middle">0.1 mA max.</td>
+									</tr>
+									<tr>
+										<th class="heading left middle"><strong>ON/OFF response time</strong></th>
+										<td colspan="3" rowspan="1" class="left middle">Pulse output: Refer to “NX-series Position Interface Units User’s Manual (W524-E1)”.
+<br />
+External output: 5 μs max./5 μs max.</td>
+									</tr>
+									<tr>
+										<th class="heading left middle"><strong>Internal I/O common
+<br />
+processing</strong></th>
+										<td colspan="3" rowspan="1" class="left middle">NPN</td>
+									</tr>
+									<tr>
+										<th colspan="2" rowspan="1" class="heading left middle"><strong>Dimensions</strong></th>
+										<td class="left middle">12 × 100 × 71 mm
+<br />
+(W×H×D)</td>
+										<th class="heading left middle"><strong>Isolation
+<br />
+method</strong></th>
+										<td class="left middle">External inputs:
+<br />
+Photocoupler isolation
+<br />
+External outputs:
+<br />
+Digital isolator</td>
+									</tr>
+									<tr>
+										<th colspan="2" rowspan="1" class="heading left middle"><strong>Insulation resistance</strong></th>
+										<td class="left middle">20 MΩ min. between isolated
+<br />
+circuits (at 100 VDC)</td>
+										<th class="heading left middle"><strong>Dielectric
+<br />
+strength</strong></th>
+										<td class="left middle">510 VAC between isolated
+<br />
+circuits for 1minute with
+<br />
+leakage current of 5 mA max.</td>
+									</tr>
+									<tr>
+										<th colspan="2" rowspan="1" class="heading left middle"><strong>I/O power supply source</strong></th>
+										<td class="left middle">Supplied from the NX bus.
+<br />
+20.4 to 28.8 VDC
+<br />
+(24 VDC +20%/-15%)</td>
+										<th class="heading left middle"><strong>Current capacity
+<br />
+of I/O power
+<br />
+supply terminals</strong></th>
+										<td class="left middle">IOV: 0.1 A max. per terminal
+<br />
+IOG: 0.1 A max. per terminal</td>
+									</tr>
+									<tr>
+										<th colspan="2" rowspan="1" class="heading left middle"><strong>NX Unit power
+<br />
+consumption</strong></th>
+										<td class="left middle">• Connected to a CPU Unit
+<br />
+1.15 W max.
+<br />
+• Connected to a Commu-
+<br />
+nications Coupler Unit
+<br />
+0.80 W max.</td>
+										<th class="heading left middle"><strong>Current
+<br />
+consumption from
+<br />
+I/O power supply</strong></th>
+										<td class="left middle">20 mA max.</td>
+									</tr>
+									<tr>
+										<th colspan="2" rowspan="1" class="heading left middle"><strong>Weight</strong></th>
+										<td class="left middle">70 g max.</td>
+										<th class="heading left middle"><strong>Cable length</strong></th>
+										<td class="left middle">3 m max.</td>
+									</tr>
+									<tr>
+										<th colspan="2" rowspan="1" class="heading left middle"><strong>Circuit layout</strong></th>
+										<td colspan="3" rowspan="1" class="left middle"><img src="../../../images/3192_sp_3_213-224906.gif"  alt="3192_sp_3_2" title="3192_sp_3_2" style="width: 488px; height: 355px;" /></td>
+									</tr>
+									<tr>
+										<th colspan="2" rowspan="1" class="heading left middle"><strong>Installation orientation
+<br />
+and restrictions</strong></th>
+										<td colspan="3" rowspan="1" class="left middle">Installation orientation:
+<br />
+• Connected to a CPU Unit: Possible in upright installation.
+<br />
+• Connected to a Communications Coupler Unit: Possible in 6 orientations.
+<br />
+Restrictions: There are no restrictions.</td>
+									</tr>
+									<tr>
+										<th colspan="2" rowspan="1" class="heading left middle"><strong>Terminal connection
+<br />
+diagram</strong></th>
+										<td colspan="3" rowspan="1" class="left middle"><img src="../../../images/3192_sp_3_313-224904.gif"  alt="3192_sp_3_3" title="3192_sp_3_3" style="width: 219px; height: 161px;" /></td>
+									</tr>
+									<tr>
+										<th colspan="2" rowspan="1" class="heading left middle"><strong>Failure detection</strong></th>
+										<td class="left middle">None</td>
+										<th class="heading left middle"><strong>Protection</strong></th>
+										<td class="left middle">None</td>
+									</tr>
+								</tbody>
+							</table>
+						</div>
+					
+        </p>
+    </div>
+
+
+
+
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="component-blockA01">
+
+
+
+
+
+    <div class="text">
+        <p>
+            *1. The I/O refreshing method is automatically set according to the connected Communications Coupler Unit and CPU
+<br />
+      Unit.
+<br />
+*2. These functions are supported when you also use the MC Function Module in the NJ/NX-series CPU Unit or the
+<br />
+      NY-series Industrial PC.
+<br />
+      For details, refer to the motion control user’s manual for the connected CPU Unit or Industrial PC.
+<br />
+      A Pulse Output Unit only outputs pulses during the control period based on commands received at a fixed period.
+<br />
+      Target position calculations (distribution calculations) for acceleration/deceleration control or for each control
+<br />
+      period must be performed on the Controller.
+        </p>
+    </div>
+
+
+
+
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<h4 class="heading-A02">Pulse Output Units (Open collector output, NPN type) NX-PG0122</h4>
+
+
+
+
+
+
+
+
+
+
+<div class="component-blockA01">
+
+
+
+
+
+    <div class="text">
+        <p>
+            
+          <div class="table-blockA01">
+							<table class="tableA01" cellspacing="0" border="0">
+								<tbody>
+									<tr class="first-child">
+										<th colspan="2" rowspan="1" class="heading left middle"><strong>Unit name</strong></th>
+										<td class="left middle">Pulse Output Units</td>
+										<th class="heading left middle"><strong>Model</strong></th>
+										<td class="left middle">NX-PG0122</td>
+									</tr>
+									<tr>
+										<th colspan="2" rowspan="1" class="heading left middle"><strong>Number of axes</strong></th>
+										<td class="left middle">1</td>
+										<th class="heading left middle"><strong>Type of external
+<br />
+connections</strong></th>
+										<td class="left middle">Screwless push-in terminal
+<br />
+block (16 terminals)</td>
+									</tr>
+									<tr>
+										<th colspan="2" rowspan="1" class="heading left middle"><strong>I/O refreshing method *1</strong></th>
+										<td colspan="3" rowspan="1" class="left middle">Synchronous I/O refreshing or task period prioritized refreshing</td>
+									</tr>
+									<tr>
+										<th colspan="2" rowspan="1" class="heading left middle"><strong>Indicators</strong></th>
+										<td class="left middle"><img src="../../../images/3192_sp_2_113-172274.gif"  alt="3192_sp_2_1" title="3192_sp_2_1" style="width: 89px; height: 107px;" /></td>
+										<th class="heading left middle"><strong>I/O signals</strong></th>
+										<td class="left middle">Inputs: 2, External inputs *2
+<br />
+Outputs: 3, The outputs are
+<br />
+the forward direction pulse
+<br />
+output, reverse direction
+<br />
+pulse output, and external
+<br />
+output *3 (one of each output).</td>
+									</tr>
+									<tr>
+										<th colspan="2" rowspan="1" class="heading left middle"><strong>Control method</strong></th>
+										<td colspan="3" rowspan="1" class="left middle">Open-loop control through pulse string output</td>
+									</tr>
+									<tr>
+										<th colspan="2" rowspan="1" class="heading left middle"><strong>Controlled drive</strong></th>
+										<td colspan="3" rowspan="1" class="left middle">Servo drive with a pulse train input or a stepper motor drive</td>
+									</tr>
+									<tr>
+										<th colspan="2" rowspan="1" class="heading left middle"><strong>Pulse output form</strong></th>
+										<td colspan="3" rowspan="1" class="left middle">Open collector output</td>
+									</tr>
+									<tr>
+										<th colspan="2" rowspan="1" class="heading left middle"><strong>Control unit</strong></th>
+										<td colspan="3" rowspan="1" class="left middle">Pulses</td>
+									</tr>
+									<tr>
+										<th colspan="2" rowspan="1" class="heading left middle"><strong>Maximum pulse output
+<br />
+speed</strong></th>
+										<td colspan="3" rowspan="1" class="left middle">500kpps</td>
+									</tr>
+									<tr>
+										<th colspan="2" rowspan="1" class="heading left middle"><strong>Pulse output method</strong></th>
+										<td colspan="3" rowspan="1" class="left middle">Forward/reverse direction pulse outputs or pulse + direction outputs</td>
+									</tr>
+									<tr>
+										<th colspan="2" rowspan="1" class="heading left middle"><strong>Position control range</strong></th>
+										<td colspan="3" rowspan="1" class="left middle">-2,147,483,648 to 2,147,483,647 pulses</td>
+									</tr>
+									<tr>
+										<th colspan="2" rowspan="1" class="heading left middle"><strong>Velocity control range</strong></th>
+										<td colspan="3" rowspan="1" class="left middle">1 to 500,000 pps</td>
+									</tr>
+									<tr>
+										<th colspan="5" rowspan="1" class="heading left middle"><strong>Positioning *2</strong></th>
+									</tr>
+									<tr>
+										<th colspan="1" rowspan="5" class="heading center middle" />
+										<th class="heading left middle"><strong>Single-axis position
+<br />
+control</strong></th>
+										<td colspan="3" rowspan="1" class="left middle">Absolute positioning, relative positioning, and interrupt feeding</td>
+									</tr>
+									<tr>
+										<th class="heading left middle"><strong>Single-axis velocity
+<br />
+control</strong></th>
+										<td colspan="3" rowspan="1" class="left middle">Velocity control (velocity feeding in Position Control Mode)</td>
+									</tr>
+									<tr>
+										<th class="heading left middle"><strong>Single-axis
+<br />
+synchronized control</strong></th>
+										<td colspan="3" rowspan="1" class="left middle">Cam operation and gear operation</td>
+									</tr>
+									<tr>
+										<th class="heading left middle"><strong>Single-axis manual
+<br />
+operation</strong></th>
+										<td colspan="3" rowspan="1" class="left middle">Jogging</td>
+									</tr>
+									<tr>
+										<th class="heading left middle"><strong>Auxiliary function for
+<br />
+single-axis control</strong></th>
+										<td colspan="3" rowspan="1" class="left middle">Homing, stopping, and override changes</td>
+									</tr>
+									<tr>
+										<th colspan="5" rowspan="1" class="heading left middle"><strong>External input specifications</strong></th>
+									</tr>
+									<tr>
+										<th colspan="1" rowspan="4" class="heading center middle" />
+										<th class="heading left middle"><strong>Input voltage</strong></th>
+										<td class="left middle">20.4 to 28.8 VDC
+<br />
+(24 VDC +20%/-15%)</td>
+										<th class="heading left middle"><strong>ON voltage/
+<br />
+ON current</strong></th>
+										<td class="left middle">15 VDC min./3 mA min.</td>
+									</tr>
+									<tr>
+										<th class="heading left middle"><strong>Input current</strong></th>
+										<td class="left middle">4.6 mA typical (24 VDC)</td>
+										<th class="heading left middle"><strong>OFF voltage/OFF
+<br />
+current</strong></th>
+										<td class="left middle">4.0 VDC max./1 mA max.</td>
+									</tr>
+									<tr>
+										<th class="heading left middle"><strong>ON/OFF response time</strong></th>
+										<td colspan="3" rowspan="1" class="left middle">1 μs max./2 μs max.</td>
+									</tr>
+									<tr>
+										<th class="heading left middle"><strong>Internal I/O common
+<br />
+processing</strong></th>
+										<td colspan="3" rowspan="1" class="left middle">PNP</td>
+									</tr>
+									<tr>
+										<th colspan="5" rowspan="1" class="heading left middle"><strong>External output specifications</strong></th>
+									</tr>
+									<tr>
+										<th colspan="1" rowspan="5" class="heading left middle" />
+										<th class="heading left middle"><strong>Rated voltage</strong></th>
+										<td colspan="3" rowspan="1" class="left middle">24 VDC</td>
+									</tr>
+									<tr>
+										<th class="heading left middle"><strong>Load voltage range</strong></th>
+										<td class="left middle">15 to 28.8 VDC</td>
+										<th class="heading left middle"><strong>Residual voltage</strong></th>
+										<td class="left middle">1.0 V max.</td>
+									</tr>
+									<tr>
+										<th class="heading left middle"><strong>Maximum load current</strong></th>
+										<td class="left middle">30mA</td>
+										<th class="heading left middle"><strong>Leakage current</strong></th>
+										<td class="left middle">0.1 mA max.</td>
+									</tr>
+									<tr>
+										<th class="heading left middle"><strong>ON/OFF response time</strong></th>
+										<td colspan="3" rowspan="1" class="left middle">Pulse output: Refer to “NX-series Position Interface Units User’s Manual (W524-E1)”.
+<br />
+5 μs max./5 μs max.</td>
+									</tr>
+									<tr>
+										<th class="heading left middle"><strong>Internal I/O common
+<br />
+processing</strong></th>
+										<td colspan="3" rowspan="1" class="left middle">PNP</td>
+									</tr>
+									<tr>
+										<th colspan="2" rowspan="1" class="heading left middle"><strong>Dimensions</strong></th>
+										<td class="left middle">12 × 100 × 71 mm
+<br />
+(W×H×D)</td>
+										<th class="heading left middle"><strong>Isolation
+<br />
+method</strong></th>
+										<td class="left middle">External inputs:
+<br />
+Photocoupler isolation
+<br />
+External outputs:
+<br />
+Digital isolator</td>
+									</tr>
+									<tr>
+										<th colspan="2" rowspan="1" class="heading left middle"><strong>Insulation resistance</strong></th>
+										<td class="left middle">20 MΩ min. between isolated
+<br />
+circuits (at 100 VDC)</td>
+										<th class="heading left middle"><strong>Dielectric
+<br />
+strength</strong></th>
+										<td class="left middle">510 VAC between isolated
+<br />
+circuits for 1minute with
+<br />
+leakage current of 5 mA max.</td>
+									</tr>
+									<tr>
+										<th colspan="2" rowspan="1" class="heading left middle"><strong>I/O power supply source</strong></th>
+										<td class="left middle">Supplied from the NX bus.
+<br />
+20.4 to 28.8 VDC
+<br />
+(24 VDC +20%/-15%)</td>
+										<th class="heading left middle"><strong>Current capacity
+<br />
+of I/O power
+<br />
+supply terminals</strong></th>
+										<td class="left middle">IOV: 0.1 A max. per terminal
+<br />
+IOG: 0.1 A max. per terminal</td>
+									</tr>
+									<tr>
+										<th colspan="2" rowspan="1" class="heading left middle"><strong>NX Unit power
+<br />
+consumption</strong></th>
+										<td class="left middle">• Connected to a CPU Unit
+<br />
+1.30 W max.
+<br />
+• Connected to a Commu-
+<br />
+nications Coupler Unit
+<br />
+0.90 W max.</td>
+										<th class="heading left middle"><strong>Current
+<br />
+consumption from
+<br />
+I/O power supply</strong></th>
+										<td class="left middle">20 mA max.</td>
+									</tr>
+									<tr>
+										<th colspan="2" rowspan="1" class="heading left middle"><strong>Weight</strong></th>
+										<td class="left middle">70 g max.</td>
+										<th class="heading left middle"><strong>Cable length</strong></th>
+										<td class="left middle">3 m max.</td>
+									</tr>
+									<tr>
+										<th colspan="2" rowspan="1" class="heading left middle"><strong>Circuit layout</strong></th>
+										<td colspan="3" rowspan="1" class="left middle"><img src="../../../images/3192_sp_2_213-172275.gif"  alt="3192_sp_2_2" title="3192_sp_2_2" style="width: 486px; height: 338px;" /></td>
+									</tr>
+									<tr>
+										<th colspan="2" rowspan="1" class="heading left middle"><strong>Installation orientation
+<br />
+and restrictions</strong></th>
+										<td colspan="3" rowspan="1" class="left middle">Installation orientation:
+<br />
+• Connected to a CPU Unit: Possible in upright installation.
+<br />
+• Connected to a Communications Coupler Unit: Possible in 6 orientations.
+<br />
+Restrictions: There are no restrictions.</td>
+									</tr>
+									<tr>
+										<th colspan="2" rowspan="1" class="heading left middle"><strong>Terminal connection
+<br />
+diagram</strong></th>
+										<td colspan="3" rowspan="1" class="left middle"><img src="../../../images/3192_sp_2_313-172271.gif"  alt="3192_sp_2_3" title="3192_sp_2_3" style="width: 218px; height: 159px;" /></td>
+									</tr>
+									<tr>
+										<th colspan="2" rowspan="1" class="heading left middle"><strong>Failure detection</strong></th>
+										<td class="left middle">None</td>
+										<th class="heading left middle"><strong>Protection</strong></th>
+										<td class="left middle">None</td>
+									</tr>
+								</tbody>
+							</table>
+						</div>
+        
+        </p>
+    </div>
+
+
+
+
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="component-blockA01">
+
+
+
+
+
+    <div class="text">
+        <p>
+            *1. The I/O refreshing method is automatically set according to the connected CPU Unit or Communications Coupler
+<br />
+      Unit.
+<br />
+*2. You can use the external inputs as latch inputs.
+<br />
+*3. You can use the external output as error counter reset outputs.
+<br />
+*4. These functions are supported when you also use the MC Function Module in the NJ/NX-series CPU Unit or the
+<br />
+      NY-series Industrial PC.
+<br />
+      For details, refer to the motion control user’s manual for the connected CPU Unit or Industrial PC.
+<br />
+      A Pulse Output Unit only outputs pulses during the control period based on commands received at a fixed period.
+<br />
+      Target position calculations (distribution calculations) for acceleration/deceleration control or for each control period
+<br />
+      must be performed on the Controller.
+        </p>
+    </div>
+
+
+
+
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<h4 class="heading-A02">Pulse Output Units (Line driver output, NPN type) 2 channels NX-PG0232-5</h4>
+
+
+
+
+
+
+
+
+
+
+<div class="component-blockA01">
+
+
+
+
+
+    <div class="text">
+        <p>
+            
+						<div class="table-blockA01">
+							<table class="tableA01" cellspacing="0" border="0">
+								<tbody>
+									<tr class="first-child">
+										<th colspan="2" rowspan="1" class="heading left middle"><strong>Unit name</strong></th>
+										<td class="left middle">Pulse Output Units</td>
+										<th class="heading left middle"><strong>Model</strong></th>
+										<td class="left middle">NX-PG0232-5</td>
+									</tr>
+									<tr>
+										<th colspan="2" rowspan="1" class="heading left middle"><strong>Number of channels</strong></th>
+										<td class="left middle">2 channels</td>
+										<th class="heading left middle"><strong>Type of external
+<br />
+connections</strong></th>
+										<td class="left middle">MIL connector (34 terminals ×1)</td>
+									</tr>
+									<tr>
+										<th colspan="2" rowspan="1" class="heading left middle"><strong>I/O refreshing method *1</strong></th>
+										<td colspan="3" rowspan="1" class="left middle">Synchronous I/O refreshing or task period prioritized refreshing</td>
+									</tr>
+									<tr>
+										<th colspan="2" rowspan="1" class="heading left middle"><strong>Indicators</strong></th>
+										<td class="left middle"><img src="../../../images/3192_sp_5_113-263507.gif"  alt="3192_sp_5_1" title="3192_sp_5_1" style="width: 180px; height: 96px;" /></td>
+										<th class="heading left middle"><strong>I/O signals</strong></th>
+										<td class="left middle">Inputs: 5 per channel. External
+<br />
+inputs *2
+<br />
+Outputs: 5 per channel. 1 forward
+<br />
+direction pulse output, 1 reverse
+<br />
+direction pulse output, and
+<br />
+3 external outputs (per channel) *3</td>
+									</tr>
+									<tr>
+										<th colspan="2" rowspan="1" class="heading left middle"><strong>Control method</strong></th>
+										<td colspan="3" rowspan="1" class="left middle">Open-loop control through pulse string output</td>
+									</tr>
+									<tr>
+										<th colspan="2" rowspan="1" class="heading left middle"><strong>Controlled drive</strong></th>
+										<td colspan="3" rowspan="1" class="left middle">Servo drive with a pulse string input or a stepper motor drive</td>
+									</tr>
+									<tr>
+										<th colspan="2" rowspan="1" class="heading left middle"><strong>Pulse output form</strong></th>
+										<td colspan="3" rowspan="1" class="left middle">Line driver output</td>
+									</tr>
+									<tr>
+										<th colspan="2" rowspan="1" class="heading left middle"><strong>Unit of control</strong></th>
+										<td colspan="3" rowspan="1" class="left middle">Pulses</td>
+									</tr>
+									<tr>
+										<th colspan="2" rowspan="1" class="heading left middle"><strong>Maximum pulse output
+<br />
+speed</strong></th>
+										<td colspan="3" rowspan="1" class="left middle">4 Mpps</td>
+									</tr>
+									<tr>
+										<th colspan="2" rowspan="1" class="heading left middle"><strong>Pulse output method</strong></th>
+										<td colspan="3" rowspan="1" class="left middle">Forward/reverse direction pulse outputs, Pulse + direction outputs, or Phase differential
+<br />
+pulse output multiplication x1/2/4</td>
+									</tr>
+									<tr>
+										<th colspan="2" rowspan="1" class="heading left middle"><strong>Position control range</strong></th>
+										<td colspan="3" rowspan="1" class="left middle">-2,147,483,648 to 2,147,483,647 pulses</td>
+									</tr>
+									<tr>
+										<th colspan="2" rowspan="1" class="heading left middle"><strong>Velocity control range</strong></th>
+										<td colspan="3" rowspan="1" class="left middle">1 to 4,000,000 pps</td>
+									</tr>
+									<tr>
+										<th colspan="5" rowspan="1" class="heading left middle"><strong>Positioning *4</strong></th>
+									</tr>
+									<tr>
+										<th colspan="1" rowspan="5" class="heading center middle" />
+										<th class="heading left middle"><strong>Single-axis position
+<br />
+control</strong></th>
+										<td colspan="3" rowspan="1" class="left middle">Absolute positioning, relative positioning, and interrupt feeding</td>
+									</tr>
+									<tr>
+										<th class="heading left middle"><strong>Single-axis velocity
+<br />
+control</strong></th>
+										<td colspan="3" rowspan="1" class="left middle">Velocity control (velocity feeding in Position Control Mode)</td>
+									</tr>
+									<tr>
+										<th class="heading left middle"><strong>Single-axis
+<br />
+synchronized control</strong></th>
+										<td colspan="3" rowspan="1" class="left middle">Cam operation and gear operation</td>
+									</tr>
+									<tr>
+										<th class="heading left middle"><strong>Single-axis manual
+<br />
+operation</strong></th>
+										<td colspan="3" rowspan="1" class="left middle">Jogging</td>
+									</tr>
+									<tr>
+										<th class="heading left middle"><strong>Auxiliary function for
+<br />
+single-axis control</strong></th>
+										<td colspan="3" rowspan="1" class="left middle">Homing, stopping, and override changes</td>
+									</tr>
+									<tr>
+										<th colspan="5" rowspan="1" class="heading left middle"><strong>External input specifications (except for line receiver inputs)</strong></th>
+									</tr>
+									<tr>
+										<th colspan="1" rowspan="4" class="heading center middle" />
+										<th class="heading left middle"><strong>Input voltage</strong></th>
+										<td class="left middle">21.6 to 26.4 VDC (24 VDC +10%, -10%)</td>
+										<th class="heading left middle"><strong>ON voltage/
+<br />
+ON current</strong></th>
+										<td class="left middle">15 VDC min./3 mA min.</td>
+									</tr>
+									<tr>
+										<th class="heading left middle"><strong>Input current</strong></th>
+										<td class="left middle">4.6 mA typical (24 VDC)</td>
+										<th class="heading left middle"><strong>OFF voltage/OFF
+<br />
+current</strong></th>
+										<td class="left middle">4.0 VDC max./1 mA max.</td>
+									</tr>
+									<tr>
+										<th class="heading left middle"><strong>ON/OFF response time</strong></th>
+										<td colspan="3" rowspan="1" class="left middle">External inputs 0 and 1: 1 μs max./2 μs max.
+<br />
+External inputs 2 to 4: 20 μs max./400 μs max.</td>
+									</tr>
+									<tr>
+										<th class="heading left middle"><strong>Internal I/O common
+<br />
+processing</strong></th>
+										<td colspan="3" rowspan="1" class="left middle">NPN</td>
+									</tr>
+									<tr>
+										<th colspan="5" rowspan="1" class="heading left middle"><strong>External input specifications (line receiver inputs)</strong></th>
+									</tr>
+									<tr>
+										<th colspan="1" rowspan="3" class="heading center middle" />
+										<th class="heading left middle"><strong>Input voltage</strong></th>
+										<td class="left middle">EIA standard RS-422-A line driver levels</td>
+										<th class="heading left middle"><strong>High level input voltage</strong></th>
+										<td class="left middle">V<sub>IT+</sub>: 0.1 V min.</td>
+									</tr>
+									<tr>
+										<th class="heading left middle"><strong>Input impedance</strong></th>
+										<td class="left middle">120 Ω ± 5%</td>
+										<th class="heading left middle"><strong>Low level input voltage</strong></th>
+										<td class="left middle">V<sub>IT-</sub>: -0.1 V max.</td>
+									</tr>
+									<tr>
+										<th class="heading left middle"><strong>Hysteresis voltage</strong></th>
+										<td colspan="3" rowspan="1" class="left middle">Vhys (V<sub>IT+</sub> - V<sub>IT-</sub>): 60 mV</td>
+									</tr>
+									<tr>
+										<th colspan="5" rowspan="1" class="heading left middle"><strong>Line driver output specifications</strong></th>
+									</tr>
+									<tr>
+										<th colspan="1" rowspan="3" class="heading center middle" />
+										<th class="heading left middle"><strong>Output voltage</strong></th>
+										<td colspan="3" rowspan="1" class="left middle">RS-422-A line driver level (equivalent to AM26C31)</td>
+									</tr>
+									<tr>
+										<th class="heading left middle"><strong>Maximum load current</strong></th>
+										<td colspan="3" rowspan="1" class="left middle">20 mA</td>
+									</tr>
+									<tr>
+										<th class="heading left middle"><strong>Maximum output
+<br />
+frequency</strong></th>
+										<td colspan="3" rowspan="1" class="left middle">4 Mpps</td>
+									</tr>
+									<tr>
+										<th colspan="5" rowspan="1" class="heading left middle"><strong>External output specifications</strong></th>
+									</tr>
+									<tr>
+										<th colspan="1" rowspan="5" class="heading left middle" />
+										<th class="heading left middle"><strong>Rated voltage</strong></th>
+										<td colspan="3" rowspan="1" class="left middle">24 VDC</td>
+									</tr>
+									<tr>
+										<th class="heading left middle"><strong>Load voltage range</strong></th>
+										<td class="left middle">15 to 28.8 VDC</td>
+										<th class="heading left middle"><strong>Residual voltage</strong></th>
+										<td class="left middle">1.0 V max.</td>
+									</tr>
+									<tr>
+										<th class="heading left middle"><strong>Maximum load current</strong></th>
+										<td class="left middle">30mA</td>
+										<th class="heading left middle"><strong>Leakage current</strong></th>
+										<td class="left middle">0.1 mA max.</td>
+									</tr>
+									<tr>
+										<th class="heading left middle"><strong>ON/OFF response time</strong></th>
+										<td colspan="3" rowspan="1" class="left middle">External output 0: 5 μs max./5 μs max.
+<br />
+External outputs 1 and 2: 0.5 ms max./1 ms max.</td>
+									</tr>
+									<tr>
+										<th class="heading left middle"><strong>Internal I/O common
+<br />
+processing</strong></th>
+										<td colspan="3" rowspan="1" class="left middle">NPN</td>
+									</tr>
+									<tr>
+										<th colspan="2" rowspan="1" class="heading left middle"><strong>Dimensions</strong></th>
+										<td class="left middle">30 × 100 × 71 mm (W×H×D)</td>
+										<th class="heading left middle"><strong>Isolation
+<br />
+method</strong></th>
+										<td class="left middle">External inputs: Photocoupler
+<br />
+isolation
+<br />
+External outputs: Digital isolator</td>
+									</tr>
+									<tr>
+										<th colspan="2" rowspan="1" class="heading left middle"><strong>Insulation resistance</strong></th>
+										<td class="left middle">20 MΩ min. between isolated
+<br />
+circuits (at 100 VDC)</td>
+										<th class="heading left middle"><strong>Dielectric
+<br />
+strength</strong></th>
+										<td class="left middle">510 VAC between isolated circuits
+<br />
+for 1 minute at a leakage current
+<br />
+of 5 mA max.</td>
+									</tr>
+									<tr>
+										<th colspan="2" rowspan="1" class="heading left middle"><strong>I/O power supply source</strong></th>
+										<td class="left middle">Supply from external source
+<br />
+20.4 to 28.8 VDC (24 VDC +20%, -15%)</td>
+										<th class="heading left middle"><strong>Current capacity
+<br />
+of I/O power
+<br />
+supply terminals</strong></th>
+										<td class="left middle">Without I/O power supply terminals</td>
+									</tr>
+									<tr>
+										<th colspan="2" rowspan="1" class="heading left middle"><strong>NX Unit power
+<br />
+consumption</strong></th>
+										<td class="left middle">• Connected to a CPU Unit
+<br />
+1.55 W max.
+<br />
+• Connected to a Commu-
+<br />
+nications Coupler Unit
+<br />
+1.20 W max.</td>
+										<th class="heading left middle"><strong>Current
+<br />
+consumption from
+<br />
+I/O power supply</strong></th>
+										<td class="left middle">50 mA max.</td>
+									</tr>
+									<tr>
+										<th colspan="2" rowspan="1" class="heading left middle"><strong>Weight</strong></th>
+										<td class="left middle">110 g max.</td>
+										<th class="heading left middle"><strong>Cable length</strong></th>
+										<td class="left middle">Line driver outputs: 10 m max.
+<br />
+Other I/O: 3 m max.</td>
+									</tr>
+									<tr>
+										<th colspan="2" rowspan="1" class="heading left middle"><strong>Circuit layout</strong></th>
+										<td colspan="3" rowspan="1" class="left middle"><img src="../../../images/3192_sp_5_213-263503.gif"  alt="3192_sp_5_2" title="3192_sp_5_2" style="width: 465px; height: 751px;" /></td>
+									</tr>
+									<tr>
+										<th colspan="2" rowspan="1" class="heading left middle"><strong>Installation orientation
+<br />
+and restrictions</strong></th>
+										<td colspan="3" rowspan="1" class="left middle">Installation orientation:
+<br />
+• Connected to a CPU Unit: Possible in upright installation.
+<br />
+• Connected to a Communications Coupler Unit: Possible in 6 orientations.
+<br />
+Restrictions: The number of external inputs that can be always ON is restricted as shown below.
+<br />
+											<img src="../../../images/3192_sp_5_313-263502.gif"  alt="3192_sp_5_3" title="3192_sp_5_3" style="width: 475px; height: 455px;" /></td>
+									</tr>
+									<tr>
+										<th colspan="2" rowspan="1" class="heading left middle"><strong>Terminal connection
+<br />
+diagram</strong></th>
+										<td colspan="3" rowspan="1" class="left middle"><img src="../../../images/3192_sp_5_413-263501.gif"  alt="3192_sp_5_4" title="3192_sp_5_4" style="width: 348px; height: 429px;" /></td>
+									</tr>
+									<tr>
+										<th colspan="2" rowspan="1" class="heading left middle"><strong>Failure detection</strong></th>
+										<td class="left middle">None</td>
+										<th class="heading left middle"><strong>Protection</strong></th>
+										<td class="left middle">None</td>
+									</tr>
+								</tbody>
+							</table>
+						</div>
+					
+        </p>
+    </div>
+
+
+
+
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="component-blockA01">
+
+
+
+
+
+    <div class="text">
+        <p>
+            *1. The I/O refreshing method is automatically set according to the connected Communications Coupler Unit and CPU
+<br />
+      Unit.
+<br />
+*2. You can use the external input 0 as a latch input.
+<br />
+*3. You can use the external output 0 as an error counter reset output.
+<br />
+*4. These functions are supported when you also use the MC Function Module in the NJ/NX-series CPU Unit or the
+<br />
+      NY-series Industrial PC.
+<br />
+      For details, refer to the motion control user’s manual for the connected CPU Unit or Industrial PC.
+<br />
+      A Pulse Output Unit only outputs pulses during the control period based on commands received at a fixed period.
+<br />
+      Target position calculations (distribution calculations) for acceleration/deceleration control or for each control period
+<br />
+      must be performed on the Controller.
+        </p>
+    </div>
+
+
+
+
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<h4 class="heading-A02">Pulse Output Units (Line driver output, PNP type) 2 channels NX-PG0242-5</h4>
+
+
+
+
+
+
+
+
+
+
+<div class="component-blockA01">
+
+
+
+
+
+    <div class="text">
+        <p>
+            
+						<div class="table-blockA01">
+							<table class="tableA01" cellspacing="0" border="0">
+								<tbody>
+									<tr class="first-child">
+										<th colspan="2" rowspan="1" class="heading left middle"><strong>Unit name</strong></th>
+										<td class="left middle">Pulse Output Units</td>
+										<th class="heading left middle"><strong>Model</strong></th>
+										<td class="left middle">NX-PG0242-5</td>
+									</tr>
+									<tr>
+										<th colspan="2" rowspan="1" class="heading left middle"><strong>Number of channels</strong></th>
+										<td class="left middle">2 channels</td>
+										<th class="heading left middle"><strong>Type of external
+<br />
+connections</strong></th>
+										<td class="left middle">MIL connector (34 terminals ×1)</td>
+									</tr>
+									<tr>
+										<th colspan="2" rowspan="1" class="heading left middle"><strong>I/O refreshing method *1</strong></th>
+										<td colspan="3" rowspan="1" class="left middle">Synchronous I/O refreshing or task period prioritized refreshing</td>
+									</tr>
+									<tr>
+										<th colspan="2" rowspan="1" class="heading left middle"><strong>Indicators</strong></th>
+										<td class="left middle"><img src="../../../images/3192_sp_6_113-263506.gif"  alt="3192_sp_6_1" title="3192_sp_6_1" style="width: 179px; height: 96px;" /></td>
+										<th class="heading left middle"><strong>I/O signals</strong></th>
+										<td class="left middle">Inputs: 5 per channel. External
+<br />
+inputs *2
+<br />
+Outputs: 5 per channel. 1 forward
+<br />
+direction pulse output, 1 reverse direction pulse output, and
+<br />
+3 external outputs (per channel) *3</td>
+									</tr>
+									<tr>
+										<th colspan="2" rowspan="1" class="heading left middle"><strong>Control method</strong></th>
+										<td colspan="3" rowspan="1" class="left middle">Open-loop control through pulse string output</td>
+									</tr>
+									<tr>
+										<th colspan="2" rowspan="1" class="heading left middle"><strong>Controlled drive</strong></th>
+										<td colspan="3" rowspan="1" class="left middle">Servo drive with a pulse string input or a stepper motor drive</td>
+									</tr>
+									<tr>
+										<th colspan="2" rowspan="1" class="heading left middle"><strong>Pulse output form</strong></th>
+										<td colspan="3" rowspan="1" class="left middle">Line driver output</td>
+									</tr>
+									<tr>
+										<th colspan="2" rowspan="1" class="heading left middle"><strong>Unit of control</strong></th>
+										<td colspan="3" rowspan="1" class="left middle">Pulses</td>
+									</tr>
+									<tr>
+										<th colspan="2" rowspan="1" class="heading left middle"><strong>Maximum pulse output
+<br />
+speed</strong></th>
+										<td colspan="3" rowspan="1" class="left middle">4 Mpps</td>
+									</tr>
+									<tr>
+										<th colspan="2" rowspan="1" class="heading left middle"><strong>Pulse output method</strong></th>
+										<td colspan="3" rowspan="1" class="left middle">Forward/reverse direction pulse outputs, Phase + direction outputs, or Phase differential
+<br />
+pulse output multiplication x1/2/4</td>
+									</tr>
+									<tr>
+										<th colspan="2" rowspan="1" class="heading left middle"><strong>Position control range</strong></th>
+										<td colspan="3" rowspan="1" class="left middle">-2,147,483,648 to 2,147,483,647 pulses</td>
+									</tr>
+									<tr>
+										<th colspan="2" rowspan="1" class="heading left middle"><strong>Velocity control range</strong></th>
+										<td colspan="3" rowspan="1" class="left middle">1 to 4,000,000 pps</td>
+									</tr>
+									<tr>
+										<th colspan="5" rowspan="1" class="heading left middle"><strong>Positioning *4</strong></th>
+									</tr>
+									<tr>
+										<th colspan="1" rowspan="5" class="heading center middle" />
+										<th class="heading left middle"><strong>Single-axis position
+<br />
+control</strong></th>
+										<td colspan="3" rowspan="1" class="left middle">Absolute positioning, relative positioning, and interrupt feeding</td>
+									</tr>
+									<tr>
+										<th class="heading left middle"><strong>Single-axis velocity
+<br />
+control</strong></th>
+										<td colspan="3" rowspan="1" class="left middle">Velocity control (velocity feeding in Position Control Mode)</td>
+									</tr>
+									<tr>
+										<th class="heading left middle"><strong>Single-axis
+<br />
+synchronized control</strong></th>
+										<td colspan="3" rowspan="1" class="left middle">Cam operation and gear operation</td>
+									</tr>
+									<tr>
+										<th class="heading left middle"><strong>Single-axis manual
+<br />
+operation</strong></th>
+										<td colspan="3" rowspan="1" class="left middle">Jogging</td>
+									</tr>
+									<tr>
+										<th class="heading left middle"><strong>Auxiliary function for
+<br />
+single-axis control</strong></th>
+										<td colspan="3" rowspan="1" class="left middle">Homing, stopping, and override changes</td>
+									</tr>
+									<tr>
+										<th colspan="5" rowspan="1" class="heading left middle"><strong>External input specifications (except for line receiver inputs)</strong></th>
+									</tr>
+									<tr>
+										<th colspan="1" rowspan="4" class="heading center middle" />
+										<th class="heading left middle"><strong>Input voltage</strong></th>
+										<td class="left middle">21.6 to 26.4 VDC (24 VDC +10%, -10%)</td>
+										<th class="heading left middle"><strong>ON voltage/
+<br />
+ON current</strong></th>
+										<td class="left middle">15 VDC min./3 mA min.</td>
+									</tr>
+									<tr>
+										<th class="heading left middle"><strong>Input current</strong></th>
+										<td class="left middle">4.6 mA typical (24 VDC)</td>
+										<th class="heading left middle"><strong>OFF voltage/OFF
+<br />
+current</strong></th>
+										<td class="left middle">4.0 VDC max./1 mA max.</td>
+									</tr>
+									<tr>
+										<th class="heading left middle"><strong>ON/OFF response time</strong></th>
+										<td colspan="3" rowspan="1" class="left middle">External inputs 0 and 1: 1 μs max./2 μs max.
+<br />
+External inputs 2 to 4: 20 μs max./400 μs max.</td>
+									</tr>
+									<tr>
+										<th class="heading left middle"><strong>Internal I/O common
+<br />
+processing</strong></th>
+										<td colspan="3" rowspan="1" class="left middle">PNP</td>
+									</tr>
+									<tr>
+										<th colspan="5" rowspan="1" class="heading left middle"><strong>External input specifications (line receiver inputs)</strong></th>
+									</tr>
+									<tr>
+										<th colspan="1" rowspan="3" class="heading center middle" />
+										<th class="heading left middle"><strong>Input voltage</strong></th>
+										<td class="left middle">EIA standard RS-422-A line driver levels</td>
+										<th class="heading left middle"><strong>High level input voltage</strong></th>
+										<td class="left middle">V<sub>IT+</sub>: 0.1 V min.</td>
+									</tr>
+									<tr>
+										<th class="heading left middle"><strong>Input impedance</strong></th>
+										<td class="left middle">120 Ω ± 5%</td>
+										<th class="heading left middle"><strong>Low level input voltage</strong></th>
+										<td class="left middle">V<sub>IT-</sub>: -0.1 V max.</td>
+									</tr>
+									<tr>
+										<th class="heading left middle"><strong>Hysteresis voltage</strong></th>
+										<td colspan="3" rowspan="1" class="left middle">Vhys (V<sub>IT+</sub> - V<sub>IT-</sub>): 60 mV</td>
+									</tr>
+									<tr>
+										<th colspan="5" rowspan="1" class="heading left middle"><strong>Line driver output specifications</strong></th>
+									</tr>
+									<tr>
+										<th colspan="1" rowspan="3" class="heading center middle" />
+										<th class="heading left middle"><strong>Output voltage</strong></th>
+										<td colspan="3" rowspan="1" class="left middle">RS-422-A line driver level (equivalent to AM26C31)</td>
+									</tr>
+									<tr>
+										<th class="heading left middle"><strong>Maximum load current</strong></th>
+										<td colspan="3" rowspan="1" class="left middle">20 mA</td>
+									</tr>
+									<tr>
+										<th class="heading left middle"><strong>Maximum output
+<br />
+frequency</strong></th>
+										<td colspan="3" rowspan="1" class="left middle">4 Mpps</td>
+									</tr>
+									<tr>
+										<th colspan="5" rowspan="1" class="heading left middle"><strong>External output specifications</strong></th>
+									</tr>
+									<tr>
+										<th colspan="1" rowspan="5" class="heading left middle" />
+										<th class="heading left middle"><strong>Rated voltage</strong></th>
+										<td colspan="3" rowspan="1" class="left middle">24 VDC</td>
+									</tr>
+									<tr>
+										<th class="heading left middle"><strong>Load voltage range</strong></th>
+										<td class="left middle">15 to 28.8 VDC</td>
+										<th class="heading left middle"><strong>Residual voltage</strong></th>
+										<td class="left middle">1.0 V max.</td>
+									</tr>
+									<tr>
+										<th class="heading left middle"><strong>Maximum load current</strong></th>
+										<td class="left middle">30mA</td>
+										<th class="heading left middle"><strong>Leakage current</strong></th>
+										<td class="left middle">0.1 mA max.</td>
+									</tr>
+									<tr>
+										<th class="heading left middle"><strong>ON/OFF response time</strong></th>
+										<td colspan="3" rowspan="1" class="left middle">External output 0: 5 μs max./200 μs max.
+<br />
+External outputs 1 and 2: 0.5 ms max./1 ms max.</td>
+									</tr>
+									<tr>
+										<th class="heading left middle"><strong>Internal I/O common
+<br />
+processing</strong></th>
+										<td colspan="3" rowspan="1" class="left middle">PNP</td>
+									</tr>
+									<tr>
+										<th colspan="2" rowspan="1" class="heading left middle"><strong>Dimensions</strong></th>
+										<td class="left middle">30 × 100 × 71 mm (W×H×D)</td>
+										<th class="heading left middle"><strong>Isolation
+<br />
+method</strong></th>
+										<td class="left middle">External inputs: Photocoupler
+<br />
+isolation
+<br />
+External outputs: Digital isolator</td>
+									</tr>
+									<tr>
+										<th colspan="2" rowspan="1" class="heading left middle"><strong>Insulation resistance</strong></th>
+										<td class="left middle">20 MΩ min. between isolated
+<br />
+circuits (at 100 VDC)</td>
+										<th class="heading left middle"><strong>Dielectric
+<br />
+strength</strong></th>
+										<td class="left middle">510 VAC between isolated circuits
+<br />
+for 1 minute at a leakage current
+<br />
+of 5 mA max.</td>
+									</tr>
+									<tr>
+										<th colspan="2" rowspan="1" class="heading left middle"><strong>I/O power supply source</strong></th>
+										<td class="left middle">Supply from external source
+<br />
+20.4 to 28.8 VDC (24 VDC +20%, -15%)</td>
+										<th class="heading left middle"><strong>Current capacity
+<br />
+of I/O power
+<br />
+supply terminals</strong></th>
+										<td class="left middle">Without I/O power supply terminals</td>
+									</tr>
+									<tr>
+										<th colspan="2" rowspan="1" class="heading left middle"><strong>NX Unit power
+<br />
+consumption</strong></th>
+										<td class="left middle">• Connected to a CPU Unit
+<br />
+1.55 W max.
+<br />
+• Connected to a Commu-
+<br />
+nications Coupler Unit
+<br />
+1.20 W max.</td>
+										<th class="heading left middle"><strong>Current
+<br />
+consumption from
+<br />
+I/O power supply</strong></th>
+										<td class="left middle">50 mA max.</td>
+									</tr>
+									<tr>
+										<th colspan="2" rowspan="1" class="heading left middle"><strong>Weight</strong></th>
+										<td class="left middle">110 g max.</td>
+										<th class="heading left middle"><strong>Cable length</strong></th>
+										<td class="left middle">Line driver outputs: 10 m max.
+<br />
+Other I/O: 3 m max.</td>
+									</tr>
+									<tr>
+										<th colspan="2" rowspan="1" class="heading left middle"><strong>Circuit layout</strong></th>
+										<td colspan="3" rowspan="1" class="left middle"><img src="../../../images/3192_sp_6_213-263500.gif"  alt="3192_sp_6_2" title="3192_sp_6_2" style="width: 461px; height: 769px;" /></td>
+									</tr>
+									<tr>
+										<th colspan="2" rowspan="1" class="heading left middle"><strong>Installation orientation
+<br />
+and restrictions</strong></th>
+										<td colspan="3" rowspan="1" class="left middle">Installation orientation:
+<br />
+• Connected to a CPU Unit: Possible in upright installation.
+<br />
+• Connected to a Communications Coupler Unit: Possible in 6 orientations.
+<br />
+Restrictions: The number of external inputs that can be always ON is restricted as shown below.
+<br />
+											<img src="../../../images/3192_sp_6_313-263499.gif"  alt="3192_sp_6_3" title="3192_sp_6_3" style="width: 469px; height: 451px;" /></td>
+									</tr>
+									<tr>
+										<th colspan="2" rowspan="1" class="heading left middle"><strong>Terminal connection
+<br />
+diagram</strong></th>
+										<td colspan="3" rowspan="1" class="left middle"><img src="../../../images/3192_sp_6_413-263498.gif"  alt="3192_sp_6_4" title="3192_sp_6_4" style="width: 347px; height: 431px;" /></td>
+									</tr>
+									<tr>
+										<th colspan="2" rowspan="1" class="heading left middle"><strong>Failure detection</strong></th>
+										<td class="left middle">None</td>
+										<th class="heading left middle"><strong>Protection</strong></th>
+										<td class="left middle">None</td>
+									</tr>
+								</tbody>
+							</table>
+						</div>
+					
+        </p>
+    </div>
+
+
+
+
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="component-blockA01">
+
+
+
+
+
+    <div class="text">
+        <p>
+            *1. The I/O refreshing method is set according to the connected Communications Coupler Unit and CPU Unit.
+<br />
+*2. You can use the external input 0 as a latch input.
+<br />
+*3. You can use the external output 0 as an error counter reset output.
+<br />
+*4. These functions are supported when you also use the MC Function Module in the NJ/NX-series CPU Unit or the
+<br />
+      NY-series Industrial PC.
+<br />
+      For details, refer to the motion control user’s manual for the connected CPU Unit or Industrial PC.
+<br />
+      A Pulse Output Unit only outputs pulses during the control period based on commands received at a fixed period.
+<br />
+      Target position calculations (distribution calculations) for acceleration/deceleration control or for each control period
+<br />
+      must be performed on the Controller.
+        </p>
+    </div>
+
+
+
+
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<h4 class="heading-A02">Pulse Output Units (Line driver output, NPN type) 4 channels NX-PG0332-5</h4>
+
+
+
+
+
+
+
+
+
+
+<div class="component-blockA01">
+
+
+
+
+
+    <div class="text">
+        <p>
+            
+						<div class="table-blockA01">
+							<table class="tableA01" cellspacing="0" border="0">
+								<tbody>
+									<tr class="first-child">
+										<th colspan="2" rowspan="1" class="heading left middle"><strong>Unit name</strong></th>
+										<td class="left middle">Pulse Output Units</td>
+										<th class="heading left middle"><strong>Model</strong></th>
+										<td class="left middle">NX-PG0332-5</td>
+									</tr>
+									<tr>
+										<th colspan="2" rowspan="1" class="heading left middle"><strong>Number of channels</strong></th>
+										<td class="left middle">4 channels</td>
+										<th class="heading left middle"><strong>Type of external
+<br />
+connections</strong></th>
+										<td class="left middle">MIL connector (34 terminals ×2)</td>
+									</tr>
+									<tr>
+										<th colspan="2" rowspan="1" class="heading left middle"><strong>I/O refreshing method *1</strong></th>
+										<td colspan="3" rowspan="1" class="left middle">Synchronous I/O refreshing or task period prioritized refreshing</td>
+									</tr>
+									<tr>
+										<th colspan="2" rowspan="1" class="heading left middle"><strong>Indicators</strong></th>
+										<td class="left middle"><img src="../../../images/3192_sp_7_113-263505.gif"  alt="3192_sp_7_1" title="3192_sp_7_1" style="width: 179px; height: 95px;" /></td>
+										<th class="heading left middle"><strong>I/O signals</strong></th>
+										<td class="left middle">Inputs: 5 per channel. External
+<br />
+inputs*2
+<br />
+Outputs: 5 per channel. 1 forward
+<br />
+direction pulse output, 1 reverse
+<br />
+direction pulse output, and
+<br />
+3 external outputs (per channel)*3</td>
+									</tr>
+									<tr>
+										<th colspan="2" rowspan="1" class="heading left middle"><strong>Control method</strong></th>
+										<td colspan="3" rowspan="1" class="left middle">Open-loop control through pulse string output</td>
+									</tr>
+									<tr>
+										<th colspan="2" rowspan="1" class="heading left middle"><strong>Controlled drive</strong></th>
+										<td colspan="3" rowspan="1" class="left middle">Servo drive with a pulse string input or a stepper motor drive</td>
+									</tr>
+									<tr>
+										<th colspan="2" rowspan="1" class="heading left middle"><strong>Pulse output form</strong></th>
+										<td colspan="3" rowspan="1" class="left middle">Line driver output</td>
+									</tr>
+									<tr>
+										<th colspan="2" rowspan="1" class="heading left middle"><strong>Unit of control</strong></th>
+										<td colspan="3" rowspan="1" class="left middle">Pulses</td>
+									</tr>
+									<tr>
+										<th colspan="2" rowspan="1" class="heading left middle"><strong>Maximum pulse output
+<br />
+speed</strong></th>
+										<td colspan="3" rowspan="1" class="left middle">4 Mpps</td>
+									</tr>
+									<tr>
+										<th colspan="2" rowspan="1" class="heading left middle"><strong>Pulse output method</strong></th>
+										<td colspan="3" rowspan="1" class="left middle">Forward/reverse direction pulse outputs, Pulse + direction outputs, or Phase
+<br />
+differential pulse output multiplication x1/2/4</td>
+									</tr>
+									<tr>
+										<th colspan="2" rowspan="1" class="heading left middle"><strong>Position control range</strong></th>
+										<td colspan="3" rowspan="1" class="left middle">-2,147,483,648 to 2,147,483,647 pulses</td>
+									</tr>
+									<tr>
+										<th colspan="2" rowspan="1" class="heading left middle"><strong>Velocity control range</strong></th>
+										<td colspan="3" rowspan="1" class="left middle">1 to 4,000,000 pps</td>
+									</tr>
+									<tr>
+										<th colspan="5" rowspan="1" class="heading left middle"><strong>Positioning *4</strong></th>
+									</tr>
+									<tr>
+										<th colspan="1" rowspan="5" class="heading center middle" />
+										<th class="heading left middle"><strong>Single-axis position
+<br />
+control</strong></th>
+										<td colspan="3" rowspan="1" class="left middle">Absolute positioning, relative positioning, and interrupt feeding</td>
+									</tr>
+									<tr>
+										<th class="heading left middle"><strong>Single-axis velocity
+<br />
+control</strong></th>
+										<td colspan="3" rowspan="1" class="left middle">Velocity control (velocity feeding in Position Control Mode)</td>
+									</tr>
+									<tr>
+										<th class="heading left middle"><strong>Single-axis
+<br />
+synchronized control</strong></th>
+										<td colspan="3" rowspan="1" class="left middle">Cam operation and gear operation</td>
+									</tr>
+									<tr>
+										<th class="heading left middle"><strong>Single-axis manual
+<br />
+operation</strong></th>
+										<td colspan="3" rowspan="1" class="left middle">Jogging</td>
+									</tr>
+									<tr>
+										<th class="heading left middle"><strong>Auxiliary function for
+<br />
+single-axis control</strong></th>
+										<td colspan="3" rowspan="1" class="left middle">Homing, stopping, and override changes</td>
+									</tr>
+									<tr>
+										<th colspan="5" rowspan="1" class="heading left middle"><strong>External input specifications (except for line receiver inputs)</strong></th>
+									</tr>
+									<tr>
+										<th colspan="1" rowspan="4" class="heading center middle" />
+										<th class="heading left middle"><strong>Input voltage</strong></th>
+										<td class="left middle">21.6 to 26.4 VDC (24 VDC +10%, -10%)</td>
+										<th class="heading left middle"><strong>ON voltage/
+<br />
+ON current</strong></th>
+										<td class="left middle">15 VDC min./3 mA min.</td>
+									</tr>
+									<tr>
+										<th class="heading left middle"><strong>Input current</strong></th>
+										<td class="left middle">4.6 mA typical (24 VDC)</td>
+										<th class="heading left middle"><strong>OFF voltage/OFF
+<br />
+current</strong></th>
+										<td class="left middle">4.0 VDC max./1 mA max.</td>
+									</tr>
+									<tr>
+										<th class="heading left middle"><strong>ON/OFF response time</strong></th>
+										<td colspan="3" rowspan="1" class="left middle">External inputs 0 and 1: 1 μs max./2 μs max.
+<br />
+External inputs 2 to 4: 20 μs max./400 μs max.</td>
+									</tr>
+									<tr>
+										<th class="heading left middle"><strong>Internal I/O common
+<br />
+processing</strong></th>
+										<td colspan="3" rowspan="1" class="left middle">NPN</td>
+									</tr>
+									<tr>
+										<th colspan="5" rowspan="1" class="heading left middle"><strong>External input specifications (line receiver inputs)</strong></th>
+									</tr>
+									<tr>
+										<th colspan="1" rowspan="3" class="heading center middle" />
+										<th class="heading left middle"><strong>Input voltage</strong></th>
+										<td class="left middle">EIA standard RS-422-A line driver levels</td>
+										<th class="heading left middle"><strong>High level input voltage</strong></th>
+										<td class="left middle">V<sub>IT+</sub>: 0.1 V min.</td>
+									</tr>
+									<tr>
+										<th class="heading left middle"><strong>Input impedance</strong></th>
+										<td class="left middle">120 Ω ± 5%</td>
+										<th class="heading left middle"><strong>Low level input voltage</strong></th>
+										<td class="left middle">V<sub>IT-</sub>: -0.1 V max.</td>
+									</tr>
+									<tr>
+										<th class="heading left middle"><strong>Hysteresis voltage</strong></th>
+										<td colspan="3" rowspan="1" class="left middle">Vhys (V<sub>IT+</sub> - V<sub>IT-</sub>): 60 mV</td>
+									</tr>
+									<tr>
+										<th colspan="5" rowspan="1" class="heading left middle"><strong>Line driver output specifications</strong></th>
+									</tr>
+									<tr>
+										<th colspan="1" rowspan="3" class="heading center middle" />
+										<th class="heading left middle"><strong>Output voltage</strong></th>
+										<td colspan="3" rowspan="1" class="left middle">RS-422-A line driver level (equivalent to AM26C31)</td>
+									</tr>
+									<tr>
+										<th class="heading left middle"><strong>Maximum load current</strong></th>
+										<td colspan="3" rowspan="1" class="left middle">20 mA</td>
+									</tr>
+									<tr>
+										<th class="heading left middle"><strong>Maximum output
+<br />
+frequency</strong></th>
+										<td colspan="3" rowspan="1" class="left middle">4 Mpps</td>
+									</tr>
+									<tr>
+										<th colspan="5" rowspan="1" class="heading left middle"><strong>External output specifications</strong></th>
+									</tr>
+									<tr>
+										<th colspan="1" rowspan="5" class="heading left middle" />
+										<th class="heading left middle"><strong>Rated voltage</strong></th>
+										<td colspan="3" rowspan="1" class="left middle">24 VDC</td>
+									</tr>
+									<tr>
+										<th class="heading left middle"><strong>Load voltage range</strong></th>
+										<td class="left middle">15 to 28.8 VDC</td>
+										<th class="heading left middle"><strong>Residual voltage</strong></th>
+										<td class="left middle">1.0 V max.</td>
+									</tr>
+									<tr>
+										<th class="heading left middle"><strong>Maximum load current</strong></th>
+										<td class="left middle">30mA</td>
+										<th class="heading left middle"><strong>Leakage current</strong></th>
+										<td class="left middle">0.1 mA max.</td>
+									</tr>
+									<tr>
+										<th class="heading left middle"><strong>ON/OFF response time</strong></th>
+										<td colspan="3" rowspan="1" class="left middle">External output 0: 5 μs max./200 μs max.
+<br />
+External outputs 1 and 2: 0.5 ms max./1 ms max.</td>
+									</tr>
+									<tr>
+										<th class="heading left middle"><strong>Internal I/O common
+<br />
+processing</strong></th>
+										<td colspan="3" rowspan="1" class="left middle">NPN</td>
+									</tr>
+									<tr>
+										<th colspan="2" rowspan="1" class="heading left middle"><strong>Dimensions</strong></th>
+										<td class="left middle">30 × 100 × 71 mm (W×H×D)</td>
+										<th class="heading left middle"><strong>Isolation
+<br />
+method</strong></th>
+										<td class="left middle">External inputs: Photocoupler
+<br />
+isolation
+<br />
+External outputs: Digital isolator</td>
+									</tr>
+									<tr>
+										<th colspan="2" rowspan="1" class="heading left middle"><strong>Insulation resistance</strong></th>
+										<td class="left middle">20 MΩ min. between isolated
+<br />
+circuits (at 100 VDC)</td>
+										<th class="heading left middle"><strong>Dielectric
+<br />
+strength</strong></th>
+										<td class="left middle">510 VAC between isolated circuits
+<br />
+for 1 minute at a leakage current
+<br />
+of 5 mA max.</td>
+									</tr>
+									<tr>
+										<th colspan="2" rowspan="1" class="heading left middle"><strong>I/O power supply source</strong></th>
+										<td class="left middle">Supply from external source
+<br />
+20.4 to 28.8 VDC (24 VDC +20%, -15%)</td>
+										<th class="heading left middle"><strong>Current capacity
+<br />
+of I/O power
+<br />
+supply terminals</strong></th>
+										<td class="left middle">Without I/O power supply terminals</td>
+									</tr>
+									<tr>
+										<th colspan="2" rowspan="1" class="heading left middle"><strong>NX Unit power
+<br />
+consumption</strong></th>
+										<td class="left middle">• Connected to a CPU Unit
+<br />
+1.65 W max.
+<br />
+• Connected to a Commu-
+<br />
+nications Coupler Unit
+<br />
+1.30 W max.</td>
+										<th class="heading left middle"><strong>Current
+<br />
+consumption from
+<br />
+I/O power supply</strong></th>
+										<td class="left middle">50 mA/CN max.</td>
+									</tr>
+									<tr>
+										<th colspan="2" rowspan="1" class="heading left middle"><strong>Weight</strong></th>
+										<td class="left middle">150 g max.</td>
+										<th class="heading left middle"><strong>Cable length</strong></th>
+										<td class="left middle">Line driver outputs: 10 m max.
+<br />
+Other I/O: 3 m max.</td>
+									</tr>
+									<tr>
+										<th colspan="2" rowspan="1" class="heading left middle"><strong>Circuit layout</strong></th>
+										<td colspan="3" rowspan="1" class="left middle"><img src="../../../images/3192_sp_7_213-263497.gif"  alt="3192_sp_7_2" title="3192_sp_7_2" style="width: 457px; height: 770px;" /></td>
+									</tr>
+									<tr>
+										<th colspan="2" rowspan="1" class="heading left middle"><strong>Installation orientation
+<br />
+and restrictions</strong></th>
+										<td colspan="3" rowspan="1" class="left middle">Installation orientation:
+<br />
+• Connected to a CPU Unit: Possible in upright installation.
+<br />
+• Connected to a Communications Coupler Unit: Possible in 6 orientations.
+<br />
+Restrictions: The number of external inputs that can be always ON is restricted as shown below.
+<br />
+											<img src="../../../images/3192_sp_7_313-263496.gif"  alt="3192_sp_7_3" title="3192_sp_7_3" style="width: 467px; height: 454px;" /></td>
+									</tr>
+									<tr>
+										<th colspan="2" rowspan="1" class="heading left middle"><strong>Terminal connection
+<br />
+diagram</strong></th>
+										<td colspan="3" rowspan="1" class="left middle"><img src="../../../images/3192_sp_7_413-263495.gif"  alt="3192_sp_7_4" title="3192_sp_7_4" style="width: 422px; height: 446px;" /></td>
+									</tr>
+									<tr>
+										<th colspan="2" rowspan="1" class="heading left middle"><strong>Failure detection</strong></th>
+										<td class="left middle">None</td>
+										<th class="heading left middle"><strong>Protection</strong></th>
+										<td class="left middle">None</td>
+									</tr>
+								</tbody>
+							</table>
+						</div>
+					
+        </p>
+    </div>
+
+
+
+
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="component-blockA01">
+
+
+
+
+
+    <div class="text">
+        <p>
+            *1. The I/O refreshing method is set according to the connected Communications Coupler Unit and CPU Unit.
+<br />
+*2. You can use the external input 0 as a latch input.
+<br />
+*3. You can use the external output 0 as an error counter reset output.
+<br />
+*4. These functions are supported when you also use the MC Function Module in the NJ/NX-series CPU Unit or the
+<br />
+      NY-series Industrial PC.
+<br />
+      For details, refer to the motion control user’s manual for the connected CPU Unit or Industrial PC.
+<br />
+      A Pulse Output Unit only outputs pulses during the control period based on commands received at a fixed period.
+<br />
+      Target position calculations (distribution calculations) for acceleration/deceleration control or for each control period
+<br />
+      must be performed on the Controller.
+        </p>
+    </div>
+
+
+
+
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<h4 class="heading-A02">Pulse Output Units (Line driver output, PNP type) 4 channels NX-PG0342-5</h4>
+
+
+
+
+
+
+
+
+
+
+<div class="component-blockA01">
+
+
+
+
+
+    <div class="text">
+        <p>
+            
+						<div class="table-blockA01">
+							<table class="tableA01" cellspacing="0" border="0">
+								<tbody>
+									<tr class="first-child">
+										<th colspan="2" rowspan="1" class="heading left middle"><strong>Unit name</strong></th>
+										<td class="left middle">Pulse Output Units</td>
+										<th class="heading left middle"><strong>Model</strong></th>
+										<td class="left middle">NX-PG0342-5</td>
+									</tr>
+									<tr>
+										<th colspan="2" rowspan="1" class="heading left middle"><strong>Number of channels</strong></th>
+										<td class="left middle">4 channels</td>
+										<th class="heading left middle"><strong>Type of external
+<br />
+connections</strong></th>
+										<td class="left middle">MIL connector (34 terminals ×2)</td>
+									</tr>
+									<tr>
+										<th colspan="2" rowspan="1" class="heading left middle"><strong>I/O refreshing method *1</strong></th>
+										<td colspan="3" rowspan="1" class="left middle">Synchronous I/O refreshing or task period prioritized refreshing</td>
+									</tr>
+									<tr>
+										<th colspan="2" rowspan="1" class="heading left middle"><strong>Indicators</strong></th>
+										<td class="left middle"><img src="../../../images/3192_sp_8_113-263504.gif"  alt="3192_sp_8_1" title="3192_sp_8_1" style="width: 177px; height: 92px;" /></td>
+										<th class="heading left middle"><strong>I/O signals</strong></th>
+										<td class="left middle">Inputs: 5 per channel. External
+<br />
+inputs *2
+<br />
+Outputs: 5 per channel. 1 forward
+<br />
+direction pulse output, 1 reverse direction pulse output, and
+<br />
+3 external outputs (per channel) *3</td>
+									</tr>
+									<tr>
+										<th colspan="2" rowspan="1" class="heading left middle"><strong>Control method</strong></th>
+										<td colspan="3" rowspan="1" class="left middle">Open-loop control through pulse string output</td>
+									</tr>
+									<tr>
+										<th colspan="2" rowspan="1" class="heading left middle"><strong>Controlled drive</strong></th>
+										<td colspan="3" rowspan="1" class="left middle">Servo drive with a pulse string input or a stepper motor drive</td>
+									</tr>
+									<tr>
+										<th colspan="2" rowspan="1" class="heading left middle"><strong>Pulse output form</strong></th>
+										<td colspan="3" rowspan="1" class="left middle">Line driver output</td>
+									</tr>
+									<tr>
+										<th colspan="2" rowspan="1" class="heading left middle"><strong>Unit of control</strong></th>
+										<td colspan="3" rowspan="1" class="left middle">Pulses</td>
+									</tr>
+									<tr>
+										<th colspan="2" rowspan="1" class="heading left middle"><strong>Maximum pulse output
+<br />
+speed</strong></th>
+										<td colspan="3" rowspan="1" class="left middle">4 Mpps</td>
+									</tr>
+									<tr>
+										<th colspan="2" rowspan="1" class="heading left middle"><strong>Pulse output method</strong></th>
+										<td colspan="3" rowspan="1" class="left middle">Forward/reverse direction pulse outputs, Pulse + direction outputs, or Phase
+<br />
+differential pulse output multiplication x1/2/4</td>
+									</tr>
+									<tr>
+										<th colspan="2" rowspan="1" class="heading left middle"><strong>Position control range</strong></th>
+										<td colspan="3" rowspan="1" class="left middle">-2,147,483,648 to 2,147,483,647 pulses</td>
+									</tr>
+									<tr>
+										<th colspan="2" rowspan="1" class="heading left middle"><strong>Velocity control range</strong></th>
+										<td colspan="3" rowspan="1" class="left middle">1 to 4,000,000 pps</td>
+									</tr>
+									<tr>
+										<th colspan="5" rowspan="1" class="heading left middle"><strong>Positioning *4</strong></th>
+									</tr>
+									<tr>
+										<th colspan="1" rowspan="5" class="heading center middle" />
+										<th class="heading left middle"><strong>Single-axis position
+<br />
+control</strong></th>
+										<td colspan="3" rowspan="1" class="left middle">Absolute positioning, relative positioning, and interrupt feeding</td>
+									</tr>
+									<tr>
+										<th class="heading left middle"><strong>Single-axis velocity
+<br />
+control</strong></th>
+										<td colspan="3" rowspan="1" class="left middle">Velocity control (velocity feeding in Position Control Mode)</td>
+									</tr>
+									<tr>
+										<th class="heading left middle"><strong>Single-axis
+<br />
+synchronized control</strong></th>
+										<td colspan="3" rowspan="1" class="left middle">Cam operation and gear operation</td>
+									</tr>
+									<tr>
+										<th class="heading left middle"><strong>Single-axis manual
+<br />
+operation</strong></th>
+										<td colspan="3" rowspan="1" class="left middle">Jogging</td>
+									</tr>
+									<tr>
+										<th class="heading left middle"><strong>Auxiliary function for
+<br />
+single-axis control</strong></th>
+										<td colspan="3" rowspan="1" class="left middle">Homing, stopping, and override changes</td>
+									</tr>
+									<tr>
+										<th colspan="5" rowspan="1" class="heading left middle"><strong>External input specifications (except for line receiver inputs)</strong></th>
+									</tr>
+									<tr>
+										<th colspan="1" rowspan="4" class="heading center middle" />
+										<th class="heading left middle"><strong>Input voltage</strong></th>
+										<td class="left middle">21.6 to 26.4 VDC (24 VDC +10%, -10%)</td>
+										<th class="heading left middle"><strong>ON voltage/
+<br />
+ON current</strong></th>
+										<td class="left middle">15 VDC min./3 mA min.</td>
+									</tr>
+									<tr>
+										<th class="heading left middle"><strong>Input current</strong></th>
+										<td class="left middle">4.6 mA typical (24 VDC)</td>
+										<th class="heading left middle"><strong>OFF voltage/OFF
+<br />
+current</strong></th>
+										<td class="left middle">4.0 VDC max./1 mA max.</td>
+									</tr>
+									<tr>
+										<th class="heading left middle"><strong>ON/OFF response time</strong></th>
+										<td colspan="3" rowspan="1" class="left middle">External inputs 0 and 1: 1 μs max./2 μs max.
+<br />
+External inputs 2 to 4: 20 μs max./400 μs max.</td>
+									</tr>
+									<tr>
+										<th class="heading left middle"><strong>Internal I/O common
+<br />
+processing</strong></th>
+										<td colspan="3" rowspan="1" class="left middle">PNP</td>
+									</tr>
+									<tr>
+										<th colspan="5" rowspan="1" class="heading left middle"><strong>External input specifications (line receiver inputs)</strong></th>
+									</tr>
+									<tr>
+										<th colspan="1" rowspan="3" class="heading center middle" />
+										<th class="heading left middle"><strong>Input voltage</strong></th>
+										<td class="left middle">EIA standard RS-422-A line driver levels</td>
+										<th class="heading left middle"><strong>High level input voltage</strong></th>
+										<td class="left middle">V<sub>IT+</sub>: 0.1 V min.</td>
+									</tr>
+									<tr>
+										<th class="heading left middle"><strong>Input impedance</strong></th>
+										<td class="left middle">120 Ω ± 5%</td>
+										<th class="heading left middle"><strong>Low level input voltage</strong></th>
+										<td class="left middle">V<sub>IT-</sub>: -0.1 V max.</td>
+									</tr>
+									<tr>
+										<th class="heading left middle"><strong>Hysteresis voltage</strong></th>
+										<td colspan="3" rowspan="1" class="left middle">Vhys (V<sub>IT+</sub> - V<sub>IT-</sub>): 60 mV</td>
+									</tr>
+									<tr>
+										<th colspan="5" rowspan="1" class="heading left middle"><strong>Line driver output specifications</strong></th>
+									</tr>
+									<tr>
+										<th colspan="1" rowspan="3" class="heading center middle" />
+										<th class="heading left middle"><strong>Output voltage</strong></th>
+										<td colspan="3" rowspan="1" class="left middle">RS-422-A line driver level (equivalent to AM26C31)</td>
+									</tr>
+									<tr>
+										<th class="heading left middle"><strong>Maximum load current</strong></th>
+										<td colspan="3" rowspan="1" class="left middle">20 mA</td>
+									</tr>
+									<tr>
+										<th class="heading left middle"><strong>Maximum output
+<br />
+frequency</strong></th>
+										<td colspan="3" rowspan="1" class="left middle">4 Mpps</td>
+									</tr>
+									<tr>
+										<th colspan="5" rowspan="1" class="heading left middle"><strong>External output specifications</strong></th>
+									</tr>
+									<tr>
+										<th colspan="1" rowspan="5" class="heading left middle" />
+										<th class="heading left middle"><strong>Rated voltage</strong></th>
+										<td colspan="3" rowspan="1" class="left middle">24 VDC</td>
+									</tr>
+									<tr>
+										<th class="heading left middle"><strong>Load voltage range</strong></th>
+										<td class="left middle">15 to 28.8 VDC</td>
+										<th class="heading left middle"><strong>Residual voltage</strong></th>
+										<td class="left middle">1.0 V max.</td>
+									</tr>
+									<tr>
+										<th class="heading left middle"><strong>Maximum load current</strong></th>
+										<td class="left middle">30mA</td>
+										<th class="heading left middle"><strong>Leakage current</strong></th>
+										<td class="left middle">0.1 mA max.</td>
+									</tr>
+									<tr>
+										<th class="heading left middle"><strong>ON/OFF response time</strong></th>
+										<td colspan="3" rowspan="1" class="left middle">External output 0: 5 μs max./200 μs max.
+<br />
+External outputs 1 and 2: 0.5 ms max./1 ms max.</td>
+									</tr>
+									<tr>
+										<th class="heading left middle"><strong>Internal I/O common
+<br />
+processing</strong></th>
+										<td colspan="3" rowspan="1" class="left middle">PNP</td>
+									</tr>
+									<tr>
+										<th colspan="2" rowspan="1" class="heading left middle"><strong>Dimensions</strong></th>
+										<td class="left middle">30 × 100 × 71 mm (W×H×D)</td>
+										<th class="heading left middle"><strong>Isolation
+<br />
+method</strong></th>
+										<td class="left middle">External inputs: Photocoupler isolation
+<br />
+External outputs: Digital isolator</td>
+									</tr>
+									<tr>
+										<th colspan="2" rowspan="1" class="heading left middle"><strong>Insulation resistance</strong></th>
+										<td class="left middle">20 MΩ min. between isolated
+<br />
+circuits (at 100 VDC)</td>
+										<th class="heading left middle"><strong>Dielectric
+<br />
+strength</strong></th>
+										<td class="left middle">510 VAC between isolated circuits
+<br />
+for 1 minute at a leakage current
+<br />
+of 5 mA max.</td>
+									</tr>
+									<tr>
+										<th colspan="2" rowspan="1" class="heading left middle"><strong>I/O power supply source</strong></th>
+										<td class="left middle">Supply from external source
+<br />
+20.4 to 28.8 VDC (24 VDC +20%, -15%)</td>
+										<th class="heading left middle"><strong>Current capacity
+<br />
+of I/O power
+<br />
+supply terminals</strong></th>
+										<td class="left middle">Without I/O power supply terminals</td>
+									</tr>
+									<tr>
+										<th colspan="2" rowspan="1" class="heading left middle"><strong>NX Unit power
+<br />
+consumption</strong></th>
+										<td class="left middle">• Connected to a CPU Unit
+<br />
+1.65 W max.
+<br />
+• Connected to a Commu-
+<br />
+nications Coupler Unit
+<br />
+1.30 W max.</td>
+										<th class="heading left middle"><strong>Current
+<br />
+consumption from
+<br />
+I/O power supply</strong></th>
+										<td class="left middle">50 mA/CN max.</td>
+									</tr>
+									<tr>
+										<th colspan="2" rowspan="1" class="heading left middle"><strong>Weight</strong></th>
+										<td class="left middle">150 g max.</td>
+										<th class="heading left middle"><strong>Cable length</strong></th>
+										<td class="left middle">Line driver outputs: 10 m max.
+<br />
+Other I/O: 3 m max.</td>
+									</tr>
+									<tr>
+										<th colspan="2" rowspan="1" class="heading left middle"><strong>Circuit layout</strong></th>
+										<td colspan="3" rowspan="1" class="left middle"><img src="../../../images/3192_sp_8_213-263494.gif"  alt="3192_sp_8_2" title="3192_sp_8_2" style="width: 458px; height: 763px;" /></td>
+									</tr>
+									<tr>
+										<th colspan="2" rowspan="1" class="heading left middle"><strong>Installation orientation
+<br />
+and restrictions</strong></th>
+										<td colspan="3" rowspan="1" class="left middle">Installation orientation:
+<br />
+• Connected to a CPU Unit: Possible in upright installation.
+<br />
+• Connected to a Communications Coupler Unit: Possible in 6 orientations.
+<br />
+Restrictions: The number of external inputs that can be always ON is restricted as shown below.
+<br />
+											<img src="../../../images/3192_sp_8_313-263493.gif"  alt="3192_sp_8_3" title="3192_sp_8_3" style="width: 466px; height: 456px;" /></td>
+									</tr>
+									<tr>
+										<th colspan="2" rowspan="1" class="heading left middle"><strong>Terminal connection
+<br />
+diagram</strong></th>
+										<td colspan="3" rowspan="1" class="left middle"><img src="../../../images/3192_sp_8_413-263492.gif"  alt="3192_sp_8_4" title="3192_sp_8_4" style="width: 388px; height: 450px;" /></td>
+									</tr>
+									<tr>
+										<th colspan="2" rowspan="1" class="heading left middle"><strong>Failure detection</strong></th>
+										<td class="left middle">None</td>
+										<th class="heading left middle"><strong>Protection</strong></th>
+										<td class="left middle">None</td>
+									</tr>
+								</tbody>
+							</table>
+						</div>
+					
+        </p>
+    </div>
+
+
+
+
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="component-blockA01">
+
+
+
+
+
+    <div class="text">
+        <p>
+            *1. The I/O refreshing method is set according to the connected Communications Coupler Unit and CPU Unit.
+<br />
+*2. You can use the external input 0 as a latch input.
+<br />
+*3. You can use the external output 0 as an error counter reset output.
+<br />
+*4. These functions are supported when you also use the MC Function Module in the NJ/NX-series CPU Unit or the
+<br />
+      NY-series Industrial PC.
+<br />
+      For details, refer to the motion control user’s manual for the connected CPU Unit or Industrial PC.
+<br />
+      A Pulse Output Unit only outputs pulses during the control period based on commands received at a fixed period.
+<br />
+      Target position calculations (distribution calculations) for acceleration/deceleration control or for each control period
+<br />
+      must be performed on the Controller.
+        </p>
+    </div>
+
+
+
+
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<h4 class="heading-A01">Version Information</h4>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<h4 class="heading-A02">Connecting with CPU Units</h4>
+
+
+
+
+
+
+
+
+
+
+<div class="component-blockA01">
+
+
+
+
+
+    <div class="text">
+        <p>
+            Refer to the user’s manuals for the CPU Unit for details on the CPU Units to which NX Units can be connected.
+        </p>
+    </div>
+
+
+
+
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="component-blockA01">
+
+
+
+
+
+    <div class="text">
+        <p>
+            
+						<div class="table-blockA01">
+							<table class="tableA01" cellspacing="0" border="0">
+								<tr class="first-child">
+									<th colspan="2" rowspan="1" class="heading center middle"><strong>NX Unit</strong></th>
+									<th colspan="2" rowspan="1" class="heading center middle"><strong>Corresponding versions *</strong></th>
+								</tr>
+								<tr>
+									<th class="heading center middle"><strong>Model</strong></th>
+									<th class="heading center middle"><strong>Unit Version</strong></th>
+									<th class="heading center middle"><strong>CPU Unit</strong></th>
+									<th class="heading center middle"><strong>Sysmac Studio</strong></th>
+								</tr>
+								<tr>
+									<td colspan="1" rowspan="2" class="left middle">NX-PG0112</td>
+									<td class="center middle">Ver.1.1</td>
+									<td colspan="1" rowspan="9" class="left middle">Ver.1.13 or later</td>
+									<td colspan="1" rowspan="9" class="left middle">Ver.1.17 or higher</td>
+								</tr>
+								<tr>
+									<td class="center middle">Ver.1.2</td>
+								</tr>
+								<tr>
+									<td colspan="1" rowspan="3" class="left middle">NX-PG0122</td>
+									<td class="center middle">Ver.1.0</td>
+								</tr>
+								<tr>
+									<td class="center middle">Ver.1.1</td>
+								</tr>
+								<tr>
+									<td class="center middle">Ver.1.2</td>
+								</tr>
+								<tr>
+									<td class="left middle">NX-PG0232-5</td>
+									<td colspan="1" rowspan="4" class="center middle">Ver.1.2</td>
+								</tr>
+								<tr>
+									<td class="left middle">NX-PG0242-5</td>
+								</tr>
+								<tr>
+									<td class="left middle">NX-PG0332-5</td>
+								</tr>
+								<tr>
+									<td class="left middle">NX-PG0342-5</td>
+								</tr>
+							</table>
+						</div>
+					
+        </p>
+    </div>
+
+
+
+
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="component-blockA01">
+
+
+
+
+
+    <div class="text">
+        <p>
+            * Some Units do not have all of the versions given in the above table. If a Unit does not have the specified version,
+<br />
+    support is provided by the oldest available version after the specified version. Refer to the user's manuals for the
+<br />
+    specific Units for the relation between models and versions.
+        </p>
+    </div>
+
+
+
+
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<h4 class="heading-A02">Connecting with Coupler Units</h4>
+
+
+
+
+
+
+
+
+
+
+<div class="component-blockA01">
+
+
+
+
+
+    <div class="text">
+        <p>
+            
+						<div class="table-blockA01">
+							<table class="tableA01" cellspacing="0" border="0">
+								<tr class="first-child">
+									<th colspan="2" rowspan="2" class="heading center middle"><strong>NX Unit</strong></th>
+									<th colspan="3" rowspan="1" class="heading center middle"><strong>Corresponding versions *1</strong></th>
+								</tr>
+								<tr>
+									<th colspan="3" rowspan="1" class="heading center middle"><strong>EtherCAT</strong></th>
+								</tr>
+								<tr>
+									<th class="heading left middle"><strong>Model</strong></th>
+									<th class="heading left middle"><strong>Unit Version</strong></th>
+									<th class="heading center middle"><strong>Communications
+<br />
+Coupler Unit</strong></th>
+									<th class="heading center middle"><strong>NJ/NX-series CPU
+<br />
+Units or NY-series
+<br />
+Industrial PCs</strong></th>
+									<th class="heading center middle"><strong>Sysmac Studio</strong></th>
+								</tr>
+								<tr>
+									<td colspan="1" rowspan="2" class="left middle">NX-PG0112</td>
+									<td class="left middle">Ver.1.1</td>
+									<td class="left middle">Ver.1.0 or later</td>
+									<td colspan="1" rowspan="9" class="left middle">Ver.1.05 or later</td>
+									<td class="left middle">Ver.1.10 or higher</td>
+								</tr>
+								<tr>
+									<td class="left middle">Ver.1.2</td>
+									<td class="left middle">Ver.1.3 or later *2 *3</td>
+									<td class="left middle">Ver.1.13 or higher</td>
+								</tr>
+								<tr>
+									<td colspan="1" rowspan="3" class="left middle">NX-PG0122</td>
+									<td class="left middle">Ver.1.0</td>
+									<td colspan="1" rowspan="2" class="left middle">Ver.1.0 or later</td>
+									<td class="left middle">Ver.1.06 or higher</td>
+								</tr>
+								<tr>
+									<td class="left middle">Ver.1.1</td>
+									<td class="left middle">Ver.1.08 or higher</td>
+								</tr>
+								<tr>
+									<td class="left middle">Ver.1.2</td>
+									<td colspan="1" rowspan="5" class="left middle">Ver.1.3 or later *2 *3</td>
+									<td class="left middle">Ver.1.13 or higher</td>
+								</tr>
+								<tr>
+									<td class="left middle">NX-PG0232-5</td>
+									<td colspan="1" rowspan="4" class="left middle">Ver.1.2</td>
+									<td colspan="1" rowspan="4" class="left middle">Ver.1.15 or higher</td>
+								</tr>
+								<tr>
+									<td class="left middle">NX-PG0242-5</td>
+								</tr>
+								<tr>
+									<td class="left middle">NX-PG0332-5</td>
+								</tr>
+								<tr>
+									<td class="left middle">NX-PG0342-5</td>
+								</tr>
+							</table>
+						</div>
+					
+        </p>
+    </div>
+
+
+
+
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="component-blockA01">
+
+
+
+
+
+    <div class="text">
+        <p>
+            
+						<div class="table-blockA01">
+							<table class="tableA01" cellspacing="0" border="0">
+								<tr class="first-child">
+									<th colspan="2" rowspan="2" class="heading center middle"><strong>NX Unit</strong></th>
+									<th colspan="2" rowspan="1" class="heading center middle"><strong>Corresponding versions *1</strong></th>
+								</tr>
+								<tr>
+									<th colspan="2" rowspan="1" class="heading center middle"><strong>EtherNet/IP</strong></th>
+								</tr>
+								<tr>
+									<th class="heading left middle"><strong>Model</strong></th>
+									<th class="heading left middle"><strong>Unit Version</strong></th>
+									<th class="heading center middle"><strong>Communications
+<br />
+Coupler Unit</strong></th>
+									<th class="heading center middle"><strong>Sysmac Studio</strong></th>
+								</tr>
+								<tr>
+									<td colspan="1" rowspan="2" class="left middle">NX-PG0112</td>
+									<td class="left middle">Ver.1.1</td>
+									<td colspan="1" rowspan="9" class="center middle">---</td>
+									<td colspan="1" rowspan="9" class="center middle">---</td>
+								</tr>
+								<tr>
+									<td class="left middle">Ver.1.2</td>
+								</tr>
+								<tr>
+									<td colspan="1" rowspan="3" class="left middle">NX-PG0122</td>
+									<td class="left middle">Ver.1.0</td>
+								</tr>
+								<tr>
+									<td class="left middle">Ver.1.1</td>
+								</tr>
+								<tr>
+									<td class="left middle">Ver.1.2</td>
+								</tr>
+								<tr>
+									<td class="left middle">NX-PG0232-5</td>
+									<td colspan="1" rowspan="4" class="left middle">Ver.1.2</td>
+								</tr>
+								<tr>
+									<td class="left middle">NX-PG0242-5</td>
+								</tr>
+								<tr>
+									<td class="left middle">NX-PG0332-5</td>
+								</tr>
+								<tr>
+									<td class="left middle">NX-PG0342-5</td>
+								</tr>
+							</table>
+						</div>
+					
+        </p>
+    </div>
+
+
+
+
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="component-blockA01">
+
+
+
+
+
+    <div class="text">
+        <p>
+            1. Some Units do not have all of the versions given in the above table. If a Unit does not have the specified version,
+<br />
+    support is provided by the oldest available version after the specified version. Refer to the user’s manuals for the
+<br />
+    specific Units for the relation between models and versions.
+<br />
+2. To use task period prioritized refreshing, you must use the NX-ECC203.
+<br />
+3. If you do not use task period prioritized refreshing, you can use EtherCAT Coupler Units with unit version 1.0.
+        </p>
+    </div>
+
+
+
+
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<p class="date-line">last update: October 11, 2016</p>
+
+</div>
+
+                        </div>
+                    </div>
+	            <!-- === /[primary-contents-area] === -->
+                </div>
+                <!-- === /[inner-contents-area] === -->
+
+
+                <!-- === [local-navi] === -->
+                <div class="local-navi-area">
+                    <div class="local-navi-area">
+
+
+
+<div class="local-naviA01">
+<h2 class="heading-link">
+<a href="../../category/index.html" ><img src="../../../resources/images/icon_right_b.gif" width="3" height="9" alt="" class="iconA01" />Product Category</a>
+</h2>
+<ul><li><a href="../../category/automation-systems/index-2.html"><img src="../../../resources/images/icon_right_b.gif" width="3" height="9" alt="" class="iconA01" />Automation Systems</a><ul class="list-indent01"><li><a href="../../category/automation-systems/machine-automation-controllers/index-2.html"><img src="../../../resources/images/icon_right_b.gif" width="3" height="9" alt="" class="iconA01" />Machine Automation Controllers</a><ul class="list-indent02"><li><a href="../../category/automation-systems/machine-automation-controllers/ethercat-slave-terminals-nx-series/index.html"><img src="../../../resources/images/icon_right_b.gif" width="3" height="9" alt="" class="iconA01" />EtherCAT Slave Terminals NX-Series</a><ul class="list-indent03"><li><a href="../../category/automation-systems/machine-automation-controllers/ethercat-slave-terminals-nx-series/position-interface-unit/index.html"><img src="../../../resources/images/icon_right_b.gif" width="3" height="9" alt="" class="iconA01" />Position Interface Unit</a><ul class="list-indent04"><li><a href="../3190/index.html"><img src="../../../resources/images/icon_right_b.gif" width="3" height="9" alt="" class="iconA01" />NX-EC0[][][]</a></li><li><a href="../3191/index.html"><img src="../../../resources/images/icon_right_b.gif" width="3" height="9" alt="" class="iconA01" />NX-ECS[][][]</a></li><li class="stay"><span>NX-PG0[][][]</span></li></ul></li></ul></li></ul></li></ul></li></ul>
+<!-- /local-naviA01 -->
+</div>
+
+
+
+<div class="local-naviB01">
+<ul class="heading-link">
+
+<li class="first-child">
+<a href="../../category/index.html"><img src="../../../resources/images/icon_right_b.gif" width="3" height="9" alt="" class="iconA01" />Product Category</a>
+</li>
+
+<li>
+<a href="../../../product/cautions/index-2.html"><img src="../../../resources/images/icon_right_b.gif" width="3" height="9" alt="" class="iconA01" />Cautions</a>
+</li>
+
+<li>
+<a href="../../index/index.html"><img src="../../../resources/images/icon_right_b.gif" width="3" height="9" alt="" class="iconA01" />Item A to Z Index</a>
+</li>
+
+<li>
+<a href="../../applications/index.html"><img src="../../../resources/images/icon_right_b.gif" width="3" height="9" alt="" class="iconA01" />Applications</a>
+</li>
+
+<li>
+<a href="../../correct/index.html"><img src="../../../resources/images/icon_right_b.gif" width="3" height="9" alt="" class="iconA01" />Correction Notice</a>
+</li>
+
+</ul>
+<!-- /local-naviB01 -->
+</div>
+                    </div>
+                </div>
+                <!-- === /[local-navi] === -->
+
+            </div>
+            <!-- === /[contents-area] === -->
+
+            <!-- === [top-page-link-area] === -->
+            <div class="top-page-link-area">
+                <ul class="top-page-link-list">
+                    <li>
+                        <a href="#page-top"><img src="../../../resources/images/icon_up_b.gif" width="5" height="8" alt="" class="iconB01" />Top of Page</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- === /[top-page-link-area] === -->
+
+            <!-- === [footer-area] === -->
+
+
+<!-- === [footer-area] === -->
+<div class="footer-area">
+    <p class="non-visual">
+        <a name="footer" id="footer">Site Information</a>
+    </p>
+  
+    <div class="footer-link">
+     
+
+        <p class="copyright">© Copyright Kyoto Engineering &amp; Automation Ltd. All Rights Reserved.</p>
+    <!-- /.footer-link -->
+    </div>
+<!-- /.footer-area -->
+</div>
+<!-- === /[footer-area] === -->
+            <!-- === /[footer-area] === -->
+        </div>
+        <!-- === /[omron-ia] === -->
+    </body>
+
+<!-- Mirrored from www.ia.omron.com/products/family/3192/specification.html by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 16 Dec 2016 06:37:35 GMT -->
+</html>

@@ -1,0 +1,1414 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<html xml:lang="en" lang="en" xmlns="http://www.w3.org/1999/xhtml">
+    
+<!-- Mirrored from www.ia.omron.com/products/family/3541/specification.html by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 16 Dec 2016 04:38:39 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=utf-8" /><!-- /Added by HTTrack -->
+<head><link rel="stylesheet" type="text/css" media="all" href="../../../css/index.css"/>
+<link rel="stylesheet" type="text/css" media="all" href="../../../css/top.css"/>
+
+        <meta http-equiv="Content-Language" content="en" />
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <meta http-equiv="Content-Style-Type" content="text/css" />
+        <meta http-equiv="Content-Script-Type" content="text/javascript" />
+        <title>
+            GX-ILM08C GX-series IO-Link Master Unit/Specifications | Omron by Kyoto engineering &amp; Automation
+        </title>
+        <meta name="keywords" content="Automation Systems,Networks,EtherCAT,EtherCAT Remote I/O Terminals,GX-ILM08C" />
+        <meta name="description" content="GX-series IO-Link Master Unit IO-Link makes sensor level information visible and solves the three major issues at manufacturing sites! The unit for M12 Smartclick connector can be used in watery, and dusty environments." />
+        
+
+<link rel="alternate" href="../../../index.php" hreflang="en" />
+<link rel="stylesheet" type="text/css" media="all" href="../../../resources/css/common22f8.css?201611151200" />
+<link rel="stylesheet" type="text/css" media="all" href="../../../resources/css/global/common22f8.css?201611151200" />
+<link rel="stylesheet" type="text/css" media="all" href="../../../resources/css/frame_utility_tridion22f8.css?201611151200" />
+<link rel="stylesheet" type="text/css" media="print" href="../../../resources/css/print22f8.css?201611151200" />
+<script type="text/javascript" src="../../../resources/js/jquery22f8.js?201611151200"></script>
+<script type="text/javascript" src="../../../resources/js/function22f8.js?201611151200"></script>
+<script type="text/javascript" src="../../../resources/js/country_website22f8.js?201611151200"></script>
+<script type="text/javascript" src="../../../resources/js/global/ga22f8.js?201611151200"></script>
+<link rel="stylesheet" type="text/css" media="all" href="../../../resources/css/jquery-ui22f8.css?201611151200" charset='UTF-8'/>
+<link rel="stylesheet" type="text/css" media="all" href="../../../resources/css/jquery.multiselect22f8.css?201611151200" charset='UTF-8'/>
+<script type="text/javascript" language="JavaScript" src="../../../common/js/marketing_tag22f8.js?201611151200"></script>
+<script type="text/javascript" src="../../../resources/js/jquery-ui.min22f8.js?201611151200" charset='UTF-8'></script>
+<script type="text/javascript" src="../../../resources/js/jquery.ex-table-filter22f8.js?201611151200" charset='UTF-8'></script>
+<script type="text/javascript" src="../../../resources/js/jquery.tablesorter.min22f8.js?201611151200" charset='UTF-8'></script>
+<script type="text/javascript" src="../../../resources/js/filter22f8.js?201611151200" charset='UTF-8'></script>
+<link rel="shortcut icon" href="../../../resources/images/favicon.ico" type="image/x-icon" />
+
+        <link rel="stylesheet" type="text/css" media="all" href="../../../resources/css/tablesorter6c9b.css?201611150900" />
+        <script type="text/javascript" src="../../../resources/js/global/products6c9b.js?201611150900" charset='UTF-8'></script>
+
+    
+                    <script type="text/javascript">
+                      var w=window;
+                      if(w.performance||w.mozPerformance||w.msPerformance||w.webkitPerformance){var d=document,AKSB=AKSB||{};AKSB.q=[];AKSB.mark=function(a,b){AKSB.q.push(["mark",a,b||(new Date).getTime()])};AKSB.measure=function(a,b,c){AKSB.q.push(["measure",a,b,c||(new Date).getTime()])};AKSB.done=function(a){AKSB.q.push(["done",a])};AKSB.mark("firstbyte",(new Date).getTime());AKSB.prof={custid:"447308",ustr:"UNKNOWN",originlat:0,clientrtt:72,ghostip:"23.75.23.146",
+                      ipv6:false,pct:10,clientip:"27.147.201.4",requestid:"3e7a7f9b",protocol:"",blver:10,akM:"b",akN:"ae",akTT:"O",akTX:"1",akTI:"3e7a7f9b",ai:"286653",ra:"",pmgn:"",pmgi:"",pmp:""};(function(a){var b=
+                      d.createElement("script");b.async="async";b.src=a;a=d.getElementsByTagName("script");a=a[a.length-1];a.parentNode.insertBefore(b,a)})(("https:"===d.location.protocol?"https:":"http:")+"//ds-aksb-a.akamaihd.net/aksb.min.js")};
+                    </script>
+                    </head>
+    <body id="www-ia-omron-com" class="layoutC03 automation-systems">
+
+        <!-- === [omron-ia] === -->
+        <div class="omron-ia">
+            <p class="non-visual">
+                <a name="page-top" id="page-top">
+                    Page top
+                </a>
+            </p>
+
+
+
+
+<div class="header-area">
+     <div class="site-identity">
+          <div class="site-logo">
+               <a href="../../../index.php"><img src="../../../images/logo_01_b13-260967.gif"  width="129" height="24" alt="OMRON" /></a>
+          </div>
+          <!-- /.site-identity -->
+     </div>
+   <div class="utilities">
+		<div class="country-select-area">
+			<p class="canpany">Building Automation</p>
+                        <?php echo '&nbsp' ; ?>
+                        <br/>
+                        <p class="canpany">Industrial Automation</p>
+                        <?php echo '&nbsp' ; ?>
+                        <br/>
+                        <p class="canpany">Power Automation &amp; Safety </p>
+			
+		</div>
+            
+            <div class="japani">
+                <img  src="../../../shared/img/Japani Technology mnemonic.png" width="90" height="50" alt=""/>
+            </div>
+          
+            
+            
+            <div class="flag">
+            <img src="../../../shared/img/Bangladesh-Flag_1.png" alt=""/>
+            </div>
+            <div class="kyoto">
+                <p><b>Bangladesh Distributor</b></p>
+                <img style="margin-left:-5px;"  src="../../../shared/img/Kyoto-logo-Png.png" alt=""/>
+            </div>
+	<!-- /.utilities --> </div>
+</div>
+<div class="global-navi-area">
+<ul>
+<li class="home stay"><a href="../../../index.php">Home</a></li>
+<li class="product"><a href="../../../products/index.html">Products</a></li>
+<li class="corporate-profile"><a href="../../../view/contact/input.php">Contact Us</a></li>
+<li class="function-area"><div class="search"><form action="https://omron.keal.com.bd/sphider/search.php" method="get">       
+<input type="text" name="query" id="query" size="40" value="" />
+      <input type="submit" value="Search" /> <input type="hidden"
+      name="search" value="1" />
+    </form>
+</div>
+</li>
+</ul>
+</div> 
+<div class="bread-crumb-area">
+<ul>
+
+
+<li><a href="../../../index.php" >Home</a><span class="separator">&gt;</span></li>
+
+<li><a href="../../index-2.html" >Products</a><span class="separator">&gt;</span></li>
+
+<li><a href="../../category/index.html" >Product Category</a><span class="separator">&gt;</span></li>
+
+<li><a href="../../category/automation-systems/index-2.html" >Automation Systems</a><span class="separator">&gt;</span></li>
+
+<li><a href="../../category/automation-systems/networks/index.html" >Networks</a><span class="separator">&gt;</span></li>
+
+<li><a href="../../category/automation-systems/networks/ethercat/index.html" >EtherCAT</a><span class="separator">&gt;</span></li>
+
+<li><a href="../../category/automation-systems/networks/ethercat/ethercat-remote-io-terminals/index.html" >EtherCAT Remote I/O Terminals</a><span class="separator">&gt;</span></li>
+
+<li><strong>GX-ILM08C</strong></li>
+
+
+</ul>
+</div>
+
+            <!-- === [contents-area] === -->
+            <div class="contents-area">
+
+                <!-- === [inner-contents-area] === -->
+                <div class="inner-contents-area">
+                    <!-- === [upper-contents-area] === -->
+                    <div class="upper-contents-area">
+                        <!-- === [lead-area] === -->
+                        <div class="lead-area">
+
+
+
+
+<!-- --------------------------------------------------------------------Product Family Start--------------------------------------------------------- -->
+<div class="heading-h1">
+
+
+    <h1>
+        GX-ILM08C
+    </h1>
+    <p class="sub-title">
+        GX-series IO-Link Master Unit
+    </p>
+</div>
+<div class="image-blockA01">
+    <div class="image-left">
+        <p class="image">
+
+            <img src="../../../images/l_3541-13-262159-198x198.jpg" width="198" height="198" alt="GX-ILM08C" class="nopic" />
+
+
+        </p>
+    </div>
+    <div class="description">
+        <h2 class="heading-B02">
+            IO-Link makes sensor level information visible and solves the three major issues at manufacturing sites! The unit for M12 Smartclick connector can be used in watery, and dusty environments.
+        </h2>
+        
+
+
+
+
+        <div class="item-list-link">
+            <p>
+                <a href="itemlist/index.html">
+                    <img src="../../../resources/images/icon_right_b.gif" width="3" height="9" alt="" class="iconA01" />
+                    Item list of GX-ILM08C
+                </a>
+            </p>
+        </div>
+    </div>
+<!-- /.image-blockA01 -->
+</div>
+
+
+
+                        </div>
+                        <!-- === /[lead-area] === -->
+
+
+                        <!-- === [utility-area] === -->
+                        <div class="utility-area">                         
+                       
+                            <div class="action-block">
+                                <p>
+                                    about this Product Family
+                                </p>
+                                <ul>
+                                    <li class="first-child">
+                                        <a href="../../../view/contact/input.php">
+                                            Inquiry of this Product
+                                        </a>
+                                    </li>                                 
+                                </ul>
+                            </div>
+
+
+
+
+<div class="related-info-blockA01 vertical-slide">
+
+    <p>
+        <span>Related Contents</span>
+    </p>
+
+
+    
+        <ul>
+            <li class="first-child">
+                <span>Automation Systems</span>
+            </li>
+            <li>
+                <ul class="list-indent01">
+
+
+                    <li class="first-child">
+
+
+                        <a href="../../applications/category/automation-systems/index.html">
+                            <img src="../../../resources/images/icon_right_b.gif" width="3" height="9" alt="" class="iconA01" />
+                            Applications 
+                        </a>
+                    </li>
+
+                </ul>
+            </li>
+        </ul>
+
+        <ul>
+            <li class="first-child">
+                <span>Networks</span>
+            </li>
+            <li>
+                <ul class="list-indent01">
+
+
+                    <li class="first-child">
+
+
+                        <a href="../../index/automation-systems/networks/index.html">
+                            <img src="../../../resources/images/icon_right_b.gif" width="3" height="9" alt="" class="iconA01" />
+                            Item A to Z Index 
+                        </a>
+                    </li>
+
+
+
+                    <li>
+
+                        <a href="../../../support/glossary/automation-systems/networks/index.html">
+                            <img src="../../../resources/images/icon_right_b.gif" width="3" height="9" alt="" class="iconA01" />
+                            Glossary of Industrial Automation 
+                        </a>
+                    </li>
+
+                </ul>
+            </li>
+        </ul>
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- /.related-info-blockA01 -->
+</div>
+
+
+
+                           
+                        </div>
+                        <!-- === /[utility-area] === -->
+
+                    </div>
+                    <!-- === /[upper-contents-area] === -->
+
+                    <!-- === [primary-contents-area] === -->
+                    <div class="primary-contents-area">
+                        <div class="tabpanel-blockA01">
+
+
+
+
+
+
+<div class="tab-block">
+    <ul class="tabs">
+
+
+
+
+
+
+
+        <li>
+            <a href="feature.html">Features</a>
+
+        </li>
+
+
+
+
+
+
+
+
+        <li>
+            <a href="lineup.html">Lineup</a>
+
+        </li>
+
+
+
+
+
+
+
+
+        <li class="active">
+            <span>Specifications</span>
+
+        </li>
+
+
+
+
+
+
+
+
+        <li>
+            <a href="dimension.html">Dimensions</a>
+
+        </li>
+
+
+
+
+
+
+        <li>
+            <a href="download/catalog.html">Catalog</a>
+
+        </li>
+
+
+
+
+
+    </ul>
+</div><!-- /.tab-block -->
+
+<div class="editable-block">
+
+
+<p class="date-line">last update: October 11, 2016</p>
+
+
+
+
+
+
+
+
+<h4 class="heading-A01">General Specification</h4>
+
+
+
+
+
+
+
+
+
+
+
+<div class="component-blockA01">
+
+
+
+
+
+    <div class="text">
+        <p>
+            
+						<div class="table-blockA01">
+							<table class="tableA01" cellspacing="0" border="0">
+								<tr class="first-child">
+									<th class="heading center middle"><strong>Item</strong></th>
+									<th class="heading center middle"><strong>Specification</strong></th>
+								</tr>
+								<tr>
+									<th class="heading left middle"><strong>Unit power supply
+<br />
+voltage</strong></th>
+									<td class="left middle">20.4 to 26.4 VDC (24 VDC -15%/+10%)</td>
+								</tr>
+								<tr>
+									<th class="heading left middle"><strong>I/O power supply</strong></th>
+									<td class="left middle">20.4 to 26.4 VDC (24 VDC -15%/+10%)</td>
+								</tr>
+								<tr>
+									<th class="heading left middle"><strong>Noise resistance</strong></th>
+									<td class="left middle">Conforms to IEC 61000-4-4, 2 kV (power line).</td>
+								</tr>
+								<tr>
+									<th class="heading left middle"><strong>Vibration resistance</strong></th>
+									<td class="left middle">Malfunction: 10 to 60 Hz with amplitude of 0.7 mm, 60 to 150 Hz and 50 m/s<sup>2</sup> for 80 minutes
+<br />
+each in X, Y, and Z directions</td>
+								</tr>
+								<tr>
+									<th class="heading left middle"><strong>Shock resistance</strong></th>
+									<td class="left middle">150 m/s<sup>2</sup> with amplitude of 0.7 mm</td>
+								</tr>
+								<tr>
+									<th class="heading left middle"><strong>Dielectric strength</strong></th>
+									<td class="left middle">600 VAC (between isolated circuits)</td>
+								</tr>
+								<tr>
+									<th class="heading left middle"><strong>Insulation resistance</strong></th>
+									<td class="left middle">20 MΩ min. (between isolated circuits)</td>
+								</tr>
+								<tr>
+									<th class="heading left middle"><strong>Ambient operating
+<br />
+temperature</strong></th>
+									<td class="left middle">-10 to 55°C</td>
+								</tr>
+								<tr>
+									<th class="heading left middle"><strong>Ambient operating
+<br />
+humidity</strong></th>
+									<td class="left middle">25% to 85% (with no condensation)</td>
+								</tr>
+								<tr>
+									<th class="heading left middle"><strong>Ambient operating
+<br />
+atmosphere</strong></th>
+									<td class="left middle">No corrosive gases</td>
+								</tr>
+								<tr>
+									<th class="heading left middle"><strong>Altitude</strong></th>
+									<td class="left middle">2,000 m max.</td>
+								</tr>
+								<tr>
+									<th class="heading left middle"><strong>Storage temperature</strong></th>
+									<td class="left middle">-25 to 65°C</td>
+								</tr>
+								<tr>
+									<th class="heading left middle"><strong>Storage humidity</strong></th>
+									<td class="left middle">25% to 85% (with no condensation)</td>
+								</tr>
+								<tr>
+									<th class="heading left middle"><strong>Degree of protection</strong></th>
+									<td class="left middle">IP67</td>
+								</tr>
+								<tr>
+									<th class="heading left middle"><strong>Mounting</strong></th>
+									<td class="left middle">M5 screw mounting</td>
+								</tr>
+								<tr>
+									<th class="heading left middle"><strong>Mounting strength</strong></th>
+									<td class="left middle">100 N</td>
+								</tr>
+								<tr>
+									<th class="heading left middle"><strong>Communications
+<br />
+connector strength</strong></th>
+									<td class="left middle">30 N</td>
+								</tr>
+								<tr>
+									<th class="heading left middle"><strong>Connector types</strong></th>
+									<td class="left middle">Connectors for EtherCAT communications: M12 (D-coding, female) × 2
+<br />
+Power supply connector: M12 (A-coding, male) × 1
+<br />
+I/O connectors: M12 (A-coding, female) *1 × 8</td>
+								</tr>
+								<tr>
+									<th class="heading left middle"><strong>Screw tightening torque
+<br />
+*2</strong></th>
+									<td class="left middle">Round connectors (communications connector, power supply, and I/O): 0.39 to 0.49 N·m
+<br />
+M5 (Unit mounted from the front): 1.47 to 1.96 N·m
+<br />
+Cover for node address setting switches: 0.4 to 0.6 N·m</td>
+								</tr>
+								<tr>
+									<th class="heading left middle"><strong>Applicable standards *3</strong></th>
+									<td class="left middle">EU: EN 61131-2, RCM, KC, IO-Link conformance, and EtherCAT conformance</td>
+								</tr>
+							</table>
+						</div>
+					
+        </p>
+    </div>
+
+
+
+
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="component-blockA01">
+
+
+
+
+
+    <div class="text">
+        <p>
+            *1. Confirms to Class A when used as an IO-Link connector.
+<br />
+*2. For SmartClick Connectors, insert the Connector all the way and turn it approx. 1/8 of a turn. Torque management is
+<br />
+       not required.
+<br />
+*3. Ask your OMRON representative for the most recent applicable standards for each model.
+        </p>
+    </div>
+
+
+
+
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<h4 class="heading-A01">Function Specification</h4>
+
+
+
+
+
+
+
+
+
+
+
+<div class="component-blockA01">
+
+
+
+
+
+    <div class="text">
+        <p>
+            
+						<div class="table-blockA01">
+							<table class="tableA01" cellspacing="0" border="0">
+								<tbody>
+									<tr class="first-child">
+										<th colspan="2" rowspan="1" class="heading center middle"><strong>Item</strong></th>
+										<th class="heading center middle"><strong>Specification</strong></th>
+									</tr>
+									<tr>
+										<th colspan="2" rowspan="1" class="heading left middle"><strong>Unit name</strong></th>
+										<td class="left middle">IO-Link Master Unit</td>
+									</tr>
+									<tr>
+										<th colspan="2" rowspan="1" class="heading left middle"><strong>Model</strong></th>
+										<td class="left middle">GX-ILM08C</td>
+									</tr>
+									<tr>
+										<th colspan="2" rowspan="1" class="heading left middle"><strong>Number of IO-Link ports</strong></th>
+										<td class="left middle">8</td>
+									</tr>
+									<tr>
+										<th colspan="1" rowspan="4" class="heading left middle"><strong>Communications
+<br />
+specifications</strong></th>
+										<th class="heading left middle"><strong>Communications protocol</strong></th>
+										<td class="left middle">IO-Link protocol</td>
+									</tr>
+									<tr>
+										<th class="heading left middle"><strong>Baud rate</strong></th>
+										<td class="left middle">COM1: 4.8 kbps
+<br />
+COM2: 38.4 kbps
+<br />
+COM3: 230.4 kbps</td>
+									</tr>
+									<tr>
+										<th class="heading left middle"><strong>Topology</strong></th>
+										<td class="left middle">1:1</td>
+									</tr>
+									<tr>
+										<th class="heading left middle"><strong>Compliant standards</strong></th>
+										<td class="left middle">• IO-Link Interface and System Specification Version1.1.2
+<br />
+• IO-Link Test Specification Version1.1.2</td>
+									</tr>
+									<tr>
+										<th colspan="1" rowspan="3" class="heading left middle"><strong>Device power
+<br />
+supply* in
+<br />
+IO-Link Mode or
+<br />
+SIO (DI) Mode</strong></th>
+										<th class="heading left middle"><strong>Rated voltage</strong></th>
+										<td class="left middle">24 VDC (20.4 to 26.4 VDC)</td>
+									</tr>
+									<tr>
+										<th class="heading left middle"><strong>Maximum load current</strong></th>
+										<td class="left middle">0.2 A/port</td>
+									</tr>
+									<tr>
+										<th class="heading left middle"><strong>Short-circuit protection</strong></th>
+										<td class="left middle">Yes</td>
+									</tr>
+									<tr>
+										<th colspan="1" rowspan="6" class="heading left middle"><strong>Digital inputs
+<br />
+(in SIO (DI)
+<br />
+Mode)</strong></th>
+										<th class="heading left middle"><strong>Internal I/O common</strong></th>
+										<td class="left middle">PNP</td>
+									</tr>
+									<tr>
+										<th class="heading left middle"><strong>Rated voltage</strong></th>
+										<td class="left middle">24 VDC (20.4 to 26.4 VDC)</td>
+									</tr>
+									<tr>
+										<th class="heading left middle"><strong>Input current</strong></th>
+										<td class="left middle">5 mA typical (at 24 VDC)</td>
+									</tr>
+									<tr>
+										<th class="heading left middle"><strong>ON voltage/ON current</strong></th>
+										<td class="left middle">15 VDC min., 5 mA min.</td>
+									</tr>
+									<tr>
+										<th class="heading left middle"><strong>OFF voltage</strong></th>
+										<td class="left middle">5 VDC max.</td>
+									</tr>
+									<tr>
+										<th class="heading left middle"><strong>Input filter time</strong></th>
+										<td class="left middle">No filter, 0.25 ms, 0.5 ms, 1 ms (default), 2 ms, 4 ms, 8 ms, 16 ms,
+<br />
+32 ms, 64 ms, 128 ms, or 256 ms</td>
+									</tr>
+									<tr>
+										<th colspan="1" rowspan="7" class="heading left middle"><strong>Digital outputs
+<br />
+(in SIO (DIO)
+<br />
+Mode)</strong></th>
+										<th class="heading left middle"><strong>Internal I/O common</strong></th>
+										<td class="left middle">PNP</td>
+									</tr>
+									<tr>
+										<th class="heading left middle"><strong>Output type</strong></th>
+										<td class="left middle">Push-pull</td>
+									</tr>
+									<tr>
+										<th class="heading left middle"><strong>Rated voltage</strong></th>
+										<td class="left middle">24 VDC (20.4 to 26.4 VDC)</td>
+									</tr>
+									<tr>
+										<th class="heading left middle"><strong>Maximum load current</strong></th>
+										<td class="left middle">0.3 A/port</td>
+									</tr>
+									<tr>
+										<th class="heading left middle"><strong>Short-circuit protection</strong></th>
+										<td class="left middle">Provided.</td>
+									</tr>
+									<tr>
+										<th class="heading left middle"><strong>Leakage current</strong></th>
+										<td class="left middle">0.1 mA max.</td>
+									</tr>
+									<tr>
+										<th class="heading left middle"><strong>Residual voltage</strong></th>
+										<td class="left middle">1.5 V max.</td>
+									</tr>
+									<tr>
+										<th colspan="1" rowspan="6" class="heading left middle"><strong>Digital inputs for
+<br />
+pin 2
+<br />
+(in IO-Link
+<br />
+Mode)</strong></th>
+										<th class="heading left middle"><strong>Internal I/O common</strong></th>
+										<td class="left middle">PNP</td>
+									</tr>
+									<tr>
+										<th class="heading left middle"><strong>Rated voltage</strong></th>
+										<td class="left middle">24 VDC (20.4 to 26.4 VDC)</td>
+									</tr>
+									<tr>
+										<th class="heading left middle"><strong>Input current</strong></th>
+										<td class="left middle">2 mA (24 VDC)</td>
+									</tr>
+									<tr>
+										<th class="heading left middle"><strong>ON voltage/ON current</strong></th>
+										<td class="left middle">15 VDC min., 2 mA min.</td>
+									</tr>
+									<tr>
+										<th class="heading left middle"><strong>OFF voltage</strong></th>
+										<td class="left middle">5 VDC max.</td>
+									</tr>
+									<tr>
+										<th class="heading left middle"><strong>Input filter time</strong></th>
+										<td class="left middle">No filter, 0.25 ms, 0.5 ms, 1 ms (default), 2 ms, 4 ms, 8 ms, 16 ms,
+<br />
+32 ms, 64 ms, 128 ms, or 256 ms</td>
+									</tr>
+									<tr>
+										<th colspan="1" rowspan="4" class="heading left middle"><strong>Cable
+<br />
+specifications</strong></th>
+										<th class="heading left middle"><strong>Cable type</strong></th>
+										<td class="left middle">Unshielded</td>
+									</tr>
+									<tr>
+										<th class="heading left middle"><strong>Cable length</strong></th>
+										<td class="left middle">20 m max.</td>
+									</tr>
+									<tr>
+										<th class="heading left middle"><strong>Electrostatic capacity
+<br />
+between lines</strong></th>
+										<td class="left middle">3 nF max.</td>
+									</tr>
+									<tr>
+										<th class="heading left middle"><strong>Loop resistance</strong></th>
+										<td class="left middle">6 Ω max.</td>
+									</tr>
+									<tr>
+										<th colspan="2" rowspan="1" class="heading left middle"><strong>Dimensions</strong></th>
+										<td class="left middle">175 × 33 × 60 mm (W × H × D)
+<br />
+(The height is 49.1 mm when the connectors are included.)</td>
+									</tr>
+									<tr>
+										<th colspan="2" rowspan="1" class="heading left middle"><strong>Isolation method</strong></th>
+										<td class="left middle">Photocoupler isolation</td>
+									</tr>
+									<tr>
+										<th colspan="2" rowspan="1" class="heading left middle"><strong>I/O power supply method</strong></th>
+										<td class="left middle">Supplied from the power supply connector.</td>
+									</tr>
+									<tr>
+										<th colspan="2" rowspan="1" class="heading left middle"><strong>Unit power supply current consumption</strong></th>
+										<td class="left middle">60 mA</td>
+									</tr>
+									<tr>
+										<th colspan="2" rowspan="1" class="heading left middle"><strong>I/O power supply current consumption</strong></th>
+										<td class="left middle">100 mA</td>
+									</tr>
+									<tr>
+										<th colspan="2" rowspan="1" class="heading left middle"><strong>Weight</strong></th>
+										<td class="left middle">430 g</td>
+									</tr>
+									<tr>
+										<th colspan="2" rowspan="1" class="heading left middle"><strong>Circuit layout</strong></th>
+										<td class="left middle"><img src="../../../images/3541_sp_2_113-262164.gif"  style="width: 376px; height: 203px;" alt="3541_sp_2_1" title="3541_sp_2_1" /></td>
+									</tr>
+									<tr>
+										<th colspan="2" rowspan="1" class="heading left middle"><strong>Installation orientation and restrictions</strong></th>
+										<td class="left middle">Installation orientation: 6 possible orientations
+<br />
+Restrictions: No restrictions</td>
+									</tr>
+									<tr>
+										<th colspan="2" rowspan="1" class="heading left middle"><strong>Protective functions</strong></th>
+										<td class="left middle">Load short-circuit protection</td>
+									</tr>
+								</tbody>
+							</table>
+						</div>
+					
+        </p>
+    </div>
+
+
+
+
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<h4 class="heading-A01">Function Specification</h4>
+
+
+
+
+
+
+
+
+
+
+
+<div class="component-blockA01">
+
+
+
+
+
+    <div class="text">
+        <p>
+            
+						<div class="table-blockA01">
+							<table class="tableA01" cellspacing="0" border="0">
+								<tr class="first-child">
+									<th colspan="2" rowspan="1" class="heading center middle"><strong>Function</strong></th>
+									<th class="heading center middle"><strong>Description</strong></th>
+								</tr>
+								<tr>
+									<th colspan="1" rowspan="2" class="heading left middle"><strong>Communications</strong></th>
+									<th class="heading left middle"><strong>Cyclic
+<br />
+communications</strong></th>
+									<td class="left middle">I/O data (process data) in the IO-Link devices is cyclically shared with the IO-Link Master Unit as the IO-Link communications master.
+<br />
+At the same time, this data and the status of the IO-Link Master Unit is cyclically shared with the host communications master, with the IO-Link Master Unit operating as a slave of the controller.
+<br />
+Cyclic communications can be used to check the amount of detection performance deterioration in devices, and to check changes in usage conditions, such as the amount of incident light for photoelectric sensors, stability detection margins, and excessive proximity for proximity sensors.</td>
+								</tr>
+								<tr>
+									<th class="heading left middle"><strong>Message
+<br />
+communications</strong></th>
+									<td class="left middle">The controller can send messages (commands) to the IO-Link Master Unit and receive the response from the IO-Link Master Unit.
+<br />
+The IO-Link Master Unit can also function as a gateway to send messages (commands and responses) between the controller and the IO-Link devices.
+<br />
+During operation, you can change and adjust device parameters, such as threshold settings, tuning execution, and ON-delay time changes, from a program.
+<br />
+Or, during operation, you can check the internal status, such as the operating times of devices.</td>
+								</tr>
+								<tr>
+									<th colspan="2" rowspan="1" class="heading left middle"><strong>Communications mode settings</strong></th>
+									<td class="left middle">You can select any of the following modes for each port:
+<br />
+IO-Link Mode, SIO (DI) Mode, SIO (DO) Mode, or Disable Port
+<br />
+This allows you to combine IO-Link communications and digital I/O in a single terminal or unit.</td>
+								</tr>
+								<tr>
+									<th colspan="2" rowspan="1" class="heading left middle"><strong>Digital inputs for pin 2</strong></th>
+									<td class="left middle">In IO-Link Mode, you can perform digital input with pin 2 while performing IO-Link communications.</td>
+								</tr>
+								<tr>
+									<th colspan="2" rowspan="1" class="heading left middle"><strong>Automatic baud rate setting for
+<br />
+IO-Link communications</strong></th>
+									<td class="left middle">The IO-Link Master Unit automatically matches the specific baud rates (COM1, COM2, or COM3) of the IO-Link devices to communicate with the IO-Link devices.
+<br />
+Therefore, it is not necessary to set the baud rate of the connected device for each port.</td>
+								</tr>
+								<tr>
+									<th colspan="2" rowspan="1" class="heading left middle"><strong>Connected device verification</strong></th>
+									<td class="left middle">This function is used to verify the configuration of IO-Link devices that are connected to the IO-Link Master Unit against the registered IO-Link device configuration settings when the power supply is turned ON.
+<br />
+The user can enable or disable connected device verification.</td>
+								</tr>
+								<tr>
+									<th colspan="2" rowspan="1" class="heading left middle"><strong>IO-Link communications error
+<br />
+detection</strong></th>
+									<td class="left middle">This function detects IO-Link cable breaks, disconnections from IO-Link device ports, error-level device events, device configuration verification errors, and IO-Link device malfunctions.</td>
+								</tr>
+								<tr>
+									<th colspan="2" rowspan="1" class="heading left middle"><strong>Detection of short-circuits in I/O
+<br />
+cables</strong></th>
+									<td class="left middle">This function detects short-circuits in I/O cables</td>
+								</tr>
+								<tr>
+									<th colspan="2" rowspan="1" class="heading left middle"><strong>Notification of input data validity</strong></th>
+									<td class="left middle">The controller can use the Input Data Enabled Flags to determine whether input data * is valid.</td>
+								</tr>
+								<tr>
+									<th colspan="2" rowspan="1" class="heading left middle"><strong>Load rejection for controller
+<br />
+communications error</strong></th>
+									<td class="left middle">This function turns OFF outputs from the IO-Link Master Unit when an error occurs in communications with the controller in IO-Link Mode or in an SIO mode.
+<br />
+This prevents output operations with incorrect values from host communications.</td>
+								</tr>
+								<tr>
+									<th colspan="2" rowspan="1" class="heading left middle"><strong>Reading IO-Link total
+<br />
+communications retries</strong></th>
+									<td class="left middle">The IO-Link total communications retries can be read from the CX-ConfiguratorFDT.
+<br />
+You can use this function to determine communications status as affected by I/O communications noise or other factors.</td>
+								</tr>
+								<tr>
+									<th colspan="2" rowspan="1" class="heading left middle"><strong>Digital input filter</strong></th>
+									<td class="left middle">You can set a filter processing time interval for digital inputs in SIO (DI) Mode or for digital inputs for pin 2 in IO-Link Mode.
+<br />
+This lets you eliminate data corruption that can result from noise or switch chattering.
+<br />
+This function can also be used to implement an ON delay and an OFF delay.</td>
+								</tr>
+								<tr>
+									<th colspan="2" rowspan="1" class="heading left middle"><strong>Backup and restoration of
+<br />
+parameter settings in IO-Link
+<br />
+devices</strong></th>
+									<td class="left middle">This function is used to back up parameter settings in IO-Link devices in the IO-Link Master Unit or restore them to IO-Link devices.
+<br />
+This eliminates the need to set parameters again after replacing an IO-Link device.</td>
+								</tr>
+								<tr>
+									<th colspan="2" rowspan="1" class="heading left middle"><strong>Event log</strong></th>
+									<td class="left middle">The event log records events (including errors) that occur in the IO-Link Master Unit and the IO-Link devices.
+<br />
+This enables partial troubleshooting for NJ/NX-series Controllers and NY-series Industrial PCs.</td>
+								</tr>
+							</table>
+						</div>
+					
+        </p>
+    </div>
+
+
+
+
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="component-blockA01">
+
+
+
+
+
+    <div class="text">
+        <p>
+            * The input data includes IO-Link input data in IO-Link communications, the digital input data that is input with pin 2,
+<br />
+    and digital input data in SIO (DI) Mode.
+        </p>
+    </div>
+
+
+
+
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<h4 class="heading-A01">EtherCAT Communications Specifications</h4>
+
+
+
+
+
+
+
+
+
+
+
+<div class="component-blockA01">
+
+
+
+
+
+    <div class="text">
+        <p>
+            
+						<div class="table-blockA01">
+							<table class="tableA01" cellspacing="0" border="0">
+								<tr class="first-child">
+									<th class="heading center middle"><strong>Item</strong></th>
+									<th class="heading center middle"><strong>Specification</strong></th>
+								</tr>
+								<tr>
+									<th class="heading left middle"><strong>Communications protocol</strong></th>
+									<td class="left middle">EtherCAT protocol</td>
+								</tr>
+								<tr>
+									<th class="heading left middle"><strong>Modulation</strong></th>
+									<td class="left middle">Baseband</td>
+								</tr>
+								<tr>
+									<th class="heading left middle"><strong>Baud rate</strong></th>
+									<td class="left middle">100 Mbps</td>
+								</tr>
+								<tr>
+									<th class="heading left middle"><strong>Physical layer</strong></th>
+									<td class="left middle">100BASE-TX (IEEE 802.3)</td>
+								</tr>
+								<tr>
+									<th class="heading left middle"><strong>Connectors</strong></th>
+									<td class="left middle">M12 (D-coding, female) × 2 (shielded)
+<br />
+CN IN: EtherCAT input
+<br />
+CN OUT: EtherCAT output</td>
+								</tr>
+								<tr>
+									<th class="heading left middle"><strong>Communications media</strong></th>
+									<td class="left middle">Category 5 or higher (cable with double, aluminum tape and braided shielding is
+<br />
+recommended.)</td>
+								</tr>
+								<tr>
+									<th class="heading left middle"><strong>Communications distance</strong></th>
+									<td class="left middle">Distance between nodes (Slave Units): 100 m max.</td>
+								</tr>
+								<tr>
+									<th class="heading left middle"><strong>Noise resistance</strong></th>
+									<td class="left middle">Conforms to IEC 61000-4-4, 1 kV or higher.</td>
+								</tr>
+								<tr>
+									<th class="heading left middle"><strong>Node address setting method</strong></th>
+									<td class="left middle">Set on hexadecimal node address switches or with a Configuration Tool.</td>
+								</tr>
+								<tr>
+									<th class="heading left middle"><strong>Node address range</strong></th>
+									<td class="left middle">000 to FFF hex (0 to 4,095 decimal): Set on node address switches or with a
+<br />
+Configuration Tool.</td>
+								</tr>
+								<tr>
+									<th class="heading left middle"><strong>Indicators</strong></th>
+									<td class="left middle">UNIT PWR × 1
+<br />
+IO PWR × 1
+<br />
+L/A IN (Link/Activity IN) × 1
+<br />
+L/A OUT (Link/Activity OUT) × 1
+<br />
+RUN × 1
+<br />
+ERR × 1</td>
+								</tr>
+								<tr>
+									<th class="heading left middle"><strong>Process data</strong></th>
+									<td class="left middle">Variable PDO mapping</td>
+								</tr>
+								<tr>
+									<th class="heading left middle"><strong>PDO size/node</strong></th>
+									<td class="left middle">2 to 270 bytes</td>
+								</tr>
+								<tr>
+									<th class="heading left middle"><strong>Mailbox</strong></th>
+									<td class="left middle">Emergency messages, SDO requests, SDO responses, and SDO information</td>
+								</tr>
+								<tr>
+									<th class="heading left middle"><strong>Synchronization mode</strong></th>
+									<td class="left middle">Free Run Mode (asynchronous)</td>
+								</tr>
+							</table>
+						</div>
+					
+        </p>
+    </div>
+
+
+
+
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<h4 class="heading-A01">Version Information</h4>
+
+
+
+
+
+
+
+
+
+
+
+<div class="component-blockA01">
+
+
+
+
+
+    <div class="text">
+        <p>
+            
+          <div class="table-blockA01">
+							<table class="tableA01" cellspacing="0" border="0">
+								<tr class="first-child">
+									<th colspan="2" rowspan="2" class="heading center middle"><strong>GX Unit</strong></th>
+									<th colspan="3" rowspan="1" class="heading center middle"><strong>Corresponding versions *</strong></th>
+								</tr>
+								<tr>
+									<th colspan="3" rowspan="1" class="heading center middle"><strong>EtherCAT</strong></th>
+								</tr>
+								<tr>
+									<th class="heading center middle"><strong>Model</strong></th>
+									<th class="heading center middle"><strong>Unit version</strong></th>
+									<th class="heading center middle"><strong>CPU Units</strong></th>
+									<th class="heading center middle"><strong>Sysmac Studio</strong></th>
+									<th class="heading center middle"><strong>CX-Configurator FDT</strong></th>
+								</tr>
+								<tr>
+									<td class="left middle">GX-ILM08C</td>
+									<td class="center middle">Ver.1.0</td>
+									<td class="center middle">Ver.1.12 or later</td>
+									<td class="center middle">Ver.1.16 or higher</td>
+									<td class="center middle">Ver.2.2 or higher</td>
+								</tr>
+							</table>
+						</div>
+        
+        </p>
+    </div>
+
+
+
+
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="component-blockA01">
+
+
+
+
+
+    <div class="text">
+        <p>
+            * Some Units do not have all of the versions given in the above table. If a Unit does not have the specified version,
+<br />
+  support is provided by the oldest available version after the specified version. Refer to the user’s manuals for the
+<br />
+  specific Units for the relation between models and versions.
+        </p>
+    </div>
+
+
+
+
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<p class="date-line">last update: October 11, 2016</p>
+
+</div>
+
+                        </div>
+                    </div>
+	            <!-- === /[primary-contents-area] === -->
+                </div>
+                <!-- === /[inner-contents-area] === -->
+
+
+                <!-- === [local-navi] === -->
+                <div class="local-navi-area">
+                    <div class="local-navi-area">
+
+
+
+<div class="local-naviA01">
+<h2 class="heading-link">
+<a href="../../category/index.html" ><img src="../../../resources/images/icon_right_b.gif" width="3" height="9" alt="" class="iconA01" />Product Category</a>
+</h2>
+<ul><li><a href="../../category/automation-systems/index-2.html"><img src="../../../resources/images/icon_right_b.gif" width="3" height="9" alt="" class="iconA01" />Automation Systems</a><ul class="list-indent01"><li><a href="../../category/automation-systems/networks/index.html"><img src="../../../resources/images/icon_right_b.gif" width="3" height="9" alt="" class="iconA01" />Networks</a><ul class="list-indent02"><li><a href="../../category/automation-systems/networks/ethercat/index.html"><img src="../../../resources/images/icon_right_b.gif" width="3" height="9" alt="" class="iconA01" />EtherCAT</a><ul class="list-indent03"><li><a href="../../category/automation-systems/networks/ethercat/ethercat-remote-io-terminals/index.html"><img src="../../../resources/images/icon_right_b.gif" width="3" height="9" alt="" class="iconA01" />EtherCAT Remote I/O Terminals</a><ul class="list-indent04"><li class="stay"><span>GX-ILM08C</span></li><li><a href="../2954/index.html"><img src="../../../resources/images/icon_right_b.gif" width="3" height="9" alt="" class="iconA01" />GX-[]D16[]1 / OC1601</a></li><li><a href="../2955/index.html"><img src="../../../resources/images/icon_right_b.gif" width="3" height="9" alt="" class="iconA01" />GX-ID16[]2 / OD16[]2 / MD16[]2</a></li><li><a href="../2952/index.html"><img src="../../../resources/images/icon_right_b.gif" width="3" height="9" alt="" class="iconA01" />GX-[]D16[]8 / []D32[]8</a></li><li><a href="../2953/index.html"><img src="../../../resources/images/icon_right_b.gif" width="3" height="9" alt="" class="iconA01" />GX-AD0471 / DA0271</a></li><li><a href="../2972/index.html"><img src="../../../resources/images/icon_right_b.gif" width="3" height="9" alt="" class="iconA01" />GX-EC0211 / EC0241</a></li></ul></li></ul></li></ul></li></ul></li></ul>
+<!-- /local-naviA01 -->
+</div>
+
+
+
+<div class="local-naviB01">
+<ul class="heading-link">
+
+<li class="first-child">
+<a href="../../category/index.html"><img src="../../../resources/images/icon_right_b.gif" width="3" height="9" alt="" class="iconA01" />Product Category</a>
+</li>
+
+<li>
+<a href="../../../product/cautions/index-2.html"><img src="../../../resources/images/icon_right_b.gif" width="3" height="9" alt="" class="iconA01" />Cautions</a>
+</li>
+
+<li>
+<a href="../../index/index.html"><img src="../../../resources/images/icon_right_b.gif" width="3" height="9" alt="" class="iconA01" />Item A to Z Index</a>
+</li>
+
+<li>
+<a href="../../applications/index.html"><img src="../../../resources/images/icon_right_b.gif" width="3" height="9" alt="" class="iconA01" />Applications</a>
+</li>
+
+<li>
+<a href="../../correct/index.html"><img src="../../../resources/images/icon_right_b.gif" width="3" height="9" alt="" class="iconA01" />Correction Notice</a>
+</li>
+
+</ul>
+<!-- /local-naviB01 -->
+</div>
+                    </div>
+                </div>
+                <!-- === /[local-navi] === -->
+
+            </div>
+            <!-- === /[contents-area] === -->
+
+            <!-- === [top-page-link-area] === -->
+            <div class="top-page-link-area">
+                <ul class="top-page-link-list">
+                    <li>
+                        <a href="#page-top"><img src="../../../resources/images/icon_up_b.gif" width="5" height="8" alt="" class="iconB01" />Top of Page</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- === /[top-page-link-area] === -->
+
+            <!-- === [footer-area] === -->
+
+
+<!-- === [footer-area] === -->
+<div class="footer-area">
+    <p class="non-visual">
+        <a name="footer" id="footer">Site Information</a>
+    </p>
+   
+    <div class="footer-link">
+      
+        <p class="copyright">© Copyright Kyoto Engineering &amp; Automation Ltd. All Rights Reserved.</p>
+    <!-- /.footer-link -->
+    </div>
+<!-- /.footer-area -->
+</div>
+<!-- === /[footer-area] === -->
+            <!-- === /[footer-area] === -->
+        </div>
+        <!-- === /[omron-ia] === -->
+    </body>
+
+<!-- Mirrored from www.ia.omron.com/products/family/3541/specification.html by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 16 Dec 2016 04:38:41 GMT -->
+</html>

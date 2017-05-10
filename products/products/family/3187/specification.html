@@ -1,0 +1,4784 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<html xml:lang="en" lang="en" xmlns="http://www.w3.org/1999/xhtml">
+    
+<!-- Mirrored from www.ia.omron.com/products/family/3187/specification.html by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 16 Dec 2016 06:23:17 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=utf-8" /><!-- /Added by HTTrack -->
+<head>
+
+<link rel="stylesheet" type="text/css" media="all" href="../../../css/index.css"/>
+	<link rel="stylesheet" type="text/css" media="all" href="../../../css/top.css"/>
+
+        <meta http-equiv="Content-Language" content="en" />
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <meta http-equiv="Content-Style-Type" content="text/css" />
+        <meta http-equiv="Content-Script-Type" content="text/javascript" />
+        <title>
+            NX-AD NX-series Analog Input Unit/Specifications | OMRON By Kyoto Engineering &amp; Automation
+        </title>
+        <meta name="keywords" content="Automation Systems,Machine Automation Controllers,EtherCAT Slave Terminals NX-Series,Analog Input / Output Unit,NX-AD" />
+        <meta name="description" content="NX-series Analog Input Unit Analog Inputs to meet all machine control needs; from generalpurpose inputs to high-speed synchronous, high-resolution units" />
+        
+
+<link rel="alternate" href="../../../index.html" hreflang="en" />
+<link rel="stylesheet" type="text/css" media="all" href="../../../resources/css/common22f8.css?201611151200" />
+<link rel="stylesheet" type="text/css" media="all" href="../../../resources/css/global/common22f8.css?201611151200" />
+<link rel="stylesheet" type="text/css" media="all" href="../../../resources/css/frame_utility_tridion22f8.css?201611151200" />
+<link rel="stylesheet" type="text/css" media="print" href="../../../resources/css/print22f8.css?201611151200" />
+<script type="text/javascript" src="../../../resources/js/jquery22f8.js?201611151200"></script>
+<script type="text/javascript" src="../../../resources/js/function22f8.js?201611151200"></script>
+<script type="text/javascript" src="../../../resources/js/country_website22f8.js?201611151200"></script>
+<script type="text/javascript" src="../../../resources/js/global/ga22f8.js?201611151200"></script>
+<link rel="stylesheet" type="text/css" media="all" href="../../../resources/css/jquery-ui22f8.css?201611151200" charset='UTF-8'/>
+<link rel="stylesheet" type="text/css" media="all" href="../../../resources/css/jquery.multiselect22f8.css?201611151200" charset='UTF-8'/>
+<script type="text/javascript" language="JavaScript" src="../../../common/js/marketing_tag22f8.js?201611151200"></script>
+<script type="text/javascript" src="../../../resources/js/jquery-ui.min22f8.js?201611151200" charset='UTF-8'></script>
+<script type="text/javascript" src="../../../resources/js/jquery.ex-table-filter22f8.js?201611151200" charset='UTF-8'></script>
+<script type="text/javascript" src="../../../resources/js/jquery.tablesorter.min22f8.js?201611151200" charset='UTF-8'></script>
+<script type="text/javascript" src="../../../resources/js/filter22f8.js?201611151200" charset='UTF-8'></script>
+<link rel="shortcut icon" href="../../../resources/images/favicon.ico" type="image/x-icon" />
+
+        <link rel="stylesheet" type="text/css" media="all" href="../../../resources/css/tablesorter6c9b.css?201611150900" />
+        <script type="text/javascript" src="../../../resources/js/global/products6c9b.js?201611150900" charset='UTF-8'></script>
+
+    </head>
+    <body id="www-ia-omron-com" class="layoutC03 automation-systems">
+
+        <!-- === [omron-ia] === -->
+        <div class="omron-ia">
+            <p class="non-visual">
+                <a name="page-top" id="page-top">
+                    Page top
+                </a>
+            </p>
+
+
+
+
+<div class="header-area">
+     <div class="site-identity">
+          <div class="site-logo">
+               <a href="../../../index.php"><img src="../../../images/logo_01_b13-260967.gif"  width="129" height="24" alt="OMRON" /></a>
+          </div>
+          <!-- /.site-identity -->
+     </div>
+     <div class="utilities">
+		<div class="country-select-area">
+			<p class="canpany">Building Automation</p>
+                        <?php echo '&nbsp' ; ?>
+                        <br/>
+                        <p class="canpany">Industrial Automation</p>
+                        <?php echo '&nbsp' ; ?>
+                        <br/>
+                        <p class="canpany">Power Automation &amp; Safety </p>
+			
+		</div>
+            
+            <div class="japani">
+                <img  src="../../../shared/img/Japani Technology mnemonic.png" width="90" height="50" alt=""/>
+            </div>
+          
+            
+            
+            <div class="flag">
+            <img src="../../../shared/img/Bangladesh-Flag_1.png" alt=""/>
+            </div>
+            <div class="kyoto">
+                <p><b>Bangladesh Distributor</b></p>
+                <img style="margin-left:-5px;"  src="../../../shared/img/Kyoto-logo-Png.png" alt=""/>
+            </div>
+	<!-- /.utilities --> </div>
+	<!-- /.header-area --></div>
+
+
+<div class="global-navi-area">
+<ul>
+<li class="home stay"><a href="../../../index.php">Home</a></li>
+<li class="product"><a href="../../../products/index.html">Products</a></li>
+<li class="corporate-profile"><a href="../../../view/contact/input.php">Contact Us</a></li>
+<li class="function-area"><div class="search"><form action="https://omron.keal.com.bd/sphider/search.php" method="get">       
+<input type="text" name="query" id="query" size="40" value="" />
+      <input type="submit" value="Search" /> <input type="hidden"
+      name="search" value="1" />
+    </form>
+</div>
+</li>
+</ul>
+</div> 
+<div class="bread-crumb-area">
+<ul>
+
+
+<li><a href="../../../index.php">Home</a><span class="separator">&gt;</span></li>
+
+<li><a href="../../index-2.html" >Products</a><span class="separator">&gt;</span></li>
+
+<li><a href="../../category/index.html" >Product Category</a><span class="separator">&gt;</span></li>
+
+<li><a href="../../category/automation-systems/index-2.html" >Automation Systems</a><span class="separator">&gt;</span></li>
+
+<li><a href="../../category/automation-systems/machine-automation-controllers/index-2.html" >Machine Automation Controllers</a><span class="separator">&gt;</span></li>
+
+<li><a href="../../category/automation-systems/machine-automation-controllers/ethercat-slave-terminals-nx-series/index.html" >EtherCAT Slave Terminals NX-Series</a><span class="separator">&gt;</span></li>
+
+<li><a href="../../category/automation-systems/machine-automation-controllers/ethercat-slave-terminals-nx-series/analog-input_output-unit/index.html" >Analog Input / Output Unit</a><span class="separator">&gt;</span></li>
+
+<li><strong>NX-AD</strong></li>
+
+
+</ul>
+</div>
+
+            <!-- === [contents-area] === -->
+            <div class="contents-area">
+
+                <!-- === [inner-contents-area] === -->
+                <div class="inner-contents-area">
+                    <!-- === [upper-contents-area] === -->
+                    <div class="upper-contents-area">
+                        <!-- === [lead-area] === -->
+                        <div class="lead-area">
+
+
+
+
+<!-- --------------------------------------------------------------------Product Family Start--------------------------------------------------------- -->
+<div class="heading-h1">
+
+
+    <h1>
+        NX-AD
+    </h1>
+    <p class="sub-title">
+        NX-series Analog Input Unit
+    </p>
+</div>
+<div class="image-blockA01">
+    <div class="image-left">
+        <p class="image">
+
+            <img src="../../../images/l_3187-13-171381-198x198.jpg" width="198" height="198" alt="NX-AD" class="nopic" />
+
+
+        </p>
+    </div>
+    <div class="description">
+        <h2 class="heading-B02">
+            Analog Inputs to meet all machine control needs; from generalpurpose inputs to high-speed synchronous, high-resolution units
+        </h2>
+        
+
+
+
+
+        <div class="item-list-link">
+            <p>
+                <a href="itemlist/index.html">
+                    <img src="../../../resources/images/icon_right_b.gif" width="3" height="9" alt="" class="iconA01" />
+                    Item list of NX-AD
+                </a>
+            </p>
+        </div>
+    </div>
+<!-- /.image-blockA01 -->
+</div>
+
+
+
+                        </div>
+                        <!-- === /[lead-area] === -->
+
+
+                        <!-- === [utility-area] === -->
+                        <div class="utility-area">                         
+                       
+                            <div class="action-block">
+                                <p>
+                                    about this Product Family
+                                </p>
+                                <ul>
+                                    <li class="first-child">
+                                        <a href="../../../view/contact/input.php">
+                                            Inquiry of this Product
+                                        </a>
+                                    </li>                                 
+                                </ul>
+                            </div>
+
+
+
+
+<div class="related-info-blockA01 vertical-slide">
+
+    <p>
+        <span>Related Contents</span>
+    </p>
+
+
+        
+
+        <ul>
+            <li class="first-child">
+                <span>Automation Systems</span>
+            </li>
+            <li>
+                <ul class="list-indent01">
+
+
+                    <li class="first-child">
+
+
+                        <a href="../../applications/category/automation-systems/index.html">
+                            <img src="../../../resources/images/icon_right_b.gif" width="3" height="9" alt="" class="iconA01" />
+                            Applications 
+                        </a>
+                    </li>
+
+                </ul>
+            </li>
+        </ul>
+
+        <ul>
+            <li class="first-child">
+                <span>Machine Automation Controllers</span>
+            </li>
+            <li>
+                <ul class="list-indent01">
+
+
+                    <li class="first-child">
+
+
+                        <a href="../../index/automation-systems/machine-automation-controllers/index.html">
+                            <img src="../../../resources/images/icon_right_b.gif" width="3" height="9" alt="" class="iconA01" />
+                            Item A to Z Index 
+                        </a>
+                    </li>
+
+
+
+                    <li>
+
+                        <a href="../../../support/glossary/automation-systems/machine-automation-controllers/index.html">
+                            <img src="../../../resources/images/icon_right_b.gif" width="3" height="9" alt="" class="iconA01" />
+                            Glossary of Industrial Automation 
+                        </a>
+                    </li>
+
+                </ul>
+            </li>
+        </ul>
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- /.related-info-blockA01 -->
+</div>
+
+
+
+                           
+                        </div>
+                        <!-- === /[utility-area] === -->
+
+                    </div>
+                    <!-- === /[upper-contents-area] === -->
+
+                    <!-- === [primary-contents-area] === -->
+                    <div class="primary-contents-area">
+                        <div class="tabpanel-blockA01">
+
+
+
+
+
+
+<div class="tab-block">
+    <ul class="tabs">
+
+
+
+
+
+
+
+        <li>
+            <a href="feature.html">Features</a>
+
+        </li>
+
+
+
+
+
+
+
+
+        <li>
+            <a href="lineup.html">Lineup</a>
+
+        </li>
+
+
+
+
+
+
+
+
+        <li class="active">
+            <span>Specifications</span>
+
+        </li>
+
+
+
+
+
+
+
+
+        <li>
+            <a href="dimension.html">Dimensions</a>
+
+        </li>
+
+
+
+
+
+
+        <li>
+            <a href="download/catalog.html">Catalog</a>
+
+        </li>
+
+
+
+
+
+    </ul>
+</div><!-- /.tab-block -->
+
+<div class="editable-block">
+
+
+<p class="date-line">last update: October 11, 2016</p>
+
+
+
+
+
+
+
+
+
+<h4 class="heading-A02">General Specification</h4>
+
+
+
+
+
+
+
+
+
+
+<div class="component-blockA01">
+
+
+
+
+
+    <div class="text">
+        <p>
+            
+						<div class="table-blockA01">
+							<table class="tableA01" cellspacing="0" border="0">
+								<tr class="first-child">
+									<th colspan="2" rowspan="1" class="heading center middle"><strong>Item</strong></th>
+									<th class="heading center middle"><strong>Specification</strong></th>
+								</tr>
+								<tr>
+									<th colspan="2" rowspan="1" class="heading left middle"><strong>Enclosure</strong></th>
+									<td class="left middle">Mounted in a panel</td>
+								</tr>
+								<tr>
+									<th colspan="2" rowspan="1" class="heading left middle"><strong>Grounding method</strong></th>
+									<td class="left middle">Ground to 100 Ω or less</td>
+								</tr>
+								<tr>
+									<th colspan="1" rowspan="11" class="heading left middle"><strong>Operating
+<br />
+environment</strong></th>
+									<th class="heading left middle"><strong>Ambient operating temperature</strong></th>
+									<td class="left middle">0 to 55°C</td>
+								</tr>
+								<tr>
+									<th class="heading left middle"><strong>Ambient operating humidity</strong></th>
+									<td class="left middle">10% to 95% (with no condensation or icing)</td>
+								</tr>
+								<tr>
+									<th class="heading left middle"><strong>Atmosphere</strong></th>
+									<td class="left middle">Must be free from corrosive gases.</td>
+								</tr>
+								<tr>
+									<th class="heading left middle"><strong>Ambient storage temperature</strong></th>
+									<td class="left middle">-25 to 70°C (with no condensation or icing)</td>
+								</tr>
+								<tr>
+									<th class="heading left middle"><strong>Altitude</strong></th>
+									<td class="left middle">2,000 m max.</td>
+								</tr>
+								<tr>
+									<th class="heading left middle"><strong>Pollution degree</strong></th>
+									<td class="left middle">2 or less: Conforms to JIS B3502 and IEC 61131-2.</td>
+								</tr>
+								<tr>
+									<th class="heading left middle"><strong>Noise immunity</strong></th>
+									<td class="left middle">2 kV on power supply line (Conforms to IEC61000-4-4.)</td>
+								</tr>
+								<tr>
+									<th class="heading left middle"><strong>Overvoltage category</strong></th>
+									<td class="left middle">Category II: Conforms to JIS B3502 and IEC 61131-2.</td>
+								</tr>
+								<tr>
+									<th class="heading left middle"><strong>EMC immunity level</strong></th>
+									<td class="left middle">Zone B</td>
+								</tr>
+								<tr>
+									<th class="heading left middle"><strong>Vibration resistance</strong></th>
+									<td class="left middle">Conforms to IEC 60068-2-6.
+<br />
+5 to 8.4 Hz with 3.5-mm amplitude, 8.4 to 150 Hz, acceleration of
+<br />
+9.8 m/s<sup>2</sup>, 100 min each in X, Y, and Z directions
+<br />
+(10 sweeps of 10 min each = 100 min total)</td>
+								</tr>
+								<tr>
+									<th class="heading left middle"><strong>Shock resistance</strong></th>
+									<td class="left middle">Conforms to IEC 60068-2-27. 147 m/s<sup>2</sup>, 3 times each in X, Y, and
+<br />
+Z directions</td>
+								</tr>
+								<tr>
+									<th colspan="2" rowspan="1" class="heading left middle"><strong>Applicable standards *</strong></th>
+									<td class="left middle">cULus: Listed (UL508), ANSI/ISA 12.12.01, EU: EN 61131-2, C-Tick
+<br />
+or RCM, KC Registration, NK, LR</td>
+								</tr>
+							</table>
+						</div>
+					
+        </p>
+    </div>
+
+
+
+
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="component-blockA01">
+
+
+
+
+
+    <div class="text">
+        <p>
+            * Ask your OMRON representative for the most recent applicable standards for each model.
+        </p>
+    </div>
+
+
+
+
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<h4 class="heading-A02">Analog Input Unit Specifications</h4>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<h4 class="heading-A03">Analog Input Unit (voltage input type) 2 points NX-AD2603</h4>
+
+
+
+
+
+
+
+
+
+<div class="component-blockA01">
+
+
+
+
+
+    <div class="text">
+        <p>
+            
+						<div class="table-blockA01">
+							<table class="tableA01" cellspacing="0" border="0">
+								<tbody>
+									<tr class="first-child">
+										<th class="heading left middle"><strong>Unit name</strong></th>
+										<td class="left middle">Analog Input Unit
+<br />
+(voltage input type)</td>
+										<th colspan="2" rowspan="1" class="heading left middle"><strong>Model</strong></th>
+										<td class="left middle">NX-AD2603</td>
+									</tr>
+									<tr>
+										<th class="heading left middle"><strong>Number of points</strong></th>
+										<td class="left middle">2 points</td>
+										<th colspan="2" rowspan="1" class="heading left middle"><strong>External connection
+<br />
+terminals</strong></th>
+										<td class="left middle">Screwless clamping terminal block
+<br />
+(8 terminals)</td>
+									</tr>
+									<tr>
+										<th class="heading left middle"><strong>I/O refreshing method</strong></th>
+										<td colspan="4" rowspan="1" class="left middle">Free-Run refreshing</td>
+									</tr>
+									<tr>
+										<th colspan="1" rowspan="9" class="heading left middle"><strong>Indicator</strong></th>
+										<td colspan="1" rowspan="9" class="left middle">TS indicator
+<br />
+											<img src="../../../images/3187_sp_2_113-172372.gif"  alt="3187_sp_2_1" title="3187_sp_2_1" style="width: 62px; height: 76px;" /></td>
+										<th colspan="2" rowspan="1" class="heading left middle"><strong>Input method</strong></th>
+										<td class="left middle">Single-ended input</td>
+									</tr>
+									<tr>
+										<th colspan="2" rowspan="1" class="heading left middle"><strong>Input range</strong></th>
+										<td class="left middle">-10 to +10 V</td>
+									</tr>
+									<tr>
+										<th colspan="2" rowspan="1" class="heading left middle"><strong>Input conversion
+<br />
+range</strong></th>
+										<td class="left middle">-5 to 105% (full scale)</td>
+									</tr>
+									<tr>
+										<th colspan="2" rowspan="1" class="heading left middle"><strong>Absolute maximum
+<br />
+rating</strong></th>
+										<td class="left middle">±15 V</td>
+									</tr>
+									<tr>
+										<th colspan="2" rowspan="1" class="heading left middle"><strong>Input impedance</strong></th>
+										<td class="left middle">1 MΩ min.</td>
+									</tr>
+									<tr>
+										<th colspan="2" rowspan="1" class="heading left middle"><strong>Resolution</strong></th>
+										<td class="left middle">1/8000 (full scale)</td>
+									</tr>
+									<tr>
+										<th colspan="1" rowspan="2" class="heading left middle"><strong>Overall
+<br />
+accuracy</strong></th>
+										<th class="heading left middle"><strong>25℃</strong></th>
+										<td class="left middle">±0.2% (full scale)</td>
+									</tr>
+									<tr>
+										<th class="heading left middle"><strong>0 to 55℃</strong></th>
+										<td class="left middle">±0.4% (full scale)</td>
+									</tr>
+									<tr>
+										<th colspan="2" rowspan="1" class="heading left middle"><strong>Conversion time</strong></th>
+										<td class="left middle">250 μs/point</td>
+									</tr>
+									<tr>
+										<th class="heading left middle"><strong>Dimensions</strong></th>
+										<td class="left middle">12 (W) x 100 (H) x 71 (D)</td>
+										<th colspan="2" rowspan="1" class="heading left middle"><strong>Isolation method</strong></th>
+										<td class="left middle">Between the input and the NX bus:
+<br />
+Power = Transformer, Signal =
+<br />
+Digital isolator (no isolation between
+<br />
+inputs)</td>
+									</tr>
+									<tr>
+										<th class="heading left middle"><strong>Insulation resistance</strong></th>
+										<td class="left middle">20 MΩ min. between isolated
+<br />
+circuits (at 100 VDC)</td>
+										<th colspan="2" rowspan="1" class="heading left middle"><strong>Dielectric strength</strong></th>
+										<td class="left middle">510 VAC between isolated circuits
+<br />
+for 1 minute at a leakage current of
+<br />
+5 mA max.</td>
+									</tr>
+									<tr>
+										<th class="heading left middle"><strong>I/O power supply
+<br />
+method</strong></th>
+										<td class="left middle">Supply from the NX bus</td>
+										<th colspan="2" rowspan="1" class="heading left middle"><strong>Current capacity of
+<br />
+I/O power supply
+<br />
+terminal</strong></th>
+										<td class="left middle">IOV: 0.1 A/terminal max.,
+<br />
+IOG: 0.1 A/terminal max.</td>
+									</tr>
+									<tr>
+										<th class="heading left middle"><strong>NX Unit power
+<br />
+consumption</strong></th>
+										<td class="left middle">• Connected to a CPU Unit
+<br />
+1.35 W max.
+<br />
+• Connected to a Communi-
+<br />
+cations Coupler Unit
+<br />
+1.05 W max.</td>
+										<th colspan="2" rowspan="1" class="heading left middle"><strong>I/O current
+<br />
+consumption</strong></th>
+										<td class="left middle">No consumption</td>
+									</tr>
+									<tr>
+										<th class="heading left middle"><strong>Weight</strong></th>
+										<td colspan="4" rowspan="1" class="left middle">70 g max.</td>
+									</tr>
+									<tr>
+										<th class="heading left middle"><strong>Circuit layout</strong></th>
+										<td colspan="4" rowspan="1" class="left middle"><img src="../../../images/3187_sp_2_213-172373.gif"  alt="3187_sp_2_2" title="3187_sp_2_2" style="width: 453px; height: 175px;" /></td>
+									</tr>
+									<tr>
+										<th class="heading left middle"><strong>Installation orientation
+<br />
+and restrictions</strong></th>
+										<td colspan="4" rowspan="1" class="left middle">Installation orientation:
+<br />
+• Connected to a CPU Unit: Possible in upright installation.
+<br />
+• Connected to a Communications Coupler Unit: Possible in 6 orientations.
+<br />
+Restrictions: No restrictions</td>
+									</tr>
+									<tr>
+										<th class="heading left middle"><strong>Terminal connection
+<br />
+diagram</strong></th>
+										<td colspan="4" rowspan="1" class="left middle"><img src="../../../images/3187_sp_2_313-172374.gif"  alt="3187_sp_2_3" title="3187_sp_2_3" style="width: 475px; height: 184px;" /></td>
+									</tr>
+									<tr>
+										<th class="heading left middle"><strong>Input disconnection
+<br />
+detection</strong></th>
+										<td colspan="4" rowspan="1" class="left middle">Not supported.</td>
+									</tr>
+								</tbody>
+							</table>
+						</div>
+					
+        </p>
+    </div>
+
+
+
+
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<h4 class="heading-A03">Analog Input Unit (voltage input type) 2 points NX-AD2604</h4>
+
+
+
+
+
+
+
+
+
+<div class="component-blockA01">
+
+
+
+
+
+    <div class="text">
+        <p>
+            
+						<div class="table-blockA01">
+							<table class="tableA01" cellspacing="0" border="0">
+								<tbody>
+									<tr class="first-child">
+										<th class="heading left middle"><strong>Unit name</strong></th>
+										<td class="left middle">Analog Input Unit
+<br />
+(voltage input type)</td>
+										<th colspan="2" rowspan="1" class="heading left middle"><strong>Model</strong></th>
+										<td class="left middle">NX-AD2604</td>
+									</tr>
+									<tr>
+										<th class="heading left middle"><strong>Number of points</strong></th>
+										<td class="left middle">2 points</td>
+										<th colspan="2" rowspan="1" class="heading left middle"><strong>External connection
+<br />
+terminals</strong></th>
+										<td class="left middle">Screwless clamping terminal block
+<br />
+(8 terminals)</td>
+									</tr>
+									<tr>
+										<th class="heading left middle"><strong>I/O refreshing method</strong></th>
+										<td colspan="4" rowspan="1" class="left middle">Free-Run refreshing</td>
+									</tr>
+									<tr>
+										<th colspan="1" rowspan="9" class="heading left middle"><strong>Indicator</strong></th>
+										<td colspan="1" rowspan="9" class="left middle">TS indicator
+<br />
+											<img src="../../../images/3187_sp_3_113-172375.gif"  alt="3187_sp_3_1" title="3187_sp_3_1" style="width: 63px; height: 74px;" /></td>
+										<th colspan="2" rowspan="1" class="heading left middle"><strong>Input method</strong></th>
+										<td class="left middle">Differential Input</td>
+									</tr>
+									<tr>
+										<th colspan="2" rowspan="1" class="heading left middle"><strong>Input range</strong></th>
+										<td class="left middle">-10 to +10 V</td>
+									</tr>
+									<tr>
+										<th colspan="2" rowspan="1" class="heading left middle"><strong>Input conversion
+<br />
+range</strong></th>
+										<td class="left middle">-5 to 105% (full scale)</td>
+									</tr>
+									<tr>
+										<th colspan="2" rowspan="1" class="heading left middle"><strong>Absolute maximum
+<br />
+rating</strong></th>
+										<td class="left middle">±15 V</td>
+									</tr>
+									<tr>
+										<th colspan="2" rowspan="1" class="heading left middle"><strong>Input impedance</strong></th>
+										<td class="left middle">1 MΩ min.</td>
+									</tr>
+									<tr>
+										<th colspan="2" rowspan="1" class="heading left middle"><strong>Resolution</strong></th>
+										<td class="left middle">1/8000 (full scale)</td>
+									</tr>
+									<tr>
+										<th colspan="1" rowspan="2" class="heading left middle"><strong>Overall
+<br />
+accuracy</strong></th>
+										<th class="heading left middle"><strong>25℃</strong></th>
+										<td class="left middle">±0.2% (full scale)</td>
+									</tr>
+									<tr>
+										<th class="heading left middle"><strong>0 to 55℃</strong></th>
+										<td class="left middle">±0.4% (full scale)</td>
+									</tr>
+									<tr>
+										<th colspan="2" rowspan="1" class="heading left middle"><strong>Conversion time</strong></th>
+										<td class="left middle">250 μs/point</td>
+									</tr>
+									<tr>
+										<th class="heading left middle"><strong>Dimensions</strong></th>
+										<td class="left middle">12 (W) x 100 (H) x 71 (D)</td>
+										<th colspan="2" rowspan="1" class="heading left middle"><strong>Isolation method</strong></th>
+										<td class="left middle">Between the input and the NX bus:
+<br />
+Power = Transformer, Signal =
+<br />
+Digital isolator (no isolation between
+<br />
+inputs)</td>
+									</tr>
+									<tr>
+										<th class="heading left middle"><strong>Insulation resistance</strong></th>
+										<td class="left middle">20 MΩ min. between isolated
+<br />
+circuits (at 100 VDC)</td>
+										<th colspan="2" rowspan="1" class="heading left middle"><strong>Dielectric strength</strong></th>
+										<td class="left middle">510 VAC between isolated circuits
+<br />
+for 1 minute at a leakage current of
+<br />
+5 mA max.</td>
+									</tr>
+									<tr>
+										<th class="heading left middle"><strong>I/O power supply
+<br />
+method</strong></th>
+										<td class="left middle">No supply</td>
+										<th colspan="2" rowspan="1" class="heading left middle"><strong>Current capacity of
+<br />
+I/O power supply
+<br />
+terminal</strong></th>
+										<td class="left middle">Without I/O power supply terminals</td>
+									</tr>
+									<tr>
+										<th class="heading left middle"><strong>NX Unit power
+<br />
+consumption</strong></th>
+										<td class="left middle">• Connected to a CPU Unit
+<br />
+1.35 W max.
+<br />
+• Connected to a Communi-
+<br />
+cations Coupler Unit
+<br />
+1.05 W max.</td>
+										<th colspan="2" rowspan="1" class="heading left middle"><strong>I/O current
+<br />
+consumption</strong></th>
+										<td class="left middle">No consumption</td>
+									</tr>
+									<tr>
+										<th class="heading left middle"><strong>Weight</strong></th>
+										<td colspan="4" rowspan="1" class="left middle">70 g max.</td>
+									</tr>
+									<tr>
+										<th class="heading left middle"><strong>Circuit layout</strong></th>
+										<td colspan="4" rowspan="1" class="left middle"><img src="../../../images/3187_sp_3_213-172376.gif"  alt="3187_sp_3_2" title="3187_sp_3_2" style="width: 457px; height: 174px;" /></td>
+									</tr>
+									<tr>
+										<th class="heading left middle"><strong>Installation orientation
+<br />
+and restrictions</strong></th>
+										<td colspan="4" rowspan="1" class="left middle">Installation orientation:
+<br />
+• Connected to a CPU Unit: Possible in upright installation.
+<br />
+• Connected to a Communications Coupler Unit: Possible in 6 orientations.
+<br />
+Restrictions: No restrictions</td>
+									</tr>
+									<tr>
+										<th class="heading left middle"><strong>Terminal connection
+<br />
+diagram</strong></th>
+										<td colspan="4" rowspan="1" class="left middle"><img src="../../../images/3187_sp_3_313-172377.gif"  alt="3187_sp_3_3" title="3187_sp_3_3" style="width: 315px; height: 182px;" /></td>
+									</tr>
+									<tr>
+										<th class="heading left middle"><strong>Input disconnection
+<br />
+detection</strong></th>
+										<td colspan="4" rowspan="1" class="left middle">Not supported.</td>
+									</tr>
+								</tbody>
+							</table>
+						</div>
+					
+        </p>
+    </div>
+
+
+
+
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<h4 class="heading-A03">Analog Input Unit (voltage input type) 2 points NX-AD2608</h4>
+
+
+
+
+
+
+
+
+
+<div class="component-blockA01">
+
+
+
+
+
+    <div class="text">
+        <p>
+            
+						<div class="table-blockA01">
+							<table class="tableA01" cellspacing="0" border="0">
+								<tbody>
+									<tr class="first-child">
+										<th class="heading left middle"><strong>Unit name</strong></th>
+										<td class="left middle">Analog Input Unit
+<br />
+(voltage input type)</td>
+										<th colspan="2" rowspan="1" class="heading left middle"><strong>Model</strong></th>
+										<td class="left middle">NX-AD2608</td>
+									</tr>
+									<tr>
+										<th class="heading left middle"><strong>Number of points</strong></th>
+										<td class="left middle">2 points</td>
+										<th colspan="2" rowspan="1" class="heading left middle"><strong>External connection
+<br />
+terminals</strong></th>
+										<td class="left middle">Screwless clamping terminal block
+<br />
+(8 terminals)</td>
+									</tr>
+									<tr>
+										<th class="heading left middle"><strong>I/O refreshing method</strong></th>
+										<td colspan="4" rowspan="1" class="left middle">Selectable Synchronous I/O refreshing or Free-Run refreshing</td>
+									</tr>
+									<tr>
+										<th colspan="1" rowspan="9" class="heading left middle"><strong>Indicator</strong></th>
+										<td colspan="1" rowspan="9" class="left middle">TS indicator
+<br />
+											<img src="../../../images/3187_sp_4_113-172378.gif"  alt="3187_sp_4_1" title="3187_sp_4_1" style="width: 63px; height: 74px;" /></td>
+										<th colspan="2" rowspan="1" class="heading left middle"><strong>Input method</strong></th>
+										<td class="left middle">Differential Input</td>
+									</tr>
+									<tr>
+										<th colspan="2" rowspan="1" class="heading left middle"><strong>Input range</strong></th>
+										<td class="left middle">-10 to +10 V</td>
+									</tr>
+									<tr>
+										<th colspan="2" rowspan="1" class="heading left middle"><strong>Input conversion
+<br />
+range</strong></th>
+										<td class="left middle">-5 to 105% (full scale)</td>
+									</tr>
+									<tr>
+										<th colspan="2" rowspan="1" class="heading left middle"><strong>Absolute maximum
+<br />
+rating</strong></th>
+										<td class="left middle">±15 V</td>
+									</tr>
+									<tr>
+										<th colspan="2" rowspan="1" class="heading left middle"><strong>Input impedance</strong></th>
+										<td class="left middle">1 MΩ min.</td>
+									</tr>
+									<tr>
+										<th colspan="2" rowspan="1" class="heading left middle"><strong>Resolution</strong></th>
+										<td class="left middle">1/30000 (full scale)</td>
+									</tr>
+									<tr>
+										<th colspan="1" rowspan="2" class="heading left middle"><strong>Overall
+<br />
+accuracy</strong></th>
+										<th class="heading left middle"><strong>25℃</strong></th>
+										<td class="left middle">±0.1% (full scale)</td>
+									</tr>
+									<tr>
+										<th class="heading left middle"><strong>0 to 55℃</strong></th>
+										<td class="left middle">±0.2% (full scale)</td>
+									</tr>
+									<tr>
+										<th colspan="2" rowspan="1" class="heading left middle"><strong>Conversion time</strong></th>
+										<td class="left middle">10 μs/point</td>
+									</tr>
+									<tr>
+										<th class="heading left middle"><strong>Dimensions</strong></th>
+										<td class="left middle">12 (W) x 100 (H) x 71 (D)</td>
+										<th colspan="2" rowspan="1" class="heading left middle"><strong>Isolation method</strong></th>
+										<td class="left middle">Between the input and the NX bus:
+<br />
+Power = Transformer, Signal =
+<br />
+Digital isolator (no isolation between
+<br />
+inputs)</td>
+									</tr>
+									<tr>
+										<th class="heading left middle"><strong>Insulation resistance</strong></th>
+										<td class="left middle">20 MΩ min. between isolated
+<br />
+circuits (at 100 VDC)</td>
+										<th colspan="2" rowspan="1" class="heading left middle"><strong>Dielectric strength</strong></th>
+										<td class="left middle">510 VAC between isolated circuits
+<br />
+for 1 minute at a leakage current of
+<br />
+5 mA max.</td>
+									</tr>
+									<tr>
+										<th class="heading left middle"><strong>I/O power supply
+<br />
+method</strong></th>
+										<td class="left middle">No supply</td>
+										<th colspan="2" rowspan="1" class="heading left middle"><strong>Current capacity of
+<br />
+I/O power supply
+<br />
+terminal</strong></th>
+										<td class="left middle">Without I/O power supply terminals</td>
+									</tr>
+									<tr>
+										<th class="heading left middle"><strong>NX Unit power
+<br />
+consumption</strong></th>
+										<td class="left middle">• Connected to a CPU Unit
+<br />
+1.35 W max.
+<br />
+• Connected to a Communi-
+<br />
+cations Coupler Unit
+<br />
+1.05 W max.</td>
+										<th colspan="2" rowspan="1" class="heading left middle"><strong>I/O current
+<br />
+consumption</strong></th>
+										<td class="left middle">No consumption</td>
+									</tr>
+									<tr>
+										<th class="heading left middle"><strong>Weight</strong></th>
+										<td colspan="4" rowspan="1" class="left middle">70 g max.</td>
+									</tr>
+									<tr>
+										<th class="heading left middle"><strong>Circuit layout</strong></th>
+										<td colspan="4" rowspan="1" class="left middle"><img src="../../../images/3187_sp_4_213-172379.gif"  alt="3187_sp_4_2" title="3187_sp_4_2" style="width: 453px; height: 175px;" /></td>
+									</tr>
+									<tr>
+										<th class="heading left middle"><strong>Installation orientation
+<br />
+and restrictions</strong></th>
+										<td colspan="4" rowspan="1" class="left middle">Installation orientation:
+<br />
+• Connected to a CPU Unit: Possible in upright installation.
+<br />
+• Connected to a Communications Coupler Unit: Possible in 6 orientations.
+<br />
+Restrictions: No restrictions</td>
+									</tr>
+									<tr>
+										<th class="heading left middle"><strong>Terminal connection
+<br />
+diagram</strong></th>
+										<td colspan="4" rowspan="1" class="left middle"><img src="../../../images/3187_sp_4_313-172380.gif"  alt="3187_sp_4_3" title="3187_sp_4_3" style="width: 317px; height: 181px;" /></td>
+									</tr>
+									<tr>
+										<th class="heading left middle"><strong>Input disconnection
+<br />
+detection</strong></th>
+										<td colspan="4" rowspan="1" class="left middle">Not supported.</td>
+									</tr>
+								</tbody>
+							</table>
+						</div>
+					
+        </p>
+    </div>
+
+
+
+
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<h4 class="heading-A03">Analog Input Unit (voltage input type) 4 points NX-AD3603</h4>
+
+
+
+
+
+
+
+
+
+<div class="component-blockA01">
+
+
+
+
+
+    <div class="text">
+        <p>
+            
+          <div class="table-blockA01">
+							<table class="tableA01" cellspacing="0" border="0">
+								<tbody>
+									<tr class="first-child">
+										<th class="heading left middle"><strong>Unit name</strong></th>
+										<td class="left middle">Analog Input Unit
+<br />
+(voltage input type)</td>
+										<th colspan="2" rowspan="1" class="heading left middle"><strong>Model</strong></th>
+										<td class="left middle">NX-AD3603</td>
+									</tr>
+									<tr>
+										<th class="heading left middle"><strong>Number of points</strong></th>
+										<td class="left middle">4 points</td>
+										<th colspan="2" rowspan="1" class="heading left middle"><strong>External connection
+<br />
+terminals</strong></th>
+										<td class="left middle">Screwless clamping terminal block
+<br />
+(12 terminals)</td>
+									</tr>
+									<tr>
+										<th class="heading left middle"><strong>I/O refreshing method</strong></th>
+										<td colspan="4" rowspan="1" class="left middle">Free-Run refreshing</td>
+									</tr>
+									<tr>
+										<th colspan="1" rowspan="9" class="heading left middle"><strong>Indicator</strong></th>
+										<td colspan="1" rowspan="9" class="left middle">TS indicator
+<br />
+											<img src="../../../images/3187_sp_5_113-172381.gif"  alt="3187_sp_5_1" title="3187_sp_5_1" style="width: 63px; height: 76px;" /></td>
+										<th colspan="2" rowspan="1" class="heading left middle"><strong>Input method</strong></th>
+										<td class="left middle">Single-ended input</td>
+									</tr>
+									<tr>
+										<th colspan="2" rowspan="1" class="heading left middle"><strong>Input range</strong></th>
+										<td class="left middle">-10 to +10 V</td>
+									</tr>
+									<tr>
+										<th colspan="2" rowspan="1" class="heading left middle"><strong>Input conversion
+<br />
+range</strong></th>
+										<td class="left middle">-5 to 105% (full scale)</td>
+									</tr>
+									<tr>
+										<th colspan="2" rowspan="1" class="heading left middle"><strong>Absolute maximum
+<br />
+rating</strong></th>
+										<td class="left middle">±15 V</td>
+									</tr>
+									<tr>
+										<th colspan="2" rowspan="1" class="heading left middle"><strong>Input impedance</strong></th>
+										<td class="left middle">1 MΩ min.</td>
+									</tr>
+									<tr>
+										<th colspan="2" rowspan="1" class="heading left middle"><strong>Resolution</strong></th>
+										<td class="left middle">1/8000 (full scale)</td>
+									</tr>
+									<tr>
+										<th colspan="1" rowspan="2" class="heading left middle"><strong>Overall
+<br />
+accuracy</strong></th>
+										<th class="heading left middle"><strong>25℃</strong></th>
+										<td class="left middle">±0.2% (full scale)</td>
+									</tr>
+									<tr>
+										<th class="heading left middle"><strong>0 to 55℃</strong></th>
+										<td class="left middle">±0.4% (full scale)</td>
+									</tr>
+									<tr>
+										<th colspan="2" rowspan="1" class="heading left middle"><strong>Conversion time</strong></th>
+										<td class="left middle">250 μs/point</td>
+									</tr>
+									<tr>
+										<th class="heading left middle"><strong>Dimensions</strong></th>
+										<td class="left middle">12 (W) x 100 (H) x 71 (D)</td>
+										<th colspan="2" rowspan="1" class="heading left middle"><strong>Isolation method</strong></th>
+										<td class="left middle">Between the input and the NX bus:
+<br />
+Power = Transformer, Signal =
+<br />
+Digital isolator (no isolation between
+<br />
+inputs)</td>
+									</tr>
+									<tr>
+										<th class="heading left middle"><strong>Insulation resistance</strong></th>
+										<td class="left middle">20 MΩ min. between isolated
+<br />
+circuits (at 100 VDC)</td>
+										<th colspan="2" rowspan="1" class="heading left middle"><strong>Dielectric strength</strong></th>
+										<td class="left middle">510 VAC between isolated circuits
+<br />
+for 1 minute at a leakage current of
+<br />
+5 mA max.</td>
+									</tr>
+									<tr>
+										<th class="heading left middle"><strong>I/O power supply
+<br />
+method</strong></th>
+										<td class="left middle">Supply from the NX bus</td>
+										<th colspan="2" rowspan="1" class="heading left middle"><strong>Current capacity of
+<br />
+I/O power supply
+<br />
+terminal</strong></th>
+										<td class="left middle">IOV: 0.1 A/terminal max.,
+<br />
+IOG: 0.1 A/terminal max.</td>
+									</tr>
+									<tr>
+										<th class="heading left middle"><strong>NX Unit power
+<br />
+consumption</strong></th>
+										<td class="left middle">• Connected to a CPU Unit
+<br />
+1.35 W max.
+<br />
+• Connected to a Communi-
+<br />
+cations Coupler Unit
+<br />
+1.10 W max.</td>
+										<th colspan="2" rowspan="1" class="heading left middle"><strong>I/O current
+<br />
+consumption</strong></th>
+										<td class="left middle">No consumption</td>
+									</tr>
+									<tr>
+										<th class="heading left middle"><strong>Weight</strong></th>
+										<td colspan="4" rowspan="1" class="left middle">70 g max.</td>
+									</tr>
+									<tr>
+										<th class="heading left middle"><strong>Circuit layout</strong></th>
+										<td colspan="4" rowspan="1" class="left middle"><img src="../../../images/3187_sp_5_213-172382.gif"  alt="3187_sp_5_2" title="3187_sp_5_2" style="width: 455px; height: 176px;" /></td>
+									</tr>
+									<tr>
+										<th class="heading left middle"><strong>Installation orientation
+<br />
+and restrictions</strong></th>
+										<td colspan="4" rowspan="1" class="left middle">Installation orientation:
+<br />
+• Connected to a CPU Unit: Possible in upright installation.
+<br />
+• Connected to a Communications Coupler Unit: Possible in 6 orientations.
+<br />
+Restrictions: No restrictions</td>
+									</tr>
+									<tr>
+										<th class="heading left middle"><strong>Terminal connection
+<br />
+diagram</strong></th>
+										<td colspan="4" rowspan="1" class="left middle"><img src="../../../images/3187_sp_5_313-172383.gif"  alt="3187_sp_5_3" title="3187_sp_5_3" style="width: 470px; height: 182px;" /></td>
+									</tr>
+									<tr>
+										<th class="heading left middle"><strong>Input disconnection
+<br />
+detection</strong></th>
+										<td colspan="4" rowspan="1" class="left middle">Not supported.</td>
+									</tr>
+								</tbody>
+							</table>
+						</div>
+        
+        </p>
+    </div>
+
+
+
+
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<h4 class="heading-A03">Analog Input Unit (voltage input type) 4 points NX-AD3604</h4>
+
+
+
+
+
+
+
+
+
+<div class="component-blockA01">
+
+
+
+
+
+    <div class="text">
+        <p>
+            
+						<div class="table-blockA01">
+							<table class="tableA01" cellspacing="0" border="0">
+								<tbody>
+									<tr class="first-child">
+										<th class="heading left middle"><strong>Unit name</strong></th>
+										<td class="left middle">Analog Input Unit
+<br />
+(voltage input type)</td>
+										<th colspan="2" rowspan="1" class="heading left middle"><strong>Model</strong></th>
+										<td class="left middle">NX-AD3604</td>
+									</tr>
+									<tr>
+										<th class="heading left middle"><strong>Number of points</strong></th>
+										<td class="left middle">4 points</td>
+										<th colspan="2" rowspan="1" class="heading left middle"><strong>External connection
+<br />
+terminals</strong></th>
+										<td class="left middle">Screwless clamping terminal block
+<br />
+(12 terminals)</td>
+									</tr>
+									<tr>
+										<th class="heading left middle"><strong>I/O refreshing method</strong></th>
+										<td colspan="4" rowspan="1" class="left middle">Free-Run refreshing</td>
+									</tr>
+									<tr>
+										<th colspan="1" rowspan="9" class="heading left middle"><strong>Indicator</strong></th>
+										<td colspan="1" rowspan="9" class="left middle">TS indicator
+<br />
+											<img src="../../../images/3187_sp_6_113-172384.gif"  alt="3187_sp_6_1" title="3187_sp_6_1" style="width: 63px; height: 77px;" /></td>
+										<th colspan="2" rowspan="1" class="heading left middle"><strong>Input method</strong></th>
+										<td class="left middle">Differential Input</td>
+									</tr>
+									<tr>
+										<th colspan="2" rowspan="1" class="heading left middle"><strong>Input range</strong></th>
+										<td class="left middle">-10 to +10 V</td>
+									</tr>
+									<tr>
+										<th colspan="2" rowspan="1" class="heading left middle"><strong>Input conversion
+<br />
+range</strong></th>
+										<td class="left middle">-5 to 105% (full scale)</td>
+									</tr>
+									<tr>
+										<th colspan="2" rowspan="1" class="heading left middle"><strong>Absolute maximum
+<br />
+rating</strong></th>
+										<td class="left middle">±15 V</td>
+									</tr>
+									<tr>
+										<th colspan="2" rowspan="1" class="heading left middle"><strong>Input impedance</strong></th>
+										<td class="left middle">1 MΩ min.</td>
+									</tr>
+									<tr>
+										<th colspan="2" rowspan="1" class="heading left middle"><strong>Resolution</strong></th>
+										<td class="left middle">1/8000 (full scale)</td>
+									</tr>
+									<tr>
+										<th colspan="1" rowspan="2" class="heading left middle"><strong>Overall
+<br />
+accuracy</strong></th>
+										<th class="heading left middle"><strong>25℃</strong></th>
+										<td class="left middle">±0.2% (full scale)</td>
+									</tr>
+									<tr>
+										<th class="heading left middle"><strong>0 to 55℃</strong></th>
+										<td class="left middle">±0.4% (full scale)</td>
+									</tr>
+									<tr>
+										<th colspan="2" rowspan="1" class="heading left middle"><strong>Conversion time</strong></th>
+										<td class="left middle">250 μs/point</td>
+									</tr>
+									<tr>
+										<th class="heading left middle"><strong>Dimensions</strong></th>
+										<td class="left middle">12 (W) x 100 (H) x 71 (D)</td>
+										<th colspan="2" rowspan="1" class="heading left middle"><strong>Isolation method</strong></th>
+										<td class="left middle">Between the input and the NX bus:
+<br />
+Power = Transformer, Signal =
+<br />
+Digital isolator (no isolation between
+<br />
+inputs)</td>
+									</tr>
+									<tr>
+										<th class="heading left middle"><strong>Insulation resistance</strong></th>
+										<td class="left middle">20 MΩ min. between isolated
+<br />
+circuits (at 100 VDC)</td>
+										<th colspan="2" rowspan="1" class="heading left middle"><strong>Dielectric strength</strong></th>
+										<td class="left middle">510 VAC between isolated circuits
+<br />
+for 1 minute at a leakage current of
+<br />
+5 mA max.</td>
+									</tr>
+									<tr>
+										<th class="heading left middle"><strong>I/O power supply
+<br />
+method</strong></th>
+										<td class="left middle">No supply</td>
+										<th colspan="2" rowspan="1" class="heading left middle"><strong>Current capacity of
+<br />
+I/O power supply
+<br />
+terminal</strong></th>
+										<td class="left middle">Without I/O power supply terminals</td>
+									</tr>
+									<tr>
+										<th class="heading left middle"><strong>NX Unit power
+<br />
+consumption</strong></th>
+										<td class="left middle">• Connected to a CPU Unit
+<br />
+1.35 W max.
+<br />
+• Connected to a Communi-
+<br />
+cations Coupler Unit
+<br />
+1.10 W max.</td>
+										<th colspan="2" rowspan="1" class="heading left middle"><strong>I/O current
+<br />
+consumption</strong></th>
+										<td class="left middle">No consumption</td>
+									</tr>
+									<tr>
+										<th class="heading left middle"><strong>Weight</strong></th>
+										<td colspan="4" rowspan="1" class="left middle">70 g max.</td>
+									</tr>
+									<tr>
+										<th class="heading left middle"><strong>Circuit layout</strong></th>
+										<td colspan="4" rowspan="1" class="left middle"><img src="../../../images/3187_sp_6_213-172385.gif"  alt="3187_sp_6_2" title="3187_sp_6_2" style="width: 455px; height: 172px;" /></td>
+									</tr>
+									<tr>
+										<th class="heading left middle"><strong>Installation orientation
+<br />
+and restrictions</strong></th>
+										<td colspan="4" rowspan="1" class="left middle">Installation orientation:
+<br />
+• Connected to a CPU Unit: Possible in upright installation.
+<br />
+• Connected to a Communications Coupler Unit: Possible in 6 orientations.
+<br />
+Restrictions: No restrictions</td>
+									</tr>
+									<tr>
+										<th class="heading left middle"><strong>Terminal connection
+<br />
+diagram</strong></th>
+										<td colspan="4" rowspan="1" class="left middle"><img src="../../../images/3187_sp_6_313-172386.gif"  alt="3187_sp_6_3" title="3187_sp_6_3" style="width: 316px; height: 180px;" /></td>
+									</tr>
+									<tr>
+										<th class="heading left middle"><strong>Input disconnection
+<br />
+detection</strong></th>
+										<td colspan="4" rowspan="1" class="left middle">Not supported.</td>
+									</tr>
+								</tbody>
+							</table>
+						</div>
+					
+        </p>
+    </div>
+
+
+
+
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<h4 class="heading-A03">Analog Input Unit (voltage input type) 4 points NX-AD3608</h4>
+
+
+
+
+
+
+
+
+
+<div class="component-blockA01">
+
+
+
+
+
+    <div class="text">
+        <p>
+            
+						<div class="table-blockA01">
+							<table class="tableA01" cellspacing="0" border="0">
+								<tbody>
+									<tr class="first-child">
+										<th class="heading left middle"><strong>Unit name</strong></th>
+										<td class="left middle">Analog Input Unit
+<br />
+(voltage input type)</td>
+										<th colspan="2" rowspan="1" class="heading left middle"><strong>Model</strong></th>
+										<td class="left middle">NX-AD3608</td>
+									</tr>
+									<tr>
+										<th class="heading left middle"><strong>Number of points</strong></th>
+										<td class="left middle">4 points</td>
+										<th colspan="2" rowspan="1" class="heading left middle"><strong>External connection
+<br />
+terminals</strong></th>
+										<td class="left middle">Screwless clamping terminal block
+<br />
+(12 terminals)</td>
+									</tr>
+									<tr>
+										<th class="heading left middle"><strong>I/O refreshing method</strong></th>
+										<td colspan="4" rowspan="1" class="left middle">Selectable Synchronous I/O refreshing or Free-Run refreshing</td>
+									</tr>
+									<tr>
+										<th colspan="1" rowspan="9" class="heading left middle"><strong>Indicator</strong></th>
+										<td colspan="1" rowspan="9" class="left middle">TS indicator
+<br />
+											<img src="../../../images/3187_sp_7_113-172387.gif"  alt="3187_sp_7_1" title="3187_sp_7_1" style="width: 62px; height: 77px;" /></td>
+										<th colspan="2" rowspan="1" class="heading left middle"><strong>Input method</strong></th>
+										<td class="left middle">Differential Input</td>
+									</tr>
+									<tr>
+										<th colspan="2" rowspan="1" class="heading left middle"><strong>Input range</strong></th>
+										<td class="left middle">-10 to +10 V</td>
+									</tr>
+									<tr>
+										<th colspan="2" rowspan="1" class="heading left middle"><strong>Input conversion
+<br />
+range</strong></th>
+										<td class="left middle">-5 to 105% (full scale)</td>
+									</tr>
+									<tr>
+										<th colspan="2" rowspan="1" class="heading left middle"><strong>Absolute maximum
+<br />
+rating</strong></th>
+										<td class="left middle">±15 V</td>
+									</tr>
+									<tr>
+										<th colspan="2" rowspan="1" class="heading left middle"><strong>Input impedance</strong></th>
+										<td class="left middle">1 MΩ min.</td>
+									</tr>
+									<tr>
+										<th colspan="2" rowspan="1" class="heading left middle"><strong>Resolution</strong></th>
+										<td class="left middle">1/30000 (full scale)</td>
+									</tr>
+									<tr>
+										<th colspan="1" rowspan="2" class="heading left middle"><strong>Overall
+<br />
+accuracy</strong></th>
+										<th class="heading left middle"><strong>25℃</strong></th>
+										<td class="left middle">±0.1% (full scale)</td>
+									</tr>
+									<tr>
+										<th class="heading left middle"><strong>0 to 55℃</strong></th>
+										<td class="left middle">±0.2% (full scale)</td>
+									</tr>
+									<tr>
+										<th colspan="2" rowspan="1" class="heading left middle"><strong>Conversion time</strong></th>
+										<td class="left middle">10 μs/point</td>
+									</tr>
+									<tr>
+										<th class="heading left middle"><strong>Dimensions</strong></th>
+										<td class="left middle">12 (W) x 100 (H) x 71 (D)</td>
+										<th colspan="2" rowspan="1" class="heading left middle"><strong>Isolation method</strong></th>
+										<td class="left middle">Between the input and the NX bus:
+<br />
+Power = Transformer, Signal =
+<br />
+Digital isolator (no isolation between
+<br />
+inputs)</td>
+									</tr>
+									<tr>
+										<th class="heading left middle"><strong>Insulation resistance</strong></th>
+										<td class="left middle">20 MΩ min. between isolated
+<br />
+circuits (at 100 VDC)</td>
+										<th colspan="2" rowspan="1" class="heading left middle"><strong>Dielectric strength</strong></th>
+										<td class="left middle">510 VAC between isolated circuits
+<br />
+for 1 minute at a leakage current of
+<br />
+5 mA max.</td>
+									</tr>
+									<tr>
+										<th class="heading left middle"><strong>I/O power supply
+<br />
+method</strong></th>
+										<td class="left middle">No supply</td>
+										<th colspan="2" rowspan="1" class="heading left middle"><strong>Current capacity of
+<br />
+I/O power supply
+<br />
+terminal</strong></th>
+										<td class="left middle">Without I/O power supply terminals</td>
+									</tr>
+									<tr>
+										<th class="heading left middle"><strong>NX Unit power
+<br />
+consumption</strong></th>
+										<td class="left middle">• Connected to a CPU Unit
+<br />
+1.45 W max.
+<br />
+• Connected to a Communi-
+<br />
+cations Coupler Unit
+<br />
+1.10 W max.</td>
+										<th colspan="2" rowspan="1" class="heading left middle"><strong>I/O current
+<br />
+consumption</strong></th>
+										<td class="left middle">No consumption</td>
+									</tr>
+									<tr>
+										<th class="heading left middle"><strong>Weight</strong></th>
+										<td colspan="4" rowspan="1" class="left middle">70 g max.</td>
+									</tr>
+									<tr>
+										<th class="heading left middle"><strong>Circuit layout</strong></th>
+										<td colspan="4" rowspan="1" class="left middle"><img src="../../../images/3187_sp_7_213-172388.gif"  alt="3187_sp_7_2" title="3187_sp_7_2" style="width: 452px; height: 172px;" /></td>
+									</tr>
+									<tr>
+										<th class="heading left middle"><strong>Installation orientation
+<br />
+and restrictions</strong></th>
+										<td colspan="4" rowspan="1" class="left middle">Installation orientation:
+<br />
+• Connected to a CPU Unit: Possible in upright installation.
+<br />
+• Connected to a Communications Coupler Unit: Possible in 6 orientations.
+<br />
+Restrictions: No restrictions</td>
+									</tr>
+									<tr>
+										<th class="heading left middle"><strong>Terminal connection
+<br />
+diagram</strong></th>
+										<td colspan="4" rowspan="1" class="left middle"><img src="../../../images/3187_sp_7_313-172389.gif"  alt="3187_sp_7_3" title="3187_sp_7_3" style="width: 317px; height: 182px;" /></td>
+									</tr>
+									<tr>
+										<th class="heading left middle"><strong>Input disconnection
+<br />
+detection</strong></th>
+										<td colspan="4" rowspan="1" class="left middle">Not supported.</td>
+									</tr>
+								</tbody>
+							</table>
+						</div>
+					
+        </p>
+    </div>
+
+
+
+
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<h4 class="heading-A03">Analog Input Unit (voltage input type) 8 points NX-AD4603</h4>
+
+
+
+
+
+
+
+
+
+<div class="component-blockA01">
+
+
+
+
+
+    <div class="text">
+        <p>
+            
+						<div class="table-blockA01">
+							<table class="tableA01" cellspacing="0" border="0">
+								<tbody>
+									<tr class="first-child">
+										<th class="heading left middle"><strong>Unit name</strong></th>
+										<td class="left middle">Analog Input Unit
+<br />
+(voltage input type)</td>
+										<th colspan="2" rowspan="1" class="heading left middle"><strong>Model</strong></th>
+										<td class="left middle">NX-AD4603</td>
+									</tr>
+									<tr>
+										<th class="heading left middle"><strong>Number of points</strong></th>
+										<td class="left middle">8 points</td>
+										<th colspan="2" rowspan="1" class="heading left middle"><strong>External connection
+<br />
+terminals</strong></th>
+										<td class="left middle">Screwless clamping terminal block
+<br />
+(16 terminals)</td>
+									</tr>
+									<tr>
+										<th class="heading left middle"><strong>I/O refreshing method</strong></th>
+										<td colspan="4" rowspan="1" class="left middle">Free-Run refreshing</td>
+									</tr>
+									<tr>
+										<th colspan="1" rowspan="9" class="heading left middle"><strong>Indicator</strong></th>
+										<td colspan="1" rowspan="9" class="left middle">TS indicator
+<br />
+											<img src="../../../images/3187_sp_8_113-172390.gif"  alt="3187_sp_8_1" title="3187_sp_8_1" style="width: 64px; height: 77px;" /></td>
+										<th colspan="2" rowspan="1" class="heading left middle"><strong>Input method</strong></th>
+										<td class="left middle">Single-ended input</td>
+									</tr>
+									<tr>
+										<th colspan="2" rowspan="1" class="heading left middle"><strong>Input range</strong></th>
+										<td class="left middle">-10 to +10 V</td>
+									</tr>
+									<tr>
+										<th colspan="2" rowspan="1" class="heading left middle"><strong>Input conversion
+<br />
+range</strong></th>
+										<td class="left middle">-5 to 105% (full scale)</td>
+									</tr>
+									<tr>
+										<th colspan="2" rowspan="1" class="heading left middle"><strong>Absolute maximum
+<br />
+rating</strong></th>
+										<td class="left middle">±15 V</td>
+									</tr>
+									<tr>
+										<th colspan="2" rowspan="1" class="heading left middle"><strong>Input impedance</strong></th>
+										<td class="left middle">1 MΩ min.</td>
+									</tr>
+									<tr>
+										<th colspan="2" rowspan="1" class="heading left middle"><strong>Resolution</strong></th>
+										<td class="left middle">1/8000 (full scale)</td>
+									</tr>
+									<tr>
+										<th colspan="1" rowspan="2" class="heading left middle"><strong>Overall
+<br />
+accuracy</strong></th>
+										<th class="heading left middle"><strong>25℃</strong></th>
+										<td class="left middle">±0.2% (full scale)</td>
+									</tr>
+									<tr>
+										<th class="heading left middle"><strong>0 to 55℃</strong></th>
+										<td class="left middle">±0.4% (full scale)</td>
+									</tr>
+									<tr>
+										<th colspan="2" rowspan="1" class="heading left middle"><strong>Conversion time</strong></th>
+										<td class="left middle">250 μs/point</td>
+									</tr>
+									<tr>
+										<th class="heading left middle"><strong>Dimensions</strong></th>
+										<td class="left middle">12 (W) x 100 (H) x 71 (D)</td>
+										<th colspan="2" rowspan="1" class="heading left middle"><strong>Isolation method</strong></th>
+										<td class="left middle">Between the input and the NX bus:
+<br />
+Power = Transformer, Signal =
+<br />
+Digital isolator (no isolation between
+<br />
+inputs)</td>
+									</tr>
+									<tr>
+										<th class="heading left middle"><strong>Insulation resistance</strong></th>
+										<td class="left middle">20 MΩ min. between isolated
+<br />
+circuits (at 100 VDC)</td>
+										<th colspan="2" rowspan="1" class="heading left middle"><strong>Dielectric strength</strong></th>
+										<td class="left middle">510 VAC between isolated circuits
+<br />
+for 1 minute at a leakage current of
+<br />
+5 mA max.</td>
+									</tr>
+									<tr>
+										<th class="heading left middle"><strong>I/O power supply
+<br />
+method</strong></th>
+										<td class="left middle">Supply from the NX bus</td>
+										<th colspan="2" rowspan="1" class="heading left middle"><strong>Current capacity of
+<br />
+I/O power supply
+<br />
+terminal</strong></th>
+										<td class="left middle">IOG: 0.1 A/terminal max.</td>
+									</tr>
+									<tr>
+										<th class="heading left middle"><strong>NX Unit power
+<br />
+consumption</strong></th>
+										<td class="left middle">• Connected to a CPU Unit
+<br />
+1.45 W max.
+<br />
+• Connected to a Communi-
+<br />
+cations Coupler Unit
+<br />
+1.15 W max.</td>
+										<th colspan="2" rowspan="1" class="heading left middle"><strong>I/O current
+<br />
+consumption</strong></th>
+										<td class="left middle">No consumption</td>
+									</tr>
+									<tr>
+										<th class="heading left middle"><strong>Weight</strong></th>
+										<td colspan="4" rowspan="1" class="left middle">70 g max.</td>
+									</tr>
+									<tr>
+										<th class="heading left middle"><strong>Circuit layout</strong></th>
+										<td colspan="4" rowspan="1" class="left middle"><img src="../../../images/3187_sp_8_213-172391.gif"  alt="3187_sp_8_2" title="3187_sp_8_2" style="width: 455px; height: 150px;" /></td>
+									</tr>
+									<tr>
+										<th class="heading left middle"><strong>Installation orientation
+<br />
+and restrictions</strong></th>
+										<td colspan="4" rowspan="1" class="left middle">Installation orientation:
+<br />
+• Connected to a CPU Unit: Possible in upright installation.
+<br />
+• Connected to a Communications Coupler Unit: Possible in 6 orientations.
+<br />
+Restrictions: No restrictions</td>
+									</tr>
+									<tr>
+										<th class="heading left middle"><strong>Terminal connection
+<br />
+diagram</strong></th>
+										<td colspan="4" rowspan="1" class="left middle"><img src="../../../images/3187_sp_8_313-172392.gif"  alt="3187_sp_8_3" title="3187_sp_8_3" style="width: 484px; height: 180px;" /></td>
+									</tr>
+									<tr>
+										<th class="heading left middle"><strong>Input disconnection
+<br />
+detection</strong></th>
+										<td colspan="4" rowspan="1" class="left middle">Not supported.</td>
+									</tr>
+								</tbody>
+							</table>
+						</div>
+					
+        </p>
+    </div>
+
+
+
+
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<h4 class="heading-A03">Analog Input Unit (voltage input type) 8 points NX-AD4604</h4>
+
+
+
+
+
+
+
+
+
+<div class="component-blockA01">
+
+
+
+
+
+    <div class="text">
+        <p>
+            
+						<div class="table-blockA01">
+							<table class="tableA01" cellspacing="0" border="0">
+								<tbody>
+									<tr class="first-child">
+										<th class="heading left middle"><strong>Unit name</strong></th>
+										<td class="left middle">Analog Input Unit
+<br />
+(voltage input type)</td>
+										<th colspan="2" rowspan="1" class="heading left middle"><strong>Model</strong></th>
+										<td class="left middle">NX-AD4604</td>
+									</tr>
+									<tr>
+										<th class="heading left middle"><strong>Number of points</strong></th>
+										<td class="left middle">8 points</td>
+										<th colspan="2" rowspan="1" class="heading left middle"><strong>External connection
+<br />
+terminals</strong></th>
+										<td class="left middle">Screwless clamping terminal block
+<br />
+(16 terminals)</td>
+									</tr>
+									<tr>
+										<th class="heading left middle"><strong>I/O refreshing method</strong></th>
+										<td colspan="4" rowspan="1" class="left middle">Free-Run refreshing</td>
+									</tr>
+									<tr>
+										<th colspan="1" rowspan="9" class="heading left middle"><strong>Indicator</strong></th>
+										<td colspan="1" rowspan="9" class="left middle">TS indicator
+<br />
+											<img src="../../../images/3187_sp_9_113-172393.gif"  alt="3187_sp_9_1" title="3187_sp_9_1" style="width: 62px; height: 78px;" /></td>
+										<th colspan="2" rowspan="1" class="heading left middle"><strong>Input method</strong></th>
+										<td class="left middle">Differential Input</td>
+									</tr>
+									<tr>
+										<th colspan="2" rowspan="1" class="heading left middle"><strong>Input range</strong></th>
+										<td class="left middle">-10 to +10 V</td>
+									</tr>
+									<tr>
+										<th colspan="2" rowspan="1" class="heading left middle"><strong>Input conversion
+<br />
+range</strong></th>
+										<td class="left middle">-5 to 105% (full scale)</td>
+									</tr>
+									<tr>
+										<th colspan="2" rowspan="1" class="heading left middle"><strong>Absolute maximum
+<br />
+rating</strong></th>
+										<td class="left middle">±15 V</td>
+									</tr>
+									<tr>
+										<th colspan="2" rowspan="1" class="heading left middle"><strong>Input impedance</strong></th>
+										<td class="left middle">1 MΩ min.</td>
+									</tr>
+									<tr>
+										<th colspan="2" rowspan="1" class="heading left middle"><strong>Resolution</strong></th>
+										<td class="left middle">1/8000 (full scale)</td>
+									</tr>
+									<tr>
+										<th colspan="1" rowspan="2" class="heading left middle"><strong>Overall
+<br />
+accuracy</strong></th>
+										<th class="heading left middle"><strong>25℃</strong></th>
+										<td class="left middle">±0.2% (full scale)</td>
+									</tr>
+									<tr>
+										<th class="heading left middle"><strong>0 to 55℃</strong></th>
+										<td class="left middle">±0.4% (full scale)</td>
+									</tr>
+									<tr>
+										<th colspan="2" rowspan="1" class="heading left middle"><strong>Conversion time</strong></th>
+										<td class="left middle">250 μs/point</td>
+									</tr>
+									<tr>
+										<th class="heading left middle"><strong>Dimensions</strong></th>
+										<td class="left middle">12 (W) x 100 (H) x 71 (D)</td>
+										<th colspan="2" rowspan="1" class="heading left middle"><strong>Isolation method</strong></th>
+										<td class="left middle">Between the input and the NX bus:
+<br />
+Power = Transformer, Signal =
+<br />
+Digital isolator (no isolation between
+<br />
+inputs)</td>
+									</tr>
+									<tr>
+										<th class="heading left middle"><strong>Insulation resistance</strong></th>
+										<td class="left middle">20 MΩ min. between isolated
+<br />
+circuits (at 100 VDC)</td>
+										<th colspan="2" rowspan="1" class="heading left middle"><strong>Dielectric strength</strong></th>
+										<td class="left middle">510 VAC between isolated circuits
+<br />
+for 1 minute at a leakage current of
+<br />
+5 mA max.</td>
+									</tr>
+									<tr>
+										<th class="heading left middle"><strong>I/O power supply
+<br />
+method</strong></th>
+										<td class="left middle">No supply</td>
+										<th colspan="2" rowspan="1" class="heading left middle"><strong>Current capacity of
+<br />
+I/O power supply
+<br />
+terminal</strong></th>
+										<td class="left middle">Without I/O power supply terminals</td>
+									</tr>
+									<tr>
+										<th class="heading left middle"><strong>NX Unit power
+<br />
+consumption</strong></th>
+										<td class="left middle">• Connected to a CPU Unit
+<br />
+1.45 W max.
+<br />
+• Connected to a Communi-
+<br />
+cations Coupler Unit
+<br />
+1.15 W max.</td>
+										<th colspan="2" rowspan="1" class="heading left middle"><strong>I/O current
+<br />
+consumption</strong></th>
+										<td class="left middle">No consumption</td>
+									</tr>
+									<tr>
+										<th class="heading left middle"><strong>Weight</strong></th>
+										<td colspan="4" rowspan="1" class="left middle">70 g max.</td>
+									</tr>
+									<tr>
+										<th class="heading left middle"><strong>Circuit layout</strong></th>
+										<td colspan="4" rowspan="1" class="left middle"><img src="../../../images/3187_sp_9_213-172394.gif"  alt="3187_sp_9_2" title="3187_sp_9_2" style="width: 454px; height: 175px;" /></td>
+									</tr>
+									<tr>
+										<th class="heading left middle"><strong>Installation orientation
+<br />
+and restrictions</strong></th>
+										<td colspan="4" rowspan="1" class="left middle">Installation orientation:
+<br />
+• Connected to a CPU Unit: Possible in upright installation.
+<br />
+• Connected to a Communications Coupler Unit: Possible in 6 orientations.
+<br />
+Restrictions: No restrictions</td>
+									</tr>
+									<tr>
+										<th class="heading left middle"><strong>Terminal connection
+<br />
+diagram</strong></th>
+										<td colspan="4" rowspan="1" class="left middle"><img src="../../../images/3187_sp_9_313-172395.gif"  alt="3187_sp_9_3" title="3187_sp_9_3" style="width: 196px; height: 179px;" /></td>
+									</tr>
+									<tr>
+										<th class="heading left middle"><strong>Input disconnection
+<br />
+detection</strong></th>
+										<td colspan="4" rowspan="1" class="left middle">Not supported.</td>
+									</tr>
+								</tbody>
+							</table>
+						</div>
+					
+        </p>
+    </div>
+
+
+
+
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<h4 class="heading-A03">Analog Input Unit (voltage input type) 8 points NX-AD4608</h4>
+
+
+
+
+
+
+
+
+
+<div class="component-blockA01">
+
+
+
+
+
+    <div class="text">
+        <p>
+            
+						<div class="table-blockA01">
+							<table class="tableA01" cellspacing="0" border="0">
+								<tbody>
+									<tr class="first-child">
+										<th class="heading left middle"><strong>Unit name</strong></th>
+										<td class="left middle">Analog Input Unit
+<br />
+(voltage input type)</td>
+										<th colspan="2" rowspan="1" class="heading left middle"><strong>Model</strong></th>
+										<td class="left middle">NX-AD4608</td>
+									</tr>
+									<tr>
+										<th class="heading left middle"><strong>Number of points</strong></th>
+										<td class="left middle">8 points</td>
+										<th colspan="2" rowspan="1" class="heading left middle"><strong>External connection
+<br />
+terminals</strong></th>
+										<td class="left middle">Screwless clamping terminal block
+<br />
+(16 terminals)</td>
+									</tr>
+									<tr>
+										<th class="heading left middle"><strong>I/O refreshing method</strong></th>
+										<td colspan="4" rowspan="1" class="left middle">Selectable Synchronous I/O refreshing or Free-Run refreshing</td>
+									</tr>
+									<tr>
+										<th colspan="1" rowspan="9" class="heading left middle"><strong>Indicator</strong></th>
+										<td colspan="1" rowspan="9" class="left middle">TS indicator
+<br />
+											<img src="../../../images/3187_sp_10_113-172396.gif"  alt="3187_sp_10_1" title="3187_sp_10_1" style="width: 64px; height: 74px;" /></td>
+										<th colspan="2" rowspan="1" class="heading left middle"><strong>Input method</strong></th>
+										<td class="left middle">Differential Input</td>
+									</tr>
+									<tr>
+										<th colspan="2" rowspan="1" class="heading left middle"><strong>Input range</strong></th>
+										<td class="left middle">-10 to +10 V</td>
+									</tr>
+									<tr>
+										<th colspan="2" rowspan="1" class="heading left middle"><strong>Input conversion
+<br />
+range</strong></th>
+										<td class="left middle">-5 to 105% (full scale)</td>
+									</tr>
+									<tr>
+										<th colspan="2" rowspan="1" class="heading left middle"><strong>Absolute maximum
+<br />
+rating</strong></th>
+										<td class="left middle">±15 V</td>
+									</tr>
+									<tr>
+										<th colspan="2" rowspan="1" class="heading left middle"><strong>Input impedance</strong></th>
+										<td class="left middle">1 MΩ min.</td>
+									</tr>
+									<tr>
+										<th colspan="2" rowspan="1" class="heading left middle"><strong>Resolution</strong></th>
+										<td class="left middle">1/30000 (full scale)</td>
+									</tr>
+									<tr>
+										<th colspan="1" rowspan="2" class="heading left middle"><strong>Overall
+<br />
+accuracy</strong></th>
+										<th class="heading left middle"><strong>25℃</strong></th>
+										<td class="left middle">±0.1% (full scale)</td>
+									</tr>
+									<tr>
+										<th class="heading left middle"><strong>0 to 55℃</strong></th>
+										<td class="left middle">±0.2% (full scale)</td>
+									</tr>
+									<tr>
+										<th colspan="2" rowspan="1" class="heading left middle"><strong>Conversion time</strong></th>
+										<td class="left middle">10 μs/point</td>
+									</tr>
+									<tr>
+										<th class="heading left middle"><strong>Dimensions</strong></th>
+										<td class="left middle">12 (W) x 100 (H) x 71 (D)</td>
+										<th colspan="2" rowspan="1" class="heading left middle"><strong>Isolation method</strong></th>
+										<td class="left middle">Between the input and the NX bus:
+<br />
+Power = Transformer, Signal =
+<br />
+Digital isolator (no isolation between
+<br />
+inputs)</td>
+									</tr>
+									<tr>
+										<th class="heading left middle"><strong>Insulation resistance</strong></th>
+										<td class="left middle">20 MΩ min. between isolated
+<br />
+circuits (at 100 VDC)</td>
+										<th colspan="2" rowspan="1" class="heading left middle"><strong>Dielectric strength</strong></th>
+										<td class="left middle">510 VAC between isolated circuits
+<br />
+for 1 minute at a leakage current of
+<br />
+5 mA max.</td>
+									</tr>
+									<tr>
+										<th class="heading left middle"><strong>I/O power supply
+<br />
+method</strong></th>
+										<td class="left middle">No supply</td>
+										<th colspan="2" rowspan="1" class="heading left middle"><strong>Current capacity of
+<br />
+I/O power supply
+<br />
+terminal</strong></th>
+										<td class="left middle">Without I/O power supply terminals</td>
+									</tr>
+									<tr>
+										<th class="heading left middle"><strong>NX Unit power
+<br />
+consumption</strong></th>
+										<td class="left middle">• Connected to a CPU Unit
+<br />
+1.45 W max.
+<br />
+• Connected to a Communi-
+<br />
+cations Coupler Unit
+<br />
+1.15 W max.</td>
+										<th colspan="2" rowspan="1" class="heading left middle"><strong>I/O current
+<br />
+consumption</strong></th>
+										<td class="left middle">No consumption</td>
+									</tr>
+									<tr>
+										<th class="heading left middle"><strong>Weight</strong></th>
+										<td colspan="4" rowspan="1" class="left middle">70 g max.</td>
+									</tr>
+									<tr>
+										<th class="heading left middle"><strong>Circuit layout</strong></th>
+										<td colspan="4" rowspan="1" class="left middle"><img src="../../../images/3187_sp_10_213-172397.gif"  alt="3187_sp_10_2" title="3187_sp_10_2" style="width: 453px; height: 172px;" /></td>
+									</tr>
+									<tr>
+										<th class="heading left middle"><strong>Installation orientation
+<br />
+and restrictions</strong></th>
+										<td colspan="4" rowspan="1" class="left middle">Installation orientation:
+<br />
+• Connected to a CPU Unit: Possible in upright installation.
+<br />
+• Connected to a Communications Coupler Unit: Possible in 6 orientations.
+<br />
+Restrictions: No restrictions</td>
+									</tr>
+									<tr>
+										<th class="heading left middle"><strong>Terminal connection
+<br />
+diagram</strong></th>
+										<td colspan="4" rowspan="1" class="left middle"><img src="../../../images/3187_sp_10_313-172398.gif"  alt="3187_sp_10_3" title="3187_sp_10_3" style="width: 197px; height: 177px;" /></td>
+									</tr>
+									<tr>
+										<th class="heading left middle"><strong>Input disconnection
+<br />
+detection</strong></th>
+										<td colspan="4" rowspan="1" class="left middle">Not supported.</td>
+									</tr>
+								</tbody>
+							</table>
+						</div>
+					
+        </p>
+    </div>
+
+
+
+
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<h4 class="heading-A03">Analog Input Unit (current input type) 2 points NX-AD2203</h4>
+
+
+
+
+
+
+
+
+
+<div class="component-blockA01">
+
+
+
+
+
+    <div class="text">
+        <p>
+            
+						<div class="table-blockA01">
+							<table class="tableA01" cellspacing="0" border="0">
+								<tbody>
+									<tr class="first-child">
+										<th class="heading left middle"><strong>Unit name</strong></th>
+										<td class="left middle">Analog Input Unit
+<br />
+(current input type)</td>
+										<th colspan="2" rowspan="1" class="heading left middle"><strong>Model</strong></th>
+										<td class="left middle">NX-AD2203</td>
+									</tr>
+									<tr>
+										<th class="heading left middle"><strong>Number of points</strong></th>
+										<td class="left middle">2 points</td>
+										<th colspan="2" rowspan="1" class="heading left middle"><strong>External connection
+<br />
+terminals</strong></th>
+										<td class="left middle">Screwless clamping terminal block
+<br />
+(8 terminals)</td>
+									</tr>
+									<tr>
+										<th class="heading left middle"><strong>I/O refreshing method</strong></th>
+										<td colspan="4" rowspan="1" class="left middle">Free-Run refreshing</td>
+									</tr>
+									<tr>
+										<th colspan="1" rowspan="9" class="heading left middle"><strong>Indicator</strong></th>
+										<td colspan="1" rowspan="9" class="left middle">TS indicator
+<br />
+											<img src="../../../images/3187_sp_11_113-172399.gif"  alt="3187_sp_11_1" title="3187_sp_11_1" style="width: 60px; height: 76px;" /></td>
+										<th colspan="2" rowspan="1" class="heading left middle"><strong>Input method</strong></th>
+										<td class="left middle">Single-ended input</td>
+									</tr>
+									<tr>
+										<th colspan="2" rowspan="1" class="heading left middle"><strong>Input range</strong></th>
+										<td class="left middle">4 to 20 mA</td>
+									</tr>
+									<tr>
+										<th colspan="2" rowspan="1" class="heading left middle"><strong>Input conversion
+<br />
+range</strong></th>
+										<td class="left middle">-5 to 105% (full scale)</td>
+									</tr>
+									<tr>
+										<th colspan="2" rowspan="1" class="heading left middle"><strong>Absolute maximum
+<br />
+rating</strong></th>
+										<td class="left middle">±30 mA</td>
+									</tr>
+									<tr>
+										<th colspan="2" rowspan="1" class="heading left middle"><strong>Input impedance</strong></th>
+										<td class="left middle">250 Ω min.</td>
+									</tr>
+									<tr>
+										<th colspan="2" rowspan="1" class="heading left middle"><strong>Resolution</strong></th>
+										<td class="left middle">1/8000 (full scale)</td>
+									</tr>
+									<tr>
+										<th colspan="1" rowspan="2" class="heading left middle"><strong>Overall
+<br />
+accuracy</strong></th>
+										<th class="heading left middle"><strong>25℃</strong></th>
+										<td class="left middle">±0.2% (full scale)</td>
+									</tr>
+									<tr>
+										<th class="heading left middle"><strong>0 to 55℃</strong></th>
+										<td class="left middle">±0.4% (full scale)</td>
+									</tr>
+									<tr>
+										<th colspan="2" rowspan="1" class="heading left middle"><strong>Conversion time</strong></th>
+										<td class="left middle">250 μs/point</td>
+									</tr>
+									<tr>
+										<th class="heading left middle"><strong>Dimensions</strong></th>
+										<td class="left middle">12 (W) x 100 (H) x 71 (D)</td>
+										<th colspan="2" rowspan="1" class="heading left middle"><strong>Isolation method</strong></th>
+										<td class="left middle">Between the input and the NX bus:
+<br />
+Power = Transformer, Signal =
+<br />
+Digital isolator (no isolation between
+<br />
+inputs)</td>
+									</tr>
+									<tr>
+										<th class="heading left middle"><strong>Insulation resistance</strong></th>
+										<td class="left middle">20 MΩ min. between isolated
+<br />
+circuits (at 100 VDC)</td>
+										<th colspan="2" rowspan="1" class="heading left middle"><strong>Dielectric strength</strong></th>
+										<td class="left middle">510 VAC between isolated circuits
+<br />
+for 1 minute at a leakage current of
+<br />
+5 mA max.</td>
+									</tr>
+									<tr>
+										<th class="heading left middle"><strong>I/O power supply
+<br />
+method</strong></th>
+										<td class="left middle">Supply from the NX bus</td>
+										<th colspan="2" rowspan="1" class="heading left middle"><strong>Current capacity of
+<br />
+I/O power supply
+<br />
+terminal</strong></th>
+										<td class="left middle">IOV: 0.1 A/terminal max.,
+<br />
+IOG: 0.1 A/terminal max.</td>
+									</tr>
+									<tr>
+										<th class="heading left middle"><strong>NX Unit power
+<br />
+consumption</strong></th>
+										<td class="left middle">• Connected to a CPU Unit
+<br />
+1.25 W max.
+<br />
+• Connected to a Communi-
+<br />
+cations Coupler Unit
+<br />
+0.90 W max.</td>
+										<th colspan="2" rowspan="1" class="heading left middle"><strong>I/O current
+<br />
+consumption</strong></th>
+										<td class="left middle">No consumption</td>
+									</tr>
+									<tr>
+										<th class="heading left middle"><strong>Weight</strong></th>
+										<td colspan="4" rowspan="1" class="left middle">70 g max.</td>
+									</tr>
+									<tr>
+										<th class="heading left middle"><strong>Circuit layout</strong></th>
+										<td colspan="4" rowspan="1" class="left middle"><img src="../../../images/3187_sp_11_213-172400.gif"  alt="3187_sp_11_2" title="3187_sp_11_2" style="width: 455px; height: 177px;" /></td>
+									</tr>
+									<tr>
+										<th class="heading left middle"><strong>Installation orientation
+<br />
+and restrictions</strong></th>
+										<td colspan="4" rowspan="1" class="left middle">Installation orientation:
+<br />
+• Connected to a CPU Unit: Possible in upright installation.
+<br />
+• Connected to a Communications Coupler Unit: Possible in 6 orientations.
+<br />
+Restrictions: No restrictions</td>
+									</tr>
+									<tr>
+										<th class="heading left middle"><strong>Terminal connection
+<br />
+diagram</strong></th>
+										<td colspan="4" rowspan="1" class="left middle"><img src="../../../images/3187_sp_11_313-172401.gif"  alt="3187_sp_11_3" title="3187_sp_11_3" style="width: 473px; height: 182px;" /></td>
+									</tr>
+									<tr>
+										<th class="heading left middle"><strong>Input disconnection
+<br />
+detection</strong></th>
+										<td colspan="4" rowspan="1" class="left middle">Supported.</td>
+									</tr>
+								</tbody>
+							</table>
+						</div>
+					
+        </p>
+    </div>
+
+
+
+
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<h4 class="heading-A03">Analog Input Unit (current input type) 2 points NX-AD2204</h4>
+
+
+
+
+
+
+
+
+
+<div class="component-blockA01">
+
+
+
+
+
+    <div class="text">
+        <p>
+            
+						<div class="table-blockA01">
+							<table class="tableA01" cellspacing="0" border="0">
+								<tbody>
+									<tr class="first-child">
+										<th class="heading left middle"><strong>Unit name</strong></th>
+										<td class="left middle">Analog Input Unit
+<br />
+(current input type)</td>
+										<th colspan="2" rowspan="1" class="heading left middle"><strong>Model</strong></th>
+										<td class="left middle">NX-AD2204</td>
+									</tr>
+									<tr>
+										<th class="heading left middle"><strong>Number of points</strong></th>
+										<td class="left middle">2 points</td>
+										<th colspan="2" rowspan="1" class="heading left middle"><strong>External connection
+<br />
+terminals</strong></th>
+										<td class="left middle">Screwless clamping terminal block
+<br />
+(8 terminals)</td>
+									</tr>
+									<tr>
+										<th class="heading left middle"><strong>I/O refreshing method</strong></th>
+										<td colspan="4" rowspan="1" class="left middle">Free-Run refreshing</td>
+									</tr>
+									<tr>
+										<th colspan="1" rowspan="9" class="heading left middle"><strong>Indicator</strong></th>
+										<td colspan="1" rowspan="9" class="left middle">TS indicator
+<br />
+											<img src="../../../images/3187_sp_12_113-172402.gif"  alt="3187_sp_12_1" title="3187_sp_12_1" style="width: 64px; height: 75px;" /></td>
+										<th colspan="2" rowspan="1" class="heading left middle"><strong>Input method</strong></th>
+										<td class="left middle">Differential Input</td>
+									</tr>
+									<tr>
+										<th colspan="2" rowspan="1" class="heading left middle"><strong>Input range</strong></th>
+										<td class="left middle">4 to 20 mA</td>
+									</tr>
+									<tr>
+										<th colspan="2" rowspan="1" class="heading left middle"><strong>Input conversion
+<br />
+range</strong></th>
+										<td class="left middle">-5 to 105% (full scale)</td>
+									</tr>
+									<tr>
+										<th colspan="2" rowspan="1" class="heading left middle"><strong>Absolute maximum
+<br />
+rating</strong></th>
+										<td class="left middle">±30 mA</td>
+									</tr>
+									<tr>
+										<th colspan="2" rowspan="1" class="heading left middle"><strong>Input impedance</strong></th>
+										<td class="left middle">250 Ω min.</td>
+									</tr>
+									<tr>
+										<th colspan="2" rowspan="1" class="heading left middle"><strong>Resolution</strong></th>
+										<td class="left middle">1/8000 (full scale)</td>
+									</tr>
+									<tr>
+										<th colspan="1" rowspan="2" class="heading left middle"><strong>Overall
+<br />
+accuracy</strong></th>
+										<th class="heading left middle"><strong>25℃</strong></th>
+										<td class="left middle">±0.2% (full scale)</td>
+									</tr>
+									<tr>
+										<th class="heading left middle"><strong>0 to 55℃</strong></th>
+										<td class="left middle">±0.4% (full scale)</td>
+									</tr>
+									<tr>
+										<th colspan="2" rowspan="1" class="heading left middle"><strong>Conversion time</strong></th>
+										<td class="left middle">250 μs/point</td>
+									</tr>
+									<tr>
+										<th class="heading left middle"><strong>Dimensions</strong></th>
+										<td class="left middle">12 (W) x 100 (H) x 71 (D)</td>
+										<th colspan="2" rowspan="1" class="heading left middle"><strong>Isolation method</strong></th>
+										<td class="left middle">Between the input and the NX bus:
+<br />
+Power = Transformer, Signal =
+<br />
+Digital isolator (no isolation between
+<br />
+inputs)</td>
+									</tr>
+									<tr>
+										<th class="heading left middle"><strong>Insulation resistance</strong></th>
+										<td class="left middle">20 MΩ min. between isolated
+<br />
+circuits (at 100 VDC)</td>
+										<th colspan="2" rowspan="1" class="heading left middle"><strong>Dielectric strength</strong></th>
+										<td class="left middle">510 VAC between isolated circuits
+<br />
+for 1 minute at a leakage current of
+<br />
+5 mA max.</td>
+									</tr>
+									<tr>
+										<th class="heading left middle"><strong>I/O power supply
+<br />
+method</strong></th>
+										<td class="left middle">No supply</td>
+										<th colspan="2" rowspan="1" class="heading left middle"><strong>Current capacity of
+<br />
+I/O power supply
+<br />
+terminal</strong></th>
+										<td class="left middle">Without I/O power supply terminals</td>
+									</tr>
+									<tr>
+										<th class="heading left middle"><strong>NX Unit power
+<br />
+consumption</strong></th>
+										<td class="left middle">• Connected to a CPU Unit
+<br />
+1.25 W max.
+<br />
+• Connected to a Communi-
+<br />
+cations Coupler Unit
+<br />
+0.90 W max.</td>
+										<th colspan="2" rowspan="1" class="heading left middle"><strong>I/O current
+<br />
+consumption</strong></th>
+										<td class="left middle">No consumption</td>
+									</tr>
+									<tr>
+										<th class="heading left middle"><strong>Weight</strong></th>
+										<td colspan="4" rowspan="1" class="left middle">70 g max.</td>
+									</tr>
+									<tr>
+										<th class="heading left middle"><strong>Circuit layout</strong></th>
+										<td colspan="4" rowspan="1" class="left middle"><img src="../../../images/3187_sp_12_213-172403.gif"  alt="3187_sp_12_2" title="3187_sp_12_2" style="width: 453px; height: 174px;" /></td>
+									</tr>
+									<tr>
+										<th class="heading left middle"><strong>Installation orientation
+<br />
+and restrictions</strong></th>
+										<td colspan="4" rowspan="1" class="left middle">Installation orientation:
+<br />
+• Connected to a CPU Unit: Possible in upright installation.
+<br />
+• Connected to a Communications Coupler Unit: Possible in 6 orientations.
+<br />
+Restrictions: No restrictions</td>
+									</tr>
+									<tr>
+										<th class="heading left middle"><strong>Terminal connection
+<br />
+diagram</strong></th>
+										<td colspan="4" rowspan="1" class="left middle"><img src="../../../images/3187_sp_12_313-172404.gif"  alt="3187_sp_12_3" title="3187_sp_12_3" style="width: 315px; height: 182px;" /></td>
+									</tr>
+									<tr>
+										<th class="heading left middle"><strong>Input disconnection
+<br />
+detection</strong></th>
+										<td colspan="4" rowspan="1" class="left middle">Supported.</td>
+									</tr>
+								</tbody>
+							</table>
+						</div>
+					
+        </p>
+    </div>
+
+
+
+
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<h4 class="heading-A03">Analog Input Unit (current input type) 2 points NX-AD2208</h4>
+
+
+
+
+
+
+
+
+
+<div class="component-blockA01">
+
+
+
+
+
+    <div class="text">
+        <p>
+            
+						<div class="table-blockA01">
+							<table class="tableA01" cellspacing="0" border="0">
+								<tbody>
+									<tr class="first-child">
+										<th class="heading left middle"><strong>Unit name</strong></th>
+										<td class="left middle">Analog Input Unit
+<br />
+(current input type)</td>
+										<th colspan="2" rowspan="1" class="heading left middle"><strong>Model</strong></th>
+										<td class="left middle">NX-AD2208</td>
+									</tr>
+									<tr>
+										<th class="heading left middle"><strong>Number of points</strong></th>
+										<td class="left middle">2 points</td>
+										<th colspan="2" rowspan="1" class="heading left middle"><strong>External connection
+<br />
+terminals</strong></th>
+										<td class="left middle">Screwless clamping terminal block
+<br />
+(8 terminals)</td>
+									</tr>
+									<tr>
+										<th class="heading left middle"><strong>I/O refreshing method</strong></th>
+										<td colspan="4" rowspan="1" class="left middle">Selectable Synchronous I/O refreshing or Free-Run refreshing</td>
+									</tr>
+									<tr>
+										<th colspan="1" rowspan="9" class="heading left middle"><strong>Indicator</strong></th>
+										<td colspan="1" rowspan="9" class="left middle">TS indicator
+<br />
+											<img src="../../../images/3187_sp_13_113-172405.gif"  alt="3187_sp_13_1" title="3187_sp_13_1" style="width: 61px; height: 75px;" /></td>
+										<th colspan="2" rowspan="1" class="heading left middle"><strong>Input method</strong></th>
+										<td class="left middle">Differential Input</td>
+									</tr>
+									<tr>
+										<th colspan="2" rowspan="1" class="heading left middle"><strong>Input range</strong></th>
+										<td class="left middle">4 to 20 mA</td>
+									</tr>
+									<tr>
+										<th colspan="2" rowspan="1" class="heading left middle"><strong>Input conversion
+<br />
+range</strong></th>
+										<td class="left middle">-5 to 105% (full scale)</td>
+									</tr>
+									<tr>
+										<th colspan="2" rowspan="1" class="heading left middle"><strong>Absolute maximum
+<br />
+rating</strong></th>
+										<td class="left middle">±30 mA</td>
+									</tr>
+									<tr>
+										<th colspan="2" rowspan="1" class="heading left middle"><strong>Input impedance</strong></th>
+										<td class="left middle">250 Ω</td>
+									</tr>
+									<tr>
+										<th colspan="2" rowspan="1" class="heading left middle"><strong>Resolution</strong></th>
+										<td class="left middle">1/30000 (full scale)</td>
+									</tr>
+									<tr>
+										<th colspan="1" rowspan="2" class="heading left middle"><strong>Overall
+<br />
+accuracy</strong></th>
+										<th class="heading left middle"><strong>25℃</strong></th>
+										<td class="left middle">±0.1% (full scale)</td>
+									</tr>
+									<tr>
+										<th class="heading left middle"><strong>0 to 55℃</strong></th>
+										<td class="left middle">±0.2% (full scale)</td>
+									</tr>
+									<tr>
+										<th colspan="2" rowspan="1" class="heading left middle"><strong>Conversion time</strong></th>
+										<td class="left middle">10 μs/point</td>
+									</tr>
+									<tr>
+										<th class="heading left middle"><strong>Dimensions</strong></th>
+										<td class="left middle">12 (W) x 100 (H) x 71 (D)</td>
+										<th colspan="2" rowspan="1" class="heading left middle"><strong>Isolation method</strong></th>
+										<td class="left middle">Between the input and the NX bus:
+<br />
+Power = Transformer, Signal =
+<br />
+Digital isolator (no isolation between
+<br />
+inputs)</td>
+									</tr>
+									<tr>
+										<th class="heading left middle"><strong>Insulation resistance</strong></th>
+										<td class="left middle">20 MΩ min. between isolated
+<br />
+circuits (at 100 VDC)</td>
+										<th colspan="2" rowspan="1" class="heading left middle"><strong>Dielectric strength</strong></th>
+										<td class="left middle">510 VAC between isolated circuits
+<br />
+for 1 minute at a leakage current of
+<br />
+5 mA max.</td>
+									</tr>
+									<tr>
+										<th class="heading left middle"><strong>I/O power supply
+<br />
+method</strong></th>
+										<td class="left middle">No supply</td>
+										<th colspan="2" rowspan="1" class="heading left middle"><strong>Current capacity of
+<br />
+I/O power supply
+<br />
+terminal</strong></th>
+										<td class="left middle">Without I/O power supply terminals</td>
+									</tr>
+									<tr>
+										<th class="heading left middle"><strong>NX Unit power
+<br />
+consumption</strong></th>
+										<td class="left middle">• Connected to a CPU Unit
+<br />
+1.25 W max.
+<br />
+• Connected to a Communi-
+<br />
+cations Coupler Unit
+<br />
+0.90 W max.</td>
+										<th colspan="2" rowspan="1" class="heading left middle"><strong>I/O current
+<br />
+consumption</strong></th>
+										<td class="left middle">No consumption</td>
+									</tr>
+									<tr>
+										<th class="heading left middle"><strong>Weight</strong></th>
+										<td colspan="4" rowspan="1" class="left middle">70 g max.</td>
+									</tr>
+									<tr>
+										<th class="heading left middle"><strong>Circuit layout</strong></th>
+										<td colspan="4" rowspan="1" class="left middle"><img src="../../../images/3187_sp_13_213-172406.gif"  alt="3187_sp_13_2" title="3187_sp_13_2" style="width: 455px; height: 174px;" /></td>
+									</tr>
+									<tr>
+										<th class="heading left middle"><strong>Installation orientation
+<br />
+and restrictions</strong></th>
+										<td colspan="4" rowspan="1" class="left middle">Installation orientation:
+<br />
+• Connected to a CPU Unit: Possible in upright installation.
+<br />
+• Connected to a Communications Coupler Unit: Possible in 6 orientations.
+<br />
+Restrictions: No restrictions</td>
+									</tr>
+									<tr>
+										<th class="heading left middle"><strong>Terminal connection
+<br />
+diagram</strong></th>
+										<td colspan="4" rowspan="1" class="left middle"><img src="../../../images/3187_sp_13_313-172407.gif"  alt="3187_sp_13_3" title="3187_sp_13_3" style="width: 316px; height: 179px;" /></td>
+									</tr>
+									<tr>
+										<th class="heading left middle"><strong>Input disconnection
+<br />
+detection</strong></th>
+										<td colspan="4" rowspan="1" class="left middle">Supported.</td>
+									</tr>
+								</tbody>
+							</table>
+						</div>
+					
+        </p>
+    </div>
+
+
+
+
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<h4 class="heading-A03">Analog Input Unit (current input type) 4 points NX-AD3203</h4>
+
+
+
+
+
+
+
+
+
+<div class="component-blockA01">
+
+
+
+
+
+    <div class="text">
+        <p>
+            
+						<div class="table-blockA01">
+							<table class="tableA01" cellspacing="0" border="0">
+								<tbody>
+									<tr class="first-child">
+										<th class="heading left middle"><strong>Unit name</strong></th>
+										<td class="left middle">Analog Input Unit
+<br />
+(current input type)</td>
+										<th colspan="2" rowspan="1" class="heading left middle"><strong>Model</strong></th>
+										<td class="left middle">NX-AD3203</td>
+									</tr>
+									<tr>
+										<th class="heading left middle"><strong>Number of points</strong></th>
+										<td class="left middle">4 points</td>
+										<th colspan="2" rowspan="1" class="heading left middle"><strong>External connection
+<br />
+terminals</strong></th>
+										<td class="left middle">Screwless clamping terminal block
+<br />
+(12 terminals)</td>
+									</tr>
+									<tr>
+										<th class="heading left middle"><strong>I/O refreshing method</strong></th>
+										<td colspan="4" rowspan="1" class="left middle">Free-Run refreshing</td>
+									</tr>
+									<tr>
+										<th colspan="1" rowspan="9" class="heading left middle"><strong>Indicator</strong></th>
+										<td colspan="1" rowspan="9" class="left middle">TS indicator
+<br />
+											<img src="../../../images/3187_sp_14_113-172408.gif"  alt="3187_sp_14_1" title="3187_sp_14_1" style="width: 61px; height: 77px;" /></td>
+										<th colspan="2" rowspan="1" class="heading left middle"><strong>Input method</strong></th>
+										<td class="left middle">Single-ended input</td>
+									</tr>
+									<tr>
+										<th colspan="2" rowspan="1" class="heading left middle"><strong>Input range</strong></th>
+										<td class="left middle">4 to 20 mA</td>
+									</tr>
+									<tr>
+										<th colspan="2" rowspan="1" class="heading left middle"><strong>Input conversion
+<br />
+range</strong></th>
+										<td class="left middle">-5 to 105% (full scale)</td>
+									</tr>
+									<tr>
+										<th colspan="2" rowspan="1" class="heading left middle"><strong>Absolute maximum
+<br />
+rating</strong></th>
+										<td class="left middle">±30 mA</td>
+									</tr>
+									<tr>
+										<th colspan="2" rowspan="1" class="heading left middle"><strong>Input impedance</strong></th>
+										<td class="left middle">250 Ω min.</td>
+									</tr>
+									<tr>
+										<th colspan="2" rowspan="1" class="heading left middle"><strong>Resolution</strong></th>
+										<td class="left middle">1/8000 (full scale)</td>
+									</tr>
+									<tr>
+										<th colspan="1" rowspan="2" class="heading left middle"><strong>Overall
+<br />
+accuracy</strong></th>
+										<th class="heading left middle"><strong>25℃</strong></th>
+										<td class="left middle">±0.2% (full scale)</td>
+									</tr>
+									<tr>
+										<th class="heading left middle"><strong>0 to 55℃</strong></th>
+										<td class="left middle">±0.4% (full scale)</td>
+									</tr>
+									<tr>
+										<th colspan="2" rowspan="1" class="heading left middle"><strong>Conversion time</strong></th>
+										<td class="left middle">250 μs/point</td>
+									</tr>
+									<tr>
+										<th class="heading left middle"><strong>Dimensions</strong></th>
+										<td class="left middle">12 (W) x 100 (H) x 71 (D)</td>
+										<th colspan="2" rowspan="1" class="heading left middle"><strong>Isolation method</strong></th>
+										<td class="left middle">Between the input and the NX bus:
+<br />
+Power = Transformer, Signal =
+<br />
+Digital isolator (no isolation between
+<br />
+inputs)</td>
+									</tr>
+									<tr>
+										<th class="heading left middle"><strong>Insulation resistance</strong></th>
+										<td class="left middle">20 MΩ min. between isolated
+<br />
+circuits (at 100 VDC)</td>
+										<th colspan="2" rowspan="1" class="heading left middle"><strong>Dielectric strength</strong></th>
+										<td class="left middle">510 VAC between isolated circuits
+<br />
+for 1 minute at a leakage current of
+<br />
+5 mA max.</td>
+									</tr>
+									<tr>
+										<th class="heading left middle"><strong>I/O power supply
+<br />
+method</strong></th>
+										<td class="left middle">Supply from the NX bus</td>
+										<th colspan="2" rowspan="1" class="heading left middle"><strong>Current capacity of
+<br />
+I/O power supply
+<br />
+terminal</strong></th>
+										<td class="left middle">IOV: 0.1 A/terminal max.,
+<br />
+IOG: 0.1 A/terminal max.</td>
+									</tr>
+									<tr>
+										<th class="heading left middle"><strong>NX Unit power
+<br />
+consumption</strong></th>
+										<td class="left middle">• Connected to a CPU Unit
+<br />
+1.25 W max.
+<br />
+• Connected to a Communi-
+<br />
+cations Coupler Unit
+<br />
+0.90 W max.</td>
+										<th colspan="2" rowspan="1" class="heading left middle"><strong>I/O current
+<br />
+consumption</strong></th>
+										<td class="left middle">No consumption</td>
+									</tr>
+									<tr>
+										<th class="heading left middle"><strong>Weight</strong></th>
+										<td colspan="4" rowspan="1" class="left middle">70 g max.</td>
+									</tr>
+									<tr>
+										<th class="heading left middle"><strong>Circuit layout</strong></th>
+										<td colspan="4" rowspan="1" class="left middle"><img src="../../../images/3187_sp_14_213-172409.gif"  alt="3187_sp_14_2" title="3187_sp_14_2" style="width: 453px; height: 169px;" /></td>
+									</tr>
+									<tr>
+										<th class="heading left middle"><strong>Installation orientation
+<br />
+and restrictions</strong></th>
+										<td colspan="4" rowspan="1" class="left middle">Installation orientation:
+<br />
+• Connected to a CPU Unit: Possible in upright installation.
+<br />
+• Connected to a Communications Coupler Unit: Possible in 6 orientations.
+<br />
+Restrictions: No restrictions</td>
+									</tr>
+									<tr>
+										<th class="heading left middle"><strong>Terminal connection
+<br />
+diagram</strong></th>
+										<td colspan="4" rowspan="1" class="left middle"><img src="../../../images/3187_sp_14_313-172410.gif"  alt="3187_sp_14_3" title="3187_sp_14_3" style="width: 472px; height: 180px;" /></td>
+									</tr>
+									<tr>
+										<th class="heading left middle"><strong>Input disconnection
+<br />
+detection</strong></th>
+										<td colspan="4" rowspan="1" class="left middle">Supported.</td>
+									</tr>
+								</tbody>
+							</table>
+						</div>
+					
+        </p>
+    </div>
+
+
+
+
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<h4 class="heading-A03">Analog Input Unit (current input type) 4 points NX-AD3204</h4>
+
+
+
+
+
+
+
+
+
+<div class="component-blockA01">
+
+
+
+
+
+    <div class="text">
+        <p>
+            
+						<div class="table-blockA01">
+							<table class="tableA01" cellspacing="0" border="0">
+								<tbody>
+									<tr class="first-child">
+										<th class="heading left middle"><strong>Unit name</strong></th>
+										<td class="left middle">Analog Input Unit
+<br />
+(current input type)</td>
+										<th colspan="2" rowspan="1" class="heading left middle"><strong>Model</strong></th>
+										<td class="left middle">NX-AD3204</td>
+									</tr>
+									<tr>
+										<th class="heading left middle"><strong>Number of points</strong></th>
+										<td class="left middle">4 points</td>
+										<th colspan="2" rowspan="1" class="heading left middle"><strong>External connection
+<br />
+terminals</strong></th>
+										<td class="left middle">Screwless clamping terminal block
+<br />
+(12 terminals)</td>
+									</tr>
+									<tr>
+										<th class="heading left middle"><strong>I/O refreshing method</strong></th>
+										<td colspan="4" rowspan="1" class="left middle">Free-Run refreshing</td>
+									</tr>
+									<tr>
+										<th colspan="1" rowspan="9" class="heading left middle"><strong>Indicator</strong></th>
+										<td colspan="1" rowspan="9" class="left middle">TS indicator
+<br />
+											<img src="../../../images/3187_sp_15_113-172411.gif"  alt="3187_sp_15_1" title="3187_sp_15_1" style="width: 59px; height: 75px;" /></td>
+										<th colspan="2" rowspan="1" class="heading left middle"><strong>Input method</strong></th>
+										<td class="left middle">Differential Input</td>
+									</tr>
+									<tr>
+										<th colspan="2" rowspan="1" class="heading left middle"><strong>Input range</strong></th>
+										<td class="left middle">4 to 20 mA</td>
+									</tr>
+									<tr>
+										<th colspan="2" rowspan="1" class="heading left middle"><strong>Input conversion
+<br />
+range</strong></th>
+										<td class="left middle">-5 to 105% (full scale)</td>
+									</tr>
+									<tr>
+										<th colspan="2" rowspan="1" class="heading left middle"><strong>Absolute maximum
+<br />
+rating</strong></th>
+										<td class="left middle">±30 mA</td>
+									</tr>
+									<tr>
+										<th colspan="2" rowspan="1" class="heading left middle"><strong>Input impedance</strong></th>
+										<td class="left middle">250 Ω min.</td>
+									</tr>
+									<tr>
+										<th colspan="2" rowspan="1" class="heading left middle"><strong>Resolution</strong></th>
+										<td class="left middle">1/8000 (full scale)</td>
+									</tr>
+									<tr>
+										<th colspan="1" rowspan="2" class="heading left middle"><strong>Overall
+<br />
+accuracy</strong></th>
+										<th class="heading left middle"><strong>25℃</strong></th>
+										<td class="left middle">±0.2% (full scale)</td>
+									</tr>
+									<tr>
+										<th class="heading left middle"><strong>0 to 55℃</strong></th>
+										<td class="left middle">±0.4% (full scale)</td>
+									</tr>
+									<tr>
+										<th colspan="2" rowspan="1" class="heading left middle"><strong>Conversion time</strong></th>
+										<td class="left middle">250 μs/point</td>
+									</tr>
+									<tr>
+										<th class="heading left middle"><strong>Dimensions</strong></th>
+										<td class="left middle">12 (W) x 100 (H) x 71 (D)</td>
+										<th colspan="2" rowspan="1" class="heading left middle"><strong>Isolation method</strong></th>
+										<td class="left middle">Between the input and the NX bus:
+<br />
+Power = Transformer, Signal =
+<br />
+Digital isolator (no isolation between
+<br />
+inputs)</td>
+									</tr>
+									<tr>
+										<th class="heading left middle"><strong>Insulation resistance</strong></th>
+										<td class="left middle">20 MΩ min. between isolated
+<br />
+circuits (at 100 VDC)</td>
+										<th colspan="2" rowspan="1" class="heading left middle"><strong>Dielectric strength</strong></th>
+										<td class="left middle">510 VAC between isolated circuits
+<br />
+for 1 minute at a leakage current of
+<br />
+5 mA max.</td>
+									</tr>
+									<tr>
+										<th class="heading left middle"><strong>I/O power supply
+<br />
+method</strong></th>
+										<td class="left middle">No supply</td>
+										<th colspan="2" rowspan="1" class="heading left middle"><strong>Current capacity of
+<br />
+I/O power supply
+<br />
+terminal</strong></th>
+										<td class="left middle">Without I/O power supply terminals</td>
+									</tr>
+									<tr>
+										<th class="heading left middle"><strong>NX Unit power
+<br />
+consumption</strong></th>
+										<td class="left middle">• Connected to a CPU Unit
+<br />
+1.25 W max.
+<br />
+• Connected to a Communi-
+<br />
+cations Coupler Unit
+<br />
+0.90 W max.</td>
+										<th colspan="2" rowspan="1" class="heading left middle"><strong>I/O current
+<br />
+consumption</strong></th>
+										<td class="left middle">No consumption</td>
+									</tr>
+									<tr>
+										<th class="heading left middle"><strong>Weight</strong></th>
+										<td colspan="4" rowspan="1" class="left middle">70 g max.</td>
+									</tr>
+									<tr>
+										<th class="heading left middle"><strong>Circuit layout</strong></th>
+										<td colspan="4" rowspan="1" class="left middle"><img src="../../../images/3187_sp_15_213-172412.gif"  alt="3187_sp_15_2" title="3187_sp_15_2" style="width: 452px; height: 173px;" /></td>
+									</tr>
+									<tr>
+										<th class="heading left middle"><strong>Installation orientation
+<br />
+and restrictions</strong></th>
+										<td colspan="4" rowspan="1" class="left middle">Installation orientation:
+<br />
+• Connected to a CPU Unit: Possible in upright installation.
+<br />
+• Connected to a Communications Coupler Unit: Possible in 6 orientations.
+<br />
+Restrictions: No restrictions</td>
+									</tr>
+									<tr>
+										<th class="heading left middle"><strong>Terminal connection
+<br />
+diagram</strong></th>
+										<td colspan="4" rowspan="1" class="left middle"><img src="../../../images/3187_sp_15_313-172413.gif"  alt="3187_sp_15_3" title="3187_sp_15_3" style="width: 315px; height: 178px;" /></td>
+									</tr>
+									<tr>
+										<th class="heading left middle"><strong>Input disconnection
+<br />
+detection</strong></th>
+										<td colspan="4" rowspan="1" class="left middle">Supported.</td>
+									</tr>
+								</tbody>
+							</table>
+						</div>
+					
+        </p>
+    </div>
+
+
+
+
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<h4 class="heading-A03">Analog Input Unit (current input type) 4 points NX-AD3208</h4>
+
+
+
+
+
+
+
+
+
+<div class="component-blockA01">
+
+
+
+
+
+    <div class="text">
+        <p>
+            
+						<div class="table-blockA01">
+							<table class="tableA01" cellspacing="0" border="0">
+								<tbody>
+									<tr class="first-child">
+										<th class="heading left middle"><strong>Unit name</strong></th>
+										<td class="left middle">Analog Input Unit
+<br />
+(current input type)</td>
+										<th colspan="2" rowspan="1" class="heading left middle"><strong>Model</strong></th>
+										<td class="left middle">NX-AD3208</td>
+									</tr>
+									<tr>
+										<th class="heading left middle"><strong>Number of points</strong></th>
+										<td class="left middle">4 points</td>
+										<th colspan="2" rowspan="1" class="heading left middle"><strong>External connection
+<br />
+terminals</strong></th>
+										<td class="left middle">Screwless clamping terminal block
+<br />
+(12 terminals)</td>
+									</tr>
+									<tr>
+										<th class="heading left middle"><strong>I/O refreshing method</strong></th>
+										<td colspan="4" rowspan="1" class="left middle">Selectable Synchronous I/O refreshing or Free-Run refreshing</td>
+									</tr>
+									<tr>
+										<th colspan="1" rowspan="9" class="heading left middle"><strong>Indicator</strong></th>
+										<td colspan="1" rowspan="9" class="left middle">TS indicator
+<br />
+											<img src="../../../images/3187_sp_16_113-172414.gif"  alt="3187_sp_16_1" title="3187_sp_16_1" style="width: 63px; height: 75px;" /></td>
+										<th colspan="2" rowspan="1" class="heading left middle"><strong>Input method</strong></th>
+										<td class="left middle">Differential Input</td>
+									</tr>
+									<tr>
+										<th colspan="2" rowspan="1" class="heading left middle"><strong>Input range</strong></th>
+										<td class="left middle">4 to 20 mA</td>
+									</tr>
+									<tr>
+										<th colspan="2" rowspan="1" class="heading left middle"><strong>Input conversion
+<br />
+range</strong></th>
+										<td class="left middle">-5 to 105% (full scale)</td>
+									</tr>
+									<tr>
+										<th colspan="2" rowspan="1" class="heading left middle"><strong>Absolute maximum
+<br />
+rating</strong></th>
+										<td class="left middle">±30 mA</td>
+									</tr>
+									<tr>
+										<th colspan="2" rowspan="1" class="heading left middle"><strong>Input impedance</strong></th>
+										<td class="left middle">250 Ω min.</td>
+									</tr>
+									<tr>
+										<th colspan="2" rowspan="1" class="heading left middle"><strong>Resolution</strong></th>
+										<td class="left middle">1/30000 (full scale)</td>
+									</tr>
+									<tr>
+										<th colspan="1" rowspan="2" class="heading left middle"><strong>Overall
+<br />
+accuracy</strong></th>
+										<th class="heading left middle"><strong>25℃</strong></th>
+										<td class="left middle">±0.1% (full scale)</td>
+									</tr>
+									<tr>
+										<th class="heading left middle"><strong>0 to 55℃</strong></th>
+										<td class="left middle">±0.2% (full scale)</td>
+									</tr>
+									<tr>
+										<th colspan="2" rowspan="1" class="heading left middle"><strong>Conversion time</strong></th>
+										<td class="left middle">10 μs/point</td>
+									</tr>
+									<tr>
+										<th class="heading left middle"><strong>Dimensions</strong></th>
+										<td class="left middle">12 (W) x 100 (H) x 71 (D)</td>
+										<th colspan="2" rowspan="1" class="heading left middle"><strong>Isolation method</strong></th>
+										<td class="left middle">Between the input and the NX bus:
+<br />
+Power = Transformer, Signal =
+<br />
+Digital isolator (no isolation between
+<br />
+inputs)</td>
+									</tr>
+									<tr>
+										<th class="heading left middle"><strong>Insulation resistance</strong></th>
+										<td class="left middle">20 MΩ min. between isolated
+<br />
+circuits (at 100 VDC)</td>
+										<th colspan="2" rowspan="1" class="heading left middle"><strong>Dielectric strength</strong></th>
+										<td class="left middle">510 VAC between isolated circuits
+<br />
+for 1 minute at a leakage current of
+<br />
+5 mA max.</td>
+									</tr>
+									<tr>
+										<th class="heading left middle"><strong>I/O power supply
+<br />
+method</strong></th>
+										<td class="left middle">No supply</td>
+										<th colspan="2" rowspan="1" class="heading left middle"><strong>Current capacity of
+<br />
+I/O power supply
+<br />
+terminal</strong></th>
+										<td class="left middle">Without I/O power supply terminals</td>
+									</tr>
+									<tr>
+										<th class="heading left middle"><strong>NX Unit power
+<br />
+consumption</strong></th>
+										<td class="left middle">• Connected to a CPU Unit
+<br />
+1.30 W max.
+<br />
+• Connected to a Communi-
+<br />
+cations Coupler Unit
+<br />
+0.95 W max.</td>
+										<th colspan="2" rowspan="1" class="heading left middle"><strong>I/O current
+<br />
+consumption</strong></th>
+										<td class="left middle">No consumption</td>
+									</tr>
+									<tr>
+										<th class="heading left middle"><strong>Weight</strong></th>
+										<td colspan="4" rowspan="1" class="left middle">70 g max.</td>
+									</tr>
+									<tr>
+										<th class="heading left middle"><strong>Circuit layout</strong></th>
+										<td colspan="4" rowspan="1" class="left middle"><img src="../../../images/3187_sp_16_213-172359.gif"  alt="3187_sp_16_2" title="3187_sp_16_2" style="width: 456px; height: 175px;" /></td>
+									</tr>
+									<tr>
+										<th class="heading left middle"><strong>Installation orientation
+<br />
+and restrictions</strong></th>
+										<td colspan="4" rowspan="1" class="left middle">Installation orientation:
+<br />
+• Connected to a CPU Unit: Possible in upright installation.
+<br />
+• Connected to a Communications Coupler Unit: Possible in 6 orientations.
+<br />
+Restrictions: No restrictions</td>
+									</tr>
+									<tr>
+										<th class="heading left middle"><strong>Terminal connection
+<br />
+diagram</strong></th>
+										<td colspan="4" rowspan="1" class="left middle"><img src="../../../images/3187_sp_16_313-172360.gif"  alt="3187_sp_16_3" title="3187_sp_16_3" style="width: 314px; height: 181px;" /></td>
+									</tr>
+									<tr>
+										<th class="heading left middle"><strong>Input disconnection
+<br />
+detection</strong></th>
+										<td colspan="4" rowspan="1" class="left middle">Supported.</td>
+									</tr>
+								</tbody>
+							</table>
+						</div>
+					
+        </p>
+    </div>
+
+
+
+
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<h4 class="heading-A03">Analog Input Unit (current input type) 8 points NX-AD4203</h4>
+
+
+
+
+
+
+
+
+
+<div class="component-blockA01">
+
+
+
+
+
+    <div class="text">
+        <p>
+            
+						<div class="table-blockA01">
+							<table class="tableA01" cellspacing="0" border="0">
+								<tbody>
+									<tr class="first-child">
+										<th class="heading left middle"><strong>Unit name</strong></th>
+										<td class="left middle">Analog Input Unit
+<br />
+(current input type)</td>
+										<th colspan="2" rowspan="1" class="heading left middle"><strong>Model</strong></th>
+										<td class="left middle">NX-AD4203</td>
+									</tr>
+									<tr>
+										<th class="heading left middle"><strong>Number of points</strong></th>
+										<td class="left middle">8 points</td>
+										<th colspan="2" rowspan="1" class="heading left middle"><strong>External connection
+<br />
+terminals</strong></th>
+										<td class="left middle">Screwless clamping terminal block
+<br />
+(16 terminals)</td>
+									</tr>
+									<tr>
+										<th class="heading left middle"><strong>I/O refreshing method</strong></th>
+										<td colspan="4" rowspan="1" class="left middle">Free-Run refreshing</td>
+									</tr>
+									<tr>
+										<th colspan="1" rowspan="9" class="heading left middle"><strong>Indicator</strong></th>
+										<td colspan="1" rowspan="9" class="left middle">TS indicator
+<br />
+											<img src="../../../images/3187_sp_17_113-172361.gif"  alt="3187_sp_17_1" title="3187_sp_17_1" style="width: 63px; height: 77px;" /></td>
+										<th colspan="2" rowspan="1" class="heading left middle"><strong>Input method</strong></th>
+										<td class="left middle">Single-ended input</td>
+									</tr>
+									<tr>
+										<th colspan="2" rowspan="1" class="heading left middle"><strong>Input range</strong></th>
+										<td class="left middle">4 to 20 mA</td>
+									</tr>
+									<tr>
+										<th colspan="2" rowspan="1" class="heading left middle"><strong>Input conversion
+<br />
+range</strong></th>
+										<td class="left middle">-5 to 105% (full scale)</td>
+									</tr>
+									<tr>
+										<th colspan="2" rowspan="1" class="heading left middle"><strong>Absolute maximum
+<br />
+rating</strong></th>
+										<td class="left middle">±30 mA</td>
+									</tr>
+									<tr>
+										<th colspan="2" rowspan="1" class="heading left middle"><strong>Input impedance</strong></th>
+										<td class="left middle">85 Ω</td>
+									</tr>
+									<tr>
+										<th colspan="2" rowspan="1" class="heading left middle"><strong>Resolution</strong></th>
+										<td class="left middle">1/8000 (full scale)</td>
+									</tr>
+									<tr>
+										<th colspan="1" rowspan="2" class="heading left middle"><strong>Overall
+<br />
+accuracy</strong></th>
+										<th class="heading left middle"><strong>25℃</strong></th>
+										<td class="left middle">±0.2% (full scale)</td>
+									</tr>
+									<tr>
+										<th class="heading left middle"><strong>0 to 55℃</strong></th>
+										<td class="left middle">±0.4% (full scale)</td>
+									</tr>
+									<tr>
+										<th colspan="2" rowspan="1" class="heading left middle"><strong>Conversion time</strong></th>
+										<td class="left middle">250 μs/point</td>
+									</tr>
+									<tr>
+										<th class="heading left middle"><strong>Dimensions</strong></th>
+										<td class="left middle">12 (W) x 100 (H) x 71 (D)</td>
+										<th colspan="2" rowspan="1" class="heading left middle"><strong>Isolation method</strong></th>
+										<td class="left middle">Between the input and the NX bus:
+<br />
+Power = Transformer, Signal =
+<br />
+Digital isolator (no isolation between
+<br />
+inputs)</td>
+									</tr>
+									<tr>
+										<th class="heading left middle"><strong>Insulation resistance</strong></th>
+										<td class="left middle">20 MΩ min. between isolated
+<br />
+circuits (at 100 VDC)</td>
+										<th colspan="2" rowspan="1" class="heading left middle"><strong>Dielectric strength</strong></th>
+										<td class="left middle">510 VAC between isolated circuits
+<br />
+for 1 minute at a leakage current of
+<br />
+5 mA max.</td>
+									</tr>
+									<tr>
+										<th class="heading left middle"><strong>I/O power supply
+<br />
+method</strong></th>
+										<td class="left middle">Supply from the NX bus</td>
+										<th colspan="2" rowspan="1" class="heading left middle"><strong>Current capacity of
+<br />
+I/O power supply
+<br />
+terminal</strong></th>
+										<td class="left middle">IOV: 0.1 A/terminal max.</td>
+									</tr>
+									<tr>
+										<th class="heading left middle"><strong>NX Unit power
+<br />
+consumption</strong></th>
+										<td class="left middle">• Connected to a CPU Unit
+<br />
+1.40 W max.
+<br />
+• Connected to a Communi-
+<br />
+cations Coupler Unit
+<br />
+1.05 W max.</td>
+										<th colspan="2" rowspan="1" class="heading left middle"><strong>I/O current
+<br />
+consumption</strong></th>
+										<td class="left middle">No consumption</td>
+									</tr>
+									<tr>
+										<th class="heading left middle"><strong>Weight</strong></th>
+										<td colspan="4" rowspan="1" class="left middle">70 g max.</td>
+									</tr>
+									<tr>
+										<th class="heading left middle"><strong>Circuit layout</strong></th>
+										<td colspan="4" rowspan="1" class="left middle"><img src="../../../images/3187_sp_17_213-172362.gif"  alt="3187_sp_17_2" title="3187_sp_17_2" style="width: 453px; height: 149px;" /></td>
+									</tr>
+									<tr>
+										<th class="heading left middle"><strong>Installation orientation
+<br />
+and restrictions</strong></th>
+										<td colspan="4" rowspan="1" class="left middle">Installation orientation:
+<br />
+• Connected to a CPU Unit: Possible in upright installation.
+<br />
+• Connected to a Communications Coupler Unit: Possible in 6 orientations.
+<br />
+Restrictions: No restrictions</td>
+									</tr>
+									<tr>
+										<th class="heading left middle"><strong>Terminal connection
+<br />
+diagram</strong></th>
+										<td colspan="4" rowspan="1" class="left middle"><img src="../../../images/3187_sp_17_313-172363.gif"  alt="3187_sp_17_3" title="3187_sp_17_3" style="width: 504px; height: 180px;" /></td>
+									</tr>
+									<tr>
+										<th class="heading left middle"><strong>Input disconnection
+<br />
+detection</strong></th>
+										<td colspan="4" rowspan="1" class="left middle">Supported.</td>
+									</tr>
+								</tbody>
+							</table>
+						</div>
+					
+        </p>
+    </div>
+
+
+
+
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<h4 class="heading-A03">Analog Input Unit (current input type) 8 points NX-AD4204</h4>
+
+
+
+
+
+
+
+
+
+<div class="component-blockA01">
+
+
+
+
+
+    <div class="text">
+        <p>
+            
+						<div class="table-blockA01">
+							<table class="tableA01" cellspacing="0" border="0">
+								<tbody>
+									<tr class="first-child">
+										<th class="heading left middle"><strong>Unit name</strong></th>
+										<td class="left middle">Analog Input Unit
+<br />
+(current input type)</td>
+										<th colspan="2" rowspan="1" class="heading left middle"><strong>Model</strong></th>
+										<td class="left middle">NX-AD4204</td>
+									</tr>
+									<tr>
+										<th class="heading left middle"><strong>Number of points</strong></th>
+										<td class="left middle">8 points</td>
+										<th colspan="2" rowspan="1" class="heading left middle"><strong>External connection
+<br />
+terminals</strong></th>
+										<td class="left middle">Screwless clamping terminal block
+<br />
+(16 terminals)</td>
+									</tr>
+									<tr>
+										<th class="heading left middle"><strong>I/O refreshing method</strong></th>
+										<td colspan="4" rowspan="1" class="left middle">Free-Run refreshing</td>
+									</tr>
+									<tr>
+										<th colspan="1" rowspan="9" class="heading left middle"><strong>Indicator</strong></th>
+										<td colspan="1" rowspan="9" class="left middle">TS indicator
+<br />
+											<img src="../../../images/3187_sp_18_113-172364.gif"  alt="3187_sp_18_1" title="3187_sp_18_1" style="width: 62px; height: 77px;" /></td>
+										<th colspan="2" rowspan="1" class="heading left middle"><strong>Input method</strong></th>
+										<td class="left middle">Differential Input</td>
+									</tr>
+									<tr>
+										<th colspan="2" rowspan="1" class="heading left middle"><strong>Input range</strong></th>
+										<td class="left middle">4 to 20 mA</td>
+									</tr>
+									<tr>
+										<th colspan="2" rowspan="1" class="heading left middle"><strong>Input conversion
+<br />
+range</strong></th>
+										<td class="left middle">-5 to 105% (full scale)</td>
+									</tr>
+									<tr>
+										<th colspan="2" rowspan="1" class="heading left middle"><strong>Absolute maximum
+<br />
+rating</strong></th>
+										<td class="left middle">±30 mA</td>
+									</tr>
+									<tr>
+										<th colspan="2" rowspan="1" class="heading left middle"><strong>Input impedance</strong></th>
+										<td class="left middle">85 Ω</td>
+									</tr>
+									<tr>
+										<th colspan="2" rowspan="1" class="heading left middle"><strong>Resolution</strong></th>
+										<td class="left middle">1/8000 (full scale)</td>
+									</tr>
+									<tr>
+										<th colspan="1" rowspan="2" class="heading left middle"><strong>Overall
+<br />
+accuracy</strong></th>
+										<th class="heading left middle"><strong>25℃</strong></th>
+										<td class="left middle">±0.2% (full scale)</td>
+									</tr>
+									<tr>
+										<th class="heading left middle"><strong>0 to 55℃</strong></th>
+										<td class="left middle">±0.4% (full scale)</td>
+									</tr>
+									<tr>
+										<th colspan="2" rowspan="1" class="heading left middle"><strong>Conversion time</strong></th>
+										<td class="left middle">250 μs/point</td>
+									</tr>
+									<tr>
+										<th class="heading left middle"><strong>Dimensions</strong></th>
+										<td class="left middle">12 (W) x 100 (H) x 71 (D)</td>
+										<th colspan="2" rowspan="1" class="heading left middle"><strong>Isolation method</strong></th>
+										<td class="left middle">Between the input and the NX bus:
+<br />
+Power = Transformer, Signal =
+<br />
+Digital isolator (no isolation between
+<br />
+inputs)</td>
+									</tr>
+									<tr>
+										<th class="heading left middle"><strong>Insulation resistance</strong></th>
+										<td class="left middle">20 MΩ min. between isolated
+<br />
+circuits (at 100 VDC)</td>
+										<th colspan="2" rowspan="1" class="heading left middle"><strong>Dielectric strength</strong></th>
+										<td class="left middle">510 VAC between isolated circuits
+<br />
+for 1 minute at a leakage current of
+<br />
+5 mA max.</td>
+									</tr>
+									<tr>
+										<th class="heading left middle"><strong>I/O power supply
+<br />
+method</strong></th>
+										<td class="left middle">No supply</td>
+										<th colspan="2" rowspan="1" class="heading left middle"><strong>Current capacity of
+<br />
+I/O power supply
+<br />
+terminal</strong></th>
+										<td class="left middle">Without I/O power supply terminals</td>
+									</tr>
+									<tr>
+										<th class="heading left middle"><strong>NX Unit power
+<br />
+consumption</strong></th>
+										<td class="left middle">• Connected to a CPU Unit
+<br />
+1.40 W max.
+<br />
+• Connected to a Communi-
+<br />
+cations Coupler Unit
+<br />
+1.05 W max.</td>
+										<th colspan="2" rowspan="1" class="heading left middle"><strong>I/O current
+<br />
+consumption</strong></th>
+										<td class="left middle">No consumption</td>
+									</tr>
+									<tr>
+										<th class="heading left middle"><strong>Weight</strong></th>
+										<td colspan="4" rowspan="1" class="left middle">70 g max.</td>
+									</tr>
+									<tr>
+										<th class="heading left middle"><strong>Circuit layout</strong></th>
+										<td colspan="4" rowspan="1" class="left middle"><img src="../../../images/3187_sp_18_213-172365.gif"  alt="3187_sp_18_2" title="3187_sp_18_2" style="width: 457px; height: 175px;" /></td>
+									</tr>
+									<tr>
+										<th class="heading left middle"><strong>Installation orientation
+<br />
+and restrictions</strong></th>
+										<td colspan="4" rowspan="1" class="left middle">Installation orientation:
+<br />
+• Connected to a CPU Unit: Possible in upright installation.
+<br />
+• Connected to a Communications Coupler Unit: Possible in 6 orientations.
+<br />
+Restrictions: No restrictions</td>
+									</tr>
+									<tr>
+										<th class="heading left middle"><strong>Terminal connection
+<br />
+diagram</strong></th>
+										<td colspan="4" rowspan="1" class="left middle"><img src="../../../images/3187_sp_18_313-172366.gif"  alt="3187_sp_18_3" title="3187_sp_18_3" style="width: 196px; height: 180px;" /></td>
+									</tr>
+									<tr>
+										<th class="heading left middle"><strong>Input disconnection
+<br />
+detection</strong></th>
+										<td colspan="4" rowspan="1" class="left middle">Supported.</td>
+									</tr>
+								</tbody>
+							</table>
+						</div>
+					
+        </p>
+    </div>
+
+
+
+
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<h4 class="heading-A03">Analog Input Unit (current input type) 8 points NX-AD4208</h4>
+
+
+
+
+
+
+
+
+
+<div class="component-blockA01">
+
+
+
+
+
+    <div class="text">
+        <p>
+            
+						<div class="table-blockA01">
+							<table class="tableA01" cellspacing="0" border="0">
+								<tbody>
+									<tr class="first-child">
+										<th class="heading left middle"><strong>Unit name</strong></th>
+										<td class="left middle">Analog Input Unit
+<br />
+(current input type)</td>
+										<th colspan="2" rowspan="1" class="heading left middle"><strong>Model</strong></th>
+										<td class="left middle">NX-AD4208</td>
+									</tr>
+									<tr>
+										<th class="heading left middle"><strong>Number of points</strong></th>
+										<td class="left middle">8 points</td>
+										<th colspan="2" rowspan="1" class="heading left middle"><strong>External connection
+<br />
+terminals</strong></th>
+										<td class="left middle">Screwless clamping terminal block
+<br />
+(16 terminals)</td>
+									</tr>
+									<tr>
+										<th class="heading left middle"><strong>I/O refreshing method</strong></th>
+										<td colspan="4" rowspan="1" class="left middle">Selectable Synchronous I/O refreshing or Free-Run refreshing</td>
+									</tr>
+									<tr>
+										<th colspan="1" rowspan="9" class="heading left middle"><strong>Indicator</strong></th>
+										<td colspan="1" rowspan="9" class="left middle">TS indicator
+<br />
+											<img src="../../../images/3187_sp_19_113-172367.gif"  alt="3187_sp_19_1" title="3187_sp_19_1" style="width: 62px; height: 76px;" /></td>
+										<th colspan="2" rowspan="1" class="heading left middle"><strong>Input method</strong></th>
+										<td class="left middle">Differential Input</td>
+									</tr>
+									<tr>
+										<th colspan="2" rowspan="1" class="heading left middle"><strong>Input range</strong></th>
+										<td class="left middle">4 to 20 mA</td>
+									</tr>
+									<tr>
+										<th colspan="2" rowspan="1" class="heading left middle"><strong>Input conversion
+<br />
+range</strong></th>
+										<td class="left middle">-5 to 105% (full scale)</td>
+									</tr>
+									<tr>
+										<th colspan="2" rowspan="1" class="heading left middle"><strong>Absolute maximum
+<br />
+rating</strong></th>
+										<td class="left middle">±30 mA</td>
+									</tr>
+									<tr>
+										<th colspan="2" rowspan="1" class="heading left middle"><strong>Input impedance</strong></th>
+										<td class="left middle">85 Ω</td>
+									</tr>
+									<tr>
+										<th colspan="2" rowspan="1" class="heading left middle"><strong>Resolution</strong></th>
+										<td class="left middle">1/30000 (full scale)</td>
+									</tr>
+									<tr>
+										<th colspan="1" rowspan="2" class="heading left middle"><strong>Overall
+<br />
+accuracy</strong></th>
+										<th class="heading left middle"><strong>25℃</strong></th>
+										<td class="left middle">±0.1% (full scale)</td>
+									</tr>
+									<tr>
+										<th class="heading left middle"><strong>0 to 55℃</strong></th>
+										<td class="left middle">±0.2% (full scale)</td>
+									</tr>
+									<tr>
+										<th colspan="2" rowspan="1" class="heading left middle"><strong>Conversion time</strong></th>
+										<td class="left middle">10 μs/point</td>
+									</tr>
+									<tr>
+										<th class="heading left middle"><strong>Dimensions</strong></th>
+										<td class="left middle">12 (W) x 100 (H) x 71 (D)</td>
+										<th colspan="2" rowspan="1" class="heading left middle"><strong>Isolation method</strong></th>
+										<td class="left middle">Between the input and the NX bus:
+<br />
+Power = Transformer, Signal =
+<br />
+Digital isolator (no isolation between
+<br />
+inputs)</td>
+									</tr>
+									<tr>
+										<th class="heading left middle"><strong>Insulation resistance</strong></th>
+										<td class="left middle">20 MΩ min. between isolated
+<br />
+circuits (at 100 VDC)</td>
+										<th colspan="2" rowspan="1" class="heading left middle"><strong>Dielectric strength</strong></th>
+										<td class="left middle">510 VAC between isolated circuits
+<br />
+for 1 minute at a leakage current of
+<br />
+5 mA max.</td>
+									</tr>
+									<tr>
+										<th class="heading left middle"><strong>I/O power supply
+<br />
+method</strong></th>
+										<td class="left middle">No supply</td>
+										<th colspan="2" rowspan="1" class="heading left middle"><strong>Current capacity of
+<br />
+I/O power supply
+<br />
+terminal</strong></th>
+										<td class="left middle">Without I/O power supply terminals</td>
+									</tr>
+									<tr>
+										<th class="heading left middle"><strong>NX Unit power
+<br />
+consumption</strong></th>
+										<td class="left middle">• Connected to a CPU Unit
+<br />
+1.45 W max.
+<br />
+• Connected to a Communi-
+<br />
+cations Coupler Unit
+<br />
+1.10 W max.</td>
+										<th colspan="2" rowspan="1" class="heading left middle"><strong>I/O current
+<br />
+consumption</strong></th>
+										<td class="left middle">No consumption</td>
+									</tr>
+									<tr>
+										<th class="heading left middle"><strong>Weight</strong></th>
+										<td colspan="4" rowspan="1" class="left middle">70 g max.</td>
+									</tr>
+									<tr>
+										<th class="heading left middle"><strong>Circuit layout</strong></th>
+										<td colspan="4" rowspan="1" class="left middle"><img src="../../../images/3187_sp_19_213-172368.gif"  alt="3187_sp_19_2" title="3187_sp_19_2" style="width: 452px; height: 175px;" /></td>
+									</tr>
+									<tr>
+										<th class="heading left middle"><strong>Installation orientation
+<br />
+and restrictions</strong></th>
+										<td colspan="4" rowspan="1" class="left middle">Installation orientation:
+<br />
+• Connected to a CPU Unit: Possible in upright installation.
+<br />
+• Connected to a Communications Coupler Unit: Possible in 6 orientations.
+<br />
+Restrictions: No restrictions</td>
+									</tr>
+									<tr>
+										<th class="heading left middle"><strong>Terminal connection
+<br />
+diagram</strong></th>
+										<td colspan="4" rowspan="1" class="left middle"><img src="../../../images/3187_sp_19_313-172369.gif"  alt="3187_sp_19_3" title="3187_sp_19_3" style="width: 200px; height: 179px;" /></td>
+									</tr>
+									<tr>
+										<th class="heading left middle"><strong>Input disconnection
+<br />
+detection</strong></th>
+										<td colspan="4" rowspan="1" class="left middle">Supported.</td>
+									</tr>
+								</tbody>
+							</table>
+						</div>
+					
+        </p>
+    </div>
+
+
+
+
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<h4 class="heading-A02">Version Information</h4>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<h4 class="heading-A03">Connecting with CPU Units</h4>
+
+
+
+
+
+
+
+
+
+<div class="component-blockA01">
+
+
+
+
+
+    <div class="text">
+        <p>
+            Refer to the user's manual for the CPU Unit for the CPU Unit to which NX Units can be connected.
+        </p>
+    </div>
+
+
+
+
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="component-blockA01">
+
+
+
+
+
+    <div class="text">
+        <p>
+            
+						<div class="table-blockA01">
+							<table class="tableA01" cellspacing="0" border="0">
+								<tr class="first-child">
+									<th colspan="2" rowspan="1" class="heading center middle"><strong>NX Units</strong></th>
+									<th colspan="2" rowspan="1" class="heading center middle"><strong>Corresponding versions *</strong></th>
+								</tr>
+								<tr>
+									<th class="heading center middle"><strong>Model</strong></th>
+									<th class="heading center middle"><strong>Unit version</strong></th>
+									<th class="heading center middle"><strong>CPU Unit</strong></th>
+									<th class="heading center middle"><strong>Sysmac Studio</strong></th>
+								</tr>
+								<tr>
+									<td class="left middle">NX-AD[][][][]</td>
+									<td class="center middle">Ver.1.0</td>
+									<td class="center middle">Ver.1.13 or later</td>
+									<td class="center middle">Ver.1.17 or higher</td>
+								</tr>
+							</table>
+						</div>
+					
+        </p>
+    </div>
+
+
+
+
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="component-blockA01">
+
+
+
+
+
+    <div class="text">
+        <p>
+            
+						<div style="text-align: left;">* Some Units do not have all of the versions given in the above table. If a Unit does not have the specified version,
+<br />
+ support is provided by the oldest available version after the specified version. Refer to the user’s manuals for the specific
+<br />
+ Units for the relation between models and versions.</div>
+					
+        </p>
+    </div>
+
+
+
+
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<h4 class="heading-A03">Connecting with Coupler Units</h4>
+
+
+
+
+
+
+
+
+
+<div class="component-blockA01">
+
+
+
+
+
+    <div class="text">
+        <p>
+            
+						<div class="table-blockA01">
+							<table class="tableA01" cellspacing="0" border="0">
+								<tr class="first-child">
+									<th colspan="2" rowspan="1" class="heading center middle"><strong>NX Units</strong></th>
+									<th colspan="5" rowspan="1" class="heading center middle"><strong>Corresponding versions *</strong></th>
+								</tr>
+								<tr>
+									<th colspan="1" rowspan="2" class="heading center middle"><strong>Model</strong></th>
+									<th colspan="1" rowspan="2" class="heading center middle"><strong>Unit
+<br />
+version</strong></th>
+									<th colspan="3" rowspan="1" class="heading center middle"><strong>EtherCAT</strong></th>
+									<th colspan="2" rowspan="1" class="heading center middle"><strong>EtherNet/IP</strong></th>
+								</tr>
+								<tr>
+									<th class="heading center middle"><strong>Communica-
+<br />
+tions
+<br />
+Coupler Unit</strong></th>
+									<th class="heading center middle"><strong>NJ/NX-series
+<br />
+CPU Units or
+<br />
+NY-series
+<br />
+Industrial PCs</strong></th>
+									<th class="heading center middle"><strong>Sysmac Studio</strong></th>
+									<th class="heading center middle"><strong>Communica-
+<br />
+tions
+<br />
+Coupler Unit</strong></th>
+									<th class="heading center middle"><strong>Sysmac Studio</strong></th>
+								</tr>
+								<tr>
+									<td class="left middle">NX-AD[][][][]</td>
+									<td class="center middle">Ver.1.0</td>
+									<td class="center middle">Ver.1.0 or later</td>
+									<td class="center middle">Ver.1.05 or later</td>
+									<td class="center middle">Ver.1.06 or higher</td>
+									<td class="center middle">Ver.1.0 or later</td>
+									<td class="center middle">Ver.1.10 or higher</td>
+								</tr>
+							</table>
+						</div>
+					
+        </p>
+    </div>
+
+
+
+
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="component-blockA01">
+
+
+
+
+
+    <div class="text">
+        <p>
+            
+						<div style="text-align: left;">* Some Units do not have all of the versions given in the above table. If a Unit does not have the specified version,
+<br />
+  support is provided by the oldest available version after the specified version. Refer to the user’s manuals for the specific
+<br />
+  Units for the relation between models and versions.</div>
+					
+        </p>
+    </div>
+
+
+
+
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<p class="date-line">last update: October 11, 2016</p>
+
+</div>
+
+                        </div>
+                    </div>
+	            <!-- === /[primary-contents-area] === -->
+                </div>
+                <!-- === /[inner-contents-area] === -->
+
+
+                <!-- === [local-navi] === -->
+                <div class="local-navi-area">
+                    <div class="local-navi-area">
+
+
+
+<div class="local-naviA01">
+<h2 class="heading-link">
+<a href="../../category/index.html" ><img src="../../../resources/images/icon_right_b.gif" width="3" height="9" alt="" class="iconA01" />Product Category</a>
+</h2>
+<ul><li><a href="../../category/automation-systems/index-2.html"><img src="../../../resources/images/icon_right_b.gif" width="3" height="9" alt="" class="iconA01" />Automation Systems</a><ul class="list-indent01"><li><a href="../../category/automation-systems/machine-automation-controllers/index-2.html"><img src="../../../resources/images/icon_right_b.gif" width="3" height="9" alt="" class="iconA01" />Machine Automation Controllers</a><ul class="list-indent02"><li><a href="../../category/automation-systems/machine-automation-controllers/ethercat-slave-terminals-nx-series/index.html"><img src="../../../resources/images/icon_right_b.gif" width="3" height="9" alt="" class="iconA01" />EtherCAT Slave Terminals NX-Series</a><ul class="list-indent03"><li><a href="../../category/automation-systems/machine-automation-controllers/ethercat-slave-terminals-nx-series/analog-input_output-unit/index.html"><img src="../../../resources/images/icon_right_b.gif" width="3" height="9" alt="" class="iconA01" />Analog Input / Output Unit</a><ul class="list-indent04"><li class="stay"><span>NX-AD</span></li><li><a href="../3188/index.html"><img src="../../../resources/images/icon_right_b.gif" width="3" height="9" alt="" class="iconA01" />NX-DA</a></li></ul></li></ul></li></ul></li></ul></li></ul>
+<!-- /local-naviA01 -->
+</div>
+
+
+
+<div class="local-naviB01">
+<ul class="heading-link">
+
+<li class="first-child">
+<a href="../../category/index.html"><img src="../../../resources/images/icon_right_b.gif" width="3" height="9" alt="" class="iconA01" />Product Category</a>
+</li>
+
+<li>
+<a href="../../../product/cautions/index-2.html"><img src="../../../resources/images/icon_right_b.gif" width="3" height="9" alt="" class="iconA01" />Cautions</a>
+</li>
+
+<li>
+<a href="../../index/index.html"><img src="../../../resources/images/icon_right_b.gif" width="3" height="9" alt="" class="iconA01" />Item A to Z Index</a>
+</li>
+
+<li>
+<a href="../../applications/index.html"><img src="../../../resources/images/icon_right_b.gif" width="3" height="9" alt="" class="iconA01" />Applications</a>
+</li>
+
+<li>
+<a href="../../correct/index.html"><img src="../../../resources/images/icon_right_b.gif" width="3" height="9" alt="" class="iconA01" />Correction Notice</a>
+</li>
+
+</ul>
+<!-- /local-naviB01 -->
+</div>
+                    </div>
+                </div>
+                <!-- === /[local-navi] === -->
+
+            </div>
+            <!-- === /[contents-area] === -->
+
+            <!-- === [top-page-link-area] === -->
+            <div class="top-page-link-area">
+                <ul class="top-page-link-list">
+                    <li>
+                        <a href="#page-top"><img src="../../../resources/images/icon_up_b.gif" width="5" height="8" alt="" class="iconB01" />Top of Page</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- === /[top-page-link-area] === -->
+
+            <!-- === [footer-area] === -->
+
+
+<!-- === [footer-area] === -->
+<div class="footer-area">
+    <p class="non-visual">
+        <a name="footer" id="footer">Site Information</a>
+    </p>
+  
+    <div class="footer-link">
+     
+
+        <p class="copyright">© Copyright Kyoto Engineering &amp; Automation Ltd. All Rights Reserved.</p>
+    <!-- /.footer-link -->
+    </div>
+<!-- /.footer-area -->
+</div>
+<!-- === /[footer-area] === -->
+            <!-- === /[footer-area] === -->
+        </div>
+        <!-- === /[omron-ia] === -->
+    </body>
+
+<!-- Mirrored from www.ia.omron.com/products/family/3187/specification.html by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 16 Dec 2016 06:24:12 GMT -->
+</html>

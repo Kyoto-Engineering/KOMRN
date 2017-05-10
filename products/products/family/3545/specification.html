@@ -1,0 +1,964 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<html xml:lang="en" lang="en" xmlns="http://www.w3.org/1999/xhtml">
+    
+<!-- Mirrored from www.ia.omron.com/products/family/3545/specification.html by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 15 Dec 2016 15:29:07 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=utf-8" /><!-- /Added by HTTrack -->
+<head><link rel="stylesheet" type="text/css" media="all" href="../../../css/index.css"/>
+<link rel="stylesheet" type="text/css" media="all" href="../../../css/top.css"/>
+
+        <meta http-equiv="Content-Language" content="en" />
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <meta http-equiv="Content-Style-Type" content="text/css" />
+        <meta http-equiv="Content-Script-Type" content="text/javascript" />
+        <title>
+            CK3E Programmable Multi-Axis Controller/Specifications | Omron by Kyoto engineering &amp; Automation
+        </title>
+        <meta name="keywords" content="Automation Systems,Multi-Axis Controller,CK3E" />
+        <meta name="description" content="Programmable Multi-Axis Controller A controller with a width of only 28.6 mm provides complete control" />
+        
+
+<link rel="alternate" href="../../../index.php" hreflang="en" />
+<link rel="stylesheet" type="text/css" media="all" href="../../../resources/css/common22f8.css?201611151200" />
+<link rel="stylesheet" type="text/css" media="all" href="../../../resources/css/global/common22f8.css?201611151200" />
+<link rel="stylesheet" type="text/css" media="all" href="../../../resources/css/frame_utility_tridion22f8.css?201611151200" />
+<link rel="stylesheet" type="text/css" media="print" href="../../../resources/css/print22f8.css?201611151200" />
+<script type="text/javascript" src="../../../resources/js/jquery22f8.js?201611151200"></script>
+<script type="text/javascript" src="../../../resources/js/function22f8.js?201611151200"></script>
+<script type="text/javascript" src="../../../resources/js/country_website22f8.js?201611151200"></script>
+<script type="text/javascript" src="../../../resources/js/global/ga22f8.js?201611151200"></script>
+<link rel="stylesheet" type="text/css" media="all" href="../../../resources/css/jquery-ui22f8.css?201611151200" charset='UTF-8'/>
+<link rel="stylesheet" type="text/css" media="all" href="../../../resources/css/jquery.multiselect22f8.css?201611151200" charset='UTF-8'/>
+<script type="text/javascript" language="JavaScript" src="../../../common/js/marketing_tag22f8.js?201611151200"></script>
+<script type="text/javascript" src="../../../resources/js/jquery-ui.min22f8.js?201611151200" charset='UTF-8'></script>
+<script type="text/javascript" src="../../../resources/js/jquery.ex-table-filter22f8.js?201611151200" charset='UTF-8'></script>
+<script type="text/javascript" src="../../../resources/js/jquery.tablesorter.min22f8.js?201611151200" charset='UTF-8'></script>
+<script type="text/javascript" src="../../../resources/js/filter22f8.js?201611151200" charset='UTF-8'></script>
+<link rel="shortcut icon" href="../../../resources/images/favicon.ico" type="image/x-icon" />
+
+        <link rel="stylesheet" type="text/css" media="all" href="../../../resources/css/tablesorter6c9b.css?201611150900" />
+        <script type="text/javascript" src="../../../resources/js/global/products6c9b.js?201611150900" charset='UTF-8'></script>
+
+    </head>
+    <body id="www-ia-omron-com" class="layoutC03 automation-systems">
+
+        <!-- === [omron-ia] === -->
+        <div class="omron-ia">
+            <p class="non-visual">
+                <a name="page-top" id="page-top">
+                    Page top
+                </a>
+            </p>
+
+
+
+
+<div class="header-area">
+     <div class="site-identity">
+          <div class="site-logo">
+               <a href="../../../index.php"><img src="../../../images/logo_01_b13-260967.gif"  width="129" height="24" alt="OMRON" /></a>
+          </div>
+          <!-- /.site-identity -->
+     </div>
+   <div class="utilities">
+		<div class="country-select-area">
+			<p class="canpany">Building Automation</p>
+                        <?php echo '&nbsp' ; ?>
+                        <br/>
+                        <p class="canpany">Industrial Automation</p>
+                        <?php echo '&nbsp' ; ?>
+                        <br/>
+                        <p class="canpany">Power Automation &amp; Safety </p>
+			
+		</div>
+            
+            <div class="japani">
+                <img  src="../../../shared/img/Japani Technology mnemonic.png" width="90" height="50" alt=""/>
+            </div>
+          
+            
+            
+            <div class="flag">
+            <img src="../../../shared/img/Bangladesh-Flag_1.png" alt=""/>
+            </div>
+            <div class="kyoto">
+                <p><b>Bangladesh Distributor</b></p>
+                <img style="margin-left:-5px;"  src="../../../shared/img/Kyoto-logo-Png.png" alt=""/>
+            </div>
+	<!-- /.utilities --> </div>
+</div>
+<div class="global-navi-area">
+<ul>
+<li class="home stay"><a href="../../../index.php">Home</a></li>
+<li class="product"><a href="../../../products/index.html">Products</a></li>
+<li class="corporate-profile"><a href="../../../view/contact/input.php">Contact Us</a></li>
+<li class="function-area"><div class="search"><form action="https://omron.keal.com.bd/sphider/search.php" method="get">       
+<input type="text" name="query" id="query" size="40" value="" />
+      <input type="submit" value="Search" /> <input type="hidden"
+      name="search" value="1" />
+    </form>
+</div>
+</li>
+</ul>
+</div> 
+<div class="bread-crumb-area">
+<ul>
+
+
+<li><a href="../../../index.php" >Home</a><span class="separator">&gt;</span></li>
+
+<li><a href="../../index-2.html" >Products</a><span class="separator">&gt;</span></li>
+
+<li><a href="../../category/index.html" >Product Category</a><span class="separator">&gt;</span></li>
+
+<li><a href="../../category/automation-systems/index-2.html" >Automation Systems</a><span class="separator">&gt;</span></li>
+
+<li><a href="../../category/automation-systems/multi-axis-controller/index.html" >Multi-Axis Controller</a><span class="separator">&gt;</span></li>
+
+<li><strong>CK3E</strong></li>
+
+
+</ul>
+</div>
+
+            <!-- === [contents-area] === -->
+            <div class="contents-area">
+
+                <!-- === [inner-contents-area] === -->
+                <div class="inner-contents-area">
+                    <!-- === [upper-contents-area] === -->
+                    <div class="upper-contents-area">
+                        <!-- === [lead-area] === -->
+                        <div class="lead-area">
+
+
+
+
+<!-- --------------------------------------------------------------------Product Family Start--------------------------------------------------------- -->
+<div class="heading-h1">
+
+
+    <h1>
+        CK3E
+    </h1>
+    <p class="sub-title">
+        Programmable Multi-Axis Controller
+    </p>
+</div>
+<div class="image-blockA01">
+    <div class="image-left">
+        <p class="image">
+
+            <img src="../../../images/l_3545-13-266252-198x198.jpg" width="198" height="198" alt="CK3E" class="nopic" />
+
+
+        </p>
+    </div>
+    <div class="description">
+        <h2 class="heading-B02">
+            A controller with a width of only 28.6 mm provides complete control
+        </h2>
+        
+
+        <div class="textA01">
+            <p class="caption-red">
+                Contact your OMRON representative for details.
+            </p>
+        </div>
+
+
+
+
+        <div class="item-list-link">
+            <p>
+                <a href="itemlist/index.html">
+                    <img src="../../../resources/images/icon_right_b.gif" width="3" height="9" alt="" class="iconA01" />
+                    Item list of CK3E
+                </a>
+            </p>
+        </div>
+    </div>
+<!-- /.image-blockA01 -->
+</div>
+
+
+
+                        </div>
+                        <!-- === /[lead-area] === -->
+
+
+                        <!-- === [utility-area] === -->
+                        <div class="utility-area">                         
+                       
+                            <div class="action-block">
+                                <p>
+                                    about this Product Family
+                                </p>
+                                <ul>
+                                    <li class="first-child">
+                                        <a href="../../../view/contact/input.php">
+                                            Inquiry of this Product
+                                        </a>
+                                    </li>                                 
+                                </ul>
+                            </div>
+
+
+
+
+<div class="related-info-blockA01 vertical-slide">
+
+    <p>
+        <span>Related Contents</span>
+    </p>
+
+
+    
+        <ul>
+            <li class="first-child">
+                <span>Automation Systems</span>
+            </li>
+            <li>
+                <ul class="list-indent01">
+
+
+                    <li class="first-child">
+
+
+                        <a href="../../applications/category/automation-systems/index.html">
+                            <img src="../../../resources/images/icon_right_b.gif" width="3" height="9" alt="" class="iconA01" />
+                            Applications 
+                        </a>
+                    </li>
+
+
+
+                    <li>
+
+                        <a href="../../../support/glossary/automation-systems/index.html">
+                            <img src="../../../resources/images/icon_right_b.gif" width="3" height="9" alt="" class="iconA01" />
+                            Glossary of Industrial Automation 
+                        </a>
+                    </li>
+
+                </ul>
+            </li>
+        </ul>
+
+        <ul>
+            <li class="first-child">
+                <span>Multi-Axis Controller</span>
+            </li>
+            <li>
+                <ul class="list-indent01">
+
+
+                    <li class="first-child">
+
+
+                        <a href="../../index/automation-systems/multi-axis-controller/index.html">
+                            <img src="../../../resources/images/icon_right_b.gif" width="3" height="9" alt="" class="iconA01" />
+                            Item A to Z Index 
+                        </a>
+                    </li>
+
+                </ul>
+            </li>
+        </ul>
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- /.related-info-blockA01 -->
+</div>
+
+
+
+                           
+                        </div>
+                        <!-- === /[utility-area] === -->
+
+                    </div>
+                    <!-- === /[upper-contents-area] === -->
+
+                    <!-- === [primary-contents-area] === -->
+                    <div class="primary-contents-area">
+                        <div class="tabpanel-blockA01">
+
+
+
+
+
+
+<div class="tab-block">
+    <ul class="tabs">
+
+
+
+
+
+
+
+        <li>
+            <a href="feature.html">Features</a>
+
+        </li>
+
+
+
+
+
+
+
+
+        <li>
+            <a href="lineup.html">Lineup</a>
+
+        </li>
+
+
+
+
+
+
+
+
+        <li class="active">
+            <span>Specifications</span>
+
+        </li>
+
+
+
+
+
+
+
+
+        <li>
+            <a href="dimension.html">Dimensions</a>
+
+        </li>
+
+
+
+
+
+
+        <li>
+            <a href="download/catalog.html">Catalog</a>
+
+        </li>
+
+
+
+
+
+    </ul>
+</div><!-- /.tab-block -->
+
+<div class="editable-block">
+
+
+<p class="date-line">last update: August 01, 2016</p>
+
+
+
+
+
+
+
+
+
+<h4 class="heading-A02">General Specifications</h4>
+
+
+
+
+
+
+
+
+
+
+<div class="component-blockA01">
+
+
+
+
+
+    <div class="text">
+        <p>
+            
+          <div class="table-blockA01">
+							<table cellspacing="0" border="0" class="tableA01">
+								<tr class="first-child">
+									<th colspan="2" rowspan="2" class="heading center middle"><strong>Item</strong></th>
+									<th colspan="3" rowspan="1" class="heading center middle"><strong>Specification</strong></th>
+								</tr>
+								<tr>
+									<th class="heading center middle"><strong>CK3E-1210</strong></th>
+									<th class="heading center middle"><strong>CK3E-1310</strong></th>
+									<th class="heading center middle"><strong>CK3E-1410</strong></th>
+								</tr>
+								<tr>
+									<th colspan="2" rowspan="1" class="heading left middle"><strong>Enclosure</strong></th>
+									<td colspan="3" rowspan="1" class="left middle">Mounted in a panel</td>
+								</tr>
+								<tr>
+									<th colspan="2" rowspan="1" class="heading left middle"><strong>Grounding method</strong></th>
+									<td colspan="3" rowspan="1" class="left middle">Ground to 100 Ω or less</td>
+								</tr>
+								<tr>
+									<th colspan="2" rowspan="1" class="heading left middle"><strong>Dimensions (height × width × depth)</strong></th>
+									<td colspan="3" rowspan="1" class="left middle">130.4(H) × 28.6(D) × 170.9(W) mm</td>
+								</tr>
+								<tr>
+									<th colspan="2" rowspan="1" class="heading left middle"><strong>Weight</strong></th>
+									<td colspan="3" rowspan="1" class="left middle">540 g or less</td>
+								</tr>
+								<tr>
+									<th colspan="2" rowspan="1" class="heading left middle"><strong>Unit power supply rated voltage</strong></th>
+									<td colspan="3" rowspan="1" class="left middle">24 VDC (20.4 to 26.4 VDC)</td>
+								</tr>
+								<tr>
+									<th colspan="2" rowspan="1" class="heading left middle"><strong>Unit power supply current consumption</strong></th>
+									<td colspan="3" rowspan="1" class="left middle">660 mA or less</td>
+								</tr>
+								<tr>
+									<th colspan="1" rowspan="6" class="heading left middle"><strong>Operating
+<br />
+environment</strong></th>
+									<th class="heading left middle"><strong>Ambient operating temperature</strong></th>
+									<td colspan="3" rowspan="1" class="left middle">0 to 45°C</td>
+								</tr>
+								<tr>
+									<th class="heading left middle"><strong>Ambient operating humidity</strong></th>
+									<td colspan="3" rowspan="1" class="left middle">10 to 95% RH (without condensation and icing)</td>
+								</tr>
+								<tr>
+									<th class="heading left middle"><strong>Atmosphere</strong></th>
+									<td colspan="3" rowspan="1" class="left middle">Must be free from corrosive gases.</td>
+								</tr>
+								<tr>
+									<th class="heading left middle"><strong>Ambient storage temperature</strong></th>
+									<td colspan="3" rowspan="1" class="left middle">-25 to +70°C (without condensation and icing)</td>
+								</tr>
+								<tr>
+									<th class="heading left middle"><strong>Vibration resistance</strong></th>
+									<td colspan="3" rowspan="1" class="left middle">Conforms to IEC 60068-2-6.
+<br />
+5 to 8.4 Hz with amplitude of 3.5 mm, 8.4 to 150 Hz, acceleration
+<br />
+of 9.8 m/s<sup>2</sup>
+										<br />
+100 min each in X, Y, and Z directions (10 sweeps of 10 min each
+<br />
+= 100 min total)</td>
+								</tr>
+								<tr>
+									<th class="heading left middle"><strong>Shock resistance</strong></th>
+									<td colspan="3" rowspan="1" class="left middle">Conforms to IEC 60068-2-27, 147 m/s<sup>2</sup>, 3 times each in X, Y, and
+<br />
+Z directions</td>
+								</tr>
+								<tr>
+									<th colspan="2" rowspan="1" class="heading left middle"><strong>Applicable standards *</strong></th>
+									<td colspan="3" rowspan="1" class="left middle">EU: EN 61326, RCM</td>
+								</tr>
+							</table>
+						</div>
+        
+        </p>
+    </div>
+
+
+
+
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="component-blockA01">
+
+
+
+
+
+    <div class="text">
+        <p>
+            * For the latest applicable standards for each model, contact your OMRON representative.
+        </p>
+    </div>
+
+
+
+
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<h4 class="heading-A02">Performance/Function Specifications</h4>
+
+
+
+
+
+
+
+
+
+
+<div class="component-blockA01">
+
+
+
+
+
+    <div class="text">
+        <p>
+            
+          <div class="table-blockA01">
+							<table cellspacing="0" border="0" class="tableA01">
+								<tr class="first-child">
+									<th colspan="2" rowspan="2" class="heading center middle"><strong>Item</strong></th>
+									<th colspan="3" rowspan="1" class="heading center middle"><strong>Specification</strong></th>
+								</tr>
+								<tr>
+									<th class="heading center middle"><strong>CK3E-1210</strong></th>
+									<th class="heading center middle"><strong>CK3E-1310</strong></th>
+									<th class="heading center middle"><strong>CK3E-1410</strong></th>
+								</tr>
+								<tr>
+									<th colspan="2" rowspan="1" class="heading left middle"><strong>Memory</strong></th>
+									<td colspan="3" rowspan="1" class="left middle">Main memory: 1 GB
+<br />
+Flash memory: 1 GB</td>
+								</tr>
+								<tr>
+									<th colspan="2" rowspan="3" class="heading left middle"><strong>External terminals</strong></th>
+									<td colspan="3" rowspan="1" class="left middle">Communications Connector
+<br />
+For EtherCAT communications.
+<br />
+• RJ45 × 1 (Shield supported)
+<br />
+For Ethernet communications.
+<br />
+• RJ45 × 1 (Shield supported)</td>
+								</tr>
+								<tr>
+									<td colspan="3" rowspan="1" class="left middle">Power supply input terminal
+<br />
+For Unit power supply × 1</td>
+								</tr>
+								<tr>
+									<td colspan="3" rowspan="1" class="left middle">USB port
+<br />
+For external memory connection, USB 3.0 host × 1 Type A</td>
+								</tr>
+								<tr>
+									<th colspan="1" rowspan="3" class="heading left middle"><strong>Motion
+<br />
+control</strong></th>
+									<th class="heading left middle"><strong>Maximum Number of
+<br />
+Controlled Axes</strong></th>
+									<td class="left middle">8 axes</td>
+									<td class="left middle">16 axes</td>
+									<td class="left middle">32 axes</td>
+								</tr>
+								<tr>
+									<th class="heading left middle"><strong>Motion control period</strong></th>
+									<td colspan="3" rowspan="1" class="left middle">250 μs or more</td>
+								</tr>
+								<tr>
+									<th class="heading left middle"><strong>Control method</strong></th>
+									<td colspan="3" rowspan="1" class="left middle">Issuing control commands using EtherCAT communications</td>
+								</tr>
+								<tr>
+									<th colspan="1" rowspan="8" class="heading left middle"><strong>EtherCAT
+<br />
+commu-
+<br />
+nications
+<br />
+specifi-
+<br />
+cations</strong></th>
+									<th class="heading left middle"><strong>Communications protocol</strong></th>
+									<td colspan="3" rowspan="1" class="left middle">EtherCAT protocol</td>
+								</tr>
+								<tr>
+									<th class="heading left middle"><strong>Baud rate</strong></th>
+									<td colspan="3" rowspan="1" class="left middle">100 Mbps</td>
+								</tr>
+								<tr>
+									<th class="heading left middle"><strong>Physical layer</strong></th>
+									<td colspan="3" rowspan="1" class="left middle">100BASE-TX (IEEE 802.3)</td>
+								</tr>
+								<tr>
+									<th class="heading left middle"><strong>Topology</strong></th>
+									<td colspan="3" rowspan="1" class="left middle">Line, daisy chain, and branching</td>
+								</tr>
+								<tr>
+									<th class="heading left middle"><strong>Transmission media</strong></th>
+									<td colspan="3" rowspan="1" class="left middle">Twisted-pair cable of category 5 or higher (double-shielded cable with
+<br />
+aluminum tape and braiding)</td>
+								</tr>
+								<tr>
+									<th class="heading left middle"><strong>Transmission distance</strong></th>
+									<td colspan="3" rowspan="1" class="left middle">Distance between nodes: 100 m or less</td>
+								</tr>
+								<tr>
+									<th class="heading left middle"><strong>Maximum number of slaves</strong></th>
+									<td colspan="3" rowspan="1" class="left middle">32</td>
+								</tr>
+								<tr>
+									<th class="heading left middle"><strong>Range of node addresses that
+<br />
+can be set</strong></th>
+									<td colspan="3" rowspan="1" class="left middle">1 to 32</td>
+								</tr>
+								<tr>
+									<th colspan="1" rowspan="8" class="heading left middle"><strong>Ethernet
+<br />
+Port</strong></th>
+									<th class="heading left middle"><strong>Physical Layer</strong></th>
+									<td colspan="3" rowspan="1" class="left middle">1000BASE-T/100BASE-TX</td>
+								</tr>
+								<tr>
+									<th class="heading left middle"><strong>Frame length</strong></th>
+									<td colspan="3" rowspan="1" class="left middle">1,514 bytes max.</td>
+								</tr>
+								<tr>
+									<th class="heading left middle"><strong>Media access method</strong></th>
+									<td colspan="3" rowspan="1" class="left middle">CSMA/CD</td>
+								</tr>
+								<tr>
+									<th class="heading left middle"><strong>Modulation</strong></th>
+									<td colspan="3" rowspan="1" class="left middle">Baseband</td>
+								</tr>
+								<tr>
+									<th class="heading left middle"><strong>Topology</strong></th>
+									<td colspan="3" rowspan="1" class="left middle">Star</td>
+								</tr>
+								<tr>
+									<th class="heading left middle"><strong>Transmission Media</strong></th>
+									<td colspan="3" rowspan="1" class="left middle">Twisted-pair cable of category 5, 5e, or higher (shielded cable)</td>
+								</tr>
+								<tr>
+									<th class="heading left middle"><strong>Maximum Transmission
+<br />
+Distance between Ethernet
+<br />
+Switch and Node</strong></th>
+									<td colspan="3" rowspan="1" class="left middle">100 m</td>
+								</tr>
+								<tr>
+									<th class="heading left middle"><strong>Maximum number of cascade
+<br />
+connections</strong></th>
+									<td colspan="3" rowspan="1" class="left middle">There are no restrictions if an Ethernet switch is used.</td>
+								</tr>
+								<tr>
+									<th colspan="1" rowspan="2" class="heading left middle"><strong>USB port</strong></th>
+									<th class="heading left middle"><strong>Physical layer</strong></th>
+									<td colspan="3" rowspan="1" class="left middle">USB 3.0-compliant A-type connector, Output voltage 5 V, 0.9 A max.</td>
+								</tr>
+								<tr>
+									<th class="heading left middle"><strong>Transmission distance</strong></th>
+									<td colspan="3" rowspan="1" class="left middle">3 m max.</td>
+								</tr>
+							</table>
+						</div>
+        
+        </p>
+    </div>
+
+
+
+
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<h4 class="heading-A02">Restrictions on using the OMRON NX-Series Ethercat Coupler Unit</h4>
+
+
+
+
+
+
+
+
+
+
+<div class="component-blockA01">
+
+
+
+
+
+    <div class="text">
+        <p>
+            When OMRON NX-series EtherCAT Coupler Units are used as slaves of the Programmable Multi-Axis Controller as the EtherCAT master, the following models and unit versions of EtherCAT Coupler Units can be connected.
+        </p>
+    </div>
+
+
+
+
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="component-blockA01">
+
+
+
+
+
+    <div class="text">
+        <p>
+            
+          <div class="table-blockA01">
+							<table cellspacing="0" border="0" class="tableA01">
+								<tr class="first-child">
+									<th class="heading center middle"><strong>Model</strong></th>
+									<th class="heading center middle"><strong>Unit version</strong></th>
+									<th class="heading center middle"><strong>Connectable/Unconnectable</strong></th>
+								</tr>
+								<tr>
+									<td colspan="1" rowspan="2" class="left middle">NX-ECC203</td>
+									<td class="left middle">Ver. 1.4 or later</td>
+									<td class="left middle">Connectable</td>
+								</tr>
+								<tr>
+									<td class="left middle">Ver. 1.3 or earlier</td>
+									<td colspan="1" rowspan="3" class="left middle">Unconnectable</td>
+								</tr>
+								<tr>
+									<td class="left middle">NX-ECC202</td>
+									<td class="left middle">All versions</td>
+								</tr>
+								<tr>
+									<td class="left middle">NX-ECC201</td>
+									<td class="left middle">All versions</td>
+								</tr>
+							</table>
+						</div>
+        
+        </p>
+    </div>
+
+
+
+
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<p class="date-line">last update: August 01, 2016</p>
+
+</div>
+
+                        </div>
+                    </div>
+	            <!-- === /[primary-contents-area] === -->
+                </div>
+                <!-- === /[inner-contents-area] === -->
+
+
+                <!-- === [local-navi] === -->
+                <div class="local-navi-area">
+                    <div class="local-navi-area">
+
+
+
+<div class="local-naviA01">
+<h2 class="heading-link">
+<a href="../../category/index.html" ><img src="../../../resources/images/icon_right_b.gif" width="3" height="9" alt="" class="iconA01" />Product Category</a>
+</h2>
+<ul><li><a href="../../category/automation-systems/index-2.html"><img src="../../../resources/images/icon_right_b.gif" width="3" height="9" alt="" class="iconA01" />Automation Systems</a><ul class="list-indent01"><li><a href="../../category/automation-systems/multi-axis-controller/index.html"><img src="../../../resources/images/icon_right_b.gif" width="3" height="9" alt="" class="iconA01" />Multi-Axis Controller</a><ul class="list-indent02"><li class="stay"><span>CK3E</span></li><li><a href="../3632/index.html"><img src="../../../resources/images/icon_right_b.gif" width="3" height="9" alt="" class="iconA01" />NY51[]-A</a></li></ul></li></ul></li></ul>
+<!-- /local-naviA01 -->
+</div>
+
+
+
+<div class="local-naviB01">
+<ul class="heading-link">
+
+<li class="first-child">
+<a href="../../category/index.html"><img src="../../../resources/images/icon_right_b.gif" width="3" height="9" alt="" class="iconA01" />Product Category</a>
+</li>
+
+<li>
+<a href="../../../product/cautions/index-2.html"><img src="../../../resources/images/icon_right_b.gif" width="3" height="9" alt="" class="iconA01" />Cautions</a>
+</li>
+
+<li>
+<a href="../../index/index.html"><img src="../../../resources/images/icon_right_b.gif" width="3" height="9" alt="" class="iconA01" />Item A to Z Index</a>
+</li>
+
+<li>
+<a href="../../applications/index.html"><img src="../../../resources/images/icon_right_b.gif" width="3" height="9" alt="" class="iconA01" />Applications</a>
+</li>
+
+<li>
+<a href="../../correct/index.html"><img src="../../../resources/images/icon_right_b.gif" width="3" height="9" alt="" class="iconA01" />Correction Notice</a>
+</li>
+
+</ul>
+<!-- /local-naviB01 -->
+</div>
+                    </div>
+                </div>
+                <!-- === /[local-navi] === -->
+
+            </div>
+            <!-- === /[contents-area] === -->
+
+            <!-- === [top-page-link-area] === -->
+            <div class="top-page-link-area">
+                <ul class="top-page-link-list">
+                    <li>
+                        <a href="#page-top"><img src="../../../resources/images/icon_up_b.gif" width="5" height="8" alt="" class="iconB01" />Top of Page</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- === /[top-page-link-area] === -->
+
+            <!-- === [footer-area] === -->
+
+
+<!-- === [footer-area] === -->
+<div class="footer-area">
+    <p class="non-visual">
+        <a name="footer" id="footer">Site Information</a>
+    </p>
+   
+    <div class="footer-link">
+      
+        <p class="copyright">© Copyright Kyoto Engineering &amp; Automation Ltd. All Rights Reserved.</p>
+    <!-- /.footer-link -->
+    </div>
+<!-- /.footer-area -->
+</div>
+<!-- === /[footer-area] === -->
+            <!-- === /[footer-area] === -->
+        </div>
+        <!-- === /[omron-ia] === -->
+    </body>
+
+<!-- Mirrored from www.ia.omron.com/products/family/3545/specification.html by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 15 Dec 2016 15:29:07 GMT -->
+</html>

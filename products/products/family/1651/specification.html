@@ -1,0 +1,2015 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<html xml:lang="en" lang="en" xmlns="http://www.w3.org/1999/xhtml">
+    
+<!-- Mirrored from www.ia.omron.com/products/family/1651/specification.html by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 16 Dec 2016 07:10:58 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=utf-8" /><!-- /Added by HTTrack -->
+<head>
+        <meta http-equiv="Content-Language" content="en" />
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <meta http-equiv="Content-Style-Type" content="text/css" />
+        <meta http-equiv="Content-Script-Type" content="text/javascript" />
+        <title>
+            CJ1W-SCU CJ-series Serial Communications Units/Specifications | OMRON By Kyoto Engineering &amp; Automation
+        </title>
+        <meta name="keywords" content="Automation Systems,Programmable Controllers,CJ1,CPU Bus Units,CJ1W-SCU" />
+        <meta name="description" content="CJ-series Serial Communications Units The Serial Communications Units That Enable High-speed Connections with External Devices. This unit is available for CJ/NJ controller." />
+        
+
+<link rel="alternate" href="../../../index.html" hreflang="en" />
+<link rel="stylesheet" type="text/css" media="all" href="../../../resources/css/common22f8.css?201611151200" />
+<link rel="stylesheet" type="text/css" media="all" href="../../../resources/css/global/common22f8.css?201611151200" />
+<link rel="stylesheet" type="text/css" media="all" href="../../../resources/css/frame_utility_tridion22f8.css?201611151200" />
+<link rel="stylesheet" type="text/css" media="print" href="../../../resources/css/print22f8.css?201611151200" />
+<script type="text/javascript" src="../../../resources/js/jquery22f8.js?201611151200"></script>
+<script type="text/javascript" src="../../../resources/js/function22f8.js?201611151200"></script>
+<script type="text/javascript" src="../../../resources/js/country_website22f8.js?201611151200"></script>
+<script type="text/javascript" src="../../../resources/js/global/ga22f8.js?201611151200"></script>
+<link rel="stylesheet" type="text/css" media="all" href="../../../resources/css/jquery-ui22f8.css?201611151200" charset='UTF-8'/>
+<link rel="stylesheet" type="text/css" media="all" href="../../../resources/css/jquery.multiselect22f8.css?201611151200" charset='UTF-8'/>
+<script type="text/javascript" language="JavaScript" src="../../../common/js/marketing_tag22f8.js?201611151200"></script>
+<script type="text/javascript" src="../../../resources/js/jquery-ui.min22f8.js?201611151200" charset='UTF-8'></script>
+<script type="text/javascript" src="../../../resources/js/jquery.ex-table-filter22f8.js?201611151200" charset='UTF-8'></script>
+<script type="text/javascript" src="../../../resources/js/jquery.tablesorter.min22f8.js?201611151200" charset='UTF-8'></script>
+<script type="text/javascript" src="../../../resources/js/filter22f8.js?201611151200" charset='UTF-8'></script>
+<link rel="shortcut icon" href="../../../resources/images/favicon.ico" type="image/x-icon" />
+<link rel="stylesheet" type="text/css" media="all" href="../../../css/index.css"/>
+<link rel="stylesheet" type="text/css" media="all" href="../../../css/top.css"/>
+
+        <link rel="stylesheet" type="text/css" media="all" href="../../../resources/css/tablesorter6c9b.css?201611150900" />
+        <script type="text/javascript" src="../../../resources/js/global/products6c9b.js?201611150900" charset='UTF-8'></script>
+
+    </head>
+    <body id="www-ia-omron-com" class="layoutC03 automation-systems">
+
+        <!-- === [omron-ia] === -->
+        <div class="omron-ia">
+            <p class="non-visual">
+                <a name="page-top" id="page-top">
+                    Page top
+                </a>
+            </p>
+
+
+
+
+<div class="header-area">
+     <div class="site-identity">
+          <div class="site-logo">
+               <a href="../../../index.php"><img src="../../../images/logo_01_b13-260967.gif"  width="129" height="24" alt="OMRON" /></a>
+          </div>
+          <!-- /.site-identity -->
+     </div>
+      <div class="utilities">
+		<div class="country-select-area">
+			<p class="canpany">Building Automation</p>
+                        <?php echo '&nbsp' ; ?>
+                        <br/>
+                        <p class="canpany">Industrial Automation</p>
+                        <?php echo '&nbsp' ; ?>
+                        <br/>
+                        <p class="canpany">Power Automation &amp; Safety </p>
+			
+		</div>
+            
+            <div class="japani">
+                <img  src="../../../shared/img/Japani Technology mnemonic.png" width="90" height="50" alt=""/>
+            </div>
+          
+            
+            
+            <div class="flag">
+            <img src="../../../shared/img/Bangladesh-Flag_1.png" alt=""/>
+            </div>
+            <div class="kyoto">
+                <p><b>Bangladesh Distributor</b></p>
+                <img style="margin-left:-5px;"  src="../../../shared/img/Kyoto-logo-Png.png" alt=""/>
+            </div>
+	<!-- /.utilities --> </div>
+<!-- /.header-area --></div>
+
+
+<div class="global-navi-area">
+<ul>
+<li class="home stay"><a href="../../../index.php">Home</a></li>
+<li class="product"><a href="../../../products/index.html">Products</a></li>
+<li class="corporate-profile"><a href="../../../view/contact/input.php">Contact Us</a></li>
+<li class="function-area"><div class="search"><form action="https://omron.keal.com.bd/sphider/search.php" method="get">       
+<input type="text" name="query" id="query" size="40" value="" />
+      <input type="submit" value="Search" /> <input type="hidden"
+      name="search" value="1" />
+    </form>
+</div>
+</li>
+</ul>
+</div> 
+<div class="bread-crumb-area">
+<ul>
+
+
+<li><a href="../../../index.php" >Home</a><span class="separator">&gt;</span></li>
+
+<li><a href="../../index-2.html" >Products</a><span class="separator">&gt;</span></li>
+
+<li><a href="../../category/index.html" >Product Category</a><span class="separator">&gt;</span></li>
+
+<li><a href="../../category/automation-systems/index-2.html" >Automation Systems</a><span class="separator">&gt;</span></li>
+
+<li><a href="../../category/automation-systems/programmable-controllers/index-2.html" >Programmable Controllers</a><span class="separator">&gt;</span></li>
+
+<li><a href="../../category/automation-systems/programmable-controllers/cj1/index.html" >CJ1</a><span class="separator">&gt;</span></li>
+
+<li><a href="../../category/automation-systems/programmable-controllers/cj1/cpu-bus-units/index.html" >CPU Bus Units</a><span class="separator">&gt;</span></li>
+
+<li><strong>CJ1W-SCU</strong></li>
+
+
+</ul>
+</div>
+
+            <!-- === [contents-area] === -->
+            <div class="contents-area">
+
+                <!-- === [inner-contents-area] === -->
+                <div class="inner-contents-area">
+                    <!-- === [upper-contents-area] === -->
+                    <div class="upper-contents-area">
+                        <!-- === [lead-area] === -->
+                        <div class="lead-area">
+
+
+
+
+<!-- --------------------------------------------------------------------Product Family Start--------------------------------------------------------- -->
+<div class="heading-h1">
+
+
+    <h1>
+        CJ1W-SCU
+    </h1>
+    <p class="sub-title">
+        CJ-series Serial Communications Units
+    </p>
+</div>
+<div class="image-blockA01">
+    <div class="image-left">
+        <p class="image">
+
+            <img src="../../../images/l_1651-13-118587-198x198.jpg" width="198" height="198" alt="CJ1W-SCU" class="nopic" />
+
+
+        </p>
+    </div>
+    <div class="description">
+        <h2 class="heading-B02">
+            The Serial Communications Units That Enable High-speed Connections with External Devices. This unit is available for CJ/NJ controller.
+        </h2>
+        
+
+
+
+
+        <div class="item-list-link">
+            <p>
+                <a href="itemlist/index.html">
+                    <img src="../../../resources/images/icon_right_b.gif" width="3" height="9" alt="" class="iconA01" />
+                    Item list of CJ1W-SCU
+                </a>
+            </p>
+        </div>
+    </div>
+<!-- /.image-blockA01 -->
+</div>
+
+
+
+                        </div>
+                        <!-- === /[lead-area] === -->
+
+
+                        <!-- === [utility-area] === -->
+                        <div class="utility-area">                         
+                       
+                            <div class="action-block">
+                                <p>
+                                    about this Product Family
+                                </p>
+                                <ul>
+                                    <li class="first-child">
+                                        <a href="../../../view/contact/input.php">
+                                            Inquiry of this Product
+                                        </a>
+                                    </li>                                 
+                                </ul>
+                            </div>
+
+
+
+
+<div class="related-info-blockA01 vertical-slide">
+
+    <p>
+        <span>Related Contents</span>
+    </p>
+
+        <ul>
+            <li class="first-child">
+                <span>Automation Systems</span>
+            </li>
+            <li>
+                <ul class="list-indent01">
+
+
+                    <li class="first-child">
+
+
+                        <a href="../../applications/category/automation-systems/index.html">
+                            <img src="../../../resources/images/icon_right_b.gif" width="3" height="9" alt="" class="iconA01" />
+                            Applications 
+                        </a>
+                    </li>
+
+                </ul>
+            </li>
+        </ul>
+
+        <ul>
+            <li class="first-child">
+                <span>Programmable Controllers</span>
+            </li>
+            <li>
+                <ul class="list-indent01">
+
+
+                    <li class="first-child">
+
+
+                        <a href="../../index/automation-systems/programmable-controllers/index.html">
+                            <img src="../../../resources/images/icon_right_b.gif" width="3" height="9" alt="" class="iconA01" />
+                            Item A to Z Index 
+                        </a>
+                    </li>
+
+
+
+                    <li>
+
+                        <a href="../../../support/glossary/automation-systems/programmable-controllers/index.html">
+                            <img src="../../../resources/images/icon_right_b.gif" width="3" height="9" alt="" class="iconA01" />
+                            Glossary of Industrial Automation 
+                        </a>
+                    </li>
+
+                </ul>
+            </li>
+        </ul>
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- /.related-info-blockA01 -->
+</div>
+
+
+
+                           
+                        </div>
+                        <!-- === /[utility-area] === -->
+
+                    </div>
+                    <!-- === /[upper-contents-area] === -->
+
+                    <!-- === [primary-contents-area] === -->
+                    <div class="primary-contents-area">
+                        <div class="tabpanel-blockA01">
+
+
+
+
+
+
+<div class="tab-block">
+    <ul class="tabs">
+
+
+
+
+
+
+
+        <li>
+            <a href="feature.html">Features</a>
+
+        </li>
+
+
+
+
+
+
+
+
+        <li>
+            <a href="lineup.html">Lineup</a>
+
+        </li>
+
+
+
+
+
+
+
+
+        <li class="active">
+            <span>Specifications</span>
+
+        </li>
+
+
+
+
+
+
+
+
+        <li>
+            <a href="dimension.html">Dimensions</a>
+
+        </li>
+
+
+
+
+
+
+        <li>
+            <a href="download/catalog.html">Catalog</a>
+
+        </li>
+
+
+
+
+
+    </ul>
+</div><!-- /.tab-block -->
+
+<div class="editable-block">
+
+
+<p class="date-line">last update: September 24, 2012</p>
+
+
+
+
+
+
+
+
+
+
+
+<div class="component-blockA01">
+
+
+
+
+
+    <div class="text">
+        <p>
+            
+						<div class="table-blockA01">
+							<table border="0" cellspacing="0" class="tableA01">
+								<tr>
+									<TH colspan="2" rowspan="1" class="heading center middle">
+										<strong>Item</strong>
+									</TH>
+									<td colspan="6" rowspan="1" class="heading center middle">
+										<strong>Description</strong>
+									</td>
+								</tr>
+								<tr>
+									<TH colspan="2" rowspan="1" class="heading left middle">
+										<strong>Device name</strong>
+									</TH>
+									<td colspan="6" rowspan="1" class="left middle">Serial Communications Unit</td>
+								</tr>
+								<tr>
+									<TH colspan="2" rowspan="1" class="heading left middle">
+										<strong>Classification</strong>
+									</TH>
+									<td colspan="6" rowspan="1" class="left middle">CPU Bus Unit</td>
+								</tr>
+								<tr>
+									<TH colspan="2" rowspan="1" class="heading left middle">
+										<strong>Model number</strong>
+									</TH>
+									<td class="left middle">CJ1W-SCU22</td>
+									<td class="left middle">CJ1W-SCU32</td>
+									<td class="left middle">CJ1W-SCU42</td>
+									<td class="left middle">CJ1W-SCU21-V1</td>
+									<td class="left middle">CJ1W-SCU31-V1</td>
+									<td class="left middle">CJ1W-SCU41-V1</td>
+								</tr>
+								<tr>
+									<TH colspan="1" rowspan="2" class="heading left middle">
+										<strong>Serial<br />ports</strong>
+									</TH>
+									<td class="heading left middle">
+										<strong>Port 1</strong>
+									</td>
+									<td class="left middle">RS-232C</td>
+									<td class="left middle">RS-422A/485</td>
+									<td class="left middle">RS-422A/485</td>
+									<td class="left middle">RS-232C</td>
+									<td class="left middle">RS-422A/485</td>
+									<td class="left middle">RS-422A/485</td>
+								</tr>
+								<tr>
+									<TH class="heading left middle">
+										<strong>Port 2</strong>
+									</TH>
+									<td class="left middle">RS-232C</td>
+									<td class="left middle">RS-422A/485</td>
+									<td class="left middle">RS-232C</td>
+									<td class="left middle">RS-232C</td>
+									<td class="left middle">RS-422A/485</td>
+									<td class="left middle">RS-232C</td>
+								</tr>
+								<tr>
+									<TH colspan="1" rowspan="2" class="heading left middle">
+										<strong>Protocol</strong>
+									</TH>
+									<td class="heading left middle">
+										<strong>Port 1</strong>
+									</td>
+									<td colspan="3" rowspan="2" class="left middle">Host Link, protocol macro, Serial Gateway, No-<br />protocol, NT Link, Modbus-RTU Slave, loopback<br />test , or 1:1 Host Link can be selected for each<br />port. *1, *2</td>
+									<td colspan="3" rowspan="2" class="left middle">Host Link, protocol macro, NT Link, or loopback test can be<br />selected for each port.<br />Unit Ver. 1.2 or later also supports Serial Gateway, no-<br />protocol, and 1:1 Host Link modes. (Note: The Serial Gateway<br />can also be executed in protocol macro mode.) *1<br />Unit Ver. 1.3 or later also supports Modbus-RTU slave mode.</td>
+								</tr>
+								<tr>
+									<TH class="heading left middle">
+										<strong>Port 2</strong>
+									</TH>
+								</tr>
+								<tr>
+									<TH colspan="1" rowspan="3" class="heading left middle">
+										<strong>Number<br />of<br />mountable<br />Units</strong>
+									</TH>
+									<td class="heading left middle">
+										<strong>CPU Unit</strong>
+									</td>
+									<td colspan="6" rowspan="1" class="left middle">None</td>
+								</tr>
+								<tr>
+									<TH class="heading left middle">
+										<strong>CPU Rack</strong>
+									</TH>
+									<td colspan="3" rowspan="2" class="left middle">A total of up to 16 Units, including all other<br />CPU Bus Units. No<br />restrictions on the mounting location.<br />However, if an external interrupt task is used,<br />the Unit must be mounted in one of the<br />following slots on the CPU Rack.<br />CJ2H-CPU6[]-EIP CPU Unit: Slots 0 to 3<br />CJ2H-CPU6[], CJ2M-CPU[][] or CJ1G/H-<br />CPU[][]H CPU Unit: Slots 0 to 4<br />CJ1M-CPU[][] CPU Unit: Slots 0 to 2<br />External interrupt tasks will not be started if<br />the Unit is mounted to any other slot.</td>
+									<td colspan="3" rowspan="2" class="left middle">A total of up to 16 Units, including all other CPU Bus Units.<br />No restrictions on the mounting location.</td>
+								</tr>
+								<tr>
+									<TH class="heading left middle">
+										<strong>Expansion<br />Rack</strong>
+									</TH>
+								</tr>
+								<tr>
+									<TH colspan="1" rowspan="2" class="heading left middle">
+										<strong>Data<br />exchange<br />with the<br />CPU Unit</strong>
+									</TH>
+									<td class="heading left middle">
+										<strong>Ordinary<br />refreshing<br />of software<br />switches<br />and status</strong>
+									</td>
+									<td colspan="6" rowspan="1" class="left middle">Allocated 25 words of the 25 words in the CPU Bus Unit CIO Area (constant data exchange with the CPU Unit)</td>
+								</tr>
+								<tr>
+									<TH class="heading left middle">
+										<strong>Transfer<br />from the<br />CPU Unit<br />set by the<br />system</strong>
+									</TH>
+									<td colspan="6" rowspan="1" class="left middle">Of the CPU Bus Unit DM Area, each serial port is allocated 10 words (total 20 words).<br />Data is transferred from the CPU Unit at the following times:<br />Startup or restart<br />Ladder instruction: STUP (237)<br />Port Settings Changing Flag turns ON (Auxiliary Area)</td>
+								</tr>
+								<tr>
+									<TH colspan="2" rowspan="1" class="heading left middle">
+										<strong>Simple Backup Function</strong>
+									</TH>
+									<td colspan="6" rowspan="1" class="left middle">The CPU Unit's Simple Backup Function can be used to backup the Protocol Macro data in the Serial<br />Communications Unit to the CPU Unit's Memory Card. The backed-up data can be restored or compared.<br />(The Simple Backup Function can be used with the CJ1-H and CJ1M CPU Units only.)</td>
+								</tr>
+								<tr>
+									<TH colspan="2" rowspan="1" class="heading left middle">
+										<strong>Current consumption<br />*3</strong>
+									</TH>
+									<td class="left middle">280mA+x</td>
+									<td class="left middle">400mA</td>
+									<td class="left middle">360mA+x</td>
+									<td class="left middle">280mA+x</td>
+									<td class="left middle">380mA</td>
+									<td class="left middle">380mA+x</td>
+								</tr>
+								<tr>
+									<TH colspan="2" rowspan="1" class="heading left middle">
+										<strong>Weight</strong>
+									</TH>
+									<td class="left middle">160g Max.</td>
+									<td class="left middle">120g Max.</td>
+									<td class="left middle">140g Max.</td>
+									<td class="left middle">110g Max.</td>
+									<td class="left middle">110g Max.</td>
+									<td class="left middle">110g Max.</td>
+								</tr>
+								<tr>
+									<TH colspan="2" rowspan="1" class="heading left middle">
+										<strong>General specifications</strong>
+									</TH>
+									<td colspan="6" rowspan="1" class="left middle">Conforms to general specifications for CJ Serise.</td>
+								</tr>
+							</table>
+						</div>
+					
+        </p>
+    </div>
+
+
+
+
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="component-blockA01">
+
+
+
+
+
+    <div class="text">
+        <p>
+            
+						<div style="text-align: left;">*1. Serial Gateway: The Serial Gateway can also be executed in protocol macro mode.
+<br />
+*2. No-protocol: An external interrupt task can be executed when data is received in No-protocol Mode. If the CJ2H CPU
+<br />
+       Units with unit version 1.1 or later and CJ2M CPU Units is used, the high-speed communications instructions
+<br />
+       (DRXDU(261) and DTXDU(262)) can also be used.
+<br />
+*3. The current consumption is for one Serial Communications Unit. When an NT-AL001 Link Adapter is connected to the
+<br />
+       Serial Communications Unit, power is supplied to the Link Adapter from the Unit. A current consumption of 0.15A
+<br />
+       must be added for each Link Adapter that is connected. In the above specifications, “x” indicates that 0.15A must be
+<br />
+       added for each port to which an NT-AL001 Link Adapter is connected to provide the required 5-V power supply.</div>
+					
+        </p>
+    </div>
+
+
+
+
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<h4 class="heading-A02">Protocol Specifications</h4>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<h4 class="heading-B02">Host Link Specifications</h4>
+
+
+
+
+
+
+
+<div class="component-blockA01">
+
+
+
+
+
+    <div class="text">
+        <p>
+            
+						<div class="table-blockA01">
+							<table border="0" cellspacing="0" class="tableA01">
+								<tr>
+									<TH class="heading center middle">
+										<strong>Item</strong>
+									</TH>
+									<td colspan="3" rowspan="1" class="heading center middle">
+										<strong>Description</strong>
+									</td>
+								</tr>
+								<tr>
+									<TH class="heading left middle">
+										<strong>Communications mode</strong>
+									</TH>
+									<td colspan="3" rowspan="1" class="left middle">Half-duplex (Full-duplex for slave-initiated communications)</td>
+								</tr>
+								<tr>
+									<TH class="heading left middle">
+										<strong>Synchronous mode</strong>
+									</TH>
+									<td colspan="3" rowspan="1" class="left middle">Start-stop synchronization (asynchronous mode)</td>
+								</tr>
+								<tr>
+									<TH class="heading left middle">
+										<strong>Baud rate *1</strong>
+									</TH>
+									<td colspan="3" rowspan="1" class="left middle">RS-232C port and RS-422A/485 ports:<br />1,200/2,400/4,800/9,600/19,200/38,400/57,600/115,200/230,400 bps *2<br />Default setting: 9,600 bps</td>
+								</tr>
+								<tr>
+									<TH class="heading left middle">
+										<strong>Communications distance *1</strong>
+									</TH>
+									<td colspan="3" rowspan="1" class="left middle">RS-232C port: 15 m max. *3<br />RS-422A/485 Port:<br />CJ1W-SCU[]1-V1<br />500 m max. (total cable length: 500 m max., T-branch branch lines: 10 m max.)<br />CJ1W-SCU[]2<br />1,200 m max. (total cable length: 1,200 m max., Multidrop connections are possible. However, maximum<br />cable length is 500 m if the NT-AL001 is used for RS-422A-485 connections.)</td>
+								</tr>
+								<tr>
+									<TH class="heading left middle">
+										<strong>Connection configuration</strong>
+									</TH>
+									<td colspan="3" rowspan="1" class="left middle">RS-232C port: 1:1 (1:N (N = 32 Units max.) is possible using an Converting Link Adapters.)<br />RS-422A/485 port: 1:N (N = 32 Units max.)</td>
+								</tr>
+								<tr>
+									<TH class="heading left middle">
+										<strong>Number of connected Units</strong>
+									</TH>
+									<td colspan="3" rowspan="1" class="left middle">32 Units max. (unit numbers 0 to 31; unit number 0 is set for 1:1 connection)</td>
+								</tr>
+								<tr>
+									<TH colspan="1" rowspan="2" class="heading left middle">
+										<strong>Frame structure</strong>
+									</TH>
+									<td class="left middle">C-mode commands</td>
+									<td colspan="2" rowspan="1" class="left middle">Header: @, address: (host link unit number) 0 to 31 (BCD), data: header code +<br />text, error check code: FCS, terminator: * +CR</td>
+								</tr>
+								<tr>
+									<td class="left middle">FINS commands</td>
+									<td colspan="2" rowspan="1" class="left middle">Header: @, address: (host link unit number) 0 to 31 (BCD), data: header code<br />(always "FA") + FINS header + FINS command + text, error check code: FCS,<br />terminator: * +CR</td>
+								</tr>
+								<tr>
+									<TH class="heading left middle">
+										<strong>Error check codes</strong>
+									</TH>
+									<td colspan="3" rowspan="1" class="left middle">Vertical parity: Even, odd. or none<br />FCS (horizontal parity converted to ASCII)</td>
+								</tr>
+								<tr>
+									<TH colspan="1" rowspan="4" class="heading left middle">
+										<strong>Command flow and support</strong>
+									</TH>
+									<td class="left middle">Command flow</td>
+									<td class="left middle">Commands</td>
+									<td class="left middle">Contents</td>
+								</tr>
+								<tr>
+									<td colspan="1" rowspan="2" class="left middle">Host computer to<br />Controller</td>
+									<td class="left middle">C-mode commands</td>
+									<td class="left middle">1:1 or 1:N communications with directly connected<br />Controller *4</td>
+								</tr>
+								<tr>
+									<td class="left middle">FINS commands<br />(in Host Link protocol)</td>
+									<td class="left middle">1:1 or 1:N communications with directly connected<br />Controller.</td>
+								</tr>
+								<tr>
+									<td class="left middle">Controller to host<br />computer</td>
+									<td class="left middle">FINS commands<br />(in Host Link protocol)</td>
+									<td class="left middle">Communications using SEND(090), RECV(098), and<br />CMND(490) from CPU Unit. *5</td>
+								</tr>
+							</table>
+						</div>
+					
+        </p>
+    </div>
+
+
+
+
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="component-blockA01">
+
+
+
+
+
+    <div class="text">
+        <p>
+            
+						<div style="text-align: left;">*1. Confirm the baud rates and communications distance supported by connected devices.
+<br />
+*2. The CJ1W-SCU[]2 is required for communications at 230,400 bps.
+<br />
+*3. The maximum cable length for RS-232C is 15 m. The RS-232C standard, however, does not cover baud rates above
+<br />
+       19.2 Kbps. Refer to the manual for the device being connected to confirm support.
+<br />
+*4. The specified frame format must be prepared on the host computer and then sent.
+<br />
+*5. The host computer must interpret the commands and return a response in the correct format.
+<br />
+       Connection between the host computer and Controller must be 1:1.</div>
+					
+        </p>
+    </div>
+
+
+
+
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<h4 class="heading-B02">Protocol Macro Function Specifications</h4>
+
+
+
+
+
+
+
+<div class="component-blockA01">
+
+
+
+
+
+    <div class="text">
+        <p>
+            
+						<div class="table-blockA01">
+							<table border="0" cellspacing="0" class="tableA01">
+								<tr>
+									<TH colspan="3" rowspan="1" class="heading center middle">
+										<strong>Item</strong>
+									</TH>
+									<td colspan="5" rowspan="1" class="heading center middle">
+										<strong>Description</strong>
+									</td>
+								</tr>
+								<tr>
+									<TH class="heading left middle">
+										<strong>Number of<br />protocols</strong>
+									</TH>
+									<td colspan="2" rowspan="1" class="heading left middle">
+										<strong>20 max.</strong>
+									</td>
+									<td colspan="5" rowspan="2" class="left middle">Can be created and registered with the Protocol Support Tool (CX-Protocol).</td>
+								</tr>
+								<tr>
+									<TH class="heading left middle">
+										<strong>Number of<br />sequences</strong>
+									</TH>
+									<td colspan="2" rowspan="1" class="heading left middle">
+										<strong>1,000 max.</strong>
+									</td>
+								</tr>
+								<tr>
+									<TH colspan="1" rowspan="3" class="heading left middle">
+										<strong>Per protocol</strong>
+									</TH>
+									<td colspan="2" rowspan="1" class="heading left middle">
+										<strong>Number of sequences</strong>
+									</td>
+									<td colspan="5" rowspan="1" class="left middle">60 max.</td>
+								</tr>
+								<tr>
+									<TH colspan="2" rowspan="1" class="heading left middle">
+										<strong>Number of messages</strong>
+									</TH>
+									<td colspan="5" rowspan="1" class="left middle">300 max.</td>
+								</tr>
+								<tr>
+									<TH colspan="2" rowspan="1" class="heading left middle">
+										<strong>Number of reception<br />matrixes</strong>
+									</TH>
+									<td colspan="5" rowspan="1" class="left middle">100 max.</td>
+								</tr>
+								<tr>
+									<TH colspan="3" rowspan="1" class="heading left middle">
+										<strong>Sequence execution condition</strong>
+									</TH>
+									<td colspan="5" rowspan="1" class="left middle">Using the CPU Unit's PMCR (260) instruction (specifying the sequence number)</td>
+								</tr>
+								<tr>
+									<TH colspan="3" rowspan="1" class="heading left middle">
+										<strong>Communications mode</strong>
+									</TH>
+									<td colspan="5" rowspan="1" class="left middle">Half-duplex or full-duplex</td>
+								</tr>
+								<tr>
+									<TH colspan="3" rowspan="1" class="heading left middle">
+										<strong>Synchronous mode</strong>
+									</TH>
+									<td colspan="5" rowspan="1" class="left middle">Start-stop synchronization (asynchronous mode)</td>
+								</tr>
+								<tr>
+									<TH colspan="3" rowspan="1" class="heading left middle">
+										<strong>Baud rate *1</strong>
+									</TH>
+									<td colspan="5" rowspan="1" class="left middle">RS-232C port and RS-422A/485 ports:<br />1,200/2,400/4,800/9,600/19,200/38,400/57,600/115,200/230,400 bps<br />Default setting: 9,600 bps *2</td>
+								</tr>
+								<tr>
+									<TH colspan="3" rowspan="1" class="heading left middle">
+										<strong>Communications distance *1</strong>
+									</TH>
+									<td colspan="5" rowspan="1" class="left middle">RS-232C port: 15 m max.<br />RS-422A/485 port:<br />CJ1W-SCU[]1-V1<br />500 m max. (total cable length: 500 m max., T-branch branch lines: 10 m max.)<br />CJ1W-SCU[]2<br />1,200 m max. (total cable length: 1,200 m max., Multidrop connections are possible. However,<br />maximum cable length is 500 m if the NT-AL001 is used for RS-422A-485 connections.)</td>
+								</tr>
+								<tr>
+									<TH colspan="3" rowspan="1" class="heading left middle">
+										<strong>Connection configuration</strong>
+									</TH>
+									<td colspan="5" rowspan="1" class="left middle">RS-232C port: 1:1 (1:N (N = 32 Units max.) is possible using a Converting Link Adapter.)<br />RS-422A/485 port: 1:N (N = 32 Units max.)</td>
+								</tr>
+								<tr>
+									<TH colspan="3" rowspan="1" class="heading left middle">
+										<strong>Number of connected Units</strong>
+									</TH>
+									<td colspan="5" rowspan="1" class="left middle">32 Units max. (unit numbers 0 to 31; unit number 0 is set for 1:1 connection)</td>
+								</tr>
+								<tr>
+									<TH colspan="1" rowspan="3" class="heading left middle">
+										<strong>Maximum<br />number of<br />data<br />exchange<br />words <br />between<br />Controller<br />and protocol<br />macro<br />function</strong>
+									</TH>
+									<td colspan="2" rowspan="1" class="heading left middle">
+										<strong>Operand setting</strong>
+									</td>
+									<td colspan="3" rowspan="1" class="left middle">250 words</td>
+									<td colspan="2" rowspan="1" class="left middle">Including the word that specifies the number<br />of words (1 word)</td>
+								</tr>
+								<tr>
+									<TH colspan="2" rowspan="1" class="heading left middle">
+										<strong>Link word setting</strong>
+									</TH>
+									<td colspan="3" rowspan="1" class="left middle">500 words</td>
+									<td colspan="2" rowspan="1" class="left middle">O1, O2, I1, and I2: 500 words total</td>
+								</tr>
+								<tr>
+									<TH colspan="2" rowspan="1" class="heading left middle">
+										<strong>Direct setting</strong>
+									</TH>
+									<td colspan="3" rowspan="1" class="left middle">500 words</td>
+									<td colspan="2" rowspan="1" class="left middle">Maximum number of words per data attribute</td>
+								</tr>
+								<tr>
+									<TH colspan="1" rowspan="8" class="heading left middle">
+										<strong>Sequence<br />contents<br />(step<br />common<br />parameters)</strong>
+									</TH>
+									<td colspan="2" rowspan="1" class="heading left middle">
+										<strong>Number of steps per<br />sequence</strong>
+									</td>
+									<td colspan="5" rowspan="1" class="left middle">16 max.</td>
+								</tr>
+								<tr>
+									<TH colspan="2" rowspan="1" class="heading left middle">
+										<strong>Transmission control<br />parameters</strong>
+									</TH>
+									<td colspan="5" rowspan="1" class="left middle">X-on/X-off flow, RS/CS flow, delimiter control, or contention control, and modem control can<br />be selected.</td>
+								</tr>
+								<tr>
+									<TH colspan="2" rowspan="4" class="heading left middle">
+										<strong>Response notification<br />method (operand)</strong>
+									</TH>
+									<td colspan="5" rowspan="1" class="left middle">Scan notification: Writes the receive data to I/O memory during CPU Unit scanning.</td>
+								</tr>
+								<tr>
+									<td colspan="3" rowspan="1" class="left middle">Scan method (fixed)</td>
+									<td colspan="2" rowspan="1" class="left middle">Support</td>
+								</tr>
+								<tr>
+									<td colspan="3" rowspan="1" class="left middle">Interrupt notification</td>
+									<td colspan="2" rowspan="1" class="left middle">Not support</td>
+								</tr>
+								<tr>
+									<td colspan="3" rowspan="1" class="left middle">Interrupt notification for reception case number</td>
+									<td colspan="2" rowspan="1" class="left middle">Not suppprt</td>
+								</tr>
+								<tr>
+									<TH colspan="2" rowspan="1" class="heading left middle">
+										<strong>Monitoring time during<br />send/receive<br />processing</strong>
+									</TH>
+									<td colspan="5" rowspan="1" class="left middle">Receive wait, receive completion, or send completion can be monitored.<br />Setting range: 0.01 to 0.99 s, 0.1 to 9.9 s, 1 to 99 s, or 1 to 99 minutes</td>
+								</tr>
+								<tr>
+									<TH colspan="2" rowspan="1" class="heading left middle">
+										<strong>Link word setting</strong>
+									</TH>
+									<td colspan="5" rowspan="1" class="left middle">Area in which data is exchanged between the CPU Unit and the Serial Communications Unit<br />during Communications Unit refreshing.<br />Two areas are possible for each device: An area for storing receive data and an area for storing<br />send data. *3</td>
+								</tr>
+								<tr>
+									<TH colspan="1" rowspan="10" class="heading left middle">
+										<strong>Step<br />contents</strong>
+									</TH>
+									<td colspan="2" rowspan="1" class="heading left middle">
+										<strong>Commands</strong>
+									</td>
+									<td colspan="5" rowspan="1" class="left middle">Send only (SEND), receive only (RECV), send and receive (SEND&amp;RECV), wait (WAIT), reception<br />buffer clear (FLUSH), ER-ON (OPEN), or ER-OFF (CLOSE)</td>
+								</tr>
+								<tr>
+									<TH colspan="2" rowspan="1" class="heading left middle">
+										<strong>Repeat counter</strong>
+									</TH>
+									<td colspan="5" rowspan="1" class="left middle">1 to 255 times</td>
+								</tr>
+								<tr>
+									<TH colspan="2" rowspan="1" class="heading left middle">
+										<strong>Retry count</strong>
+									</TH>
+									<td colspan="5" rowspan="1" class="left middle">0 to 9 (Only when the command is SEND&amp;RECV)</td>
+								</tr>
+								<tr>
+									<TH colspan="2" rowspan="1" class="heading left middle">
+										<strong>Send wait time</strong>
+									</TH>
+									<td colspan="5" rowspan="1" class="left middle">0.01 to 0.99 s, 0.1 to 9.9 s, 1 to 99 s, or 1 to 99 minutes<br />(Only when the command is SEND or SEND&amp;RECV)</td>
+								</tr>
+								<tr>
+									<TH colspan="2" rowspan="1" class="heading left middle">
+										<strong>With or without<br />response write<br />(operand)</strong>
+									</TH>
+									<td colspan="5" rowspan="1" class="left middle">When receive processing is completed (when the receive data is stored in the area specified in<br />the 4th operand of the PMCR(260) instruction), whether or not to store the received messages<br />can be selected.</td>
+								</tr>
+								<tr>
+									<TH colspan="2" rowspan="1" class="heading left middle">
+										<strong>Next processing</strong>
+									</TH>
+									<td colspan="5" rowspan="1" class="left middle">When a step has ended normally, End (sequence completed), Next (proceed to the next step No.),<br />Goto (go to the specified step No.), or Abort (interrupt the step and terminate that sequence)<br />can be selected.</td>
+								</tr>
+								<tr>
+									<TH colspan="2" rowspan="1" class="heading left middle">
+										<strong>Error processing</strong>
+									</TH>
+									<td colspan="5" rowspan="1" class="left middle">When a step has ended abnormally, End, Next, Goto, or Abort can be selected.</td>
+								</tr>
+								<tr>
+									<TH colspan="2" rowspan="1" class="heading left middle">
+										<strong>Send message</strong>
+									</TH>
+									<td colspan="3" rowspan="1" class="left middle">Data sent to the specified address when the<br />command is SEND or SEND&amp;RECV.</td>
+									<td colspan="2" rowspan="2" class="left middle">Consists of a header, address, length, data,<br />error check code, and terminator.</td>
+								</tr>
+								<tr>
+									<TH colspan="2" rowspan="1" class="heading left middle">
+										<strong>Receive message</strong>
+									</TH>
+									<td colspan="3" rowspan="1" class="left middle">Data sent from the specified address when the<br />command is RECV or SEND&amp;RECV.</td>
+								</tr>
+								<tr>
+									<TH colspan="2" rowspan="1" class="heading left middle">
+										<strong>Reception matrix</strong>
+									</TH>
+									<td colspan="3" rowspan="1" class="left middle">When the command is RECV or SEND&amp;RECV,<br />sets the expected receive messages (15 max.),<br />and switches to the next processing according<br />to the message received.</td>
+									<td colspan="2" rowspan="1" class="left middle">Specifies the receive messages and the next<br />processing for each of cases No. 00 to No.<br />15. Of the maximum 16 cases, one case must<br />be set as "Other" in the receive messages<br />(in addition to the set receive messages).</td>
+								</tr>
+								<tr>
+									<TH colspan="1" rowspan="21" class="heading left middle">
+										<strong>Message<br />unit<br />contents</strong>
+									</TH>
+									<td class="heading left middle">
+										<strong>Header and<br />terminator<br />data<br />attributes</strong>
+									</td>
+									<TH class="heading left middle">
+										<strong>Constant</strong>
+									</TH>
+									<td colspan="5" rowspan="1" class="left middle">ASCII data, hexadecimal data, or control code</td>
+								</tr>
+								<tr>
+									<TH colspan="1" rowspan="16" class="heading left middle">
+										<strong>Data<br />attributes<br />of<br />addresses<br />and data in<br />send/<br />receive<br />messages</strong>
+									</TH>
+									<td class="heading left middle">
+										<strong>Constant</strong>
+									</td>
+									<td colspan="5" rowspan="1" class="left middle">ASCII data, hexadecimal data, or control code (with an address, no control code is possible)</td>
+								</tr>
+								<tr>
+									<TH colspan="1" rowspan="15" class="heading left middle">
+										<strong>Variable</strong>
+									</TH>
+									<td colspan="5" rowspan="1" class="left middle">No conversion, conversion to ASCII data, or conversion to hexadecimal data<br />(the read/write direction can be specified)</td>
+								</tr>
+								<tr>
+									<td class="left middle">Designation<br />method</td>
+									<td colspan="4" rowspan="1" class="left middle">(X, Y)<br />X: Effective address (where read from, or where written to)<br />Y: Data size (1 to 1,000) *4</td>
+								</tr>
+								<tr>
+									<td colspan="1" rowspan="8" class="left middle">X</td>
+									<td colspan="1" rowspan="6" class="left middle">Word<br />designation</td>
+									<td colspan="1" rowspan="3" class="left middle">Word read<br />(I/O memory<br />to send data)</td>
+									<td class="left middle">Specify using the<br />3rd operand of the<br />PMCR(260) instruction.</td>
+									<td colspan="1" rowspan="6" class="left middle">Set leading address<br />+ n (The linear<br />expression aN + b,<br />including repeat<br />counter N, is also<br />possible for n.)</td>
+								</tr>
+								<tr>
+									<td class="left middle">Specify using a link<br />word.</td>
+								</tr>
+								<tr>
+									<td class="left middle">I/O memory direct<br />designation</td>
+								</tr>
+								<tr>
+									<td colspan="1" rowspan="3" class="left middle">Word write<br />(receive data<br />to I/O memory)</td>
+									<td class="left middle">Specify using the<br />4th operand of the<br />PMCR(260) instruction.</td>
+								</tr>
+								<tr>
+									<td class="left middle">Specify using a link<br />word.</td>
+								</tr>
+								<tr>
+									<td class="left middle">I/O memory direct<br />designation</td>
+								</tr>
+								<tr>
+									<td class="left middle">Wild card</td>
+									<td class="left middle">*</td>
+									<td colspan="2" rowspan="1" class="left middle">Any data or address can be received<br />(only in receive messages)</td>
+								</tr>
+								<tr>
+									<td class="left middle">Repeat counter</td>
+									<td colspan="3" rowspan="1" class="left middle">N</td>
+								</tr>
+								<tr>
+									<td colspan="1" rowspan="5" class="left middle">Y</td>
+									<td class="left middle">Linear expression<br />including repeat<br />counter</td>
+									<td class="left middle">aN+b</td>
+									<td colspan="2" rowspan="1" class="left middle">a: 0 to 1000; b: 1 to 1000<br />N: Repeat counter value</td>
+								</tr>
+								<tr>
+									<td class="left middle">Wild card</td>
+									<td class="left middle">*</td>
+									<td colspan="2" rowspan="1" class="left middle">Can be received regardless of the length<br />(only in receive messages)</td>
+								</tr>
+								<tr>
+									<td colspan="1" rowspan="3" class="left middle">Word designation</td>
+									<td colspan="1" rowspan="3" class="left middle">Word read<br />(I/O memory<br />to send data)</td>
+									<td class="left middle">Specify using the<br />3rd operand of the<br />PMCR(260) instruction.</td>
+									<td colspan="1" rowspan="3" class="left middle">Set leading address<br />+ n (The linear<br />expression aN + b,<br />including repeat<br />counter N, is also<br />possible for n.)</td>
+								</tr>
+								<tr>
+									<td class="left middle">Specify using a link<br />word.</td>
+								</tr>
+								<tr>
+									<td class="left middle">I/O memory direct<br />designation</td>
+								</tr>
+								<tr>
+									<TH colspan="2" rowspan="1" class="heading left middle">
+										<strong>Error check codes</strong>
+									</TH>
+									<td colspan="5" rowspan="1" class="left middle">LRC, LRC2, CRC-CCITT, CRC-16, SUM, SUM1, and SUM2 can be calculated.</td>
+								</tr>
+								<tr>
+									<TH colspan="2" rowspan="1" class="heading left middle">
+										<strong>Maximum length of<br />send/receive<br />messages</strong>
+									</TH>
+									<td colspan="5" rowspan="1" class="left middle">1,000 bytes. (A maximum length between 200 and 1,000 bytes can be set in the Setup Area.)</td>
+								</tr>
+								<tr>
+									<TH colspan="2" rowspan="1" class="heading left middle">
+										<strong>Maximum number of<br />data attributes<br />registered in one<br />message</strong>
+									</TH>
+									<td colspan="5" rowspan="1" class="left middle">96 attributes *5</td>
+								</tr>
+								<tr>
+									<TH colspan="2" rowspan="1" class="heading left middle">
+										<strong>Maximum number of<br />write data attributes<br />registered in one<br />message</strong>
+									</TH>
+									<td colspan="5" rowspan="1" class="left middle">30 attributes *6</td>
+								</tr>
+								<tr>
+									<TH colspan="3" rowspan="1" class="heading left middle">
+										<strong>Trace function *7</strong>
+									</TH>
+									<td colspan="5" rowspan="1" class="left middle">A total of up to 1,700 bytes (characters) of time-series data can be traced in send and receive<br />messages.<br />Changes to the step No. and control signals such as RS and CS can also be traced.</td>
+								</tr>
+							</table>
+						</div>
+					
+        </p>
+    </div>
+
+
+
+
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="component-blockA01">
+
+
+
+
+
+    <div class="text">
+        <p>
+            
+						<div style="text-align: left;">*1. The baud rate and the communications distance sometimes depend on the remote device.
+<br />
+*2. A baud rate of 57,600 bps can be selected when using Unit Ver. 1.2 or later (115,200 bps is not possible). The CJ1W-
+<br />
+       SCU[]2 is required for communications at 115,200 or 230,400 bps.
+<br />
+*3. Unit Ver. 1.2 or later supports continuous I/O refreshing in addition to the previous on-request I/O refreshing.
+<br />
+*4. The data size is the number of bytes on the transmission path.
+<br />
+*5. The CX-Protocol can be used to register up to 96 attributes per message.
+<br />
+*6. A macro syntax error will occur when the protocol macro is executed if more than 31 write attributes are registered in
+<br />
+       one message.
+<br />
+*7. The CPU Unit is set to the RUN/MONITOR mode. (MONITOR mode is not available with the NJ-series CPU Units.)
+<br />
+Note: When using 2-wire RS-422A/485 communications in Protocol Macro Mode, set only modem controls for the send
+<br />
+          control parameters, and do not use RS/CS flow controls.</div>
+					
+        </p>
+    </div>
+
+
+
+
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<h4 class="heading-B02">Serial Gateway Specifications</h4>
+
+
+
+
+
+
+
+<div class="component-blockA01">
+
+
+
+
+
+    <div class="text">
+        <p>
+            
+						<div class="table-blockA01">
+							<table border="0" cellspacing="0" class="tableA01">
+								<tr>
+									<TH class="heading center middle">
+										<strong>Item</strong>
+									</TH>
+									<td class="heading center middle">
+										<strong>Description</strong>
+									</td>
+								</tr>
+								<tr>
+									<TH class="heading left middle">
+										<strong>Conversion source</strong>
+									</TH>
+									<td class="left middle">FINS commands (received through network (including Host Link FINS) or CPU bus)</td>
+								</tr>
+								<tr>
+									<TH class="heading left middle">
+										<strong>Conversion functions</strong>
+									</TH>
+									<td class="left middle">The received FINS command sent to the Unit's serial port is converted according to the FINS command code as follows:<br />2803 hex: FIN header removed and converted to Compo-Way/F command.<br />2804 hex: FIN header removed and converted to Modbus-RTU command.<br />2805 hex: FIN header removed and converted to Modbus-ASCII command.<br />The converted command is sent to the serial port.<br />When the received FINS command is sent to the Unit (user-specified FINS command code), the FINS command is<br />enclosed in a Host Link header and terminator.</td>
+								</tr>
+								<tr>
+									<TH class="heading left middle">
+										<strong>Converted format</strong>
+									</TH>
+									<td class="left middle">CompoWay/F commands<br />Modbus-RTU commands<br />Modbus-ASCII commands<br />Host Link FINS commands</td>
+								</tr>
+								<tr>
+									<TH class="heading left middle">
+										<strong>Enabled serial<br />communications mode</strong>
+									</TH>
+									<td class="left middle">Serial Gateway mode or protocol macro mode</td>
+								</tr>
+								<tr>
+									<TH class="heading left middle">
+										<strong>Queuing functions</strong>
+									</TH>
+									<td class="left middle">Up to five FINS commands can be converted and then queued for processing.</td>
+								</tr>
+								<tr>
+									<TH class="heading left middle">
+										<strong>Protocol macro<br />execution processing</strong>
+									</TH>
+									<td class="left middle">When a FINS command is received during protocol macro execution, the Serial Gateway is executed using an interrupt between steps in the communications sequence. If the next step is a RECEIVE command, the Serial Gateway will not be executed until the next step. For other conditions, the interrupt is executed immediately. *1</td>
+								</tr>
+								<tr>
+									<TH class="heading left middle">
+										<strong>Response timeout<br />monitoring</strong>
+									</TH>
+									<td class="left middle">The time is monitored from when the message is converted into the specified protocol using the Serial Gateway<br />until the response is received (in Serial Gateway mode or protocol macro mode).<br />Default: 5 s (setting range: 0.1 to 25.5 s) *2</td>
+								</tr>
+								<tr>
+									<TH class="heading left middle">
+										<strong>Send start timeout<br />monitoring</strong>
+									</TH>
+									<td class="left middle">The time is monitored from when the FINS command is received until it is converted into the specified protocol and<br />starts to be sent (in protocol macro mode only).<br />Default: 5 s (setting range: 0.1 to 25.5 s) *3</td>
+								</tr>
+								<tr>
+									<TH class="heading left middle">
+										<strong>Send delay</strong>
+									</TH>
+									<td class="left middle">The time can be set from when the message is converted into another protocol using Serial Gateway conversion<br />until the data is actually sent. (Serial Gateway or protocol macro mode)<br />Default: 0 s (setting range: 0.01 to 300.00 s)</td>
+								</tr>
+							</table>
+						</div>
+					
+        </p>
+    </div>
+
+
+
+
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="component-blockA01">
+
+
+
+
+
+    <div class="text">
+        <p>
+            
+						<div style="text-align: left;">*1. The reception buffer is cleared during Serial Gateway execution.
+<br />
+       The Serial Gateway can be prohibited in protocol macro mode by turning ON the Serial Gateway Prohibit Switch in the
+<br />
+       CIO Area.
+<br />
+*2. When a timeout occurs, the FINS end code (0205 hex: Response timeout) is returned to the source of the FINS
+<br />
+       command and a response is received after a timeout occurs.
+<br />
+*3. When a timeout occurs, the FINS end code (0204 hex: Remote node busy) is returned to the source of the FINS
+<br />
+       command. The send processing will not be executed and the received FINS command will be discarded.</div>
+					
+        </p>
+    </div>
+
+
+
+
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<h4 class="heading-B02">No-protocol Specifications</h4>
+
+
+
+
+
+
+
+<div class="component-blockA01">
+
+
+
+
+
+    <div class="text">
+        <p>
+            
+						<div class="table-blockA01">
+							<table border="0" cellspacing="0" class="tableA01">
+								<tr>
+									<TH class="heading center middle">
+										<strong>Item</strong>
+									</TH>
+									<td colspan="2" rowspan="1" class="heading center middle">
+										<strong>Description</strong>
+									</td>
+								</tr>
+								<tr>
+									<TH class="heading left middle">
+										<strong>Communications mode</strong>
+									</TH>
+									<td colspan="2" rowspan="1" class="left middle">Full-duplex</td>
+								</tr>
+								<tr>
+									<TH class="heading left middle">
+										<strong>Baud rate *1</strong>
+									</TH>
+									<td colspan="2" rowspan="1" class="left middle">RS-232C port and RS-422A/485 ports: 1,200/2,400/4,800/9,600/19,200/38,400/57,600/115,200/230,400 bps *2<br />Default setting: 9,600 bps</td>
+								</tr>
+								<tr>
+									<TH class="heading left middle">
+										<strong>Communications<br />distance *1</strong>
+									</TH>
+									<td colspan="2" rowspan="1" class="left middle">RS-232C port: 15 m max.<br />RS-422A/485 port:<br />CJ1W-SCU[]1-V1<br />500 m max. (total cable length: 500 m max., T-branch branch lines: 10 m max.)<br />CJ1W-SCU[]2<br />1,200 m max. (total cable length: 1,200 m max., Multidrop connections are possible. However, maximum cable<br />length is 500 m if the NT-AL001 is used for RS-422A-485 connections.)</td>
+								</tr>
+								<tr>
+									<TH colspan="1" rowspan="4" class="heading left middle">
+										<strong>Messages<br />(communications<br />frame structure)</strong>
+									</TH>
+									<td colspan="2" rowspan="1" class="left middle">Set either of the following types in the Setup Area in the allocation DM Area.<br />1. Data only (without start code and end code)<br />2. Start code + data<br />3. Data + end code<br />4. Start code + data + end code<br />5. Data + CR + LF<br />6. Start code + data +CR + LF<br /><br />Set in allocated DM Area<br />(The start code can be included by setting it to between 00 and FF hex, and the end code can be included by<br />setting it to between 00 and FF hex. To exclude the end code, set the number of receive data bytes.)</td>
+								</tr>
+								<tr>
+									<td class="left middle">Start code</td>
+									<td class="left middle">None or 00 to FF hex</td>
+								</tr>
+								<tr>
+									<td class="left middle">End code</td>
+									<td class="left middle">None, 00 to FF hex, or CR + LF</td>
+								</tr>
+								<tr>
+									<td class="left middle">Number of receive data<br />bytes during reception</td>
+									<td class="left middle">Set the number of receive data bytes between 1 and 256 bytes (according to the DM<br />Area settings) when frame structure 1 or 2 above is used.</td>
+								</tr>
+								<tr>
+									<TH colspan="1" rowspan="2" class="heading left middle">
+										<strong>Sending messages</strong>
+									</TH>
+									<td colspan="2" rowspan="1" class="left middle">CJ: TXDU (256) instruction *3</td>
+								</tr>
+								<tr>
+									<td colspan="2" rowspan="1" class="left middle">NJ: SerialSend instruction</td>
+								</tr>
+								<tr>
+									<TH colspan="1" rowspan="2" class="heading left middle">
+										<strong>Receiving messages</strong>
+									</TH>
+									<td colspan="2" rowspan="1" class="left middle">CJ: RXDU (255) instruction *3</td>
+								</tr>
+								<tr>
+									<td colspan="2" rowspan="1" class="left middle">NJ: SerialRcv or SerialRcvNoClear instruction *4</td>
+								</tr>
+								<tr>
+									<TH class="heading left middle">
+										<strong>Maximum message<br />length</strong>
+									</TH>
+									<td colspan="2" rowspan="1" class="left middle">Sending and receiving: Up to 259 bytes including the start code and end code (up to 256 bytes excluding<br />start/end codes)</td>
+								</tr>
+								<tr>
+									<TH class="heading left middle">
+										<strong>Data conversion</strong>
+									</TH>
+									<td colspan="2" rowspan="1" class="left middle">No conversion</td>
+								</tr>
+								<tr>
+									<TH class="heading left middle">
+										<strong>Communications<br />protocol</strong>
+									</TH>
+									<td colspan="2" rowspan="1" class="left middle">None</td>
+								</tr>
+								<tr>
+									<TH colspan="1" rowspan="2" class="heading left middle">
+										<strong>Message delay time</strong>
+									</TH>
+									<td colspan="2" rowspan="1" class="left middle">CJ:<br />When the TXD (236), TXDU (256) instruction is executed, after the send delay time, the data is sent from the<br />port. *3<br />0 to 300 s (0 to 300,000 ms)<br />(Can be set in 10-ms units depending on the DM Area settings)</td>
+								</tr>
+								<tr>
+									<td colspan="2" rowspan="1" class="left middle">NJ:<br />When the SerialSend instruction is executed, after the send delay time, the data is sent from the port.<br />0 to 300 s (0 to 300,000 ms)<br />(Can be set in 10-ms units: Set in System Studio or by using a device variable for CJ-series Unit.)</td>
+								</tr>
+								<tr>
+									<TH class="heading left middle">
+										<strong>Receive counter</strong>
+									</TH>
+									<td colspan="2" rowspan="1" class="left middle">The number of data bytes (0 to 256) received at the port can be counted.</td>
+								</tr>
+								<tr>
+									<TH class="heading left middle">
+										<strong>Reception buffer clear<br />timing</strong>
+									</TH>
+									<td colspan="2" rowspan="1" class="left middle">CJ1W-SCU[]1-V1<br />The reception buffer is cleared immediately after executing the RXD(235)/RXDU(255) instruction<br />CJ1W-SCU[]2<br />With the DRXDU (261) instruction, you can specify whether the reception buffers will be cleared or not in a setting<br />in the DM Area words allocated to the Unit. *3<br />NJ<br />SerialRcv instruction: After reading the receive data<br />SerialRcvNoClear instruction: When the receive data size variable (Size) is set to 0 *4</td>
+								</tr>
+							</table>
+						</div>
+					
+        </p>
+    </div>
+
+
+
+
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="component-blockA01">
+
+
+
+
+
+    <div class="text">
+        <p>
+            
+          <div style="text-align: left;">*1. The baud rate and the communications distance sometimes depend on the remote device.
+<br />
+*2. The CJ1W-SCU[]2 is required for communications at 115,200 or 230,400 bps.
+<br />
+*3. The DTXDU (262) and DRXDU (261) instructions can be used only when a CJ1W-SCU[]2 Serial Communications Unit
+<br />
+       is connected to the CJ2H CPU Units with unit version 1.1 or later and CJ2M CPU Units.
+<br />
+*4. A Serial Communications Unit with unit version 2.1 or later, a CPU Unit with unit version 1.03 or later, and Sysmac
+<br />
+       Studio version 1.04 or higher are required to use the SerialRcvNoClear instruction.</div>
+        
+        </p>
+    </div>
+
+
+
+
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<h4 class="heading-B02">Modbus-RTU Specifications</h4>
+
+
+
+
+
+
+
+<div class="component-blockA01">
+
+
+
+
+
+    <div class="text">
+        <p>
+            
+						<div class="table-blockA01">
+							<table border="0" cellspacing="0" class="tableA01">
+								<tr>
+									<TH class="heading center middle">
+										<strong>Item</strong>
+									</TH>
+									<td class="heading center middle">
+										<strong>Description</strong>
+									</td>
+								</tr>
+								<tr>
+									<TH class="heading left middle">
+										<strong>Mode</strong>
+									</TH>
+									<td class="left middle">Modbus-RTU slave mode *1</td>
+								</tr>
+								<tr>
+									<TH class="heading left middle">
+										<strong>Baud rate</strong>
+									</TH>
+									<td class="left middle">1,200/2,400/4,800/9,600/19,200/38,400/57,600/115,200/230,400 bps *2<br />Default: 19,200 bps</td>
+								</tr>
+								<tr>
+									<TH class="heading left middle">
+										<strong>Data length</strong>
+									</TH>
+									<td class="left middle">8 bits</td>
+								</tr>
+								<tr>
+									<TH class="heading left middle">
+										<strong>Parity</strong>
+									</TH>
+									<td class="left middle">Odd, even, or none<br />Default: Even</td>
+								</tr>
+								<tr>
+									<TH class="heading left middle">
+										<strong>Stop bits</strong>
+									</TH>
+									<td class="left middle">Odd or even parity: 1 bit<br />No parity: 2 bits</td>
+								</tr>
+								<tr>
+									<TH class="heading left middle">
+										<strong>Address setting range</strong>
+									</TH>
+									<td class="left middle">1 to 247 (broadcasting: 0)</td>
+								</tr>
+								<tr>
+									<TH class="heading left middle">
+										<strong>Frame format</strong>
+									</TH>
+									<td class="left middle">Slave address: 1 byte<br />Function code: 1 byte<br />Data: 0 to 252 bytes<br />CRC code: 2 bytes</td>
+								</tr>
+							</table>
+						</div>
+					
+        </p>
+    </div>
+
+
+
+
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="component-blockA01">
+
+
+
+
+
+    <div class="text">
+        <p>
+            *1. Modbus-ASCII mode is not supported.
+<br />
+*2. The CJ1W-SCU[]2 is required for communications at 230,400 bps.
+        </p>
+    </div>
+
+
+
+
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<h4 class="heading-B02">Supported Commands</h4>
+
+
+
+
+
+
+
+<div class="component-blockA01">
+
+
+
+
+
+    <div class="text">
+        <p>
+            
+						<div class="table-blockA01">
+							<table border="0" cellspacing="0" class="tableA01">
+								<tr>
+									<TH class="heading center middle">
+										<strong>Function code<br />(hexadecimal)</strong>
+									</TH>
+									<td class="heading center middle">
+										<strong>Function</strong>
+									</td>
+									<TH class="heading center middle">
+										<strong>Modbus name</strong>
+									</TH>
+								</tr>
+								<tr>
+									<td class="center middle">1</td>
+									<td class="left middle">Reads multiple bits from the CIO, Work, Holding, or Auxiliary Area of I/O memory.</td>
+									<td class="left middle">Read Coils</td>
+								</tr>
+								<tr>
+									<td class="center middle">2</td>
+									<td class="left middle">Reads multiple bits from the CIO Area of I/O memory.</td>
+									<td class="left middle">Read Discrete Inputs</td>
+								</tr>
+								<tr>
+									<td class="center middle">3</td>
+									<td class="left middle">Reads multiple words from the DM or EM Area of I/O memory.</td>
+									<td class="left middle">Read Holding Registers</td>
+								</tr>
+								<tr>
+									<td class="center middle">4</td>
+									<td class="left middle">Reads multiple words from the CIO, Work, Holding, or Auxiliary Area of I/O memory.</td>
+									<td class="left middle">Read Input Registers</td>
+								</tr>
+								<tr>
+									<td class="center middle">5</td>
+									<td class="left middle">Writes a bit in I/O memory.</td>
+									<td class="left middle">Write Single Coil</td>
+								</tr>
+								<tr>
+									<td class="center middle">6</td>
+									<td class="left middle">Writes a word in the DM or EM Area of I/O memory.</td>
+									<td class="left middle">Write Single Register</td>
+								</tr>
+								<tr>
+									<td class="center middle">8</td>
+									<td class="left middle">Executes an echoback test.</td>
+									<td class="left middle">Diagnostic</td>
+								</tr>
+								<tr>
+									<td class="center middle">0F</td>
+									<td class="left middle">Writes multiple bits in I/O memory.</td>
+									<td class="left middle">Write Multiple Coils</td>
+								</tr>
+								<tr>
+									<td class="center middle">10</td>
+									<td class="left middle">Writes multiple words in the DM or EM Area of I/O memory.</td>
+									<td class="left middle">Write Multiple Registers</td>
+								</tr>
+							</table>
+						</div>
+					
+        </p>
+    </div>
+
+
+
+
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<p class="date-line">last update: September 24, 2012</p>
+
+</div>
+
+                        </div>
+                    </div>
+	            <!-- === /[primary-contents-area] === -->
+                </div>
+                <!-- === /[inner-contents-area] === -->
+
+
+                <!-- === [local-navi] === -->
+                <div class="local-navi-area">
+                    <div class="local-navi-area">
+
+
+
+<div class="local-naviA01">
+<h2 class="heading-link">
+<a href="../../category/index.html" ><img src="../../../resources/images/icon_right_b.gif" width="3" height="9" alt="" class="iconA01" />Product Category</a>
+</h2>
+<ul><li><a href="../../category/automation-systems/index-2.html"><img src="../../../resources/images/icon_right_b.gif" width="3" height="9" alt="" class="iconA01" />Automation Systems</a><ul class="list-indent01"><li><a href="../../category/automation-systems/programmable-controllers/index-2.html"><img src="../../../resources/images/icon_right_b.gif" width="3" height="9" alt="" class="iconA01" />Programmable Controllers</a><ul class="list-indent02"><li><a href="../../category/automation-systems/programmable-controllers/cj1/index.html"><img src="../../../resources/images/icon_right_b.gif" width="3" height="9" alt="" class="iconA01" />CJ1</a><ul class="list-indent03"><li><a href="../../category/automation-systems/programmable-controllers/cj1/cpu-bus-units/index.html"><img src="../../../resources/images/icon_right_b.gif" width="3" height="9" alt="" class="iconA01" />CPU Bus Units</a><ul class="list-indent04"><li><a href="../3439/index.html"><img src="../../../resources/images/icon_right_b.gif" width="3" height="9" alt="" class="iconA01" />CJ1W-ECT21</a></li><li><a href="../2643/index.html"><img src="../../../resources/images/icon_right_b.gif" width="3" height="9" alt="" class="iconA01" />CJ1W-NC[]81 / []82</a></li><li><a href="../1995/index.html"><img src="../../../resources/images/icon_right_b.gif" width="3" height="9" alt="" class="iconA01" />CJ1W-EIP21</a></li><li><a href="../1732/index.html"><img src="../../../resources/images/icon_right_b.gif" width="3" height="9" alt="" class="iconA01" />CJ1W-SPU01-V2</a></li><li><a href="../1528/index.html"><img src="../../../resources/images/icon_right_b.gif" width="3" height="9" alt="" class="iconA01" />CJ1W-NC[]71</a></li><li class="stay"><span>CJ1W-SCU</span></li><li><a href="../1451/index.html"><img src="../../../resources/images/icon_right_b.gif" width="3" height="9" alt="" class="iconA01" />CJ1W-ETN21</a></li><li><a href="../1452/index.html"><img src="../../../resources/images/icon_right_b.gif" width="3" height="9" alt="" class="iconA01" />CJ1W-CLK</a></li><li><a href="../1549/index.html"><img src="../../../resources/images/icon_right_b.gif" width="3" height="9" alt="" class="iconA01" />CJ1W-FLN22</a></li></ul></li></ul></li></ul></li></ul></li></ul>
+<!-- /local-naviA01 -->
+</div>
+
+
+
+<div class="local-naviB01">
+<ul class="heading-link">
+
+<li class="first-child">
+<a href="../../category/index.html"><img src="../../../resources/images/icon_right_b.gif" width="3" height="9" alt="" class="iconA01" />Product Category</a>
+</li>
+
+<li>
+<a href="../../../product/cautions/index-2.html"><img src="../../../resources/images/icon_right_b.gif" width="3" height="9" alt="" class="iconA01" />Cautions</a>
+</li>
+
+<li>
+<a href="../../index/index.html"><img src="../../../resources/images/icon_right_b.gif" width="3" height="9" alt="" class="iconA01" />Item A to Z Index</a>
+</li>
+
+<li>
+<a href="../../applications/index.html"><img src="../../../resources/images/icon_right_b.gif" width="3" height="9" alt="" class="iconA01" />Applications</a>
+</li>
+
+<li>
+<a href="../../correct/index.html"><img src="../../../resources/images/icon_right_b.gif" width="3" height="9" alt="" class="iconA01" />Correction Notice</a>
+</li>
+
+</ul>
+<!-- /local-naviB01 -->
+</div>
+                    </div>
+                </div>
+                <!-- === /[local-navi] === -->
+
+            </div>
+            <!-- === /[contents-area] === -->
+
+            <!-- === [top-page-link-area] === -->
+            <div class="top-page-link-area">
+                <ul class="top-page-link-list">
+                    <li>
+                        <a href="#page-top"><img src="../../../resources/images/icon_up_b.gif" width="5" height="8" alt="" class="iconB01" />Top of Page</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- === /[top-page-link-area] === -->
+
+            <!-- === [footer-area] === -->
+
+
+<!-- === [footer-area] === -->
+<div class="footer-area">
+    <p class="non-visual">
+        <a name="footer" id="footer">Site Information</a>
+    </p>
+   
+    <div class="footer-link">
+        
+
+        <p class="copyright">© Copyright Kyoto Engineering &amp; Automation Ltd. All Rights Reserved.</p>
+    <!-- /.footer-link -->
+    </div>
+<!-- /.footer-area -->
+</div>
+<!-- === /[footer-area] === -->
+            <!-- === /[footer-area] === -->
+        </div>
+        <!-- === /[omron-ia] === -->
+    </body>
+
+<!-- Mirrored from www.ia.omron.com/products/family/1651/specification.html by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 16 Dec 2016 07:10:58 GMT -->
+</html>

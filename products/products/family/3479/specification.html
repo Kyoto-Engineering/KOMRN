@@ -1,0 +1,1780 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<html xml:lang="en" lang="en" xmlns="http://www.w3.org/1999/xhtml">
+    
+<!-- Mirrored from www.ia.omron.com/products/family/3479/specification.html by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 16 Dec 2016 06:42:54 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=utf-8" /><!-- /Added by HTTrack -->
+<head>
+    <link rel="stylesheet" type="text/css" media="all" href="../../../css/index.css"/>
+	<link rel="stylesheet" type="text/css" media="all" href="../../../css/top.css"/>
+
+
+        <meta http-equiv="Content-Language" content="en" />
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <meta http-equiv="Content-Style-Type" content="text/css" />
+        <meta http-equiv="Content-Script-Type" content="text/javascript" />
+        <title>
+            NX-CIF NX-series Communications Interface Units/Specifications | OMRON By Kyoto Engineering &amp; Automation
+        </title>
+        <meta name="keywords" content="Automation Systems,Machine Automation Controllers,EtherCAT Slave Terminals NX-Series,Communications Interface Units,NX-CIF" />
+        <meta name="description" content="NX-series Communications Interface Units Provides simplicity and flexibility in connecting serial devices to EtherCAT" />
+        
+
+<link rel="alternate" href="../../../index.html" hreflang="en" />
+<link rel="stylesheet" type="text/css" media="all" href="../../../resources/css/common22f8.css?201611151200" />
+<link rel="stylesheet" type="text/css" media="all" href="../../../resources/css/global/common22f8.css?201611151200" />
+<link rel="stylesheet" type="text/css" media="all" href="../../../resources/css/frame_utility_tridion22f8.css?201611151200" />
+<link rel="stylesheet" type="text/css" media="print" href="../../../resources/css/print22f8.css?201611151200" />
+<script type="text/javascript" src="../../../resources/js/jquery22f8.js?201611151200"></script>
+<script type="text/javascript" src="../../../resources/js/function22f8.js?201611151200"></script>
+<script type="text/javascript" src="../../../resources/js/country_website22f8.js?201611151200"></script>
+<script type="text/javascript" src="../../../resources/js/global/ga22f8.js?201611151200"></script>
+<link rel="stylesheet" type="text/css" media="all" href="../../../resources/css/jquery-ui22f8.css?201611151200" charset='UTF-8'/>
+<link rel="stylesheet" type="text/css" media="all" href="../../../resources/css/jquery.multiselect22f8.css?201611151200" charset='UTF-8'/>
+<script type="text/javascript" language="JavaScript" src="../../../common/js/marketing_tag22f8.js?201611151200"></script>
+<script type="text/javascript" src="../../../resources/js/jquery-ui.min22f8.js?201611151200" charset='UTF-8'></script>
+<script type="text/javascript" src="../../../resources/js/jquery.ex-table-filter22f8.js?201611151200" charset='UTF-8'></script>
+<script type="text/javascript" src="../../../resources/js/jquery.tablesorter.min22f8.js?201611151200" charset='UTF-8'></script>
+<script type="text/javascript" src="../../../resources/js/filter22f8.js?201611151200" charset='UTF-8'></script>
+<link rel="shortcut icon" href="../../../resources/images/favicon.ico" type="image/x-icon" />
+
+        <link rel="stylesheet" type="text/css" media="all" href="../../../resources/css/tablesorter6c9b.css?201611150900" />
+        <script type="text/javascript" src="../../../resources/js/global/products6c9b.js?201611150900" charset='UTF-8'></script>
+
+    </head>
+    <body id="www-ia-omron-com" class="layoutC03 automation-systems">
+
+        <!-- === [omron-ia] === -->
+        <div class="omron-ia">
+            <p class="non-visual">
+                <a name="page-top" id="page-top">
+                    Page top
+                </a>
+            </p>
+
+
+
+
+<div class="header-area">
+     <div class="site-identity">
+          <div class="site-logo">
+               <a href="../../../index.php"><img src="../../../images/logo_01_b13-260967.gif"  width="129" height="24" alt="OMRON" /></a>
+          </div>
+          <!-- /.site-identity -->
+     </div>
+     <div class="utilities">
+		<div class="country-select-area">
+			<p class="canpany">Building Automation</p>
+                        <?php echo '&nbsp' ; ?>
+                        <br/>
+                        <p class="canpany">Industrial Automation</p>
+                        <?php echo '&nbsp' ; ?>
+                        <br/>
+                        <p class="canpany">Power Automation &amp; Safety </p>
+			
+		</div>
+            
+            <div class="japani">
+                <img  src="../../../shared/img/Japani Technology mnemonic.png" width="90" height="50" alt=""/>
+            </div>
+          
+            
+            
+            <div class="flag">
+            <img src="../../../shared/img/Bangladesh-Flag_1.png" alt=""/>
+            </div>
+            <div class="kyoto">
+                <p><b>Bangladesh Distributor</b></p>
+                <img style="margin-left:-5px;"  src="../../../shared/img/Kyoto-logo-Png.png" alt=""/>
+            </div>
+	<!-- /.utilities --> </div>
+	<!-- /.header-area --></div>
+
+<div class="global-navi-area">
+<ul>
+<li class="home stay"><a href="../../../index.php">Home</a></li>
+<li class="product"><a href="../../../products/index.html">Products</a></li>
+<li class="corporate-profile"><a href="../../../view/contact/input.php/input.php">Contact Us</a></li>
+<li class="function-area"><div class="search"><form action="https://omron.keal.com.bd/sphider/search.php" method="get">       
+<input type="text" name="query" id="query" size="40" value="" />
+      <input type="submit" value="Search" /> <input type="hidden"
+      name="search" value="1" />
+    </form>
+</div>
+</li>
+</ul>
+</div> 
+<div class="bread-crumb-area">
+<ul>
+
+
+<li><a href="../../../index.php" >Home</a><span class="separator">&gt;</span></li>
+
+<li><a href="../../index-2.html" >Products</a><span class="separator">&gt;</span></li>
+
+<li><a href="../../category/index.html" >Product Category</a><span class="separator">&gt;</span></li>
+
+<li><a href="../../category/automation-systems/index-2.html" >Automation Systems</a><span class="separator">&gt;</span></li>
+
+<li><a href="../../category/automation-systems/machine-automation-controllers/index-2.html" >Machine Automation Controllers</a><span class="separator">&gt;</span></li>
+
+<li><a href="../../category/automation-systems/machine-automation-controllers/ethercat-slave-terminals-nx-series/index.html" >EtherCAT Slave Terminals NX-Series</a><span class="separator">&gt;</span></li>
+
+<li><a href="../../category/automation-systems/machine-automation-controllers/ethercat-slave-terminals-nx-series/communications-interface-units/index.html" >Communications Interface Units</a><span class="separator">&gt;</span></li>
+
+<li><strong>NX-CIF</strong></li>
+
+
+</ul>
+</div>
+
+            <!-- === [contents-area] === -->
+            <div class="contents-area">
+
+                <!-- === [inner-contents-area] === -->
+                <div class="inner-contents-area">
+                    <!-- === [upper-contents-area] === -->
+                    <div class="upper-contents-area">
+                        <!-- === [lead-area] === -->
+                        <div class="lead-area">
+
+
+
+
+<!-- --------------------------------------------------------------------Product Family Start--------------------------------------------------------- -->
+<div class="heading-h1">
+
+
+    <h1>
+        NX-CIF
+    </h1>
+    <p class="sub-title">
+        NX-series Communications Interface Units
+    </p>
+</div>
+<div class="image-blockA01">
+    <div class="image-left">
+        <p class="image">
+
+            <img src="../../../images/l_3479-13-257381-198x198.jpg" width="198" height="198" alt="NX-CIF" class="nopic" />
+
+
+        </p>
+    </div>
+    <div class="description">
+        <h2 class="heading-B02">
+            Provides simplicity and flexibility in connecting serial devices to EtherCAT
+        </h2>
+        
+
+
+
+
+        <div class="item-list-link">
+            <p>
+                <a href="itemlist/index.html">
+                    <img src="../../../resources/images/icon_right_b.gif" width="3" height="9" alt="" class="iconA01" />
+                    Item list of NX-CIF
+                </a>
+            </p>
+        </div>
+    </div>
+<!-- /.image-blockA01 -->
+</div>
+
+
+
+                        </div>
+                        <!-- === /[lead-area] === -->
+
+
+                        <!-- === [utility-area] === -->
+                        <div class="utility-area">                         
+                       
+                            <div class="action-block">
+                                <p>
+                                    about this Product Family
+                                </p>
+                                <ul>
+                                    <li class="first-child">
+                                        <a href="../../../view/contact/input.php">
+                                            Inquiry of this Product
+                                        </a>
+                                    </li>                                 
+                                </ul>
+                            </div>
+
+
+
+
+<div class="related-info-blockA01 vertical-slide">
+
+    <p>
+        <span>Related Contents</span>
+    </p>
+
+
+        
+
+        <ul>
+            <li class="first-child">
+                <span>Automation Systems</span>
+            </li>
+            <li>
+                <ul class="list-indent01">
+
+
+                    <li class="first-child">
+
+
+                        <a href="../../applications/category/automation-systems/index.html">
+                            <img src="../../../resources/images/icon_right_b.gif" width="3" height="9" alt="" class="iconA01" />
+                            Applications 
+                        </a>
+                    </li>
+
+                </ul>
+            </li>
+        </ul>
+
+        <ul>
+            <li class="first-child">
+                <span>Machine Automation Controllers</span>
+            </li>
+            <li>
+                <ul class="list-indent01">
+
+
+                    <li class="first-child">
+
+
+                        <a href="../../index/automation-systems/machine-automation-controllers/index.html">
+                            <img src="../../../resources/images/icon_right_b.gif" width="3" height="9" alt="" class="iconA01" />
+                            Item A to Z Index 
+                        </a>
+                    </li>
+
+
+
+                    <li>
+
+                        <a href="../../../support/glossary/automation-systems/machine-automation-controllers/index.html">
+                            <img src="../../../resources/images/icon_right_b.gif" width="3" height="9" alt="" class="iconA01" />
+                            Glossary of Industrial Automation 
+                        </a>
+                    </li>
+
+                </ul>
+            </li>
+        </ul>
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- /.related-info-blockA01 -->
+</div>
+
+
+
+                           
+                        </div>
+                        <!-- === /[utility-area] === -->
+
+                    </div>
+                    <!-- === /[upper-contents-area] === -->
+
+                    <!-- === [primary-contents-area] === -->
+                    <div class="primary-contents-area">
+                        <div class="tabpanel-blockA01">
+
+
+
+
+
+
+<div class="tab-block">
+    <ul class="tabs">
+
+
+
+
+
+
+
+        <li>
+            <a href="feature.html">Features</a>
+
+        </li>
+
+
+
+
+
+
+
+
+        <li>
+            <a href="lineup.html">Lineup</a>
+
+        </li>
+
+
+
+
+
+
+
+
+        <li class="active">
+            <span>Specifications</span>
+
+        </li>
+
+
+
+
+
+
+
+
+        <li>
+            <a href="dimension.html">Dimensions</a>
+
+        </li>
+
+
+
+
+
+
+        <li>
+            <a href="download/catalog.html">Catalog</a>
+
+        </li>
+
+
+
+
+
+    </ul>
+</div><!-- /.tab-block -->
+
+<div class="editable-block">
+
+
+<p class="date-line">last update: October 11, 2016</p>
+
+
+
+
+
+
+
+
+
+<h4 class="heading-A02">General Specification</h4>
+
+
+
+
+
+
+
+
+
+
+<div class="component-blockA01">
+
+
+
+
+
+    <div class="text">
+        <p>
+            
+						<div class="table-blockA01">
+							<table class="tableA01" cellspacing="0" border="0">
+								<tr class="first-child">
+									<th colspan="2" rowspan="1" class="heading center middle"><strong>Item</strong></th>
+									<th class="heading center middle"><strong>Specification</strong></th>
+								</tr>
+								<tr>
+									<th colspan="2" rowspan="1" class="heading left middle"><strong>Enclosure</strong></th>
+									<td class="left middle">Mounted in a panel.</td>
+								</tr>
+								<tr>
+									<th colspan="2" rowspan="1" class="heading left middle"><strong>Grounding method</strong></th>
+									<td class="left middle">Ground of 100 Ω or less.
+<br />
+If a conductive DIN Track is used, a Communications Interface Units
+<br />
+is grounded through the DIN Track from the System Power Supply
+<br />
+Unit. If a non-conductive DIN Track is used, a Communications
+<br />
+Interface Units is grounded from the FG terminal.</td>
+								</tr>
+								<tr>
+									<th colspan="1" rowspan="13" class="heading left middle"><strong>Operating
+<br />
+environment</strong></th>
+									<th class="heading left middle"><strong>Ambient operating
+<br />
+temperature</strong></th>
+									<td class="left middle">0 to 55°C</td>
+								</tr>
+								<tr>
+									<th class="heading left middle"><strong>Ambient operating
+<br />
+humidity</strong></th>
+									<td class="left middle">10% to 95% (with no condensation or icing)</td>
+								</tr>
+								<tr>
+									<th class="heading left middle"><strong>Atmosphere</strong></th>
+									<td class="left middle">Must be free from corrosive gases.</td>
+								</tr>
+								<tr>
+									<th class="heading left middle"><strong>Ambient storage
+<br />
+temperature</strong></th>
+									<td class="left middle">-25 to 70°C (with no condensation or icing)</td>
+								</tr>
+								<tr>
+									<th class="heading left middle"><strong>Altitude</strong></th>
+									<td class="left middle">2,000 m max.</td>
+								</tr>
+								<tr>
+									<th class="heading left middle"><strong>Pollution degree</strong></th>
+									<td class="left middle">2 or less: Conforms to JIS B 3502 and IEC 61131-2.</td>
+								</tr>
+								<tr>
+									<th class="heading left middle"><strong>Noise immunity</strong></th>
+									<td class="left middle">2 kV on power supply line (Conforms to IEC 61000-4-4.)</td>
+								</tr>
+								<tr>
+									<th class="heading left middle"><strong>Overvoltage category</strong></th>
+									<td class="left middle">Category II: Conforms to JIS B 3502 and IEC 61131-2.</td>
+								</tr>
+								<tr>
+									<th class="heading left middle"><strong>EMC immunity level</strong></th>
+									<td class="left middle">Zone B</td>
+								</tr>
+								<tr>
+									<th class="heading left middle"><strong>Vibration resistance</strong></th>
+									<td class="left middle">Conforms to IEC 60068-2-6.
+<br />
+5 to 8.4 Hz with 3.5-mm amplitude, 8.4 to 150 Hz, Acceleration of
+<br />
+9.8 m/s<sup>2</sup>, 100 min in X, Y, and Z directions (10 sweeps of 10 min
+<br />
+each = 100 min total)</td>
+								</tr>
+								<tr>
+									<th class="heading left middle"><strong>Shock resistance</strong></th>
+									<td class="left middle">Conforms to IEC 60068-2-27. 147 m/s<sup>2</sup>, 3 times each in X, Y, and
+<br />
+Z directions</td>
+								</tr>
+								<tr>
+									<th class="heading left middle"><strong>Insulation resistance</strong></th>
+									<td class="left middle">20 MΩ min. between isolated circuits (at 100 VDC)</td>
+								</tr>
+								<tr>
+									<th class="heading left middle"><strong>Dielectric strength</strong></th>
+									<td class="left middle">510 VAC between isolated circuits for 1 minute with leakage current
+<br />
+of 5 mA max.</td>
+								</tr>
+								<tr>
+									<th colspan="2" rowspan="1" class="heading left middle"><strong>Applicable standards *</strong></th>
+									<td class="left middle">cULus: Listed (UL508), ANSI/ISA 12.12.01, EU: EN 61131-2, RCM,
+<br />
+and KC: KC Registration</td>
+								</tr>
+							</table>
+						</div>
+					
+        </p>
+    </div>
+
+
+
+
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="component-blockA01">
+
+
+
+
+
+    <div class="text">
+        <p>
+            * Refer to the OMRON website (http://www.ia.omron.com/) or consult your OMRON representative for the most recent applicable standards for each model.
+        </p>
+    </div>
+
+
+
+
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<h4 class="heading-A02">Specifications of Individual Units</h4>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<h4 class="heading-B02">NX-CIF101</h4>
+
+
+
+
+
+
+
+<div class="component-blockA01">
+
+
+
+
+
+    <div class="text">
+        <p>
+            
+						<div class="table-blockA01">
+							<table class="tableA01" cellspacing="0" border="0">
+								<tbody>
+									<tr class="first-child">
+										<th colspan="2" rowspan="1" class="heading center middle"><strong>Item</strong></th>
+										<th class="heading center middle"><strong>Specification</strong></th>
+									</tr>
+									<tr>
+										<th colspan="2" rowspan="1" class="heading left middle"><strong>Number of ports</strong></th>
+										<td class="left middle">1</td>
+									</tr>
+									<tr>
+										<th colspan="2" rowspan="1" class="heading left middle"><strong>Communications ports</strong></th>
+										<td class="left middle">RS-232C</td>
+									</tr>
+									<tr>
+										<th colspan="2" rowspan="1" class="heading left middle"><strong>Communications protocol</strong></th>
+										<td class="left middle">No-protocol</td>
+									</tr>
+									<tr>
+										<th colspan="1" rowspan="13" class="heading left middle"><strong>Communications
+<br />
+specifications</strong></th>
+										<th class="heading left middle"><strong>Communications method</strong></th>
+										<td class="left middle">Full duplex</td>
+									</tr>
+									<tr>
+										<th class="heading left middle"><strong>Signal lines *1</strong></th>
+										<td class="left middle">---</td>
+									</tr>
+									<tr>
+										<th class="heading left middle"><strong>Baud rate [bps] *1</strong></th>
+										<td class="left middle">1,200, 2,400, 4,800, 9,600, 19,200, 38,400, 57,600,
+<br />
+115,200, or 230,400</td>
+									</tr>
+									<tr>
+										<th class="heading left middle"><strong>Data length [bits] *1</strong></th>
+										<td class="left middle">7 or 8</td>
+									</tr>
+									<tr>
+										<th class="heading left middle"><strong>Parity *1</strong></th>
+										<td class="left middle">Even, odd, or none</td>
+									</tr>
+									<tr>
+										<th class="heading left middle"><strong>Start bits [bits]</strong></th>
+										<td class="left middle">Always 1.</td>
+									</tr>
+									<tr>
+										<th class="heading left middle"><strong>Stop bits [bits] *1</strong></th>
+										<td class="left middle">1 or 2</td>
+									</tr>
+									<tr>
+										<th class="heading left middle"><strong>Flow control *1</strong></th>
+										<td class="left middle">None, RS/CS flow control, or Xon/Xoff control</td>
+									</tr>
+									<tr>
+										<th class="heading left middle"><strong>Flow control target *1</strong></th>
+										<td class="left middle">Send/receive, send only, or receive only</td>
+									</tr>
+									<tr>
+										<th class="heading left middle"><strong>Initial RS signal value *1 *2</strong></th>
+										<td class="left middle">ON or OFF</td>
+									</tr>
+									<tr>
+										<th class="heading left middle"><strong>Number of characters to
+<br />
+determine the end *1 *3</strong></th>
+										<td class="left middle">0 to 10,000 (in increments of 0.1 character))
+<br />
+0: The end is not detected.</td>
+									</tr>
+									<tr>
+										<th class="heading left middle"><strong>Maximum communications
+<br />
+distance [m]</strong></th>
+										<td class="left middle">15 *4</td>
+									</tr>
+									<tr>
+										<th class="heading left middle"><strong>Connection configuration</strong></th>
+										<td class="left middle">1:1</td>
+									</tr>
+									<tr>
+										<th colspan="2" rowspan="1" class="heading left middle"><strong>I/O refreshing method</strong></th>
+										<td class="left middle">Free-Run refreshing only</td>
+									</tr>
+									<tr>
+										<th colspan="2" rowspan="1" class="heading left middle"><strong>PDO data size [bytes] *1</strong></th>
+										<td class="left middle">Inputs or outputs: 4, 8, 12, 16, 20, 24, 28, 32, 36,
+<br />
+40, 44, 48, 52, 56, 60, 64, 68, 72, 76, or 80</td>
+									</tr>
+									<tr>
+										<th colspan="2" rowspan="1" class="heading left middle"><strong>Transmission buffering enable/disable setting *1</strong></th>
+										<td class="left middle">Enabled or disabled</td>
+									</tr>
+									<tr>
+										<th colspan="2" rowspan="1" class="heading left middle"><strong>Functions to back up data</strong></th>
+										<td class="left middle">Provided. *5</td>
+									</tr>
+									<tr>
+										<th colspan="2" rowspan="1" class="heading left middle"><strong>Terminating resistance setting</strong></th>
+										<td class="left middle">---</td>
+									</tr>
+									<tr>
+										<th colspan="2" rowspan="1" class="heading left middle"><strong>Isolation method</strong></th>
+										<td class="left middle">No isolation</td>
+									</tr>
+									<tr>
+										<th colspan="2" rowspan="1" class="heading left middle"><strong>Power consumption</strong></th>
+										<td class="left middle">• Connected to a CPU Unit
+<br />
+1.10 W max.
+<br />
+• Connected to a Communications Coupler Unit
+<br />
+0.90 W max.</td>
+									</tr>
+									<tr>
+										<th colspan="2" rowspan="1" class="heading left middle"><strong>Weight</strong></th>
+										<td class="left middle">66 g max.</td>
+									</tr>
+									<tr>
+										<th colspan="2" rowspan="1" class="heading left middle"><strong>Installation orientation and restrictions</strong></th>
+										<td class="left middle">Installation orientation:
+<br />
+• Connected to a CPU Unit: Possible in upright installation.
+<br />
+• Connected to a Communications Coupler Unit:
+<br />
+Possible in 6 orientations.
+<br />
+Restrictions: There are no restrictions.</td>
+									</tr>
+								</tbody>
+							</table>
+						</div>
+					
+        </p>
+    </div>
+
+
+
+
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="component-blockA01">
+
+
+
+
+
+    <div class="text">
+        <p>
+            *1. Setting is possible in the Unit operation settings of the Sysmac Studio.
+<br />
+*2. This is the value of the RS signal when the port enters the Operational state or immediately after the port is restarted.
+<br />
+       The initial value is disabled when RS/CS flow control is set.
+<br />
+*3. This setting is provided for communications protocols that assume the end of the data if data is not received for a
+<br />
+       specific period of time. For example, if the number of characters to determine the end is set to 35, the end of the
+<br />
+       data will be assumed if data is not received for the time required to receive 3.5 characters.
+<br />
+*4. If the baud rate is set to higher than 19,200 bps, refer to the manual for the remote communications device.
+<br />
+*5. The settings that are backed up are saved in memory in the Communications Coupler Unit. The settings that are
+<br />
+       backed up are not saved in the Communications Interface Units.
+        </p>
+    </div>
+
+
+
+
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<h4 class="heading-B02">NX-CIF105</h4>
+
+
+
+
+
+
+
+<div class="component-blockA01">
+
+
+
+
+
+    <div class="text">
+        <p>
+            
+						<div class="table-blockA01">
+							<table class="tableA01" cellspacing="0" border="0">
+								<tbody>
+									<tr class="first-child">
+										<th colspan="2" rowspan="1" class="heading center middle"><strong>Item</strong></th>
+										<th class="heading center middle"><strong>Specification</strong></th>
+									</tr>
+									<tr>
+										<th colspan="2" rowspan="1" class="heading left middle"><strong>Number of ports</strong></th>
+										<td class="left middle">1</td>
+									</tr>
+									<tr>
+										<th colspan="2" rowspan="1" class="heading left middle"><strong>Communications ports</strong></th>
+										<td class="left middle">RS-422A/485</td>
+									</tr>
+									<tr>
+										<th colspan="2" rowspan="1" class="heading left middle"><strong>Communications protocol</strong></th>
+										<td class="left middle">No-protocol</td>
+									</tr>
+									<tr>
+										<th colspan="1" rowspan="13" class="heading left middle"><strong>Communications
+<br />
+specifications</strong></th>
+										<th class="heading left middle"><strong>Communications method</strong></th>
+										<td class="left middle">Half duplex for two-wire connection, Full duplex for
+<br />
+four-wire connection</td>
+									</tr>
+									<tr>
+										<th class="heading left middle"><strong>Signal lines *1</strong></th>
+										<td class="left middle">Two lines or four lines</td>
+									</tr>
+									<tr>
+										<th class="heading left middle"><strong>Baud rate [bps] *1</strong></th>
+										<td class="left middle">1,200, 2,400, 4,800, 9,600, 19,200, 38,400, 57,600,
+<br />
+115,200, or 230,400</td>
+									</tr>
+									<tr>
+										<th class="heading left middle"><strong>Data length [bits] *1</strong></th>
+										<td class="left middle">7 or 8</td>
+									</tr>
+									<tr>
+										<th class="heading left middle"><strong>Parity *1</strong></th>
+										<td class="left middle">Even, odd, or none</td>
+									</tr>
+									<tr>
+										<th class="heading left middle"><strong>Start bits [bits]</strong></th>
+										<td class="left middle">Always 1.</td>
+									</tr>
+									<tr>
+										<th class="heading left middle"><strong>Stop bits [bits] *1</strong></th>
+										<td class="left middle">1 or 2</td>
+									</tr>
+									<tr>
+										<th class="heading left middle"><strong>Flow control *1</strong></th>
+										<td class="left middle">None or Xon/Xoff control</td>
+									</tr>
+									<tr>
+										<th class="heading left middle"><strong>Flow control target *1</strong></th>
+										<td class="left middle">Send/receive, send only, or receive only</td>
+									</tr>
+									<tr>
+										<th class="heading left middle"><strong>Initial RS signal value *1 *2</strong></th>
+										<td class="left middle">ON or OFF</td>
+									</tr>
+									<tr>
+										<th class="heading left middle"><strong>Number of characters to
+<br />
+determine the end *1 *3</strong></th>
+										<td class="left middle">0 to 10,000 (in increments of 0.1 character))
+<br />
+0: The end is not detected.</td>
+									</tr>
+									<tr>
+										<th class="heading left middle"><strong>Maximum communications
+<br />
+distance [m]</strong></th>
+										<td class="left middle">1,200 *4</td>
+									</tr>
+									<tr>
+										<th class="heading left middle"><strong>Connection configuration</strong></th>
+										<td class="left middle">1:N
+<br />
+Maximum value of N is 32.
+<br />
+You can change between two-wire and four-wire
+<br />
+connections.</td>
+									</tr>
+									<tr>
+										<th colspan="2" rowspan="1" class="heading left middle"><strong>I/O refreshing method</strong></th>
+										<td class="left middle">Free-Run refreshing only</td>
+									</tr>
+									<tr>
+										<th colspan="2" rowspan="1" class="heading left middle"><strong>PDO data size [bytes] *1</strong></th>
+										<td class="left middle">Inputs or outputs: 4, 8, 12, 16, 20, 24, 28, 32, 36,
+<br />
+40, 44, 48, 52, 56, 60, 64, 68, 72, 76, or 80</td>
+									</tr>
+									<tr>
+										<th colspan="2" rowspan="1" class="heading left middle"><strong>Transmission buffering enable/disable setting *1</strong></th>
+										<td class="left middle">Enabled or disabled</td>
+									</tr>
+									<tr>
+										<th colspan="2" rowspan="1" class="heading left middle"><strong>Functions to back up data</strong></th>
+										<td class="left middle">Provided. *5</td>
+									</tr>
+									<tr>
+										<th colspan="2" rowspan="1" class="heading left middle"><strong>Terminating resistance setting</strong></th>
+										<td class="left middle">Possible</td>
+									</tr>
+									<tr>
+										<th colspan="2" rowspan="1" class="heading left middle"><strong>Isolation method</strong></th>
+										<td class="left middle">Power supply: transformer and photocoupler
+<br />
+Signals: Digital isolators</td>
+									</tr>
+									<tr>
+										<th colspan="2" rowspan="1" class="heading left middle"><strong>Power consumption</strong></th>
+										<td class="left middle">• Connected to a CPU Unit
+<br />
+1.65 W max.
+<br />
+• Connected to a Communications Coupler Unit
+<br />
+1.45 W max.</td>
+									</tr>
+									<tr>
+										<th colspan="2" rowspan="1" class="heading left middle"><strong>Weight</strong></th>
+										<td class="left middle">69 g max.</td>
+									</tr>
+									<tr>
+										<th colspan="2" rowspan="1" class="heading left middle"><strong>Installation orientation and restrictions</strong></th>
+										<td class="left middle">Installation orientation:
+<br />
+• Connected to a CPU Unit: Possible in upright installation.
+<br />
+• Connected to a Communications Coupler Unit:
+<br />
+Possible in 6 orientations.
+<br />
+Restrictions: There are no restrictions.</td>
+									</tr>
+								</tbody>
+							</table>
+						</div>
+					
+        </p>
+    </div>
+
+
+
+
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="component-blockA01">
+
+
+
+
+
+    <div class="text">
+        <p>
+            *1. Setting is possible in the Unit operation settings of the Sysmac Studio.
+<br />
+*2. This is the value of the RS signal when the port enters the Operational state or immediately after the port is restarted.
+<br />
+       The initial value is disabled when RS/CS flow control is set. It is also disabled for the NX-CIF105.
+<br />
+*3. This setting is provided for communications protocols that assume the end of the data if data is not received for a
+<br />
+       specific period of time. For example, if the number of characters to determine the end is set to 35, the end of the
+<br />
+       data will be assumed if data is not received for the time required to receive 3.5 characters.
+<br />
+*4. The maximum total cable length for multidrop connections is 1,200 m.
+<br />
+*5. The settings that are backed up are saved in memory in the Communications Coupler Unit. The settings that are
+<br />
+       backed up are not saved in the Communications Interface Units.
+        </p>
+    </div>
+
+
+
+
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<h4 class="heading-B02">NX-CIF210</h4>
+
+
+
+
+
+
+
+<div class="component-blockA01">
+
+
+
+
+
+    <div class="text">
+        <p>
+            
+						<div class="table-blockA01">
+							<table class="tableA01" cellspacing="0" border="0">
+								<tbody>
+									<tr class="first-child">
+										<th colspan="2" rowspan="1" class="heading center middle"><strong>Item</strong></th>
+										<th class="heading center middle"><strong>Specification</strong></th>
+									</tr>
+									<tr>
+										<th colspan="2" rowspan="1" class="heading left middle"><strong>Number of ports</strong></th>
+										<td class="left middle">2</td>
+									</tr>
+									<tr>
+										<th colspan="2" rowspan="1" class="heading left middle"><strong>Communications ports</strong></th>
+										<td class="left middle">RS-232C</td>
+									</tr>
+									<tr>
+										<th colspan="2" rowspan="1" class="heading left middle"><strong>Communications protocol</strong></th>
+										<td class="left middle">No-protocol</td>
+									</tr>
+									<tr>
+										<th colspan="1" rowspan="13" class="heading left middle"><strong>Communications
+<br />
+specifications</strong></th>
+										<th class="heading left middle"><strong>Communications method</strong></th>
+										<td class="left middle">Full duplex</td>
+									</tr>
+									<tr>
+										<th class="heading left middle"><strong>Signal lines *1</strong></th>
+										<td class="left middle">---</td>
+									</tr>
+									<tr>
+										<th class="heading left middle"><strong>Baud rate [bps] *1</strong></th>
+										<td class="left middle">1,200, 2,400, 4,800, 9,600, 19,200, 38,400, 57,600,
+<br />
+115,200, or 230,400</td>
+									</tr>
+									<tr>
+										<th class="heading left middle"><strong>Data length [bits] *1</strong></th>
+										<td class="left middle">7 or 8</td>
+									</tr>
+									<tr>
+										<th class="heading left middle"><strong>Parity *1</strong></th>
+										<td class="left middle">Even, odd, or none</td>
+									</tr>
+									<tr>
+										<th class="heading left middle"><strong>Start bits [bits]</strong></th>
+										<td class="left middle">Always 1.</td>
+									</tr>
+									<tr>
+										<th class="heading left middle"><strong>Stop bits [bits] *1</strong></th>
+										<td class="left middle">1 or 2</td>
+									</tr>
+									<tr>
+										<th class="heading left middle"><strong>Flow control *1</strong></th>
+										<td class="left middle">None, RS/CS flow control, or Xon/Xoff control</td>
+									</tr>
+									<tr>
+										<th class="heading left middle"><strong>Flow control target *1</strong></th>
+										<td class="left middle">Send/receive, send only, or receive only</td>
+									</tr>
+									<tr>
+										<th class="heading left middle"><strong>Initial RS signal value *1 *2</strong></th>
+										<td class="left middle">ON or OFF</td>
+									</tr>
+									<tr>
+										<th class="heading left middle"><strong>Number of characters to
+<br />
+determine the end *1 *3</strong></th>
+										<td class="left middle">0 to 10,000 (in increments of 0.1 character))
+<br />
+0: The end is not detected.</td>
+									</tr>
+									<tr>
+										<th class="heading left middle"><strong>Maximum communications
+<br />
+distance [m]</strong></th>
+										<td class="left middle">15 *4</td>
+									</tr>
+									<tr>
+										<th class="heading left middle"><strong>Connection configuration</strong></th>
+										<td class="left middle">1:1</td>
+									</tr>
+									<tr>
+										<th colspan="2" rowspan="1" class="heading left middle"><strong>I/O refreshing method</strong></th>
+										<td class="left middle">Free-Run refreshing only</td>
+									</tr>
+									<tr>
+										<th colspan="2" rowspan="1" class="heading left middle"><strong>PDO data size [bytes] *1</strong></th>
+										<td class="left middle">Inputs or outputs: 4, 8, 12, 16, 20, 24, 28, 32, 36,
+<br />
+40, 44, 48, 52, 56, 60, 64, 68, 72, 76, or 80</td>
+									</tr>
+									<tr>
+										<th colspan="2" rowspan="1" class="heading left middle"><strong>Transmission buffering enable/disable setting *1</strong></th>
+										<td class="left middle">Enabled or disabled</td>
+									</tr>
+									<tr>
+										<th colspan="2" rowspan="1" class="heading left middle"><strong>Functions to back up data</strong></th>
+										<td class="left middle">Provided. *5</td>
+									</tr>
+									<tr>
+										<th colspan="2" rowspan="1" class="heading left middle"><strong>Terminating resistance setting</strong></th>
+										<td class="left middle">---</td>
+									</tr>
+									<tr>
+										<th colspan="2" rowspan="1" class="heading left middle"><strong>Isolation method</strong></th>
+										<td class="left middle">No isolation</td>
+									</tr>
+									<tr>
+										<th colspan="2" rowspan="1" class="heading left middle"><strong>Power consumption</strong></th>
+										<td class="left middle">• Connected to a CPU Unit
+<br />
+1.15 W max.
+<br />
+• Connected to a Communications Coupler Unit
+<br />
+0.95 W max.</td>
+									</tr>
+									<tr>
+										<th colspan="2" rowspan="1" class="heading left middle"><strong>Weight</strong></th>
+										<td class="left middle">91 g max.</td>
+									</tr>
+									<tr>
+										<th colspan="2" rowspan="1" class="heading left middle"><strong>Installation orientation and restrictions</strong></th>
+										<td class="left middle">Installation orientation:
+<br />
+• Connected to a CPU Unit: Possible in upright installation.
+<br />
+• Connected to a Communications Coupler Unit:
+<br />
+Possible in 6 orientations.
+<br />
+Restrictions: There are no restrictions.</td>
+									</tr>
+								</tbody>
+							</table>
+						</div>
+					
+        </p>
+    </div>
+
+
+
+
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="component-blockA01">
+
+
+
+
+
+    <div class="text">
+        <p>
+            *1. Setting is possible in the Unit operation settings of the Sysmac Studio.
+<br />
+*2. This is the value of the RS signal when the port enters the Operational state or immediately after the port is restarted.
+<br />
+       The initial value is disabled when RS/CS flow control is set.
+<br />
+*3. This setting is provided for communications protocols that assume the end of the data if data is not received for a
+<br />
+       specific period of time. For example, if the number of characters to determine the end is set to 35, the end of the
+<br />
+       data will be assumed if data is not received for the time required to receive 3.5 characters.
+<br />
+*4. If the baud rate is set to higher than 19,200 bps, refer to the manual for the remote communications device.
+<br />
+*5. The settings that are backed up are saved in memory in the Communications Coupler Unit. The settings that are
+<br />
+       backed up are not saved in the Communications Interface Units.
+        </p>
+    </div>
+
+
+
+
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<h4 class="heading-A02">Version Information</h4>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<h4 class="heading-A03">Connecting with CPU Units</h4>
+
+
+
+
+
+
+
+
+
+<div class="component-blockA01">
+
+
+
+
+
+    <div class="text">
+        <p>
+            Refer to the user's manual for the CPU Unit for the CPU Unit to which NX Units can be connected.
+        </p>
+    </div>
+
+
+
+
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="component-blockA01">
+
+
+
+
+
+    <div class="text">
+        <p>
+            
+          <div class="table-blockA01">
+							<table class="tableA01" cellspacing="0" border="0">
+								<tr class="first-child">
+									<th colspan="2" rowspan="1" class="heading center middle"><strong>NX Unit</strong></th>
+									<th colspan="2" rowspan="1" class="heading center middle"><strong>Corresponding version *</strong></th>
+								</tr>
+								<tr>
+									<th class="heading center middle"><strong>Model</strong></th>
+									<th class="heading center middle"><strong>Unit version</strong></th>
+									<th class="heading center middle"><strong>CPU Unit</strong></th>
+									<th class="heading center middle"><strong>Sysmac Studio</strong></th>
+								</tr>
+								<tr>
+									<td class="left middle">NX-CIF101</td>
+									<td colspan="1" rowspan="3" class="center middle">Ver.1.0</td>
+									<td colspan="1" rowspan="3" class="center middle">Ver.1.13 or later</td>
+									<td colspan="1" rowspan="3" class="center middle">Ver.1.17 or higher</td>
+								</tr>
+								<tr>
+									<td class="left middle">NX-CIF105</td>
+								</tr>
+								<tr>
+									<td class="left middle">NX-CIF210</td>
+								</tr>
+							</table>
+						</div>
+        
+        </p>
+    </div>
+
+
+
+
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="component-blockA01">
+
+
+
+
+
+
+    <div class="text">
+        <p>
+            * Some Units do not have all of the versions given in the table. If a Unit does not have the specified version, support is provided by the oldest available version after the specified version. Refer to the user's manuals for the specific Units for the relation between models and versions.
+        </p>
+    </div>
+
+
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<h4 class="heading-A03">Connecting with Communications Coupler Unit</h4>
+
+
+
+
+
+
+
+
+
+<div class="component-blockA01">
+
+
+
+
+
+    <div class="text">
+        <p>
+            
+          <div class="table-blockA01">
+							<table class="tableA01" cellspacing="0" border="0">
+								<tr class="first-child">
+									<th colspan="2" rowspan="1" class="heading center middle"><strong>NX Unit</strong></th>
+									<th colspan="5" rowspan="1" class="heading center middle"><strong>Corresponding version *1</strong></th>
+								</tr>
+								<tr>
+									<th colspan="1" rowspan="2" class="heading center middle"><strong>Model</strong></th>
+									<th colspan="1" rowspan="2" class="heading center middle"><strong>Unit
+<br />
+version</strong></th>
+									<th colspan="3" rowspan="1" class="heading center middle"><strong>EtherCAT</strong></th>
+									<th colspan="2" rowspan="1" class="heading center middle"><strong>EtherNet/IP</strong></th>
+								</tr>
+								<tr>
+									<th class="heading center middle"><strong>Communi-
+<br />
+cations
+<br />
+Coupler Unit</strong></th>
+									<th class="heading center middle"><strong>NJ/NX-series
+<br />
+CPU Units or
+<br />
+NYseries
+<br />
+Industrial
+<br />
+PCs *2</strong></th>
+									<th class="heading center middle"><strong>Sysmac
+<br />
+Studio</strong></th>
+									<th class="heading center middle"><strong>Communi-
+<br />
+cations
+<br />
+Coupler Unit</strong></th>
+									<th class="heading center middle"><strong>Sysmac
+<br />
+Studio</strong></th>
+								</tr>
+								<tr>
+									<td class="left middle">NX-CIF101</td>
+									<td colspan="1" rowspan="3" class="center middle">Ver.1.0</td>
+									<td colspan="1" rowspan="3" class="center middle">Ver.1.0 or later</td>
+									<td colspan="1" rowspan="3" class="center middle">Ver.1.11 or later</td>
+									<td colspan="1" rowspan="3" class="center middle">Ver.1.15 or higher</td>
+									<td colspan="1" rowspan="3" class="center middle">-</td>
+									<td colspan="1" rowspan="3" class="center middle">-</td>
+								</tr>
+								<tr>
+									<td class="left middle">NX-CIF105</td>
+								</tr>
+								<tr>
+									<td class="left middle">NX-CIF210</td>
+								</tr>
+							</table>
+						</div>
+        
+        </p>
+    </div>
+
+
+
+
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="component-blockA01">
+
+
+
+
+
+    <div class="text">
+        <p>
+            *1. Some Units do not have all of the versions given in the above table. If a Unit does not have the specified version,
+<br />
+       support is provided by the oldest available version after the specified version. Refer to the user's manuals for the
+<br />
+       specific Units for the relation between models and versions.
+<br />
+*2. The serial communications instructions for the CIF Units are supported by CPU Units with unit version 1.11 or later.
+<br />
+       If it is not used, it is available for a CPU Unit with unit version 1.10. Refer to the Instructions Reference Manual
+<br />
+       for the CPU Unit or Industrial PC for the serial communications instructions for the CIF Units.
+        </p>
+    </div>
+
+
+
+
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<p class="date-line">last update: October 11, 2016</p>
+
+</div>
+
+                        </div>
+                    </div>
+	            <!-- === /[primary-contents-area] === -->
+                </div>
+                <!-- === /[inner-contents-area] === -->
+
+
+                <!-- === [local-navi] === -->
+                <div class="local-navi-area">
+                    <div class="local-navi-area">
+
+
+
+<div class="local-naviA01">
+<h2 class="heading-link">
+<a href="../../category/index.html" ><img src="../../../resources/images/icon_right_b.gif" width="3" height="9" alt="" class="iconA01" />Product Category</a>
+</h2>
+<ul><li><a href="../../category/automation-systems/index-2.html"><img src="../../../resources/images/icon_right_b.gif" width="3" height="9" alt="" class="iconA01" />Automation Systems</a><ul class="list-indent01"><li><a href="../../category/automation-systems/machine-automation-controllers/index-2.html"><img src="../../../resources/images/icon_right_b.gif" width="3" height="9" alt="" class="iconA01" />Machine Automation Controllers</a><ul class="list-indent02"><li><a href="../../category/automation-systems/machine-automation-controllers/ethercat-slave-terminals-nx-series/index.html"><img src="../../../resources/images/icon_right_b.gif" width="3" height="9" alt="" class="iconA01" />EtherCAT Slave Terminals NX-Series</a><ul class="list-indent03"><li><a href="../../category/automation-systems/machine-automation-controllers/ethercat-slave-terminals-nx-series/communications-interface-units/index.html"><img src="../../../resources/images/icon_right_b.gif" width="3" height="9" alt="" class="iconA01" />Communications Interface Units</a><ul class="list-indent04"><li class="stay"><span>NX-CIF</span></li></ul></li></ul></li></ul></li></ul></li></ul>
+<!-- /local-naviA01 -->
+</div>
+
+
+
+<div class="local-naviB01">
+<ul class="heading-link">
+
+<li class="first-child">
+<a href="../../category/index.html"><img src="../../../resources/images/icon_right_b.gif" width="3" height="9" alt="" class="iconA01" />Product Category</a>
+</li>
+
+<li>
+<a href="../../../product/cautions/index-2.html"><img src="../../../resources/images/icon_right_b.gif" width="3" height="9" alt="" class="iconA01" />Cautions</a>
+</li>
+
+<li>
+<a href="../../index/index.html"><img src="../../../resources/images/icon_right_b.gif" width="3" height="9" alt="" class="iconA01" />Item A to Z Index</a>
+</li>
+
+<li>
+<a href="../../applications/index.html"><img src="../../../resources/images/icon_right_b.gif" width="3" height="9" alt="" class="iconA01" />Applications</a>
+</li>
+
+<li>
+<a href="../../correct/index.html"><img src="../../../resources/images/icon_right_b.gif" width="3" height="9" alt="" class="iconA01" />Correction Notice</a>
+</li>
+
+</ul>
+<!-- /local-naviB01 -->
+</div>
+                    </div>
+                </div>
+                <!-- === /[local-navi] === -->
+
+            </div>
+            <!-- === /[contents-area] === -->
+
+            <!-- === [top-page-link-area] === -->
+            <div class="top-page-link-area">
+                <ul class="top-page-link-list">
+                    <li>
+                        <a href="#page-top"><img src="../../../resources/images/icon_up_b.gif" width="5" height="8" alt="" class="iconB01" />Top of Page</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- === /[top-page-link-area] === -->
+
+            <!-- === [footer-area] === -->
+
+
+<!-- === [footer-area] === -->
+<div class="footer-area">
+    <p class="non-visual">
+        <a name="footer" id="footer">Site Information</a>
+    </p>
+ 
+
+    <div class="footer-link">
+
+
+        <p class="copyright">© Copyright Kyoto Engineering &amp; Automation Ltd. All Rights Reserved.</p>
+    <!-- /.footer-link -->
+    </div>
+<!-- /.footer-area -->
+</div>
+<!-- === /[footer-area] === -->
+            <!-- === /[footer-area] === -->
+        </div>
+        <!-- === /[omron-ia] === -->
+    </body>
+
+<!-- Mirrored from www.ia.omron.com/products/family/3479/specification.html by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 16 Dec 2016 06:42:55 GMT -->
+</html>
