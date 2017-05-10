@@ -14,8 +14,8 @@
         <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
         <meta http-equiv="Content-Style-Type" content="text/css" />
         <meta http-equiv="Content-Script-Type" content="text/javascript" />
-        <title>Product Information | OMRON Industrial Automation</title>
-        <meta name="keywords" content="Product Category" />
+        <title>Product Information | Kyoto Engineering &amp; Automation Ltd.</title>
+        <meta name="keywords" content="Product Category,Hmi,plc industrial automation,touch switch,automation,home automation,sensor,switch,omron products,plc automation,hmi software,relay,servo motor,rotary encoder,plc software,magnetic door sensor,timer electrical,electric control,industrial relay,basic switch,proximity sensor,power test equipment,electrical inverter,limit switch,door sensor,safety sensor,relay switch,relay timer,timer,plc,sensor technology,plc controller,rotary encoder,power supply,sensor products,plc programmable logic controller,servo drive,motion control,robotics,energy conservation,power supply,ups,omron product catalogue,omron relay catalogue,omron plc,omron electronic components" />
         <meta name="description" content="Product Category" />
         
 
@@ -53,6 +53,9 @@
         <div class="omron-ia">
             <p class="non-visual"><a name="page-top" id="page-top">Page top</a></p>
             <!-- === [header-area] === -->
+
+
+
 
 
 <div class="header-area">
@@ -105,9 +108,14 @@
 <li class="home stay"><a href="../index.php">Home</a></li>
 <li class="product"><a href="../products/index.html">Products</a></li>
 <li class="corporate-profile"><a href="../view/contact/input.php">Contact Us</a></li>
-<li class="function-area"><div class="search"><form action="http://search2.ia.omron.com/IA/" method="get" name="search_website" id="search_website" class="search-form">
-					<p><input type="text" value="" size="20" name="q" id="search_str" class="search-str" /><input type="submit" value="Search" class="submit60L" id=""  /></p>
-				</form></div>
+<li class="function-area"><div class="search">
+    
+    <form action="https://omron.keal.com.bd/sphider/search.php" method="get">       
+<input type="text" name="query" id="query" size="40" value="" />
+      <input type="submit" value="Search" /> <input type="hidden"
+      name="search" value="1" />
+    </form>
+    </div>
 </li>
 </ul>
 
@@ -115,7 +123,7 @@
 <div class="bread-crumb-area">
 <ul>
 
-<li><a href="../index.html" >Home</a><span class="separator">&gt;</span></li>
+<li><a href="../index.php" >Home</a><span class="separator">&gt;</span></li>
 
 <li><strong>Products</strong></li>
 
@@ -147,15 +155,14 @@
 					<span style="color: rgb(85, 85, 85); font-family: Arial, sans-serif; font-size: 12px; line-height: 16px; background-color: rgb(244, 244, 244);">Product search is now easier with our new Suggest Function.</span>
 				</p>
 
-        <form action="http://www.ia.omron.com/view/search/product/index.cgi" method="get" name="search_product" id="search_product" class="search-form">
-            <div class="input-block">
-                <input type="hidden" name="headForm:doSearch" value="search" />
-                <p>
-                    <input type="text" value="" size="20" name="keyword" id="keyword" class="search-str" autocomplete="off" />
-                </p>
-                <p>
-                    <input type="submit" value="Product Search" class="submit120D" id="doSearch">
-                </p>
+        
+        <form action="https://omron.keal.com.bd/sphider/search.php" method="get">       
+<input type="text" name="query" id="query" size="40" value="" />
+      <input type="submit" value="Search" /> <input type="hidden"
+      name="search" value="1" />
+    </form>
+        
+        
                 <div class="suggest-form">
                     <div class="suggest-list" id="suggest-list1">
                         <div class="suggestBox1" id="suggestBox1" style="display: none;"></div>
@@ -1449,12 +1456,11 @@
 
 <!-- === [footer-area] === -->
 <div class="footer-area">
-    <p class="non-visual">
-        <a name="footer" id="footer">Site Information</a>
-    </p>
+    
    
     <div class="footer-link">
        
+
         <p class="copyright">© Copyright Kyoto Engineering & Automation Ltd. All Rights Reserved.</p>
     <!-- /.footer-link -->
     </div>
