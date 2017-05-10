@@ -31,7 +31,7 @@ div.global-navi-area ul li span{
 }
 @media screen and (-webkit-min-device-pixel-ratio:0) {
 	div.global-navi-area ul li{
-		margin-right:1px;
+		margin-right:3px;
 	}
 	div.global-navi-area ul li a,
 	div.global-navi-area ul li span{
