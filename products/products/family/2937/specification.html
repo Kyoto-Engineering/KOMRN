@@ -1,0 +1,2123 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<html xml:lang="en" lang="en" xmlns="http://www.w3.org/1999/xhtml">
+    
+<!-- Mirrored from www.ia.omron.com/products/family/2937/specification.html by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 15 Dec 2016 15:25:16 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=utf-8" /><!-- /Added by HTTrack -->
+<head>
+        <meta http-equiv="Content-Language" content="en" />
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <meta http-equiv="Content-Style-Type" content="text/css" />
+        <meta http-equiv="Content-Script-Type" content="text/javascript" />
+        <title>
+            G9SP Safety Controller/Specifications | OMRON by kyoto engineering &amp; Automation
+        </title>
+        <meta name="keywords" content="Safety Components,Safety Controllers,G9SP" />
+        <meta name="description" content="Safety Controller Easy programming for complex safety control" />
+        
+
+<link rel="alternate" href="../../../index.html" hreflang="en" />
+<link rel="stylesheet" type="text/css" media="all" href="../../../resources/css/common22f8.css?201611151200" />
+<link rel="stylesheet" type="text/css" media="all" href="../../../resources/css/global/common22f8.css?201611151200" />
+<link rel="stylesheet" type="text/css" media="all" href="../../../resources/css/frame_utility_tridion22f8.css?201611151200" />
+<link rel="stylesheet" type="text/css" media="print" href="../../../resources/css/print22f8.css?201611151200" />
+<script type="text/javascript" src="../../../resources/js/jquery22f8.js?201611151200"></script>
+<script type="text/javascript" src="../../../resources/js/function22f8.js?201611151200"></script>
+<script type="text/javascript" src="../../../resources/js/country_website22f8.js?201611151200"></script>
+<script type="text/javascript" src="../../../resources/js/global/ga22f8.js?201611151200"></script>
+<link rel="stylesheet" type="text/css" media="all" href="../../../resources/css/jquery-ui22f8.css?201611151200" charset='UTF-8'/>
+<link rel="stylesheet" type="text/css" media="all" href="../../../resources/css/jquery.multiselect22f8.css?201611151200" charset='UTF-8'/>
+<script type="text/javascript" language="JavaScript" src="../../../common/js/marketing_tag22f8.js?201611151200"></script>
+<script type="text/javascript" src="../../../resources/js/jquery-ui.min22f8.js?201611151200" charset='UTF-8'></script>
+<script type="text/javascript" src="../../../resources/js/jquery.ex-table-filter22f8.js?201611151200" charset='UTF-8'></script>
+<script type="text/javascript" src="../../../resources/js/jquery.tablesorter.min22f8.js?201611151200" charset='UTF-8'></script>
+<script type="text/javascript" src="../../../resources/js/filter22f8.js?201611151200" charset='UTF-8'></script>
+<link rel="shortcut icon" href="../../../resources/images/favicon.ico" type="image/x-icon" />
+
+        <link rel="stylesheet" type="text/css" media="all" href="../../../resources/css/tablesorter6c9b.css?201611150900" />
+        <script type="text/javascript" src="../../../resources/js/global/products6c9b.js?201611150900" charset='UTF-8'></script>
+<link rel="stylesheet" type="text/css" media="all" href="../../../css/index.css"/>
+<link rel="stylesheet" type="text/css" media="all" href="../../../css/top.css"/>
+    </head>
+    <body id="www-ia-omron-com" class="layoutC03 safety-components">
+
+        <!-- === [omron-ia] === -->
+        <div class="omron-ia">
+            <p class="non-visual">
+                <a name="page-top" id="page-top">
+                    Page top
+                </a>
+            </p>
+
+
+
+
+<div class="header-area">
+     <div class="site-identity">
+          <div class="site-logo">
+               <a href="../../../index.php"><img src="../../../images/logo_01_b13-260967.gif"  width="129" height="24" alt="OMRON" /></a>
+          </div>
+          <!-- /.site-identity -->
+     </div>
+    <div class="utilities">
+		<div class="country-select-area">
+			<p class="canpany">Building Automation</p>
+                        <?php echo '&nbsp' ; ?>
+                        <br/>
+                        <p class="canpany">Industrial Automation</p>
+                        <?php echo '&nbsp' ; ?>
+                        <br/>
+                        <p class="canpany">Power Automation &amp; Safety </p>
+			
+		</div>
+            
+            <div class="japani">
+                <img  src="../../../shared/img/Japani Technology mnemonic.png" width="90" height="50" alt=""/>
+            </div>
+          
+            
+            
+            <div class="flag">
+            <img src="../../../shared/img/Bangladesh-Flag_1.png" alt=""/>
+            </div>
+            <div class="kyoto">
+                <p><b>Bangladesh Distributor</b></p>
+                <img style="margin-left:-5px;"  src="../../../shared/img/Kyoto-logo-Png.png" alt=""/>
+            </div>
+	<!-- /.utilities --> </div>
+<!-- /.header-area --></div>
+
+
+
+<div class="global-navi-area">
+<ul>
+<li class="home stay"><a href="../../../index.php">Home</a></li>
+<li class="product"><a href="../../../products/index.html">Products</a></li>
+<li class="corporate-profile"><a href="../../../view/contact/input.php">Contact Us</a></li>
+<li class="function-area"><div class="search"><form action="https://omron.keal.com.bd/sphider/search.php" method="get">       
+<input type="text" name="query" id="query" size="40" value="" />
+      <input type="submit" value="Search" /> <input type="hidden"
+      name="search" value="1" />
+    </form>
+</div>
+</li>
+</ul>
+</div> 
+<div class="bread-crumb-area">
+<ul>
+
+
+<li><a href="../../../index.php" >Home</a><span class="separator">&gt;</span></li>
+
+<li><a href="../../index-2.html" >Products</a><span class="separator">&gt;</span></li>
+
+<li><a href="../../category/index.html" >Product Category</a><span class="separator">&gt;</span></li>
+
+<li><a href="../../category/safety-components/index-2.html" >Safety Components</a><span class="separator">&gt;</span></li>
+
+<li><a href="../../category/safety-components/safety-controllers/index.html" >Safety Controllers</a><span class="separator">&gt;</span></li>
+
+<li><strong>G9SP</strong></li>
+
+
+</ul>
+</div>
+
+            <!-- === [contents-area] === -->
+            <div class="contents-area">
+
+                <!-- === [inner-contents-area] === -->
+                <div class="inner-contents-area">
+                    <!-- === [upper-contents-area] === -->
+                    <div class="upper-contents-area">
+                        <!-- === [lead-area] === -->
+                        <div class="lead-area">
+
+
+
+
+<!-- --------------------------------------------------------------------Product Family Start--------------------------------------------------------- -->
+<div class="heading-h1">
+
+
+    <h1>
+        G9SP
+    </h1>
+    <p class="sub-title">
+        Safety Controller
+    </p>
+</div>
+<div class="image-blockA01">
+    <div class="image-left">
+        <p class="image">
+
+            <img src="../../..images/l_2937-13-118886-198x198.jpg" width="198" height="198" alt="G9SP" class="nopic" />
+
+
+        </p>
+    </div>
+    <div class="description">
+        <h2 class="heading-B02">
+            Easy programming for complex safety control
+        </h2>
+        
+
+
+
+
+        <div class="item-list-link">
+            <p>
+                <a href="itemlist/index.html">
+                    <img src="../../../resources/images/icon_right_b.gif" width="3" height="9" alt="" class="iconA01" />
+                    Item list of G9SP
+                </a>
+            </p>
+        </div>
+    </div>
+<!-- /.image-blockA01 -->
+</div>
+
+
+
+                        </div>
+                        <!-- === /[lead-area] === -->
+
+
+                        <!-- === [utility-area] === -->
+                        <div class="utility-area">                         
+                       
+                            <div class="action-block">
+                                <p>
+                                    about this Product Family
+                                </p>
+                                <ul>
+                                    <li class="first-child">
+                                        <a href="../../../view/contact/input.php">
+                                            Inquiry of this Product
+                                        </a>
+                                    </li>                                 
+                                </ul>
+                            </div>
+
+
+
+
+<div class="related-info-blockA01 vertical-slide">
+
+    <p>
+        <span>Related Contents</span>
+    </p>
+
+
+       
+        <ul>
+            <li class="first-child">
+                <span>Safety Controllers</span>
+            </li>
+            <li>
+                <ul class="list-indent01">
+
+
+                    <li class="first-child">
+
+
+                        <a href="../../index/safety-components/safety-controllers/index.html">
+                            <img src="../../../resources/images/icon_right_b.gif" width="3" height="9" alt="" class="iconA01" />
+                            Item A to Z Index 
+                        </a>
+                    </li>
+
+
+
+                    <li>
+
+                        <a href="../../applications/category/safety-components/safety-controllers/index.html">
+                            <img src="../../../resources/images/icon_right_b.gif" width="3" height="9" alt="" class="iconA01" />
+                            Applications 
+                        </a>
+                    </li>
+
+
+
+                    <li>
+
+                        <a href="../../../support/glossary/safety-components/safety-controllers/index.html">
+                            <img src="../../../resources/images/icon_right_b.gif" width="3" height="9" alt="" class="iconA01" />
+                            Glossary of Industrial Automation 
+                        </a>
+                    </li>
+
+                </ul>
+            </li>
+        </ul>
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- /.related-info-blockA01 -->
+</div>
+
+
+
+                           
+                        </div>
+                        <!-- === /[utility-area] === -->
+
+                    </div>
+                    <!-- === /[upper-contents-area] === -->
+
+                    <!-- === [primary-contents-area] === -->
+                    <div class="primary-contents-area">
+                        <div class="tabpanel-blockA01">
+
+
+
+
+
+
+<div class="tab-block">
+    <ul class="tabs">
+
+
+
+
+
+
+
+        <li>
+            <a href="feature.html">Features</a>
+
+        </li>
+
+
+
+
+
+
+
+
+        <li>
+            <a href="lineup.html">Lineup</a>
+
+        </li>
+
+
+
+
+
+
+
+
+        <li class="active">
+            <span>Specifications</span>
+
+        </li>
+
+
+
+
+
+
+
+
+        <li>
+            <a href="dimension.html">Dimensions</a>
+
+        </li>
+
+
+
+
+
+
+        <li>
+            <a href="download/catalog.html">Catalog</a>
+
+        </li>
+
+
+
+
+
+    </ul>
+</div><!-- /.tab-block -->
+
+<div class="editable-block">
+
+
+<p class="date-line">last update: July 01, 2014</p>
+
+
+
+
+
+
+
+
+
+
+
+<div class="component-blockA01">
+
+
+
+
+
+    <div class="text">
+        <p>
+            (Refer to Instruction Manual and Users Manual for details.)
+        </p>
+    </div>
+
+
+
+
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<h4 class="heading-A02">G9SP Series</h4>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<h4 class="heading-A03">General Specifications</h4>
+
+
+
+
+
+
+
+
+
+<div class="component-blockA01">
+
+
+
+
+
+    <div class="text">
+        <p>
+            
+          <div class="table-blockA01">
+							<table border="0" cellspacing="0" class="tableA01">
+								<tr class="first-child">
+									<th class="heading left middle"><strong>Power supply voltage</strong></th>
+									<td class="left middle">24 VDC (20.4 to 26.4 VDC -15% +10%)</td>
+								</tr>
+								<tr>
+									<th class="heading left middle"><strong>Current consumption *</strong></th>
+									<td class="left middle">G9SP-N10S: 400 mA (V1: 300 mA, V2: 100 mA)
+<br />
+G9SP-N10D: 500 mA (V1: 300 mA, V2: 200 mA)
+<br />
+G9SP-N20S: 500 mA (V1: 400 mA, V2: 100 mA)</td>
+								</tr>
+								<tr>
+									<th class="heading left middle"><strong>Isolation class</strong></th>
+									<td class="left middle">Class III (SELV)</td>
+								</tr>
+								<tr>
+									<th class="heading left middle"><strong>Overvoltage category</strong></th>
+									<td class="left middle">II</td>
+								</tr>
+								<tr>
+									<th class="heading left middle"><strong>Noise immunity</strong></th>
+									<td class="left middle">Conforms to IEC61131-2</td>
+								</tr>
+								<tr>
+									<th class="heading left middle"><strong>Vibration resistance</strong></th>
+									<td class="left middle">5 to 8.4 Hz: 3.5 mm, 8.4 to 150 Hz: 9.8 m/s<sup>2</sup></td>
+								</tr>
+								<tr>
+									<th class="heading left middle"><strong>Shock resistance</strong></th>
+									<td class="left middle">147 m/s<sup>2</sup>: 11 ms</td>
+								</tr>
+								<tr>
+									<th class="heading left middle"><strong>Mounting</strong></th>
+									<td class="left middle">DIN track mounting (IEC60715 TH35-7.5/TH35-15) or M4 screws</td>
+								</tr>
+								<tr>
+									<th class="heading left middle"><strong>Ambient operating temperature</strong></th>
+									<td class="left middle">0 to +55°C</td>
+								</tr>
+								<tr>
+									<th class="heading left middle"><strong>Ambient operating humidity</strong></th>
+									<td class="left middle">10% to 90% (with no condensation)</td>
+								</tr>
+								<tr>
+									<th class="heading left middle"><strong>Ambient storage temperature</strong></th>
+									<td class="left middle">-20°C to +75°C</td>
+								</tr>
+								<tr>
+									<th class="heading left middle"><strong>Atmosphere</strong></th>
+									<td class="left middle">No corrosive gas</td>
+								</tr>
+								<tr>
+									<th class="heading left middle"><strong>Operating altitude</strong></th>
+									<td class="left middle">2,000 m max.</td>
+								</tr>
+								<tr>
+									<th class="heading left middle"><strong>Pollution degree</strong></th>
+									<td class="left middle">Pollution degree 2</td>
+								</tr>
+								<tr>
+									<th class="heading left middle"><strong>Degree of protection</strong></th>
+									<td class="left middle">IP20 except terminal blocks</td>
+								</tr>
+								<tr>
+									<th class="heading left middle"><strong>Terminal screws</strong></th>
+									<td class="left middle">M3 self-rising screws</td>
+								</tr>
+							</table>
+						</div>
+        
+        </p>
+    </div>
+
+
+
+
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="component-blockA01">
+
+
+
+
+
+    <div class="text">
+        <p>
+            * Not including the current consumption of external devices.
+        </p>
+    </div>
+
+
+
+
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="component-blockA01">
+
+
+
+
+
+    <div class="text">
+        <p>
+            
+						<div class="table-blockA01">
+							<table border="0" cellspacing="0" class="tableA01">
+								<tr>
+									<TH class="heading right middle">
+										<strong>Model</strong>
+									</TH>
+									<td class="heading center middle">
+										<strong>G9SP-N10S</strong>
+									</td>
+									<TH class="heading center middle">
+										<strong>G9SP-N10D</strong>
+									</TH>
+									<td class="heading center middle">
+										<strong>G9SP-N20S</strong>
+									</td>
+								</tr>
+								<tr>
+									<TH class="heading left middle">
+										<strong>Safety inputs</strong>
+									</TH>
+									<td class="center middle">10</td>
+									<td class="center middle">10</td>
+									<td class="center middle">20</td>
+								</tr>
+								<tr>
+									<TH class="heading left middle">
+										<strong>Safety outputs</strong>
+									</TH>
+									<td class="center middle">4</td>
+									<td class="center middle">16</td>
+									<td class="center middle">8</td>
+								</tr>
+								<tr>
+									<TH class="heading left middle">
+										<strong>Test outputs</strong>
+									</TH>
+									<td class="center middle">4</td>
+									<td class="center middle">6</td>
+									<td class="center middle">6</td>
+								</tr>
+								<tr>
+									<TH class="heading left middle">
+										<strong>Standard outputs</strong>
+									</TH>
+									<td class="center middle">4</td>
+									<td class="center middle">-</td>
+									<td class="center middle">-</td>
+								</tr>
+								<tr>
+									<TH class="heading left middle">
+										<strong>Weight</strong>
+									</TH>
+									<td class="center middle">290 g max.</td>
+									<td class="center middle">440 g max.</td>
+									<td class="center middle">430 g max.</td>
+								</tr>
+							</table>
+						</div>
+					
+        </p>
+    </div>
+
+
+
+
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<h4 class="heading-A03">Safety Input Specifications</h4>
+
+
+
+
+
+
+
+
+
+<div class="component-blockA01">
+
+
+
+
+
+    <div class="text">
+        <p>
+            
+						<div class="table-blockA01">
+							<table border="0" cellspacing="0" class="tableA01">
+								<tr>
+									<TH class="heading left middle">
+										<strong>Input type</strong>
+									</TH>
+									<td class="left middle">Sinking inputs (PNP)</td>
+								</tr>
+								<tr>
+									<TH class="heading left middle">
+										<strong>Input current</strong>
+									</TH>
+									<td class="left middle">6 mA</td>
+								</tr>
+								<tr>
+									<TH class="heading left middle">
+										<strong>ON voltage</strong>
+									</TH>
+									<td class="left middle">11 VDC min. (between each input terminal and G1)</td>
+								</tr>
+								<tr>
+									<TH class="heading left middle">
+										<strong>OFF voltage</strong>
+									</TH>
+									<td class="left middle">5 VDC max. (between each input terminal and G1)</td>
+								</tr>
+								<tr>
+									<TH class="heading left middle">
+										<strong>OFF current</strong>
+									</TH>
+									<td class="left middle">1 mA max.</td>
+								</tr>
+							</table>
+						</div>
+					
+        </p>
+    </div>
+
+
+
+
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<h4 class="heading-A03">Test Output Specifications</h4>
+
+
+
+
+
+
+
+
+
+<div class="component-blockA01">
+
+
+
+
+
+    <div class="text">
+        <p>
+            
+						<div class="table-blockA01">
+							<table border="0" cellspacing="0" class="tableA01">
+								<tr>
+									<TH class="heading left middle">
+										<strong>Output type</strong>
+									</TH>
+									<td colspan="2" rowspan="1" class="left middle">Sourcing outputs (PNP)</td>
+								</tr>
+								<tr>
+									<TH colspan="1" rowspan="3" class="heading left middle">
+										<strong>Rated Output Current</strong>
+									</TH>
+									<td class="left middle">G9SP-N10S</td>
+									<td class="left middle">G9SP-N10S<br />T0, T1: 60 mA max.<br />T2: 30 mA max. *1<br />T3: 300 mA max. *2<br />T0-2 total: 60 mA max.</td>
+								</tr>
+								<tr>
+									<td class="left middle">G9SP-N10D</td>
+									<td class="left middle">T0, T1, T2: 60 mA max.<br />T3: 300 mA max. *2<br />T4, T5: 30 mA max. *1<br />Total of T0-2 and T4-5: 60 mA max.</td>
+								</tr>
+								<tr>
+									<td class="left middle">G9SP-N20S</td>
+									<td class="left middle">T0, T1, T2: 100 mA max.<br />T3: 300 mA max. *2<br />T4, T5: 30 mA max. *1<br />Total of T0-2 and T4-5: 120 mA max.</td>
+								</tr>
+								<tr>
+									<TH class="heading left middle">
+										<strong>ON residual voltage</strong>
+									</TH>
+									<td colspan="2" rowspan="1" class="left middle">1.8 V max. (between each output terminal and V1)</td>
+								</tr>
+								<tr>
+									<TH class="heading left middle">
+										<strong>Leakage current</strong>
+									</TH>
+									<td colspan="2" rowspan="1" class="left middle">0.1 mA max.</td>
+								</tr>
+							</table>
+						</div>
+					
+        </p>
+    </div>
+
+
+
+
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="component-blockA01">
+
+
+
+
+
+    <div class="text">
+        <p>
+            *1. Connection to OMRON D40A/D40Z Non-contact Door Switch is possible.
+<br />
+*2. With the Muting Lamp Output (open circuit detection)
+        </p>
+    </div>
+
+
+
+
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<h4 class="heading-A03">Safety Output Specifications</h4>
+
+
+
+
+
+
+
+
+
+<div class="component-blockA01">
+
+
+
+
+
+    <div class="text">
+        <p>
+            
+          <div class="table-blockA01">
+							<table border="0" cellspacing="0" class="tableA01">
+								<tr class="first-child">
+									<th class="heading left middle"><strong>Output type</strong></th>
+									<td class="left middle">Sourcing outputs (PNP)</td>
+								</tr>
+								<tr>
+									<th class="heading left middle"><strong>Rated output current</strong></th>
+									<td class="left middle">0.8 A max./output
+<br />
+1.6 A max./4 outputs (G9SP-N10S/-N20S) *1
+<br />
+1.2 A max./4 outputs (G9SP-N10D) *2</td>
+								</tr>
+								<tr>
+									<th class="heading left middle"><strong>ON residual voltage</strong></th>
+									<td class="left middle">1.2 V max. (between each output terminal and V2)</td>
+								</tr>
+								<tr>
+									<th class="heading left middle"><strong>OFF residual voltage</strong></th>
+									<td class="left middle">2 V max.</td>
+								</tr>
+								<tr>
+									<th class="heading left middle"><strong>Leakage current</strong></th>
+									<td class="left middle">0.1 mA max.</td>
+								</tr>
+							</table>
+						</div>
+        
+        </p>
+    </div>
+
+
+
+
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="component-blockA01">
+
+
+
+
+
+    <div class="text">
+        <p>
+            
+						<div style="text-align: left;">*1. Total current for So0 to So3 and So4 to So7
+<br />
+*2. Total current for So0 to So3, So4 to So7, So8 to So11 and So12 to So15
+<br />
+Note: When a safety output is set as a pulse output, make sure that the connected devices do not malfunction due to the
+<br />
+          OFF pulse (pulse width: 640 μs).</div>
+					
+        </p>
+    </div>
+
+
+
+
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<h4 class="heading-A03">Standard Output Specifications (G9SP-N10S)</h4>
+
+
+
+
+
+
+
+
+
+<div class="component-blockA01">
+
+
+
+
+
+    <div class="text">
+        <p>
+            
+						<div class="table-blockA01">
+							<table border="0" cellspacing="0" class="tableA01">
+								<tr>
+									<TH class="heading left middle">
+										<strong>Output type</strong>
+									</TH>
+									<td class="left middle">Sourcing outputs (PNP)</td>
+								</tr>
+								<tr>
+									<TH class="heading left middle">
+										<strong>ON residual voltage</strong>
+									</TH>
+									<td class="left middle">1.5 V max. (between each output terminal and V2)</td>
+								</tr>
+								<tr>
+									<TH class="heading left middle">
+										<strong>Rated output current</strong>
+									</TH>
+									<td class="left middle">100 mA max.</td>
+								</tr>
+							</table>
+						</div>
+					
+        </p>
+    </div>
+
+
+
+
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<h4 class="heading-A02">Configurator</h4>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<h4 class="heading-A03">System Requirements</h4>
+
+
+
+
+
+
+
+
+
+<div class="component-blockA01">
+
+
+
+
+
+    <div class="text">
+        <p>
+            The following system is required to operate the G9SP Configurator. Make sure your system provides the following conditions and has the necessary components.
+        </p>
+    </div>
+
+
+
+
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="component-blockA01">
+
+
+
+
+
+    <div class="text">
+        <p>
+            
+          <div class="table-blockA01">
+							<table border="0" cellspacing="0" class="tableA01">
+								<tr class="first-child">
+									<th class="heading center middle"><strong>Item</strong></th>
+									<th class="heading center middle"><strong>Description</strong></th>
+								</tr>
+								<tr>
+									<th class="heading left middle"><strong>CD-ROM or DVDROM drive</strong></th>
+									<td class="left middle">One or more</td>
+								</tr>
+								<tr>
+									<th class="heading left middle"><strong>Supported operating systems</strong></th>
+									<td class="left middle">Windows XP (Service Pack 3 or higher, except for 64-bit edition)
+<br />
+Windows Vista (Service Pack 2 or higher)
+<br />
+Windows 7
+<br />
+Note:
+<br />
+1. Administrator rights are required for installation.
+<br />
+2. Operation is possible on the 64-bit editions of Windows Vista and Windows 7.</td>
+								</tr>
+								<tr>
+									<th class="heading left middle"><strong>CPU</strong></th>
+									<td class="left middle">Computer with a processor that is recommended by Microsoft Corporation.</td>
+								</tr>
+								<tr>
+									<th class="heading left middle"><strong>RAM</strong></th>
+									<td class="left middle">Memory capacity that is recommended by Microsoft Corporation</td>
+								</tr>
+								<tr>
+									<th class="heading left middle"><strong>Required hard disk space</strong></th>
+									<td class="left middle">200 MB min.</td>
+								</tr>
+								<tr>
+									<th class="heading left middle"><strong>Display</strong></th>
+									<td class="left middle">High-luminance display of SVGA (800 × 600) min.
+<br />
+With 256 colors min.</td>
+								</tr>
+								<tr>
+									<th class="heading left middle"><strong>Connection port to Controller</strong></th>
+									<td class="left middle">USB port</td>
+								</tr>
+							</table>
+						</div>
+        
+        </p>
+    </div>
+
+
+
+
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<h4 class="heading-A03">Certified Standards</h4>
+
+
+
+
+
+
+
+
+
+
+<div class="component-blockA01 set-width" style="width:500px;">
+
+
+
+
+    <div class="text">
+        <p>
+            
+          <div class="table-blockA01">
+							<table border="0" cellspacing="0" class="tableA01">
+								<tr class="first-child">
+									<th class="heading center middle"><strong>Certifying body</strong></th>
+									<th class="heading center middle"><strong>Standard</strong></th>
+								</tr>
+								<tr>
+									<th class="heading left middle"><strong>TÜV
+<br />
+Rheinland</strong></th>
+									<td class="left middle">EN ISO 13849-1
+<br />
+EN ISO 13849-2
+<br />
+IEC 61508 parts 1-7
+<br />
+EN 62061
+<br />
+IEC 61131-2
+<br />
+EN ISO 13850
+<br />
+EN 60204-1
+<br />
+EN 61000-6-2
+<br />
+EN 61000-6-4
+<br />
+NFPA 79
+<br />
+ANSI RIA R15.06
+<br />
+ANSI B11.19
+<br />
+ANSI/UL 1998</td>
+								</tr>
+								<tr>
+									<th class="heading left middle"><strong>UL</strong></th>
+									<td class="left middle">UL508
+<br />
+CSA22.2 No.142</td>
+								</tr>
+								<tr>
+									<th class="heading left middle"><strong>KOSHA</strong></th>
+									<td class="left middle">S Mark *</td>
+								</tr>
+							</table>
+						</div>
+        
+        </p>
+    </div>
+
+
+
+
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="component-blockA01">
+
+
+
+
+
+    <div class="text">
+        <p>
+            * The G9SP-series Controller (version 1.1 or later) and the Expansion I/O Units have been certified for the KOSHA S Mark.
+        </p>
+    </div>
+
+
+
+
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<h4 class="heading-A02">Expansion I/O Unit</h4>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<h4 class="heading-A03">Input Specifications (CP1W-20EDT/20EDT1)</h4>
+
+
+
+
+
+
+
+
+
+<div class="component-blockA01">
+
+
+
+
+
+    <div class="text">
+        <p>
+            
+          <div class="table-blockA01">
+							<table border="0" cellspacing="0" class="tableA01">
+								<tbody>
+									<tr class="first-child">
+										<th class="heading center middle"><strong>Item</strong></th>
+										<th class="heading center middle"><strong>Specifications</strong></th>
+									</tr>
+									<tr>
+										<th class="heading left middle"><strong>Input voltage</strong></th>
+										<td class="left middle">24 VDC, +10%, -15%</td>
+									</tr>
+									<tr>
+										<th class="heading left middle"><strong>Input impedance</strong></th>
+										<td class="left middle">4.7 kΩ</td>
+									</tr>
+									<tr>
+										<th class="heading left middle"><strong>Input current</strong></th>
+										<td class="left middle">5 mA TYP</td>
+									</tr>
+									<tr>
+										<th class="heading left middle"><strong>ON voltage</strong></th>
+										<td class="left middle">14.4 VDC min.</td>
+									</tr>
+									<tr>
+										<th class="heading left middle"><strong>OFF voltage</strong></th>
+										<td class="left middle">5.0 VDC max.</td>
+									</tr>
+									<tr>
+										<th class="heading left middle"><strong>ON delay</strong></th>
+										<td class="left middle">1 ms max. *</td>
+									</tr>
+									<tr>
+										<th class="heading left middle"><strong>OFF delay</strong></th>
+										<td class="left middle">1 ms max. *</td>
+									</tr>
+									<tr>
+										<th class="heading left middle"><strong>Circuit configuration</strong></th>
+										<td class="left middle">
+											<div class="image"><img src="../../..images/2937_sp_9_113-181348.gif"  alt="2937_sp_9_1" title="2937_sp_9_1" style="width: 250px; height: 118px;" /></div>
+										</td>
+									</tr>
+								</tbody>
+							</table>
+						</div>
+        
+        </p>
+    </div>
+
+
+
+
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="component-blockA01">
+
+
+
+
+
+    <div class="text">
+        <p>
+            * ON/OFF delay represents the hardware delay time.
+        </p>
+    </div>
+
+
+
+
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<h4 class="heading-A03">Output Specifications (Transistor outputs: sinking/sourcing type)</h4>
+
+
+
+
+
+
+
+
+
+<div class="component-blockA01">
+
+
+
+
+
+    <div class="text">
+        <p>
+            
+          <div class="table-blockA01">
+							<table border="0" cellspacing="0" class="tableA01">
+								<tbody>
+									<tr class="first-child">
+										<th colspan="1" rowspan="2" class="heading center middle"><strong>Item</strong></th>
+										<th colspan="2" rowspan="1" class="heading center middle"><strong>Specifications</strong></th>
+									</tr>
+									<tr>
+										<th class="heading center middle"><strong>CP1W-20EDT/EDT1</strong></th>
+										<th class="heading center middle"><strong>CP1W-32ET/32ET1</strong></th>
+									</tr>
+									<tr>
+										<th colspan="1" rowspan="2" class="heading left middle"><strong>Maximum switching capacity
+<br />
+*1</strong></th>
+										<td class="left middle">24 VDC
+<br />
++10%, -5%
+<br />
+0.3 A/output</td>
+										<td class="left middle">4.5 to 30 VDC
+<br />
+0.3 A/output</td>
+									</tr>
+									<tr>
+										<td class="left middle">0.9 A/common
+<br />
+1.8 A/unit</td>
+										<td class="left middle">0.9 A/common
+<br />
+7.2 A/unit</td>
+									</tr>
+									<tr>
+										<th class="heading left middle"><strong>Leakage current</strong></th>
+										<td class="left middle">0.1 mA max.</td>
+										<td class="left middle">0.1 mA max.</td>
+									</tr>
+									<tr>
+										<th class="heading left middle"><strong>Residual voltage</strong></th>
+										<td class="left middle">1.5 V max.</td>
+										<td class="left middle">1.5 V max.</td>
+									</tr>
+									<tr>
+										<th class="heading left middle"><strong>ON delay</strong></th>
+										<td class="left middle">0.1 ms max.</td>
+										<td class="left middle">0.1 ms max.</td>
+									</tr>
+									<tr>
+										<th class="heading left middle"><strong>OFF delay</strong></th>
+										<td class="left middle">1 ms max.
+<br />
+24 VDC, +10%, -5%, when 5 to 300 mA</td>
+										<td class="left middle">1 ms max.
+<br />
+24 VDC, +10%, -5%, when 5 to 300 mA</td>
+									</tr>
+									<tr>
+										<th class="heading left middle"><strong>Maximum number of outputs
+<br />
+for simultaneous ON</strong></th>
+										<td class="left middle">8 outputs (100% load)</td>
+										<td class="left middle">24 outputs (75% load)</td>
+									</tr>
+									<tr>
+										<th class="heading left middle"><strong>Fuse *2</strong></th>
+										<td colspan="2" rowspan="1" class="left middle">1/common</td>
+									</tr>
+									<tr>
+										<th class="heading left middle"><strong>Circuit configuration</strong></th>
+										<td colspan="2" rowspan="1" class="left middle">
+											<div class="image"><img src="../../..images/2937_sp_10_113-181350.gif"  alt="2937_sp_10_1" title="2937_sp_10_1" style="width: 455px; height: 137px;" /></div>
+										</td>
+									</tr>
+								</tbody>
+							</table>
+						</div>
+        
+        </p>
+    </div>
+
+
+
+
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="component-blockA01">
+
+
+
+
+
+    <div class="text">
+        <p>
+            *1. A maximum of 0.9 A per common can be switched at an ambient temperature of 50°C.
+        </p>
+    </div>
+
+
+
+    <div class="image">
+        
+       
+        <img src="../../..images/2937_sp_1013-181349.gif"   alt="G9SP Specifications 21 "/>
+       
+    </div>
+
+
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="component-blockA01">
+
+
+
+
+
+    <div class="text">
+        <p>
+            *2. User cannot replace fuses. Replace the unit if a fuse blows due to short circuit, etc.
+        </p>
+    </div>
+
+
+
+
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<h4 class="heading-A02">Option Unit</h4>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<h4 class="heading-A03">RS-232C Option Board (CP1W-CIF01)<br/>Communication Specifications</h4>
+
+
+
+
+
+
+
+
+
+<div class="component-blockA01">
+
+
+
+
+
+    <div class="text">
+        <p>
+            
+          <div class="table-blockA01">
+							<table border="0" cellspacing="0" class="tableA01">
+								<tr class="first-child">
+									<th class="heading center middle"><strong>Item</strong></th>
+									<th class="heading center middle"><strong>Specifications</strong></th>
+								</tr>
+								<tr>
+									<th class="heading left middle"><strong>Connection method</strong></th>
+									<td class="left middle">D-SUB 9P (female)</td>
+								</tr>
+								<tr>
+									<th class="heading left middle"><strong>Maximum transmission distance</strong></th>
+									<td class="left middle">With a baud rate of 9,600 bps: 15m
+<br />
+With a baud rate of 115,200 bps: 3m</td>
+								</tr>
+								<tr>
+									<th class="heading left middle"><strong>Communication protocol</strong></th>
+									<td class="left middle">No-protocol</td>
+								</tr>
+								<tr>
+									<th class="heading left middle"><strong>Maximum data length</strong></th>
+									<td class="left middle">Refer to the Users Manual for details.</td>
+								</tr>
+								<tr>
+									<th class="heading left middle"><strong>Communication settings</strong></th>
+									<td class="left middle">Baud rate 9,600 or 115,200 bps (unit version 2.0 or later)</td>
+								</tr>
+							</table>
+						</div>
+        
+        </p>
+    </div>
+
+
+
+
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<h4 class="heading-A03">Ethernet Option Board (CP1W-CIF41 unit ver. 2.0 or later)<br/>Ethernet Communication Specifications</h4>
+
+
+
+
+
+
+
+
+
+<div class="component-blockA01">
+
+
+
+
+
+    <div class="text">
+        <p>
+            
+						<div class="table-blockA01">
+							<table border="0" cellspacing="0" class="tableA01">
+								<tr class="first-child">
+									<th colspan="2" rowspan="1" class="heading center middle"><strong>Item</strong></th>
+									<th colspan="2" rowspan="1" class="heading center middle"><strong>Specifications</strong></th>
+								</tr>
+								<tr>
+									<th colspan="2" rowspan="1" class="heading left middle"><strong>Name</strong></th>
+									<td colspan="2" rowspan="1" class="left middle">CP Series Ethernet Option Board</td>
+								</tr>
+								<tr>
+									<th colspan="2" rowspan="1" class="heading left middle"><strong>Model</strong></th>
+									<td colspan="2" rowspan="1" class="left middle">CP1W-CIF41</td>
+								</tr>
+								<tr>
+									<th colspan="2" rowspan="1" class="heading left middle"><strong>Type</strong></th>
+									<td colspan="2" rowspan="1" class="left middle">100 BASE-TX (applicable as a 10 BASE-T)</td>
+								</tr>
+								<tr>
+									<th colspan="1" rowspan="8" class="heading left middle"><strong>Transmission
+<br />
+specifications</strong></th>
+									<th class="heading left middle"><strong>Media access method</strong></th>
+									<td colspan="2" rowspan="1" class="left middle">CSMA/CD</td>
+								</tr>
+								<tr>
+									<th class="heading left middle"><strong>Modulation method</strong></th>
+									<td colspan="2" rowspan="1" class="left middle">Baseband</td>
+								</tr>
+								<tr>
+									<th class="heading left middle"><strong>Transmission path
+<br />
+type</strong></th>
+									<td colspan="2" rowspan="1" class="left middle">Star form</td>
+								</tr>
+								<tr>
+									<th colspan="1" rowspan="2" class="heading left middle"><strong>Baud rate</strong></th>
+									<td class="left middle">100 Mbps (100 BASE-TX)</td>
+									<td class="left middle">10 Mbps (10 BASE-T)</td>
+								</tr>
+								<tr>
+									<td colspan="2" rowspan="1" class="left middle">Internal transmission speed between G9SP and Ethernet Option Board is
+<br />
+of 115.2 kbps.</td>
+								</tr>
+								<tr>
+									<th class="heading left middle"><strong>Transmission media</strong></th>
+									<td class="left middle">Unshielded twisted-pair (UDP) cable
+<br />
+Categories: 5, 5e
+<br />
+Shielded twisted-pair (STP) cable
+<br />
+Categories: 100 Ω at 5, 5e</td>
+									<td class="left middle">Unshielded twisted-pair (UDP) cable
+<br />
+Categories: 3, 4, 5, 5e
+<br />
+Shielded twisted-pair (STP) cable
+<br />
+Categories: 100 Ω at 3, 4, 5, 5e</td>
+								</tr>
+								<tr>
+									<th class="heading left middle"><strong>Transmission distance</strong></th>
+									<td colspan="2" rowspan="1" class="left middle">100 m (distance between hub and node)</td>
+								</tr>
+								<tr>
+									<th class="heading left middle"><strong>Number of cascade-
+<br />
+connectable units</strong></th>
+									<td colspan="2" rowspan="1" class="left middle">No limit when a switching hub is used.</td>
+								</tr>
+								<tr>
+									<th colspan="2" rowspan="1" class="heading left middle"><strong>Weight</strong></th>
+									<td colspan="2" rowspan="1" class="left middle">23 g max.</td>
+								</tr>
+								<tr>
+									<th colspan="2" rowspan="1" class="heading left middle"><strong>Dimensions</strong></th>
+									<td colspan="2" rowspan="1" class="left middle">36.4 (W) x 36.4 (H) x 28.2 (D) mm</td>
+								</tr>
+							</table>
+						</div>
+					
+        </p>
+    </div>
+
+
+
+
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<p class="date-line">last update: July 01, 2014</p>
+
+</div>
+
+                        </div>
+                    </div>
+	            <!-- === /[primary-contents-area] === -->
+                </div>
+                <!-- === /[inner-contents-area] === -->
+
+
+                <!-- === [local-navi] === -->
+                <div class="local-navi-area">
+                    <div class="local-navi-area">
+
+
+
+<div class="local-naviA01">
+<h2 class="heading-link">
+<a href="../../category/index.html" ><img src="../../../resources/images/icon_right_b.gif" width="3" height="9" alt="" class="iconA01" />Product Category</a>
+</h2>
+<ul><li><a href="../../category/safety-components/index-2.html"><img src="../../../resources/images/icon_right_b.gif" width="3" height="9" alt="" class="iconA01" />Safety Components</a><ul class="list-indent01"><li><a href="../../category/safety-components/safety-controllers/index.html"><img src="../../../resources/images/icon_right_b.gif" width="3" height="9" alt="" class="iconA01" />Safety Controllers</a><ul class="list-indent02"><li><a href="../3419/index.html"><img src="../../../resources/images/icon_right_b.gif" width="3" height="9" alt="" class="iconA01" />G9SE</a></li><li><a href="../3243/index.html"><img src="../../../resources/images/icon_right_b.gif" width="3" height="9" alt="" class="iconA01" />NX-SL</a></li><li><a href="../3244/index.html"><img src="../../../resources/images/icon_right_b.gif" width="3" height="9" alt="" class="iconA01" />NX-SI / SO</a></li><li class="stay"><span>G9SP</span></li><li><a href="../1524/index.html"><img src="../../../resources/images/icon_right_b.gif" width="3" height="9" alt="" class="iconA01" />G9SX</a></li><li><a href="../1983/index.html"><img src="../../../resources/images/icon_right_b.gif" width="3" height="9" alt="" class="iconA01" />G9SX-SM</a></li><li><a href="../1986/index.html"><img src="../../../resources/images/icon_right_b.gif" width="3" height="9" alt="" class="iconA01" />G9SX-LM</a></li><li><a href="../1882/index.html"><img src="../../../resources/images/icon_right_b.gif" width="3" height="9" alt="" class="iconA01" />G9SX-GS</a></li><li><a href="../389/index.html"><img src="../../../resources/images/icon_right_b.gif" width="3" height="9" alt="" class="iconA01" />G9SA</a></li><li><a href="../390/index.html"><img src="../../../resources/images/icon_right_b.gif" width="3" height="9" alt="" class="iconA01" />G9SB</a></li><li><a href="../1625/index.html"><img src="../../../resources/images/icon_right_b.gif" width="3" height="9" alt="" class="iconA01" />NE1A-SCPU Series</a></li><li><a href="../2621/index.html"><img src="../../../resources/images/icon_right_b.gif" width="3" height="9" alt="" class="iconA01" />NE1A-SCPU0[]-EIP</a></li><li><a href="../1922/index.html"><img src="../../../resources/images/icon_right_b.gif" width="3" height="9" alt="" class="iconA01" />NE1A-EDR01</a></li><li><a href="../1984/index.html"><img src="../../../resources/images/icon_right_b.gif" width="3" height="9" alt="" class="iconA01" />NE0A-SCPU01</a></li><li><a href="../1626/index.html"><img src="../../../resources/images/icon_right_b.gif" width="3" height="9" alt="" class="iconA01" />DST1 Series</a></li><li><a href="../1627/index.html"><img src="../../../resources/images/icon_right_b.gif" width="3" height="9" alt="" class="iconA01" />WS02-CFSC1-E</a></li><li><a href="../1445/index.html"><img src="../../../resources/images/icon_right_b.gif" width="3" height="9" alt="" class="iconA01" />G9SA-300-SC</a></li></ul></li></ul></li></ul>
+<!-- /local-naviA01 -->
+</div>
+
+
+
+<div class="local-naviB01">
+<ul class="heading-link">
+
+<li class="first-child">
+<a href="../../category/index.html"><img src="../../../resources/images/icon_right_b.gif" width="3" height="9" alt="" class="iconA01" />Product Category</a>
+</li>
+
+<li>
+<a href="../../../product/cautions/index-2.html"><img src="../../../resources/images/icon_right_b.gif" width="3" height="9" alt="" class="iconA01" />Cautions</a>
+</li>
+
+<li>
+<a href="../../index/index.html"><img src="../../../resources/images/icon_right_b.gif" width="3" height="9" alt="" class="iconA01" />Item A to Z Index</a>
+</li>
+
+<li>
+<a href="../../applications/index.html"><img src="../../../resources/images/icon_right_b.gif" width="3" height="9" alt="" class="iconA01" />Applications</a>
+</li>
+
+<li>
+<a href="../../correct/index.html"><img src="../../../resources/images/icon_right_b.gif" width="3" height="9" alt="" class="iconA01" />Correction Notice</a>
+</li>
+
+</ul>
+<!-- /local-naviB01 -->
+</div>
+                    </div>
+                </div>
+                <!-- === /[local-navi] === -->
+
+            </div>
+            <!-- === /[contents-area] === -->
+
+            <!-- === [top-page-link-area] === -->
+            <div class="top-page-link-area">
+                <ul class="top-page-link-list">
+                    <li>
+                        <a href="#page-top"><img src="../../../resources/images/icon_up_b.gif" width="5" height="8" alt="" class="iconB01" />Top of Page</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- === /[top-page-link-area] === -->
+
+            <!-- === [footer-area] === -->
+
+
+<!-- === [footer-area] === -->
+<div class="footer-area">
+    <p class="non-visual">
+        <a name="footer" id="footer">Site Information</a>
+    </p>
+    
+    <div class="footer-link">
+        
+        <p class="copyright">© Copyright Kyoto Engineering &amp; Automation Ltd.All Rights Reserved.</p>
+    <!-- /.footer-link -->
+    </div>
+<!-- /.footer-area -->
+</div>
+<!-- === /[footer-area] === -->
+            <!-- === /[footer-area] === -->
+        </div>
+        <!-- === /[omron-ia] === -->
+    </body>
+
+<!-- Mirrored from www.ia.omron.com/products/family/2937/specification.html by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 15 Dec 2016 15:25:16 GMT -->
+</html>
