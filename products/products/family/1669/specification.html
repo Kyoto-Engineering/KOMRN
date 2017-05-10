@@ -1,0 +1,1956 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<html xml:lang="en" lang="en" xmlns="http://www.w3.org/1999/xhtml">
+    
+<!-- Mirrored from www.ia.omron.com/products/family/1669/specification.html by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 16 Dec 2016 08:02:33 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=utf-8" /><!-- /Added by HTTrack -->
+<head>
+        <meta http-equiv="Content-Language" content="en" />
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <meta http-equiv="Content-Style-Type" content="text/css" />
+        <meta http-equiv="Content-Script-Type" content="text/javascript" />
+        <title>
+            CS1W-PMV SYSMAC CS-series Process Analog I/O Units/Specifications | OMRON By Kyoto Engineering &amp; Automation
+        </title>
+        <meta name="keywords" content="Automation Systems,Programmable Controllers,CS1,Special I/O Units,CS1W-PMV" />
+        <meta name="description" content="SYSMAC CS-series Process Analog I/O Units Provides the functionality of isolators, power supplies, signal converters, and other devices." />
+        
+
+<link rel="alternate" href="../../../index.html" hreflang="en" />
+<link rel="stylesheet" type="text/css" media="all" href="../../../resources/css/common22f8.css?201611151200" />
+<link rel="stylesheet" type="text/css" media="all" href="../../../resources/css/global/common22f8.css?201611151200" />
+<link rel="stylesheet" type="text/css" media="all" href="../../../resources/css/frame_utility_tridion22f8.css?201611151200" />
+<link rel="stylesheet" type="text/css" media="print" href="../../../resources/css/print22f8.css?201611151200" />
+<script type="text/javascript" src="../../../resources/js/jquery22f8.js?201611151200"></script>
+<script type="text/javascript" src="../../../resources/js/function22f8.js?201611151200"></script>
+<script type="text/javascript" src="../../../resources/js/country_website22f8.js?201611151200"></script>
+<script type="text/javascript" src="../../../resources/js/global/ga22f8.js?201611151200"></script>
+<link rel="stylesheet" type="text/css" media="all" href="../../../resources/css/jquery-ui22f8.css?201611151200" charset='UTF-8'/>
+<link rel="stylesheet" type="text/css" media="all" href="../../../resources/css/jquery.multiselect22f8.css?201611151200" charset='UTF-8'/>
+<script type="text/javascript" language="JavaScript" src="../../../common/js/marketing_tag22f8.js?201611151200"></script>
+<script type="text/javascript" src="../../../resources/js/jquery-ui.min22f8.js?201611151200" charset='UTF-8'></script>
+<script type="text/javascript" src="../../../resources/js/jquery.ex-table-filter22f8.js?201611151200" charset='UTF-8'></script>
+<script type="text/javascript" src="../../../resources/js/jquery.tablesorter.min22f8.js?201611151200" charset='UTF-8'></script>
+<script type="text/javascript" src="../../../resources/js/filter22f8.js?201611151200" charset='UTF-8'></script>
+<link rel="shortcut icon" href="../../../resources/images/favicon.ico" type="image/x-icon" />
+<link rel="stylesheet" type="text/css" media="all" href="../../../css/index.css"/>
+<link rel="stylesheet" type="text/css" media="all" href="../../../css/top.css"/>
+
+        <link rel="stylesheet" type="text/css" media="all" href="../../../resources/css/tablesorter6c9b.css?201611150900" />
+        <script type="text/javascript" src="../../../resources/js/global/products6c9b.js?201611150900" charset='UTF-8'></script>
+
+    </head>
+    <body id="www-ia-omron-com" class="layoutC03 automation-systems">
+
+        <!-- === [omron-ia] === -->
+        <div class="omron-ia">
+            <p class="non-visual">
+                <a name="page-top" id="page-top">
+                    Page top
+                </a>
+            </p>
+
+
+
+
+<div class="header-area">
+     <div class="site-identity">
+          <div class="site-logo">
+               <a href="../../../index.php"><img src="../../../images/logo_01_b13-260967.gif"  width="129" height="24" alt="OMRON" /></a>
+          </div>
+          <!-- /.site-identity -->
+     </div>
+    <div class="utilities">
+		<div class="country-select-area">
+			<p class="canpany">Building Automation</p>
+                        <?php echo '&nbsp' ; ?>
+                        <br/>
+                        <p class="canpany">Industrial Automation</p>
+                        <?php echo '&nbsp' ; ?>
+                        <br/>
+                        <p class="canpany">Power Automation &amp; Safety </p>
+			
+		</div>
+            
+            <div class="japani">
+                <img  src="../../../shared/img/Japani Technology mnemonic.png" width="90" height="50" alt=""/>
+            </div>
+          
+            
+            
+            <div class="flag">
+            <img src="../../../shared/img/Bangladesh-Flag_1.png" alt=""/>
+            </div>
+            <div class="kyoto">
+                <p><b>Bangladesh Distributor</b></p>
+                <img style="margin-left:-5px;"  src="../../../shared/img/Kyoto-logo-Png.png" alt=""/>
+            </div>
+	<!-- /.utilities --> </div>
+<!-- /.header-area --></div>
+
+
+<div class="global-navi-area">
+<ul>
+<li class="home stay"><a href="../../../index.php">Home</a></li>
+<li class="product"><a href="../../../products/index.html">Products</a></li>
+<li class="corporate-profile"><a href="../../../view/contact/input.php">Contact Us</a></li>
+<li class="function-area"><div class="search"><form action="https://omron.keal.com.bd/sphider/search.php" method="get">       
+<input type="text" name="query" id="query" size="40" value="" />
+      <input type="submit" value="Search" /> <input type="hidden"
+      name="search" value="1" />
+    </form>
+</div>
+</li>
+</ul>
+</div> 
+<div class="bread-crumb-area">
+<ul>
+
+
+<li><a href="../../../index.php" >Home</a><span class="separator">&gt;</span></li>
+
+<li><a href="../../index-2.html" >Products</a><span class="separator">&gt;</span></li>
+
+<li><a href="../../category/index.html" >Product Category</a><span class="separator">&gt;</span></li>
+
+<li><a href="../../category/automation-systems/index-2.html" >Automation Systems</a><span class="separator">&gt;</span></li>
+
+<li><a href="../../category/automation-systems/programmable-controllers/index-2.html" >Programmable Controllers</a><span class="separator">&gt;</span></li>
+
+<li><a href="../../category/automation-systems/programmable-controllers/cs1/index.html" >CS1</a><span class="separator">&gt;</span></li>
+
+<li><a href="../../category/automation-systems/programmable-controllers/cs1/special-io-units/index.html" >Special I/O Units</a><span class="separator">&gt;</span></li>
+
+<li><strong>CS1W-PMV</strong></li>
+
+
+</ul>
+</div>
+
+            <!-- === [contents-area] === -->
+            <div class="contents-area">
+
+                <!-- === [inner-contents-area] === -->
+                <div class="inner-contents-area">
+                    <!-- === [upper-contents-area] === -->
+                    <div class="upper-contents-area">
+                        <!-- === [lead-area] === -->
+                        <div class="lead-area">
+
+
+
+
+<!-- --------------------------------------------------------------------Product Family Start--------------------------------------------------------- -->
+<div class="heading-h1">
+
+
+    <h1>
+        CS1W-PMV
+    </h1>
+    <p class="sub-title">
+        SYSMAC CS-series Process Analog I/O Units
+    </p>
+</div>
+<div class="image-blockA01">
+    <div class="image-left">
+        <p class="image">
+
+            <img src="../../../images/l_1669-13-118637-198x198.jpg" width="198" height="198" alt="CS1W-PMV" class="nopic" />
+
+
+        </p>
+    </div>
+    <div class="description">
+        <h2 class="heading-B02">
+            Provides the functionality of isolators, power supplies, signal converters, and other devices.
+        </h2>
+        
+
+
+
+
+        <div class="item-list-link">
+            <p>
+                <a href="itemlist/index.html">
+                    <img src="../../../resources/images/icon_right_b.gif" width="3" height="9" alt="" class="iconA01" />
+                    Item list of CS1W-PMV
+                </a>
+            </p>
+        </div>
+    </div>
+<!-- /.image-blockA01 -->
+</div>
+
+
+
+                        </div>
+                        <!-- === /[lead-area] === -->
+
+
+                        <!-- === [utility-area] === -->
+                        <div class="utility-area">                         
+                       
+                            <div class="action-block">
+                                <p>
+                                    about this Product Family
+                                </p>
+                                <ul>
+                                    <li class="first-child">
+                                        <a href="../../../view/contact/input.php">
+                                            Inquiry of this Product
+                                        </a>
+                                    </li>                                 
+                                </ul>
+                            </div>
+
+
+
+
+<div class="related-info-blockA01 vertical-slide">
+
+    <p>
+        <span>Related Contents</span>
+    </p>
+
+        <ul>
+            <li class="first-child">
+                <span>Automation Systems</span>
+            </li>
+            <li>
+                <ul class="list-indent01">
+
+
+                    <li class="first-child">
+
+
+                        <a href="../../applications/category/automation-systems/index.html">
+                            <img src="../../../resources/images/icon_right_b.gif" width="3" height="9" alt="" class="iconA01" />
+                            Applications 
+                        </a>
+                    </li>
+
+                </ul>
+            </li>
+        </ul>
+
+        <ul>
+            <li class="first-child">
+                <span>Programmable Controllers</span>
+            </li>
+            <li>
+                <ul class="list-indent01">
+
+
+                    <li class="first-child">
+
+
+                        <a href="../../index/automation-systems/programmable-controllers/index.html">
+                            <img src="../../../resources/images/icon_right_b.gif" width="3" height="9" alt="" class="iconA01" />
+                            Item A to Z Index 
+                        </a>
+                    </li>
+
+
+
+                    <li>
+
+                        <a href="../../../support/glossary/automation-systems/programmable-controllers/index.html">
+                            <img src="../../../resources/images/icon_right_b.gif" width="3" height="9" alt="" class="iconA01" />
+                            Glossary of Industrial Automation 
+                        </a>
+                    </li>
+
+                </ul>
+            </li>
+        </ul>
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- /.related-info-blockA01 -->
+</div>
+
+
+
+                           
+                        </div>
+                        <!-- === /[utility-area] === -->
+
+                    </div>
+                    <!-- === /[upper-contents-area] === -->
+
+                    <!-- === [primary-contents-area] === -->
+                    <div class="primary-contents-area">
+                        <div class="tabpanel-blockA01">
+
+
+
+
+
+
+<div class="tab-block">
+    <ul class="tabs">
+
+
+
+
+
+
+
+        <li>
+            <a href="feature.html">Features</a>
+
+        </li>
+
+
+
+
+
+
+
+
+        <li>
+            <a href="lineup.html">Lineup</a>
+
+        </li>
+
+
+
+
+
+
+
+
+        <li class="active">
+            <span>Specifications</span>
+
+        </li>
+
+
+
+
+
+
+
+
+        <li>
+            <a href="dimension.html">Dimensions</a>
+
+        </li>
+
+
+
+
+
+
+        <li>
+            <a href="download/catalog.html">Catalog</a>
+
+        </li>
+
+
+
+
+
+    </ul>
+</div><!-- /.tab-block -->
+
+<div class="editable-block">
+
+
+<p class="date-line">last update: September 24, 2012</p>
+
+
+
+
+
+
+
+
+
+<h4 class="heading-A02">General Specifications</h4>
+
+
+
+
+
+
+
+
+
+
+<div class="component-blockA01">
+
+
+
+
+
+    <div class="text">
+        <p>
+            The specifications shown in the following table apply to all the CS-series Process Analog I/O Units.
+        </p>
+    </div>
+
+
+
+
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="component-blockA01">
+
+
+
+
+
+    <div class="text">
+        <p>
+            
+          <div class="table-blockA01">
+            <table border="0" cellspacing="0" class="tableA01">
+              <tr>
+                <TH class="heading center middle">
+                  <strong>Item</strong>
+                </TH>
+                <td class="heading center middle">
+                  <strong>Specification</strong>
+                </td>
+              </tr>
+              <tr>
+                <TH class="heading left middle">
+                  <strong>Applicable PLC</strong>
+                </TH>
+                <td class="left middle">CS-series PLCs</td>
+              </tr>
+              <tr>
+                <TH class="heading left middle">
+                  <strong>Unit type</strong>
+                </TH>
+                <td class="left middle">CS-series Special I/O Unit</td>
+              </tr>
+              <tr>
+                <TH class="heading left middle">
+                  <strong>Structure</strong>
+                </TH>
+                <td class="left middle">Backplane-mounted, single slot size</td>
+              </tr>
+              <tr>
+                <TH class="heading left middle">
+                  <strong>Dimensions</strong>
+                </TH>
+                <td class="left middle">35 × 130 × 126 mm (W × H × D)</td>
+              </tr>
+              <tr>
+                <TH class="heading left middle">
+                  <strong>Weight</strong>
+                </TH>
+                <td class="left middle">450 g max.</td>
+              </tr>
+              <tr>
+                <TH class="heading left middle">
+                  <strong>External connection terminals</strong>
+                </TH>
+                <td class="left middle">21-point removable terminal block (M3 screws, Tightening torque: 0.5 Nm)</td>
+              </tr>
+              <tr>
+                <TH class="heading left middle">
+                  <strong>Unit number switch setting</strong>
+                </TH>
+                <td class="left middle">00 to 95</td>
+              </tr>
+              <tr>
+                <TH class="heading left middle">
+                  <strong>Self-diagnosis function</strong>
+                </TH>
+                <td class="left middle">Results of self-diagnosis shown on indicators.</td>
+              </tr>
+              <tr>
+                <TH class="heading left middle">
+                  <strong>Mountable Racks</strong>
+                </TH>
+                <td class="left middle">CPU Rack or CS-series Expansion Rack</td>
+              </tr>
+              <tr>
+                <TH class="heading left middle">
+                  <strong>Maximum number of Units</strong>
+                </TH>
+                <td class="left middle">80 Units (10 Units × 8 Racks)<br />Confirm that the total current consumption of all the Units (including the CPU Unit) mounted<br />to a single CPU Rack or Expansion Rack does not exceed the maximum power supply capacity<br />of the Power Supply Unit.</td>
+              </tr>
+              <tr>
+                <TH class="heading left middle">
+                  <strong>Ambient operating temperature</strong>
+                </TH>
+                <td class="left middle">0 to 55 ° C</td>
+              </tr>
+              <tr>
+                <TH class="heading left middle">
+                  <strong>Ambient operating humidity</strong>
+                </TH>
+                <td class="left middle">10% to 90% (with no condensation)</td>
+              </tr>
+            </table>
+          </div>
+        
+        </p>
+    </div>
+
+
+
+
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<h4 class="heading-B02">Current consumption</h4>
+
+
+
+
+
+
+
+<div class="component-blockA01">
+
+
+
+
+
+    <div class="text">
+        <p>
+            
+          <div class="table-blockA01">
+            <table border="0" cellspacing="0" class="tableA01">
+              <tr>
+                <TH colspan="1" rowspan="2" class="heading center middle">
+                  <strong>Name</strong>
+                </TH>
+                <td colspan="1" rowspan="2" class="heading center middle">
+                  <strong>Model</strong>
+                </td>
+                <TH colspan="2" rowspan="1" class="heading center middle">
+                  <strong>Current consumption (power)</strong>
+                </TH>
+              </tr>
+              <tr>
+                <TH class="heading center middle">
+                  <strong>5 V</strong>
+                </TH>
+                <td class="heading center middle">
+                  <strong>26 V</strong>
+                </td>
+              </tr>
+              <tr>
+                <td colspan="1" rowspan="2" class="left middle">Isolated-type Analog Output Unit</td>
+                <td class="left middle">CS1W-PMV01</td>
+                <td class="left middle">0.15 A (0.75 W)</td>
+                <td class="left middle">0.16 A (4.2 W)</td>
+              </tr>
+              <tr>
+                <td class="left middle">CS1W-PMV02</td>
+                <td class="left middle">0.12 A (0.60 W)</td>
+                <td class="left middle">0.12 A (3.2 W)</td>
+              </tr>
+            </table>
+          </div>
+        
+        </p>
+    </div>
+
+
+
+
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<h4 class="heading-B02">(Reference) Maximum current and total power supplied</h4>
+
+
+
+
+
+
+
+<div class="component-blockA01">
+
+
+
+
+
+    <div class="text">
+        <p>
+            
+          <div class="table-blockA01">
+            <table border="0" cellspacing="0" class="tableA01">
+              <tr>
+                <TH colspan="1" rowspan="2" class="heading center middle">
+                  <strong>Power Supply Unit</strong>
+                </TH>
+                <td colspan="3" rowspan="1" class="heading center middle">
+                  <strong>Maximum current supplied (power)</strong>
+                </td>
+                <TH colspan="1" rowspan="2" class="heading center middle">
+                  <strong>Maximum total power</strong>
+                </TH>
+              </tr>
+              <tr>
+                <TH class="heading center middle">
+                  <strong>5 V</strong>
+                </TH>
+                <td class="heading center middle">
+                  <strong>26 V</strong>
+                </td>
+                <TH class="heading center middle">
+                  <strong>24 V</strong>
+                </TH>
+              </tr>
+              <tr>
+                <td class="left middle">C200HW-PA204</td>
+                <td class="left middle">4.6 A (23 W)</td>
+                <td class="left middle">0.6 A (15.6 W)</td>
+                <td class="left middle">None</td>
+                <td class="left middle">30 W</td>
+              </tr>
+              <tr>
+                <td class="left middle">C200HW-PA204C</td>
+                <td class="left middle">4.6 A (23 W)</td>
+                <td class="left middle">0.6 A (15.6 W)</td>
+                <td class="left middle">None</td>
+                <td class="left middle">30 W</td>
+              </tr>
+              <tr>
+                <td class="left middle">C200HW-PA204S</td>
+                <td class="left middle">4.6 A (23 W)</td>
+                <td class="left middle">0.6 A (15.6 W)</td>
+                <td class="left middle">0.8 A (19.2 W)</td>
+                <td class="left middle">30 W</td>
+              </tr>
+              <tr>
+                <td class="left middle">C200HW-PA204R</td>
+                <td class="left middle">4.6 A (23 W)</td>
+                <td class="left middle">0.6 A (15.6 W)</td>
+                <td class="left middle">None</td>
+                <td class="left middle">30 W</td>
+              </tr>
+              <tr>
+                <td class="left middle">C200HW-PD024</td>
+                <td class="left middle">4.6 A (23 W)</td>
+                <td class="left middle">0.6 A (15.6 W)</td>
+                <td class="left middle">None</td>
+                <td class="left middle">30 W</td>
+              </tr>
+              <tr>
+                <td class="left middle">C200HW-PA209R</td>
+                <td class="left middle">9 A (45 W)</td>
+                <td class="left middle">1.3 A (33.8 W)</td>
+                <td class="left middle">None</td>
+                <td class="left middle">45 W</td>
+              </tr>
+              <tr>
+                <td class="left middle">C200HW-PD025</td>
+                <td class="left middle">5.3 A</td>
+                <td class="left middle">1.3 A</td>
+                <td class="left middle">None</td>
+                <td class="left middle">40 W</td>
+              </tr>
+              <tr>
+                <td class="left middle">CS1D-PA207R</td>
+                <td class="left middle">7 A (35 W)</td>
+                <td class="left middle">1.3 A (33.8 W)</td>
+                <td class="left middle">None</td>
+                <td class="left middle">35 W</td>
+              </tr>
+              <tr>
+                <td class="left middle">CS1D-PD024</td>
+                <td class="left middle">4.3 A (21.5 W)</td>
+                <td class="left middle">0.56 A (14.6 W)</td>
+                <td class="left middle">None</td>
+                <td class="left middle">28 W</td>
+              </tr>
+              <tr>
+                <td class="left middle">CS1D-PD025</td>
+                <td class="left middle">5.3 A</td>
+                <td class="left middle">1.3 A</td>
+                <td class="left middle">None</td>
+                <td class="left middle">40 W</td>
+              </tr>
+            </table>
+          </div>
+        
+        </p>
+    </div>
+
+
+
+
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<h4 class="heading-A02">CS1W-PMV01 Isolated-type Analog Output Unit</h4>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<h4 class="heading-B02">Specifications</h4>
+
+
+
+
+
+
+
+<div class="component-blockA01">
+
+
+
+
+
+    <div class="text">
+        <p>
+            
+          <div class="table-blockA01">
+            <table border="0" cellspacing="0" class="tableA01">
+              <tr>
+                <TH colspan="2" rowspan="1" class="heading center middle">
+                  <strong>Item</strong>
+                </TH>
+                <td class="heading center middle">
+                  <strong>Specifications</strong>
+                </td>
+              </tr>
+              <tr>
+                <TH colspan="2" rowspan="1" class="heading left middle">
+                  <strong>Model</strong>
+                </TH>
+                <td class="left middle">CS1W-PMV01</td>
+              </tr>
+              <tr>
+                <TH colspan="2" rowspan="1" class="heading left middle">
+                  <strong>Applicable PLC</strong>
+                </TH>
+                <td class="left middle">CS Series</td>
+              </tr>
+              <tr>
+                <TH colspan="2" rowspan="1" class="heading left middle">
+                  <strong>Unit type</strong>
+                </TH>
+                <td class="left middle">CS-series Special I/O Unit</td>
+              </tr>
+              <tr>
+                <TH colspan="2" rowspan="1" class="heading left middle">
+                  <strong>Mounting position</strong>
+                </TH>
+                <td class="left middle">CS-series CPU Rack or CS-series Expansion Rack (Cannot be mounted to C200H Expansion I/O Rack or<br />SYSMAC BUS Remote I/O Slave Rack.)</td>
+              </tr>
+              <tr>
+                <TH colspan="2" rowspan="1" class="heading left middle">
+                  <strong>Maximum number of<br />Units</strong>
+                </TH>
+                <td class="left middle">80 (within the allowable current consumption and power consumption range)</td>
+              </tr>
+              <tr>
+                <TH colspan="2" rowspan="1" class="heading left middle">
+                  <strong>Unit numbers</strong>
+                </TH>
+                <td class="left middle">00 to 95 (Cannot duplicate Special I/O Unit numbers.)</td>
+              </tr>
+              <tr>
+                <TH colspan="1" rowspan="2" class="heading left middle">
+                  <strong>Areas for<br />data<br />exchange<br />with<br />CPU Unit</strong>
+                </TH>
+                <td class="heading left middle">
+                  <strong>Special I/O<br />Unit Area</strong>
+                </td>
+                <td class="left middle">10 words/Unit<br />CPU Unit to Analog Output Unit:<br />Analog output values for each output<br />Analog Output Unit to CPU Unit:<br />Answer input values for each output, output disconnection</td>
+              </tr>
+              <tr>
+                <TH class="heading left middle">
+                  <strong>DM Area<br />words<br />allocated<br />to Special<br />I/O Units</strong>
+                </TH>
+                <td class="left middle">100 words/Unit<br />CPU Unit to Analog Output Unit:<br />Output hold for when CPU Unit error occurs, high/low limit values, rate-of-change limit values (positive and<br />negative directions), number of values for answer input moving average, zero/span adjustment for control<br />outputs and answer inputs, etc.</td>
+              </tr>
+              <tr>
+                <TH colspan="2" rowspan="1" class="heading left middle">
+                  <strong>Number of outputs</strong>
+                </TH>
+                <td class="left middle">4</td>
+              </tr>
+              <tr>
+                <TH colspan="2" rowspan="1" class="heading left middle">
+                  <strong>Output signal types</strong>
+                </TH>
+                <td class="left middle">Either 4 to 20 mA or 1 to 5 V (separate for each of the four outputs).<br />Switched according to the connection terminals.</td>
+              </tr>
+              <tr>
+                <TH colspan="2" rowspan="1" class="heading left middle">
+                  <strong>User-defined scaling in<br />industrial units</strong>
+                </TH>
+                <td class="left middle">None</td>
+              </tr>
+              <tr>
+                <TH colspan="2" rowspan="1" class="heading left middle">
+                  <strong>Data storage in the<br />CIO Area</strong>
+                </TH>
+                <td class="left middle">0 to 4,000 (0000 to 0FA0 hex), fixed<br />0: 4 mA or 1 V; 4,000: 20 mA or 5 V<br />The values derived from carrying out the following processing in order of the values in the allocated words<br />in the CIO Area are output in analog.<br />1) Output hold →  2) Rate-of-change limit →  3) Zero/span adjustment →  4) High/low limits<br />Therefore, the values after processing are confirmed by analog inputs.</td>
+              </tr>
+              <tr>
+                <TH colspan="2" rowspan="1" class="heading left middle">
+                  <strong>Accuracy (25 ° C)</strong>
+                </TH>
+                <td class="left middle">When 4 to 20 mA: ± 0.1% of full scale<br />When 1 to 5 V: ± 0.2% of full scale</td>
+              </tr>
+              <tr>
+                <TH colspan="2" rowspan="1" class="heading left middle">
+                  <strong>Temperature<br />coefficient</strong>
+                </TH>
+                <td class="left middle">± 0.015%/ ° C of full scale</td>
+              </tr>
+              <tr>
+                <TH colspan="2" rowspan="1" class="heading left middle">
+                  <strong>Resolution</strong>
+                </TH>
+                <td class="left middle">1/4,000 of full scale</td>
+              </tr>
+              <tr>
+                <TH colspan="2" rowspan="1" class="heading left middle">
+                  <strong>Warmup time</strong>
+                </TH>
+                <td class="left middle">10 min</td>
+              </tr>
+              <tr>
+                <TH colspan="2" rowspan="1" class="heading left middle">
+                  <strong>Output response time</strong>
+                </TH>
+                <td class="left middle">0.2 s (travel time from output 0% to 100%, for step output)</td>
+              </tr>
+              <tr>
+                <TH colspan="2" rowspan="1" class="heading left middle">
+                  <strong>D/A conversion period</strong>
+                </TH>
+                <td class="left middle">100 ms/4 outputs</td>
+              </tr>
+              <tr>
+                <TH colspan="2" rowspan="1" class="heading left middle">
+                  <strong>Maximum time to store<br />data in CPU Unit</strong>
+                </TH>
+                <td class="left middle">Conversion period + one CPU Unit cycle</td>
+              </tr>
+              <tr>
+                <TH colspan="2" rowspan="1" class="heading left middle">
+                  <strong>Output signal range</strong>
+                </TH>
+                <td class="left middle">Approx. - 20 to 115%</td>
+              </tr>
+              <tr>
+                <TH colspan="2" rowspan="1" class="heading left middle">
+                  <strong>Allowable load<br />resistance</strong>
+                </TH>
+                <td class="left middle">When 4 to 20 mA: 404 Ω max. (when output range is - 20 to 115%) or 458 Ω max. (when output range is<br />- 20 to 100%) (Refer to note.)<br />When 1 to 5 V: 250 k Ω max.</td>
+              </tr>
+              <tr>
+                <TH colspan="2" rowspan="1" class="heading left middle">
+                  <strong>Output impedance</strong>
+                </TH>
+                <td class="left middle">When 1 to 5 V: 250 Ω (typical)</td>
+              </tr>
+              <tr>
+                <TH colspan="2" rowspan="1" class="heading left middle">
+                  <strong>Voltage when open<br />between terminals</strong>
+                </TH>
+                <td class="left middle">Approx. 15 V</td>
+              </tr>
+              <tr>
+                <TH colspan="2" rowspan="1" class="heading left middle">
+                  <strong>Answer input function</strong>
+                </TH>
+                <td class="left middle">The actual analog output values (4 to 20 mA or 1 to 5 V) from the Unit's output terminals can be read.<br />Data stored to allocated words of CIO Area:<br />0 to 4,000 (0000 to 0FA0 hex), fixed. (When 4 mA or 1 V: 0; when 20 mA or 5 V: 4,000)<br />Accuracy: ± 0.2% of full scale<br />Resolution: 1/2000<br />Temperature coefficient: ± 0.015%/ ° C</td>
+              </tr>
+              <tr>
+                <TH colspan="2" rowspan="1" class="heading left middle">
+                  <strong>Current output<br />disconnection<br />detection function</strong>
+                </TH>
+                <td class="left middle">When the actual output of 4 to 20 mA from the Analog Output Unit's output terminals is 0.5 mA or less, it<br />is regarded as an external output circuit current loop disconnection, and the Output Disconnection Flag<br />turns ON.</td>
+              </tr>
+              <tr>
+                <TH colspan="1" rowspan="3" class="heading left middle">
+                  <strong>Function</strong>
+                </TH>
+                <td class="heading left middle">
+                  <strong>Rate-of-<br />change<br />limit</strong>
+                </td>
+                <td class="left middle">This function can be used to control the speed of up and down changes in analog output values.</td>
+              </tr>
+              <tr>
+                <TH class="heading left middle">
+                  <strong>Output<br />high/<br />low limits</strong>
+                </TH>
+                <td class="left middle">This function can be used to place high and low limits on analog output values.</td>
+              </tr>
+              <tr>
+                <TH class="heading left middle">
+                  <strong>Output<br />hold</strong>
+                </TH>
+                <td class="left middle">This function holds the analog output value to the previous value or to a specified preset value when any of<br />the following CPU Unit errors occurs, and outputs the analog output value in the CIO Area when the error<br />is cleared.<br />CPU Unit fatal error (including FALS execution)<br />CPU error in CPU Unit<br />All outputs turned OFF with Output OFF Bit</td>
+              </tr>
+              <tr>
+                <TH colspan="2" rowspan="1" class="heading left middle">
+                  <strong>Isolation</strong>
+                </TH>
+                <td class="left middle">Between outputs and between output terminals and PLC signals: Isolation by transformer and photocoupler</td>
+              </tr>
+              <tr>
+                <TH colspan="2" rowspan="1" class="heading left middle">
+                  <strong>Insulation resistance</strong>
+                </TH>
+                <td class="left middle">20 M Ω (at 500 V DC) between outputs</td>
+              </tr>
+              <tr>
+                <TH colspan="2" rowspan="1" class="heading left middle">
+                  <strong>Dielectric strength</strong>
+                </TH>
+                <td class="left middle">Between outputs: 1,000 V AC, at 50/60 Hz, for 1 min, leakage current 10 mA max.</td>
+              </tr>
+              <tr>
+                <TH colspan="2" rowspan="1" class="heading left middle">
+                  <strong>External connections</strong>
+                </TH>
+                <td class="left middle">Terminal block (detachable)</td>
+              </tr>
+              <tr>
+                <TH colspan="2" rowspan="1" class="heading left middle">
+                  <strong>Unit number settings</strong>
+                </TH>
+                <td class="left middle">Set by rotary switches on front panel, from 0 to 95.</td>
+              </tr>
+              <tr>
+                <TH colspan="2" rowspan="1" class="heading left middle">
+                  <strong>Indicators</strong>
+                </TH>
+                <td class="left middle">Three LED indicators on front panel (for normal operation, errors detected at the Analog Output Unit, and<br />errors related to the CPU Unit).</td>
+              </tr>
+              <tr>
+                <TH colspan="2" rowspan="1" class="heading left middle">
+                  <strong>Front panel connector</strong>
+                </TH>
+                <td class="left middle">Output connector terminal block (detachable)</td>
+              </tr>
+              <tr>
+                <TH colspan="2" rowspan="1" class="heading left middle">
+                  <strong>Effect on CPU Unit cycle<br />time</strong>
+                </TH>
+                <td class="left middle">0.3 ms</td>
+              </tr>
+              <tr>
+                <TH colspan="2" rowspan="1" class="heading left middle">
+                  <strong>Current consumption</strong>
+                </TH>
+                <td class="left middle">5 V DC at 150 mA max., 26 V DC at 160 mA max.</td>
+              </tr>
+              <tr>
+                <TH colspan="2" rowspan="1" class="heading left middle">
+                  <strong>Dimensions</strong>
+                </TH>
+                <td class="left middle">35 × 130 × 126 mm (W × H × D)<br />Note: The height including the Backplane is 145 mm.</td>
+              </tr>
+              <tr>
+                <TH colspan="2" rowspan="1" class="heading left middle">
+                  <strong>Weight</strong>
+                </TH>
+                <td class="left middle">450 g max.</td>
+              </tr>
+              <tr>
+                <TH colspan="2" rowspan="1" class="heading left middle">
+                  <strong>Standard accessories</strong>
+                </TH>
+                <td class="left middle">None</td>
+              </tr>
+            </table>
+          </div>
+        
+        </p>
+    </div>
+
+
+
+
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="component-blockA01">
+
+
+
+
+
+    <div class="text">
+        <p>
+            Note: The following diagram shows the relationship between the allowable load resistance and the current output.
+        </p>
+    </div>
+
+
+
+    <div class="image">
+        
+       
+        <img src="../../../images/1669_sp_413-106754.gif"   alt="CS1W-PMV Specifications 7 "/>
+       
+    </div>
+
+
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<h4 class="heading-B02">Output Values According to CPU Unit Status</h4>
+
+
+
+
+
+
+
+<div class="component-blockA01">
+
+
+
+
+
+    <div class="text">
+        <p>
+            Analog output values from the Analog Output Unit will be as shown in the following table, depending on the status of the CPU Unit.
+        </p>
+    </div>
+
+
+
+
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="component-blockA01">
+
+
+
+
+
+    <div class="text">
+        <p>
+            
+          <div class="table-blockA01">
+            <table border="0" cellspacing="0" class="tableA01">
+              <tr>
+                <TH class="heading center middle">
+                  <strong>CPU Unit status</strong>
+                </TH>
+                <td colspan="2" rowspan="1" class="heading center middle">
+                  <strong>Analog output values from Unit</strong>
+                </td>
+              </tr>
+              <tr>
+                <td class="left middle">Fatal error (including FALS(007) execution)</td>
+                <td colspan="2" rowspan="3" class="left middle">The output hold function holds the previous value or a specified preset value.</td>
+              </tr>
+              <tr>
+                <td class="left middle">CPU error</td>
+              </tr>
+              <tr>
+                <td class="left middle">All outputs turned OFF with Output OFF Bit</td>
+              </tr>
+              <tr>
+                <td colspan="1" rowspan="2" class="left middle">Change of operation mode from RUN or<br />Monitor to Program<br />(See note.)</td>
+                <td class="left middle">When the CPU Unit's I/O Memory Hold<br />Flag (A500.12) is OFF.</td>
+                <td class="left middle">The output value in the CIO Area is cleared, and<br />that value (0000 hex) is output refreshed.</td>
+              </tr>
+              <tr>
+                <td class="left middle">When the CPU Unit's I/O Memory Hold<br />Flag (A500.12) is ON.</td>
+                <td class="left middle">The output value in the CIO Area is held at the<br />value prior to the operation mode change, and<br />that is output refreshed.</td>
+              </tr>
+              <tr>
+                <td class="left middle">Fatal error or CPU standby after turning<br />ON the power supply</td>
+                <td colspan="2" rowspan="1" class="left middle">Either 0 mA or 0 V is output.</td>
+              </tr>
+              <tr>
+                <td class="left middle">Special I/O Unit cyclic refresh disabled</td>
+                <td colspan="2" rowspan="1" class="left middle">Outputs can be refreshed by means of IORF(097) in the ladder diagram program.</td>
+              </tr>
+            </table>
+          </div>
+        
+        </p>
+    </div>
+
+
+
+
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="component-blockA01">
+
+
+
+
+
+    <div class="text">
+        <p>
+            
+          <div style="text-align: left;">Note: Regardless of the CPU Unit's operation mode (including Program Mode), the analog output value in the allocated
+<br />
+          words of the CIO Area is always output refreshed. As shown in the above table, however, when the operation
+<br />
+          mode is changed to Program Mode, the analog output value in the CIO Area is either cleared or held depending
+<br />
+          on the status of the CPU Unit's I/O Memory Hold Flag (A500.12). In particular, be careful when this flag is ON,
+<br />
+          because the value prior to the mode change will be held and that value will be output refreshed.</div>
+        
+        </p>
+    </div>
+
+
+
+
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<h4 class="heading-A02">CS1W-PMV02 Isolated-type Analog Output Unit</h4>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<h4 class="heading-B02">Specifications</h4>
+
+
+
+
+
+
+
+<div class="component-blockA01">
+
+
+
+
+
+    <div class="text">
+        <p>
+            
+          <div class="table-blockA01">
+            <table border="0" cellspacing="0" class="tableA01">
+              <tr>
+                <TH colspan="2" rowspan="1" class="heading center middle">
+                  <strong>Item</strong>
+                </TH>
+                <td class="heading center middle">
+                  <strong>Specifications</strong>
+                </td>
+              </tr>
+              <tr>
+                <TH colspan="2" rowspan="1" class="heading left middle">
+                  <strong>Model</strong>
+                </TH>
+                <td class="left middle">CS1W-PMV02</td>
+              </tr>
+              <tr>
+                <TH colspan="2" rowspan="1" class="heading left middle">
+                  <strong>Applicable PLC</strong>
+                </TH>
+                <td class="left middle">CS Series</td>
+              </tr>
+              <tr>
+                <TH colspan="2" rowspan="1" class="heading left middle">
+                  <strong>Unit type</strong>
+                </TH>
+                <td class="left middle">CS-series Special I/O Unit</td>
+              </tr>
+              <tr>
+                <TH colspan="2" rowspan="1" class="heading left middle">
+                  <strong>Mounting position</strong>
+                </TH>
+                <td class="left middle">CS-series CPU Rack or CS-series Expansion Rack (Cannot be mounted to C200H Expansion I/O Rack or<br />SYSMAC BUS Remote I/O Slave Rack.)</td>
+              </tr>
+              <tr>
+                <TH colspan="2" rowspan="1" class="heading left middle">
+                  <strong>Maximum number of<br />Units</strong>
+                </TH>
+                <td class="left middle">80 (within the allowable current consumption and power consumption range)</td>
+              </tr>
+              <tr>
+                <TH colspan="2" rowspan="1" class="heading left middle">
+                  <strong>Unit numbers</strong>
+                </TH>
+                <td class="left middle">00 to 95 (Cannot duplicate Special I/O Unit numbers.)</td>
+              </tr>
+              <tr>
+                <TH colspan="1" rowspan="2" class="heading left middle">
+                  <strong>Areas for<br />data<br />exchange<br />with<br />CPU Unit</strong>
+                </TH>
+                <td class="heading left middle">
+                  <strong>Special I/O<br />Unit Area</strong>
+                </td>
+                <td class="left middle">10 words/Unit<br />CPU Unit to Analog Output Unit: Analog output values for each output<br />Analog Output Unit to CPU Unit: None</td>
+              </tr>
+              <tr>
+                <TH class="heading left middle">
+                  <strong>DM Area<br />words<br />allocated<br />to Special<br />I/O Units</strong>
+                </TH>
+                <td class="left middle">100 words/Unit<br />CPU Unit to Analog Output Unit:<br />Output hold for when CPU Unit error occurs, high/low limit values, rate-of-change limit values, zero/span<br />adjustment for control outputs, etc.</td>
+              </tr>
+              <tr>
+                <TH colspan="2" rowspan="1" class="heading left middle">
+                  <strong>Number of outputs</strong>
+                </TH>
+                <td class="left middle">4</td>
+              </tr>
+              <tr>
+                <TH colspan="2" rowspan="1" class="heading left middle">
+                  <strong>Output signal types</strong>
+                </TH>
+                <td class="left middle">0 to 10 V, 0 to 5 V, 0 to 1 V, - 10 to 10 V, - 5 to 5 V, - 1 to 1 V<br />(Each output point can be set individually.)</td>
+              </tr>
+              <tr>
+                <TH colspan="2" rowspan="1" class="heading left middle">
+                  <strong>User-defined scaling in<br />industrial units</strong>
+                </TH>
+                <td class="left middle">Scaling is possible for each of the above signal types individually.<br />(The data corresponding to the minimum and maximum output values can be set freely.)</td>
+              </tr>
+              <tr>
+                <TH colspan="2" rowspan="1" class="heading left middle">
+                  <strong>Data storage in the<br />CIO Area</strong>
+                </TH>
+                <td class="left middle">± 32,000 (8300 to FFFF hex, 0000 to 7D00 hex)</td>
+              </tr>
+              <tr>
+                <TH colspan="2" rowspan="1" class="heading left middle">
+                  <strong>Accuracy (25 °C)</strong>
+                </TH>
+                <td class="left middle">± 0.1% of full scale</td>
+              </tr>
+              <tr>
+                <TH colspan="2" rowspan="1" class="heading left middle">
+                  <strong>Temperature coefficient</strong>
+                </TH>
+                <td class="left middle">± 0.015%/ ° C of full scale</td>
+              </tr>
+              <tr>
+                <TH colspan="2" rowspan="1" class="heading left middle">
+                  <strong>Resolution</strong>
+                </TH>
+                <td class="left middle">- 10 to 10 V, - 1 to 1 V: 1/16,000 of full scale<br />0 to 10 V, 0 to 1 V, - 5 to 5 V: 1/8,000 of full scale<br />0 to 5 V: 1/4,000 of full scale</td>
+              </tr>
+              <tr>
+                <TH colspan="2" rowspan="1" class="heading left middle">
+                  <strong>Warmup time</strong>
+                </TH>
+                <td class="left middle">10 min</td>
+              </tr>
+              <tr>
+                <TH colspan="2" rowspan="1" class="heading left middle">
+                  <strong>Output response time</strong>
+                </TH>
+                <td class="left middle">50 ms max. (travel time from output 0% to 90%, for step output)</td>
+              </tr>
+              <tr>
+                <TH colspan="2" rowspan="1" class="heading left middle">
+                  <strong>D/A conversion period</strong>
+                </TH>
+                <td class="left middle">40 ms/4 outputs</td>
+              </tr>
+              <tr>
+                <TH colspan="2" rowspan="1" class="heading left middle">
+                  <strong>Maximum output delay<br />time</strong>
+                </TH>
+                <td class="left middle">Output response time + conversion period + one CPU Unit cycle</td>
+              </tr>
+              <tr>
+                <TH colspan="2" rowspan="1" class="heading left middle">
+                  <strong>Output signal range</strong>
+                </TH>
+                <td class="left middle">- 15 to 115% ( - 7.5 to 107.5% for ± 10-V and ± 1-V ranges)</td>
+              </tr>
+              <tr>
+                <TH colspan="2" rowspan="1" class="heading left middle">
+                  <strong>Allowable load resistance</strong>
+                </TH>
+                <td class="left middle">10 k Ω min.</td>
+              </tr>
+              <tr>
+                <TH colspan="2" rowspan="1" class="heading left middle">
+                  <strong>Output impedance</strong>
+                </TH>
+                <td class="left middle">0.5 Ω max.</td>
+              </tr>
+              <tr>
+                <TH colspan="2" rowspan="1" class="heading left middle">
+                  <strong>Voltage when open<br />between terminals</strong>
+                </TH>
+                <td class="center middle">---</td>
+              </tr>
+              <tr>
+                <TH colspan="2" rowspan="1" class="heading left middle">
+                  <strong>Answer input function</strong>
+                </TH>
+                <td class="left middle">None</td>
+              </tr>
+              <tr>
+                <TH colspan="2" rowspan="1" class="heading left middle">
+                  <strong>Current output<br />disconnection<br />detection function</strong>
+                </TH>
+                <td class="left middle">None</td>
+              </tr>
+              <tr>
+                <TH colspan="1" rowspan="3" class="heading left middle">
+                  <strong>Function</strong>
+                </TH>
+                <td class="heading left middle">
+                  <strong>Rate-of-<br />change<br />limit</strong>
+                </td>
+                <td class="left middle">This function can be used to control the speed of up and down changes in analog output values.</td>
+              </tr>
+              <tr>
+                <TH class="heading left middle">
+                  <strong>Output<br />high/<br />low limits</strong>
+                </TH>
+                <td class="left middle">This function can be used to place high and low limits on analog output values.</td>
+              </tr>
+              <tr>
+                <TH class="heading left middle">
+                  <strong>Output<br />hold</strong>
+                </TH>
+                <td class="left middle">This function holds the analog output value to the previous value or to a specified preset value when any<br />of the following CPU Unit errors occurs. Normal operation is restored when the CPU Unit error is cleared.<br />CPU Unit fatal error (including FALS execution)<br />CPU error in CPU Unit<br />CPU Unit's load interrupted</td>
+              </tr>
+              <tr>
+                <TH colspan="2" rowspan="1" class="heading left middle">
+                  <strong>Isolation</strong>
+                </TH>
+                <td class="left middle">Between outputs and between output terminals and PLC signals: Isolation by transformer and photocoupler</td>
+              </tr>
+              <tr>
+                <TH colspan="2" rowspan="1" class="heading left middle">
+                  <strong>Insulation resistance</strong>
+                </TH>
+                <td class="left middle">20 M Ω (at 500 V DC) between outputs</td>
+              </tr>
+              <tr>
+                <TH colspan="2" rowspan="1" class="heading left middle">
+                  <strong>Dielectric strength</strong>
+                </TH>
+                <td class="left middle">Between outputs: 1,000 V AC, at 50/60 Hz, for 1 min, leakage current 10 mA max.</td>
+              </tr>
+              <tr>
+                <TH colspan="2" rowspan="1" class="heading left middle">
+                  <strong>External connections</strong>
+                </TH>
+                <td class="left middle">Terminal block (detachable)</td>
+              </tr>
+              <tr>
+                <TH colspan="2" rowspan="1" class="heading left middle">
+                  <strong>Unit number settings</strong>
+                </TH>
+                <td class="left middle">Set by rotary switches on front panel, from 0 to 95.</td>
+              </tr>
+              <tr>
+                <TH colspan="2" rowspan="1" class="heading left middle">
+                  <strong>Indicators</strong>
+                </TH>
+                <td class="left middle">Three LED indicators on front panel (for normal operation, errors detected at the Analog Output Unit, and<br />errors related to the CPU Unit).</td>
+              </tr>
+              <tr>
+                <TH colspan="2" rowspan="1" class="heading left middle">
+                  <strong>Front panel connector</strong>
+                </TH>
+                <td class="left middle">Output connector terminal block (detachable)</td>
+              </tr>
+              <tr>
+                <TH colspan="2" rowspan="1" class="heading left middle">
+                  <strong>Effect on CPU Unit cycle<br />time</strong>
+                </TH>
+                <td class="left middle">0.3 ms</td>
+              </tr>
+              <tr>
+                <TH colspan="2" rowspan="1" class="heading left middle">
+                  <strong>Current consumption</strong>
+                </TH>
+                <td class="left middle">5 V DC at 120 mA max., 26 V DC at 120 mA max.</td>
+              </tr>
+              <tr>
+                <TH colspan="2" rowspan="1" class="heading left middle">
+                  <strong>Dimensions</strong>
+                </TH>
+                <td class="left middle">35 × 130 × 126 mm (W × H × D)<br />Note: The height including the Backplane is 145 mm.</td>
+              </tr>
+              <tr>
+                <TH colspan="2" rowspan="1" class="heading left middle">
+                  <strong>Weight</strong>
+                </TH>
+                <td class="left middle">450 g max.</td>
+              </tr>
+              <tr>
+                <TH colspan="2" rowspan="1" class="heading left middle">
+                  <strong>Standard accessories</strong>
+                </TH>
+                <td class="left middle">None</td>
+              </tr>
+            </table>
+          </div>
+        
+        </p>
+    </div>
+
+
+
+
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<h4 class="heading-B02">Output Values According to CPU Unit Status</h4>
+
+
+
+
+
+
+
+<div class="component-blockA01">
+
+
+
+
+
+    <div class="text">
+        <p>
+            Analog output values from the Analog Output Unit will be as shown in the following table, depending on the status of the CPU Unit.
+        </p>
+    </div>
+
+
+
+
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="component-blockA01">
+
+
+
+
+
+    <div class="text">
+        <p>
+            
+          <div class="table-blockA01">
+            <table border="0" cellspacing="0" class="tableA01">
+              <tr>
+                <TH class="heading center middle">
+                  <strong>CPU Unit status</strong>
+                </TH>
+                <td colspan="2" rowspan="1" class="heading center middle">
+                  <strong>Analog output values from Unit</strong>
+                </td>
+              </tr>
+              <tr>
+                <td class="left middle">Fatal error (including FALS(007) execution)</td>
+                <td colspan="2" rowspan="3" class="left middle">The output hold function holds the previous value or a specified preset value.</td>
+              </tr>
+              <tr>
+                <td class="left middle">CPU error</td>
+              </tr>
+              <tr>
+                <td class="left middle">All outputs turned OFF with Output OFF Bit</td>
+              </tr>
+              <tr>
+                <td colspan="1" rowspan="2" class="left middle">Change of operation mode from RUN or<br />Monitor to Program<br />(See note.)</td>
+                <td class="left middle">When the CPU Unit's I/O Memory<br />Hold Flag (A500.12) is OFF.</td>
+                <td class="left middle">The output value in the CIO Area is cleared, and<br />that value (0000 hex) is output refreshed.</td>
+              </tr>
+              <tr>
+                <td class="left middle">When the CPU Unit's I/O Memory<br />Hold Flag (A500.12) is ON.</td>
+                <td class="left middle">The output value in the CIO Area is held at the<br />value prior to the operation mode change, and<br />that is output refreshed.</td>
+              </tr>
+              <tr>
+                <td class="left middle">Fatal error or CPU standby after turning ON<br />the power supply</td>
+                <td colspan="2" rowspan="1" class="left middle">0 V is output.</td>
+              </tr>
+              <tr>
+                <td class="left middle">Special I/O Unit cyclic refresh disabled</td>
+                <td colspan="2" rowspan="1" class="left middle">Outputs can be refreshed by means of IORF(097) in the ladder diagram program.</td>
+              </tr>
+            </table>
+          </div>
+        
+        </p>
+    </div>
+
+
+
+
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="component-blockA01">
+
+
+
+
+
+    <div class="text">
+        <p>
+            
+          <div style="text-align: left;">Note: Regardless of the CPU Unit's operation mode (including Program Mode), the analog output value in the allocated
+<br />
+          words of the CIO Area is always output refreshed. As shown in the above table, however, when the operation
+<br />
+          mode is changed to Program Mode, the analog output value in the CIO Area is either cleared or held depending
+<br />
+          on the status of the I/O Memory Hold Flag (A500.12). In particular, be careful when this flag is ON, because the
+<br />
+          value prior to the mode change will be held and that value will be output refreshed.</div>
+        
+        </p>
+    </div>
+
+
+
+
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<p class="date-line">last update: September 24, 2012</p>
+
+</div>
+
+                        </div>
+                    </div>
+	            <!-- === /[primary-contents-area] === -->
+                </div>
+                <!-- === /[inner-contents-area] === -->
+
+
+                <!-- === [local-navi] === -->
+                <div class="local-navi-area">
+                    <div class="local-navi-area">
+
+
+
+<div class="local-naviA01">
+<h2 class="heading-link">
+<a href="../../category/index.html" ><img src="../../../resources/images/icon_right_b.gif" width="3" height="9" alt="" class="iconA01" />Product Category</a>
+</h2>
+<ul><li><a href="../../category/automation-systems/index-2.html"><img src="../../../resources/images/icon_right_b.gif" width="3" height="9" alt="" class="iconA01" />Automation Systems</a><ul class="list-indent01"><li><a href="../../category/automation-systems/programmable-controllers/index-2.html"><img src="../../../resources/images/icon_right_b.gif" width="3" height="9" alt="" class="iconA01" />Programmable Controllers</a><ul class="list-indent02"><li><a href="../../category/automation-systems/programmable-controllers/cs1/index.html"><img src="../../../resources/images/icon_right_b.gif" width="3" height="9" alt="" class="iconA01" />CS1</a><ul class="list-indent03"><li><a href="../../category/automation-systems/programmable-controllers/cs1/special-io-units/index.html"><img src="../../../resources/images/icon_right_b.gif" width="3" height="9" alt="" class="iconA01" />Special I/O Units</a><ul class="list-indent04"><li><a href="../1664/index.html"><img src="../../../resources/images/icon_right_b.gif" width="3" height="9" alt="" class="iconA01" />CS1W-PTS</a></li><li><a href="../2038/index.html"><img src="../../../resources/images/icon_right_b.gif" width="3" height="9" alt="" class="iconA01" />CS1W-SRM21</a></li><li><a href="../1781/index.html"><img src="../../../resources/images/icon_right_b.gif" width="3" height="9" alt="" class="iconA01" />CS1W-CRM21</a></li><li><a href="../1665/index.html"><img src="../../../resources/images/icon_right_b.gif" width="3" height="9" alt="" class="iconA01" />CS1W-PDC / PTW / PTR</a></li><li><a href="../1666/index.html"><img src="../../../resources/images/icon_right_b.gif" width="3" height="9" alt="" class="iconA01" />CS1W-AD</a></li><li><a href="../1667/index.html"><img src="../../../resources/images/icon_right_b.gif" width="3" height="9" alt="" class="iconA01" />CS1W-DA</a></li><li class="stay"><span>CS1W-PMV</span></li><li><a href="../1670/index.html"><img src="../../../resources/images/icon_right_b.gif" width="3" height="9" alt="" class="iconA01" />CS1W-MAD44</a></li><li><a href="../1671/index.html"><img src="../../../resources/images/icon_right_b.gif" width="3" height="9" alt="" class="iconA01" />CS1W-PPS01</a></li><li><a href="../1672/index.html"><img src="../../../resources/images/icon_right_b.gif" width="3" height="9" alt="" class="iconA01" />CS1W-NC[][]3</a></li><li><a href="../1673/index.html"><img src="../../../resources/images/icon_right_b.gif" width="3" height="9" alt="" class="iconA01" />CS1W-CT021 / 041</a></li><li><a href="../3087/index.html"><img src="../../../resources/images/icon_right_b.gif" width="3" height="9" alt="" class="iconA01" />CS1W-V680C11 / V680C12</a></li></ul></li></ul></li></ul></li></ul></li></ul>
+<!-- /local-naviA01 -->
+</div>
+
+
+
+<div class="local-naviB01">
+<ul class="heading-link">
+
+<li class="first-child">
+<a href="../../category/index.html"><img src="../../../resources/images/icon_right_b.gif" width="3" height="9" alt="" class="iconA01" />Product Category</a>
+</li>
+
+<li>
+<a href="../../../product/cautions/index-2.html"><img src="../../../resources/images/icon_right_b.gif" width="3" height="9" alt="" class="iconA01" />Cautions</a>
+</li>
+
+<li>
+<a href="../../index/index.html"><img src="../../../resources/images/icon_right_b.gif" width="3" height="9" alt="" class="iconA01" />Item A to Z Index</a>
+</li>
+
+<li>
+<a href="../../applications/index.html"><img src="../../../resources/images/icon_right_b.gif" width="3" height="9" alt="" class="iconA01" />Applications</a>
+</li>
+
+<li>
+<a href="../../correct/index.html"><img src="../../../resources/images/icon_right_b.gif" width="3" height="9" alt="" class="iconA01" />Correction Notice</a>
+</li>
+
+</ul>
+<!-- /local-naviB01 -->
+</div>
+                    </div>
+                </div>
+                <!-- === /[local-navi] === -->
+
+            </div>
+            <!-- === /[contents-area] === -->
+
+            <!-- === [top-page-link-area] === -->
+            <div class="top-page-link-area">
+                <ul class="top-page-link-list">
+                    <li>
+                        <a href="#page-top"><img src="../../../resources/images/icon_up_b.gif" width="5" height="8" alt="" class="iconB01" />Top of Page</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- === /[top-page-link-area] === -->
+
+            <!-- === [footer-area] === -->
+
+
+<!-- === [footer-area] === -->
+<div class="footer-area">
+    <p class="non-visual">
+        <a name="footer" id="footer">Site Information</a>
+    </p>
+    
+    <div class="footer-link">
+        
+        <p class="copyright">© Copyright Kyoto Engineering &amp; Automation Ltd. All Rights Reserved.</p>
+    <!-- /.footer-link -->
+    </div>
+<!-- /.footer-area -->
+</div>
+<!-- === /[footer-area] === -->
+            <!-- === /[footer-area] === -->
+        </div>
+        <!-- === /[omron-ia] === -->
+    </body>
+
+<!-- Mirrored from www.ia.omron.com/products/family/1669/specification.html by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 16 Dec 2016 08:02:34 GMT -->
+</html>

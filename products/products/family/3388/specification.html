@@ -1,0 +1,1835 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<html xml:lang="en" lang="en" xmlns="http://www.w3.org/1999/xhtml">
+    
+<!-- Mirrored from www.ia.omron.com/products/family/3388/specification.html by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 16 Dec 2016 06:06:45 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=utf-8" /><!-- /Added by HTTrack -->
+<head>
+<link rel="stylesheet" type="text/css" media="all" href="../../../css/index.css"/>
+	<link rel="stylesheet" type="text/css" media="all" href="../../../css/top.css"/>
+        <meta http-equiv="Content-Language" content="en" />
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <meta http-equiv="Content-Style-Type" content="text/css" />
+        <meta http-equiv="Content-Script-Type" content="text/javascript" />
+        <title>
+            NX-MD NX-series Digital Mixed I/O Units/Specifications | OMRON By Kyoto Engineering &amp; Automation
+        </title>
+        <meta name="keywords" content="Automation Systems,Machine Automation Controllers,EtherCAT Slave Terminals NX-Series,Digital Input / Output Unit,NX-MD" />
+        <meta name="description" content="NX-series Digital Mixed I/O Units Digital Mixed I/O Units for High speed Synchronous Control" />
+        
+
+<link rel="alternate" href="../../../index.html" hreflang="en" />
+<link rel="stylesheet" type="text/css" media="all" href="../../../resources/css/common22f8.css?201611151200" />
+<link rel="stylesheet" type="text/css" media="all" href="../../../resources/css/global/common22f8.css?201611151200" />
+<link rel="stylesheet" type="text/css" media="all" href="../../../resources/css/frame_utility_tridion22f8.css?201611151200" />
+<link rel="stylesheet" type="text/css" media="print" href="../../../resources/css/print22f8.css?201611151200" />
+<script type="text/javascript" src="../../../resources/js/jquery22f8.js?201611151200"></script>
+<script type="text/javascript" src="../../../resources/js/function22f8.js?201611151200"></script>
+<script type="text/javascript" src="../../../resources/js/country_website22f8.js?201611151200"></script>
+<script type="text/javascript" src="../../../resources/js/global/ga22f8.js?201611151200"></script>
+<link rel="stylesheet" type="text/css" media="all" href="../../../resources/css/jquery-ui22f8.css?201611151200" charset='UTF-8'/>
+<link rel="stylesheet" type="text/css" media="all" href="../../../resources/css/jquery.multiselect22f8.css?201611151200" charset='UTF-8'/>
+<script type="text/javascript" language="JavaScript" src="../../../common/js/marketing_tag22f8.js?201611151200"></script>
+<script type="text/javascript" src="../../../resources/js/jquery-ui.min22f8.js?201611151200" charset='UTF-8'></script>
+<script type="text/javascript" src="../../../resources/js/jquery.ex-table-filter22f8.js?201611151200" charset='UTF-8'></script>
+<script type="text/javascript" src="../../../resources/js/jquery.tablesorter.min22f8.js?201611151200" charset='UTF-8'></script>
+<script type="text/javascript" src="../../../resources/js/filter22f8.js?201611151200" charset='UTF-8'></script>
+<link rel="shortcut icon" href="../../../resources/images/favicon.ico" type="image/x-icon" />
+
+        <link rel="stylesheet" type="text/css" media="all" href="../../../resources/css/tablesorter6c9b.css?201611150900" />
+        <script type="text/javascript" src="../../../resources/js/global/products6c9b.js?201611150900" charset='UTF-8'></script>
+
+    </head>
+    <body id="www-ia-omron-com" class="layoutC03 automation-systems">
+
+        <!-- === [omron-ia] === -->
+        <div class="omron-ia">
+            <p class="non-visual">
+                <a name="page-top" id="page-top">
+                    Page top
+                </a>
+            </p>
+
+
+
+
+<div class="header-area">
+     <div class="site-identity">
+          <div class="site-logo">
+               <a href="../../../index.php"><img src="../../../images/logo_01_b13-260967.gif"  width="129" height="24" alt="OMRON" /></a>
+          </div>
+          <!-- /.site-identity -->
+     </div>
+  <div class="utilities">
+		<div class="country-select-area">
+			<p class="canpany">Building Automation</p>
+                        <?php echo '&nbsp' ; ?>
+                        <br/>
+                        <p class="canpany">Industrial Automation</p>
+                        <?php echo '&nbsp' ; ?>
+                        <br/>
+                        <p class="canpany">Power Automation &amp; Safety </p>
+			
+		</div>
+            
+            <div class="japani">
+                <img  src="../../../shared/img/Japani Technology mnemonic.png" width="90" height="50" alt=""/>
+            </div>
+          
+            
+            
+            <div class="flag">
+            <img src="../../../shared/img/Bangladesh-Flag_1.png" alt=""/>
+            </div>
+            <div class="kyoto">
+                <p><b>Bangladesh Distributor</b></p>
+                <img style="margin-left:-5px;"  src="../../../shared/img/Kyoto-logo-Png.png" alt=""/>
+            </div>
+	<!-- /.utilities --> </div>
+	<!-- /.header-area --></div>
+
+<div class="global-navi-area">
+<ul>
+<li class="home stay"><a href="../../../index.php">Home</a></li>
+<li class="product"><a href="../../../products/index.html">Products</a></li>
+<li class="corporate-profile"><a href="../../../view/contact/input.php">Contact Us</a></li>
+<li class="function-area"><div class="search"><form action="https://omron.keal.com.bd/sphider/search.php" method="get">       
+<input type="text" name="query" id="query" size="40" value="" />
+      <input type="submit" value="Search" /> <input type="hidden"
+      name="search" value="1" />
+    </form>
+</div>
+</li>
+</ul>
+</div> 
+<div class="bread-crumb-area">
+<ul>
+
+
+<li><a href="../../../index.php" >Home</a><span class="separator">&gt;</span></li>
+
+<li><a href="../../index-2.html" >Products</a><span class="separator">&gt;</span></li>
+
+<li><a href="../../category/index.html" >Product Category</a><span class="separator">&gt;</span></li>
+
+<li><a href="../../category/automation-systems/index-2.html" >Automation Systems</a><span class="separator">&gt;</span></li>
+
+<li><a href="../../category/automation-systems/machine-automation-controllers/index-2.html" >Machine Automation Controllers</a><span class="separator">&gt;</span></li>
+
+<li><a href="../../category/automation-systems/machine-automation-controllers/ethercat-slave-terminals-nx-series/index.html" >EtherCAT Slave Terminals NX-Series</a><span class="separator">&gt;</span></li>
+
+<li><a href="../../category/automation-systems/machine-automation-controllers/ethercat-slave-terminals-nx-series/digital-input_output-unit/index.html" >Digital Input / Output Unit</a><span class="separator">&gt;</span></li>
+
+<li><strong>NX-MD</strong></li>
+
+
+</ul>
+</div>
+
+            <!-- === [contents-area] === -->
+            <div class="contents-area">
+
+                <!-- === [inner-contents-area] === -->
+                <div class="inner-contents-area">
+                    <!-- === [upper-contents-area] === -->
+                    <div class="upper-contents-area">
+                        <!-- === [lead-area] === -->
+                        <div class="lead-area">
+
+
+
+
+<!-- --------------------------------------------------------------------Product Family Start--------------------------------------------------------- -->
+<div class="heading-h1">
+
+
+    <h1>
+        NX-MD
+    </h1>
+    <p class="sub-title">
+        NX-series Digital Mixed I/O Units
+    </p>
+</div>
+<div class="image-blockA01">
+    <div class="image-left">
+        <p class="image">
+
+            <img src="../../../images/l_3388-13-224840-198x198.jpg" width="198" height="198" alt="NX-MD" class="nopic" />
+
+
+        </p>
+    </div>
+    <div class="description">
+        <h2 class="heading-B02">
+            Digital Mixed I/O Units for High speed Synchronous Control
+        </h2>
+        
+
+
+
+
+        <div class="item-list-link">
+            <p>
+                <a href="itemlist/index.html">
+                    <img src="../../../resources/images/icon_right_b.gif" width="3" height="9" alt="" class="iconA01" />
+                    Item list of NX-MD
+                </a>
+            </p>
+        </div>
+    </div>
+<!-- /.image-blockA01 -->
+</div>
+
+
+
+                        </div>
+                        <!-- === /[lead-area] === -->
+
+
+                        <!-- === [utility-area] === -->
+                        <div class="utility-area">                         
+                       
+                            <div class="action-block">
+                                <p>
+                                    about this Product Family
+                                </p>
+                                <ul>
+                                    <li class="first-child">
+                                        <a href="../../../view/contact/input.php">
+                                            Inquiry of this Product
+                                        </a>
+                                    </li>                                 
+                                </ul>
+                            </div>
+
+
+
+
+<div class="related-info-blockA01 vertical-slide">
+
+    <p>
+        <span>Related Contents</span>
+    </p>
+
+
+       
+        <ul>
+            <li class="first-child">
+                <span>Automation Systems</span>
+            </li>
+            <li>
+                <ul class="list-indent01">
+
+
+                    <li class="first-child">
+
+
+                        <a href="../../applications/category/automation-systems/index.html">
+                            <img src="../../../resources/images/icon_right_b.gif" width="3" height="9" alt="" class="iconA01" />
+                            Applications 
+                        </a>
+                    </li>
+
+                </ul>
+            </li>
+        </ul>
+
+        <ul>
+            <li class="first-child">
+                <span>Machine Automation Controllers</span>
+            </li>
+            <li>
+                <ul class="list-indent01">
+
+
+                    <li class="first-child">
+
+
+                        <a href="../../index/automation-systems/machine-automation-controllers/index.html">
+                            <img src="../../../resources/images/icon_right_b.gif" width="3" height="9" alt="" class="iconA01" />
+                            Item A to Z Index 
+                        </a>
+                    </li>
+
+
+
+                    <li>
+
+                        <a href="../../../support/glossary/automation-systems/machine-automation-controllers/index.html">
+                            <img src="../../../resources/images/icon_right_b.gif" width="3" height="9" alt="" class="iconA01" />
+                            Glossary of Industrial Automation 
+                        </a>
+                    </li>
+
+                </ul>
+            </li>
+        </ul>
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- /.related-info-blockA01 -->
+</div>
+
+
+
+                           
+                        </div>
+                        <!-- === /[utility-area] === -->
+
+                    </div>
+                    <!-- === /[upper-contents-area] === -->
+
+                    <!-- === [primary-contents-area] === -->
+                    <div class="primary-contents-area">
+                        <div class="tabpanel-blockA01">
+
+
+
+
+
+
+<div class="tab-block">
+    <ul class="tabs">
+
+
+
+
+
+
+
+        <li>
+            <a href="feature.html">Features</a>
+
+        </li>
+
+
+
+
+
+
+
+
+        <li>
+            <a href="lineup.html">Lineup</a>
+
+        </li>
+
+
+
+
+
+
+
+
+        <li class="active">
+            <span>Specifications</span>
+
+        </li>
+
+
+
+
+
+
+
+
+        <li>
+            <a href="dimension.html">Dimensions</a>
+
+        </li>
+
+
+
+
+
+
+        <li>
+            <a href="download/catalog.html">Catalog</a>
+
+        </li>
+
+
+
+
+
+    </ul>
+</div><!-- /.tab-block -->
+
+<div class="editable-block">
+
+
+<p class="date-line">last update: October 11, 2016</p>
+
+
+
+
+
+
+
+
+
+<h4 class="heading-A02">General Specification</h4>
+
+
+
+
+
+
+
+
+
+
+<div class="component-blockA01">
+
+
+
+
+
+    <div class="text">
+        <p>
+            
+						<div class="table-blockA01">
+							<table class="tableA01" cellspacing="0" border="0">
+								<tbody>
+									<tr class="first-child">
+										<th colspan="2" rowspan="1" class="heading center middle"><strong>Item</strong></th>
+										<th class="heading center middle"><strong>Specification</strong></th>
+									</tr>
+									<tr>
+										<th colspan="2" rowspan="1" class="heading left middle"><strong>Enclosure</strong></th>
+										<td class="left middle">Mounted in a panel</td>
+									</tr>
+									<tr>
+										<th colspan="2" rowspan="1" class="heading left middle"><strong>Grounding method</strong></th>
+										<td class="left middle">Ground to 100 Ω or less</td>
+									</tr>
+									<tr>
+										<th colspan="1" rowspan="11" class="heading left middle"><strong>Operating
+<br />
+environment</strong></th>
+										<th class="heading left middle"><strong>Ambient operating
+<br />
+temperature</strong></th>
+										<td class="left middle">0 to 55°C</td>
+									</tr>
+									<tr>
+										<th class="heading left middle"><strong>Ambient operating
+<br />
+humidity</strong></th>
+										<td class="left middle">10% to 95% (with no condensation or icing)</td>
+									</tr>
+									<tr>
+										<th class="heading left middle"><strong>Atmosphere</strong></th>
+										<td class="left middle">Must be free from corrosive gases.</td>
+									</tr>
+									<tr>
+										<th class="heading left middle"><strong>Ambient storage
+<br />
+temperature</strong></th>
+										<td class="left middle">-25 to 70°C (with no condensation or icing)</td>
+									</tr>
+									<tr>
+										<th class="heading left middle"><strong>Altitude</strong></th>
+										<td class="left middle">2,000 m max.</td>
+									</tr>
+									<tr>
+										<th class="heading left middle"><strong>Pollution degree</strong></th>
+										<td class="left middle">2 or less: Conforms to JIS B3502 and IEC 61131-2.</td>
+									</tr>
+									<tr>
+										<th class="heading left middle"><strong>Noise immunity</strong></th>
+										<td class="left middle">2 kV on power supply line (Conforms to IEC61000-4-4.)</td>
+									</tr>
+									<tr>
+										<th class="heading left middle"><strong>Overvoltage category</strong></th>
+										<td class="left middle">Category II: Conforms to JIS B3502 and IEC 61131-2.</td>
+									</tr>
+									<tr>
+										<th class="heading left middle"><strong>EMC immunity level</strong></th>
+										<td class="left middle">Zone B</td>
+									</tr>
+									<tr>
+										<th class="heading left middle"><strong>Vibration resistance
+<br />
+*1</strong></th>
+										<td class="left middle">Conforms to IEC 60068-2-6.
+<br />
+5 to 8.4 Hz with 3.5-mm amplitude, 8.4 to 150 Hz, acceleration of 9.8 m/s<sup>2</sup>,
+<br />
+100 min each in X, Y, and Z directions
+<br />
+(10 sweeps of 10 min each = 100 min total)</td>
+									</tr>
+									<tr>
+										<th class="heading left middle"><strong>Shock resistance *1</strong></th>
+										<td class="left middle">Conforms to IEC 60068-2-27. 147 m/s<sup>2</sup>, 3 times each in X, Y, and Z directions</td>
+									</tr>
+									<tr>
+										<th colspan="2" rowspan="1" class="heading left middle"><strong>Applicable standards *2</strong></th>
+										<td class="left middle">cULus: Listed (UL508) or Listed (UL 61010-2-201), ANSI/ISA 12.12.01,
+<br />
+EU: EN 61131-2 or EN 61010-2-201, C-Tick or RCM, KC: KC Registration, NK, LR</td>
+									</tr>
+								</tbody>
+							</table>
+						</div>
+					
+        </p>
+    </div>
+
+
+
+
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="component-blockA01">
+
+
+
+
+
+    <div class="text">
+        <p>
+            
+						<div style="text-align: left;">*1 For the Relay Output Unit, refer to the Digital Input Unit Specifications.
+<br />
+*2 Refer to the OMRON website (http://www.ia.omron.com/support/models/index.html) or consult your OMRON
+<br />
+      representative for the most recent applicable standards for each model.</div>
+					
+        </p>
+    </div>
+
+
+
+
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<h4 class="heading-A02">Digital Mixed I/O Unit Specifications</h4>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<h4 class="heading-A03">DC Input/Transistor Output Units (MIL Connector, 30 mm Width)</h4>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<h4 class="heading-B02">NX-MD6121-5</h4>
+
+
+
+
+
+
+
+<div class="component-blockA01">
+
+
+
+
+
+    <div class="text">
+        <p>
+            
+						<div class="table-blockA01">
+							<table class="tableA01" cellspacing="0" border="0">
+								<tbody>
+									<tr class="first-child">
+										<th colspan="2" rowspan="1" class="heading left middle"><strong>Unit name</strong></th>
+										<td class="left middle">DC Input/Transistor Output Unit</td>
+										<th colspan="2" rowspan="1" class="heading left middle"><strong>Model</strong></th>
+										<td class="left middle">NX-MD6121-5</td>
+									</tr>
+									<tr>
+										<th colspan="2" rowspan="1" class="heading left middle"><strong>Number of points</strong></th>
+										<td class="left middle">16 inputs/16 outputs</td>
+										<th colspan="2" rowspan="1" class="heading left middle"><strong>External connection
+<br />
+terminals</strong></th>
+										<td class="left middle">2 MIL connectors (20 terminals)</td>
+									</tr>
+									<tr>
+										<th colspan="2" rowspan="1" class="heading left middle"><strong>I/O refreshing method</strong></th>
+										<td colspan="4" rowspan="1" class="left middle">Switching Synchronous I/O refreshing and Free-Run refreshing</td>
+									</tr>
+									<tr>
+										<th colspan="1" rowspan="8" class="heading left middle"><strong>Output
+<br />
+section
+<br />
+(CN1)</strong></th>
+										<th class="heading left middle"><strong>Internal I/O
+<br />
+common</strong></th>
+										<td class="left middle">NPN</td>
+										<th colspan="1" rowspan="8" class="heading left middle"><strong>Input
+<br />
+section
+<br />
+(CN2)</strong></th>
+										<th class="heading left middle"><strong>Internal I/O
+<br />
+common</strong></th>
+										<td class="left middle">For both NPN/PNP</td>
+									</tr>
+									<tr>
+										<th class="heading left middle"><strong>Rated voltage</strong></th>
+										<td class="left middle">12 to 24 VDC</td>
+										<th class="heading left middle"><strong>Rated input
+<br />
+voltage</strong></th>
+										<td class="left middle">24 VDC (15 to 28.8 VDC)</td>
+									</tr>
+									<tr>
+										<th class="heading left middle"><strong>Operating load
+<br />
+voltage range</strong></th>
+										<td class="left middle">10.2 to 28.8 VDC</td>
+										<th class="heading left middle"><strong>Input current</strong></th>
+										<td class="left middle">7 mA typical (at 24 VDC)</td>
+									</tr>
+									<tr>
+										<th class="heading left middle"><strong>Maximum value
+<br />
+of load current</strong></th>
+										<td class="left middle">0.5 A/point, 2 A/Unit</td>
+										<th class="heading left middle"><strong>ON voltage/ON
+<br />
+current</strong></th>
+										<td class="left middle">15 VDC min./3 mA min.
+<br />
+(between COM and each signal)</td>
+									</tr>
+									<tr>
+										<th class="heading left middle"><strong>Maximum inrush
+<br />
+current</strong></th>
+										<td class="left middle">4.0 A/point, 10 ms max.</td>
+										<th class="heading left middle"><strong>OFF voltage/OFF
+<br />
+current</strong></th>
+										<td class="left middle">5 VDC max./1 mA max.
+<br />
+(between COM and each signal)</td>
+									</tr>
+									<tr>
+										<th class="heading left middle"><strong>Leakage current</strong></th>
+										<td class="left middle">0.1 mA max.</td>
+										<th class="heading left middle"><strong>ON/OFF response
+<br />
+time</strong></th>
+										<td class="left middle">20 μs max./400 μs max.</td>
+									</tr>
+									<tr>
+										<th class="heading left middle"><strong>Residual voltage</strong></th>
+										<td class="left middle">1.5 V max.</td>
+										<th colspan="1" rowspan="2" class="heading left middle"><strong>Input filter time</strong></th>
+										<td colspan="1" rowspan="2" class="left middle">No filter, 0.25 ms, 0.5 ms, 1 ms
+<br />
+(default), 2 ms, 4 ms, 8 ms, 16 ms,
+<br />
+32 ms, 64 ms, 128 ms, 256 ms</td>
+									</tr>
+									<tr>
+										<th class="heading left middle"><strong>ON/OFF response
+<br />
+time</strong></th>
+										<td class="left middle">0.1 ms max./0.8 ms max.</td>
+									</tr>
+									<tr>
+										<th colspan="2" rowspan="9" class="heading left middle"><strong>Indicators</strong></th>
+										<td colspan="1" rowspan="9" class="left top">TS indicator, I/O indicators
+<br />
+											<img src="../../../images/3388_sp_2_113-224937.gif"  style="width: 149px; height: 77px;" alt="3388_sp_2_1" title="3388_sp_2_1" />
+											<br /></td>
+										<th colspan="2" rowspan="1" class="heading left middle"><strong>Dimensions</strong></th>
+										<td class="left middle">30 (W) x 100 (H) x 71 (D)</td>
+									</tr>
+									<tr>
+										<th colspan="2" rowspan="1" class="heading left middle"><strong>Isolation method</strong></th>
+										<td class="left middle">Photocoupler isolation</td>
+									</tr>
+									<tr>
+										<th colspan="2" rowspan="1" class="heading left middle"><strong>Insulation resistance</strong></th>
+										<td class="left middle">20 MΩ min. between isolated circuits
+<br />
+(at 100 VDC)</td>
+									</tr>
+									<tr>
+										<th colspan="2" rowspan="1" class="heading left middle"><strong>Dielectric strength</strong></th>
+										<td class="left middle">510 VAC between isolated circuits for 1 minute at a leakage current of 5 mA max.</td>
+									</tr>
+									<tr>
+										<th colspan="2" rowspan="1" class="heading left middle"><strong>I/O power supply method</strong></th>
+										<td class="left middle">Supply from external source</td>
+									</tr>
+									<tr>
+										<th colspan="2" rowspan="1" class="heading left middle"><strong>Current capacity of I/O power
+<br />
+supply terminal</strong></th>
+										<td class="left middle">Without I/O power supply terminals</td>
+									</tr>
+									<tr>
+										<th colspan="2" rowspan="1" class="heading left middle"><strong>NX Unit power consumption</strong></th>
+										<td class="left middle">• Connected to a CPU Unit
+<br />
+1.00 W max.
+<br />
+• Connected to a
+<br />
+Communications Coupler Unit
+<br />
+0.70 W max.</td>
+									</tr>
+									<tr>
+										<th colspan="2" rowspan="1" class="heading left middle"><strong>Current consumption from
+<br />
+I/O power supply</strong></th>
+										<td class="left middle">30 mA max.</td>
+									</tr>
+									<tr>
+										<th colspan="2" rowspan="1" class="heading left middle"><strong>Weight</strong></th>
+										<td class="left middle">105 g max.</td>
+									</tr>
+									<tr>
+										<th colspan="2" rowspan="1" class="heading left middle"><strong>Circuit layout</strong></th>
+										<td colspan="4" rowspan="1" class="left middle"><img src="../../../images/3388_sp_2_213-224938.gif"  style="width: 300px; height: 320px;" alt="3388_sp_2_2" title="3388_sp_2_2" />
+											<br /></td>
+									</tr>
+									<tr>
+										<th colspan="2" rowspan="1" class="heading left middle"><strong>Installation orientation and
+<br />
+restrictions</strong></th>
+										<td colspan="4" rowspan="1" class="left middle"><img src="../../../images/3388_sp_2_313-224939.gif"  title="3388_sp_2_3" alt="3388_sp_2_3" style="width: 294px; height: 413px;" /> 
+<br /></td>
+									</tr>
+									<tr>
+										<th colspan="2" rowspan="1" class="heading left middle"><strong>Terminal connection
+<br />
+diagram</strong></th>
+										<td colspan="4" rowspan="1" class="left middle"><img src="../../../images/3388_sp_2_413-224940.gif"  alt="3388_sp_2_4" title="3388_sp_2_4" />
+											<br /></td>
+									</tr>
+									<tr>
+										<th colspan="2" rowspan="1" class="heading left middle"><strong>Disconnection/Short-circuit
+<br />
+detection</strong></th>
+										<td class="left middle">Not supported.</td>
+										<th colspan="2" rowspan="1" class="heading left middle"><strong>Protective function</strong></th>
+										<td class="left middle">Not supported.</td>
+									</tr>
+								</tbody>
+							</table>
+						</div>
+					
+        </p>
+    </div>
+
+
+
+
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<h4 class="heading-B02">NX-MD6256-5</h4>
+
+
+
+
+
+
+
+<div class="component-blockA01">
+
+
+
+
+
+    <div class="text">
+        <p>
+            
+						<div class="table-blockA01">
+							<table class="tableA01" cellspacing="0" border="0">
+								<tbody>
+									<tr class="first-child">
+										<th colspan="2" rowspan="1" class="heading left middle"><strong>Unit name</strong></th>
+										<td class="left middle">DC Input/Transistor Output Unit</td>
+										<th colspan="2" rowspan="1" class="heading left middle"><strong>Model</strong></th>
+										<td class="left middle">NX-MD6256-5</td>
+									</tr>
+									<tr>
+										<th colspan="2" rowspan="1" class="heading left middle"><strong>Number of points</strong></th>
+										<td class="left middle">16 inputs/16 outputs</td>
+										<th colspan="2" rowspan="1" class="heading left middle"><strong>External connection
+<br />
+terminals</strong></th>
+										<td class="left middle">2 MIL connectors (20 terminals)</td>
+									</tr>
+									<tr>
+										<th colspan="2" rowspan="1" class="heading left middle"><strong>I/O refreshing method</strong></th>
+										<td colspan="4" rowspan="1" class="left middle">Switching Synchronous I/O refreshing and Free-Run refreshing</td>
+									</tr>
+									<tr>
+										<th colspan="1" rowspan="8" class="heading left middle"><strong>Output
+<br />
+section
+<br />
+(CN1)</strong></th>
+										<th class="heading left middle"><strong>Internal I/O
+<br />
+common</strong></th>
+										<td class="left middle">PNP</td>
+										<th colspan="1" rowspan="8" class="heading left middle"><strong>Input
+<br />
+section
+<br />
+(CN2)</strong></th>
+										<th class="heading left middle"><strong>Internal I/O
+<br />
+common</strong></th>
+										<td class="left middle">For both NPN/PNP</td>
+									</tr>
+									<tr>
+										<th class="heading left middle"><strong>Rated voltage</strong></th>
+										<td class="left middle">24 VDC</td>
+										<th class="heading left middle"><strong>Rated input
+<br />
+voltage</strong></th>
+										<td class="left middle">24 VDC (15 to 28.8 VDC)</td>
+									</tr>
+									<tr>
+										<th class="heading left middle"><strong>Operating load
+<br />
+voltage range</strong></th>
+										<td class="left middle">20.4 to 28.8 VDC</td>
+										<th class="heading left middle"><strong>Input current</strong></th>
+										<td class="left middle">7 mA typical (at 24 VDC)</td>
+									</tr>
+									<tr>
+										<th class="heading left middle"><strong>Maximum value
+<br />
+of load current</strong></th>
+										<td class="left middle">0.5 A/point, 2 A/Unit</td>
+										<th class="heading left middle"><strong>ON voltage/ON
+<br />
+current</strong></th>
+										<td class="left middle">15 VDC min./3 mA min.
+<br />
+(between COM and each signal)</td>
+									</tr>
+									<tr>
+										<th class="heading left middle"><strong>Maximum inrush
+<br />
+current</strong></th>
+										<td class="left middle">4.0 A/point, 10 ms max.</td>
+										<th class="heading left middle"><strong>OFF voltage/OFF
+<br />
+current</strong></th>
+										<td class="left middle">5 VDC max./1 mA max.
+<br />
+(between COM and each signal)</td>
+									</tr>
+									<tr>
+										<th class="heading left middle"><strong>Leakage current</strong></th>
+										<td class="left middle">0.1 mA max.</td>
+										<th class="heading left middle"><strong>ON/OFF response
+<br />
+time</strong></th>
+										<td class="left middle">20 μs max./400 μs max.</td>
+									</tr>
+									<tr>
+										<th class="heading left middle"><strong>Residual voltage</strong></th>
+										<td class="left middle">1.5 V max.</td>
+										<th colspan="1" rowspan="2" class="heading left middle"><strong>Input filter time</strong></th>
+										<td colspan="1" rowspan="2" class="left middle">No filter, 0.25 ms, 0.5 ms, 1 ms (default), 2 ms,
+<br />
+4 ms, 8 ms, 16 ms, 32 ms, 64 ms, 128 ms, 256 ms</td>
+									</tr>
+									<tr>
+										<th class="heading left middle"><strong>ON/OFF response
+<br />
+time</strong></th>
+										<td class="left middle">0.5 ms max./1.0 ms max.</td>
+									</tr>
+									<tr>
+										<th colspan="2" rowspan="9" class="heading left middle"><strong>Indicators</strong></th>
+										<td colspan="1" rowspan="9" class="left top">TS indicator, I/O indicators
+<br />
+											<img src="../../../images/3388_sp_3_113-224932.gif"  style="width: 148px; height: 78px;" alt="3388_sp_3_1" title="3388_sp_3_1" />
+											<br /></td>
+										<th colspan="2" rowspan="1" class="heading left middle"><strong>Dimensions</strong></th>
+										<td class="left middle">30 (W) x 100 (H) x 71 (D)</td>
+									</tr>
+									<tr>
+										<th colspan="2" rowspan="1" class="heading left middle"><strong>Isolation method</strong></th>
+										<td class="left middle">Photocoupler isolation</td>
+									</tr>
+									<tr>
+										<th colspan="2" rowspan="1" class="heading left middle"><strong>Insulation resistance</strong></th>
+										<td class="left middle">20 MΩ min. between isolated circuits
+<br />
+(at 100 VDC)</td>
+									</tr>
+									<tr>
+										<th colspan="2" rowspan="1" class="heading left middle"><strong>Dielectric strength</strong></th>
+										<td class="left middle">510 VAC between isolated circuits for 1 minute at a leakage current of 5 mA max.</td>
+									</tr>
+									<tr>
+										<th colspan="2" rowspan="1" class="heading left middle"><strong>I/O power supply method</strong></th>
+										<td class="left middle">Supply from external source</td>
+									</tr>
+									<tr>
+										<th colspan="2" rowspan="1" class="heading left middle"><strong>Current capacity of I/O power
+<br />
+supply terminal</strong></th>
+										<td class="left middle">Without I/O power supply terminals</td>
+									</tr>
+									<tr>
+										<th colspan="2" rowspan="1" class="heading left middle"><strong>NX Unit power consumption</strong></th>
+										<td class="left middle">• Connected to a CPU Unit
+<br />
+1.10 W max.
+<br />
+• Connected to a
+<br />
+Communications Coupler Unit
+<br />
+0.75 W max.</td>
+									</tr>
+									<tr>
+										<th colspan="2" rowspan="1" class="heading left middle"><strong>Current consumption from
+<br />
+I/O power supply</strong></th>
+										<td class="left middle">40 mA max.</td>
+									</tr>
+									<tr>
+										<th colspan="2" rowspan="1" class="heading left middle"><strong>Weight</strong></th>
+										<td class="left middle">110 g max.</td>
+									</tr>
+									<tr>
+										<th colspan="2" rowspan="1" class="heading left middle"><strong>Circuit layout</strong></th>
+										<td colspan="4" rowspan="1" class="left middle"><img src="../../../images/3388_sp_3_213-224933.gif"  style="width: 330px; height: 330px;" alt="3388_sp_3_2" title="3388_sp_3_2" />
+											<br /></td>
+									</tr>
+									<tr>
+										<th colspan="2" rowspan="1" class="heading left middle"><strong>Installation orientation and
+<br />
+restrictions</strong></th>
+										<td colspan="4" rowspan="1" class="left middle"><img src="../../../images/3388_sp_3_313-224934.gif"  title="3388_sp_3_3" alt="3388_sp_3_3" style="width: 298px; height: 408px;" /> 
+<br /></td>
+									</tr>
+									<tr>
+										<th colspan="2" rowspan="1" class="heading left middle"><strong>Terminal connection
+<br />
+diagram</strong></th>
+										<td colspan="4" rowspan="1" class="left middle"><img src="../../../images/3388_sp_3_413-224935.gif"  style="width: 355px; height: 380px;" alt="3388_sp_3_4" title="3388_sp_3_4" />
+											<br /></td>
+									</tr>
+									<tr>
+										<th colspan="2" rowspan="1" class="heading left middle"><strong>Disconnection/Short-circuit
+<br />
+detection</strong></th>
+										<td class="left middle">Not supported.</td>
+										<th colspan="2" rowspan="1" class="heading left middle"><strong>Protective function</strong></th>
+										<td class="left middle">With load short-circuit protection.</td>
+									</tr>
+								</tbody>
+							</table>
+						</div>
+					
+        </p>
+    </div>
+
+
+
+
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<h4 class="heading-A03">DC Input/Transistor Output Units (Fujitsu Connector, 30 mm Width)</h4>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<h4 class="heading-B02">NX-MD6121-6</h4>
+
+
+
+
+
+
+
+<div class="component-blockA01">
+
+
+
+
+
+    <div class="text">
+        <p>
+            
+						<div class="table-blockA01">
+							<table class="tableA01" cellspacing="0" border="0">
+								<tbody>
+									<tr class="first-child">
+										<th colspan="2" rowspan="1" class="heading left middle"><strong>Unit name</strong></th>
+										<td class="left middle">DC Input/Transistor Output Unit</td>
+										<th colspan="2" rowspan="1" class="heading left middle"><strong>Model</strong></th>
+										<td class="left middle">NX-MD6121-6</td>
+									</tr>
+									<tr>
+										<th colspan="2" rowspan="1" class="heading left middle"><strong>Number of points</strong></th>
+										<td class="left middle">16 inputs/16 outputs</td>
+										<th colspan="2" rowspan="1" class="heading left middle"><strong>External connection
+<br />
+terminals</strong></th>
+										<td class="left middle">2 Fujitsu connectors
+<br />
+(24 terminals)</td>
+									</tr>
+									<tr>
+										<th colspan="2" rowspan="1" class="heading left middle"><strong>I/O refreshing method</strong></th>
+										<td colspan="4" rowspan="1" class="left middle">Switching Synchronous I/O refreshing and Free-Run refreshing</td>
+									</tr>
+									<tr>
+										<th colspan="1" rowspan="8" class="heading left middle"><strong>Output
+<br />
+section
+<br />
+(CN1)</strong></th>
+										<th class="heading left middle"><strong>Internal I/O
+<br />
+common</strong></th>
+										<td class="left middle">NPN</td>
+										<th colspan="1" rowspan="8" class="heading left middle"><strong>Input
+<br />
+section
+<br />
+(CN2)</strong></th>
+										<th class="heading left middle"><strong>Internal I/O
+<br />
+common</strong></th>
+										<td class="left middle">For both NPN/PNP</td>
+									</tr>
+									<tr>
+										<th class="heading left middle"><strong>Rated voltage</strong></th>
+										<td class="left middle">12 to 24 VDC</td>
+										<th class="heading left middle"><strong>Rated input
+<br />
+voltage</strong></th>
+										<td class="left middle">24 VDC (15 to 28.8 VDC)</td>
+									</tr>
+									<tr>
+										<th class="heading left middle"><strong>Operating load
+<br />
+voltage range</strong></th>
+										<td class="left middle">10.2 to 28.8 VDC</td>
+										<th class="heading left middle"><strong>Input current</strong></th>
+										<td class="left middle">7 mA typical (at 24 VDC)</td>
+									</tr>
+									<tr>
+										<th class="heading left middle"><strong>Maximum value
+<br />
+of load current</strong></th>
+										<td class="left middle">0.5 A/point, 2 A/Unit</td>
+										<th class="heading left middle"><strong>ON voltage/
+<br />
+ON current</strong></th>
+										<td class="left middle">15 VDC min./3 mA min.
+<br />
+(between COM and each signal)</td>
+									</tr>
+									<tr>
+										<th class="heading left middle"><strong>Maximum
+<br />
+inrush current</strong></th>
+										<td class="left middle">4.0 A/point, 10 ms max.</td>
+										<th class="heading left middle"><strong>OFF voltage/
+<br />
+OFF current</strong></th>
+										<td class="left middle">5 VDC max./1 mA max.
+<br />
+(between COM and each signal)</td>
+									</tr>
+									<tr>
+										<th class="heading left middle"><strong>Leakage
+<br />
+current</strong></th>
+										<td class="left middle">0.1 mA max.</td>
+										<th class="heading left middle"><strong>ON/OFF
+<br />
+response time</strong></th>
+										<td class="left middle">20 μs max./400 μs max.</td>
+									</tr>
+									<tr>
+										<th class="heading left middle"><strong>Residual
+<br />
+voltage</strong></th>
+										<td class="left middle">1.5 V max.</td>
+										<th colspan="1" rowspan="2" class="heading left middle"><strong>Input filter
+<br />
+time</strong></th>
+										<td colspan="1" rowspan="2" class="left middle">No filter, 0.25 ms, 0.5 ms, 1 ms
+<br />
+(default), 2 ms, 4 ms, 8 ms,
+<br />
+16 ms, 32 ms, 64 ms, 128 ms,
+<br />
+256 ms</td>
+									</tr>
+									<tr>
+										<th class="heading left middle"><strong>ON/OFF
+<br />
+response time</strong></th>
+										<td class="left middle">0.1 ms max./0.8 ms max.</td>
+									</tr>
+									<tr>
+										<th colspan="2" rowspan="9" class="heading left middle"><strong>Indicators</strong></th>
+										<td colspan="1" rowspan="9" class="left top">TS indicator, I/O indicators
+<br />
+											<img src="../../../images/3388_sp_4_113-231716.gif"  title="3388_sp_4_1" alt="3388_sp_4_1" style="width: 162px; height: 87px;" /></td>
+										<th colspan="2" rowspan="1" class="heading left middle"><strong>Dimensions</strong></th>
+										<td class="left middle">30 (W) x 100 (H) x 71 (D)</td>
+									</tr>
+									<tr>
+										<th colspan="2" rowspan="1" class="heading left middle"><strong>Isolation method</strong></th>
+										<td class="left middle">Photocoupler isolation</td>
+									</tr>
+									<tr>
+										<th colspan="2" rowspan="1" class="heading left middle"><strong>Insulation resistance</strong></th>
+										<td class="left middle">20 MΩ min. between isolated
+<br />
+circuits (at 100 VDC)</td>
+									</tr>
+									<tr>
+										<th colspan="2" rowspan="1" class="heading left middle"><strong>Dielectric strength</strong></th>
+										<td class="left middle">510 VAC between isolated
+<br />
+circuits for 1 minute at a
+<br />
+leakage current of 5 mA max.</td>
+									</tr>
+									<tr>
+										<th colspan="2" rowspan="1" class="heading left middle"><strong>I/O power supply
+<br />
+method</strong></th>
+										<td class="left middle">Supply from external source</td>
+									</tr>
+									<tr>
+										<th colspan="2" rowspan="1" class="heading left middle"><strong>Current capacity of
+<br />
+I/O power supply
+<br />
+terminal</strong></th>
+										<td class="left middle">Without I/O power supply
+<br />
+terminals</td>
+									</tr>
+									<tr>
+										<th colspan="2" rowspan="1" class="heading left middle"><strong>NX Unit power
+<br />
+consumption</strong></th>
+										<td class="left middle">• Connected to a CPU Unit
+<br />
+1.00 W max.
+<br />
+• Connected to a
+<br />
+Communications Coupler Unit
+<br />
+0.70 W max.</td>
+									</tr>
+									<tr>
+										<th colspan="2" rowspan="1" class="heading left middle"><strong>Current consumption
+<br />
+from I/O power supply</strong></th>
+										<td class="left middle">30 mA max.</td>
+									</tr>
+									<tr>
+										<th colspan="2" rowspan="1" class="heading left middle"><strong>Weight</strong></th>
+										<td class="left middle">95 g max.</td>
+									</tr>
+									<tr>
+										<th colspan="2" rowspan="1" class="heading left middle"><strong>Circuit layout</strong></th>
+										<td colspan="4" rowspan="1" class="left middle"><img src="../../../images/3388_sp_4_213-231719.gif"  title="3388_sp_4_2" alt="3388_sp_4_2" style="width: 372px; height: 409px;" /></td>
+									</tr>
+									<tr>
+										<th colspan="2" rowspan="1" class="heading left middle"><strong>Installation orientation
+<br />
+and restrictions</strong></th>
+										<td colspan="4" rowspan="1" class="left middle"><img src="../../../images/3388_sp_4_313-231722.gif"  title="3388_sp_4_3" alt="3388_sp_4_3" style="width: 345px; height: 517px;" />
+											<br /></td>
+									</tr>
+									<tr>
+										<th colspan="2" rowspan="1" class="heading left middle"><strong>Terminal connection
+<br />
+diagram</strong></th>
+										<td colspan="4" rowspan="1" class="left middle"><img src="../../../images/3388_sp_4_413-231725.gif"  title="3388_sp_4_4" alt="3388_sp_4_4" style="width: 381px; height: 565px;" /></td>
+									</tr>
+									<tr>
+										<th colspan="2" rowspan="1" class="heading left middle"><strong>Disconnection/Short-
+<br />
+circuit detection</strong></th>
+										<td class="left middle">Not supported.</td>
+										<th colspan="2" rowspan="1" class="heading left middle"><strong>Protective function</strong></th>
+										<td class="left middle">Not supported.</td>
+									</tr>
+								</tbody>
+							</table>
+						</div>
+					
+        </p>
+    </div>
+
+
+
+
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<h4 class="heading-A02">Version Information</h4>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<h4 class="heading-A03">Connecting with CPU Units</h4>
+
+
+
+
+
+
+
+
+
+<div class="component-blockA01">
+
+
+
+
+
+    <div class="text">
+        <p>
+            Refer to the user's manual for the CPU Unit for the CPU Unit to which NX Units can be connected.
+        </p>
+    </div>
+
+
+
+
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="component-blockA01">
+
+
+
+
+
+    <div class="text">
+        <p>
+            
+						<div class="table-blockA01">
+							<table class="tableA01" cellspacing="0" border="0">
+								<tr class="first-child">
+									<th colspan="2" rowspan="1" class="heading center middle"><strong>NX Unit</strong></th>
+									<th colspan="2" rowspan="1" class="heading center middle"><strong>Corresponding versions *</strong></th>
+								</tr>
+								<tr>
+									<th class="heading center middle"><strong>Model</strong></th>
+									<th class="heading center middle"><strong>Unit version</strong></th>
+									<th class="heading center middle"><strong>CPU Unit</strong></th>
+									<th class="heading center middle"><strong>Sysmac Studio</strong></th>
+								</tr>
+								<tr>
+									<td class="left middle">NX-MD6121-5</td>
+									<td colspan="1" rowspan="3" class="center middle">Ver.1.0</td>
+									<td colspan="1" rowspan="3" class="center middle">Ver.1.13 or later</td>
+									<td colspan="1" rowspan="3" class="center middle">Ver.1.17 or higher</td>
+								</tr>
+								<tr>
+									<td class="left middle">NX-MD6121-6</td>
+								</tr>
+								<tr>
+									<td class="left middle">NX-MD6256-5</td>
+								</tr>
+							</table>
+						</div>
+					
+        </p>
+    </div>
+
+
+
+
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="component-blockA01">
+
+
+
+
+
+
+    <div class="text">
+        <p>
+            * Some Units do not have all of the versions given in the above table. If a Unit does not have the specified version, support is provided by the oldest available version after the specified version. Refer to the user’s manuals for the specific Units for the relation between models and versions.
+        </p>
+    </div>
+
+
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<h4 class="heading-A03">Connecting with Coupler Units</h4>
+
+
+
+
+
+
+
+
+
+<div class="component-blockA01">
+
+
+
+
+
+    <div class="text">
+        <p>
+            
+						<div class="table-blockA01">
+							<table class="tableA01" cellspacing="0" border="0">
+								<tr class="first-child">
+									<th colspan="2" rowspan="1" class="heading center middle"><strong>NX Unit</strong></th>
+									<th colspan="5" rowspan="1" class="heading center middle"><strong>Corresponding versions *</strong></th>
+								</tr>
+								<tr>
+									<th colspan="1" rowspan="2" class="heading center middle"><strong>Model</strong></th>
+									<th colspan="1" rowspan="2" class="heading center middle"><strong>Unit
+<br />
+Version</strong></th>
+									<th colspan="3" rowspan="1" class="heading center middle"><strong>EtherCAT</strong></th>
+									<th colspan="2" rowspan="1" class="heading center middle"><strong>EtherNet/IP</strong></th>
+								</tr>
+								<tr>
+									<th class="heading center middle"><strong>Communi-
+<br />
+cations
+<br />
+Coupler Unit</strong></th>
+									<th class="heading center middle"><strong>NJ/NX-series
+<br />
+CPU Units or
+<br />
+NY-series
+<br />
+Industrial PCs</strong></th>
+									<th class="heading center middle"><strong>Sysmac
+<br />
+Studio</strong></th>
+									<th class="heading center middle"><strong>Communi-
+<br />
+cations
+<br />
+Coupler Unit</strong></th>
+									<th class="heading center middle"><strong>Sysmac
+<br />
+Studio</strong></th>
+								</tr>
+								<tr>
+									<td class="left middle">NX-MD6121-5</td>
+									<td colspan="1" rowspan="3" class="center middle">Ver.1.0</td>
+									<td colspan="1" rowspan="3" class="center middle">Ver.1.0 or later</td>
+									<td colspan="1" rowspan="3" class="center middle">Ver.1.05 or later</td>
+									<td class="center middle">Ver.1.10 or higher</td>
+									<td colspan="1" rowspan="3" class="center middle">Ver.1.0 or later</td>
+									<td class="center middle">Ver.1.10 or higher</td>
+								</tr>
+								<tr>
+									<td class="left middle">NX-MD6121-6</td>
+									<td class="center middle">Ver.1.13 or higher</td>
+									<td class="center middle">Ver.1.13 or higher</td>
+								</tr>
+								<tr>
+									<td class="left middle">NX-MD6256-5</td>
+									<td class="center middle">Ver.1.10 or higher</td>
+									<td class="center middle">Ver.1.10 or higher</td>
+								</tr>
+							</table>
+						</div>
+					
+        </p>
+    </div>
+
+
+
+
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="component-blockA01">
+
+
+
+
+
+    <div class="text">
+        <p>
+            * Some Units do not have all of the versions given in the above table. If a Unit does not have the specified version, support is provided by the oldest available version after the specified version. Refer to the user’s manuals for the specific Units for the relation between models and versions.
+        </p>
+    </div>
+
+
+
+
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<p class="date-line">last update: October 11, 2016</p>
+
+</div>
+
+                        </div>
+                    </div>
+	            <!-- === /[primary-contents-area] === -->
+                </div>
+                <!-- === /[inner-contents-area] === -->
+
+
+                <!-- === [local-navi] === -->
+                <div class="local-navi-area">
+                    <div class="local-navi-area">
+
+
+
+<div class="local-naviA01">
+<h2 class="heading-link">
+<a href="../../category/index.html" ><img src="../../../resources/images/icon_right_b.gif" width="3" height="9" alt="" class="iconA01" />Product Category</a>
+</h2>
+<ul><li><a href="../../category/automation-systems/index-2.html"><img src="../../../resources/images/icon_right_b.gif" width="3" height="9" alt="" class="iconA01" />Automation Systems</a><ul class="list-indent01"><li><a href="../../category/automation-systems/machine-automation-controllers/index-2.html"><img src="../../../resources/images/icon_right_b.gif" width="3" height="9" alt="" class="iconA01" />Machine Automation Controllers</a><ul class="list-indent02"><li><a href="../../category/automation-systems/machine-automation-controllers/ethercat-slave-terminals-nx-series/index.html"><img src="../../../resources/images/icon_right_b.gif" width="3" height="9" alt="" class="iconA01" />EtherCAT Slave Terminals NX-Series</a><ul class="list-indent03"><li><a href="../../category/automation-systems/machine-automation-controllers/ethercat-slave-terminals-nx-series/digital-input_output-unit/index.html"><img src="../../../resources/images/icon_right_b.gif" width="3" height="9" alt="" class="iconA01" />Digital Input / Output Unit</a><ul class="list-indent04"><li class="stay"><span>NX-MD</span></li><li><a href="../3185/index.html"><img src="../../../resources/images/icon_right_b.gif" width="3" height="9" alt="" class="iconA01" />NX-ID / IA</a></li><li><a href="../3186/index.html"><img src="../../../resources/images/icon_right_b.gif" width="3" height="9" alt="" class="iconA01" />NX-OD / OC</a></li></ul></li></ul></li></ul></li></ul></li></ul>
+<!-- /local-naviA01 -->
+</div>
+
+
+
+<div class="local-naviB01">
+<ul class="heading-link">
+
+<li class="first-child">
+<a href="../../category/index.html"><img src="../../../resources/images/icon_right_b.gif" width="3" height="9" alt="" class="iconA01" />Product Category</a>
+</li>
+
+<li>
+<a href="../../../product/cautions/index-2.html"><img src="../../../resources/images/icon_right_b.gif" width="3" height="9" alt="" class="iconA01" />Cautions</a>
+</li>
+
+<li>
+<a href="../../index/index.html"><img src="../../../resources/images/icon_right_b.gif" width="3" height="9" alt="" class="iconA01" />Item A to Z Index</a>
+</li>
+
+<li>
+<a href="../../applications/index.html"><img src="../../../resources/images/icon_right_b.gif" width="3" height="9" alt="" class="iconA01" />Applications</a>
+</li>
+
+<li>
+<a href="../../correct/index.html"><img src="../../../resources/images/icon_right_b.gif" width="3" height="9" alt="" class="iconA01" />Correction Notice</a>
+</li>
+
+</ul>
+<!-- /local-naviB01 -->
+</div>
+                    </div>
+                </div>
+                <!-- === /[local-navi] === -->
+
+            </div>
+            <!-- === /[contents-area] === -->
+
+            <!-- === [top-page-link-area] === -->
+            <div class="top-page-link-area">
+                <ul class="top-page-link-list">
+                    <li>
+                        <a href="#page-top"><img src="../../../resources/images/icon_up_b.gif" width="5" height="8" alt="" class="iconB01" />Top of Page</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- === /[top-page-link-area] === -->
+
+            <!-- === [footer-area] === -->
+
+
+<!-- === [footer-area] === -->
+<div class="footer-area">
+    <p class="non-visual">
+        <a name="footer" id="footer">Site Information</a>
+    </p>
+   
+    <div class="footer-link">
+        
+        <p class="copyright">© Copyright Kyoto Engineering &amp; Automation Ltd. All Rights Reserved.</p>
+    <!-- /.footer-link -->
+    </div>
+<!-- /.footer-area -->
+</div>
+<!-- === /[footer-area] === -->
+            <!-- === /[footer-area] === -->
+        </div>
+        <!-- === /[omron-ia] === -->
+    </body>
+
+<!-- Mirrored from www.ia.omron.com/products/family/3388/specification.html by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 16 Dec 2016 06:07:16 GMT -->
+</html>

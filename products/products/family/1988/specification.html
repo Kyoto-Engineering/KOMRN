@@ -1,0 +1,1566 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<html xml:lang="en" lang="en" xmlns="http://www.w3.org/1999/xhtml">
+    
+<!-- Mirrored from www.ia.omron.com/products/family/1988/specification.html by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 16 Dec 2016 05:32:04 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=utf-8" /><!-- /Added by HTTrack -->
+<head>
+        <meta http-equiv="Content-Language" content="en" />
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <meta http-equiv="Content-Style-Type" content="text/css" />
+        <meta http-equiv="Content-Script-Type" content="text/javascript" />
+        <link rel="stylesheet" type="text/css" media="all" href="../../../css/index.css">
+  <link rel="stylesheet" type="text/css" media="all" href="../../../css/top.css"> 
+<title>
+            CJ1W-PH41U / AD04U CJ-series Process Analog I/O Unit/Specifications | OMRON By Kyoto Engineering &amp; Automation
+        </title>
+        <meta name="keywords" content="Automation Systems,Programmable Controllers,CJ1,Special I/O Units,CJ1W-PH41U / AD04U" />
+        <meta name="description" content="CJ-series Process Analog I/O Unit A Single Unit Handling All Types of Inputs such as Temperature Sensor Inputs and Analog Signal Inputs (e.g., 4 to 20 mA or 1 to 5 V)" />
+        
+
+<link rel="alternate" href="../../../index.html" hreflang="en" />
+<link rel="stylesheet" type="text/css" media="all" href="../../../resources/css/common22f8.css?201611151200" />
+<link rel="stylesheet" type="text/css" media="all" href="../../../resources/css/global/common22f8.css?201611151200" />
+<link rel="stylesheet" type="text/css" media="all" href="../../../resources/css/frame_utility_tridion22f8.css?201611151200" />
+<link rel="stylesheet" type="text/css" media="print" href="../../../resources/css/print22f8.css?201611151200" />
+<script type="text/javascript" src="../../../resources/js/jquery22f8.js?201611151200"></script>
+<script type="text/javascript" src="../../../resources/js/function22f8.js?201611151200"></script>
+<script type="text/javascript" src="../../../resources/js/country_website22f8.js?201611151200"></script>
+<script type="text/javascript" src="../../../resources/js/global/ga22f8.js?201611151200"></script>
+<link rel="stylesheet" type="text/css" media="all" href="../../../resources/css/jquery-ui22f8.css?201611151200" charset='UTF-8'/>
+<link rel="stylesheet" type="text/css" media="all" href="../../../resources/css/jquery.multiselect22f8.css?201611151200" charset='UTF-8'/>
+<script type="text/javascript" language="JavaScript" src="../../../common/js/marketing_tag22f8.js?201611151200"></script>
+<script type="text/javascript" src="../../../resources/js/jquery-ui.min22f8.js?201611151200" charset='UTF-8'></script>
+<script type="text/javascript" src="../../../resources/js/jquery.ex-table-filter22f8.js?201611151200" charset='UTF-8'></script>
+<script type="text/javascript" src="../../../resources/js/jquery.tablesorter.min22f8.js?201611151200" charset='UTF-8'></script>
+<script type="text/javascript" src="../../../resources/js/filter22f8.js?201611151200" charset='UTF-8'></script>
+<link rel="shortcut icon" href="../../../resources/images/favicon.ico" type="image/x-icon" />
+
+        <link rel="stylesheet" type="text/css" media="all" href="../../../resources/css/tablesorter6c9b.css?201611150900" />
+        <script type="text/javascript" src="../../../resources/js/global/products6c9b.js?201611150900" charset='UTF-8'></script>
+
+    </head>
+    <body id="www-ia-omron-com" class="layoutC03 automation-systems">
+
+        <!-- === [omron-ia] === -->
+        <div class="omron-ia">
+            <p class="non-visual">
+                <a name="page-top" id="page-top">
+                    Page top
+                </a>
+            </p>
+
+
+
+
+<div class="header-area">
+     <div class="site-identity">
+          <div class="site-logo">
+               <a href="../../../index.php"><img src="../../../images/logo_01_b13-260967.gif"  width="129" height="24" alt="OMRON" /></a>
+          </div>
+          <!-- /.site-identity -->
+     </div>
+<div class="utilities">
+		<div class="country-select-area">
+			<p class="canpany">Building Automation</p>
+                        <?php echo '&nbsp' ; ?>
+                        <br/>
+                        <p class="canpany">Industrial Automation</p>
+                        <?php echo '&nbsp' ; ?>
+                        <br/>
+                        <p class="canpany">Power Automation &amp; Safety </p>
+			
+		</div>
+            
+            <div class="japani">
+                <img  src="../../../shared/img/Japani Technology mnemonic.png" width="90" height="50" alt=""/>
+            </div>
+          
+            
+            
+            <div class="flag">
+            <img src="../../../shared/img/Bangladesh-Flag_1.png" alt=""/>
+            </div>
+            <div class="kyoto">
+                <p><b>Bangladesh Distributor</b></p>
+                <img style="margin-left:-5px;"  src="../../../shared/img/Kyoto-logo-Png.png" alt=""/>
+            </div>
+	<!-- /.utilities --> </div>
+     </div>
+     <!-- /.header-area -->
+
+<div class="global-navi-area">
+
+<ul>
+<li class="home stay"><a href="../../../index.php">Home</a></li>
+<li class="product"><a href="../../../products/index.html">Products</a></li>
+<li class="corporate-profile"><a href="../../../view/contact/input.php">Contact Us</a></li>
+<li class="function-area"><div class="search"><form action="https://omron.keal.com.bd/sphider/search.php" method="get">       
+<input type="text" name="query" id="query" size="40" value="" />
+      <input type="submit" value="Search" /> <input type="hidden"
+      name="search" value="1" />
+    </form>
+</div>
+</li>
+</ul>
+</div> 
+<div class="bread-crumb-area">
+<ul>
+
+
+<li><a href="../../../index.php" >Home</a><span class="separator">&gt;</span></li>
+
+<li><a href="../../index-2.html" >Products</a><span class="separator">&gt;</span></li>
+
+<li><a href="../../category/index.html" >Product Category</a><span class="separator">&gt;</span></li>
+
+<li><a href="../../category/automation-systems/index-2.html" >Automation Systems</a><span class="separator">&gt;</span></li>
+
+<li><a href="../../category/automation-systems/programmable-controllers/index-2.html" >Programmable Controllers</a><span class="separator">&gt;</span></li>
+
+<li><a href="../../category/automation-systems/programmable-controllers/cj1/index.html" >CJ1</a><span class="separator">&gt;</span></li>
+
+<li><a href="../../category/automation-systems/programmable-controllers/cj1/special-io-units/index.html" >Special I/O Units</a><span class="separator">&gt;</span></li>
+
+<li><strong>CJ1W-PH41U / AD04U</strong></li>
+
+
+</ul>
+</div>
+
+            <!-- === [contents-area] === -->
+            <div class="contents-area">
+
+                <!-- === [inner-contents-area] === -->
+                <div class="inner-contents-area">
+                    <!-- === [upper-contents-area] === -->
+                    <div class="upper-contents-area">
+                        <!-- === [lead-area] === -->
+                        <div class="lead-area">
+
+
+
+
+<!-- --------------------------------------------------------------------Product Family Start--------------------------------------------------------- -->
+<div class="heading-h1">
+
+
+    <h1>
+        CJ1W-PH41U / AD04U
+    </h1>
+    <p class="sub-title">
+        CJ-series Process Analog I/O Unit
+    </p>
+</div>
+<div class="image-blockA01">
+    <div class="image-left">
+        <p class="image">
+
+            <img src="../../../images/l_1988-13-118585-198x198.jpg" width="198" height="198" alt="CJ1W-PH41U / AD04U" class="nopic" />
+
+
+        </p>
+    </div>
+    <div class="description">
+        <h2 class="heading-B02">
+            A Single Unit Handling All Types of Inputs such as Temperature Sensor Inputs and Analog Signal Inputs (e.g., 4 to 20 mA or 1 to 5 V)
+        </h2>
+        
+
+
+
+
+        <div class="item-list-link">
+            <p>
+                <a href="itemlist/index.html">
+                    <img src="../../../resources/images/icon_right_b.gif" width="3" height="9" alt="" class="iconA01" />
+                    Item list of CJ1W-PH41U / AD04U
+                </a>
+            </p>
+        </div>
+    </div>
+<!-- /.image-blockA01 -->
+</div>
+
+
+
+                        </div>
+                        <!-- === /[lead-area] === -->
+
+
+                        <!-- === [utility-area] === -->
+                        <div class="utility-area">                         
+                       
+                            <div class="action-block">
+                                <p>
+                                    about this Product Family
+                                </p>
+                                <ul>
+                                    <li class="first-child">
+                                        <a href="../../../view/contact/input.php">
+                                            Inquiry of this Product
+                                        </a>
+                                    </li>                                 
+                                </ul>
+                            </div>
+
+
+
+
+<div class="related-info-blockA01 vertical-slide">
+
+    <p>
+        <span>Related Contents</span>
+    </p>
+
+
+      
+        <ul>
+            <li class="first-child">
+                <span>Automation Systems</span>
+            </li>
+            <li>
+                <ul class="list-indent01">
+
+
+                    <li class="first-child">
+
+
+                        <a href="../../applications/category/automation-systems/index.html">
+                            <img src="../../../resources/images/icon_right_b.gif" width="3" height="9" alt="" class="iconA01" />
+                            Applications 
+                        </a>
+                    </li>
+
+                </ul>
+            </li>
+        </ul>
+
+        <ul>
+            <li class="first-child">
+                <span>Programmable Controllers</span>
+            </li>
+            <li>
+                <ul class="list-indent01">
+
+
+                    <li class="first-child">
+
+
+                        <a href="../../index/automation-systems/programmable-controllers/index.html">
+                            <img src="../../../resources/images/icon_right_b.gif" width="3" height="9" alt="" class="iconA01" />
+                            Item A to Z Index 
+                        </a>
+                    </li>
+
+
+
+                    <li>
+
+                        <a href="../../../support/glossary/automation-systems/programmable-controllers/index.html">
+                            <img src="../../../resources/images/icon_right_b.gif" width="3" height="9" alt="" class="iconA01" />
+                            Glossary of Industrial Automation 
+                        </a>
+                    </li>
+
+                </ul>
+            </li>
+        </ul>
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- /.related-info-blockA01 -->
+</div>
+
+
+
+                           
+                        </div>
+                        <!-- === /[utility-area] === -->
+
+                    </div>
+                    <!-- === /[upper-contents-area] === -->
+
+                    <!-- === [primary-contents-area] === -->
+                    <div class="primary-contents-area">
+                        <div class="tabpanel-blockA01">
+
+
+
+
+
+
+<div class="tab-block">
+    <ul class="tabs">
+
+
+
+
+
+
+
+        <li>
+            <a href="feature.html">Features</a>
+
+        </li>
+
+
+
+
+
+
+
+
+        <li>
+            <a href="lineup.html">Lineup</a>
+
+        </li>
+
+
+
+
+
+
+
+
+        <li class="active">
+            <span>Specifications</span>
+
+        </li>
+
+
+
+
+
+
+
+
+        <li>
+            <a href="dimension.html">Dimensions</a>
+
+        </li>
+
+
+
+
+
+
+        <li>
+            <a href="download/catalog.html">Catalog</a>
+
+        </li>
+
+
+
+
+
+    </ul>
+</div><!-- /.tab-block -->
+
+<div class="editable-block">
+
+
+<p class="date-line">last update: September 25, 2012</p>
+
+
+
+
+
+
+
+
+
+<h4 class="heading-A02">CJ1W-AD04U Isolated-type Universal Input Unit</h4>
+
+
+
+
+
+
+
+
+
+
+<div class="component-blockA01">
+
+
+
+
+
+    <div class="text">
+        <p>
+            
+          <div class="table-blockA01">
+							<table border="0" cellspacing="0" class="tableA01">
+								<tr class="first-child">
+									<th colspan="2" rowspan="1" class="heading center middle"><strong>Item</strong></th>
+									<th class="heading center middle"><strong>Specifications</strong></th>
+								</tr>
+								<tr>
+									<th colspan="2" rowspan="1" class="heading left middle"><strong>Model</strong></th>
+									<td class="left middle">CJ1W-AD04U</td>
+								</tr>
+								<tr>
+									<th colspan="2" rowspan="1" class="heading left middle"><strong>Applicable Controller</strong></th>
+									<td class="left middle">CJ/NJ Series</td>
+								</tr>
+								<tr>
+									<th colspan="2" rowspan="1" class="heading left middle"><strong>Type of Unit</strong></th>
+									<td class="left middle">CJ-series Special I/O Unit</td>
+								</tr>
+								<tr>
+									<th colspan="2" rowspan="1" class="heading left middle"><strong>Mounting position</strong></th>
+									<td class="left middle">CPU Rack or Expansion Rack</td>
+								</tr>
+								<tr>
+									<th colspan="2" rowspan="1" class="heading left middle"><strong>Maximum number of Units</strong></th>
+									<td class="left middle">40 (within the allowable current consumption and power consumption range)</td>
+								</tr>
+								<tr>
+									<th colspan="2" rowspan="1" class="heading left middle"><strong>Unit numbers</strong></th>
+									<td class="left middle">00 to 95 (Cannot duplicate Special I/O Unit numbers.)</td>
+								</tr>
+								<tr>
+									<th colspan="1" rowspan="6" class="heading left middle"><strong>Areas for
+<br />
+exchanging
+<br />
+data with
+<br />
+the CPU
+<br />
+Unit</strong></th>
+									<th colspan="1" rowspan="2" class="heading left middle"><strong>Special I/O Unit
+<br />
+Area words in
+<br />
+the CIO Area
+<br />
+(Operation Data)</strong></th>
+									<td class="left middle">10 words/Unit</td>
+								</tr>
+								<tr>
+									<td class="left middle">IIsolated-type Universal Input Unit to CPU Unit:
+<br />
+All process values, process value alarms (L, H), conversion data enabled flag, input
+<br />
+errors, cold junction sensor errors</td>
+								</tr>
+								<tr>
+									<th colspan="1" rowspan="2" class="heading left middle"><strong>Special I/O Unit
+<br />
+words in the DM
+<br />
+Area (Setting
+<br />
+parameter)</strong></th>
+									<td class="left middle">100 words/Unit</td>
+								</tr>
+								<tr>
+									<td class="left middle">CPU Unit to Isolated-type Universal Input Unit:
+<br />
+Input type, scaling upper and lower limits, process value alarm setting (L, H), zero/
+<br />
+span adjustment value, alarm ON delay time, alarm hysteresis, Expansion Setting
+<br />
+Area settings</td>
+								</tr>
+								<tr>
+									<th colspan="1" rowspan="2" class="heading left middle"><strong>Expansion Setting
+<br />
+Area (Expansion
+<br />
+Setting
+<br />
+parameter)</strong></th>
+									<td class="left middle">1 word/Unit</td>
+								</tr>
+								<tr>
+									<td class="left middle">CPU Unit to Isolated-type Universal Input Unit: Process value alarm output</td>
+								</tr>
+								<tr>
+									<th colspan="2" rowspan="1" class="heading left middle"><strong>Number of inputs</strong></th>
+									<td class="left middle">4</td>
+								</tr>
+								<tr>
+									<th colspan="2" rowspan="1" class="heading left middle"><strong>Input type</strong></th>
+									<td class="left middle">Platinum resistance thermometer: Pt100 (JIS, IEC), Pt1000, or JPt100
+<br />
+Thermocouple: K, J, T, L, R, S, or B
+<br />
+Current: 4 to 20 mA, or 0 to 20 mA
+<br />
+Voltage: 1 to 5 V, 0 to 5 V, or 0 to 10 V
+<br />
+Each input can be set independently.Each input can be set independently.</td>
+								</tr>
+								<tr>
+									<th colspan="2" rowspan="1" class="heading left middle"><strong>Scaling (Voltage and current
+<br />
+inputs)</strong></th>
+									<td class="left middle">Data to be stored in the allocated words in the CIO area must be scaled (with user-
+<br />
+set minimum and maximum values for data and offsets). The inputs are set
+<br />
+individually.</td>
+								</tr>
+								<tr>
+									<th colspan="2" rowspan="1" class="heading left middle"><strong>Data storage in the Special I/O
+<br />
+Unit Area in the CIO Area</strong></th>
+									<td class="left middle">Voltage inputs and current inputs:
+<br />
+The values derived from carrying out the following processing in order of the actual
+<br />
+process data in the input range are stored in four digits hexadecimal (binary values)
+<br />
+in the allocated words in the Special I/O Unit Area.
+<br />
+1) Scaling → 2) Zero/span adjustment → 3) Output limits
+<br />
+Temperature input:
+<br />
+The values derived from carrying out the following processing in order of the actual
+<br />
+process data in the input range are stored in four digits hexadecimal (binary values)
+<br />
+in the allocated words in the Special I/O Unit Area.
+<br />
+1) °C/°F conversion → 2) Zero/span adjustment → 3) Output limits
+<br />
+(The stored data is always stored ten times the value of the actual temperature.)</td>
+								</tr>
+								<tr>
+									<th colspan="2" rowspan="3" class="heading left middle"><strong>Accuracy (25 °C)
+<br />
+(These values do not include
+<br />
+the sensor error.)</strong></th>
+									<td class="left middle">Platinum resistance thermometers: (±0.3% of PV or ±0.8°C, whichever is greater) ±1
+<br />
+digit max.</td>
+								</tr>
+								<tr>
+									<td class="left middle">Typical thermocouple inputs: (±0.3% of PV or ±1.5°C, whichever is greater) ±1 digit
+<br />
+max.
+<br />
+Special cases:
+<br />
+The accuracy of L is ±2°C ±1 digit max.
+<br />
+The accuracy of K and T at -100°C or less is ±2°C ±1 digit max.
+<br />
+The accuracy of R and S at 200°C or less is ±3°C 1 digit max.
+<br />
+The accuracy of B at 400°C or less is not specified.</td>
+								</tr>
+								<tr>
+									<td class="left middle">Voltage inputs and current inputs: (±0.3% FS) ±1 digit max.</td>
+								</tr>
+								<tr>
+									<th colspan="2" rowspan="1" class="heading left middle"><strong>Temperature coefficient</strong></th>
+									<td class="left middle">±100 ppm/°C max. (for full scale)</td>
+								</tr>
+								<tr>
+									<th colspan="2" rowspan="1" class="heading left middle"><strong>Resolution</strong></th>
+									<td class="left middle">1/12,000 (for voltage or current input)
+<br />
+(Please refer to the Input Types and Input Ranges on Data Sheet for details on
+<br />
+temperature input.)</td>
+								</tr>
+								<tr>
+									<th colspan="2" rowspan="1" class="heading left middle"><strong>Input signal range</strong></th>
+									<td class="left middle">Voltage inputs and current inputs:
+<br />
+-5% to 105% of measurable input range set in scaling
+<br />
+Temperature inputs:
+<br />
+±20°C or ±20°F for the high or low limits of the sensor range</td>
+								</tr>
+								<tr>
+									<th colspan="2" rowspan="1" class="heading left middle"><strong>Maximum rated input</strong></th>
+									<td class="left middle">Voltage Input: ±15 V
+<br />
+Current Input: ±30 mA</td>
+								</tr>
+								<tr>
+									<th colspan="2" rowspan="1" class="heading left middle"><strong>Input impedance</strong></th>
+									<td class="left middle">Temperature: 10 kΩ min.
+<br />
+Voltage Input: 1 MΩ min.
+<br />
+Current Input: 250 Ω (rated value)</td>
+								</tr>
+								<tr>
+									<th colspan="2" rowspan="1" class="heading left middle"><strong>Warm-up time</strong></th>
+									<td class="left middle">30 min</td>
+								</tr>
+								<tr>
+									<th colspan="2" rowspan="1" class="heading left middle"><strong>Thermocouple inputs</strong></th>
+									<td class="left middle">Internal temperature sensor is used for cold junction compensation.</td>
+								</tr>
+								<tr>
+									<th colspan="2" rowspan="1" class="heading left middle"><strong>Platinum resistance
+<br />
+thermometers</strong></th>
+									<td class="left middle">Measurement method: 3-wire method
+<br />
+Allowable lead wire resistance: 20 Ω max. per wire
+<br />
+Input detection current: 1.1 mA</td>
+								</tr>
+								<tr>
+									<th colspan="2" rowspan="1" class="heading left middle"><strong>A/D conversion time</strong></th>
+									<td class="left middle">250 ms/4 inputs</td>
+								</tr>
+								<tr>
+									<th colspan="2" rowspan="1" class="heading left middle"><strong>Maximum time to store data in
+<br />
+CPU Unit</strong></th>
+									<td class="left middle">Conversion period + one CPU Unit cycle</td>
+								</tr>
+								<tr>
+									<th colspan="2" rowspan="1" class="heading left middle"><strong>Input error detection</strong></th>
+									<td class="left middle">An input error can be detected. (except for voltage and current inputs of 0 to 20 mA,
+<br />
+0 to 5 V, 0 to 10 V)
+<br />
+Detection level
+<br />
+Temperature input: If the temperature exceeds the high or low limit of the sensor
+<br />
+range by 20°C or 20°F.
+<br />
++1 to +5 V: input signal &lt; 0.3 V
+<br />
+4 to 20 mA: input signal &lt; 1.2 mA
+<br />
+Input Error Flag turns ON when a disconnection occurs or each input value is out of
+<br />
+input range.
+<br />
+Process value clamp direction can be specified when input error occurs.</td>
+								</tr>
+								<tr>
+									<th colspan="2" rowspan="1" class="heading left middle"><strong>Process value alarm</strong></th>
+									<td class="left middle">Two process value alarms (L, H), hysteresis, and ON-delay timer (0 to 60 s) can be
+<br />
+set.
+<br />
+Bits of process value alarm can be copied to selectable addresses in the Expansion
+<br />
+Setting Area settings.</td>
+								</tr>
+								<tr>
+									<th colspan="2" rowspan="1" class="heading left middle"><strong>Isolation</strong></th>
+									<td class="left middle">Between inputs and Controller signals, and between inputs: Isolation by transformer
+<br />
+for power supply, and by photocoupler for signals.</td>
+								</tr>
+								<tr>
+									<th colspan="2" rowspan="1" class="heading left middle"><strong>Insulation resistance</strong></th>
+									<td class="left middle">20 MΩ (at 500 V DC) between all inputs</td>
+								</tr>
+								<tr>
+									<th colspan="2" rowspan="1" class="heading left middle"><strong>Dielectric strength</strong></th>
+									<td class="left middle">Between all inputs: 500 V AC, at 50 or 60 Hz, for 1 min, leakage current 1 mA max.</td>
+								</tr>
+								<tr>
+									<th colspan="2" rowspan="1" class="heading left middle"><strong>External connections</strong></th>
+									<td class="left middle">Terminal block (detachable)</td>
+								</tr>
+								<tr>
+									<th colspan="2" rowspan="1" class="heading left middle"><strong>Indicators</strong></th>
+									<td class="left middle">Three LED indicators on front panel (for normal operation, errors detected at the
+<br />
+Universal Input Unit, and errors detected at the CPU Unit).</td>
+								</tr>
+								<tr>
+									<th colspan="2" rowspan="1" class="heading left middle"><strong>Unit number settings</strong></th>
+									<td class="left middle">Set by rotary switches on front panel, from 0 to 95.</td>
+								</tr>
+								<tr>
+									<th colspan="2" rowspan="1" class="heading left middle"><strong>Current consumption
+<br />
+(supplied by Power Supply Unit)</strong></th>
+									<td class="left middle">5 V DC at 320 mA max.</td>
+								</tr>
+								<tr>
+									<th colspan="2" rowspan="1" class="heading left middle"><strong>Dimensions</strong></th>
+									<td class="left middle">31 × 90 × 65 mm (W × H × D)</td>
+								</tr>
+								<tr>
+									<th colspan="2" rowspan="1" class="heading left middle"><strong>Weight</strong></th>
+									<td class="left middle">150 g max.</td>
+								</tr>
+							</table>
+						</div>
+        
+        </p>
+    </div>
+
+
+
+
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<h4 class="heading-A02">CJ1W-PH41U Isolated-type Universal Input Unit</h4>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="component-blockA01">
+
+
+
+
+
+    <div class="text">
+        <p>
+            
+          <div class="table-blockA01">
+							<table border="0" cellspacing="0" class="tableA01">
+								<tr class="first-child">
+									<th colspan="2" rowspan="1" class="heading center middle"><strong>Item</strong></th>
+									<th class="heading center middle"><strong>Specifications</strong></th>
+								</tr>
+								<tr>
+									<th colspan="2" rowspan="1" class="heading left middle"><strong>Model</strong></th>
+									<td class="left middle">CJ1W-PH41U</td>
+								</tr>
+								<tr>
+									<th colspan="2" rowspan="1" class="heading left middle"><strong>Applicable Controller</strong></th>
+									<td class="left middle">CJ/NJ Series</td>
+								</tr>
+								<tr>
+									<th colspan="2" rowspan="1" class="heading left middle"><strong>Type of Unit</strong></th>
+									<td class="left middle">CJ-series Special I/O Unit</td>
+								</tr>
+								<tr>
+									<th colspan="2" rowspan="1" class="heading left middle"><strong>Mounting position</strong></th>
+									<td class="left middle">CPU Rack or Expansion Rack</td>
+								</tr>
+								<tr>
+									<th colspan="2" rowspan="1" class="heading left middle"><strong>Maximum number of Units</strong></th>
+									<td class="left middle">40 (within the allowable current consumption and power consumption range)</td>
+								</tr>
+								<tr>
+									<th colspan="2" rowspan="1" class="heading left middle"><strong>Unit numbers</strong></th>
+									<td class="left middle">00 to 95 (Cannot duplicate Special I/O Unit numbers.)</td>
+								</tr>
+								<tr>
+									<th colspan="1" rowspan="8" class="heading left middle"><strong>Areas for
+<br />
+exchanging
+<br />
+data with
+<br />
+the CPU
+<br />
+Unit</strong></th>
+									<th colspan="1" rowspan="2" class="heading left middle"><strong>Special I/O Unit
+<br />
+Area words in the
+<br />
+CIO Area
+<br />
+(Operation Data)</strong></th>
+									<td class="left middle">10 words/Unit</td>
+								</tr>
+								<tr>
+									<td class="left middle">Isolated-type Universal Input Unit to CPU Unit:
+<br />
+All process values, process value alarms (LL, L, H, HH), rate-of-change alarms (L,
+<br />
+H), input errors (such as disconnection alarms), cold junction sensor errors, and
+<br />
+zero/span adjustment period end/notices.</td>
+								</tr>
+								<tr>
+									<th colspan="1" rowspan="2" class="heading left middle"><strong>Special I/O Unit
+<br />
+words in the DM
+<br />
+Area
+<br />
+(Setting parameter)</strong></th>
+									<td class="left middle">100 words/Unit</td>
+								</tr>
+								<tr>
+									<td class="left middle">CPU Unit to Isolated-type Universal Input Unit:
+<br />
+Operation settings, input type, input range (user set), temperature unit, process
+<br />
+value clamp direction for input burnout, scaling upper and lower limits, scaling
+<br />
+offset value, alarm hysteresis, alarm ON/OFF delay time, number of items for
+<br />
+moving average, Expansion Setting Area settings, process value alarm setting (L,
+<br />
+H), zero/span adjustment value.</td>
+								</tr>
+								<tr>
+									<th colspan="1" rowspan="2" class="heading left middle"><strong>Expansion Control/
+<br />
+Monitor Area
+<br />
+(Expansion
+<br />
+Operation Data)</strong></th>
+									<td class="left middle">46 words/Unit</td>
+								</tr>
+								<tr>
+									<td class="left middle">CPU Unit to Isolated-type Universal Input Unit:
+<br />
+Hold function selection start/reset, integral value calculation start/reset, zero/
+<br />
+span adjustment period flag
+<br />
+Isolated-type Universal Input Unit to CPU Unit:
+<br />
+All rate-of-change values, zero/span adjustment period notices (all inputs),
+<br />
+EEPROM errors, day of final adjustment date, top and valley detection flags, peak
+<br />
+and bottom values, top and valley values, integral value.</td>
+								</tr>
+								<tr>
+									<th colspan="1" rowspan="2" class="heading left middle"><strong>Expansion Setting
+<br />
+Area
+<br />
+(Expansion Setting
+<br />
+parameter)</strong></th>
+									<td class="left middle">100 words/Unit</td>
+								</tr>
+								<tr>
+									<td class="left middle">CPU Unit to Isolated-type Universal Input Unit:
+<br />
+Expansion Control/Monitor Area settings, square root calculation enable, rate-
+<br />
+ofchange input range, rate-of-change comparison time interval, rate-of-change
+<br />
+scaling upper and lower limits, zero/span adjustment position, zero/span
+<br />
+adjustment period and notice of days remaining, top and valley hysteresis,
+<br />
+integral value calculation integer unit and integer coefficient, temperature
+<br />
+resistance thermometer compensation enable, temperature resistance
+<br />
+thermometer reference resistance, cold junction compensation method,
+<br />
+process value alarm settings (LL, HH), rate-of-change alarm settings (L, H).</td>
+								</tr>
+								<tr>
+									<th colspan="2" rowspan="1" class="heading left middle"><strong>Number of inputs</strong></th>
+									<td class="left middle">4</td>
+								</tr>
+								<tr>
+									<th colspan="1" rowspan="3" class="heading left middle"><strong>Input type</strong></th>
+									<th class="heading left middle"><strong>Resolution:
+<br />
+1/256,000
+<br />
+(Conversion period:
+<br />
+60 ms)</strong></th>
+									<td class="left middle">Pt100 (JIS, IEC 3-wire), JPt100 (3-wire), Pt1000 (3-wire), Pt100 (JIS, IEC 4-
+<br />
+wire), K, J, T, E, L, U, N, R, S, B, WRe5-26, PLII, 4 to 20 mA, 0 to 20 mA, 1 to 5 V,
+<br />
+0 to 1.25 V, 0 to 5 V, 0 to 10 V, ±100 mV user-set range, -1.25 to 1.25 V, -5 to
+<br />
+5 V, -10 to 10 V, ±10 V user-set range, potentiometer (all inputs). The input
+<br />
+type, input range, and scaling can be set for individual inputs. The input range for
+<br />
+DC inputs, however, can be set only for input types with user-set input ranges.</td>
+								</tr>
+								<tr>
+									<th class="heading left middle"><strong>Resolution: 1/64,000
+<br />
+(Conversion period:
+<br />
+10 ms)</strong></th>
+									<td class="left middle">Pt100 (JIS, IEC 3-wire), JPt100 (3-wire), Pt100 (JIS, IEC 4-wire), K, J, T, E, L, U,
+<br />
+N, R, S, B, WRe5-26, PLII, 4 to 20 mA, 0 to 20 mA, 1 to 5 V, 0 to 1.25 V, 0 to 5 V,
+<br />
+0 to 10 V, ±100 mV user-set range, -1.25 to 1.25 V, -5 to 5 V, -10 to 10 V,
+<br />
+±10 V user-set range (all inputs). The input type, input range, and scaling can be
+<br />
+set for individual inputs. The input range for DC inputs, however, can be set only
+<br />
+for input types with user-set input ranges.</td>
+								</tr>
+								<tr>
+									<th class="heading left middle"><strong>Resolution: 1/16,000
+<br />
+(Conversion period:
+<br />
+5 ms)</strong></th>
+									<td class="left middle">K, E</td>
+								</tr>
+								<tr>
+									<th colspan="2" rowspan="1" class="heading left middle"><strong>Applicable standards for
+<br />
+resistance thermometer and
+<br />
+thermocouple inputs</strong></th>
+									<td class="left middle">Pt100: JIS C1604-1997, IEC 60751-95
+<br />
+JPt100: JIS C1604-1989
+<br />
+K, J, T, E, N, R, S, B: JIS C1602-1995
+<br />
+L, U: DIN 43710-1985
+<br />
+WRe5-26: ASTM E988-96
+<br />
+PLII: ASTM E1751-00</td>
+								</tr>
+								<tr>
+									<th colspan="2" rowspan="1" class="heading left middle"><strong>Scaling</strong></th>
+									<td class="left middle">Data to be stored in the allocated words in the CIO area must be scaled (with
+<br />
+user-set minimum and maximum values for data and offsets). The inputs are set
+<br />
+individually. Data can be converted at 0% to 100%.</td>
+								</tr>
+								<tr>
+									<th colspan="2" rowspan="1" class="heading left middle"><strong>Data storage in the Special I/O
+<br />
+Unit Area in the CIO Area</strong></th>
+									<td class="left middle">The values derived from carrying out the following processing in order of the
+<br />
+actual process data in the input range are stored in four digits hexadecimal
+<br />
+(binary values) in the allocated words in the Special I/O Unit Area.
+<br />
+1) Averaging → 2) Scaling → 3) Zero/span adjustment → 4) Square root
+<br />
+calculation → 5) Offset compensation → 6) Output limits</td>
+								</tr>
+								<tr>
+									<th colspan="2" rowspan="1" class="heading left middle"><strong>Accuracy (25 °C)</strong></th>
+									<td class="left middle">Resistance thermometer and thermocouple inputs:
+<br />
+±0.05% (The accuracy depends on the input type and the measured temperature.
+<br />
+For details, refer to the Accuracy and Temperature Coefficient According to
+<br />
+Resistance Thermometer and Thermocouple Input Types and Measured
+<br />
+Temperatures on Data Sheet.
+<br />
+Current or voltage input: ±0.05%
+<br />
+Potentiometer input: ±1%</td>
+								</tr>
+								<tr>
+									<th colspan="2" rowspan="1" class="heading left middle"><strong>Temperature coefficient</strong></th>
+									<td class="left middle">Resistance thermometer and thermocouple inputs:
+<br />
+The temperature coefficient depends on the input type and the measured
+<br />
+temperature. For details, refer to the Accuracy and Temperature Coefficient
+<br />
+According to Resistance Thermometer and Thermocouple Input Types and
+<br />
+Measured Temperatures on Data Sheet.
+<br />
+Current or voltage input: ±80 ppm/°C (for full scale)
+<br />
+Potentiometer input: ±100 ppm/°C (for full scale)</td>
+								</tr>
+								<tr>
+									<th colspan="2" rowspan="1" class="heading left middle"><strong>Cold junction compensation error</strong></th>
+									<td class="left middle">Thermocouple input: ± 1.2 °C</td>
+								</tr>
+								<tr>
+									<th colspan="2" rowspan="1" class="heading left middle"><strong>Resolution</strong></th>
+									<td class="left middle">1/256,000 (Conversion period: 60 ms) (See note.), 1/64,000 (Conversion period:
+<br />
+10 ms), 1/16,000 (Conversion period: 5 ms)
+<br />
+Note: The resolution for potentiometer inputs is 1/4,000.</td>
+								</tr>
+								<tr>
+									<th colspan="2" rowspan="1" class="heading left middle"><strong>Input signal range</strong></th>
+									<td class="left middle">Resistance thermometer, thermocouple, ±100 mV user-set inputs:
+<br />
+-15% to 115% of measurable input range
+<br />
+4 to 20 mA, 1 to 5 V, 0 to 1.25 V, 0 to 5 V, 0 to 10 V inputs: -15% to 115%
+<br />
+0 to 20-mA inputs: 0% to 115%
+<br />
+-1.25 to 1.25 V, -5 to 5 V, -10 to 10 V, ±10 V user-set range inputs: -7.5% to
+<br />
+107.5%
+<br />
+Potentiometer input: -15% to 115% of 0 to 2,500 Ω</td>
+								</tr>
+								<tr>
+									<th colspan="2" rowspan="1" class="heading left middle"><strong>Influence of lead wire resistance</strong></th>
+									<td class="left middle">Resistance thermometer inputs:
+<br />
+0.06°C/Ω (20 Ω max.) (3-wire)
+<br />
+0.006°C/Ω (20 Ω max.) (4-wire)</td>
+								</tr>
+								<tr>
+									<th colspan="2" rowspan="1" class="heading left middle"><strong>Input detection current</strong></th>
+									<td class="left middle">Resistance thermometer inputs: Approx. 0.21 mA (3-wire), approx. 0.42 mA (4-
+<br />
+wire)
+<br />
+Potentiometer input: Approx. 0.21 mA</td>
+								</tr>
+								<tr>
+									<th colspan="2" rowspan="1" class="heading left middle"><strong>Absolute maximum ratings</strong></th>
+									<td class="left middle">Thermocouple, ±100 mV user-set range inputs: ±130 mV
+<br />
+Current inputs: 30 mA
+<br />
+Voltage inputs (excluding ±100 mV user-set range): ±15 V</td>
+								</tr>
+								<tr>
+									<th colspan="2" rowspan="1" class="heading left middle"><strong>Input impedance</strong></th>
+									<td class="left middle">Thermocouple, ±100 mV user-set range inputs: 20 kΩ min.
+<br />
+Current inputs: 150 Ω max.
+<br />
+Voltage inputs (excluding ±100 mV user-set range): 1 MΩ min.</td>
+								</tr>
+								<tr>
+									<th colspan="2" rowspan="1" class="heading left middle"><strong>Input disconnection detection
+<br />
+current</strong></th>
+									<td class="left middle">Thermocouple, ±100 mV user-set range inputs: Approx. 0.1 μA</td>
+								</tr>
+								<tr>
+									<th colspan="2" rowspan="1" class="heading left middle"><strong>Warmup time</strong></th>
+									<td class="left middle">Resistance thermometer inputs: 30 min
+<br />
+Thermocouple, ±100 mV user-set range inputs: 45 min
+<br />
+Current or voltage inputs (excluding ±100 mV user-set range): 30 min
+<br />
+Potentiometer input: 10 min</td>
+								</tr>
+								<tr>
+									<th colspan="2" rowspan="1" class="heading left middle"><strong>Response time</strong></th>
+									<td class="left middle">1/256,000 resolution:
+<br />
+Resistance thermometer inputs:
+<br />
+180 ms max. (travel time from input 0% to 90%, for step input and with moving
+<br />
+average for 1 sample)
+<br />
+Thermocouple, ± 100 mV user-set range inputs:
+<br />
+180 ms max. (travel time from input 0% to 90%, for ± 100 mV step input and with
+<br />
+moving average for 1 sample)
+<br />
+Current or voltage input:
+<br />
+180 ms max. (travel time from input 0% to 90%, for ± 10 V step input and with
+<br />
+moving average for 1 sample)
+<br />
+Potentiometer input:
+<br />
+180 ms max. (travel time from input 0% to 90%, for step input and with moving
+<br />
+average for 1 sample)
+<br />
+1/64,000 resolution:
+<br />
+Resistance thermometer inputs:
+<br />
+100 ms max. (travel time from input 0% to 90%, for step input and with moving
+<br />
+average for 4 samples)
+<br />
+Thermocouple, ± 100 mV user-set range inputs:
+<br />
+100 ms max. (travel time from input 0% to 90%, for ± 100 mV step input and with
+<br />
+moving average for 4 samples)
+<br />
+Current or voltage inputs:
+<br />
+100 ms max. (travel time from input 0% to 90%, for ± 10 V step input and with
+<br />
+moving average for 4 samples)
+<br />
+1/16,000 resolution:
+<br />
+Thermocouple inputs:
+<br />
+100 ms max. (travel time from input 0% to 90%, for ± 100 mV step input and with
+<br />
+moving average for 4 samples)
+<br /></td>
+								</tr>
+								<tr>
+									<th colspan="2" rowspan="1" class="heading left middle"><strong>Conversion period</strong></th>
+									<td class="left middle">60 ms/4 inputs (1/256,000 resolution), 10 ms/4 inputs (1/64,000 resolution, 5
+<br />
+ms/4 inputs (1/16,000 resolution)</td>
+								</tr>
+								<tr>
+									<th colspan="2" rowspan="1" class="heading left middle"><strong>Maximum time to store data in
+<br />
+CPU Unit</strong></th>
+									<td class="left middle">Conversion period + one CPU Unit cycle</td>
+								</tr>
+								<tr>
+									<th colspan="2" rowspan="1" class="heading left middle"><strong>Input disconnection and input
+<br />
+error detection</strong></th>
+									<td class="left middle">Resistance thermometer, thermocouple, ±100 mV user-set range,
+<br />
+potentiometer inputs:
+<br />
+Input Error Flag turns ON when a disconnection occurs or when 115% or -15% of
+<br />
+the measurable input range is exceeded.
+<br />
+The process value clamp direct direction for when a disconnection occurs can be
+<br />
+specified. (High: 115% of set input range. Low: -15% of set input range.)
+<br />
+Disconnection detection time:
+<br />
+Approx. 5 s max. (4-wire Pt100)
+<br />
+Approx. 1 s max. ( ±100 mV user-set range)
+<br />
+Approx. 0.5 s max. (not 4-wire Pt100 or ±100 mV user-set range)
+<br />
+4 to 20 mA, 1 to 5 V, 0 to 1.25 V, 0 to 5 V, 0 to 10 V inputs:
+<br />
+An error is detected and the Input Error Flag turns ON when a disconnection
+<br />
+occurs or when 115% or -15% of the measurable input range is exceeded.
+<br />
+When a disconnection occurs in the 4 to 20 mA/1 to 5 V range, the -15%
+<br />
+process value is stored.
+<br />
+When a disconnection occurs in any other range, a process value the same as
+<br />
+for a 0 V input is stored.
+<br />
+0 to 20 mA inputs:
+<br />
+An error is detected and the Input Error Flag turns ON when 115% of the
+<br />
+measurable input range is exceeded. When a disconnection occurs, a process
+<br />
+value the same as for a 0 mA input is stored.
+<br />
+-1.25 to 1.25 V, -5 to 5 V, -10 to 10 V, ±10 V user-set range inputs:
+<br />
+An error is detected and the Input Error Flag turns ON when 107.5% or -7.5% of
+<br />
+the measurable input range is exceeded. When a disconnection occurs, a
+<br />
+process value the same as for a 0 V input is stored.</td>
+								</tr>
+								<tr>
+									<th colspan="1" rowspan="11" class="heading left middle"><strong>Function</strong></th>
+									<th class="heading left middle"><strong>Process value alarm</strong></th>
+									<td class="left middle">Four process value alarms (HH, H, LL, L), hysteresis, and ON/OFF-delay timer (0
+<br />
+to 60 s) can be set.</td>
+								</tr>
+								<tr>
+									<th class="heading left middle"><strong>Rate-of-change
+<br />
+calculation</strong></th>
+									<td class="left middle">Calculates the amount of change per process value comparison time interval
+<br />
+(Either 1 to 16 s or the conversion period can be set.)</td>
+								</tr>
+								<tr>
+									<th class="heading left middle"><strong>Rate-of-change
+<br />
+alarm</strong></th>
+									<td class="left middle">Two rate-of-change alarms (H, L), hysteresis, and ON/OFF-delay timer (0 to 60
+<br />
+s) can be set (shared with process value alarm).</td>
+								</tr>
+								<tr>
+									<th class="heading left middle"><strong>Process value
+<br />
+averaging
+<br />
+(input filter)</strong></th>
+									<td class="left middle">Calculates the moving average for the specified number of past process values (1
+<br />
+to 128), and stores that value in the CIO Area as the process value.</td>
+								</tr>
+								<tr>
+									<th class="heading left middle"><strong>Square root
+<br />
+extraction</strong></th>
+									<td class="left middle">When the process value scaling maximum value is A and the minimum value is B:
+<br />
+										<div class="image"><img src="../../../tab/family/1988/img/cj1w-ph41u_sp_1_1.jpg" /></div>
+										<br />
+Dropout: Output approx. 7% maximum linear (output = input) characteristics
+<br />
+Note 1.
+<br />
+The square root function is enabled for DC inputs only. It is not performed for
+<br />
+temperature inputs.
+<br />
+Note 2.
+<br />
+The square root function is enabled only when the maximum scaling value is
+<br />
+greater than the minimum value. It is not performed when the minimum value is
+<br />
+greater.
+<br />
+Note 3.
+<br />
+When performing square root calculation, set the maximum and minimum
+<br />
+scaling values to the scaling values following square root extraction of the
+<br />
+flowrate or other input value.</td>
+								</tr>
+								<tr>
+									<th class="heading left middle"><strong>Adjustment period
+<br />
+control</strong></th>
+									<td class="left middle">When zero/span adjustment is executed, the date is internally recorded at the
+<br />
+Unit.
+<br />
+When the preset zero/span adjustment period and the notice of days remaining
+<br />
+set in the Expansion Setting Area have elapsed, this function turns ON a warning
+<br />
+flag to give notice that it is time for readjustment.</td>
+								</tr>
+								<tr>
+									<th class="heading left middle"><strong>Peak and bottom
+<br />
+detection</strong></th>
+									<td class="left middle">Detects the maximum (peak) and minimum (bottom) process values, from when
+<br />
+the Hold Start Bit (output) allocated to the Expansion Control/Monitor Area
+<br />
+turns ON until it turns OFF. These values are stored as the peak and bottom
+<br />
+values in the Expansion Control/Monitor Area.</td>
+								</tr>
+								<tr>
+									<th class="heading left middle"><strong>Top and valley
+<br />
+detection</strong></th>
+									<td class="left middle">This function detects the top and valley values for process values, from when the
+<br />
+Hold Start Bit (output) allocated to the Expansion Control/Monitor Area turns
+<br />
+ON until it turns OFF. These values are stored as the top and valley values in the
+<br />
+Expansion Control/Monitor Area.</td>
+								</tr>
+								<tr>
+									<th class="heading left middle"><strong>Integral value
+<br />
+calculation</strong></th>
+									<td class="left middle">This function calculates the process value's time integral. The integral value is
+<br />
+calculated and the result is output to the Expansion Control/Monitor Area when
+<br />
+the Integral Value Calculation Start Bit in the Expansion Control/Monitor Area is
+<br />
+turned ON.</td>
+								</tr>
+								<tr>
+									<th class="heading left middle"><strong>Cold junction
+<br />
+compensation
+<br />
+method</strong></th>
+									<td class="left middle">Specifies whether cold junction compensation is to be executed internally or
+<br />
+externally.
+<br />
+Note: This function is supported only for thermocouple inputs.</td>
+								</tr>
+								<tr>
+									<th class="heading left middle"><strong>Resistance
+<br />
+thermometer input
+<br />
+compensation</strong></th>
+									<td class="left middle">Compensation is enabled for a connected resistance thermometer by setting the
+<br />
+resistance for 23 °C.
+<br />
+Note: This function is supported only for resistance thermometer inputs.</td>
+								</tr>
+								<tr>
+									<th colspan="2" rowspan="1" class="heading left middle"><strong>Isolation</strong></th>
+									<td class="left middle">Between inputs and Controller signals, and between inputs: Power supply =
+<br />
+Transformer, Signal = Digital isolator</td>
+								</tr>
+								<tr>
+									<th colspan="2" rowspan="1" class="heading left middle"><strong>Insulation resistance</strong></th>
+									<td class="left middle">20 MΩ (at 500 V DC) between all inputs</td>
+								</tr>
+								<tr>
+									<th colspan="2" rowspan="1" class="heading left middle"><strong>Dielectric strength</strong></th>
+									<td class="left middle">Between all inputs: 500 V AC, at 50 or 60 Hz, for 1 min, leakage current 10 mA
+<br />
+max.</td>
+								</tr>
+								<tr>
+									<th colspan="2" rowspan="1" class="heading left middle"><strong>External connections</strong></th>
+									<td class="left middle">Terminal block (detachable)</td>
+								</tr>
+								<tr>
+									<th colspan="2" rowspan="1" class="heading left middle"><strong>Unit number settings</strong></th>
+									<td class="left middle">Set by rotary switches on front panel, from 0 to 95.</td>
+								</tr>
+								<tr>
+									<th colspan="2" rowspan="1" class="heading left middle"><strong>Indicators</strong></th>
+									<td class="left middle">Three LED indicators on front panel (for normal operation, errors detected at the
+<br />
+Universal Input Unit, and errors detected at the CPU Unit).</td>
+								</tr>
+								<tr>
+									<th colspan="2" rowspan="1" class="heading left middle"><strong>Front panel connector</strong></th>
+									<td class="left middle">Input connector terminal block (detachable)</td>
+								</tr>
+								<tr>
+									<th colspan="2" rowspan="1" class="heading left middle"><strong>Current consumption
+<br />
+(supplied by Power Supply Unit)</strong></th>
+									<td class="left middle">5 V DC at 300 mA max.</td>
+								</tr>
+								<tr>
+									<th colspan="2" rowspan="1" class="heading left middle"><strong>Dimensions</strong></th>
+									<td class="left middle">31 × 90 × 65 mm (W × H × D)</td>
+								</tr>
+								<tr>
+									<th colspan="2" rowspan="1" class="heading left middle"><strong>Weight</strong></th>
+									<td class="left middle">150 g max.</td>
+								</tr>
+								<tr>
+									<th colspan="2" rowspan="1" class="heading left middle"><strong>Standard accessories</strong></th>
+									<td class="left middle">One cold junction sensor (mounted to terminal block)</td>
+								</tr>
+							</table>
+						</div>
+        
+        </p>
+    </div>
+
+
+
+
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<p class="date-line">last update: September 25, 2012</p>
+
+</div>
+
+                        </div>
+                    </div>
+	            <!-- === /[primary-contents-area] === -->
+                </div>
+                <!-- === /[inner-contents-area] === -->
+
+
+                <!-- === [local-navi] === -->
+                <div class="local-navi-area">
+                    <div class="local-navi-area">
+
+
+
+<div class="local-naviA01">
+<h2 class="heading-link">
+<a href="../../category/index.html" ><img src="../../../resources/images/icon_right_b.gif" width="3" height="9" alt="" class="iconA01" />Product Category</a>
+</h2>
+<ul><li><a href="../../category/automation-systems/index-2.html"><img src="../../../resources/images/icon_right_b.gif" width="3" height="9" alt="" class="iconA01" />Automation Systems</a><ul class="list-indent01"><li><a href="../../category/automation-systems/programmable-controllers/index-2.html"><img src="../../../resources/images/icon_right_b.gif" width="3" height="9" alt="" class="iconA01" />Programmable Controllers</a><ul class="list-indent02"><li><a href="../../category/automation-systems/programmable-controllers/cj1/index.html"><img src="../../../resources/images/icon_right_b.gif" width="3" height="9" alt="" class="iconA01" />CJ1</a><ul class="list-indent03"><li><a href="../../category/automation-systems/programmable-controllers/cj1/special-io-units/index.html"><img src="../../../resources/images/icon_right_b.gif" width="3" height="9" alt="" class="iconA01" />Special I/O Units</a><ul class="list-indent04"><li><a href="../1779/index.html"><img src="../../../resources/images/icon_right_b.gif" width="3" height="9" alt="" class="iconA01" />CJ1W-CRM21</a></li><li><a href="../1644/index.html"><img src="../../../resources/images/icon_right_b.gif" width="3" height="9" alt="" class="iconA01" />CJ1W-PTS</a></li><li><a href="../1645/index.html"><img src="../../../resources/images/icon_right_b.gif" width="3" height="9" alt="" class="iconA01" />CJ1W-AD / DA / MAD</a></li><li><a href="../1646/index.html"><img src="../../../resources/images/icon_right_b.gif" width="3" height="9" alt="" class="iconA01" />CJ1W-PDC15</a></li><li><a href="../1438/index.html"><img src="../../../resources/images/icon_right_b.gif" width="3" height="9" alt="" class="iconA01" />CJ1W-TC</a></li><li><a href="../2051/index.html"><img src="../../../resources/images/icon_right_b.gif" width="3" height="9" alt="" class="iconA01" />CJ1W-NC[][]4</a></li><li><a href="../1409/index.html"><img src="../../../resources/images/icon_right_b.gif" width="3" height="9" alt="" class="iconA01" />CJ1W-NC[][]3</a></li><li><a href="../1649/index.html"><img src="../../../resources/images/icon_right_b.gif" width="3" height="9" alt="" class="iconA01" />CJ1W-CT021</a></li><li><a href="../3086/index.html"><img src="../../../resources/images/icon_right_b.gif" width="3" height="9" alt="" class="iconA01" />CJ1W-V680C11 / V680C12</a></li><li><a href="../30/index.html"><img src="../../../resources/images/icon_right_b.gif" width="3" height="9" alt="" class="iconA01" />CJ1W-SRM21</a></li><li class="stay"><span>CJ1W-PH41U / AD04U</span></li></ul></li></ul></li></ul></li></ul></li></ul>
+<!-- /local-naviA01 -->
+</div>
+
+
+
+<div class="local-naviB01">
+<ul class="heading-link">
+
+<li class="first-child">
+<a href="../../category/index.html"><img src="../../../resources/images/icon_right_b.gif" width="3" height="9" alt="" class="iconA01" />Product Category</a>
+</li>
+
+<li>
+<a href="../../../product/cautions/index-2.html"><img src="../../../resources/images/icon_right_b.gif" width="3" height="9" alt="" class="iconA01" />Cautions</a>
+</li>
+
+<li>
+<a href="../../index/index.html"><img src="../../../resources/images/icon_right_b.gif" width="3" height="9" alt="" class="iconA01" />Item A to Z Index</a>
+</li>
+
+<li>
+<a href="../../applications/index.html"><img src="../../../resources/images/icon_right_b.gif" width="3" height="9" alt="" class="iconA01" />Applications</a>
+</li>
+
+<li>
+<a href="../../correct/index.html"><img src="../../../resources/images/icon_right_b.gif" width="3" height="9" alt="" class="iconA01" />Correction Notice</a>
+</li>
+
+</ul>
+<!-- /local-naviB01 -->
+</div>
+                    </div>
+                </div>
+                <!-- === /[local-navi] === -->
+
+            </div>
+            <!-- === /[contents-area] === -->
+
+            <!-- === [top-page-link-area] === -->
+            <div class="top-page-link-area">
+                <ul class="top-page-link-list">
+                    <li>
+                        <a href="#page-top"><img src="../../../resources/images/icon_up_b.gif" width="5" height="8" alt="" class="iconB01" />Top of Page</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- === /[top-page-link-area] === -->
+
+            <!-- === [footer-area] === -->
+
+
+<!-- === [footer-area] === -->
+<div class="footer-area">
+    <p class="non-visual">
+        <a name="footer" id="footer">Site Information</a>
+    </p>
+   <div class="footer-link">
+				<p class="copyright">© Copyright Kyoto Engineering & Automation Ltd. All Rights Reserved.</p>
+    <!-- /.footer-link -->
+    </div>
+<!-- /.footer-area -->
+</div>
+<!-- === /[footer-area] === -->
+            <!-- === /[footer-area] === -->
+        </div>
+        <!-- === /[omron-ia] === -->
+    </body>
+
+<!-- Mirrored from www.ia.omron.com/products/family/1988/specification.html by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 16 Dec 2016 05:32:05 GMT -->
+</html>
