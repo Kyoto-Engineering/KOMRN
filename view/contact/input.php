@@ -201,10 +201,18 @@ var x = document.forms["inputForm"]["inputForm:userTel"].value;
 <div class="global-navi-area">
 <p class="non-visual"><a name="global-navi" id="global-navi">Global Navigation</a></p>
 <ul>
-<li class="home"><a href="../../index.php">Home</a></li>
+<li class="home stay"><a href="../../index.php">Home</a></li>
 <li class="product"><a href="../../products/index.html">Products</a></li>
-<li class="home stay"><strong>Contact Us</strong></li>
+<li class="corporate-profile"><a href="../../view/contact/input.php">Contact Us</a></li>
+<li class="function-area"><div class="search"><form action="https://omron.keal.com.bd/sphider/search.php" method="get">
+      <input type="text" name="query" id="query" size="40" value="" />
+      <input type="submit" value="Search" /> <input type="hidden"
+      name="search" value="1" />
+    </form>
+</div>
+</li>
 </ul>
+
 <!-- === /[global-navi-area] === --></div>
 <!--+/global-navi-->
 
