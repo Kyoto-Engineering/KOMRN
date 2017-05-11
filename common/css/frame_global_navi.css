@@ -5,9 +5,10 @@
 ------------------------------------*/
 
 div.global-navi-area *{
-	margin:0;
-	padding:0;
-	line-height:1.3;
+	margin-top: 7px;
+    margin-left: 4px;
+    padding-bottom: 3px;
+    line-height: 1.3;
 }
 
 div.global-navi-area{
@@ -43,9 +44,10 @@ div.global-navi-area ul:after{
 
 
 div.global-navi-area ul li{
-	float:left;
-	background:url(../img/global_navi_line_01.gif) right no-repeat;
-	padding-right:1px;
+	
+    float: left;
+    background: url(../img/global_navi_line_01.gif) right no-repeat;
+    padding-right: 5px;
 }
 
 div.global-navi-area ul li a,

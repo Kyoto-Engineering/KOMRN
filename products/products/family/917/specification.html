@@ -1,0 +1,1036 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<html xml:lang="en" lang="en" xmlns="http://www.w3.org/1999/xhtml">
+    
+<!-- Mirrored from www.ia.omron.com/products/family/917/specification.html by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 15 Dec 2016 15:29:03 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=utf-8" /><!-- /Added by HTTrack -->
+<head>
+        <meta http-equiv="Content-Language" content="en" />
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <meta http-equiv="Content-Style-Type" content="text/css" />
+        <meta http-equiv="Content-Script-Type" content="text/javascript" />
+        <title>
+            K3SC Interface Converter/Specifications | OMRON Industrial Automation
+        </title>
+        <meta name="keywords" content="Control Components,Signal Converters,K3SC" />
+        <meta name="description" content="Interface Converter A compact converter that allows communications between RS-232C/USB and RS-422/485 devices. Ideal for industrial applications." />
+        
+
+<link rel="alternate" href="../../../index.html" hreflang="en" />
+<link rel="stylesheet" type="text/css" media="all" href="../../../resources/css/common22f8.css?201611151200" />
+<link rel="stylesheet" type="text/css" media="all" href="../../../resources/css/global/common22f8.css?201611151200" />
+<link rel="stylesheet" type="text/css" media="all" href="../../../resources/css/frame_utility_tridion22f8.css?201611151200" />
+<link rel="stylesheet" type="text/css" media="print" href="../../../resources/css/print22f8.css?201611151200" />
+<script type="text/javascript" src="../../../resources/js/jquery22f8.js?201611151200"></script>
+<script type="text/javascript" src="../../../resources/js/function22f8.js?201611151200"></script>
+<script type="text/javascript" src="../../../resources/js/country_website22f8.js?201611151200"></script>
+<script type="text/javascript" src="../../../resources/js/global/ga22f8.js?201611151200"></script>
+<link rel="stylesheet" type="text/css" media="all" href="../../../resources/css/jquery-ui22f8.css?201611151200" charset='UTF-8'/>
+<link rel="stylesheet" type="text/css" media="all" href="../../../resources/css/jquery.multiselect22f8.css?201611151200" charset='UTF-8'/>
+<script type="text/javascript" language="JavaScript" src="../../../common/js/marketing_tag22f8.js?201611151200"></script>
+<script type="text/javascript" src="../../../resources/js/jquery-ui.min22f8.js?201611151200" charset='UTF-8'></script>
+<script type="text/javascript" src="../../../resources/js/jquery.ex-table-filter22f8.js?201611151200" charset='UTF-8'></script>
+<script type="text/javascript" src="../../../resources/js/jquery.tablesorter.min22f8.js?201611151200" charset='UTF-8'></script>
+<script type="text/javascript" src="../../../resources/js/filter22f8.js?201611151200" charset='UTF-8'></script>
+<link rel="shortcut icon" href="../../../resources/images/favicon.ico" type="image/x-icon" />
+
+        <link rel="stylesheet" type="text/css" media="all" href="../../../resources/css/tablesorter6c9b.css?201611150900" />
+        <script type="text/javascript" src="../../../resources/js/global/products6c9b.js?201611150900" charset='UTF-8'></script>
+
+    
+                    <script type="text/javascript">
+                      var w=window;
+                      if(w.performance||w.mozPerformance||w.msPerformance||w.webkitPerformance){var d=document,AKSB=AKSB||{};AKSB.q=[];AKSB.mark=function(a,b){AKSB.q.push(["mark",a,b||(new Date).getTime()])};AKSB.measure=function(a,b,c){AKSB.q.push(["measure",a,b,c||(new Date).getTime()])};AKSB.done=function(a){AKSB.q.push(["done",a])};AKSB.mark("firstbyte",(new Date).getTime());AKSB.prof={custid:"447308",ustr:"UNKNOWN",originlat:0,clientrtt:66,ghostip:"23.75.23.146",
+                      ipv6:false,pct:10,clientip:"27.147.201.4",requestid:"3cf784c0",protocol:"",blver:10,akM:"b",akN:"ae",akTT:"O",akTX:"1",akTI:"3cf784c0",ai:"286653",ra:"",pmgn:"",pmgi:"",pmp:""};(function(a){var b=
+                      d.createElement("script");b.async="async";b.src=a;a=d.getElementsByTagName("script");a=a[a.length-1];a.parentNode.insertBefore(b,a)})(("https:"===d.location.protocol?"https:":"http:")+"//ds-aksb-a.akamaihd.net/aksb.min.js")};
+                    </script>
+                    </head>
+    <body id="www-ia-omron-com" class="layoutC03 control-components">
+
+        <!-- === [omron-ia] === -->
+        <div class="omron-ia">
+            <p class="non-visual">
+                <a name="page-top" id="page-top">
+                    Page top
+                </a>
+            </p>
+
+
+
+
+<div class="header-area">
+     <div class="site-identity">
+          <div class="site-logo">
+               <a href="../../../index.html"><img src="../../../images/logo_01_b13-260967.gif"  width="129" height="24" alt="OMRON" /></a>
+          </div>
+          <!-- /.site-identity -->
+     </div>
+     <div class="utilities">
+          <div class="country-select-area">
+               <p class="canpany"><img src="../../../images/header_txt_0113-195.gif"  width="129" height="11" alt="" /></p>
+               <p class="current-country">
+                    <span class="area devider">
+                        <a href="javascript:void(0)" onclick="box.countryWebsiteLinks();" id="country"><img src="../../../resources/images/icon_right_b.gif" width="3" height="9" alt="" class="iconA01" />Global</a>
+                    </span>
+               </p>
+          </div>
+          <div class="function-area">
+               <ul>
+
+
+                    <li class="first-child">
+
+
+                    <a href="../../../view/contact/input.html" ><img src="../../../resources/images/icon_right_b.gif" width="3" height="9" alt="" class="iconA01" />Contact</a>
+                    </li>
+
+               </ul>
+               <div class="search">
+<form action="omron.keal.com.bd/sphider/search.php" method="get">
+	<p>
+		<input type="text" value="" size="20" name="q" id="search_str" class="search-str" />
+		<input type="submit" value="Search" class="submit60L" />
+	</p>
+</form>
+                    <!-- /.search -->
+               </div>
+               <!-- /.function-area -->
+          </div>
+          <!-- /.utilities -->
+     </div>
+     <!-- /.header-area -->
+</div>
+
+<div class="global-navi-area">
+<ul>
+
+<li>
+<a href="../../../index.html">Home</a>
+</li>
+
+<li class="stay-link">
+<a href="../../index-2.html">Products</a>
+</li>
+
+<li>
+<a href="../../../support/index-2.html">Technical Support</a>
+</li>
+
+<li>
+<a href="../../../global_network/index-2.html">Global Network</a>
+</li>
+
+<li>
+<a href="../../../corporate_profile/index.html">About Us</a>
+</li>
+
+</ul>
+</div> 
+<div class="bread-crumb-area">
+<ul>
+
+
+<li><a href="../../../index.html" >Home</a><span class="separator">&gt;</span></li>
+
+<li><a href="../../index-2.html" >Products</a><span class="separator">&gt;</span></li>
+
+<li><a href="../../category/index.html" >Product Category</a><span class="separator">&gt;</span></li>
+
+<li><a href="../../category/control-components/index-2.html" >Control Components</a><span class="separator">&gt;</span></li>
+
+<li><a href="../../category/control-components/signal-converters/index.html" >Signal Converters</a><span class="separator">&gt;</span></li>
+
+<li><strong>K3SC</strong></li>
+
+
+</ul>
+</div>
+
+            <!-- === [contents-area] === -->
+            <div class="contents-area">
+
+                <!-- === [inner-contents-area] === -->
+                <div class="inner-contents-area">
+                    <!-- === [upper-contents-area] === -->
+                    <div class="upper-contents-area">
+                        <!-- === [lead-area] === -->
+                        <div class="lead-area">
+
+
+
+
+<!-- --------------------------------------------------------------------Product Family Start--------------------------------------------------------- -->
+<div class="heading-h1">
+
+
+    <h1>
+        K3SC
+    </h1>
+    <p class="sub-title">
+        Interface Converter
+    </p>
+</div>
+<div class="image-blockA01">
+    <div class="image-left">
+        <p class="image">
+
+            <img src="../../../images/l_917-13-118955-198x198.jpg" width="198" height="198" alt="K3SC" class="nopic" />
+
+
+        </p>
+    </div>
+    <div class="description">
+        <h2 class="heading-B02">
+            A compact converter that allows communications between RS-232C/USB and RS-422/485 devices. Ideal for industrial applications.
+        </h2>
+        
+
+
+
+
+        <div class="item-list-link">
+            <p>
+                <a href="itemlist/index.html">
+                    <img src="../../../resources/images/icon_right_b.gif" width="3" height="9" alt="" class="iconA01" />
+                    Item list of K3SC
+                </a>
+            </p>
+        </div>
+    </div>
+<!-- /.image-blockA01 -->
+</div>
+
+
+
+                        </div>
+                        <!-- === /[lead-area] === -->
+
+
+                        <!-- === [utility-area] === -->
+                        <div class="utility-area">                         
+                       
+                            <div class="action-block">
+                                <p>
+                                    about this Product Family
+                                </p>
+                                <ul>
+                                    <li class="first-child">
+                                        <a href="../../../view/inquiry/b5family/input360e.html?b5Id=917">
+                                            Inquiry of this Product
+                                        </a>
+                                    </li>                                 
+                                </ul>
+                            </div>
+
+
+
+
+<div class="related-info-blockA01 vertical-slide">
+
+    <p>
+        <span>Related Contents</span>
+    </p>
+
+
+        <ul>
+            <li class="first-child">
+                <span>Common</span>
+            </li>
+            <li>
+                <ul class="list-indent01">
+
+
+                    <li class="first-child">
+
+
+                        <a href="../../../product/cautions/index.html">
+                            <img src="../../../resources/images/icon_right_b.gif" width="3" height="9" alt="" class="iconA01" />
+                            Cautions
+                        </a>
+                    </li>
+
+
+
+                    <li>
+
+                        <a href="../../../support/guide/index.html">
+                            <img src="../../../resources/images/icon_right_b.gif" width="3" height="9" alt="" class="iconA01" />
+                            Technical Guide
+                        </a>
+                    </li>
+
+
+
+                    <li>
+
+                        <a href="../../../support/models/index.html">
+                            <img src="../../../resources/images/icon_right_b.gif" width="3" height="9" alt="" class="iconA01" />
+                            Models with Standards Certification
+                        </a>
+                    </li>
+
+
+
+                    <li>
+
+                        <a href="../../../support/faq/index.html">
+                            <img src="../../../resources/images/icon_right_b.gif" width="3" height="9" alt="" class="iconA01" />
+                            FAQ 
+                        </a>
+                    </li>
+
+                </ul>
+            </li>
+        </ul>
+
+        <ul>
+            <li class="first-child">
+                <span>Control Components</span>
+            </li>
+            <li>
+                <ul class="list-indent01">
+
+
+                    <li class="first-child">
+
+
+                        <a href="../../applications/category/control-components/index.html">
+                            <img src="../../../resources/images/icon_right_b.gif" width="3" height="9" alt="" class="iconA01" />
+                            Applications
+                        </a>
+                    </li>
+
+                </ul>
+            </li>
+        </ul>
+
+        <ul>
+            <li class="first-child">
+                <span>Signal Converters</span>
+            </li>
+            <li>
+                <ul class="list-indent01">
+
+
+                    <li class="first-child">
+
+
+                        <a href="../../index/control-components/signal-converters/index.html">
+                            <img src="../../../resources/images/icon_right_b.gif" width="3" height="9" alt="" class="iconA01" />
+                            Item A to Z Index 
+                        </a>
+                    </li>
+
+
+
+                    <li>
+
+                        <a href="../../../support/glossary/control-components/signal-converters/index.html">
+                            <img src="../../../resources/images/icon_right_b.gif" width="3" height="9" alt="" class="iconA01" />
+                            Glossary of Industrial Automation 
+                        </a>
+                    </li>
+
+                </ul>
+            </li>
+        </ul>
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- /.related-info-blockA01 -->
+</div>
+
+
+
+                           
+                        </div>
+                        <!-- === /[utility-area] === -->
+
+                    </div>
+                    <!-- === /[upper-contents-area] === -->
+
+                    <!-- === [primary-contents-area] === -->
+                    <div class="primary-contents-area">
+                        <div class="tabpanel-blockA01">
+
+
+
+
+
+
+<div class="tab-block">
+    <ul class="tabs">
+
+
+
+
+
+
+
+        <li>
+            <a href="feature.html">Features</a>
+
+        </li>
+
+
+
+
+
+
+
+
+        <li>
+            <a href="lineup.html">Lineup</a>
+
+        </li>
+
+
+
+
+
+
+
+
+        <li class="active">
+            <span>Specifications</span>
+
+        </li>
+
+
+
+
+
+
+
+
+        <li>
+            <a href="dimension.html">Dimensions</a>
+
+        </li>
+
+
+
+
+
+
+        <li>
+            <a href="download/catalog.html">Catalog</a>
+
+        </li>
+
+
+
+
+
+    </ul>
+</div><!-- /.tab-block -->
+
+<div class="editable-block">
+
+
+<p class="date-line">last update: August 05, 2015</p>
+
+
+
+
+
+
+
+
+
+
+<h4 class="heading-A03">Ratings</h4>
+
+
+
+
+
+
+
+
+
+<div class="component-blockA01">
+
+
+
+
+
+    <div class="text">
+        <p>
+            
+						<div class="table-blockA01">
+							<table border="0" cellspacing="0" class="tableA01">
+								<tr>
+									<TH colspan="2" rowspan="1" class="heading center middle">
+										<strong>Item</strong>
+									</TH>
+									<td class="heading center middle">
+										<strong>K3SC-10 100 to 240 VAC</strong>
+									</td>
+									<TH class="heading center middle">
+										<strong>K3SC-10 24 VAC/VDC</strong>
+									</TH>
+								</tr>
+								<tr>
+									<TH colspan="2" rowspan="1" class="heading left middle">
+										<strong>Supply voltage</strong>
+									</TH>
+									<td class="left middle">100 to 240 VAC 50/60 Hz</td>
+									<td class="left middle">24 VAC 50/60 Hz, 24 VDC</td>
+								</tr>
+								<tr>
+									<TH colspan="2" rowspan="1" class="heading left middle">
+										<strong>Operating voltage range</strong>
+									</TH>
+									<td colspan="2" rowspan="1" class="left middle">85% to 110% of power supply voltage</td>
+								</tr>
+								<tr>
+									<TH colspan="2" rowspan="1" class="heading left middle">
+										<strong>Power consumption</strong>
+									</TH>
+									<td class="left middle">5 VA max.</td>
+									<td class="left middle">3 VA max./3 W max.</td>
+								</tr>
+								<tr>
+									<TH colspan="2" rowspan="1" class="heading left middle">
+										<strong>Master/slave device communications format<br />(Select one of the formats listed on the right<br />using the DIP switch.)</strong>
+									</TH>
+									<td colspan="2" rowspan="1" class="left middle">Master Device ↔ Slave Device<br />RS-232C or USB ↔ RS-485, half duplex<br />RS-232C or USB ↔ RS-422, full duplex<br />USB ↔ RS-232C, full duplex</td>
+								</tr>
+								<tr>
+									<TH colspan="2" rowspan="1" class="heading left middle">
+										<strong>Communications method</strong>
+									</TH>
+									<td colspan="2" rowspan="1" class="left middle">Start-stop synchronization</td>
+								</tr>
+								<tr>
+									<TH colspan="1" rowspan="2" class="heading left middle">
+										<strong>Ambient operating temperature</strong>
+									</TH>
+									<td class="heading left middle">
+										<strong>RS-232C</strong>
+									</td>
+									<td colspan="2" rowspan="1" class="left middle">-10 to 55 °C (with no icing)</td>
+								</tr>
+								<tr>
+									<TH class="heading left middle">
+										<strong>USB</strong>
+									</TH>
+									<td colspan="2" rowspan="1" class="left middle">0 to 55 °C (with no icing)</td>
+								</tr>
+								<tr>
+									<TH colspan="2" rowspan="1" class="heading left middle">
+										<strong>Ambient operating humidity</strong>
+									</TH>
+									<td colspan="2" rowspan="1" class="left middle">25% to 85% (with no condensation)</td>
+								</tr>
+								<tr>
+									<TH colspan="2" rowspan="1" class="heading left middle">
+										<strong>Ambient storage temperature</strong>
+									</TH>
+									<td colspan="2" rowspan="1" class="left middle">-20 to 65 °C</td>
+								</tr>
+							</table>
+						</div>
+					
+        </p>
+    </div>
+
+
+
+
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<h4 class="heading-A03">Characteristics</h4>
+
+
+
+
+
+
+
+
+
+<div class="component-blockA01">
+
+
+
+
+
+    <div class="text">
+        <p>
+            
+          <div class="table-blockA01">
+							<table border="0" cellspacing="0" class="tableA01">
+								<tr class="first-child">
+									<th colspan="4" rowspan="1" class="heading center middle"><strong>Item</strong></th>
+									<th class="heading center middle"><strong>Specification</strong></th>
+								</tr>
+								<tr>
+									<th colspan="1" rowspan="5" class="heading left middle"><strong>Master
+<br />
+device</strong></th>
+									<th colspan="1" rowspan="2" class="heading left middle"><strong>RS-232C
+<br />
+interface
+<br />
+(See
+<br />
+note 1.)</strong></th>
+									<th colspan="2" rowspan="1" class="heading left middle"><strong>Maximum transmis-
+<br />
+sion distance</strong></th>
+									<td class="left middle">15 m</td>
+								</tr>
+								<tr>
+									<th colspan="2" rowspan="1" class="heading left middle"><strong>Maximum number of
+<br />
+connectable Units</strong></th>
+									<td class="left middle">1 Unit</td>
+								</tr>
+								<tr>
+									<th colspan="1" rowspan="3" class="heading left middle"><strong>USB
+<br />
+interface
+<br />
+(See
+<br />
+note 2.)</strong></th>
+									<th colspan="2" rowspan="1" class="heading left middle"><strong>Maximum transmis-
+<br />
+sion distance</strong></th>
+									<td class="left middle">5 m; hub delay time + cable delay time ≤ 70 ns</td>
+								</tr>
+								<tr>
+									<th colspan="2" rowspan="1" class="heading left middle"><strong>Maximum number of
+<br />
+connectable Units</strong></th>
+									<td class="left middle">1 Unit</td>
+								</tr>
+								<tr>
+									<th colspan="2" rowspan="1" class="heading left middle"><strong>USB standard</strong></th>
+									<td class="left middle">V1.1</td>
+								</tr>
+								<tr>
+									<th colspan="1" rowspan="4" class="heading left middle"><strong>Slave
+<br />
+device</strong></th>
+									<th colspan="1" rowspan="2" class="heading left middle"><strong>RS-485
+<br />
+interface</strong></th>
+									<th colspan="2" rowspan="1" class="heading left middle"><strong>Maximum transmis-
+<br />
+sion distance</strong></th>
+									<td class="left middle">500 m</td>
+								</tr>
+								<tr>
+									<th colspan="2" rowspan="1" class="heading left middle"><strong>Maximum number of
+<br />
+connectable Units</strong></th>
+									<td class="left middle">31 Units (for multi-drop connection)</td>
+								</tr>
+								<tr>
+									<th colspan="1" rowspan="2" class="heading left middle"><strong>RS-422
+<br />
+interface</strong></th>
+									<th colspan="2" rowspan="1" class="heading left middle"><strong>Maximum transmis-
+<br />
+sion distance</strong></th>
+									<td class="left middle">500 m</td>
+								</tr>
+								<tr>
+									<th colspan="2" rowspan="1" class="heading left middle"><strong>Maximum number of
+<br />
+connectable Units</strong></th>
+									<td class="left middle">1 Unit</td>
+								</tr>
+								<tr>
+									<th colspan="4" rowspan="1" class="heading left middle"><strong>Baud rate</strong></th>
+									<td class="left middle">1,200/2,400/4,800/9,600/19,200/38,400 (bps)
+<br />
+Default setting: 9,600</td>
+								</tr>
+								<tr>
+									<th colspan="4" rowspan="1" class="heading left middle"><strong>Data length</strong></th>
+									<td class="left middle">7/8 bits
+<br />
+Default setting: 7</td>
+								</tr>
+								<tr>
+									<th colspan="4" rowspan="1" class="heading left middle"><strong>Stop bit length</strong></th>
+									<td class="left middle">1/2 bits
+<br />
+Default setting: 2</td>
+								</tr>
+								<tr>
+									<th colspan="4" rowspan="1" class="heading left middle"><strong>Communications parity</strong></th>
+									<td class="left middle">None/even/odd
+<br />
+Default setting: Even</td>
+								</tr>
+								<tr>
+									<th colspan="4" rowspan="1" class="heading left middle"><strong>Echoback selection</strong></th>
+									<td class="left middle">Echoback: With/without
+<br />
+Default setting: Without</td>
+								</tr>
+								<tr>
+									<th colspan="4" rowspan="1" class="heading left middle"><strong>Selection switch response delay</strong></th>
+									<td class="left middle">Approx. 30 ms</td>
+								</tr>
+								<tr>
+									<th colspan="4" rowspan="1" class="heading left middle"><strong>Insulation resistance</strong></th>
+									<td class="left middle">20 MΩ min. measured at 500 VDC between the following:
+<br />
+External terminals ↔ casing
+<br />
+RS-232C terminals and USB port ↔ RS-422/485 terminals ↔ power supply terminals</td>
+								</tr>
+								<tr>
+									<th colspan="2" rowspan="2" class="heading left middle" />
+									<th colspan="1" rowspan="2" class="heading left middle"><strong>Isolation
+<br />
+method</strong></th>
+									<th class="heading left middle"><strong>Commu-
+<br />
+nications</strong></th>
+									<td class="left middle">Phototransistor coupler</td>
+								</tr>
+								<tr>
+									<th class="heading left middle"><strong>Power
+<br />
+supply</strong></th>
+									<td class="left middle">Isolating transformer</td>
+								</tr>
+								<tr>
+									<th colspan="4" rowspan="2" class="heading left middle"><strong>Dielectric strength</strong></th>
+									<td class="left middle">1,500 VAC for 1 minute measured between the following:
+<br />
+External terminals ↔ casing
+<br />
+RS-232C terminals, USB port, RS-422 terminals, and RS-485 terminals ↔ power
+<br />
+supply terminals</td>
+								</tr>
+								<tr>
+									<td class="left middle">500 VAC for 1 minute measured between the following:
+<br />
+RS-232C terminals and USB port ↔ RS-422 terminals and RS-485 terminals</td>
+								</tr>
+								<tr>
+									<th colspan="4" rowspan="1" class="heading left middle"><strong>Noise immunity</strong></th>
+									<td class="left middle">AC power supply terminals, normal/common mode: ±1,500 V
+<br />
+AC/DC power supply terminals, normal mode: ±480 V; common mode: ±1,500 V
+<br />
+Square wave with 1-ns rising edge ±1 μs, ±100 ns</td>
+								</tr>
+								<tr>
+									<th colspan="2" rowspan="2" class="heading left middle"><strong>Vibration
+<br />
+resistance</strong></th>
+									<th colspan="2" rowspan="1" class="heading left middle"><strong>Malfunction</strong></th>
+									<td class="left middle">10 to 55 Hz, 0.5-mm single amplitude for 10 minutes each in X, Y, and Z directions</td>
+								</tr>
+								<tr>
+									<th colspan="2" rowspan="1" class="heading left middle"><strong>Destruction</strong></th>
+									<td class="left middle">10 to 55 Hz, 0.75-mm single amplitude for 2 hours each in X, Y, and Z directions</td>
+								</tr>
+								<tr>
+									<th colspan="2" rowspan="2" class="heading left middle"><strong>Shock resistance</strong></th>
+									<th colspan="2" rowspan="1" class="heading left middle"><strong>Malfunction</strong></th>
+									<td class="left middle">98 m/s<sup>2</sup> 3 times each in X, Y, and Z directions</td>
+								</tr>
+								<tr>
+									<th colspan="2" rowspan="1" class="heading left middle"><strong>Destruction</strong></th>
+									<td class="left middle">294 m/s<sup>2</sup> 3 times each in X, Y, and Z directions</td>
+								</tr>
+								<tr>
+									<th colspan="4" rowspan="1" class="heading left middle"><strong>Weight</strong></th>
+									<td class="left middle">Approx. 150 g</td>
+								</tr>
+								<tr>
+									<th colspan="2" rowspan="2" class="heading left middle"><strong>Degree of protection
+<br />
+(See note 3.)</strong></th>
+									<th colspan="2" rowspan="1" class="heading left middle"><strong>Front panel
+<br />
+operation parts</strong></th>
+									<td class="left middle">Conforms to IEC standards, equivalent to IP20 (when terminal cover mounted)</td>
+								</tr>
+								<tr>
+									<th colspan="2" rowspan="1" class="heading left middle"><strong>Terminals</strong></th>
+									<td class="left middle">Equivalent to VDE 0106/100 (when terminal cover mounted)</td>
+								</tr>
+								<tr>
+									<th colspan="4" rowspan="1" class="heading left middle"><strong>EMC</strong></th>
+									<td class="left middle">(EMI) EN61326-1 Industrial electromagnetic environment
+<br />
+Emission Enclosure: CISPR 11 Group 1 class A: CISRP16-1/-2
+<br />
+Emission AC Mains: CISPR 11 Group 1 class A: CISRP16-1/-2
+<br />
+(EMS) EN61326-1 Industrial electromagnetic environment
+<br />
+Immunity ESD: EN61000-4-2: 4 kV contact discharge (level 2), 8 kV air discharge
+<br />
+(level 3)
+<br />
+Immunity RF-interference: EN61000-4-3: 10 V/m (amplitude-modulated, 80 MHz to
+<br />
+1 GHz) (level 3)
+<br />
+Immunity Fast Transient Noise: EN61000-4-4: 2 kV (power line) (level 3)
+<br />
+Immunity Burst Noise: 1 kV line to line (I/O signal line)
+<br />
+Immunity Surge: EN61000-4-5: 1 kV line to line, 2 kV line to ground (power line)
+<br />
+Immunity Conducted Disturbance EN61000-4-6: 3 V (0.15 to 80 MHz) (level 2)
+<br />
+Immunity Voltage Dip/Interrupting EN61000-4-11: 0.5 cycles, 0, 180°, 100% (rated
+<br />
+voltage)</td>
+								</tr>
+								<tr>
+									<th colspan="4" rowspan="1" class="heading left middle"><strong>Approved standards</strong></th>
+									<td class="left middle">UL508, Conforms to EN61326-1, EN61010-1 (IEC61010-1)</td>
+								</tr>
+								<tr>
+									<th colspan="4" rowspan="1" class="heading left middle"><strong>Memory protection</strong></th>
+									<td class="left middle">No protective functions (Communications data is not protected for power interruptions
+<br />
+during communications.)</td>
+								</tr>
+							</table>
+						</div>
+        
+        </p>
+    </div>
+
+
+
+
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="component-blockA01">
+
+
+
+
+
+    <div class="text">
+        <p>
+            
+						<div style="text-align: left;">Note: 1. With RS-232C communications, free-run mode is supported for SD and RD but not for any other signal lines.
+<br />
+           2. To use USB communications, the USB driver for the K3SC must be downloaded from the OMRON web site.
+<br />
+                  http://www.fa.omron.co.jp/
+<br />
+           3. The enclosure ratings do not apply when USB is used.
+<br />
+           4. The CE marking does not apply when the K3SC is used for USB.</div>
+					
+        </p>
+    </div>
+
+
+
+
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<p class="date-line">last update: August 05, 2015</p>
+
+</div>
+
+                        </div>
+                    </div>
+	            <!-- === /[primary-contents-area] === -->
+                </div>
+                <!-- === /[inner-contents-area] === -->
+
+
+                <!-- === [local-navi] === -->
+                <div class="local-navi-area">
+                    <div class="local-navi-area">
+
+
+
+<div class="local-naviA01">
+<h2 class="heading-link">
+<a href="../../category/index.html" ><img src="../../../resources/images/icon_right_b.gif" width="3" height="9" alt="" class="iconA01" />Product Category</a>
+</h2>
+<ul><li><a href="../../category/control-components/index-2.html"><img src="../../../resources/images/icon_right_b.gif" width="3" height="9" alt="" class="iconA01" />Control Components</a><ul class="list-indent01"><li><a href="../../category/control-components/signal-converters/index.html"><img src="../../../resources/images/icon_right_b.gif" width="3" height="9" alt="" class="iconA01" />Signal Converters</a><ul class="list-indent02"><li class="stay"><span>K3SC</span></li></ul></li></ul></li></ul>
+<!-- /local-naviA01 -->
+</div>
+
+
+
+<div class="local-naviB01">
+<ul class="heading-link">
+
+<li class="first-child">
+<a href="../../category/index.html"><img src="../../../resources/images/icon_right_b.gif" width="3" height="9" alt="" class="iconA01" />Product Category</a>
+</li>
+
+<li>
+<a href="../../../product/cautions/index-2.html"><img src="../../../resources/images/icon_right_b.gif" width="3" height="9" alt="" class="iconA01" />Cautions</a>
+</li>
+
+<li>
+<a href="../../index/index.html"><img src="../../../resources/images/icon_right_b.gif" width="3" height="9" alt="" class="iconA01" />Item A to Z Index</a>
+</li>
+
+<li>
+<a href="../../applications/index.html"><img src="../../../resources/images/icon_right_b.gif" width="3" height="9" alt="" class="iconA01" />Applications</a>
+</li>
+
+<li>
+<a href="../../correct/index.html"><img src="../../../resources/images/icon_right_b.gif" width="3" height="9" alt="" class="iconA01" />Correction Notice</a>
+</li>
+
+</ul>
+<!-- /local-naviB01 -->
+</div>
+                    </div>
+                </div>
+                <!-- === /[local-navi] === -->
+
+            </div>
+            <!-- === /[contents-area] === -->
+
+            <!-- === [top-page-link-area] === -->
+            <div class="top-page-link-area">
+                <ul class="top-page-link-list">
+                    <li>
+                        <a href="#page-top"><img src="../../../resources/images/icon_up_b.gif" width="5" height="8" alt="" class="iconB01" />Top of Page</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- === /[top-page-link-area] === -->
+
+            <!-- === [footer-area] === -->
+
+
+<!-- === [footer-area] === -->
+<div class="footer-area">
+    <p class="non-visual">
+        <a name="footer" id="footer">Site Information</a>
+    </p>
+    <div class="realizing">
+        <p><a href="../../../realizing/index.html"><img src="../../../images/logo_0213-192.gif"  width="86" height="19" alt="" /></a></p>
+    <!-- /.realizing -->
+    </div>
+    <div class="footer-link">
+        <ul>
+            <li>
+                <a href="http://www.omron.com/"  target="_blank"><img src="../../../resources/images/icon_right_b.gif" width="3" height="9" alt="" class="iconA01" />OMRON Corporation<img src="../../../resources/images/icon_07.gif" width="14" height="11" class="external_win" alt=" " /></a>
+            </li>
+
+            <li>
+                <a href="../../../sitemap.html" ><img src="../../../resources/images/icon_right_b.gif" width="3" height="9" alt="" class="iconA01" />Sitemap</a>
+            </li>
+
+            <li>
+                <a href="../../../terms/index-2.html" ><img src="../../../resources/images/icon_right_b.gif" width="3" height="9" alt="" class="iconA01" />Terms of Use</a>
+            </li>
+
+            <li>
+                <a href="../../../privacy/index-2.html" ><img src="../../../resources/images/icon_right_b.gif" width="3" height="9" alt="" class="iconA01" />Privacy Policy</a>
+            </li>
+        </ul>
+
+        <p class="copyright">© Copyright OMRON Corporation 2007 - 2016. All Rights Reserved.</p>
+    <!-- /.footer-link -->
+    </div>
+<!-- /.footer-area -->
+</div>
+<!-- === /[footer-area] === -->
+            <!-- === /[footer-area] === -->
+        </div>
+        <!-- === /[omron-ia] === -->
+    </body>
+
+<!-- Mirrored from www.ia.omron.com/products/family/917/specification.html by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 15 Dec 2016 15:29:03 GMT -->
+</html>

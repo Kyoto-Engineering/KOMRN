@@ -1,0 +1,1289 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<html xml:lang="en" lang="en" xmlns="http://www.w3.org/1999/xhtml">
+    
+<!-- Mirrored from www.ia.omron.com/products/family/955/specification.html by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 16 Dec 2016 00:02:53 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=utf-8" /><!-- /Added by HTTrack -->
+<head>
+        <meta http-equiv="Content-Language" content="en" />
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <meta http-equiv="Content-Style-Type" content="text/css" />
+        <meta http-equiv="Content-Script-Type" content="text/javascript" />
+        <title>
+            G2AK Latching Relay/Specifications | OMRON Industrial Automation
+        </title>
+        <meta name="keywords" content="Relays,General Purpose Relays,For Control Panel,G2AK" />
+        <meta name="description" content="Latching Relay Magnetic Latching Version of G2A Ideal for Sequence Control" />
+        
+
+<link rel="alternate" href="../../../index.html" hreflang="en" />
+<link rel="stylesheet" type="text/css" media="all" href="../../../resources/css/common22f8.css?201611151200" />
+<link rel="stylesheet" type="text/css" media="all" href="../../../resources/css/global/common22f8.css?201611151200" />
+<link rel="stylesheet" type="text/css" media="all" href="../../../resources/css/frame_utility_tridion22f8.css?201611151200" />
+<link rel="stylesheet" type="text/css" media="print" href="../../../resources/css/print22f8.css?201611151200" />
+<script type="text/javascript" src="../../../resources/js/jquery22f8.js?201611151200"></script>
+<script type="text/javascript" src="../../../resources/js/function22f8.js?201611151200"></script>
+<script type="text/javascript" src="../../../resources/js/country_website22f8.js?201611151200"></script>
+<script type="text/javascript" src="../../../resources/js/global/ga22f8.js?201611151200"></script>
+<link rel="stylesheet" type="text/css" media="all" href="../../../resources/css/jquery-ui22f8.css?201611151200" charset='UTF-8'/>
+<link rel="stylesheet" type="text/css" media="all" href="../../../resources/css/jquery.multiselect22f8.css?201611151200" charset='UTF-8'/>
+<script type="text/javascript" language="JavaScript" src="../../../common/js/marketing_tag22f8.js?201611151200"></script>
+<script type="text/javascript" src="../../../resources/js/jquery-ui.min22f8.js?201611151200" charset='UTF-8'></script>
+<script type="text/javascript" src="../../../resources/js/jquery.ex-table-filter22f8.js?201611151200" charset='UTF-8'></script>
+<script type="text/javascript" src="../../../resources/js/jquery.tablesorter.min22f8.js?201611151200" charset='UTF-8'></script>
+<script type="text/javascript" src="../../../resources/js/filter22f8.js?201611151200" charset='UTF-8'></script>
+<link rel="shortcut icon" href="../../../resources/images/favicon.ico" type="image/x-icon" />
+
+        <link rel="stylesheet" type="text/css" media="all" href="../../../resources/css/tablesorter6c9b.css?201611150900" />
+        <script type="text/javascript" src="../../../resources/js/global/products6c9b.js?201611150900" charset='UTF-8'></script>
+
+    
+                    <script type="text/javascript">
+                      var w=window;
+                      if(w.performance||w.mozPerformance||w.msPerformance||w.webkitPerformance){var d=document,AKSB=AKSB||{};AKSB.q=[];AKSB.mark=function(a,b){AKSB.q.push(["mark",a,b||(new Date).getTime()])};AKSB.measure=function(a,b,c){AKSB.q.push(["measure",a,b,c||(new Date).getTime()])};AKSB.done=function(a){AKSB.q.push(["done",a])};AKSB.mark("firstbyte",(new Date).getTime());AKSB.prof={custid:"447308",ustr:"UNKNOWN",originlat:0,clientrtt:74,ghostip:"23.75.23.146",
+                      ipv6:false,pct:10,clientip:"27.147.201.4",requestid:"3e3dd1a3",protocol:"",blver:10,akM:"b",akN:"ae",akTT:"O",akTX:"1",akTI:"3e3dd1a3",ai:"286653",ra:"",pmgn:"",pmgi:"",pmp:""};(function(a){var b=
+                      d.createElement("script");b.async="async";b.src=a;a=d.getElementsByTagName("script");a=a[a.length-1];a.parentNode.insertBefore(b,a)})(("https:"===d.location.protocol?"https:":"http:")+"//ds-aksb-a.akamaihd.net/aksb.min.js")};
+                    </script>
+                    </head>
+    <body id="www-ia-omron-com" class="layoutC03 relays">
+
+        <!-- === [omron-ia] === -->
+        <div class="omron-ia">
+            <p class="non-visual">
+                <a name="page-top" id="page-top">
+                    Page top
+                </a>
+            </p>
+
+
+
+
+<div class="header-area">
+     <div class="site-identity">
+          <div class="site-logo">
+               <a href="../../../index.html"><img src="../../../images/logo_01_b13-260967.gif"  width="129" height="24" alt="OMRON" /></a>
+          </div>
+          <!-- /.site-identity -->
+     </div>
+     <div class="utilities">
+          <div class="country-select-area">
+               <p class="canpany"><img src="../../../images/header_txt_0113-195.gif"  width="129" height="11" alt="" /></p>
+               <p class="current-country">
+                    <span class="area devider">
+                        <a href="javascript:void(0)" onclick="box.countryWebsiteLinks();" id="country"><img src="../../../resources/images/icon_right_b.gif" width="3" height="9" alt="" class="iconA01" />Global</a>
+                    </span>
+               </p>
+          </div>
+          <div class="function-area">
+               <ul>
+
+
+                    <li class="first-child">
+
+
+                    <a href="../../../view/contact/input.html" ><img src="../../../resources/images/icon_right_b.gif" width="3" height="9" alt="" class="iconA01" />Contact</a>
+                    </li>
+
+               </ul>
+               <div class="search">
+<form action="omron.keal.com.bd/sphider/search.php" method="get">
+	<p>
+		<input type="text" value="" size="20" name="q" id="search_str" class="search-str" />
+		<input type="submit" value="Search" class="submit60L" />
+	</p>
+</form>
+                    <!-- /.search -->
+               </div>
+               <!-- /.function-area -->
+          </div>
+          <!-- /.utilities -->
+     </div>
+     <!-- /.header-area -->
+</div>
+
+<div class="global-navi-area">
+<ul>
+
+<li>
+<a href="../../../index.html">Home</a>
+</li>
+
+<li class="stay-link">
+<a href="../../index-2.html">Products</a>
+</li>
+
+<li>
+<a href="../../../support/index-2.html">Technical Support</a>
+</li>
+
+<li>
+<a href="../../../global_network/index-2.html">Global Network</a>
+</li>
+
+<li>
+<a href="../../../corporate_profile/index.html">About Us</a>
+</li>
+
+</ul>
+</div> 
+<div class="bread-crumb-area">
+<ul>
+
+
+<li><a href="../../../index.html" >Home</a><span class="separator">&gt;</span></li>
+
+<li><a href="../../index-2.html" >Products</a><span class="separator">&gt;</span></li>
+
+<li><a href="../../category/index.html" >Product Category</a><span class="separator">&gt;</span></li>
+
+<li><a href="../../category/relays/index-2.html" >Relays</a><span class="separator">&gt;</span></li>
+
+<li><a href="../../category/relays/general-purpose-relays/index-2.html" >General Purpose Relays</a><span class="separator">&gt;</span></li>
+
+<li><a href="../../category/relays/general-purpose-relays/for-control-panel/index.html" >For Control Panel</a><span class="separator">&gt;</span></li>
+
+<li><strong>G2AK</strong></li>
+
+
+</ul>
+</div>
+
+            <!-- === [contents-area] === -->
+            <div class="contents-area">
+
+                <!-- === [inner-contents-area] === -->
+                <div class="inner-contents-area">
+                    <!-- === [upper-contents-area] === -->
+                    <div class="upper-contents-area">
+                        <!-- === [lead-area] === -->
+                        <div class="lead-area">
+
+
+
+
+<!-- --------------------------------------------------------------------Product Family Start--------------------------------------------------------- -->
+<div class="heading-h1">
+
+
+    <h1>
+        G2AK
+    </h1>
+    <p class="sub-title">
+        Latching Relay
+    </p>
+</div>
+<div class="image-blockA01">
+    <div class="image-left">
+        <p class="image">
+
+            <img src="../../../images/l_955-13-118847-198x198.jpg" width="198" height="198" alt="G2AK" class="nopic" />
+
+
+        </p>
+    </div>
+    <div class="description">
+        <h2 class="heading-B02">
+            Magnetic Latching Version of G2A Ideal for Sequence Control
+        </h2>
+        
+
+
+
+
+        <div class="item-list-link">
+            <p>
+                <a href="itemlist/index.html">
+                    <img src="../../../resources/images/icon_right_b.gif" width="3" height="9" alt="" class="iconA01" />
+                    Item list of G2AK
+                </a>
+            </p>
+        </div>
+    </div>
+<!-- /.image-blockA01 -->
+</div>
+
+
+
+                        </div>
+                        <!-- === /[lead-area] === -->
+
+
+                        <!-- === [utility-area] === -->
+                        <div class="utility-area">                         
+                       
+                            <div class="action-block">
+                                <p>
+                                    about this Product Family
+                                </p>
+                                <ul>
+                                    <li class="first-child">
+                                        <a href="../../../view/inquiry/b5family/input7839.html?b5Id=955">
+                                            Inquiry of this Product
+                                        </a>
+                                    </li>                                 
+                                </ul>
+                            </div>
+
+
+
+
+<div class="related-info-blockA01 vertical-slide">
+
+    <p>
+        <span>Related Contents</span>
+    </p>
+
+
+        <ul>
+            <li class="first-child">
+                <span>Common</span>
+            </li>
+            <li>
+                <ul class="list-indent01">
+
+
+                    <li class="first-child">
+
+
+                        <a href="../../../product/cautions/index.html">
+                            <img src="../../../resources/images/icon_right_b.gif" width="3" height="9" alt="" class="iconA01" />
+                            Cautions
+                        </a>
+                    </li>
+
+
+
+                    <li>
+
+                        <a href="../../../support/guide/index.html">
+                            <img src="../../../resources/images/icon_right_b.gif" width="3" height="9" alt="" class="iconA01" />
+                            Technical Guide
+                        </a>
+                    </li>
+
+
+
+                    <li>
+
+                        <a href="../../../support/models/index.html">
+                            <img src="../../../resources/images/icon_right_b.gif" width="3" height="9" alt="" class="iconA01" />
+                            Models with Standards Certification
+                        </a>
+                    </li>
+
+
+
+                    <li>
+
+                        <a href="../../../support/faq/index.html">
+                            <img src="../../../resources/images/icon_right_b.gif" width="3" height="9" alt="" class="iconA01" />
+                            FAQ 
+                        </a>
+                    </li>
+
+                </ul>
+            </li>
+        </ul>
+
+        <ul>
+            <li class="first-child">
+                <span>General Purpose Relays</span>
+            </li>
+            <li>
+                <ul class="list-indent01">
+
+
+                    <li class="first-child">
+
+
+                        <a href="../../index/relays/general-purpose-relays/index.html">
+                            <img src="../../../resources/images/icon_right_b.gif" width="3" height="9" alt="" class="iconA01" />
+                            Item A to Z Index 
+                        </a>
+                    </li>
+
+
+
+                    <li>
+
+                        <a href="../../../support/glossary/relays/general-purpose-relays/index.html">
+                            <img src="../../../resources/images/icon_right_b.gif" width="3" height="9" alt="" class="iconA01" />
+                            Glossary of Industrial Automation 
+                        </a>
+                    </li>
+
+                </ul>
+            </li>
+        </ul>
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- /.related-info-blockA01 -->
+</div>
+
+
+
+                           
+                        </div>
+                        <!-- === /[utility-area] === -->
+
+                    </div>
+                    <!-- === /[upper-contents-area] === -->
+
+                    <!-- === [primary-contents-area] === -->
+                    <div class="primary-contents-area">
+                        <div class="tabpanel-blockA01">
+
+
+
+
+
+
+<div class="tab-block">
+    <ul class="tabs">
+
+
+
+
+
+
+
+        <li>
+            <a href="feature.html">Features</a>
+
+        </li>
+
+
+
+
+
+
+
+
+        <li>
+            <a href="lineup.html">Lineup</a>
+
+        </li>
+
+
+
+
+
+
+
+
+        <li class="active">
+            <span>Specifications</span>
+
+        </li>
+
+
+
+
+
+
+
+
+        <li>
+            <a href="dimension.html">Dimensions</a>
+
+        </li>
+
+
+
+
+
+
+        <li>
+            <a href="download/catalog.html">Catalog</a>
+
+        </li>
+
+
+
+
+
+    </ul>
+</div><!-- /.tab-block -->
+
+<div class="editable-block">
+
+
+<p class="date-line">last update: September 24, 2012</p>
+
+
+
+
+
+
+
+
+
+<h4 class="heading-A02">Coil Ratings</h4>
+
+
+
+
+
+
+
+
+
+
+<div class="component-blockA01">
+
+
+
+
+
+    <div class="text">
+        <p>
+            
+          <div class="table-blockA01">
+							<table border="0" cellspacing="0" class="tableA01">
+								<tr class="first-child">
+									<th colspan="1" rowspan="3" class="heading center middle"><strong>Rated
+<br />
+voltage</strong></th>
+									<th colspan="3" rowspan="1" class="heading center middle"><strong>Set coil</strong></th>
+									<th colspan="3" rowspan="1" class="heading center middle"><strong>Reset coil</strong></th>
+									<th colspan="1" rowspan="3" class="heading center middle"><strong>Set
+<br />
+voltage</strong></th>
+									<th colspan="1" rowspan="3" class="heading center middle"><strong>Reset
+<br />
+voltage</strong></th>
+									<th colspan="1" rowspan="3" class="heading center middle"><strong>Max.
+<br />
+voltage</strong></th>
+									<th colspan="2" rowspan="1" class="heading center middle"><strong>Power
+<br />
+consumption</strong></th>
+								</tr>
+								<tr>
+									<th colspan="2" rowspan="1" class="heading center middle"><strong>Rated current</strong></th>
+									<th colspan="1" rowspan="2" class="heading center middle"><strong>Coil re-
+<br />
+sistance</strong></th>
+									<th colspan="2" rowspan="1" class="heading center middle"><strong>Rated current</strong></th>
+									<th colspan="1" rowspan="2" class="heading center middle"><strong>Coil re-
+<br />
+sistance</strong></th>
+									<th colspan="1" rowspan="2" class="heading center middle"><strong>Set
+<br />
+coil</strong></th>
+									<th colspan="1" rowspan="2" class="heading center middle"><strong>Reset
+<br />
+coil</strong></th>
+								</tr>
+								<tr>
+									<th class="heading center middle"><strong>50 Hz</strong></th>
+									<th class="heading center middle"><strong>60 Hz</strong></th>
+									<th class="heading center middle"><strong>50 Hz</strong></th>
+									<th class="heading center middle"><strong>60 Hz</strong></th>
+								</tr>
+								<tr>
+									<th class="heading left middle"><strong>12 VAC</strong></th>
+									<td class="center middle">162 mA</td>
+									<td class="center middle">158 mA</td>
+									<td class="center middle">28 Ω</td>
+									<td class="center middle">40 mA</td>
+									<td class="center middle">39 mA</td>
+									<td class="center middle">125 Ω</td>
+									<td colspan="1" rowspan="8" class="center middle">80%
+<br />
+max. of
+<br />
+rated
+<br />
+voltage</td>
+									<td colspan="1" rowspan="8" class="center middle">80%
+<br />
+max. of
+<br />
+rated
+<br />
+voltage</td>
+									<td colspan="1" rowspan="8" class="center middle">110%
+<br />
+of
+<br />
+rated
+<br />
+voltage</td>
+									<td colspan="1" rowspan="4" class="center middle">Approx.
+<br />
+1.6 to
+<br />
+2.0 VA</td>
+									<td colspan="1" rowspan="4" class="center middle">Approx.
+<br />
+0.5 to
+<br />
+1.2 VA</td>
+								</tr>
+								<tr>
+									<th class="heading left middle"><strong>24 VAC</strong></th>
+									<td class="center middle">66 mA</td>
+									<td class="center middle">64 mA</td>
+									<td class="center middle">145 Ω</td>
+									<td class="center middle">22.6 mA</td>
+									<td class="center middle">22 mA</td>
+									<td class="center middle">460 Ω</td>
+								</tr>
+								<tr>
+									<th class="heading left middle"><strong>50 VAC</strong></th>
+									<td class="center middle">34 mA</td>
+									<td class="center middle">33 mA</td>
+									<td class="center middle">590 Ω</td>
+									<td class="center middle">11.3 mA</td>
+									<td class="center middle">11 mA</td>
+									<td class="center middle">1,900 Ω</td>
+								</tr>
+								<tr>
+									<th class="heading left middle"><strong>100 VAC</strong></th>
+									<td class="center middle">19 mA</td>
+									<td class="center middle">18.5 mA</td>
+									<td class="center middle">2,150 Ω</td>
+									<td class="center middle">12.3 mA</td>
+									<td class="center middle">12 mA</td>
+									<td class="center middle">3,600 Ω</td>
+								</tr>
+								<tr>
+									<th class="heading left middle"><strong>6 VDC</strong></th>
+									<td colspan="2" rowspan="1" class="center middle">360 mA</td>
+									<td class="center middle">14 Ω</td>
+									<td colspan="2" rowspan="1" class="center middle">160 mA</td>
+									<td class="center middle">32 Ω</td>
+									<td colspan="1" rowspan="4" class="center middle">Approx.
+<br />
+2.0 to
+<br />
+2.2 W</td>
+									<td colspan="1" rowspan="4" class="center middle">Approx.
+<br />
+1.0 to
+<br />
+1.2 W</td>
+								</tr>
+								<tr>
+									<th class="heading left middle"><strong>12 VDC</strong></th>
+									<td colspan="2" rowspan="1" class="center middle">170 mA</td>
+									<td class="center middle">65 Ω</td>
+									<td colspan="2" rowspan="1" class="center middle">85 mA</td>
+									<td class="center middle">125 Ω</td>
+								</tr>
+								<tr>
+									<th class="heading left middle"><strong>24 VDC</strong></th>
+									<td colspan="2" rowspan="1" class="center middle">85 mA</td>
+									<td class="center middle">270 Ω</td>
+									<td colspan="2" rowspan="1" class="center middle">50 mA</td>
+									<td class="center middle">460 Ω</td>
+								</tr>
+								<tr>
+									<th class="heading left middle"><strong>48 VDC</strong></th>
+									<td colspan="2" rowspan="1" class="center middle">44 mA</td>
+									<td class="center middle">1,050 Ω</td>
+									<td colspan="2" rowspan="1" class="center middle">24 mA</td>
+									<td class="center middle">1,900 Ω</td>
+								</tr>
+							</table>
+						</div>
+        
+        </p>
+    </div>
+
+
+
+
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="component-blockA01">
+
+
+
+
+
+    <div class="text">
+        <p>
+            
+						<div style="text-align: left;">Note: 1. The rated current and coil resistance are measured at a coil temperature of 23°C with tolerances of +15%, –20%
+<br />
+              for AC rated current and ±15% for DC coil resistance.
+<br />
+          2. The AC coil resistance values are for reference only.
+<br />
+          3. Performance characteristics data are measured at a coil temperature of 23°C.
+<br />
+          4. The rated current of the AC operating coil is half-wave rectified current and is measured with a DC ammeter.
+<br />
+          5. The peak reverse-breakdown voltage of the built-in diode is 1,000V.
+<br />
+          6. The set coil of the Relay rated at 6 VDC is of the 5-minute rating. However, when it is used by connecting a diode
+<br />
+               is series, it can be of the continuous rating.
+<br />
+          7. By connecting an external resistor to each of the set and reset coils as shown in the table below, the rated current
+<br />
+               of the Relay can be increased.
+<br />
+          8. The maximum voltage is one that is applicable instantaneously to the Relay coil at 23°C and not continuously.</div>
+					
+        </p>
+    </div>
+
+
+
+
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="component-blockA01">
+
+
+
+
+
+    <div class="text">
+        <p>
+            
+						<div class="table-blockA01">
+							<table border="0" cellspacing="0" class="tableA01">
+								<tr class="first-child">
+									<th colspan="1" rowspan="3" class="heading center middle"><strong>Rated voltage</strong></th>
+									<th colspan="1" rowspan="3" class="heading center middle"><strong>Connected coil voltage</strong></th>
+									<th colspan="4" rowspan="1" class="heading center middle"><strong>External resistor</strong></th>
+								</tr>
+								<tr>
+									<th colspan="2" rowspan="1" class="heading center middle"><strong>Set coil</strong></th>
+									<th colspan="2" rowspan="1" class="heading center middle"><strong>Reset coil</strong></th>
+								</tr>
+								<tr>
+									<th class="heading center middle"><strong>Resistance</strong></th>
+									<th class="heading center middle"><strong>Capacity</strong></th>
+									<th class="heading center middle"><strong>Resistance</strong></th>
+									<th class="heading center middle"><strong>Capacity</strong></th>
+								</tr>
+								<tr>
+									<td class="center middle">110 VAC</td>
+									<td class="center middle">100 VAC</td>
+									<td class="center middle">0.27 kΩ</td>
+									<td class="center middle">0.5 W min.</td>
+									<td class="center middle">0.39 kΩ</td>
+									<td class="center middle">1/4 W min.</td>
+								</tr>
+								<tr>
+									<td class="center middle">200 VAC</td>
+									<td class="center middle">100 VAC</td>
+									<td class="center middle">2.7 kΩ</td>
+									<td class="center middle">5 W min.</td>
+									<td class="center middle">8.2 kΩ</td>
+									<td class="center middle">3 W min.</td>
+								</tr>
+								<tr>
+									<td class="center middle">220 VAC</td>
+									<td class="center middle">100 VAC</td>
+									<td class="center middle">3.3 kΩ</td>
+									<td class="center middle">6 W min.</td>
+									<td class="center middle">9.1 kΩ</td>
+									<td class="center middle">3 W min.</td>
+								</tr>
+								<tr>
+									<td class="center middle">100 VDC</td>
+									<td class="center middle">48 VDC</td>
+									<td class="center middle">1.1 kΩ</td>
+									<td class="center middle">10 W min.</td>
+									<td class="center middle">2.0 kΩ</td>
+									<td class="center middle">6 W min.</td>
+								</tr>
+							</table>
+						</div>
+					
+        </p>
+    </div>
+
+
+
+
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="component-blockA01">
+
+
+
+
+
+    <div class="text">
+        <p>
+            Note: Use a resistor having the above resistance value with tolerances of ±10% for external connection.
+        </p>
+    </div>
+
+
+
+
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<h4 class="heading-B02">Method of Connection</h4>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="component-blockA02">
+
+
+
+
+
+
+    <div class="image">
+        
+       
+        <img src="../../../images/G2AK_sp_313-113818.jpg"   alt="G2AK Specifications 5 "/>
+       
+    </div>
+
+
+    <div class="text">
+        <p>
+            
+						<ul class="listA01">
+							<li>Reset side
+<br />
+DC coil: Connect terminal No. 13 to terminal No. 9 or No. 13 to No. 5.
+<br />
+AC coil: Connect terminal No. 13 to terminal No. 5.</li>
+							<li>Set side
+<br />
+DC coil: Connect terminal No. 14 to terminal No. 12 or No. 14 to No. 8.
+<br />
+AC coil: Connect terminal No. 14 to terminal No. 8.</li>
+							</ul>
+					
+        </p>
+    </div>
+
+
+
+</div>
+
+
+
+
+
+
+
+
+
+<h4 class="heading-A02">Contact Ratings</h4>
+
+
+
+
+
+
+
+
+
+
+<div class="component-blockA01">
+
+
+
+
+
+    <div class="text">
+        <p>
+            
+						<div class="table-blockA01">
+							<table border="0" cellspacing="0" class="tableA01">
+								<tr class="first-child">
+									<th class="heading left middle"><strong>Load</strong></th>
+									<th class="heading center middle"><strong>Resistive load (cosφ = 1)</strong></th>
+									<th class="heading center middle"><strong>Inductive load (cosφ = 0.4) (L/R = 7 ms)</strong></th>
+								</tr>
+								<tr>
+									<th class="heading left middle"><strong>Contact type</strong></th>
+									<td colspan="2" rowspan="1" class="left middle">Crossbar bifurcated</td>
+								</tr>
+								<tr>
+									<th class="heading left middle"><strong>Contact material</strong></th>
+									<td colspan="2" rowspan="1" class="left middle">Movable: Au-clad AgPd
+<br />
+Fixed: AgPd</td>
+								</tr>
+								<tr>
+									<th class="heading left middle"><strong>Rated load</strong></th>
+									<td class="left middle">0.3 A at 110 VAC
+<br />
+0.5 A at 24 VDC</td>
+									<td class="left middle">0.2 A at 110 VAC
+<br />
+0.3 A at 24 VDC</td>
+								</tr>
+								<tr>
+									<th class="heading left middle"><strong>Rated carry current</strong></th>
+									<td colspan="2" rowspan="1" class="left middle">3 A</td>
+								</tr>
+								<tr>
+									<th class="heading left middle"><strong>Max. switching voltage</strong></th>
+									<td colspan="2" rowspan="1" class="left middle">250 VAC, 125 VDC</td>
+								</tr>
+							</table>
+						</div>
+					
+        </p>
+    </div>
+
+
+
+
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<h4 class="heading-A02">Characteristics</h4>
+
+
+
+
+
+
+
+
+
+
+<div class="component-blockA01">
+
+
+
+
+
+    <div class="text">
+        <p>
+            
+						<div class="table-blockA01">
+							<table border="0" cellspacing="0" class="tableA01">
+								<tr class="first-child">
+									<th class="heading left middle"><strong>Contact resistance
+<br />
+(see note 2)</strong></th>
+									<td class="left middle">100 mΩ max.</td>
+								</tr>
+								<tr>
+									<th class="heading left middle"><strong>Set time
+<br />
+(see note 3)</strong></th>
+									<td class="left middle">AC: 25 ms max.; DC: 15 ms max.</td>
+								</tr>
+								<tr>
+									<th class="heading left middle"><strong>Reset time
+<br />
+(see note 3)</strong></th>
+									<td class="left middle">AC: 25 ms max.; DC: 15 ms max.</td>
+								</tr>
+								<tr>
+									<th class="heading left middle"><strong>Min. pulse width</strong></th>
+									<td class="left middle">AC: 50 ms; DC: 30 ms</td>
+								</tr>
+								<tr>
+									<th class="heading left middle"><strong>Max. operating frequency</strong></th>
+									<td class="left middle">Mechanical: 18,000 operations/hour
+<br />
+Electrical: 1,800 operations/hour (under rated load)</td>
+								</tr>
+								<tr>
+									<th class="heading left middle"><strong>Insulation resistance
+<br />
+(see note 4)</strong></th>
+									<td class="left middle">100 MΩ min. (at 500 VDC)</td>
+								</tr>
+								<tr>
+									<th class="heading left middle"><strong>Dielectric strength</strong></th>
+									<td class="left middle">1,500 VAC, 50/60 Hz for 1 minute between coil and contact (700 VAC between contacts
+<br />
+of same pole) (1,000 VAC between set and reset coils)</td>
+								</tr>
+								<tr>
+									<th class="heading left middle"><strong>Vibration resistance</strong></th>
+									<td class="left middle">Destruction: 10 to 55 to 10 Hz, 0.75 mm single amplitude (1.5 mm double amplitude)
+<br />
+Malfunction: 10 to 55 to 10 Hz, 0.5 mm single amplitude (1.0 mm double amplitude)
+<br />
+(for contact malfunction);
+<br />
+3.0-mm double amplitude (for armature malfunction)</td>
+								</tr>
+								<tr>
+									<th class="heading left middle"><strong>Shock resistance</strong></th>
+									<td class="left middle">Destruction: 1,000 m/s<sup>2</sup>
+										<br />
+Malfunction: 100 m/s<sup>2</sup>, 300 m/s<sup>2</sup></td>
+								</tr>
+								<tr>
+									<th class="heading left middle"><strong>Endurance</strong></th>
+									<td class="left middle">Mechanical: 100,000,000 operations min. (at operating frequency of 18,000 operations/
+<br />
+hour)
+<br />
+Electrical: 5,000,000 operations min. (under rated load and at operating frequency of 1,800
+<br />
+operations/hour) (see note 5)</td>
+								</tr>
+								<tr>
+									<th class="heading left middle"><strong>Error rate (level P)
+<br />
+(Reference value)
+<br />
+(see note 6)</strong></th>
+									<td class="left middle">1 mA at 100 mVDC</td>
+								</tr>
+								<tr>
+									<th class="heading left middle"><strong>Ambient temperature</strong></th>
+									<td class="left middle">Operating: -10°C to 40°C (with no icing or condensation)</td>
+								</tr>
+								<tr>
+									<th class="heading left middle"><strong>Ambient humidity</strong></th>
+									<td class="left middle">Operating: 5% to 85%</td>
+								</tr>
+								<tr>
+									<th class="heading left middle"><strong>Weight</strong></th>
+									<td class="left middle">Approx. 38 g</td>
+								</tr>
+							</table>
+						</div>
+					
+        </p>
+    </div>
+
+
+
+
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="component-blockA01">
+
+
+
+
+
+    <div class="text">
+        <p>
+            
+						<div style="text-align: left;">Note: 1. The data shown above are initial values.
+<br />
+           2. The contact resistance was measured with 0.1 A at 5 VDC using the fall-of-potential method.
+<br />
+           3. The set or reset time was measured with the rated voltage imposed with any contact bounce ignored at an
+<br />
+                ambient temperature of 23°C.
+<br />
+           4. The insulation resistance was measured with a 500-VDC megger applied to the same places as those used
+<br />
+                for checking the dielectric strength.
+<br />
+           5. The electrical endurance was measured at an ambient temperature of 23°C.
+<br />
+           6. This value was measured at a switching frequency of 60 operations per minute.</div>
+					
+        </p>
+    </div>
+
+
+
+
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<p class="date-line">last update: September 24, 2012</p>
+
+</div>
+
+                        </div>
+                    </div>
+	            <!-- === /[primary-contents-area] === -->
+                </div>
+                <!-- === /[inner-contents-area] === -->
+
+
+                <!-- === [local-navi] === -->
+                <div class="local-navi-area">
+                    <div class="local-navi-area">
+
+
+
+<div class="local-naviA01">
+<h2 class="heading-link">
+<a href="../../category/index.html" ><img src="../../../resources/images/icon_right_b.gif" width="3" height="9" alt="" class="iconA01" />Product Category</a>
+</h2>
+<ul><li><a href="../../category/relays/index-2.html"><img src="../../../resources/images/icon_right_b.gif" width="3" height="9" alt="" class="iconA01" />Relays</a><ul class="list-indent01"><li><a href="../../category/relays/general-purpose-relays/index-2.html"><img src="../../../resources/images/icon_right_b.gif" width="3" height="9" alt="" class="iconA01" />General Purpose Relays</a><ul class="list-indent02"><li><a href="../../category/relays/general-purpose-relays/for-control-panel/index.html"><img src="../../../resources/images/icon_right_b.gif" width="3" height="9" alt="" class="iconA01" />For Control Panel</a><ul class="list-indent03"><li><a href="../3508/index.html"><img src="../../../resources/images/icon_right_b.gif" width="3" height="9" alt="" class="iconA01" />G2RV-SR</a></li><li><a href="../948/index.html"><img src="../../../resources/images/icon_right_b.gif" width="3" height="9" alt="" class="iconA01" />MY</a></li><li><a href="../949/index.html"><img src="../../../resources/images/icon_right_b.gif" width="3" height="9" alt="" class="iconA01" />LY</a></li><li><a href="../1731/index.html"><img src="../../../resources/images/icon_right_b.gif" width="3" height="9" alt="" class="iconA01" />G2R-[]-S (S)</a></li><li><a href="../952/index.html"><img src="../../../resources/images/icon_right_b.gif" width="3" height="9" alt="" class="iconA01" />G7T</a></li><li><a href="../953/index.html"><img src="../../../resources/images/icon_right_b.gif" width="3" height="9" alt="" class="iconA01" />G2A</a></li><li><a href="../954/index.html"><img src="../../../resources/images/icon_right_b.gif" width="3" height="9" alt="" class="iconA01" />G2A-434</a></li><li class="stay"><span>G2AK</span></li><li><a href="../1938/index.html"><img src="../../../resources/images/icon_right_b.gif" width="3" height="9" alt="" class="iconA01" />MK-S</a></li><li><a href="../2036/index.html"><img src="../../../resources/images/icon_right_b.gif" width="3" height="9" alt="" class="iconA01" />MK-S(X)</a></li><li><a href="../959/index.html"><img src="../../../resources/images/icon_right_b.gif" width="3" height="9" alt="" class="iconA01" />MM</a></li><li><a href="../960/index.html"><img src="../../../resources/images/icon_right_b.gif" width="3" height="9" alt="" class="iconA01" />MMK</a></li></ul></li></ul></li></ul></li></ul>
+<!-- /local-naviA01 -->
+</div>
+
+
+
+<div class="local-naviB01">
+<ul class="heading-link">
+
+<li class="first-child">
+<a href="../../category/index.html"><img src="../../../resources/images/icon_right_b.gif" width="3" height="9" alt="" class="iconA01" />Product Category</a>
+</li>
+
+<li>
+<a href="../../../product/cautions/index-2.html"><img src="../../../resources/images/icon_right_b.gif" width="3" height="9" alt="" class="iconA01" />Cautions</a>
+</li>
+
+<li>
+<a href="../../index/index.html"><img src="../../../resources/images/icon_right_b.gif" width="3" height="9" alt="" class="iconA01" />Item A to Z Index</a>
+</li>
+
+<li>
+<a href="../../applications/index.html"><img src="../../../resources/images/icon_right_b.gif" width="3" height="9" alt="" class="iconA01" />Applications</a>
+</li>
+
+<li>
+<a href="../../correct/index.html"><img src="../../../resources/images/icon_right_b.gif" width="3" height="9" alt="" class="iconA01" />Correction Notice</a>
+</li>
+
+</ul>
+<!-- /local-naviB01 -->
+</div>
+                    </div>
+                </div>
+                <!-- === /[local-navi] === -->
+
+            </div>
+            <!-- === /[contents-area] === -->
+
+            <!-- === [top-page-link-area] === -->
+            <div class="top-page-link-area">
+                <ul class="top-page-link-list">
+                    <li>
+                        <a href="#page-top"><img src="../../../resources/images/icon_up_b.gif" width="5" height="8" alt="" class="iconB01" />Top of Page</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- === /[top-page-link-area] === -->
+
+            <!-- === [footer-area] === -->
+
+
+<!-- === [footer-area] === -->
+<div class="footer-area">
+    <p class="non-visual">
+        <a name="footer" id="footer">Site Information</a>
+    </p>
+    <div class="realizing">
+        <p><a href="../../../realizing/index.html"><img src="../../../images/logo_0213-192.gif"  width="86" height="19" alt="" /></a></p>
+    <!-- /.realizing -->
+    </div>
+    <div class="footer-link">
+        <ul>
+            <li>
+                <a href="http://www.omron.com/"  target="_blank"><img src="../../../resources/images/icon_right_b.gif" width="3" height="9" alt="" class="iconA01" />OMRON Corporation<img src="../../../resources/images/icon_07.gif" width="14" height="11" class="external_win" alt=" " /></a>
+            </li>
+
+            <li>
+                <a href="../../../sitemap.html" ><img src="../../../resources/images/icon_right_b.gif" width="3" height="9" alt="" class="iconA01" />Sitemap</a>
+            </li>
+
+            <li>
+                <a href="../../../terms/index-2.html" ><img src="../../../resources/images/icon_right_b.gif" width="3" height="9" alt="" class="iconA01" />Terms of Use</a>
+            </li>
+
+            <li>
+                <a href="../../../privacy/index-2.html" ><img src="../../../resources/images/icon_right_b.gif" width="3" height="9" alt="" class="iconA01" />Privacy Policy</a>
+            </li>
+        </ul>
+
+        <p class="copyright">© Copyright OMRON Corporation 2007 - 2016. All Rights Reserved.</p>
+    <!-- /.footer-link -->
+    </div>
+<!-- /.footer-area -->
+</div>
+<!-- === /[footer-area] === -->
+            <!-- === /[footer-area] === -->
+        </div>
+        <!-- === /[omron-ia] === -->
+    </body>
+
+<!-- Mirrored from www.ia.omron.com/products/family/955/specification.html by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 16 Dec 2016 00:02:54 GMT -->
+</html>

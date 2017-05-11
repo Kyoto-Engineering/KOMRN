@@ -1,0 +1,3001 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<html xml:lang="en" lang="en" xmlns="http://www.w3.org/1999/xhtml">
+    
+<!-- Mirrored from www.ia.omron.com/products/family/1665/specification.html by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 16 Dec 2016 07:57:08 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=utf-8" /><!-- /Added by HTTrack -->
+<head>
+        <meta http-equiv="Content-Language" content="en" />
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <meta http-equiv="Content-Style-Type" content="text/css" />
+        <meta http-equiv="Content-Script-Type" content="text/javascript" />
+        <title>
+            CS1W-PDC / PTW / PTR SYSMAC CS-series Process Analog I/O Units/Specifications | OMRON By Kyoto Engineering &amp; Automation
+        </title>
+        <meta name="keywords" content="Automation Systems,Programmable Controllers,CS1,Special I/O Units,CS1W-PDC / PTW / PTR" />
+        <meta name="description" content="SYSMAC CS-series Process Analog I/O Units Provides the functionality of isolators, power supplies, signal converters, and other devices." />
+        
+
+<link rel="alternate" href="../../../index.html" hreflang="en" />
+<link rel="stylesheet" type="text/css" media="all" href="../../../resources/css/common22f8.css?201611151200" />
+<link rel="stylesheet" type="text/css" media="all" href="../../../resources/css/global/common22f8.css?201611151200" />
+<link rel="stylesheet" type="text/css" media="all" href="../../../resources/css/frame_utility_tridion22f8.css?201611151200" />
+<link rel="stylesheet" type="text/css" media="print" href="../../../resources/css/print22f8.css?201611151200" />
+<script type="text/javascript" src="../../../resources/js/jquery22f8.js?201611151200"></script>
+<script type="text/javascript" src="../../../resources/js/function22f8.js?201611151200"></script>
+<script type="text/javascript" src="../../../resources/js/country_website22f8.js?201611151200"></script>
+<script type="text/javascript" src="../../../resources/js/global/ga22f8.js?201611151200"></script>
+<link rel="stylesheet" type="text/css" media="all" href="../../../resources/css/jquery-ui22f8.css?201611151200" charset='UTF-8'/>
+<link rel="stylesheet" type="text/css" media="all" href="../../../resources/css/jquery.multiselect22f8.css?201611151200" charset='UTF-8'/>
+<script type="text/javascript" language="JavaScript" src="../../../common/js/marketing_tag22f8.js?201611151200"></script>
+<script type="text/javascript" src="../../../resources/js/jquery-ui.min22f8.js?201611151200" charset='UTF-8'></script>
+<script type="text/javascript" src="../../../resources/js/jquery.ex-table-filter22f8.js?201611151200" charset='UTF-8'></script>
+<script type="text/javascript" src="../../../resources/js/jquery.tablesorter.min22f8.js?201611151200" charset='UTF-8'></script>
+<script type="text/javascript" src="../../../resources/js/filter22f8.js?201611151200" charset='UTF-8'></script>
+<link rel="shortcut icon" href="../../../resources/images/favicon.ico" type="image/x-icon" />
+<link rel="stylesheet" type="text/css" media="all" href="../../../css/index.css"/>
+<link rel="stylesheet" type="text/css" media="all" href="../../../css/top.css"/>
+
+        <link rel="stylesheet" type="text/css" media="all" href="../../../resources/css/tablesorter6c9b.css?201611150900" />
+        <script type="text/javascript" src="../../../resources/js/global/products6c9b.js?201611150900" charset='UTF-8'></script>
+
+    </head>
+    <body id="www-ia-omron-com" class="layoutC03 automation-systems">
+
+        <!-- === [omron-ia] === -->
+        <div class="omron-ia">
+            <p class="non-visual">
+                <a name="page-top" id="page-top">
+                    Page top
+                </a>
+            </p>
+
+
+
+
+<div class="header-area">
+     <div class="site-identity">
+          <div class="site-logo">
+               <a href="../../../index.php"><img src="../../../images/logo_01_b13-260967.gif"  width="129" height="24" alt="OMRON" /></a>
+          </div>
+          <!-- /.site-identity -->
+     </div>
+    <div class="utilities">
+		<div class="country-select-area">
+			<p class="canpany">Building Automation</p>
+                        <?php echo '&nbsp' ; ?>
+                        <br/>
+                        <p class="canpany">Industrial Automation</p>
+                        <?php echo '&nbsp' ; ?>
+                        <br/>
+                        <p class="canpany">Power Automation &amp; Safety </p>
+			
+		</div>
+            
+            <div class="japani">
+                <img  src="../../../shared/img/Japani Technology mnemonic.png" width="90" height="50" alt=""/>
+            </div>
+          
+            
+            
+            <div class="flag">
+            <img src="../../../shared/img/Bangladesh-Flag_1.png" alt=""/>
+            </div>
+            <div class="kyoto">
+                <p><b>Bangladesh Distributor</b></p>
+                <img style="margin-left:-5px;"  src="../../../shared/img/Kyoto-logo-Png.png" alt=""/>
+            </div>
+	<!-- /.utilities --> </div>
+<!-- /.header-area --></div>
+
+
+<div class="global-navi-area">
+<ul>
+<li class="home stay"><a href="../../../index.php">Home</a></li>
+<li class="product"><a href="../../../products/index.html">Products</a></li>
+<li class="corporate-profile"><a href="../../../view/contact/input.php">Contact Us</a></li>
+<li class="function-area"><div class="search"><form action="https://omron.keal.com.bd/sphider/search.php" method="get">       
+<input type="text" name="query" id="query" size="40" value="" />
+      <input type="submit" value="Search" /> <input type="hidden"
+      name="search" value="1" />
+    </form>
+</div>
+</li>
+</ul>
+</div> 
+<div class="bread-crumb-area">
+<ul>
+
+
+<li><a href="../../../index.php" >Home</a><span class="separator">&gt;</span></li>
+
+<li><a href="../../index-2.html" >Products</a><span class="separator">&gt;</span></li>
+
+<li><a href="../../category/index.html" >Product Category</a><span class="separator">&gt;</span></li>
+
+<li><a href="../../category/automation-systems/index-2.html" >Automation Systems</a><span class="separator">&gt;</span></li>
+
+<li><a href="../../category/automation-systems/programmable-controllers/index-2.html" >Programmable Controllers</a><span class="separator">&gt;</span></li>
+
+<li><a href="../../category/automation-systems/programmable-controllers/cs1/index.html" >CS1</a><span class="separator">&gt;</span></li>
+
+<li><a href="../../category/automation-systems/programmable-controllers/cs1/special-io-units/index.html" >Special I/O Units</a><span class="separator">&gt;</span></li>
+
+<li><strong>CS1W-PDC / PTW / PTR</strong></li>
+
+
+</ul>
+</div>
+
+            <!-- === [contents-area] === -->
+            <div class="contents-area">
+
+                <!-- === [inner-contents-area] === -->
+                <div class="inner-contents-area">
+                    <!-- === [upper-contents-area] === -->
+                    <div class="upper-contents-area">
+                        <!-- === [lead-area] === -->
+                        <div class="lead-area">
+
+
+
+
+<!-- --------------------------------------------------------------------Product Family Start--------------------------------------------------------- -->
+<div class="heading-h1">
+
+
+    <h1>
+        CS1W-PDC / PTW / PTR
+    </h1>
+    <p class="sub-title">
+        SYSMAC CS-series Process Analog I/O Units
+    </p>
+</div>
+<div class="image-blockA01">
+    <div class="image-left">
+        <p class="image">
+
+            <img src="../../../images/l_1665-13-118636-198x198.jpg" width="198" height="198" alt="CS1W-PDC / PTW / PTR" class="nopic" />
+
+
+        </p>
+    </div>
+    <div class="description">
+        <h2 class="heading-B02">
+            Provides the functionality of isolators, power supplies, signal converters, and other devices.
+        </h2>
+        
+
+
+
+
+        <div class="item-list-link">
+            <p>
+                <a href="itemlist/index.html">
+                    <img src="../../../resources/images/icon_right_b.gif" width="3" height="9" alt="" class="iconA01" />
+                    Item list of CS1W-PDC / PTW / PTR
+                </a>
+            </p>
+        </div>
+    </div>
+<!-- /.image-blockA01 -->
+</div>
+
+
+
+                        </div>
+                        <!-- === /[lead-area] === -->
+
+
+                        <!-- === [utility-area] === -->
+                        <div class="utility-area">                         
+                       
+                            <div class="action-block">
+                                <p>
+                                    about this Product Family
+                                </p>
+                                <ul>
+                                    <li class="first-child">
+                                        <a href="../../../view/contact/input.php">
+                                            Inquiry of this Product
+                                        </a>
+                                    </li>                                 
+                                </ul>
+                            </div>
+
+
+
+
+<div class="related-info-blockA01 vertical-slide">
+
+    <p>
+        <span>Related Contents</span>
+    </p>
+
+        <ul>
+            <li class="first-child">
+                <span>Automation Systems</span>
+            </li>
+            <li>
+                <ul class="list-indent01">
+
+
+                    <li class="first-child">
+
+
+                        <a href="../../applications/category/automation-systems/index.html">
+                            <img src="../../../resources/images/icon_right_b.gif" width="3" height="9" alt="" class="iconA01" />
+                            Applications 
+                        </a>
+                    </li>
+
+                </ul>
+            </li>
+        </ul>
+
+        <ul>
+            <li class="first-child">
+                <span>Programmable Controllers</span>
+            </li>
+            <li>
+                <ul class="list-indent01">
+
+
+                    <li class="first-child">
+
+
+                        <a href="../../index/automation-systems/programmable-controllers/index.html">
+                            <img src="../../../resources/images/icon_right_b.gif" width="3" height="9" alt="" class="iconA01" />
+                            Item A to Z Index 
+                        </a>
+                    </li>
+
+
+
+                    <li>
+
+                        <a href="../../../support/glossary/automation-systems/programmable-controllers/index.html">
+                            <img src="../../../resources/images/icon_right_b.gif" width="3" height="9" alt="" class="iconA01" />
+                            Glossary of Industrial Automation 
+                        </a>
+                    </li>
+
+                </ul>
+            </li>
+        </ul>
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- /.related-info-blockA01 -->
+</div>
+
+
+
+                           
+                        </div>
+                        <!-- === /[utility-area] === -->
+
+                    </div>
+                    <!-- === /[upper-contents-area] === -->
+
+                    <!-- === [primary-contents-area] === -->
+                    <div class="primary-contents-area">
+                        <div class="tabpanel-blockA01">
+
+
+
+
+
+
+<div class="tab-block">
+    <ul class="tabs">
+
+
+
+
+
+
+
+        <li>
+            <a href="feature.html">Features</a>
+
+        </li>
+
+
+
+
+
+
+
+
+        <li>
+            <a href="lineup.html">Lineup</a>
+
+        </li>
+
+
+
+
+
+
+
+
+        <li class="active">
+            <span>Specifications</span>
+
+        </li>
+
+
+
+
+
+
+
+
+        <li>
+            <a href="dimension.html">Dimensions</a>
+
+        </li>
+
+
+
+
+
+
+        <li>
+            <a href="download/catalog.html">Catalog</a>
+
+        </li>
+
+
+
+
+
+    </ul>
+</div><!-- /.tab-block -->
+
+<div class="editable-block">
+
+
+<p class="date-line">last update: September 24, 2012</p>
+
+
+
+
+
+
+
+
+<h4 class="heading-A02">General Specifications</h4>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="component-blockA01">
+
+
+
+
+
+    <div class="text">
+        <p>
+            The specifications shown in the following table apply to all the CS-series Process Analog I/O Units.
+        </p>
+    </div>
+
+
+
+
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="component-blockA01">
+
+
+
+
+
+    <div class="text">
+        <p>
+            
+          <div class="table-blockA01">
+            <table border="0" cellspacing="0" class="tableA01">
+              <tr>
+                <TH class="heading center middle">
+                  <strong>Item</strong>
+                </TH>
+                <td class="heading center middle">
+                  <strong>Specification</strong>
+                </td>
+              </tr>
+              <tr>
+                <TH class="heading left middle">
+                  <strong>Applicable PLC</strong>
+                </TH>
+                <td class="left middle">CS-series PLCs</td>
+              </tr>
+              <tr>
+                <TH class="heading left middle">
+                  <strong>Unit type</strong>
+                </TH>
+                <td class="left middle">CS-series Special I/O Unit</td>
+              </tr>
+              <tr>
+                <TH class="heading left middle">
+                  <strong>Structure</strong>
+                </TH>
+                <td class="left middle">Backplane-mounted, single slot size</td>
+              </tr>
+              <tr>
+                <TH class="heading left middle">
+                  <strong>Dimensions</strong>
+                </TH>
+                <td class="left middle">35 × 130 × 126 mm (W × H × D)</td>
+              </tr>
+              <tr>
+                <TH class="heading left middle">
+                  <strong>Weight</strong>
+                </TH>
+                <td class="left middle">450 g max.</td>
+              </tr>
+              <tr>
+                <TH class="heading left middle">
+                  <strong>External connection terminals</strong>
+                </TH>
+                <td class="left middle">CS1W-PDC55<br />24-point removable terminal block (with lever) (M3 screws, Tightening torque: 0.5 Nm)<br />Other Units<br />21-point removable terminal block (M3 screws, Tightening torque: 0.5 Nm)</td>
+              </tr>
+              <tr>
+                <TH class="heading left middle">
+                  <strong>Unit number switch setting</strong>
+                </TH>
+                <td class="left middle">00 to 95</td>
+              </tr>
+              <tr>
+                <TH class="heading left middle">
+                  <strong>Self-diagnosis function</strong>
+                </TH>
+                <td class="left middle">Results of self-diagnosis shown on indicators.</td>
+              </tr>
+              <tr>
+                <TH class="heading left middle">
+                  <strong>Mountable Racks</strong>
+                </TH>
+                <td class="left middle">CPU Rack or CS-series Expansion Rack</td>
+              </tr>
+              <tr>
+                <TH class="heading left middle">
+                  <strong>Maximum number of Units</strong>
+                </TH>
+                <td class="left middle">80 Units (10 Units × 8 Racks)<br />Confirm that the total current consumption of all the Units (including the CPU Unit) mounted<br />to a single CPU Rack or Expansion Rack does not exceed the maximum power supply capacity<br />of the Power Supply Unit.</td>
+              </tr>
+              <tr>
+                <TH class="heading left middle">
+                  <strong>Ambient operating temperature</strong>
+                </TH>
+                <td class="left middle">0 to 55 ° C</td>
+              </tr>
+              <tr>
+                <TH class="heading left middle">
+                  <strong>Ambient operating humidity</strong>
+                </TH>
+                <td class="left middle">10% to 90% (with no condensation)</td>
+              </tr>
+            </table>
+          </div>
+        
+        </p>
+    </div>
+
+
+
+
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<h4 class="heading-B02">Current consumption</h4>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="component-blockA01">
+
+
+
+
+
+    <div class="text">
+        <p>
+            
+          <div class="table-blockA01">
+            <table border="0" cellspacing="0" class="tableA01">
+              <tr>
+                <TH colspan="1" rowspan="2" class="heading center middle">
+                  <strong>Name</strong>
+                </TH>
+                <td colspan="1" rowspan="2" class="heading center middle">
+                  <strong>Model</strong>
+                </td>
+                <TH colspan="2" rowspan="1" class="heading center middle">
+                  <strong>Current consumption (power)</strong>
+                </TH>
+              </tr>
+              <tr>
+                <TH class="heading center middle">
+                  <strong>5 V</strong>
+                </TH>
+                <td class="heading center middle">
+                  <strong>26 V</strong>
+                </td>
+              </tr>
+              <tr>
+                <td class="left middle">Isolated-type 2-Wire Transmitter Input Unit</td>
+                <td class="left middle">CS1W-PTW01</td>
+                <td class="left middle">0.15 A (0.75 W)</td>
+                <td class="left middle">0.16 A (4.2 W)</td>
+              </tr>
+              <tr>
+                <td colspan="1" rowspan="3" class="left middle">Isolated-type Direct Current Input Unit</td>
+                <td class="left middle">CS1W-PDC01</td>
+                <td class="left middle">0.15 A (0.75 W)</td>
+                <td class="left middle">0.16 A (4.2 W)</td>
+              </tr>
+              <tr>
+                <td class="left middle">CS1W-PDC11</td>
+                <td class="left middle">0.12 A (0.60 W)</td>
+                <td class="left middle">0.12 A (3.12 W)</td>
+              </tr>
+              <tr>
+                <td class="left middle">CS1W-PDC55</td>
+                <td class="left middle">0.18 A (0.90 W)</td>
+                <td class="left middle">0.06 A (1.56 W)</td>
+              </tr>
+              <tr>
+                <td class="left middle">Power Transducer Input Unit</td>
+                <td class="left middle">CS1W-PTR01</td>
+                <td class="left middle">0.15 A (0.75 W)</td>
+                <td class="left middle">0.08 A (2.1 W)</td>
+              </tr>
+              <tr>
+                <td class="left middle">Analog Input Unit (100 mV)</td>
+                <td class="left middle">CS1W-PTR02</td>
+                <td class="left middle">0.15 A (0.75 W)</td>
+                <td class="left middle">0.08 A (2.1 W)</td>
+              </tr>
+            </table>
+          </div>
+        
+        </p>
+    </div>
+
+
+
+
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<h4 class="heading-B02">(Reference) Maximum current and total power supplied</h4>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="component-blockA01">
+
+
+
+
+
+    <div class="text">
+        <p>
+            
+          <div class="table-blockA01">
+            <table border="0" cellspacing="0" class="tableA01">
+              <tr>
+                <TH colspan="1" rowspan="2" class="heading center middle">
+                  <strong>Power Supply Unit</strong>
+                </TH>
+                <td colspan="3" rowspan="1" class="heading center middle">
+                  <strong>Maximum current supplied (power)</strong>
+                </td>
+                <TH colspan="1" rowspan="2" class="heading center middle">
+                  <strong>Maximum total power</strong>
+                </TH>
+              </tr>
+              <tr>
+                <TH class="heading center middle">
+                  <strong>5 V</strong>
+                </TH>
+                <td class="heading center middle">
+                  <strong>26 V</strong>
+                </td>
+                <TH class="heading center middle">
+                  <strong>24 V</strong>
+                </TH>
+              </tr>
+              <tr>
+                <td class="left middle">C200HW-PA204</td>
+                <td class="left middle">4.6 A (23 W)</td>
+                <td class="left middle">0.6 A (15.6 W)</td>
+                <td class="left middle">None</td>
+                <td class="left middle">30 W</td>
+              </tr>
+              <tr>
+                <td class="left middle">C200HW-PA204C</td>
+                <td class="left middle">4.6 A (23 W)</td>
+                <td class="left middle">0.6 A (15.6 W)</td>
+                <td class="left middle">None</td>
+                <td class="left middle">30 W</td>
+              </tr>
+              <tr>
+                <td class="left middle">C200HW-PA204S</td>
+                <td class="left middle">4.6 A (23 W)</td>
+                <td class="left middle">0.6 A (15.6 W)</td>
+                <td class="left middle">0.8 A (19.2 W)</td>
+                <td class="left middle">30 W</td>
+              </tr>
+              <tr>
+                <td class="left middle">C200HW-PA204R</td>
+                <td class="left middle">4.6 A (23 W)</td>
+                <td class="left middle">0.6 A (15.6 W)</td>
+                <td class="left middle">None</td>
+                <td class="left middle">30 W</td>
+              </tr>
+              <tr>
+                <td class="left middle">C200HW-PD024</td>
+                <td class="left middle">4.6 A (23 W)</td>
+                <td class="left middle">0.6 A (15.6 W)</td>
+                <td class="left middle">None</td>
+                <td class="left middle">30 W</td>
+              </tr>
+              <tr>
+                <td class="left middle">C200HW-PA209R</td>
+                <td class="left middle">9 A (45 W)</td>
+                <td class="left middle">1.3 A (33.8 W)</td>
+                <td class="left middle">None</td>
+                <td class="left middle">45 W</td>
+              </tr>
+              <tr>
+                <td class="left middle">C200HW-PD025</td>
+                <td class="left middle">5.3 A</td>
+                <td class="left middle">1.3 A</td>
+                <td class="left middle">None</td>
+                <td class="left middle">40 W</td>
+              </tr>
+              <tr>
+                <td class="left middle">CS1D-PA207R</td>
+                <td class="left middle">7 A (35 W)</td>
+                <td class="left middle">1.3 A (33.8 W)</td>
+                <td class="left middle">None</td>
+                <td class="left middle">35 W</td>
+              </tr>
+              <tr>
+                <td class="left middle">CS1D-PD024</td>
+                <td class="left middle">4.3 A (21.5 W)</td>
+                <td class="left middle">0.56 A (14.6 W)</td>
+                <td class="left middle">None</td>
+                <td class="left middle">28 W</td>
+              </tr>
+              <tr>
+                <td class="left middle">CS1D-PD025</td>
+                <td class="left middle">5.3 A</td>
+                <td class="left middle">1.3 A</td>
+                <td class="left middle">None</td>
+                <td class="left middle">40 W</td>
+              </tr>
+            </table>
+          </div>
+        
+        </p>
+    </div>
+
+
+
+
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<h4 class="heading-A02">CS1W-PDC01 Isolated-type Direct Current Input Unit</h4>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="component-blockA01">
+
+
+
+
+
+    <div class="text">
+        <p>
+            
+          <div class="table-blockA01">
+            <table border="0" cellspacing="0" class="tableA01">
+              <tr>
+                <TH colspan="2" rowspan="1" class="heading center middle">
+                  <strong>Item</strong>
+                </TH>
+                <td colspan="2" rowspan="1" class="heading center middle">
+                  <strong>Specifications</strong>
+                </td>
+              </tr>
+              <tr>
+                <TH colspan="2" rowspan="1" class="heading left middle">
+                  <strong>Model</strong>
+                </TH>
+                <td colspan="2" rowspan="1" class="left middle">CS1W-PDC01</td>
+              </tr>
+              <tr>
+                <TH colspan="2" rowspan="1" class="heading left middle">
+                  <strong>Applicable PLC</strong>
+                </TH>
+                <td colspan="2" rowspan="1" class="left middle">CS-series</td>
+              </tr>
+              <tr>
+                <TH colspan="2" rowspan="1" class="heading left middle">
+                  <strong>Unit type</strong>
+                </TH>
+                <td colspan="2" rowspan="1" class="left middle">CS-series Special I/O Unit</td>
+              </tr>
+              <tr>
+                <TH colspan="2" rowspan="1" class="heading left middle">
+                  <strong>Mounting position</strong>
+                </TH>
+                <td colspan="2" rowspan="1" class="left middle">CS-series CPU Rack or CS-series Expansion Rack (Cannot be mounted to C200H Expansion I/O Rack or<br />SYSMAC BUS Remote I/O Slave Rack.)</td>
+              </tr>
+              <tr>
+                <TH colspan="2" rowspan="1" class="heading left middle">
+                  <strong>Maximum number of<br />Units</strong>
+                </TH>
+                <td colspan="2" rowspan="1" class="left middle">80 (within the allowable current consumption and power consumption range)</td>
+              </tr>
+              <tr>
+                <TH colspan="2" rowspan="1" class="heading left middle">
+                  <strong>Unit numbers</strong>
+                </TH>
+                <td colspan="2" rowspan="1" class="left middle">00 to 95 (Cannot duplicate Special I/O Unit numbers.)</td>
+              </tr>
+              <tr>
+                <TH colspan="1" rowspan="2" class="heading left middle">
+                  <strong>Areas for<br />data<br />exchange<br />with<br />CPU Unit</strong>
+                </TH>
+                <td class="heading left middle">
+                  <strong>Special I/O<br />Unit Area</strong>
+                </td>
+                <td colspan="2" rowspan="1" class="left middle">10 words/Unit<br />Isolated-type Direct Current Input Unit to CPU Unit:<br />All process values, process value alarms (LL, L, H, HH), rate-of-change values, rate-of-change alarms (L,<br />H), input errors</td>
+              </tr>
+              <tr>
+                <TH class="heading left middle">
+                  <strong>DM Area<br />words<br />allocated<br />to Special<br />I/O Units</strong>
+                </TH>
+                <td colspan="2" rowspan="1" class="left middle">100 words/Unit<br />CPU Unit to Isolated-type Direct Current Input Unit:<br />Input signal type, scaling of process values in industrial units, square root function enable, rate-of-change<br />value range, rate-of-change scaling, number of items for moving average, process value alarm setting (LL,<br />L, H, HH), rate-of-change alarm setting (L, H), zero/span adjustment value, etc.</td>
+              </tr>
+              <tr>
+                <TH colspan="2" rowspan="1" class="heading left middle">
+                  <strong>Number of inputs</strong>
+                </TH>
+                <td colspan="2" rowspan="1" class="left middle">4</td>
+              </tr>
+              <tr>
+                <TH colspan="2" rowspan="1" class="heading left middle">
+                  <strong>Input signal type</strong>
+                </TH>
+                <td class="left middle">4 to 20 mA, 0 to 20 mA, - 10 to 10 V, 0 to 10 V,<br />- 5 to 5 V, 1 to 5 V, 0 to 5 V, or ± 10-V user-set<br />range. The ± 10-V user-set range can be specified<br />within - 10.000 to 10.000 V.</td>
+                <td colspan="1" rowspan="3" class="left middle">Input signal type and scaling to industrial units are<br />separate for each of the 4 inputs.<br />Note: Input signal type and scaling to industrial units<br />are set in the DM Area.<br />Example:<br />Input signal type: 4 to 20 mA; industrial unit scaling:<br />0 to 500 m 3 /h (after square root extraction). DM<br />Area settings are as follows:<br />Input signal type: 5 (0005 hex)<br />Industrial unit maximum value stored: 500 (01F4 hex)<br />Industrial unit minimum value stored: 0 (0000 hex)</td>
+              </tr>
+              <tr>
+                <TH colspan="2" rowspan="1" class="heading left middle">
+                  <strong>User-defined scaling in<br />industrial units</strong>
+                </TH>
+                <td class="left middle">Scaling required for the above input signals, such as<br />4 to 20 mA or 1 to 5 V. (Any minimum and maximum<br />values can be set.) (4 inputs set separately.)</td>
+              </tr>
+              <tr>
+                <TH colspan="2" rowspan="1" class="heading left middle">
+                  <strong>Data storage in the<br />CIO Area</strong>
+                </TH>
+                <td class="left middle">The value derived from carrying out the following<br />processing in order of the process value data is<br />stored in four digits hexadecimal (binary values)<br />in the allocated words in the CIO Area.<br />1) Mean value processing →  2) Scaling →  3) Zero/<br />span adjustment →  4) Square root extraction → <br />5) Output limits</td>
+              </tr>
+              <tr>
+                <TH colspan="2" rowspan="1" class="heading left middle">
+                  <strong>Accuracy (25 ° C)</strong>
+                </TH>
+                <td colspan="2" rowspan="1" class="left middle">± 0.1% of full scale<br />For the ± 10-V user-set range, however, as shown in the following equation, the accuracy depends on the<br />ratio of the selected internal range (0 to 4) span to the user-set range span. <div class="image"><img src="../../../tab/family/1665/img/1665_sp_4_1.gif" /></div></td>
+              </tr>
+              <tr>
+                <TH colspan="2" rowspan="1" class="heading left middle">
+                  <strong>Temperature<br />coefficient</strong>
+                </TH>
+                <td colspan="2" rowspan="1" class="left middle">± 0.015% / ° C with respect to full scale.<br />For the ± 10-V user-set range, however: ± 0.015% / ° C with respect to the internal range.</td>
+              </tr>
+              <tr>
+                <TH colspan="2" rowspan="1" class="heading left middle">
+                  <strong>Resolution</strong>
+                </TH>
+                <td colspan="2" rowspan="1" class="left middle">1/4,096 of full scale<br />For the ± 10-V user-set range, however, as shown in the following equation, the resolution depends on the<br />ratio of the selected internal range (0 to 4) span to the user-set range span. <div class="image"><img src="../../../tab/family/1665/img/1665_sp_4_2.gif" /></div></td>
+              </tr>
+              <tr>
+                <TH colspan="2" rowspan="1" class="heading left middle">
+                  <strong>Input signal range</strong>
+                </TH>
+                <td colspan="2" rowspan="1" class="left middle">For inputs of 4 to 20 mA, 0 to 20 mA, 0 to 10 V, 1 to 5 V, 0 to 5 V: - 15 to 115%<br />For inputs of - 10 to 10 V or - 5 to 5 V: - 7.5 to 107.5%<br />For ± 10-V user-set range: - 7.5 to 107.5% of internal range</td>
+              </tr>
+              <tr>
+                <TH colspan="2" rowspan="1" class="heading left middle">
+                  <strong>Input impedance</strong>
+                </TH>
+                <td colspan="2" rowspan="1" class="left middle">For current input: 250 Ω<br />For voltage input: 1 MΩ min.</td>
+              </tr>
+              <tr>
+                <TH colspan="2" rowspan="1" class="heading left middle">
+                  <strong>Warmup time</strong>
+                </TH>
+                <td colspan="2" rowspan="1" class="left middle">10 min</td>
+              </tr>
+              <tr>
+                <TH colspan="2" rowspan="1" class="heading left middle">
+                  <strong>Response time</strong>
+                </TH>
+                <td colspan="2" rowspan="1" class="left middle">0.5 s (travel time from input 0% to 90%, for step input)</td>
+              </tr>
+              <tr>
+                <TH colspan="2" rowspan="1" class="heading left middle">
+                  <strong>Conversion period</strong>
+                </TH>
+                <td colspan="2" rowspan="1" class="left middle">100 ms/4 inputs</td>
+              </tr>
+              <tr>
+                <TH colspan="2" rowspan="1" class="heading left middle">
+                  <strong>Maximum time to store<br />data in CPU Unit</strong>
+                </TH>
+                <td colspan="2" rowspan="1" class="left middle">Conversion period + one CPU Unit cycle</td>
+              </tr>
+              <tr>
+                <TH colspan="2" rowspan="1" class="heading left middle">
+                  <strong>Input error detection</strong>
+                </TH>
+                <td colspan="2" rowspan="1" class="left middle">Checks are conducted for only 4 to 20 mA and 1 to 5 V.<br />Error detected when under - 17.2% (1.25 mA, 0.3125 V) or over 112.5% (22 mA, 5.5 V).</td>
+              </tr>
+              <tr>
+                <TH colspan="2" rowspan="1" class="heading left middle">
+                  <strong>Operation at input<br />disconnection</strong>
+                </TH>
+                <td colspan="2" rowspan="1" class="left middle">4 to 20 mA, 1 to 5 V: Process value of - 15% stored.<br />0 to 20 mA, 0 to 5 V, 0 to 10 V, - 10 to 10 V: The same value is stored as when 0 V or 0 mA is input.</td>
+              </tr>
+              <tr>
+                <TH colspan="2" rowspan="1" class="heading left middle">
+                  <strong>Input disconnection<br />overrange time</strong>
+                </TH>
+                <td colspan="2" rowspan="1" class="left middle">Approx. 1 s</td>
+              </tr>
+              <tr>
+                <TH colspan="1" rowspan="5" class="heading left middle">
+                  <strong>Function</strong>
+                </TH>
+                <td class="heading left middle">
+                  <strong>Mean value<br />processing<br />(input filter)</strong>
+                </td>
+                <td colspan="2" rowspan="1" class="left middle">Calculates the moving average for the specified number of past process values (1 to 16), and stores that<br />value in the CIO Area as the process value.</td>
+              </tr>
+              <tr>
+                <TH class="heading left middle">
+                  <strong>Process<br />value alarm</strong>
+                </TH>
+                <td colspan="2" rowspan="1" class="left middle">Process value 4-point alarm (HH, H, L, LL), hysteresis, and ON-delay timer (0 to 60 s) are available.</td>
+              </tr>
+              <tr>
+                <TH class="heading left middle">
+                  <strong>Rate-of-<br />change<br />calculation</strong>
+                </TH>
+                <td colspan="2" rowspan="1" class="left middle">Calculates the amount of change per comparison time interval (1 to 16 s).</td>
+              </tr>
+              <tr>
+                <TH class="heading left middle">
+                  <strong>Rate-of-<br />change<br />alarm</strong>
+                </TH>
+                <td colspan="2" rowspan="1" class="left middle">Rate-of-change 2-point alarm (H, L), alarm hysteresis (shared with process value alarm), and ON-delay<br />timer (0 to 60 s, shared with process value alarm) are available.</td>
+              </tr>
+              <tr>
+                <TH class="heading left middle">
+                  <strong>Square<br />root</strong>
+                </TH>
+                <td colspan="2" rowspan="1" class="left middle">When the process value scaling maximum value is A and the minimum value is B:<br /><div class="image"><img src="../../../tab/family/1665/img/1665_sp_4_3.gif" /><br />Dropout: Output approx. 7% maximum linear (output = input) characteristics<br />Note: The square root function is only enabled when the maximum scaling value is greater than the minimum<br />value. <br />Note: When square root processing is being performed, set the maximum and minimum scaling values to the<br />values required after square root processing of the current or other input values.</div></td>
+              </tr>
+              <tr>
+                <TH colspan="2" rowspan="1" class="heading left middle">
+                  <strong>Isolation</strong>
+                </TH>
+                <td colspan="2" rowspan="1" class="left middle">Between analog inputs and between input terminals and PLC signals: Isolation by transformer</td>
+              </tr>
+              <tr>
+                <TH colspan="2" rowspan="1" class="heading left middle">
+                  <strong>Insulation resistance</strong>
+                </TH>
+                <td colspan="2" rowspan="1" class="left middle">20 MΩ (at 500 V DC) between inputs</td>
+              </tr>
+              <tr>
+                <TH colspan="2" rowspan="1" class="heading left middle">
+                  <strong>Dielectric strength</strong>
+                </TH>
+                <td colspan="2" rowspan="1" class="left middle">Between inputs: 1,000 V AC, at 50/60 Hz, for 1 min, leakage current 10 mA max.</td>
+              </tr>
+              <tr>
+                <TH colspan="2" rowspan="1" class="heading left middle">
+                  <strong>External connections</strong>
+                </TH>
+                <td colspan="2" rowspan="1" class="left middle">Terminal block (detachable)</td>
+              </tr>
+              <tr>
+                <TH colspan="2" rowspan="1" class="heading left middle">
+                  <strong>Unit number settings</strong>
+                </TH>
+                <td colspan="2" rowspan="1" class="left middle">Set by rotary switches on front panel, from 0 to 95.</td>
+              </tr>
+              <tr>
+                <TH colspan="2" rowspan="1" class="heading left middle">
+                  <strong>Indicators</strong>
+                </TH>
+                <td colspan="2" rowspan="1" class="left middle">Three LED indicators on front panel (for normal operation, errors detected at the Direct Current Input Unit,<br />and errors related to the CPU Unit).</td>
+              </tr>
+              <tr>
+                <TH colspan="2" rowspan="1" class="heading left middle">
+                  <strong>Front panel connector</strong>
+                </TH>
+                <td colspan="2" rowspan="1" class="left middle">Sensor input connector terminal block (detachable)</td>
+              </tr>
+              <tr>
+                <TH colspan="2" rowspan="1" class="heading left middle">
+                  <strong>Effect on CPU Unit cycle<br />time</strong>
+                </TH>
+                <td colspan="2" rowspan="1" class="left middle">0.3 ms</td>
+              </tr>
+              <tr>
+                <TH colspan="2" rowspan="1" class="heading left middle">
+                  <strong>Current consumption</strong>
+                </TH>
+                <td colspan="2" rowspan="1" class="left middle">5 V DC at 150 mA max., 26 V DC at 160 mA max.</td>
+              </tr>
+              <tr>
+                <TH colspan="2" rowspan="1" class="heading left middle">
+                  <strong>Dimensions</strong>
+                </TH>
+                <td colspan="2" rowspan="1" class="left middle">35 × 130 × 126 mm (W × H × D)<br />Note: The height including the Backplane is 145 mm.</td>
+              </tr>
+              <tr>
+                <TH colspan="2" rowspan="1" class="heading left middle">
+                  <strong>Weight</strong>
+                </TH>
+                <td colspan="2" rowspan="1" class="left middle">450 g max.</td>
+              </tr>
+              <tr>
+                <TH colspan="2" rowspan="1" class="heading left middle">
+                  <strong>Standard accessories</strong>
+                </TH>
+                <td colspan="2" rowspan="1" class="left middle">None</td>
+              </tr>
+            </table>
+          </div>
+        
+        </p>
+    </div>
+
+
+
+
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<h4 class="heading-A02">CS1W-PDC11 Isolated-type Direct Current Input Unit</h4>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="component-blockA01">
+
+
+
+
+
+    <div class="text">
+        <p>
+            
+          <div class="table-blockA01">
+            <table border="0" cellspacing="0" class="tableA01">
+              <tr>
+                <TH colspan="2" rowspan="1" class="heading center middle">
+                  <strong>Item</strong>
+                </TH>
+                <td class="heading center middle">
+                  <strong>Specifications</strong>
+                </td>
+              </tr>
+              <tr>
+                <TH colspan="2" rowspan="1" class="heading left middle">
+                  <strong>Model</strong>
+                </TH>
+                <td class="left middle">CS1W-PDC11</td>
+              </tr>
+              <tr>
+                <TH colspan="2" rowspan="1" class="heading left middle">
+                  <strong>Applicable PLC</strong>
+                </TH>
+                <td class="left middle">CS Series</td>
+              </tr>
+              <tr>
+                <TH colspan="2" rowspan="1" class="heading left middle">
+                  <strong>Unit type</strong>
+                </TH>
+                <td class="left middle">CS-series Special I/O Unit</td>
+              </tr>
+              <tr>
+                <TH colspan="2" rowspan="1" class="heading left middle">
+                  <strong>Mounting position</strong>
+                </TH>
+                <td class="left middle">CS-series CPU Rack or CS-series Expansion Rack (Cannot be mounted to C200H Expansion I/O Rack or<br />SYSMAC BUS Remote I/O Slave Rack.)</td>
+              </tr>
+              <tr>
+                <TH colspan="2" rowspan="1" class="heading left middle">
+                  <strong>Maximum number of<br />Units</strong>
+                </TH>
+                <td class="left middle">80 (within the allowable current consumption and power consumption range)</td>
+              </tr>
+              <tr>
+                <TH colspan="2" rowspan="1" class="heading left middle">
+                  <strong>Unit numbers</strong>
+                </TH>
+                <td class="left middle">00 to 95 (Cannot duplicate Special I/O Unit numbers.)</td>
+              </tr>
+              <tr>
+                <TH colspan="1" rowspan="4" class="heading left middle">
+                  <strong>Areas for<br />data<br />exchange<br />with<br />CPU Unit</strong>
+                </TH>
+                <td class="heading left middle">
+                  <strong>Special I/O<br />Unit Area</strong>
+                </td>
+                <td class="left middle">10 words/Unit<br />Isolated-type Direct Current Input Unit to CPU Unit:<br />All process values, process value alarms (LL, L, H, HH), rate-of-change values, rate-of-change alarms (L,<br />H), disconnection alarms, cold junction sensor errors, adjustment period end/notice</td>
+              </tr>
+              <tr>
+                <TH class="heading left middle">
+                  <strong>DM Area<br />words<br />allocated<br />to Special<br />I/O Units</strong>
+                </TH>
+                <td class="left middle">100 words/Unit<br />CPU Unit to Isolated-type Direct Current Input Unit:<br />Input signal type, scaling of process value in industrial units, process value alarm setting (L, H), inrush input<br />upper limit, inrush input upper limit time, zero/span adjustment value, Square root function.<br />Temperature input signal type, input range (user set), scaling of process value data to be stored in allocated<br />words in CIO area, rate-of-change input range, scaling of rate-of-change data, number of items for moving<br />average, process value alarm setting (LL, L, H, HH), rate-of-change alarm setting (L, H), zero/span<br />adjustment value</td>
+              </tr>
+              <tr>
+                <TH class="heading left middle">
+                  <strong>Expansion<br />Control/<br />Monitor<br />Area</strong>
+                </TH>
+                <td class="left middle">35 words/Unit<br />CPU Unit to Isolated-type Direct Current Input Unit:<br />Bits for beginning or resetting the hold function selection, adjustment period control, control bits<br />Isolated-type Direct Current Input Unit to CPU Unit:<br />Adjustment period notices, peak and bottom values, top and valley values, integral values</td>
+              </tr>
+              <tr>
+                <TH class="heading left middle">
+                  <strong>Expansion<br />Setting<br />Area</strong>
+                </TH>
+                <td class="left middle">46 words/Unit<br />CPU Unit to Isolated-type Direct Current Input Unit:<br />Expansion Setting Area settings, adjustment period control, peak and bottom detection, top and valley<br />detection, integral value calculation</td>
+              </tr>
+              <tr>
+                <TH colspan="2" rowspan="1" class="heading left middle">
+                  <strong>Number of inputs</strong>
+                </TH>
+                <td class="left middle">4</td>
+              </tr>
+              <tr>
+                <TH colspan="2" rowspan="1" class="heading left middle">
+                  <strong>Input signal type</strong>
+                </TH>
+                <td class="left middle">4 to 20 mA, 0 to 20 mA, 0 to 10 V, - 10 to 10 V, 0 to 5 V, - 5 to 5 V, 1 to 5 V, 0 to 1.25 V, - 1.25 to<br />1.25 V (separate for each input), and ± 10-V user-set range (specified range within - 10.000 V to<br />10.000 V)</td>
+              </tr>
+              <tr>
+                <TH colspan="2" rowspan="1" class="heading left middle">
+                  <strong>Scaling</strong>
+                </TH>
+                <td class="left middle">Data to be stored in the allocated words in the CIO area must be scaled (Any minimum and maximum values<br />can be set.) (4 inputs set separately.) Data can be converted at 0% to 100%.</td>
+              </tr>
+              <tr>
+                <TH colspan="2" rowspan="1" class="heading left middle">
+                  <strong>Data storage in the<br />CIO Area</strong>
+                </TH>
+                <td class="left middle">The value derived from carrying out the following processing in order of the actual process data in the input<br />range is stored in four digits hexadecimal (binary values) in the allocated words in the CIO Area.<br />1) Mean value processing →  2) Scaling →  3) Zero/span adjustment →  4) Square root calculation → <br />5) Output limits</td>
+              </tr>
+              <tr>
+                <TH colspan="2" rowspan="1" class="heading left middle">
+                  <strong>Accuracy (25 ° C)</strong>
+                </TH>
+                <td class="left middle">± 0.05%</td>
+              </tr>
+              <tr>
+                <TH colspan="2" rowspan="1" class="heading left middle">
+                  <strong>Temperature<br />coefficient</strong>
+                </TH>
+                <td class="left middle">± 0.008%/ ° C</td>
+              </tr>
+              <tr>
+                <TH colspan="2" rowspan="1" class="heading left middle">
+                  <strong>Resolution</strong>
+                </TH>
+                <td class="left middle">1/64,000</td>
+              </tr>
+              <tr>
+                <TH colspan="2" rowspan="1" class="heading left middle">
+                  <strong>Input signal range</strong>
+                </TH>
+                <td class="left middle">For 4 to 20 mA, 0 to 20 mA, 0 to 10 V, 0 to 5 V, 1 to 5 V, 0 to 1.25 V inputs: - 15 to 115%<br />For - 10 to 10 V, - 5 to 5 V, - 1.25 to 1.25 V inputs: - 7.5 to 107.5%</td>
+              </tr>
+              <tr>
+                <TH colspan="2" rowspan="1" class="heading left middle">
+                  <strong>Input impedance</strong>
+                </TH>
+                <td class="left middle">For current inputs: 250 Ω (typical)<br />For voltage inputs: 1 MΩ min.</td>
+              </tr>
+              <tr>
+                <TH colspan="2" rowspan="1" class="heading left middle">
+                  <strong>Warmup time</strong>
+                </TH>
+                <td class="left middle">10 min</td>
+              </tr>
+              <tr>
+                <TH colspan="2" rowspan="1" class="heading left middle">
+                  <strong>Response time</strong>
+                </TH>
+                <td class="left middle">100 ms (travel time from input 0% to 90%, for ± 10 V step input and with moving average for 4 samples)</td>
+              </tr>
+              <tr>
+                <TH colspan="2" rowspan="1" class="heading left middle">
+                  <strong>Conversion period</strong>
+                </TH>
+                <td class="left middle">20 ms/4 inputs, 10 ms/2 inputs, selectable in words allocated to the Unit as a Special I/O Unit.</td>
+              </tr>
+              <tr>
+                <TH colspan="2" rowspan="1" class="heading left middle">
+                  <strong>Maximum time to store<br />data in CPU Unit</strong>
+                </TH>
+                <td class="left middle">Conversion period + one CPU Unit cycle</td>
+              </tr>
+              <tr>
+                <TH colspan="2" rowspan="1" class="heading left middle">
+                  <strong>Input error detection</strong>
+                </TH>
+                <td class="left middle">Check only for 4 to 20 mA and 1 to 5 V.<br />Error detected for - 17.2% (1.25 mA, 0.3125 V) or less and 112.5% (22 mA, 5.5 V) or more.</td>
+              </tr>
+              <tr>
+                <TH colspan="2" rowspan="1" class="heading left middle">
+                  <strong>Operation at input<br />disconnection</strong>
+                </TH>
+                <td class="left middle">For 4 to 20 mA and 1 to 5 V: Stores - 15% process value.<br />For all other ranges: Stores same process value as 0-V or 0-mA inputs.</td>
+              </tr>
+              <tr>
+                <TH colspan="2" rowspan="1" class="heading left middle">
+                  <strong>Input disconnection<br />overrange time</strong>
+                </TH>
+                <td class="left middle">Approx. 1 s.</td>
+              </tr>
+              <tr>
+                <TH colspan="1" rowspan="9" class="heading left middle">
+                  <strong>Function</strong>
+                </TH>
+                <td class="heading left middle">
+                  <strong>Mean value<br />processing<br />(input filter)</strong>
+                </td>
+                <td class="left middle">Calculates the moving average for the past specified number of process values (1 to 128 can be specified),<br />and stores that value in the CIO Area as the process value.</td>
+              </tr>
+              <tr>
+                <TH class="heading left middle">
+                  <strong>Process<br />value alarm</strong>
+                </TH>
+                <td class="left middle">Process value 4-point alarm (LL, L H, HH), hysteresis, and ON-delay timer (0 to 60 s) are available.</td>
+              </tr>
+              <tr>
+                <TH class="heading left middle">
+                  <strong>Rate-of-<br />change<br />calculation</strong>
+                </TH>
+                <td class="left middle">Calculates the amount of change per comparison time interval (1 to 16 s).</td>
+              </tr>
+              <tr>
+                <TH class="heading left middle">
+                  <strong>Rate-of-<br />change<br />alarm</strong>
+                </TH>
+                <td class="left middle">Rate-of-change 2-point alarm (H, L), alarm hysteresis, and ON-delay timer (0 to 60 s are available, shared<br />with process value alarm).</td>
+              </tr>
+              <tr>
+                <TH class="heading left middle">
+                  <strong>Square<br />root<br />calculation</strong>
+                </TH>
+                <td class="left middle">When the maximum value for process value scaling is A and the minimum value is B,<br /><div class="image"><img src="../../../tab/family/1665/img/1665_sp_5_1.gif" /><br />Drop-out: Output approx. 7% max. linear (output = input) characteristic<br />Note 1. The square root function can only be used when the maximum scaling value is greater than the<br />minimum scaling value. The square root will not be found if the maximum is smaller than the minimum.<br />Note 2. When the square root function is used, set the scaling values after square root calculation<br />(e.g., for flow rates or other values) for the process value scaling A and B settings.</div></td>
+              </tr>
+              <tr>
+                <TH class="heading left middle">
+                  <strong>Adjustment<br />period<br />control</strong>
+                </TH>
+                <td class="left middle">When zero/span adjustment is executed, the date is internally recorded at the Unit. When the preset<br />zero/span adjustment period and the notice of days remaining set in the Expansion Setting Area have<br />elapsed, this function turns ON a warning flag to give notice that it is time for readjustment.</td>
+              </tr>
+              <tr>
+                <TH class="heading left middle">
+                  <strong>Peak and<br />bottom<br />detection</strong>
+                </TH>
+                <td class="left middle">Detects the maximum (peak) and minimum (bottom) analog input values, from when the Hold Start Bit<br />(output) allocated to the Expansion Control/Monitor Area turns ON until it turns OFF. These values are<br />stored as the peak and bottom values in the Expansion Control/Monitor Area.</td>
+              </tr>
+              <tr>
+                <TH class="heading left middle">
+                  <strong>Top and<br />valley<br />detection</strong>
+                </TH>
+                <td class="left middle">This function detects the top and valley values for analog inputs, from when the Hold Start Bit (output)<br />allocated to the Expansion Control/Monitor Area turns ON until it turns OFF. These values are stored as<br />the top and valley values in the Expansion Control/Monitor Area.</td>
+              </tr>
+              <tr>
+                <TH class="heading left middle">
+                  <strong>Integral<br />value<br />calculation</strong>
+                </TH>
+                <td class="left middle">This function calculates the analog input value's time integral. The integral value is calculated and output<br />to the Expansion Control/Monitor Area when the Integral Value Calculation Start Bit in the Expansion<br />Control/Monitor Area is turned ON.</td>
+              </tr>
+              <tr>
+                <TH colspan="2" rowspan="1" class="heading left middle">
+                  <strong>Isolation</strong>
+                </TH>
+                <td class="left middle">Between inputs and between inputs and PLC signals: Isolation by transformer and photocoupler.</td>
+              </tr>
+              <tr>
+                <TH colspan="2" rowspan="1" class="heading left middle">
+                  <strong>Insulation resistance</strong>
+                </TH>
+                <td class="left middle">20 MΩ (at 500 V DC) between all inputs</td>
+              </tr>
+              <tr>
+                <TH colspan="2" rowspan="1" class="heading left middle">
+                  <strong>Dielectric strength</strong>
+                </TH>
+                <td class="left middle">Between inputs: 1,000 V AC, at 50/60 Hz, for 1 min, leakage current 10 mA max.</td>
+              </tr>
+              <tr>
+                <TH colspan="2" rowspan="1" class="heading left middle">
+                  <strong>External connections</strong>
+                </TH>
+                <td class="left middle">Terminal block (detachable)</td>
+              </tr>
+              <tr>
+                <TH colspan="2" rowspan="1" class="heading left middle">
+                  <strong>Unit number settings</strong>
+                </TH>
+                <td class="left middle">Set by rotary switches on front panel, from 0 to 95.</td>
+              </tr>
+              <tr>
+                <TH colspan="2" rowspan="1" class="heading left middle">
+                  <strong>Indicators</strong>
+                </TH>
+                <td class="left middle">Three LED indicators on front panel (for normal operation, errors detected at the Direct Current Input Unit,<br />and errors detected at the CPU Unit).</td>
+              </tr>
+              <tr>
+                <TH colspan="2" rowspan="1" class="heading left middle">
+                  <strong>Front panel connector</strong>
+                </TH>
+                <td class="left middle">Sensor input connector terminal block (detachable)</td>
+              </tr>
+              <tr>
+                <TH colspan="2" rowspan="1" class="heading left middle">
+                  <strong>Effect on CPU Unit cycle<br />time</strong>
+                </TH>
+                <td class="left middle">0.3 ms</td>
+              </tr>
+              <tr>
+                <TH colspan="2" rowspan="1" class="heading left middle">
+                  <strong>Current consumption</strong>
+                </TH>
+                <td class="left middle">5 V DC at 120 mA max., 26 V DC at 120 mA max.</td>
+              </tr>
+              <tr>
+                <TH colspan="2" rowspan="1" class="heading left middle">
+                  <strong>Dimensions</strong>
+                </TH>
+                <td class="left middle">35 × 130 × 126 mm (W × H × D)<br />Note: The height including the Backplane is 145 mm.</td>
+              </tr>
+              <tr>
+                <TH colspan="2" rowspan="1" class="heading left middle">
+                  <strong>Weight</strong>
+                </TH>
+                <td class="left middle">450 g max.</td>
+              </tr>
+              <tr>
+                <TH colspan="2" rowspan="1" class="heading left middle">
+                  <strong>Standard accessories</strong>
+                </TH>
+                <td class="left middle">Short bars (for current input)</td>
+              </tr>
+            </table>
+          </div>
+        
+        </p>
+    </div>
+
+
+
+
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<h4 class="heading-A02">CS1W-PDC55 Isolated-type Direct Current Input Unit</h4>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="component-blockA01">
+
+
+
+
+
+    <div class="text">
+        <p>
+            
+          <div class="table-blockA01">
+            <table border="0" cellspacing="0" class="tableA01">
+              <tr>
+                <TH colspan="2" rowspan="1" class="heading center middle">
+                  <strong>Item</strong>
+                </TH>
+                <td colspan="2" rowspan="1" class="heading center middle">
+                  <strong>Specifications</strong>
+                </td>
+              </tr>
+              <tr>
+                <TH colspan="2" rowspan="1" class="heading left middle">
+                  <strong>Model</strong>
+                </TH>
+                <td colspan="2" rowspan="1" class="left middle">CS1W-PDC55</td>
+              </tr>
+              <tr>
+                <TH colspan="2" rowspan="1" class="heading left middle">
+                  <strong>Applicable PLC</strong>
+                </TH>
+                <td colspan="2" rowspan="1" class="left middle">CS Series</td>
+              </tr>
+              <tr>
+                <TH colspan="2" rowspan="1" class="heading left middle">
+                  <strong>Unit type</strong>
+                </TH>
+                <td colspan="2" rowspan="1" class="left middle">CS-series Special I/O Unit</td>
+              </tr>
+              <tr>
+                <TH colspan="2" rowspan="1" class="heading left middle">
+                  <strong>Mounting position</strong>
+                </TH>
+                <td colspan="2" rowspan="1" class="left middle">CS-series CPU Rack or CS-series Expansion Rack (Cannot be mounted to C200H Expansion I/O Rack or<br />SYSMAC BUS Remote I/O Slave Rack.)</td>
+              </tr>
+              <tr>
+                <TH colspan="2" rowspan="1" class="heading left middle">
+                  <strong>Maximum number of<br />Units</strong>
+                </TH>
+                <td colspan="2" rowspan="1" class="left middle">80 (within the allowable current consumption and power consumption range)</td>
+              </tr>
+              <tr>
+                <TH colspan="2" rowspan="1" class="heading left middle">
+                  <strong>Unit numbers</strong>
+                </TH>
+                <td colspan="2" rowspan="1" class="left middle">00 to 95 (Cannot duplicate Special I/O Unit numbers.)</td>
+              </tr>
+              <tr>
+                <TH colspan="1" rowspan="3" class="heading left middle">
+                  <strong>Areas for<br />data<br />exchange<br />with<br />CPU Unit</strong>
+                </TH>
+                <td class="heading left middle">
+                  <strong>Special I/O<br />Unit Area</strong>
+                </td>
+                <td colspan="2" rowspan="1" class="left middle">10 words/Unit<br />Isolated-type Direct Current Input Unit to CPU Unit:<br />All process values, process value alarms (L, H), conversion data enabled flags, input errors</td>
+              </tr>
+              <tr>
+                <TH class="heading left middle">
+                  <strong>DM Area<br />words<br />allocated<br />to Special<br />I/O Units</strong>
+                </TH>
+                <td colspan="2" rowspan="1" class="left middle">100 words/Unit<br />CPU Unit to Isolated-type Direct Current Input Unit:<br />Input signal type (separate for each input), process value alarm setting (L, H), zero/span adjustment value,<br />Square root function.</td>
+              </tr>
+              <tr>
+                <TH class="heading left middle">
+                  <strong>Expansion<br />Control/<br />Monitor<br />Area</strong>
+                </TH>
+                <td colspan="2" rowspan="1" class="left middle">1 word/Unit<br />CPU Unit to Isolated-type Direct Current Input Unit:<br />Process value alarms</td>
+              </tr>
+              <tr>
+                <TH colspan="2" rowspan="1" class="heading left middle">
+                  <strong>Number of inputs</strong>
+                </TH>
+                <td colspan="2" rowspan="1" class="left middle">8</td>
+              </tr>
+              <tr>
+                <TH colspan="2" rowspan="1" class="heading left middle">
+                  <strong>Input signal type</strong>
+                </TH>
+                <td class="left middle">0 to 10 V, 0 to 5 V, 1 to 5 V, 4 to 20 mA (separate<br />for each input). ("Not used" can be selected).</td>
+                <td colspan="1" rowspan="3" class="left middle">Input signal type and scaling to industrial units are<br />separate for each of the 8 inputs.<br />Note: Input signal type and scaling to industrial units<br />are set in the DM Area.<br />Example:<br />Input signal type: 4 to 20 mA; industrial unit scaling:<br />0 to 500 m 3 /h (after square root extraction). DM<br />Area settings are as follows:<br />Input signal type: 3 (0003 hex)<br />Industrial unit maximum value stored: 500 (01F4 hex)<br />Industrial unit minimum value stored: 0 (0000 hex)</td>
+              </tr>
+              <tr>
+                <TH colspan="2" rowspan="1" class="heading left middle">
+                  <strong>Scaling</strong>
+                </TH>
+                <td class="left middle">Data to be stored in the allocated words in the CIO<br />area must be scaled (Any minimum and maximum<br />values can be set.) (8 inputs set separately.) Data<br />can be converted at 0% to 100%.</td>
+              </tr>
+              <tr>
+                <TH colspan="2" rowspan="1" class="heading left middle">
+                  <strong>Data storage in the<br />CIO Area</strong>
+                </TH>
+                <td class="left middle">The value derived from carrying out the following<br />processing in order of the actual process data in<br />the input range is stored in four digits hexadecimal<br />(binary values) in the allocated words in the CIO Area.<br />1) Scaling →  2) Zero/span adjustment →  3) Square<br />root calculation →  4) Output limits</td>
+              </tr>
+              <tr>
+                <TH colspan="2" rowspan="1" class="heading left middle">
+                  <strong>Accuracy (25 ° C)</strong>
+                </TH>
+                <td colspan="2" rowspan="1" class="left middle">± 0.3% of full scale</td>
+              </tr>
+              <tr>
+                <TH colspan="2" rowspan="1" class="heading left middle">
+                  <strong>Temperature<br />coefficient</strong>
+                </TH>
+                <td colspan="2" rowspan="1" class="left middle">For voltage inputs: 100 ppm/ ° C of full scale.<br />For current inputs: 120 ppm/ ° C of full scale.</td>
+              </tr>
+              <tr>
+                <TH colspan="2" rowspan="1" class="heading left middle">
+                  <strong>Resolution</strong>
+                </TH>
+                <td colspan="2" rowspan="1" class="left middle">1/16,000 of full scale</td>
+              </tr>
+              <tr>
+                <TH colspan="2" rowspan="1" class="heading left middle">
+                  <strong>Input signal range</strong>
+                </TH>
+                <td colspan="2" rowspan="1" class="left middle">For all inputs: - 5 to +105%</td>
+              </tr>
+              <tr>
+                <TH colspan="2" rowspan="1" class="heading left middle">
+                  <strong>Input impedance</strong>
+                </TH>
+                <td colspan="2" rowspan="1" class="left middle">For current inputs: 250 Ω (typical)<br />For voltage inputs: 1 MΩ min.</td>
+              </tr>
+              <tr>
+                <TH colspan="2" rowspan="1" class="heading left middle">
+                  <strong>Warmup time</strong>
+                </TH>
+                <td colspan="2" rowspan="1" class="left middle">10 min</td>
+              </tr>
+              <tr>
+                <TH colspan="2" rowspan="1" class="heading left middle">
+                  <strong>Conversion period</strong>
+                </TH>
+                <td colspan="2" rowspan="1" class="left middle">250 ms/8 inputs</td>
+              </tr>
+              <tr>
+                <TH colspan="2" rowspan="1" class="heading left middle">
+                  <strong>Maximum time to store<br />data in CPU Unit</strong>
+                </TH>
+                <td colspan="2" rowspan="1" class="left middle">Conversion period + one CPU Unit cycle</td>
+              </tr>
+              <tr>
+                <TH colspan="2" rowspan="1" class="heading left middle">
+                  <strong>Input error detection</strong>
+                </TH>
+                <td colspan="2" rowspan="1" class="left middle">Detects sensor error at each input and turns ON the Sensor error Flag.<br />The process value overrange direction for when a sensor error occurs can be specified. (High: 105% of<br />input range; low: - 5% of input range)</td>
+              </tr>
+              <tr>
+                <TH colspan="1" rowspan="2" class="heading left middle">
+                  <strong>Function</strong>
+                </TH>
+                <td class="heading left middle">
+                  <strong>Process<br />value alarm</strong>
+                </td>
+                <td colspan="2" rowspan="1" class="left middle">Process value 8-point alarm (L H), hysteresis, and ON-delay timer (0 to 60 s) are available.<br />Two alarms per input (L, H) can be output to addresses in the CIO Area specified in the Expansion Setting Area.</td>
+              </tr>
+              <tr>
+                <TH class="heading left middle">
+                  <strong>Square root<br />calculation<br />(Supported<br />only when<br />input is<br />1 to 5 V or<br />4 to 20 mA.)</strong>
+                </TH>
+                <td colspan="2" rowspan="1" class="left middle">When the maximum value for process value scaling is A and the minimum value is B,<br /><div class="image"><img src="../../../tab/family/1665/img/1665_sp_6_1.gif" /><br />Drop-out: Output approx. 7% max. linear (output = input) characteristic<br />Note 1. The square root function can only be used when the maximum scaling value is greater than the<br />minimum scaling value. The square root will not be found if the maximum is smaller than the minimum.<br />Note 2. When the square root function is used, set the scaling values after square root calculation<br />(e.g., for flow rates or other values) for the process value scaling A and B settings.</div></td>
+              </tr>
+              <tr>
+                <TH colspan="2" rowspan="1" class="heading left middle">
+                  <strong>Isolation</strong>
+                </TH>
+                <td colspan="2" rowspan="1" class="left middle">Between inputs and between inputs and PLC signals: Isolation by transformer and photocoupler.</td>
+              </tr>
+              <tr>
+                <TH colspan="2" rowspan="1" class="heading left middle">
+                  <strong>Insulation resistance</strong>
+                </TH>
+                <td colspan="2" rowspan="1" class="left middle">20 MΩ max. (at 500 V DC).<br />Between all input terminals and external AC terminals (Power Supply Unit)<br />Between all input terminals and FG plate</td>
+              </tr>
+              <tr>
+                <TH colspan="2" rowspan="1" class="heading left middle">
+                  <strong>Dielectric strength</strong>
+                </TH>
+                <td colspan="2" rowspan="1" class="left middle">Between all input terminals and external AC terminals (Power Supply Unit)<br />Between all input terminals and FG plate<br />1,000 VAC, 50/60 Hz 1 min., detection current: 1 mA<br />Between all channels<br />500 VAC, 50/60 Hz 1 min., detection current: 1 mA</td>
+              </tr>
+              <tr>
+                <TH colspan="2" rowspan="1" class="heading left middle">
+                  <strong>External connections</strong>
+                </TH>
+                <td colspan="2" rowspan="1" class="left middle">Terminal block (detachable)</td>
+              </tr>
+              <tr>
+                <TH colspan="2" rowspan="1" class="heading left middle">
+                  <strong>Unit number settings</strong>
+                </TH>
+                <td colspan="2" rowspan="1" class="left middle">Set by rotary switches on front panel, from 0 to 95.</td>
+              </tr>
+              <tr>
+                <TH colspan="2" rowspan="1" class="heading left middle">
+                  <strong>Indicators</strong>
+                </TH>
+                <td colspan="2" rowspan="1" class="left middle">Three LED indicators on front panel (for normal operation, errors detected at the Direct Current Input Unit,<br />and errors detected at the CPU Unit).</td>
+              </tr>
+              <tr>
+                <TH colspan="2" rowspan="1" class="heading left middle">
+                  <strong>Front panel connector</strong>
+                </TH>
+                <td colspan="2" rowspan="1" class="left middle">Sensor input connector terminal block (detachable)</td>
+              </tr>
+              <tr>
+                <TH colspan="2" rowspan="1" class="heading left middle">
+                  <strong>Effect on CPU Unit cycle<br />time</strong>
+                </TH>
+                <td colspan="2" rowspan="1" class="left middle">0.4 ms</td>
+              </tr>
+              <tr>
+                <TH colspan="2" rowspan="1" class="heading left middle">
+                  <strong>Current consumption</strong>
+                </TH>
+                <td colspan="2" rowspan="1" class="left middle">5 V DC at 180 mA max., 26 V DC at 60 mA max.</td>
+              </tr>
+              <tr>
+                <TH colspan="2" rowspan="1" class="heading left middle">
+                  <strong>Dimensions</strong>
+                </TH>
+                <td colspan="2" rowspan="1" class="left middle">35 × 130 × 126 mm (W × H × D)<br />Note: The height including the Backplane is 145 mm.</td>
+              </tr>
+              <tr>
+                <TH colspan="2" rowspan="1" class="heading left middle">
+                  <strong>Weight</strong>
+                </TH>
+                <td colspan="2" rowspan="1" class="left middle">450 g max.</td>
+              </tr>
+            </table>
+          </div>
+        
+        </p>
+    </div>
+
+
+
+
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<h4 class="heading-A02">CS1W-PTW01 2-Wire Transmitter Input Unit</h4>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="component-blockA01">
+
+
+
+
+
+    <div class="text">
+        <p>
+            
+          <div class="table-blockA01">
+            <table border="0" cellspacing="0" class="tableA01">
+              <tr>
+                <TH colspan="2" rowspan="1" class="heading center middle">
+                  <strong>Item</strong>
+                </TH>
+                <td colspan="2" rowspan="1" class="heading center middle">
+                  <strong>Specifications</strong>
+                </td>
+              </tr>
+              <tr>
+                <TH colspan="2" rowspan="1" class="heading left middle">
+                  <strong>Model</strong>
+                </TH>
+                <td colspan="2" rowspan="1" class="left middle">CS1W-PTW01</td>
+              </tr>
+              <tr>
+                <TH colspan="2" rowspan="1" class="heading left middle">
+                  <strong>Applicable PLC</strong>
+                </TH>
+                <td colspan="2" rowspan="1" class="left middle">CS Series</td>
+              </tr>
+              <tr>
+                <TH colspan="2" rowspan="1" class="heading left middle">
+                  <strong>Unit type</strong>
+                </TH>
+                <td colspan="2" rowspan="1" class="left middle">CS-series Special I/O Unit</td>
+              </tr>
+              <tr>
+                <TH colspan="2" rowspan="1" class="heading left middle">
+                  <strong>Mounting position</strong>
+                </TH>
+                <td colspan="2" rowspan="1" class="left middle">CS-series CPU Rack or CS-series Expansion Rack (Cannot be mounted to C200H Expansion I/O Rack or<br />SYSMAC BUS Remote I/O Slave Rack.)</td>
+              </tr>
+              <tr>
+                <TH colspan="2" rowspan="1" class="heading left middle">
+                  <strong>Maximum number of<br />Units</strong>
+                </TH>
+                <td colspan="2" rowspan="1" class="left middle">80 (within the allowable current consumption and power consumption range)</td>
+              </tr>
+              <tr>
+                <TH colspan="2" rowspan="1" class="heading left middle">
+                  <strong>Unit numbers</strong>
+                </TH>
+                <td colspan="2" rowspan="1" class="left middle">00 to 95 (Cannot duplicate Special I/O Unit numbers.)</td>
+              </tr>
+              <tr>
+                <TH colspan="1" rowspan="2" class="heading left middle">
+                  <strong>Areas for<br />data<br />exchange<br />with<br />CPU Unit</strong>
+                </TH>
+                <td class="heading left middle">
+                  <strong>Special I/O<br />Unit Area</strong>
+                </td>
+                <td colspan="2" rowspan="1" class="left middle">10 words/Unit<br />2-Wire Transmitter Input Unit to CPU Unit:<br />All process values, process value alarms (LL, L, H, HH), rate-of-change values, rate-of-change alarms (L,<br />H), input errors</td>
+              </tr>
+              <tr>
+                <TH class="heading left middle">
+                  <strong>DM Area<br />words<br />allocated<br />to Special<br />I/O Units</strong>
+                </TH>
+                <td colspan="2" rowspan="1" class="left middle">100 words/Unit<br />CPU Unit to 2-Wire Transmitter Input Unit:<br />Sensor type, scaling of process value data to be stored in allocated words in CIO area, square root function<br />enable, rate-of-change value range, rate-of-change scaling, number of items for moving average, process<br />value alarm setting (LL, L, H, HH), rate-of-change alarm setting (L, H), zero/span adjustment value, etc.</td>
+              </tr>
+              <tr>
+                <TH colspan="2" rowspan="1" class="heading left middle">
+                  <strong>Number of inputs</strong>
+                </TH>
+                <td colspan="2" rowspan="1" class="left middle">4</td>
+              </tr>
+              <tr>
+                <TH colspan="2" rowspan="1" class="heading left middle">
+                  <strong>Sensor type</strong>
+                </TH>
+                <td class="left middle">Unified signal from transmitter (4 to 20 mA), 4 to<br />20 mA, 1 to 5 V</td>
+                <td colspan="1" rowspan="3" class="left middle">Sensor type and scaling to industrial units are<br />separate for each of the 4 inputs.<br />Note: Sensor type and scaling to industrial units<br />are set in the DM Area.<br />Example:<br />Input signal type: 4 to 20 mA from 2-wire transmitter;<br />industrial unit scaling: 0 to 500 m 3 /h (after square<br />root extraction). DM Area settings are as follows:<br />Input signal type: 0 (0000 hex)<br />Industrial unit maximum value stored: 500 (01F4 hex)<br />Industrial unit minimum value stored: 0 (0000 hex)</td>
+              </tr>
+              <tr>
+                <TH colspan="2" rowspan="1" class="heading left middle">
+                  <strong>User-defined scaling in<br />industrial units</strong>
+                </TH>
+                <td class="left middle">Scaling required for 4 to 20 mA or 1 to 5 V. (Any<br />minimum and maximum values can be set.)<br />(4 inputs set separately.)</td>
+              </tr>
+              <tr>
+                <TH colspan="2" rowspan="1" class="heading left middle">
+                  <strong>Data storage in the<br />CIO Area</strong>
+                </TH>
+                <td class="left middle">The value derived from carrying out the following<br />processing in order of the process value data is<br />stored in four digits hexadecimal (binary values) in<br />the allocated words in the CIO Area.<br />1) Mean value processing →  2) Scaling →  3) Zero/<br />span adjustment →  4) Square root extraction → <br />5) Output limits</td>
+              </tr>
+              <tr>
+                <TH colspan="2" rowspan="1" class="heading left middle">
+                  <strong>Accuracy (25 ° C)</strong>
+                </TH>
+                <td colspan="2" rowspan="1" class="left middle">± 0.2% of full scale</td>
+              </tr>
+              <tr>
+                <TH colspan="2" rowspan="1" class="heading left middle">
+                  <strong>Temperature<br />coefficient</strong>
+                </TH>
+                <td colspan="2" rowspan="1" class="left middle">± 0.015%/ ° C of full scale</td>
+              </tr>
+              <tr>
+                <TH colspan="2" rowspan="1" class="heading left middle">
+                  <strong>Resolution</strong>
+                </TH>
+                <td colspan="2" rowspan="1" class="left middle">1/4,096 of full scale</td>
+              </tr>
+              <tr>
+                <TH colspan="2" rowspan="1" class="heading left middle">
+                  <strong>Input signal range</strong>
+                </TH>
+                <td colspan="2" rowspan="1" class="left middle">- 15 to 115%</td>
+              </tr>
+              <tr>
+                <TH colspan="2" rowspan="1" class="heading left middle">
+                  <strong>Power supply for 2-wire<br />transmitter</strong>
+                </TH>
+                <td colspan="2" rowspan="1" class="left middle">Output voltage: 24 V DC ± 15% for each input (without load)<br />Current capacity: 22 mA max. for each input<br />Short-circuit control current: 22 to 27 mA<br />Allowable short-circuit time:<br />Ambient temperature less than 40 ° C: No limit<br />Ambient temperature 40 to 55 ° C: 10 min or less</td>
+              </tr>
+              <tr>
+                <TH colspan="2" rowspan="1" class="heading left middle">
+                  <strong>Input impedance</strong>
+                </TH>
+                <td colspan="2" rowspan="1" class="left middle">4 to 20 mA for 2-wire transmitter: 250 Ω ; 4 to 20 mA: 250 Ω ; 1 to 5 V: 1 MΩ min.</td>
+              </tr>
+              <tr>
+                <TH colspan="2" rowspan="1" class="heading left middle">
+                  <strong>Warmup time</strong>
+                </TH>
+                <td colspan="2" rowspan="1" class="left middle">10 min</td>
+              </tr>
+              <tr>
+                <TH colspan="2" rowspan="1" class="heading left middle">
+                  <strong>Response time</strong>
+                </TH>
+                <td colspan="2" rowspan="1" class="left middle">0.5 s (travel time from input 0% to 90%, for step input)</td>
+              </tr>
+              <tr>
+                <TH colspan="2" rowspan="1" class="heading left middle">
+                  <strong>Conversion period</strong>
+                </TH>
+                <td colspan="2" rowspan="1" class="left middle">100 ms/4 inputs</td>
+              </tr>
+              <tr>
+                <TH colspan="2" rowspan="1" class="heading left middle">
+                  <strong>Maximum time to store<br />data in CPU Unit</strong>
+                </TH>
+                <td colspan="2" rowspan="1" class="left middle">Conversion period + one CPU Unit cycle</td>
+              </tr>
+              <tr>
+                <TH colspan="2" rowspan="1" class="heading left middle">
+                  <strong>Input error detection</strong>
+                </TH>
+                <td colspan="2" rowspan="1" class="left middle">Error detected when under - 17.2% (4 to 20 mA: 1.25 mA; 1 to 5 V: 0.3125 V) or over 112.5% (4 to 20 mA:<br />22 mA; 1 to 5 V: 5.5 V).</td>
+              </tr>
+              <tr>
+                <TH colspan="2" rowspan="1" class="heading left middle">
+                  <strong>Operation at input<br />disconnection</strong>
+                </TH>
+                <td colspan="2" rowspan="1" class="left middle">Process value of - 15% stored.</td>
+              </tr>
+              <tr>
+                <TH colspan="2" rowspan="1" class="heading left middle">
+                  <strong>Input disconnection<br />overrange time</strong>
+                </TH>
+                <td colspan="2" rowspan="1" class="left middle">Approx. 1 s</td>
+              </tr>
+              <tr>
+                <TH colspan="1" rowspan="5" class="heading left middle">
+                  <strong>Function</strong>
+                </TH>
+                <td class="heading left middle">
+                  <strong>Mean value<br />processing<br />(input filter)</strong>
+                </td>
+                <td colspan="2" rowspan="1" class="left middle">Calculates the moving average for the specified number of process values (1 to 16), and stores that value in<br />the CIO Area as the process value.</td>
+              </tr>
+              <tr>
+                <TH class="heading left middle">
+                  <strong>Process<br />value alarm</strong>
+                </TH>
+                <td colspan="2" rowspan="1" class="left middle">Process value 4-point alarm (HH, H, LL, L), alarm hysteresis, and ON-delay timer (0 to 60 s) are available.</td>
+              </tr>
+              <tr>
+                <TH class="heading left middle">
+                  <strong>Rate-of-<br />change<br />calculation</strong>
+                </TH>
+                <td colspan="2" rowspan="1" class="left middle">Calculates the amount of change per comparison time interval (1 to 16 s).</td>
+              </tr>
+              <tr>
+                <TH class="heading left middle">
+                  <strong>Rate-of-<br />change<br />alarm</strong>
+                </TH>
+                <td colspan="2" rowspan="1" class="left middle">Rate-of-change 2-point alarm (H, L), alarm hysteresis (shared with process value alarm), and ON-delay timer<br />(0 to 60 s, shared with process value alarm) are available.</td>
+              </tr>
+              <tr>
+                <TH class="heading left middle">
+                  <strong>Square<br />root</strong>
+                </TH>
+                <td colspan="2" rowspan="1" class="left middle">When the process value scaling maximum value is A and the minimum value is B:<br /><div class="image"><img src="../../../tab/family/1665/img/1665_sp_7_1.gif" /><br />Dropout: Output approx. 7% maximum linear (output = input) characteristics<br />Note 1. The square root function is only enabled when the maximum scaling value is greater than the<br />minimum value.<br />Note 2. When square root processing is being performed, set the maximum and minimum scaling values<br />to the values required after square root processing of the current or other input values.</div></td>
+              </tr>
+              <tr>
+                <TH colspan="2" rowspan="1" class="heading left middle">
+                  <strong>Isolation</strong>
+                </TH>
+                <td colspan="2" rowspan="1" class="left middle">Between inputs and between input terminals and PLC signals: Isolation by transformer</td>
+              </tr>
+              <tr>
+                <TH colspan="2" rowspan="1" class="heading left middle">
+                  <strong>Insulation resistance</strong>
+                </TH>
+                <td colspan="2" rowspan="1" class="left middle">20 MΩ (at 500 V DC) between inputs</td>
+              </tr>
+              <tr>
+                <TH colspan="2" rowspan="1" class="heading left middle">
+                  <strong>Dielectric strength</strong>
+                </TH>
+                <td colspan="2" rowspan="1" class="left middle">Between inputs: 1,000 V AC, at 50/60 Hz, for 1 min, leakage current 10 mA max.</td>
+              </tr>
+              <tr>
+                <TH colspan="2" rowspan="1" class="heading left middle">
+                  <strong>External connections</strong>
+                </TH>
+                <td colspan="2" rowspan="1" class="left middle">Terminal block (detachable)</td>
+              </tr>
+              <tr>
+                <TH colspan="2" rowspan="1" class="heading left middle">
+                  <strong>Unit number settings</strong>
+                </TH>
+                <td colspan="2" rowspan="1" class="left middle">Set by rotary switches on front panel, from 0 to 95.</td>
+              </tr>
+              <tr>
+                <TH colspan="2" rowspan="1" class="heading left middle">
+                  <strong>Indicators</strong>
+                </TH>
+                <td colspan="2" rowspan="1" class="left middle">Three LED indicators on front panel (for normal operation, errors detected at the 2-Wire Transmitter Input<br />Unit, and errors related to the CPU Unit).</td>
+              </tr>
+              <tr>
+                <TH colspan="2" rowspan="1" class="heading left middle">
+                  <strong>Front panel connector</strong>
+                </TH>
+                <td colspan="2" rowspan="1" class="left middle">Sensor input connector terminal block (detachable)</td>
+              </tr>
+              <tr>
+                <TH colspan="2" rowspan="1" class="heading left middle">
+                  <strong>Effect on CPU Unit cycle<br />time</strong>
+                </TH>
+                <td colspan="2" rowspan="1" class="left middle">0.3 ms</td>
+              </tr>
+              <tr>
+                <TH colspan="2" rowspan="1" class="heading left middle">
+                  <strong>Current consumption</strong>
+                </TH>
+                <td colspan="2" rowspan="1" class="left middle">5 V DC at 150 mA max., 26 V DC at 160 mA max.</td>
+              </tr>
+              <tr>
+                <TH colspan="2" rowspan="1" class="heading left middle">
+                  <strong>Dimensions</strong>
+                </TH>
+                <td colspan="2" rowspan="1" class="left middle">35 × 130 × 126 mm (W × H × D)<br />Note: The height including the Backplane is 145 mm.</td>
+              </tr>
+              <tr>
+                <TH colspan="2" rowspan="1" class="heading left middle">
+                  <strong>Weight</strong>
+                </TH>
+                <td colspan="2" rowspan="1" class="left middle">450 g max.</td>
+              </tr>
+              <tr>
+                <TH colspan="2" rowspan="1" class="heading left middle">
+                  <strong>Standard accessories</strong>
+                </TH>
+                <td colspan="2" rowspan="1" class="left middle">None</td>
+              </tr>
+            </table>
+          </div>
+        
+        </p>
+    </div>
+
+
+
+
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<h4 class="heading-A02">CS1W-PTR01 Power Transducer Input Unit</h4>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="component-blockA01">
+
+
+
+
+
+    <div class="text">
+        <p>
+            
+          <div class="table-blockA01">
+            <table border="0" cellspacing="0" class="tableA01">
+              <tr>
+                <TH colspan="2" rowspan="1" class="heading center middle">
+                  <strong>Item</strong>
+                </TH>
+                <td colspan="2" rowspan="1" class="heading center middle">
+                  <strong>Specifications</strong>
+                </td>
+              </tr>
+              <tr>
+                <TH colspan="2" rowspan="1" class="heading left middle">
+                  <strong>Model</strong>
+                </TH>
+                <td colspan="2" rowspan="1" class="left middle">CS1W-PTR01</td>
+              </tr>
+              <tr>
+                <TH colspan="2" rowspan="1" class="heading left middle">
+                  <strong>Applicable PLC</strong>
+                </TH>
+                <td colspan="2" rowspan="1" class="left middle">CS Series</td>
+              </tr>
+              <tr>
+                <TH colspan="2" rowspan="1" class="heading left middle">
+                  <strong>Unit type</strong>
+                </TH>
+                <td colspan="2" rowspan="1" class="left middle">CS-series Special I/O Unit</td>
+              </tr>
+              <tr>
+                <TH colspan="2" rowspan="1" class="heading left middle">
+                  <strong>Mounting position</strong>
+                </TH>
+                <td colspan="2" rowspan="1" class="left middle">CS-series CPU Rack or CS-series Expansion Rack (Cannot be mounted to C200H Expansion I/O Rack or<br />SYSMAC BUS Remote I/O Slave Rack.)</td>
+              </tr>
+              <tr>
+                <TH colspan="2" rowspan="1" class="heading left middle">
+                  <strong>Maximum number of<br />Units</strong>
+                </TH>
+                <td colspan="2" rowspan="1" class="left middle">80 (within the allowable current consumption and power consumption range)</td>
+              </tr>
+              <tr>
+                <TH colspan="2" rowspan="1" class="heading left middle">
+                  <strong>Unit numbers</strong>
+                </TH>
+                <td colspan="2" rowspan="1" class="left middle">00 to 95 (Cannot duplicate Special I/O Unit numbers.)</td>
+              </tr>
+              <tr>
+                <TH colspan="1" rowspan="2" class="heading left middle">
+                  <strong>Areas for<br />data<br />exchange<br />with<br />CPU Unit</strong>
+                </TH>
+                <td class="heading left middle">
+                  <strong>Special I/O<br />Unit Area</strong>
+                </td>
+                <td colspan="2" rowspan="1" class="left middle">10 words/Unit<br />Power Transducer Input Unit to CPU Unit:<br />All process values, process value alarms (L, H)</td>
+              </tr>
+              <tr>
+                <TH class="heading left middle">
+                  <strong>DM Area<br />words<br />allocated<br />to Special<br />I/O Units</strong>
+                </TH>
+                <td colspan="2" rowspan="1" class="left middle">100 words/Unit<br />CPU Unit to Power Transducer Input Unit:<br />Input signal type, scaling of process value in industrial units, process value alarm setting (L, H), inrush input<br />upper limit, inrush input upper limit time, zero/span adjustment value, etc.</td>
+              </tr>
+              <tr>
+                <TH colspan="2" rowspan="1" class="heading left middle">
+                  <strong>Number of inputs</strong>
+                </TH>
+                <td colspan="2" rowspan="1" class="left middle">8</td>
+              </tr>
+              <tr>
+                <TH colspan="2" rowspan="1" class="heading left middle">
+                  <strong>Input signal type</strong>
+                </TH>
+                <td class="left middle">Either 0 to 1 mA or - 1 to 1 mA.</td>
+                <td colspan="1" rowspan="3" class="left middle">Input signal type and scaling to industrial units are<br />separate for each of the 8 inputs.<br />Note: Input signal type and scaling to industrial units<br />are set in the DM Area.<br />Example:<br />Input signal type: 0 to 1 mA from power transducer;<br />industrial unit scaling: 0 to 500 W. DM Area settings<br />are as follows:<br />Input signal type: 0 (0000 hex)<br />Industrial unit maximum value stored: 500 (01F4 hex)<br />Industrial unit minimum value stored: 0 (0000 hex)</td>
+              </tr>
+              <tr>
+                <TH colspan="2" rowspan="1" class="heading left middle">
+                  <strong>User-defined scaling in<br />industrial units</strong>
+                </TH>
+                <td class="left middle">Scaling required for the above input signals. (Any<br />minimum and maximum values can be set.)<br />(8 inputs set separately.)</td>
+              </tr>
+              <tr>
+                <TH colspan="2" rowspan="1" class="heading left middle">
+                  <strong>Data storage in the<br />CIO Area</strong>
+                </TH>
+                <td class="left middle">The value derived from carrying out the following<br />processing in order of the process value data is<br />stored in four digits hexadecimal (binary values) in<br />the allocated words in the CIO Area.<br />1) Mean value processing →  2) Scaling →  3) Zero/<br />span adjustment →  4) Inrush input limit → <br />5) Output limits</td>
+              </tr>
+              <tr>
+                <TH colspan="2" rowspan="1" class="heading left middle">
+                  <strong>Accuracy (25 ° C)</strong>
+                </TH>
+                <td colspan="2" rowspan="1" class="left middle">± 0.2% of full scale</td>
+              </tr>
+              <tr>
+                <TH colspan="2" rowspan="1" class="heading left middle">
+                  <strong>Temperature coefficient</strong>
+                </TH>
+                <td colspan="2" rowspan="1" class="left middle">± 0.015%/ ° C of full scale</td>
+              </tr>
+              <tr>
+                <TH colspan="2" rowspan="1" class="heading left middle">
+                  <strong>Resolution</strong>
+                </TH>
+                <td colspan="2" rowspan="1" class="left middle">1/4,096 of full scale</td>
+              </tr>
+              <tr>
+                <TH colspan="2" rowspan="1" class="heading left middle">
+                  <strong>Input signal range</strong>
+                </TH>
+                <td colspan="2" rowspan="1" class="left middle">For 0 to 1 mA: - 15 to 115%; for - 1 to 1 mA: - 7.5 to 107.5%</td>
+              </tr>
+              <tr>
+                <TH colspan="2" rowspan="1" class="heading left middle">
+                  <strong>Input impedance</strong>
+                </TH>
+                <td colspan="2" rowspan="1" class="left middle">100 Ω (typical)</td>
+              </tr>
+              <tr>
+                <TH colspan="2" rowspan="1" class="heading left middle">
+                  <strong>Warmup time</strong>
+                </TH>
+                <td colspan="2" rowspan="1" class="left middle">10 min</td>
+              </tr>
+              <tr>
+                <TH colspan="2" rowspan="1" class="heading left middle">
+                  <strong>Response time</strong>
+                </TH>
+                <td colspan="2" rowspan="1" class="left middle">1.2 s (travel time from input 0% to 90%, for step input)</td>
+              </tr>
+              <tr>
+                <TH colspan="2" rowspan="1" class="heading left middle">
+                  <strong>Conversion period</strong>
+                </TH>
+                <td colspan="2" rowspan="1" class="left middle">200 ms/8 inputs</td>
+              </tr>
+              <tr>
+                <TH colspan="2" rowspan="1" class="heading left middle">
+                  <strong>Maximum time to store<br />data in CPU Unit</strong>
+                </TH>
+                <td colspan="2" rowspan="1" class="left middle">Conversion period + one CPU Unit cycle</td>
+              </tr>
+              <tr>
+                <TH colspan="2" rowspan="1" class="heading left middle">
+                  <strong>Input error detection</strong>
+                </TH>
+                <td colspan="2" rowspan="1" class="left middle">None.</td>
+              </tr>
+              <tr>
+                <TH colspan="2" rowspan="1" class="heading left middle">
+                  <strong>Operation at input<br />disconnection</strong>
+                </TH>
+                <td colspan="2" rowspan="1" class="left middle">Process value corresponding to 0 mA stored.</td>
+              </tr>
+              <tr>
+                <TH colspan="1" rowspan="3" class="heading left middle">
+                  <strong>Function</strong>
+                </TH>
+                <td class="heading left middle">
+                  <strong>Inrush<br />input<br />limit</strong>
+                </td>
+                <td colspan="2" rowspan="1" class="left middle">When the process value is increased from 2% or less, the inrush input limit function limits the increase for<br />a set time. (It is available only for inputs of 0 to 1 mA.) This function can be used to prevent sudden process<br />value increases due to inrush currents caused by motor startup and so on.<br />Upper limit value: - 32,000 to 32,000<br />Upper limit time: 0 to 100 s</td>
+              </tr>
+              <tr>
+                <TH class="heading left middle">
+                  <strong>Process<br />value alarm</strong>
+                </TH>
+                <td colspan="2" rowspan="1" class="left middle">Process value 2-point alarm (H, L), hysteresis, and ON-delay timer (0 to 60 s) are available.</td>
+              </tr>
+              <tr>
+                <TH class="heading left middle">
+                  <strong>Mean value<br />processing<br />(input filter)</strong>
+                </TH>
+                <td colspan="2" rowspan="1" class="left middle">Calculates the moving average for the past four process values (every 200 ms), and stores that value in the<br />CIO Area as the process value.</td>
+              </tr>
+              <tr>
+                <TH colspan="2" rowspan="1" class="heading left middle">
+                  <strong>Isolation</strong>
+                </TH>
+                <td colspan="2" rowspan="1" class="left middle">Between inputs: No isolation<br />Between input terminals and PLC signals: Isolation by transformer and photocoupler</td>
+              </tr>
+              <tr>
+                <TH colspan="2" rowspan="1" class="heading left middle">
+                  <strong>Insulation resistance</strong>
+                </TH>
+                <td colspan="2" rowspan="1" class="left middle">20 MΩ (at 500 V DC) between inputs and internal PLC signals</td>
+              </tr>
+              <tr>
+                <TH colspan="2" rowspan="1" class="heading left middle">
+                  <strong>Dielectric strength</strong>
+                </TH>
+                <td colspan="2" rowspan="1" class="left middle">Between inputs and internal PLC signals: 1,000 V AC, at 50/60 Hz, for 1 min, leakage current 10 mA max.</td>
+              </tr>
+              <tr>
+                <TH colspan="2" rowspan="1" class="heading left middle">
+                  <strong>External connections</strong>
+                </TH>
+                <td colspan="2" rowspan="1" class="left middle">Terminal block (detachable)</td>
+              </tr>
+              <tr>
+                <TH colspan="2" rowspan="1" class="heading left middle">
+                  <strong>Unit number settings</strong>
+                </TH>
+                <td colspan="2" rowspan="1" class="left middle">Set by rotary switches on front panel, from 0 to 95.</td>
+              </tr>
+              <tr>
+                <TH colspan="2" rowspan="1" class="heading left middle">
+                  <strong>Indicators</strong>
+                </TH>
+                <td colspan="2" rowspan="1" class="left middle">Three LED indicators on front panel (for normal operation, errors detected at the Power Transducer Input<br />Unit, and errors related to the CPU Unit).</td>
+              </tr>
+              <tr>
+                <TH colspan="2" rowspan="1" class="heading left middle">
+                  <strong>Front panel connector</strong>
+                </TH>
+                <td colspan="2" rowspan="1" class="left middle">Sensor input connector terminal block (detachable)</td>
+              </tr>
+              <tr>
+                <TH colspan="2" rowspan="1" class="heading left middle">
+                  <strong>Effect on CPU Unit cycle<br />time</strong>
+                </TH>
+                <td colspan="2" rowspan="1" class="left middle">0.3 ms</td>
+              </tr>
+              <tr>
+                <TH colspan="2" rowspan="1" class="heading left middle">
+                  <strong>Current consumption</strong>
+                </TH>
+                <td colspan="2" rowspan="1" class="left middle">5 V DC at 150 mA max., 26 V DC at 80 mA max.</td>
+              </tr>
+              <tr>
+                <TH colspan="2" rowspan="1" class="heading left middle">
+                  <strong>Dimensions</strong>
+                </TH>
+                <td colspan="2" rowspan="1" class="left middle">35 × 130 × 126 mm (W × H × D)<br />Note: The height including the Backplane is 145 mm.</td>
+              </tr>
+              <tr>
+                <TH colspan="2" rowspan="1" class="heading left middle">
+                  <strong>Weight</strong>
+                </TH>
+                <td colspan="2" rowspan="1" class="left middle">450 g max.</td>
+              </tr>
+              <tr>
+                <TH colspan="2" rowspan="1" class="heading left middle">
+                  <strong>Standard accessories</strong>
+                </TH>
+                <td colspan="2" rowspan="1" class="left middle">None</td>
+              </tr>
+            </table>
+          </div>
+        
+        </p>
+    </div>
+
+
+
+
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<h4 class="heading-A02">CS1W-PTR02 Analog Input Unit (100 mV)</h4>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="component-blockA01">
+
+
+
+
+
+    <div class="text">
+        <p>
+            
+          <div class="table-blockA01">
+            <table border="0" cellspacing="0" class="tableA01">
+              <tr>
+                <TH colspan="2" rowspan="1" class="heading center middle">
+                  <strong>Item</strong>
+                </TH>
+                <td colspan="2" rowspan="1" class="heading center middle">
+                  <strong>Specifications</strong>
+                </td>
+              </tr>
+              <tr>
+                <TH colspan="2" rowspan="1" class="heading left middle">
+                  <strong>Model</strong>
+                </TH>
+                <td colspan="2" rowspan="1" class="left middle">CS1W-PTR02</td>
+              </tr>
+              <tr>
+                <TH colspan="2" rowspan="1" class="heading left middle">
+                  <strong>Applicable PLC</strong>
+                </TH>
+                <td colspan="2" rowspan="1" class="left middle">CS Series</td>
+              </tr>
+              <tr>
+                <TH colspan="2" rowspan="1" class="heading left middle">
+                  <strong>Unit type</strong>
+                </TH>
+                <td colspan="2" rowspan="1" class="left middle">CS-series Special I/O Unit</td>
+              </tr>
+              <tr>
+                <TH colspan="2" rowspan="1" class="heading left middle">
+                  <strong>Mounting position</strong>
+                </TH>
+                <td colspan="2" rowspan="1" class="left middle">CS-series CPU Rack or CS-series Expansion Rack (Cannot be mounted to C200H Expansion I/O Rack or<br />SYSMAC BUS Remote I/O Slave Rack.)</td>
+              </tr>
+              <tr>
+                <TH colspan="2" rowspan="1" class="heading left middle">
+                  <strong>Maximum number of<br />Units</strong>
+                </TH>
+                <td colspan="2" rowspan="1" class="left middle">80 (within the allowable current consumption and power consumption range)</td>
+              </tr>
+              <tr>
+                <TH colspan="2" rowspan="1" class="heading left middle">
+                  <strong>Unit numbers</strong>
+                </TH>
+                <td colspan="2" rowspan="1" class="left middle">00 to 95 (Cannot duplicate Special I/O Unit numbers.)</td>
+              </tr>
+              <tr>
+                <TH colspan="1" rowspan="2" class="heading left middle">
+                  <strong>Areas for<br />data<br />exchange<br />with<br />CPU Unit</strong>
+                </TH>
+                <td class="heading left middle">
+                  <strong>Special I/O<br />Unit Area</strong>
+                </td>
+                <td colspan="2" rowspan="1" class="left middle">10 words/Unit<br />Analog Input Unit to CPU Unit:<br />All process values, process value alarms (L, H)</td>
+              </tr>
+              <tr>
+                <TH class="heading left middle">
+                  <strong>DM Area<br />words<br />allocated<br />to Special<br />I/O Units</strong>
+                </TH>
+                <td colspan="2" rowspan="1" class="left middle">100 words/Unit<br />CPU Unit to Analog Input Unit:<br />Input signal type, scaling of process value in industrial units, process value alarm setting (L, H), inrush input<br />upper limit, inrush input upper limit time, zero/span adjustment value, etc.</td>
+              </tr>
+              <tr>
+                <TH colspan="2" rowspan="1" class="heading left middle">
+                  <strong>Number of inputs</strong>
+                </TH>
+                <td colspan="2" rowspan="1" class="left middle">8</td>
+              </tr>
+              <tr>
+                <TH colspan="2" rowspan="1" class="heading left middle">
+                  <strong>Input signal type</strong>
+                </TH>
+                <td class="left middle">Either 0 to 100 mV or -100 to 100 mV.</td>
+                <td colspan="1" rowspan="3" class="left middle">Input signal type and scaling to industrial units are<br />separate for each of the 8 inputs.<br />Note: Input signal type and scaling to industrial units<br />are set in the DM Area.<br />Example:<br />Input signal type: 0 to 100 mV; industrial unit scaling:<br />0 to 500. DM Area settings are as follows:<br />Input signal type: 0 (0000 hex)<br />Industrial unit maximum value stored: 500 (01F4 hex)<br />Industrial unit minimum value stored: 0 (0000 hex)</td>
+              </tr>
+              <tr>
+                <TH colspan="2" rowspan="1" class="heading left middle">
+                  <strong>User-defined scaling in<br />industrial units</strong>
+                </TH>
+                <td class="left middle">Scaling required for the above input signals. (Any<br />minimum and maximum values can be set.)<br />(8 inputs set separately.)</td>
+              </tr>
+              <tr>
+                <TH colspan="2" rowspan="1" class="heading left middle">
+                  <strong>Data storage in the<br />CIO Area</strong>
+                </TH>
+                <td class="left middle">The value derived from carrying out the following<br />processing in order of the process value data is<br />stored in four digits hexadecimal (binary values) in<br />the allocated words in the CIO Area.<br />1) Mean value processing →  2) Scaling →  3) Zero/<br />span adjustment →  4) Inrush input limit → <br />5) Output limits</td>
+              </tr>
+              <tr>
+                <TH colspan="2" rowspan="1" class="heading left middle">
+                  <strong>Accuracy (25 ° C)</strong>
+                </TH>
+                <td colspan="2" rowspan="1" class="left middle">± 0.2% of full scale</td>
+              </tr>
+              <tr>
+                <TH colspan="2" rowspan="1" class="heading left middle">
+                  <strong>Temperature coefficient</strong>
+                </TH>
+                <td colspan="2" rowspan="1" class="left middle">± 0.015%/ ° C of full scale</td>
+              </tr>
+              <tr>
+                <TH colspan="2" rowspan="1" class="heading left middle">
+                  <strong>Resolution</strong>
+                </TH>
+                <td colspan="2" rowspan="1" class="left middle">1/4,096 of full scale</td>
+              </tr>
+              <tr>
+                <TH colspan="2" rowspan="1" class="heading left middle">
+                  <strong>Input signal range</strong>
+                </TH>
+                <td colspan="2" rowspan="1" class="left middle">For 0 to 100 mV: - 15 to 115%; for - 100 to 100 mV: - 7.5 to 107.5%</td>
+              </tr>
+              <tr>
+                <TH colspan="2" rowspan="1" class="heading left middle">
+                  <strong>Input impedance</strong>
+                </TH>
+                <td colspan="2" rowspan="1" class="left middle">Balanced: 1 MΩ min. (typical); unbalanced: 20 kΩ (typical)</td>
+              </tr>
+              <tr>
+                <TH colspan="2" rowspan="1" class="heading left middle">
+                  <strong>Warmup time</strong>
+                </TH>
+                <td colspan="2" rowspan="1" class="left middle">10 min</td>
+              </tr>
+              <tr>
+                <TH colspan="2" rowspan="1" class="heading left middle">
+                  <strong>Response time</strong>
+                </TH>
+                <td colspan="2" rowspan="1" class="left middle">1.2 s (travel time from input 0% to 90%, for step input)</td>
+              </tr>
+              <tr>
+                <TH colspan="2" rowspan="1" class="heading left middle">
+                  <strong>Conversion period</strong>
+                </TH>
+                <td colspan="2" rowspan="1" class="left middle">200 ms/8 inputs</td>
+              </tr>
+              <tr>
+                <TH colspan="2" rowspan="1" class="heading left middle">
+                  <strong>Maximum time to store<br />data in CPU Unit</strong>
+                </TH>
+                <td colspan="2" rowspan="1" class="left middle">Conversion period + one CPU Unit cycle</td>
+              </tr>
+              <tr>
+                <TH colspan="2" rowspan="1" class="heading left middle">
+                  <strong>Input error detection</strong>
+                </TH>
+                <td colspan="2" rowspan="1" class="left middle">None</td>
+              </tr>
+              <tr>
+                <TH colspan="2" rowspan="1" class="heading left middle">
+                  <strong>Operation at input<br />disconnection</strong>
+                </TH>
+                <td colspan="2" rowspan="1" class="left middle">Undefined</td>
+              </tr>
+              <tr>
+                <TH colspan="1" rowspan="3" class="heading left middle">
+                  <strong>Function</strong>
+                </TH>
+                <td class="heading left middle">
+                  <strong>Inrush<br />input<br />limit</strong>
+                </td>
+                <td colspan="2" rowspan="1" class="left middle">When the process value is increased from 2% or less, the inrush input limit function limits the increase for<br />a set time. (It is available only for inputs of 0 to 100 mV.) This function can be used to prevent sudden<br />process value increases due to inrush currents caused by motor startup and so on.<br />Upper limit value: - 32,000 to 32,000<br />Upper limit time: 0 to 100 s</td>
+              </tr>
+              <tr>
+                <TH class="heading left middle">
+                  <strong>Process<br />value alarm</strong>
+                </TH>
+                <td colspan="2" rowspan="1" class="left middle">Process value 2-point alarm (H, L), hysteresis, and ON-delay timer (0 to 60 s) are available.</td>
+              </tr>
+              <tr>
+                <TH class="heading left middle">
+                  <strong>Mean value<br />processing<br />(input filter)</strong>
+                </TH>
+                <td colspan="2" rowspan="1" class="left middle">Calculates the moving average for the past four process values (every 200 ms), and stores that value in the<br />CIO Area as the process value.</td>
+              </tr>
+              <tr>
+                <TH colspan="2" rowspan="1" class="heading left middle">
+                  <strong>Isolation</strong>
+                </TH>
+                <td colspan="2" rowspan="1" class="left middle">Between inputs: No isolation<br />Between input terminals and PLC signals: Isolation by transformer and photocoupler.</td>
+              </tr>
+              <tr>
+                <TH colspan="2" rowspan="1" class="heading left middle">
+                  <strong>Insulation resistance</strong>
+                </TH>
+                <td colspan="2" rowspan="1" class="left middle">20 MΩ (at 500 V DC) between inputs and internal PLC signals.</td>
+              </tr>
+              <tr>
+                <TH colspan="2" rowspan="1" class="heading left middle">
+                  <strong>Dielectric strength</strong>
+                </TH>
+                <td colspan="2" rowspan="1" class="left middle">Between inputs and internal PLC signals: 1,000 V AC, at 50/60 Hz, for 1 min, leakage current: 10 mA max.</td>
+              </tr>
+              <tr>
+                <TH colspan="2" rowspan="1" class="heading left middle">
+                  <strong>External connections</strong>
+                </TH>
+                <td colspan="2" rowspan="1" class="left middle">Terminal block (detachable)</td>
+              </tr>
+              <tr>
+                <TH colspan="2" rowspan="1" class="heading left middle">
+                  <strong>Unit number settings</strong>
+                </TH>
+                <td colspan="2" rowspan="1" class="left middle">Set by rotary switches on front panel, from 0 to 95.</td>
+              </tr>
+              <tr>
+                <TH colspan="2" rowspan="1" class="heading left middle">
+                  <strong>Indicators</strong>
+                </TH>
+                <td colspan="2" rowspan="1" class="left middle">Three LED indicators on front panel (for normal operation, errors detected at the Analog Input Unit, and<br />errors related to the CPU Unit).</td>
+              </tr>
+              <tr>
+                <TH colspan="2" rowspan="1" class="heading left middle">
+                  <strong>Front panel connector</strong>
+                </TH>
+                <td colspan="2" rowspan="1" class="left middle">Sensor input connector terminal block (detachable)</td>
+              </tr>
+              <tr>
+                <TH colspan="2" rowspan="1" class="heading left middle">
+                  <strong>Effect on CPU Unit cycle<br />time</strong>
+                </TH>
+                <td colspan="2" rowspan="1" class="left middle">0.3 ms</td>
+              </tr>
+              <tr>
+                <TH colspan="2" rowspan="1" class="heading left middle">
+                  <strong>Current consumption</strong>
+                </TH>
+                <td colspan="2" rowspan="1" class="left middle">5 V DC at 150 mA max., 26 V DC at 80 mA max.</td>
+              </tr>
+              <tr>
+                <TH colspan="2" rowspan="1" class="heading left middle">
+                  <strong>Dimensions</strong>
+                </TH>
+                <td colspan="2" rowspan="1" class="left middle">35 × 130 × 126 mm (W × H × D)<br />Note: The height including the Backplane is 145 mm.</td>
+              </tr>
+              <tr>
+                <TH colspan="2" rowspan="1" class="heading left middle">
+                  <strong>Weight</strong>
+                </TH>
+                <td colspan="2" rowspan="1" class="left middle">450 g max.</td>
+              </tr>
+              <tr>
+                <TH colspan="2" rowspan="1" class="heading left middle">
+                  <strong>Standard accessories</strong>
+                </TH>
+                <td colspan="2" rowspan="1" class="left middle">None</td>
+              </tr>
+            </table>
+          </div>
+        
+        </p>
+    </div>
+
+
+
+
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<p class="date-line">last update: September 24, 2012</p>
+
+</div>
+
+                        </div>
+                    </div>
+	            <!-- === /[primary-contents-area] === -->
+                </div>
+                <!-- === /[inner-contents-area] === -->
+
+
+                <!-- === [local-navi] === -->
+                <div class="local-navi-area">
+                    <div class="local-navi-area">
+
+
+
+<div class="local-naviA01">
+<h2 class="heading-link">
+<a href="../../category/index.html" ><img src="../../../resources/images/icon_right_b.gif" width="3" height="9" alt="" class="iconA01" />Product Category</a>
+</h2>
+<ul><li><a href="../../category/automation-systems/index-2.html"><img src="../../../resources/images/icon_right_b.gif" width="3" height="9" alt="" class="iconA01" />Automation Systems</a><ul class="list-indent01"><li><a href="../../category/automation-systems/programmable-controllers/index-2.html"><img src="../../../resources/images/icon_right_b.gif" width="3" height="9" alt="" class="iconA01" />Programmable Controllers</a><ul class="list-indent02"><li><a href="../../category/automation-systems/programmable-controllers/cs1/index.html"><img src="../../../resources/images/icon_right_b.gif" width="3" height="9" alt="" class="iconA01" />CS1</a><ul class="list-indent03"><li><a href="../../category/automation-systems/programmable-controllers/cs1/special-io-units/index.html"><img src="../../../resources/images/icon_right_b.gif" width="3" height="9" alt="" class="iconA01" />Special I/O Units</a><ul class="list-indent04"><li><a href="../1664/index.html"><img src="../../../resources/images/icon_right_b.gif" width="3" height="9" alt="" class="iconA01" />CS1W-PTS</a></li><li><a href="../2038/index.html"><img src="../../../resources/images/icon_right_b.gif" width="3" height="9" alt="" class="iconA01" />CS1W-SRM21</a></li><li><a href="../1781/index.html"><img src="../../../resources/images/icon_right_b.gif" width="3" height="9" alt="" class="iconA01" />CS1W-CRM21</a></li><li class="stay"><span>CS1W-PDC / PTW / PTR</span></li><li><a href="../1666/index.html"><img src="../../../resources/images/icon_right_b.gif" width="3" height="9" alt="" class="iconA01" />CS1W-AD</a></li><li><a href="../1667/index.html"><img src="../../../resources/images/icon_right_b.gif" width="3" height="9" alt="" class="iconA01" />CS1W-DA</a></li><li><a href="../1669/index.html"><img src="../../../resources/images/icon_right_b.gif" width="3" height="9" alt="" class="iconA01" />CS1W-PMV</a></li><li><a href="../1670/index.html"><img src="../../../resources/images/icon_right_b.gif" width="3" height="9" alt="" class="iconA01" />CS1W-MAD44</a></li><li><a href="../1671/index.html"><img src="../../../resources/images/icon_right_b.gif" width="3" height="9" alt="" class="iconA01" />CS1W-PPS01</a></li><li><a href="../1672/index.html"><img src="../../../resources/images/icon_right_b.gif" width="3" height="9" alt="" class="iconA01" />CS1W-NC[][]3</a></li><li><a href="../1673/index.html"><img src="../../../resources/images/icon_right_b.gif" width="3" height="9" alt="" class="iconA01" />CS1W-CT021 / 041</a></li><li><a href="../3087/index.html"><img src="../../../resources/images/icon_right_b.gif" width="3" height="9" alt="" class="iconA01" />CS1W-V680C11 / V680C12</a></li></ul></li></ul></li></ul></li></ul></li></ul>
+<!-- /local-naviA01 -->
+</div>
+
+
+
+<div class="local-naviB01">
+<ul class="heading-link">
+
+<li class="first-child">
+<a href="../../category/index.html"><img src="../../../resources/images/icon_right_b.gif" width="3" height="9" alt="" class="iconA01" />Product Category</a>
+</li>
+
+<li>
+<a href="../../../product/cautions/index-2.html"><img src="../../../resources/images/icon_right_b.gif" width="3" height="9" alt="" class="iconA01" />Cautions</a>
+</li>
+
+<li>
+<a href="../../index/index.html"><img src="../../../resources/images/icon_right_b.gif" width="3" height="9" alt="" class="iconA01" />Item A to Z Index</a>
+</li>
+
+<li>
+<a href="../../applications/index.html"><img src="../../../resources/images/icon_right_b.gif" width="3" height="9" alt="" class="iconA01" />Applications</a>
+</li>
+
+<li>
+<a href="../../correct/index.html"><img src="../../../resources/images/icon_right_b.gif" width="3" height="9" alt="" class="iconA01" />Correction Notice</a>
+</li>
+
+</ul>
+<!-- /local-naviB01 -->
+</div>
+                    </div>
+                </div>
+                <!-- === /[local-navi] === -->
+
+            </div>
+            <!-- === /[contents-area] === -->
+
+            <!-- === [top-page-link-area] === -->
+            <div class="top-page-link-area">
+                <ul class="top-page-link-list">
+                    <li>
+                        <a href="#page-top"><img src="../../../resources/images/icon_up_b.gif" width="5" height="8" alt="" class="iconB01" />Top of Page</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- === /[top-page-link-area] === -->
+
+            <!-- === [footer-area] === -->
+
+
+<!-- === [footer-area] === -->
+<div class="footer-area">
+    <p class="non-visual">
+        <a name="footer" id="footer">Site Information</a>
+    </p>
+   
+    <div class="footer-link">
+        
+
+        <p class="copyright">© Copyright Kyoto Engineering &amp; Automation Ltd. All Rights Reserved.</p>
+    <!-- /.footer-link -->
+    </div>
+<!-- /.footer-area -->
+</div>
+<!-- === /[footer-area] === -->
+            <!-- === /[footer-area] === -->
+        </div>
+        <!-- === /[omron-ia] === -->
+    </body>
+
+<!-- Mirrored from www.ia.omron.com/products/family/1665/specification.html by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 16 Dec 2016 07:57:12 GMT -->
+</html>

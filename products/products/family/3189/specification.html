@@ -1,0 +1,5555 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<html xml:lang="en" lang="en" xmlns="http://www.w3.org/1999/xhtml">
+    
+<!-- Mirrored from www.ia.omron.com/products/family/3189/specification.html by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 16 Dec 2016 06:30:39 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=utf-8" /><!-- /Added by HTTrack -->
+<head>
+
+<link rel="stylesheet" type="text/css" media="all" href="../../../css/index.css"/>
+	<link rel="stylesheet" type="text/css" media="all" href="../../../css/top.css"/>
+
+        <meta http-equiv="Content-Language" content="en" />
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <meta http-equiv="Content-Style-Type" content="text/css" />
+        <meta http-equiv="Content-Script-Type" content="text/javascript" />
+        <title>
+            NX-TS NX-series Temperature Input Unit/Specifications | OMRON By Kyoto Engineering &amp; Automation
+        </title>
+        <meta name="keywords" content="Automation Systems,omron nx,Machine Automation Controllers,EtherCAT Slave Terminals NX-Series,Temperature Input Unit /  Heater Burnout Detection Unit,NX-TS" />
+        <meta name="description" content="NX-series Temperature Input Unit Temperature Input Units for Standard and High-speed, High-precision Temperature measurement and control" />
+        
+
+<link rel="alternate" href="../../../index.html" hreflang="en" />
+<link rel="stylesheet" type="text/css" media="all" href="../../../resources/css/common22f8.css?201611151200" />
+<link rel="stylesheet" type="text/css" media="all" href="../../../resources/css/global/common22f8.css?201611151200" />
+<link rel="stylesheet" type="text/css" media="all" href="../../../resources/css/frame_utility_tridion22f8.css?201611151200" />
+<link rel="stylesheet" type="text/css" media="print" href="../../../resources/css/print22f8.css?201611151200" />
+<script type="text/javascript" src="../../../resources/js/jquery22f8.js?201611151200"></script>
+<script type="text/javascript" src="../../../resources/js/function22f8.js?201611151200"></script>
+<script type="text/javascript" src="../../../resources/js/country_website22f8.js?201611151200"></script>
+<script type="text/javascript" src="../../../resources/js/global/ga22f8.js?201611151200"></script>
+<link rel="stylesheet" type="text/css" media="all" href="../../../resources/css/jquery-ui22f8.css?201611151200" charset='UTF-8'/>
+<link rel="stylesheet" type="text/css" media="all" href="../../../resources/css/jquery.multiselect22f8.css?201611151200" charset='UTF-8'/>
+<script type="text/javascript" language="JavaScript" src="../../../common/js/marketing_tag22f8.js?201611151200"></script>
+<script type="text/javascript" src="../../../resources/js/jquery-ui.min22f8.js?201611151200" charset='UTF-8'></script>
+<script type="text/javascript" src="../../../resources/js/jquery.ex-table-filter22f8.js?201611151200" charset='UTF-8'></script>
+<script type="text/javascript" src="../../../resources/js/jquery.tablesorter.min22f8.js?201611151200" charset='UTF-8'></script>
+<script type="text/javascript" src="../../../resources/js/filter22f8.js?201611151200" charset='UTF-8'></script>
+<link rel="shortcut icon" href="../../../resources/images/favicon.ico" type="image/x-icon" />
+
+        <link rel="stylesheet" type="text/css" media="all" href="../../../resources/css/tablesorter6c9b.css?201611150900" />
+        <script type="text/javascript" src="../../../resources/js/global/products6c9b.js?201611150900" charset='UTF-8'></script>
+
+    </head>
+    <body id="www-ia-omron-com" class="layoutC03 automation-systems">
+
+        <!-- === [omron-ia] === -->
+        <div class="omron-ia">
+            <p class="non-visual">
+                <a name="page-top" id="page-top">
+                    Page top
+                </a>
+            </p>
+
+
+
+
+<div class="header-area">
+     <div class="site-identity">
+          <div class="site-logo">
+               <a href="../../../index.php"><img src="../../../images/logo_01_b13-260967.gif"  width="129" height="24" alt="OMRON" /></a>
+          </div>
+          <!-- /.site-identity -->
+     </div>
+     <div class="utilities">
+		<div class="country-select-area">
+			<p class="canpany">Building Automation</p>
+                        <?php echo '&nbsp' ; ?>
+                        <br/>
+                        <p class="canpany">Industrial Automation</p>
+                        <?php echo '&nbsp' ; ?>
+                        <br/>
+                        <p class="canpany">Power Automation &amp; Safety </p>
+			
+		</div>
+            
+            <div class="japani">
+                <img  src="../../../shared/img/Japani Technology mnemonic.png" width="90" height="50" alt=""/>
+            </div>
+          
+            
+            
+            <div class="flag">
+            <img src="../../../shared/img/Bangladesh-Flag_1.png" alt=""/>
+            </div>
+            <div class="kyoto">
+                <p><b>Bangladesh Distributor</b></p>
+                <img style="margin-left:-5px;"  src="../../../shared/img/Kyoto-logo-Png.png" alt=""/>
+            </div>
+	<!-- /.utilities --> </div>
+	<!-- /.header-area --></div>
+
+
+<div class="global-navi-area">
+<ul>
+<li class="home stay"><a href="../../../index.php">Home</a></li>
+<li class="product"><a href="../../../products/index.html">Products</a></li>
+<li class="corporate-profile"><a href="../../../view/contact/input.php">Contact Us</a></li>
+<li class="function-area"><div class="search"><form action="https://omron.keal.com.bd/sphider/search.php" method="get">       
+<input type="text" name="query" id="query" size="40" value="" />
+      <input type="submit" value="Search" /> <input type="hidden"
+      name="search" value="1" />
+    </form>
+</div>
+</li>
+</ul>
+</div> 
+<div class="bread-crumb-area">
+<ul>
+
+
+<li><a href="../../../index.php">Home</a><span class="separator">&gt;</span></li>
+
+<li><a href="../../index-2.html" >Products</a><span class="separator">&gt;</span></li>
+
+<li><a href="../../category/index.html" >Product Category</a><span class="separator">&gt;</span></li>
+
+<li><a href="../../category/automation-systems/index-2.html" >Automation Systems</a><span class="separator">&gt;</span></li>
+
+<li><a href="../../category/automation-systems/machine-automation-controllers/index-2.html" >Machine Automation Controllers</a><span class="separator">&gt;</span></li>
+
+<li><a href="../../category/automation-systems/machine-automation-controllers/ethercat-slave-terminals-nx-series/index.html" >EtherCAT Slave Terminals NX-Series</a><span class="separator">&gt;</span></li>
+
+<li><a href="../../category/automation-systems/machine-automation-controllers/ethercat-slave-terminals-nx-series/temperature-input-unit_heater-burnout-detection-unit/index.html" >Temperature Input Unit /  Heater Burnout Detection Unit</a><span class="separator">&gt;</span></li>
+
+<li><strong>NX-TS</strong></li>
+
+
+</ul>
+</div>
+
+            <!-- === [contents-area] === -->
+            <div class="contents-area">
+
+                <!-- === [inner-contents-area] === -->
+                <div class="inner-contents-area">
+                    <!-- === [upper-contents-area] === -->
+                    <div class="upper-contents-area">
+                        <!-- === [lead-area] === -->
+                        <div class="lead-area">
+
+
+
+
+<!-- --------------------------------------------------------------------Product Family Start--------------------------------------------------------- -->
+<div class="heading-h1">
+
+
+    <h1>
+        NX-TS
+    </h1>
+    <p class="sub-title">
+        NX-series Temperature Input Unit
+    </p>
+</div>
+<div class="image-blockA01">
+    <div class="image-left">
+        <p class="image">
+
+            <img src="../../../images/l_3189-13-171170-198x198.jpg" width="198" height="198" alt="NX-TS" class="nopic" />
+
+
+        </p>
+    </div>
+    <div class="description">
+        <h2 class="heading-B02">
+            Temperature Input Units for Standard and High-speed, High-precision Temperature measurement and control
+        </h2>
+        
+
+
+
+
+        <div class="item-list-link">
+            <p>
+                <a href="itemlist/index.html">
+                    <img src="../../../resources/images/icon_right_b.gif" width="3" height="9" alt="" class="iconA01" />
+                    Item list of NX-TS
+                </a>
+            </p>
+        </div>
+    </div>
+<!-- /.image-blockA01 -->
+</div>
+
+
+
+                        </div>
+                        <!-- === /[lead-area] === -->
+
+
+                        <!-- === [utility-area] === -->
+                        <div class="utility-area">                         
+                       
+                            <div class="action-block">
+                                <p>
+                                    about this Product Family
+                                </p>
+                                <ul>
+                                    <li class="first-child">
+                                        <a href="../../../view/contact/input.php">
+                                            Inquiry of this Product
+                                        </a>
+                                    </li>                                 
+                                </ul>
+                            </div>
+
+
+
+
+<div class="related-info-blockA01 vertical-slide">
+
+    <p>
+        <span>Related Contents</span>
+    </p>
+
+
+        
+
+        <ul>
+            <li class="first-child">
+                <span>Automation Systems</span>
+            </li>
+            <li>
+                <ul class="list-indent01">
+
+
+                    <li class="first-child">
+
+
+                        <a href="../../applications/category/automation-systems/index.html">
+                            <img src="../../../resources/images/icon_right_b.gif" width="3" height="9" alt="" class="iconA01" />
+                            Applications 
+                        </a>
+                    </li>
+
+                </ul>
+            </li>
+        </ul>
+
+        <ul>
+            <li class="first-child">
+                <span>Machine Automation Controllers</span>
+            </li>
+            <li>
+                <ul class="list-indent01">
+
+
+                    <li class="first-child">
+
+
+                        <a href="../../index/automation-systems/machine-automation-controllers/index.html">
+                            <img src="../../../resources/images/icon_right_b.gif" width="3" height="9" alt="" class="iconA01" />
+                            Item A to Z Index 
+                        </a>
+                    </li>
+
+
+
+                    <li>
+
+                        <a href="../../../support/glossary/automation-systems/machine-automation-controllers/index.html">
+                            <img src="../../../resources/images/icon_right_b.gif" width="3" height="9" alt="" class="iconA01" />
+                            Glossary of Industrial Automation 
+                        </a>
+                    </li>
+
+                </ul>
+            </li>
+        </ul>
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- /.related-info-blockA01 -->
+</div>
+
+
+
+                           
+                        </div>
+                        <!-- === /[utility-area] === -->
+
+                    </div>
+                    <!-- === /[upper-contents-area] === -->
+
+                    <!-- === [primary-contents-area] === -->
+                    <div class="primary-contents-area">
+                        <div class="tabpanel-blockA01">
+
+
+
+
+
+
+<div class="tab-block">
+    <ul class="tabs">
+
+
+
+
+
+
+
+        <li>
+            <a href="feature.html">Features</a>
+
+        </li>
+
+
+
+
+
+
+
+
+        <li>
+            <a href="lineup.html">Lineup</a>
+
+        </li>
+
+
+
+
+
+
+
+
+        <li class="active">
+            <span>Specifications</span>
+
+        </li>
+
+
+
+
+
+
+
+
+        <li>
+            <a href="dimension.html">Dimensions</a>
+
+        </li>
+
+
+
+
+
+
+        <li>
+            <a href="download/catalog.html">Catalog</a>
+
+        </li>
+
+
+
+
+
+    </ul>
+</div><!-- /.tab-block -->
+
+<div class="editable-block">
+
+
+<p class="date-line">last update: October 11, 2016</p>
+
+
+
+
+
+
+
+
+
+<h4 class="heading-A02">General Specification</h4>
+
+
+
+
+
+
+
+
+
+
+<div class="component-blockA01">
+
+
+
+
+
+    <div class="text">
+        <p>
+            
+          <div class="table-blockA01">
+							<table class="tableA01" cellspacing="0" border="0">
+								<tr class="first-child">
+									<th colspan="2" rowspan="1" class="heading center middle"><strong>Item</strong></th>
+									<th class="heading center middle"><strong>Specification</strong></th>
+								</tr>
+								<tr>
+									<th colspan="2" rowspan="1" class="heading left middle"><strong>Enclosure</strong></th>
+									<td class="left middle">Mounted in a panel</td>
+								</tr>
+								<tr>
+									<th colspan="2" rowspan="1" class="heading left middle"><strong>Grounding method</strong></th>
+									<td class="left middle">Ground to 100 Ω or less</td>
+								</tr>
+								<tr>
+									<th colspan="1" rowspan="11" class="heading left middle"><strong>Operating
+<br />
+environment</strong></th>
+									<th class="heading left middle"><strong>Ambient operating
+<br />
+temperature</strong></th>
+									<td class="left middle">0 to 55°C</td>
+								</tr>
+								<tr>
+									<th class="heading left middle"><strong>Ambient operating
+<br />
+humidity</strong></th>
+									<td class="left middle">10% to 95% (with no condensation or icing)</td>
+								</tr>
+								<tr>
+									<th class="heading left middle"><strong>Atmosphere</strong></th>
+									<td class="left middle">Must be free from corrosive gases.</td>
+								</tr>
+								<tr>
+									<th class="heading left middle"><strong>Ambient storage
+<br />
+temperature</strong></th>
+									<td class="left middle">-25 to 70°C (with no condensation or icing)</td>
+								</tr>
+								<tr>
+									<th class="heading left middle"><strong>Altitude</strong></th>
+									<td class="left middle">2,000 m max.</td>
+								</tr>
+								<tr>
+									<th class="heading left middle"><strong>Pollution degree</strong></th>
+									<td class="left middle">2 or less: Conforms to JIS B3502 and IEC 61131-2.</td>
+								</tr>
+								<tr>
+									<th class="heading left middle"><strong>Noise immunity</strong></th>
+									<td class="left middle">2 kV on power supply line (Conforms to IEC61000-4-4.)</td>
+								</tr>
+								<tr>
+									<th class="heading left middle"><strong>Overvoltage category</strong></th>
+									<td class="left middle">Category II: Conforms to JIS B3502 and IEC 61131-2.</td>
+								</tr>
+								<tr>
+									<th class="heading left middle"><strong>EMC immunity level</strong></th>
+									<td class="left middle">Zone B</td>
+								</tr>
+								<tr>
+									<th class="heading left middle"><strong>Vibration resistance</strong></th>
+									<td class="left middle">Conforms to IEC 60068-2-6.
+<br />
+5 to 8.4 Hz with 3.5-mm amplitude, 8.4 to 150 Hz, acceleration of 9.8 m/s<sup>2</sup>,
+<br />
+100 min each in X, Y, and Z directions
+<br />
+(10 sweeps of 10 min each = 100 min total)</td>
+								</tr>
+								<tr>
+									<th class="heading left middle"><strong>Shock resistance</strong></th>
+									<td class="left middle">Conforms to IEC 60068-2-27. 147 m/s<sup>2</sup>, 3 times each in X, Y, and Z directions</td>
+								</tr>
+								<tr>
+									<th colspan="2" rowspan="1" class="heading left middle"><strong>Applicable standards *</strong></th>
+									<td class="left middle">cULus: Listed (UL508), ANSI/ISA 12.12.01, EU: EN 61131-2, C-Tick or RCM,
+<br />
+KC Registration, NK, LR</td>
+								</tr>
+							</table>
+						</div>
+        
+        </p>
+    </div>
+
+
+
+
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="component-blockA01">
+
+
+
+
+
+    <div class="text">
+        <p>
+            * Ask your OMRON representative for the most recent applicable standards for each model.
+        </p>
+    </div>
+
+
+
+
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<h4 class="heading-A02">Temperature Input Unit Specifications</h4>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<h4 class="heading-A03">Temperature Input Unit (Thermocouple Input type) 2 points NX-TS2101</h4>
+
+
+
+
+
+
+
+
+
+<div class="component-blockA01">
+
+
+
+
+
+    <div class="text">
+        <p>
+            
+          <div class="table-blockA01">
+							<table class="tableA01" cellspacing="0" border="0">
+								<tbody>
+									<tr class="first-child">
+										<th class="heading left middle"><strong>Unit name</strong></th>
+										<td class="left middle">Temperature Input Unit
+<br />
+(thermocouple input type)</td>
+										<th class="heading left middle"><strong>Model</strong></th>
+										<td class="left middle">NX-TS2101</td>
+									</tr>
+									<tr>
+										<th class="heading left middle"><strong>Number of points</strong></th>
+										<td class="left middle">2 points</td>
+										<th class="heading left middle"><strong>External connection
+<br />
+terminals</strong></th>
+										<td class="left middle">Screwless clamping terminal block (16
+<br />
+terminals)</td>
+									</tr>
+									<tr>
+										<th class="heading left middle"><strong>I/O refreshing
+<br />
+method</strong></th>
+										<td colspan="3" rowspan="1" class="left middle">Free-Run refreshing</td>
+									</tr>
+									<tr>
+										<th colspan="1" rowspan="9" class="heading left middle"><strong>Indicator</strong></th>
+										<td colspan="1" rowspan="9" class="left top">TS indicator
+<br />
+											<img src="../../../images/3189_sp_2_113-172491.gif"  alt="3189_sp_2_1" title="3189_sp_2_1" style="width: 70px; height: 87px;" /></td>
+										<th class="heading left middle"><strong>Temperature sensor</strong></th>
+										<td class="left middle">K, J, T, E, L, U, N, R, S, B, WRe5-26,
+<br />
+PLII</td>
+									</tr>
+									<tr>
+										<th class="heading left middle"><strong>Input conversion range</strong></th>
+										<td class="left middle">±20°C of the input range</td>
+									</tr>
+									<tr>
+										<th class="heading left middle"><strong>Absolute maximum
+<br />
+rating</strong></th>
+										<td class="left middle">±130 mV</td>
+									</tr>
+									<tr>
+										<th class="heading left middle"><strong>Input impedance</strong></th>
+										<td class="left middle">20 kΩ min.</td>
+									</tr>
+									<tr>
+										<th class="heading left middle"><strong>Resolution</strong></th>
+										<td class="left middle">0.1°C max. *1</td>
+									</tr>
+									<tr>
+										<th class="heading left middle"><strong>Reference accuracy</strong></th>
+										<td class="left middle">*2</td>
+									</tr>
+									<tr>
+										<th class="heading left middle"><strong>Temperature
+<br />
+coefficient</strong></th>
+										<td class="left middle">*2</td>
+									</tr>
+									<tr>
+										<th class="heading left middle"><strong>Cold junction
+<br />
+compensation error</strong></th>
+										<td class="left middle">±1.2°C *3 *4</td>
+									</tr>
+									<tr>
+										<th class="heading left middle"><strong>Input disconnection
+<br />
+detection current</strong></th>
+										<td class="left middle">Approx. 0.1 μA</td>
+									</tr>
+									<tr>
+										<th class="heading left middle"><strong>Warm-up period</strong></th>
+										<td class="left middle">30 minutes</td>
+										<th class="heading left middle"><strong>Conversion time</strong></th>
+										<td class="left middle">250 ms/Unit</td>
+									</tr>
+									<tr>
+										<th class="heading left middle"><strong>Dimensions</strong></th>
+										<td class="left middle">12 (W) x 100 (H) x 71 (D)</td>
+										<th class="heading left middle"><strong>Isolation method</strong></th>
+										<td class="left middle">Between the input and the NX bus:
+<br />
+Power = Transformer, Signal =
+<br />
+Photocoupler
+<br />
+Between inputs: Power = Transformer,
+<br />
+Signal = Photocoupler</td>
+									</tr>
+									<tr>
+										<th class="heading left middle"><strong>Insulation
+<br />
+resistance</strong></th>
+										<td class="left middle">20 MΩ min. between isolated
+<br />
+circuits (at 100 VDC)</td>
+										<th class="heading left middle"><strong>Dielectric strength</strong></th>
+										<td class="left middle">510 VAC between isolated circuits for
+<br />
+1 minute at a leakage current of 5 mA
+<br />
+max.</td>
+									</tr>
+									<tr>
+										<th class="heading left middle"><strong>I/O power supply
+<br />
+method</strong></th>
+										<td class="left middle">No supply</td>
+										<th class="heading left middle"><strong>Current capacity of
+<br />
+I/O power supply
+<br />
+terminal</strong></th>
+										<td class="left middle">Without I/O power supply terminals</td>
+									</tr>
+									<tr>
+										<th class="heading left middle"><strong>NX Unit power
+<br />
+consumption</strong></th>
+										<td class="left middle">• Connected to a CPU Unit
+<br />
+1.25 W max.
+<br />
+• Connected to a Communi-
+<br />
+cations Coupler Unit
+<br />
+0.90 W max.</td>
+										<th class="heading left middle"><strong>Current consumption
+<br />
+from I/O power supply</strong></th>
+										<td class="left middle">No consumption</td>
+									</tr>
+									<tr>
+										<th class="heading left middle"><strong>Weight</strong></th>
+										<td colspan="3" rowspan="1" class="left middle">70 g max.</td>
+									</tr>
+									<tr>
+										<th class="heading left middle"><strong>Installation
+<br />
+orientation and
+<br />
+restrictions</strong></th>
+										<td colspan="3" rowspan="1" class="left middle">Installation orientation:
+<br />
+• Connected to a CPU Unit: Possible in upright installation.
+<br />
+• Connected to a Communications Coupler Unit: Possible in 6 orientations.
+<br />
+Restrictions:
+<br />
+The cold junction compensation error is restricted according to the installation orientation and the
+<br />
+power consumption of adjacent Units. Refer to Cold Junction Compensation Error Specifications for
+<br />
+Units That Take a Thermocouple Input Type.</td>
+									</tr>
+									<tr>
+										<th class="heading left middle"><strong>Terminal
+<br />
+connection
+<br />
+diagram</strong></th>
+										<td colspan="3" rowspan="1" class="left middle"><img src="../../../images/3189_sp_2_213-172493.gif"  alt="3189_sp_2_2" title="3189_sp_2_2" style="width: 234px; height: 176px;" /></td>
+									</tr>
+								</tbody>
+							</table>
+						</div>
+        
+        </p>
+    </div>
+
+
+
+
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="component-blockA01">
+
+
+
+
+
+    <div class="text">
+        <p>
+            
+						<div style="text-align: left;">*1. The resolution is 0.2°C max. when the input type is R, S, or W.
+<br />
+*2. Refer to Reference Accuracy and Temperature Coefficient According to the Input Type and Measurement
+<br />
+       Temperature.
+<br />
+*3. The overall accuracy is guaranteed for a set consisting of a cold junction sensor that is mounted on the terminal
+<br />
+       block and a Temperature Input Unit. Be sure to use the terminal block and the Temperature Input Unit together.
+<br />
+       A calibration control number is both displayed on the terminal block and the Unit. Make sure to return the terminal
+<br />
+       block (including a cold junction sensor mounted) and the Unit together for repair.
+<br />
+*4. Refer to Cold Junction Compensation Error Specifications for Units That Take a Thermocouple Input Type for the
+<br />
+       specifications for each set of operating conditions.</div>
+					
+        </p>
+    </div>
+
+
+
+
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<h4 class="heading-A03">Temperature Input Unit (Thermocouple Input type) 2 points NX-TS2102</h4>
+
+
+
+
+
+
+
+
+
+<div class="component-blockA01">
+
+
+
+
+
+    <div class="text">
+        <p>
+            
+          <div class="table-blockA01">
+							<table class="tableA01" cellspacing="0" border="0">
+								<tbody>
+									<tr class="first-child">
+										<th class="heading left middle"><strong>Unit name</strong></th>
+										<td class="left middle">Temperature Input Unit
+<br />
+(thermocouple input type)</td>
+										<th class="heading left middle"><strong>Model</strong></th>
+										<td class="left middle">NX-TS2102</td>
+									</tr>
+									<tr>
+										<th class="heading left middle"><strong>Number of points</strong></th>
+										<td class="left middle">2 points</td>
+										<th class="heading left middle"><strong>External connection
+<br />
+terminals</strong></th>
+										<td class="left middle">Screwless clamping terminal block (16
+<br />
+terminals)</td>
+									</tr>
+									<tr>
+										<th class="heading left middle"><strong>I/O refreshing
+<br />
+method</strong></th>
+										<td colspan="3" rowspan="1" class="left middle">Free-Run refreshing</td>
+									</tr>
+									<tr>
+										<th colspan="1" rowspan="9" class="heading left middle"><strong>Indicator</strong></th>
+										<td colspan="1" rowspan="9" class="left top">TS indicator
+<br />
+											<img src="../../../images/3189_sp_3_113-182877.gif"  alt="3189_sp_3_1" title="3189_sp_3_1" style="width: 69px; height: 85px;" /></td>
+										<th class="heading left middle"><strong>Temperature sensor</strong></th>
+										<td class="left middle">K, J, T, E, L, U, N, R, S, WRe5-26, PLII</td>
+									</tr>
+									<tr>
+										<th class="heading left middle"><strong>Input conversion range</strong></th>
+										<td class="left middle">±20°C of the input range</td>
+									</tr>
+									<tr>
+										<th class="heading left middle"><strong>Absolute maximum
+<br />
+rating</strong></th>
+										<td class="left middle">±130 mV</td>
+									</tr>
+									<tr>
+										<th class="heading left middle"><strong>Input impedance</strong></th>
+										<td class="left middle">20 kΩ min.</td>
+									</tr>
+									<tr>
+										<th class="heading left middle"><strong>Resolution</strong></th>
+										<td class="left middle">0.01°C max.</td>
+									</tr>
+									<tr>
+										<th class="heading left middle"><strong>Reference accuracy</strong></th>
+										<td class="left middle">*1</td>
+									</tr>
+									<tr>
+										<th class="heading left middle"><strong>Temperature
+<br />
+coefficient</strong></th>
+										<td class="left middle">*1</td>
+									</tr>
+									<tr>
+										<th class="heading left middle"><strong>Cold junction
+<br />
+compensation error</strong></th>
+										<td class="left middle">±1.2°C *2 *3</td>
+									</tr>
+									<tr>
+										<th class="heading left middle"><strong>Input disconnection
+<br />
+detection current</strong></th>
+										<td class="left middle">Approx. 0.1 μA</td>
+									</tr>
+									<tr>
+										<th class="heading left middle"><strong>Warm-up period</strong></th>
+										<td class="left middle">45 minutes</td>
+										<th class="heading left middle"><strong>Conversion time</strong></th>
+										<td class="left middle">10 ms/Unit</td>
+									</tr>
+									<tr>
+										<th class="heading left middle"><strong>Dimensions</strong></th>
+										<td class="left middle">12 (W) x 100 (H) x 71 (D)</td>
+										<th class="heading left middle"><strong>Isolation method</strong></th>
+										<td class="left middle">Between the input and the NX bus:
+<br />
+Power = Transformer, Signal = Digital
+<br />
+isolator
+<br />
+Between inputs: Power = Transformer,
+<br />
+Signal = Digital isolator</td>
+									</tr>
+									<tr>
+										<th class="heading left middle"><strong>Insulation
+<br />
+resistance</strong></th>
+										<td class="left middle">20 MΩ min. between isolated
+<br />
+circuits (at 100 VDC)</td>
+										<th class="heading left middle"><strong>Dielectric strength</strong></th>
+										<td class="left middle">510 VAC between isolated circuits for
+<br />
+1 minute at a leakage current of 5 mA
+<br />
+max.</td>
+									</tr>
+									<tr>
+										<th class="heading left middle"><strong>I/O power supply
+<br />
+method</strong></th>
+										<td class="left middle">No supply</td>
+										<th class="heading left middle"><strong>Current capacity of
+<br />
+I/O power supply
+<br />
+terminal</strong></th>
+										<td class="left middle">Without I/O power supply terminals</td>
+									</tr>
+									<tr>
+										<th class="heading left middle"><strong>NX Unit power
+<br />
+consumption</strong></th>
+										<td class="left middle">• Connected to a CPU Unit
+<br />
+1.15 W max.
+<br />
+• Connected to a Communi-
+<br />
+cations Coupler Unit
+<br />
+0.80 W max.</td>
+										<th class="heading left middle"><strong>Current consumption
+<br />
+from I/O power supply</strong></th>
+										<td class="left middle">No consumption</td>
+									</tr>
+									<tr>
+										<th class="heading left middle"><strong>Weight</strong></th>
+										<td colspan="3" rowspan="1" class="left middle">70 g max.</td>
+									</tr>
+									<tr>
+										<th class="heading left middle"><strong>Installation
+<br />
+orientation and
+<br />
+restrictions</strong></th>
+										<td colspan="3" rowspan="1" class="left middle">Installation orientation:
+<br />
+• Connected to a CPU Unit: Possible in upright installation.
+<br />
+• Connected to a Communications Coupler Unit: Possible in 6 orientations.
+<br />
+Restrictions:
+<br />
+The cold junction compensation error is restricted according to the installation orientation and the
+<br />
+power consumption of adjacent Units. Refer to Cold Junction Compensation Error Specifications for
+<br />
+Units That Take a Thermocouple Input Type.</td>
+									</tr>
+									<tr>
+										<th class="heading left middle"><strong>Terminal
+<br />
+connection
+<br />
+diagram</strong></th>
+										<td colspan="3" rowspan="1" class="left middle"><img src="../../../images/3189_sp_3_213-182878.gif"  alt="3189_sp_3_2" title="3189_sp_3_2" style="width: 235px; height: 175px;" /></td>
+									</tr>
+								</tbody>
+							</table>
+						</div>
+        
+        </p>
+    </div>
+
+
+
+
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="component-blockA01">
+
+
+
+
+
+    <div class="text">
+        <p>
+            
+						<div style="text-align: left;">*1. Refer to Reference Accuracy and Temperature Coefficient According to the Input Type and Measurement
+<br />
+       Temperature.
+<br />
+*2. The overall accuracy is guaranteed for a set consisting of a cold junction sensor that is mounted on the terminal
+<br />
+       block and a Temperature Input Unit. Be sure to use the terminal block and the Temperature Input Unit together.
+<br />
+       A calibration control number is both displayed on the terminal block and the Unit. Make sure to return the terminal
+<br />
+       block (including a cold junction sensor mounted) and the Unit together for repair.
+<br />
+*3. Refer to Cold Junction Compensation Error Specifications for Units That Take a Thermocouple Input Type for the
+<br />
+       specifications for each set of operating conditions.</div>
+					
+        </p>
+    </div>
+
+
+
+
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<h4 class="heading-A03">Temperature Input Unit (Thermocouple Input type) 2 points NX-TS2104</h4>
+
+
+
+
+
+
+
+
+
+<div class="component-blockA01">
+
+
+
+
+
+    <div class="text">
+        <p>
+            
+          <div class="table-blockA01">
+							<table class="tableA01" cellspacing="0" border="0">
+								<tbody>
+									<tr class="first-child">
+										<th class="heading left middle"><strong>Unit name</strong></th>
+										<td class="left middle">Temperature Input Unit
+<br />
+(thermocouple input type)</td>
+										<th class="heading left middle"><strong>Model</strong></th>
+										<td class="left middle">NX-TS2104</td>
+									</tr>
+									<tr>
+										<th class="heading left middle"><strong>Number of points</strong></th>
+										<td class="left middle">2 points</td>
+										<th class="heading left middle"><strong>External connection
+<br />
+terminals</strong></th>
+										<td class="left middle">Screwless clamping terminal block (16
+<br />
+terminals)</td>
+									</tr>
+									<tr>
+										<th class="heading left middle"><strong>I/O refreshing
+<br />
+method</strong></th>
+										<td colspan="3" rowspan="1" class="left middle">Free-Run refreshing</td>
+									</tr>
+									<tr>
+										<th colspan="1" rowspan="9" class="heading left middle"><strong>Indicator</strong></th>
+										<td colspan="1" rowspan="9" class="left top">TS indicator
+<br />
+											<img src="../../../images/3189_sp_4_113-182879.gif"  alt="3189_sp_4_1" title="3189_sp_4_1" style="width: 68px; height: 85px;" /></td>
+										<th class="heading left middle"><strong>Temperature sensor</strong></th>
+										<td class="left middle">K, J, T, E, L, U, N, R, S, WRe5-26, PLII</td>
+									</tr>
+									<tr>
+										<th class="heading left middle"><strong>Input conversion range</strong></th>
+										<td class="left middle">±20°C of the input range</td>
+									</tr>
+									<tr>
+										<th class="heading left middle"><strong>Absolute maximum
+<br />
+rating</strong></th>
+										<td class="left middle">±130 mV</td>
+									</tr>
+									<tr>
+										<th class="heading left middle"><strong>Input impedance</strong></th>
+										<td class="left middle">20 kΩ min.</td>
+									</tr>
+									<tr>
+										<th class="heading left middle"><strong>Resolution</strong></th>
+										<td class="left middle">0.001°C max.</td>
+									</tr>
+									<tr>
+										<th class="heading left middle"><strong>Reference accuracy</strong></th>
+										<td class="left middle">*1</td>
+									</tr>
+									<tr>
+										<th class="heading left middle"><strong>Temperature
+<br />
+coefficient</strong></th>
+										<td class="left middle">*1</td>
+									</tr>
+									<tr>
+										<th class="heading left middle"><strong>Cold junction
+<br />
+compensation error</strong></th>
+										<td class="left middle">±1.2°C *2 *3</td>
+									</tr>
+									<tr>
+										<th class="heading left middle"><strong>Input disconnection
+<br />
+detection current</strong></th>
+										<td class="left middle">Approx. 0.1 μA</td>
+									</tr>
+									<tr>
+										<th class="heading left middle"><strong>Warm-up period</strong></th>
+										<td class="left middle">45 minutes</td>
+										<th class="heading left middle"><strong>Conversion time</strong></th>
+										<td class="left middle">60 ms/Unit</td>
+									</tr>
+									<tr>
+										<th class="heading left middle"><strong>Dimensions</strong></th>
+										<td class="left middle">12 (W) x 100 (H) x 71 (D)</td>
+										<th class="heading left middle"><strong>Isolation method</strong></th>
+										<td class="left middle">Between the input and the NX bus:
+<br />
+Power = Transformer, Signal = Digital
+<br />
+isolator
+<br />
+Between inputs: Power = Transformer,
+<br />
+Signal = Digital isolator</td>
+									</tr>
+									<tr>
+										<th class="heading left middle"><strong>Insulation
+<br />
+resistance</strong></th>
+										<td class="left middle">20 MΩ min. between isolated
+<br />
+circuits (at 100 VDC)</td>
+										<th class="heading left middle"><strong>Dielectric strength</strong></th>
+										<td class="left middle">510 VAC between isolated circuits for
+<br />
+1 minute at a leakage current of 5 mA
+<br />
+max.</td>
+									</tr>
+									<tr>
+										<th class="heading left middle"><strong>I/O power supply
+<br />
+method</strong></th>
+										<td class="left middle">No supply</td>
+										<th class="heading left middle"><strong>Current capacity of
+<br />
+I/O power supply
+<br />
+terminal</strong></th>
+										<td class="left middle">Without I/O power supply terminals</td>
+									</tr>
+									<tr>
+										<th class="heading left middle"><strong>NX Unit power
+<br />
+consumption</strong></th>
+										<td class="left middle">• Connected to a CPU Unit
+<br />
+0.95 W max.
+<br />
+• Connected to a Communi-
+<br />
+cations Coupler Unit
+<br />
+0.80 W max.</td>
+										<th class="heading left middle"><strong>Current consumption
+<br />
+from I/O power supply</strong></th>
+										<td class="left middle">No consumption</td>
+									</tr>
+									<tr>
+										<th class="heading left middle"><strong>Weight</strong></th>
+										<td colspan="3" rowspan="1" class="left middle">70 g max.</td>
+									</tr>
+									<tr>
+										<th class="heading left middle"><strong>Installation
+<br />
+orientation and
+<br />
+restrictions</strong></th>
+										<td colspan="3" rowspan="1" class="left middle">Installation orientation:
+<br />
+• Connected to a CPU Unit: Possible in upright installation.
+<br />
+• Connected to a Communications Coupler Unit: Possible in 6 orientations.
+<br />
+Restrictions:
+<br />
+The cold junction compensation error is restricted according to the installation orientation and the
+<br />
+power consumption of adjacent Units. Refer to Cold Junction Compensation Error Specifications for
+<br />
+Units That Take a Thermocouple Input Type.</td>
+									</tr>
+									<tr>
+										<th class="heading left middle"><strong>Terminal
+<br />
+connection
+<br />
+diagram</strong></th>
+										<td colspan="3" rowspan="1" class="left middle"><img src="../../../images/3189_sp_4_213-182880.gif"  alt="3189_sp_4_2" title="3189_sp_4_2" style="width: 235px; height: 175px;" /></td>
+									</tr>
+								</tbody>
+							</table>
+						</div>
+        
+        </p>
+    </div>
+
+
+
+
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="component-blockA01">
+
+
+
+
+
+    <div class="text">
+        <p>
+            
+						<div style="text-align: left;">*1. Refer to Reference Accuracy and Temperature Coefficient According to the Input Type and Measurement
+<br />
+       Temperature.
+<br />
+*2. The overall accuracy is guaranteed for a set consisting of a cold junction sensor that is mounted on the terminal
+<br />
+       block and a Temperature Input Unit. Be sure to use the terminal block and the Temperature Input Unit together.
+<br />
+       A calibration control number is both displayed on the terminal block and the Unit. Make sure to return the terminal
+<br />
+       block (including a cold junction sensor mounted) and the Unit together for repair.
+<br />
+*3. Refer to Cold Junction Compensation Error Specifications for Units That Take a Thermocouple Input Type for the
+<br />
+       specifications for each set of operating conditions.</div>
+					
+        </p>
+    </div>
+
+
+
+
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<h4 class="heading-A03">Temperature Input Unit (Resistance Thermometer Input type) 2 points NX-TS2201</h4>
+
+
+
+
+
+
+
+
+
+<div class="component-blockA01">
+
+
+
+
+
+    <div class="text">
+        <p>
+            
+          <div class="table-blockA01">
+							<table class="tableA01" cellspacing="0" border="0">
+								<tbody>
+									<tr class="first-child">
+										<th class="heading left middle"><strong>Unit name</strong></th>
+										<td class="left middle">Temperature Input Unit
+<br />
+(resistance thermometer
+<br />
+input type)</td>
+										<th class="heading left middle"><strong>Model</strong></th>
+										<td class="left middle">NX-TS2201</td>
+									</tr>
+									<tr>
+										<th class="heading left middle"><strong>Number of points</strong></th>
+										<td class="left middle">2 points</td>
+										<th class="heading left middle"><strong>External connection
+<br />
+terminals</strong></th>
+										<td class="left middle">Screwless clamping terminal block (16
+<br />
+terminals)</td>
+									</tr>
+									<tr>
+										<th class="heading left middle"><strong>I/O refreshing
+<br />
+method</strong></th>
+										<td colspan="3" rowspan="1" class="left middle">Free-Run refreshing</td>
+									</tr>
+									<tr>
+										<th colspan="1" rowspan="7" class="heading left middle"><strong>Indicator</strong></th>
+										<td colspan="1" rowspan="7" class="left top">TS indicator
+<br />
+											<img src="../../../images/3189_sp_5_113-178156.gif"  alt="3189_sp_5_1" title="3189_sp_5_1" style="width: 69px; height: 86px;" /></td>
+										<th class="heading left middle"><strong>Temperature sensor</strong></th>
+										<td class="left middle">Pt100 (three-wire)/Pt1000 (three-wire)</td>
+									</tr>
+									<tr>
+										<th class="heading left middle"><strong>Input conversion range</strong></th>
+										<td class="left middle">±20°C of the input range</td>
+									</tr>
+									<tr>
+										<th class="heading left middle"><strong>Input detection current</strong></th>
+										<td class="left middle">Approx. 0.25 mA</td>
+									</tr>
+									<tr>
+										<th class="heading left middle"><strong>Resolution</strong></th>
+										<td class="left middle">0.1°C max.</td>
+									</tr>
+									<tr>
+										<th class="heading left middle"><strong>Reference accuracy</strong></th>
+										<td class="left middle">*</td>
+									</tr>
+									<tr>
+										<th class="heading left middle"><strong>Temperature
+<br />
+coefficient</strong></th>
+										<td class="left middle">*</td>
+									</tr>
+									<tr>
+										<th class="heading left middle"><strong>Effect of conductor
+<br />
+resistance</strong></th>
+										<td class="left middle">0.06°C/Ω max. (also 20 Ω max.)</td>
+									</tr>
+									<tr>
+										<th class="heading left middle"><strong>Warm-up period</strong></th>
+										<td class="left middle">10 minutes</td>
+										<th class="heading left middle"><strong>Conversion time</strong></th>
+										<td class="left middle">250 ms/Unit</td>
+									</tr>
+									<tr>
+										<th class="heading left middle"><strong>Dimensions</strong></th>
+										<td class="left middle">12 (W) x 100 (H) x 71 (D)</td>
+										<th class="heading left middle"><strong>Isolation method</strong></th>
+										<td class="left middle">Between the input and the NX bus:
+<br />
+Power = Transformer, Signal =
+<br />
+Photocoupler
+<br />
+Between inputs: Power = Transformer,
+<br />
+Signal = Photocoupler</td>
+									</tr>
+									<tr>
+										<th class="heading left middle"><strong>Insulation
+<br />
+resistance</strong></th>
+										<td class="left middle">20 MΩ min. between isolated
+<br />
+circuits (at 100 VDC)</td>
+										<th class="heading left middle"><strong>Dielectric strength</strong></th>
+										<td class="left middle">510 VAC between isolated circuits for
+<br />
+1 minute at a leakage current of 5 mA
+<br />
+max.</td>
+									</tr>
+									<tr>
+										<th class="heading left middle"><strong>I/O power supply
+<br />
+method</strong></th>
+										<td class="left middle">No supply</td>
+										<th class="heading left middle"><strong>Current capacity of
+<br />
+I/O power supply
+<br />
+terminal</strong></th>
+										<td class="left middle">Without I/O power supply terminals</td>
+									</tr>
+									<tr>
+										<th class="heading left middle"><strong>NX Unit power
+<br />
+consumption</strong></th>
+										<td class="left middle">• Connected to a CPU Unit
+<br />
+1.25 W max.
+<br />
+• Connected to a Communi-
+<br />
+cations Coupler Unit
+<br />
+0.90 W max.</td>
+										<th class="heading left middle"><strong>Current consumption
+<br />
+from I/O power supply</strong></th>
+										<td class="left middle">No consumption</td>
+									</tr>
+									<tr>
+										<th class="heading left middle"><strong>Weight</strong></th>
+										<td colspan="3" rowspan="1" class="left middle">70 g max.</td>
+									</tr>
+									<tr>
+										<th class="heading left middle"><strong>Installation
+<br />
+orientation
+<br />
+and restrictions</strong></th>
+										<td colspan="3" rowspan="1" class="left middle">Installation orientation:
+<br />
+• Connected to a CPU Unit: Possible in upright installation.
+<br />
+• Connected to a Communications Coupler Unit: Possible in 6 orientations.
+<br />
+Restrictions: No restrictions</td>
+									</tr>
+									<tr>
+										<th class="heading left middle"><strong>Terminal
+<br />
+connection
+<br />
+diagram</strong></th>
+										<td colspan="3" rowspan="1" class="left middle"><img src="../../../images/3189_sp_5_213-178157.gif"  alt="3189_sp_5_2" title="3189_sp_5_2" style="width: 330px; height: 210px;" /></td>
+									</tr>
+								</tbody>
+							</table>
+						</div>
+        
+        </p>
+    </div>
+
+
+
+
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="component-blockA01">
+
+
+
+
+
+    <div class="text">
+        <p>
+            * Refer to Reference accuracy and temperature coefficient according to the input type and measurement temperature.
+        </p>
+    </div>
+
+
+
+
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<h4 class="heading-A03">Temperature Input Unit (Resistance Thermometer Input type) 2 points NX-TS2202</h4>
+
+
+
+
+
+
+
+
+
+<div class="component-blockA01">
+
+
+
+
+
+    <div class="text">
+        <p>
+            
+          <div class="table-blockA01">
+							<table class="tableA01" cellspacing="0" border="0">
+								<tbody>
+									<tr class="first-child">
+										<th class="heading left middle"><strong>Unit name</strong></th>
+										<td class="left middle">Temperature Input Unit
+<br />
+(resistance thermometer
+<br />
+input type)</td>
+										<th class="heading left middle"><strong>Model</strong></th>
+										<td class="left middle">NX-TS2202</td>
+									</tr>
+									<tr>
+										<th class="heading left middle"><strong>Number of points</strong></th>
+										<td class="left middle">2 points</td>
+										<th class="heading left middle"><strong>External connection
+<br />
+terminals</strong></th>
+										<td class="left middle">Screwless clamping terminal block (16
+<br />
+terminals)</td>
+									</tr>
+									<tr>
+										<th class="heading left middle"><strong>I/O refreshing
+<br />
+method</strong></th>
+										<td colspan="3" rowspan="1" class="left middle">Free-Run refreshing</td>
+									</tr>
+									<tr>
+										<th colspan="1" rowspan="7" class="heading left middle"><strong>Indicator</strong></th>
+										<td colspan="1" rowspan="7" class="left top">TS indicator
+<br />
+											<img src="../../../images/3189_sp_6_113-182881.gif"  alt="3189_sp_6_1" title="3189_sp_6_1" style="width: 61px; height: 76px;" /></td>
+										<th class="heading left middle"><strong>Temperature sensor</strong></th>
+										<td class="left middle">Pt100 (three-wire)</td>
+									</tr>
+									<tr>
+										<th class="heading left middle"><strong>Input conversion range</strong></th>
+										<td class="left middle">±20°C of the input range</td>
+									</tr>
+									<tr>
+										<th class="heading left middle"><strong>Input detection current</strong></th>
+										<td class="left middle">Approx. 0.25 mA</td>
+									</tr>
+									<tr>
+										<th class="heading left middle"><strong>Resolution</strong></th>
+										<td class="left middle">0.01°C max.</td>
+									</tr>
+									<tr>
+										<th class="heading left middle"><strong>Reference accuracy</strong></th>
+										<td class="left middle">*</td>
+									</tr>
+									<tr>
+										<th class="heading left middle"><strong>Temperature
+<br />
+coefficient</strong></th>
+										<td class="left middle">*</td>
+									</tr>
+									<tr>
+										<th class="heading left middle"><strong>Effect of conductor
+<br />
+resistance</strong></th>
+										<td class="left middle">0.06°C/Ω max. (also 20 Ω max.)</td>
+									</tr>
+									<tr>
+										<th class="heading left middle"><strong>Warm-up period</strong></th>
+										<td class="left middle">30 minutes</td>
+										<th class="heading left middle"><strong>Conversion time</strong></th>
+										<td class="left middle">10 ms/Unit</td>
+									</tr>
+									<tr>
+										<th class="heading left middle"><strong>Dimensions</strong></th>
+										<td class="left middle">12 (W) x 100 (H) x 71 (D)</td>
+										<th class="heading left middle"><strong>Isolation method</strong></th>
+										<td class="left middle">Between the input and the NX bus:
+<br />
+Power = Transformer, Signal = Digital
+<br />
+isolator
+<br />
+Between inputs: Power = Transformer,
+<br />
+Signal = Digital isolator</td>
+									</tr>
+									<tr>
+										<th class="heading left middle"><strong>Insulation
+<br />
+resistance</strong></th>
+										<td class="left middle">20 MΩ min. between isolated
+<br />
+circuits (at 100 VDC)</td>
+										<th class="heading left middle"><strong>Dielectric strength</strong></th>
+										<td class="left middle">510 VAC between isolated circuits for
+<br />
+1 minute at a leakage current of 5 mA
+<br />
+max.</td>
+									</tr>
+									<tr>
+										<th class="heading left middle"><strong>I/O power supply
+<br />
+method</strong></th>
+										<td class="left middle">No supply</td>
+										<th class="heading left middle"><strong>Current capacity of
+<br />
+I/O power supply
+<br />
+terminal</strong></th>
+										<td class="left middle">Without I/O power supply terminals</td>
+									</tr>
+									<tr>
+										<th class="heading left middle"><strong>NX Unit power
+<br />
+consumption</strong></th>
+										<td class="left middle">• Connected to a CPU Unit
+<br />
+1.15 W max.
+<br />
+• Connected to a Communi-
+<br />
+cations Coupler Unit
+<br />
+0.75 W max.</td>
+										<th class="heading left middle"><strong>Current consumption
+<br />
+from I/O power supply</strong></th>
+										<td class="left middle">No consumption</td>
+									</tr>
+									<tr>
+										<th class="heading left middle"><strong>Weight</strong></th>
+										<td colspan="3" rowspan="1" class="left middle">70 g max.</td>
+									</tr>
+									<tr>
+										<th class="heading left middle"><strong>Installation
+<br />
+orientation
+<br />
+and restrictions</strong></th>
+										<td colspan="3" rowspan="1" class="left middle">Installation orientation:
+<br />
+• Connected to a CPU Unit: Possible in upright installation.
+<br />
+• Connected to a Communications Coupler Unit: Possible in 6 orientations.
+<br />
+Restrictions: No restrictions</td>
+									</tr>
+									<tr>
+										<th class="heading left middle"><strong>Terminal
+<br />
+connection
+<br />
+diagram</strong></th>
+										<td colspan="3" rowspan="1" class="left middle"><img src="../../../images/3189_sp_6_213-182882.gif"  alt="3189_sp_6_2" title="3189_sp_6_2" style="width: 273px; height: 176px;" /></td>
+									</tr>
+								</tbody>
+							</table>
+						</div>
+        
+        </p>
+    </div>
+
+
+
+
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="component-blockA01">
+
+
+
+
+
+    <div class="text">
+        <p>
+            * Refer to Reference accuracy and temperature coefficient according to the input type and measurement temperature.
+        </p>
+    </div>
+
+
+
+
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<h4 class="heading-A03">Temperature Input Unit (Resistance Thermometer Input type) 2 points NX-TS2204</h4>
+
+
+
+
+
+
+
+
+
+<div class="component-blockA01">
+
+
+
+
+
+    <div class="text">
+        <p>
+            
+          <div class="table-blockA01">
+							<table class="tableA01" cellspacing="0" border="0">
+								<tbody>
+									<tr class="first-child">
+										<th class="heading left middle"><strong>Unit name</strong></th>
+										<td class="left middle">Temperature Input Unit
+<br />
+(resistance thermometer
+<br />
+input type)</td>
+										<th class="heading left middle"><strong>Model</strong></th>
+										<td class="left middle">NX-TS2204</td>
+									</tr>
+									<tr>
+										<th class="heading left middle"><strong>Number of points</strong></th>
+										<td class="left middle">2 points</td>
+										<th class="heading left middle"><strong>External connection
+<br />
+terminals</strong></th>
+										<td class="left middle">Screwless clamping terminal block (16
+<br />
+terminals)</td>
+									</tr>
+									<tr>
+										<th class="heading left middle"><strong>I/O refreshing
+<br />
+method</strong></th>
+										<td colspan="3" rowspan="1" class="left middle">Free-Run refreshing</td>
+									</tr>
+									<tr>
+										<th colspan="1" rowspan="7" class="heading left middle"><strong>Indicator</strong></th>
+										<td colspan="1" rowspan="7" class="left top">TS indicator
+<br />
+											<img src="../../../images/3189_sp_7_113-182883.gif"  alt="3189_sp_7_1" title="3189_sp_7_1" style="width: 62px; height: 76px;" /></td>
+										<th class="heading left middle"><strong>Temperature sensor</strong></th>
+										<td class="left middle">Pt100 (three-wire)/Pt1000 (three-wire)</td>
+									</tr>
+									<tr>
+										<th class="heading left middle"><strong>Input conversion range</strong></th>
+										<td class="left middle">±20°C of the input range</td>
+									</tr>
+									<tr>
+										<th class="heading left middle"><strong>Input detection current</strong></th>
+										<td class="left middle">Approx. 0.25 mA</td>
+									</tr>
+									<tr>
+										<th class="heading left middle"><strong>Resolution</strong></th>
+										<td class="left middle">0.001°C max.</td>
+									</tr>
+									<tr>
+										<th class="heading left middle"><strong>Reference accuracy</strong></th>
+										<td class="left middle">*</td>
+									</tr>
+									<tr>
+										<th class="heading left middle"><strong>Temperature
+<br />
+coefficient</strong></th>
+										<td class="left middle">*</td>
+									</tr>
+									<tr>
+										<th class="heading left middle"><strong>Effect of conductor
+<br />
+resistance</strong></th>
+										<td class="left middle">0.06°C/Ω max. (also 20 Ω max.)</td>
+									</tr>
+									<tr>
+										<th class="heading left middle"><strong>Warm-up period</strong></th>
+										<td class="left middle">30 minutes</td>
+										<th class="heading left middle"><strong>Conversion time</strong></th>
+										<td class="left middle">60 ms/Unit</td>
+									</tr>
+									<tr>
+										<th class="heading left middle"><strong>Dimensions</strong></th>
+										<td class="left middle">12 (W) x 100 (H) x 71 (D)</td>
+										<th class="heading left middle"><strong>Isolation method</strong></th>
+										<td class="left middle">Between the input and the NX bus:
+<br />
+Power = Transformer, Signal = Digital
+<br />
+isolator
+<br />
+Between inputs: Power = Transformer,
+<br />
+Signal = Digital isolator</td>
+									</tr>
+									<tr>
+										<th class="heading left middle"><strong>Insulation
+<br />
+resistance</strong></th>
+										<td class="left middle">20 MΩ min. between isolated
+<br />
+circuits (at 100 VDC)</td>
+										<th class="heading left middle"><strong>Dielectric strength</strong></th>
+										<td class="left middle">510 VAC between isolated circuits for
+<br />
+1 minute at a leakage current of 5 mA
+<br />
+max.</td>
+									</tr>
+									<tr>
+										<th class="heading left middle"><strong>I/O power supply
+<br />
+method</strong></th>
+										<td class="left middle">No supply</td>
+										<th class="heading left middle"><strong>Current capacity of
+<br />
+I/O power supply
+<br />
+terminal</strong></th>
+										<td class="left middle">Without I/O power supply terminals</td>
+									</tr>
+									<tr>
+										<th class="heading left middle"><strong>NX Unit power
+<br />
+consumption</strong></th>
+										<td class="left middle">• Connected to a CPU Unit
+<br />
+0.90 W max.
+<br />
+• Connected to a Communi-
+<br />
+cations Coupler Unit
+<br />
+0.75 W max.</td>
+										<th class="heading left middle"><strong>Current consumption
+<br />
+from I/O power supply</strong></th>
+										<td class="left middle">No consumption</td>
+									</tr>
+									<tr>
+										<th class="heading left middle"><strong>Weight</strong></th>
+										<td colspan="3" rowspan="1" class="left middle">70 g max.</td>
+									</tr>
+									<tr>
+										<th class="heading left middle"><strong>Installation
+<br />
+orientation
+<br />
+and restrictions</strong></th>
+										<td colspan="3" rowspan="1" class="left middle">Installation orientation:
+<br />
+• Connected to a CPU Unit: Possible in upright installation.
+<br />
+• Connected to a Communications Coupler Unit: Possible in 6 orientations.
+<br />
+Restrictions: No restrictions</td>
+									</tr>
+									<tr>
+										<th class="heading left middle"><strong>Terminal
+<br />
+connection
+<br />
+diagram</strong></th>
+										<td colspan="3" rowspan="1" class="left middle"><img src="../../../images/3189_sp_7_213-182884.gif"  alt="3189_sp_7_2" title="3189_sp_7_2" style="width: 273px; height: 176px;" /></td>
+									</tr>
+								</tbody>
+							</table>
+						</div>
+        
+        </p>
+    </div>
+
+
+
+
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="component-blockA01">
+
+
+
+
+
+    <div class="text">
+        <p>
+            * Refer to Reference accuracy and temperature coefficient according to the input type and measurement temperature.
+        </p>
+    </div>
+
+
+
+
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<h4 class="heading-A03">Temperature Input Unit (Thermocouple Input type) 2 points NX-TS3101</h4>
+
+
+
+
+
+
+
+
+
+<div class="component-blockA01">
+
+
+
+
+
+    <div class="text">
+        <p>
+            
+          <div class="table-blockA01">
+							<table class="tableA01" cellspacing="0" border="0">
+								<tbody>
+									<tr class="first-child">
+										<th class="heading left middle"><strong>Unit name</strong></th>
+										<td class="left middle">Temperature Input Unit
+<br />
+(thermocouple input type)</td>
+										<th class="heading left middle"><strong>Model</strong></th>
+										<td class="left middle">NX-TS3101</td>
+									</tr>
+									<tr>
+										<th class="heading left middle"><strong>Number of points</strong></th>
+										<td class="left middle">4 points</td>
+										<th class="heading left middle"><strong>External connection
+<br />
+terminals</strong></th>
+										<td class="left middle">Screwless clamping terminal block
+<br />
+(16 terminals x 2)</td>
+									</tr>
+									<tr>
+										<th class="heading left middle"><strong>I/O refreshing
+<br />
+method</strong></th>
+										<td colspan="3" rowspan="1" class="left middle">Free-Run refreshing</td>
+									</tr>
+									<tr>
+										<th colspan="1" rowspan="9" class="heading left middle"><strong>Indicator</strong></th>
+										<td colspan="1" rowspan="9" class="left top">TS indicator
+<br />
+											<img src="../../../images/3189_sp_8_113-172494.gif"  alt="3189_sp_8_1" title="3189_sp_8_1" style="width: 136px; height: 85px;" /></td>
+										<th class="heading left middle"><strong>Temperature sensor</strong></th>
+										<td class="left middle">K, J, T, E, L, U, N, R, S, B, WRe5-26,
+<br />
+PLII</td>
+									</tr>
+									<tr>
+										<th class="heading left middle"><strong>Input conversion range</strong></th>
+										<td class="left middle">±20°C of the input range</td>
+									</tr>
+									<tr>
+										<th class="heading left middle"><strong>Absolute maximum
+<br />
+rating</strong></th>
+										<td class="left middle">±130 mV</td>
+									</tr>
+									<tr>
+										<th class="heading left middle"><strong>Input impedance</strong></th>
+										<td class="left middle">20 kΩ min.</td>
+									</tr>
+									<tr>
+										<th class="heading left middle"><strong>Resolution</strong></th>
+										<td class="left middle">0.1°C max. *1</td>
+									</tr>
+									<tr>
+										<th class="heading left middle"><strong>Reference accuracy</strong></th>
+										<td class="left middle">*2</td>
+									</tr>
+									<tr>
+										<th class="heading left middle"><strong>Temperature
+<br />
+coefficient</strong></th>
+										<td class="left middle">*2</td>
+									</tr>
+									<tr>
+										<th class="heading left middle"><strong>Cold junction
+<br />
+compensation error</strong></th>
+										<td class="left middle">±1.2°C *3 *4</td>
+									</tr>
+									<tr>
+										<th class="heading left middle"><strong>Input disconnection
+<br />
+detection current</strong></th>
+										<td class="left middle">Approx. 0.1μA</td>
+									</tr>
+									<tr>
+										<th class="heading left middle"><strong>Warm-up period</strong></th>
+										<td class="left middle">30 minutes</td>
+										<th class="heading left middle"><strong>Conversion time</strong></th>
+										<td class="left middle">250 ms/Unit</td>
+									</tr>
+									<tr>
+										<th class="heading left middle"><strong>Dimensions</strong></th>
+										<td class="left middle">24 (W) x 100 (H) x 71 (D)</td>
+										<th class="heading left middle"><strong>Isolation method</strong></th>
+										<td class="left middle">Between the input and the NX bus:
+<br />
+Power = Transformer, Signal =
+<br />
+Photocoupler
+<br />
+Between inputs: Power = Transformer,
+<br />
+Signal = Photocoupler</td>
+									</tr>
+									<tr>
+										<th class="heading left middle"><strong>Insulation
+<br />
+resistance</strong></th>
+										<td class="left middle">20 MΩ min. between isolated
+<br />
+circuits (at 100 VDC)</td>
+										<th class="heading left middle"><strong>Dielectric strength</strong></th>
+										<td class="left middle">510 VAC between isolated circuits for
+<br />
+1 minute at a leakage current of 5 mA
+<br />
+max.</td>
+									</tr>
+									<tr>
+										<th class="heading left middle"><strong>I/O power supply
+<br />
+method</strong></th>
+										<td class="left middle">No supply</td>
+										<th class="heading left middle"><strong>Current capacity of
+<br />
+I/O power supply
+<br />
+terminal</strong></th>
+										<td class="left middle">Without I/O power supply terminals</td>
+									</tr>
+									<tr>
+										<th class="heading left middle"><strong>NX Unit power
+<br />
+consumption</strong></th>
+										<td class="left middle">• Connected to a CPU Unit
+<br />
+1.75 W max.
+<br />
+• Connected to a Communi-
+<br />
+cations Coupler Unit
+<br />
+1.30 W max.</td>
+										<th class="heading left middle"><strong>Current consumption
+<br />
+from I/O power supply</strong></th>
+										<td class="left middle">No consumption</td>
+									</tr>
+									<tr>
+										<th class="heading left middle"><strong>Weight</strong></th>
+										<td colspan="3" rowspan="1" class="left middle">140 g max.</td>
+									</tr>
+									<tr>
+										<th class="heading left middle"><strong>Installation
+<br />
+orientation and
+<br />
+restrictions</strong></th>
+										<td colspan="3" rowspan="1" class="left middle">Installation orientation:
+<br />
+• Connected to a CPU Unit: Possible in upright installation.
+<br />
+• Connected to a Communications Coupler Unit: Possible in 6 orientations.
+<br />
+Restrictions:
+<br />
+The cold junction compensation error is restricted according to the installation orientation and the
+<br />
+power consumption of adjacent Units. Refer to Cold Junction Compensation Error Specifications for
+<br />
+Units That Take a Thermocouple Input Type.</td>
+									</tr>
+									<tr>
+										<th class="heading left middle"><strong>Terminal
+<br />
+connection
+<br />
+diagram</strong></th>
+										<td colspan="3" rowspan="1" class="left middle"><img src="../../../images/3189_sp_8_213-172495.gif"  alt="3189_sp_8_2" title="3189_sp_8_2" style="width: 310px; height: 177px;" /></td>
+									</tr>
+								</tbody>
+							</table>
+						</div>
+        
+        </p>
+    </div>
+
+
+
+
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="component-blockA01">
+
+
+
+
+
+    <div class="text">
+        <p>
+            
+						<div style="text-align: left;">*1. The resolution is 0.2°C max. when the input type is R, S, or W.
+<br />
+*2. Refer to Reference Accuracy and Temperature Coefficient According to the Input Type and Measurement
+<br />
+       Temperature.
+<br />
+*3. The overall accuracy is guaranteed for a set consisting of a cold junction sensor that is mounted on the terminal
+<br />
+       block and a Temperature Input Unit. Be sure to use the terminal block and the Temperature Input Unit together.
+<br />
+       A calibration control number is both displayed on the terminal block and the Unit. Make sure to return the terminal
+<br />
+       block (including a cold junction sensor mounted) and the Unit together for repair.
+<br />
+*4. Refer to Cold Junction Compensation Error Specifications for Units That Take a Thermocouple Input Type for the
+<br />
+       specifications for each set of operating conditions.</div>
+					
+        </p>
+    </div>
+
+
+
+
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<h4 class="heading-A03">Temperature Input Unit (Thermocouple Input type) 4 points NX-TS3102</h4>
+
+
+
+
+
+
+
+
+
+<div class="component-blockA01">
+
+
+
+
+
+    <div class="text">
+        <p>
+            
+          <div class="table-blockA01">
+							<table class="tableA01" cellspacing="0" border="0">
+								<tbody>
+									<tr class="first-child">
+										<th class="heading left middle"><strong>Unit name</strong></th>
+										<td class="left middle">Temperature Input Unit
+<br />
+(thermocouple input type)</td>
+										<th class="heading left middle"><strong>Model</strong></th>
+										<td class="left middle">NX-TS3102</td>
+									</tr>
+									<tr>
+										<th class="heading left middle"><strong>Number of points</strong></th>
+										<td class="left middle">4 points</td>
+										<th class="heading left middle"><strong>External connection
+<br />
+terminals</strong></th>
+										<td class="left middle">Screwless clamping terminal block
+<br />
+(16 terminals x 2)</td>
+									</tr>
+									<tr>
+										<th class="heading left middle"><strong>I/O refreshing
+<br />
+method</strong></th>
+										<td colspan="3" rowspan="1" class="left middle">Free-Run refreshing</td>
+									</tr>
+									<tr>
+										<th colspan="1" rowspan="9" class="heading left middle"><strong>Indicator</strong></th>
+										<td colspan="1" rowspan="9" class="left top">TS indicator
+<br />
+											<img src="../../../images/3189_sp_9_113-182885.gif"  alt="3189_sp_9_1" title="3189_sp_9_1" style="width: 136px; height: 85px;" /></td>
+										<th class="heading left middle"><strong>Temperature sensor</strong></th>
+										<td class="left middle">K, J, T, E, L, U, N, R, S, WRe5-26, PLII</td>
+									</tr>
+									<tr>
+										<th class="heading left middle"><strong>Input conversion range</strong></th>
+										<td class="left middle">±20°C of the input range</td>
+									</tr>
+									<tr>
+										<th class="heading left middle"><strong>Absolute maximum
+<br />
+rating</strong></th>
+										<td class="left middle">±130 mV</td>
+									</tr>
+									<tr>
+										<th class="heading left middle"><strong>Input impedance</strong></th>
+										<td class="left middle">20 kΩ min.</td>
+									</tr>
+									<tr>
+										<th class="heading left middle"><strong>Resolution</strong></th>
+										<td class="left middle">0.01°C max.</td>
+									</tr>
+									<tr>
+										<th class="heading left middle"><strong>Reference accuracy</strong></th>
+										<td class="left middle">*1</td>
+									</tr>
+									<tr>
+										<th class="heading left middle"><strong>Temperature
+<br />
+coefficient</strong></th>
+										<td class="left middle">*1</td>
+									</tr>
+									<tr>
+										<th class="heading left middle"><strong>Cold junction
+<br />
+compensation error</strong></th>
+										<td class="left middle">±1.2°C *2 *3</td>
+									</tr>
+									<tr>
+										<th class="heading left middle"><strong>Input disconnection
+<br />
+detection current</strong></th>
+										<td class="left middle">Approx. 0.1 μA</td>
+									</tr>
+									<tr>
+										<th class="heading left middle"><strong>Warm-up period</strong></th>
+										<td class="left middle">45 minutes</td>
+										<th class="heading left middle"><strong>Conversion time</strong></th>
+										<td class="left middle">10 ms/Unit</td>
+									</tr>
+									<tr>
+										<th class="heading left middle"><strong>Dimensions</strong></th>
+										<td class="left middle">24 (W) x 100 (H) x 71 (D)</td>
+										<th class="heading left middle"><strong>Isolation method</strong></th>
+										<td class="left middle">Between the input and the NX bus:
+<br />
+Power = Transformer, Signal = Digital
+<br />
+isolator
+<br />
+Between inputs: Power = Transformer,
+<br />
+Signal = Digital isolator</td>
+									</tr>
+									<tr>
+										<th class="heading left middle"><strong>Insulation
+<br />
+resistance</strong></th>
+										<td class="left middle">20 MΩ min. between isolated
+<br />
+circuits (at 100 VDC)</td>
+										<th class="heading left middle"><strong>Dielectric strength</strong></th>
+										<td class="left middle">510 VAC between isolated circuits for
+<br />
+1 minute at a leakage current of 5 mA
+<br />
+max.</td>
+									</tr>
+									<tr>
+										<th class="heading left middle"><strong>I/O power supply
+<br />
+method</strong></th>
+										<td class="left middle">No supply</td>
+										<th class="heading left middle"><strong>Current capacity of
+<br />
+I/O power supply
+<br />
+terminal</strong></th>
+										<td class="left middle">Without I/O power supply terminals</td>
+									</tr>
+									<tr>
+										<th class="heading left middle"><strong>NX Unit power
+<br />
+consumption</strong></th>
+										<td class="left middle">• Connected to a CPU Unit
+<br />
+1.55 W max.
+<br />
+• Connected to a Communi-
+<br />
+cations Coupler Unit
+<br />
+1.10 W max.</td>
+										<th class="heading left middle"><strong>Current consumption
+<br />
+from I/O power supply</strong></th>
+										<td class="left middle">No consumption</td>
+									</tr>
+									<tr>
+										<th class="heading left middle"><strong>Weight</strong></th>
+										<td colspan="3" rowspan="1" class="left middle">140 g max.</td>
+									</tr>
+									<tr>
+										<th class="heading left middle"><strong>Installation
+<br />
+orientation and
+<br />
+restrictions</strong></th>
+										<td colspan="3" rowspan="1" class="left middle">Installation orientation:
+<br />
+• Connected to a CPU Unit: Possible in upright installation.
+<br />
+• Connected to a Communications Coupler Unit: Possible in 6 orientations.
+<br />
+Restrictions:
+<br />
+The cold junction compensation error is restricted according to the installation orientation and the
+<br />
+power consumption of adjacent Units. Refer to Cold Junction Compensation Error Specifications for
+<br />
+Units That Take a Thermocouple Input Type.</td>
+									</tr>
+									<tr>
+										<th class="heading left middle"><strong>Terminal
+<br />
+connection
+<br />
+diagram</strong></th>
+										<td colspan="3" rowspan="1" class="left middle"><img src="../../../images/3189_sp_9_213-182870.gif"  alt="3189_sp_9_2" title="3189_sp_9_2" style="width: 312px; height: 177px;" /></td>
+									</tr>
+								</tbody>
+							</table>
+						</div>
+        
+        </p>
+    </div>
+
+
+
+
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="component-blockA01">
+
+
+
+
+
+    <div class="text">
+        <p>
+            
+						<div style="text-align: left;">*1. Refer to Reference Accuracy and Temperature Coefficient According to the Input Type and Measurement
+<br />
+       Temperature.
+<br />
+*2. The overall accuracy is guaranteed for a set consisting of a cold junction sensor that is mounted on the terminal
+<br />
+       block and a Temperature Input Unit. Be sure to use the terminal block and the Temperature Input Unit together.
+<br />
+       A calibration control number is both displayed on the terminal block and the Unit. Make sure to return the terminal
+<br />
+       block (including a cold junction sensor mounted) and the Unit together for repair.
+<br />
+*3. Refer to Cold Junction Compensation Error Specifications for Units That Take a Thermocouple Input Type for the
+<br />
+       specifications for each set of operating conditions.</div>
+					
+        </p>
+    </div>
+
+
+
+
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<h4 class="heading-A03">Temperature Input Unit (Thermocouple Input type) 4 points NX-TS3104</h4>
+
+
+
+
+
+
+
+
+
+<div class="component-blockA01">
+
+
+
+
+
+    <div class="text">
+        <p>
+            
+          <div class="table-blockA01">
+							<table class="tableA01" cellspacing="0" border="0">
+								<tbody>
+									<tr class="first-child">
+										<th class="heading left middle"><strong>Unit name</strong></th>
+										<td class="left middle">Temperature Input Unit
+<br />
+(thermocouple input type)</td>
+										<th class="heading left middle"><strong>Model</strong></th>
+										<td class="left middle">NX-TS3104</td>
+									</tr>
+									<tr>
+										<th class="heading left middle"><strong>Number of points</strong></th>
+										<td class="left middle">4 points</td>
+										<th class="heading left middle"><strong>External connection
+<br />
+terminals</strong></th>
+										<td class="left middle">Screwless clamping terminal block
+<br />
+(16 terminals x 2)</td>
+									</tr>
+									<tr>
+										<th class="heading left middle"><strong>I/O refreshing
+<br />
+method</strong></th>
+										<td colspan="3" rowspan="1" class="left middle">Free-Run refreshing</td>
+									</tr>
+									<tr>
+										<th colspan="1" rowspan="9" class="heading left middle"><strong>Indicator</strong></th>
+										<td colspan="1" rowspan="9" class="left top">TS indicator
+<br />
+											<img src="../../../images/3189_sp_10_113-182871.gif"  alt="3189_sp_10_1" title="3189_sp_10_1" style="width: 136px; height: 85px;" /></td>
+										<th class="heading left middle"><strong>Temperature sensor</strong></th>
+										<td class="left middle">K, J, T, E, L, U, N, R, S, WRe5-26, PLII</td>
+									</tr>
+									<tr>
+										<th class="heading left middle"><strong>Input conversion range</strong></th>
+										<td class="left middle">±20°C of the input range</td>
+									</tr>
+									<tr>
+										<th class="heading left middle"><strong>Absolute maximum
+<br />
+rating</strong></th>
+										<td class="left middle">±130 mV</td>
+									</tr>
+									<tr>
+										<th class="heading left middle"><strong>Input impedance</strong></th>
+										<td class="left middle">20 kΩ min.</td>
+									</tr>
+									<tr>
+										<th class="heading left middle"><strong>Resolution</strong></th>
+										<td class="left middle">0.001°C max.</td>
+									</tr>
+									<tr>
+										<th class="heading left middle"><strong>Reference accuracy</strong></th>
+										<td class="left middle">*1</td>
+									</tr>
+									<tr>
+										<th class="heading left middle"><strong>Temperature
+<br />
+coefficient</strong></th>
+										<td class="left middle">*1</td>
+									</tr>
+									<tr>
+										<th class="heading left middle"><strong>Cold junction
+<br />
+compensation error</strong></th>
+										<td class="left middle">±1.2°C *2 *3</td>
+									</tr>
+									<tr>
+										<th class="heading left middle"><strong>Input disconnection
+<br />
+detection current</strong></th>
+										<td class="left middle">Approx. 0.1 μA</td>
+									</tr>
+									<tr>
+										<th class="heading left middle"><strong>Warm-up period</strong></th>
+										<td class="left middle">45 minutes</td>
+										<th class="heading left middle"><strong>Conversion time</strong></th>
+										<td class="left middle">60 ms/Unit</td>
+									</tr>
+									<tr>
+										<th class="heading left middle"><strong>Dimensions</strong></th>
+										<td class="left middle">24 (W) x 100 (H) x 71 (D)</td>
+										<th class="heading left middle"><strong>Isolation method</strong></th>
+										<td class="left middle">Between the input and the NX bus:
+<br />
+Power = Transformer, Signal = Digital
+<br />
+isolator
+<br />
+Between inputs: Power = Transformer,
+<br />
+Signal = Digital isolator</td>
+									</tr>
+									<tr>
+										<th class="heading left middle"><strong>Insulation
+<br />
+resistance</strong></th>
+										<td class="left middle">20 MΩ min. between isolated
+<br />
+circuits (at 100 VDC)</td>
+										<th class="heading left middle"><strong>Dielectric strength</strong></th>
+										<td class="left middle">510 VAC between isolated circuits for
+<br />
+1 minute at a leakage current of 5 mA
+<br />
+max.</td>
+									</tr>
+									<tr>
+										<th class="heading left middle"><strong>I/O power supply
+<br />
+method</strong></th>
+										<td class="left middle">No supply</td>
+										<th class="heading left middle"><strong>Current capacity of
+<br />
+I/O power supply
+<br />
+terminal</strong></th>
+										<td class="left middle">Without I/O power supply terminals</td>
+									</tr>
+									<tr>
+										<th class="heading left middle"><strong>NX Unit power
+<br />
+consumption</strong></th>
+										<td class="left middle">• Connected to a CPU Unit
+<br />
+1.45 W max.
+<br />
+• Connected to a Communi-
+<br />
+cations Coupler Unit
+<br />
+1.10 W max.</td>
+										<th class="heading left middle"><strong>Current consumption
+<br />
+from I/O power supply</strong></th>
+										<td class="left middle">No consumption</td>
+									</tr>
+									<tr>
+										<th class="heading left middle"><strong>Weight</strong></th>
+										<td colspan="3" rowspan="1" class="left middle">140 g max.</td>
+									</tr>
+									<tr>
+										<th class="heading left middle"><strong>Installation
+<br />
+orientation and
+<br />
+restrictions</strong></th>
+										<td colspan="3" rowspan="1" class="left middle">Installation orientation:
+<br />
+• Connected to a CPU Unit: Possible in upright installation.
+<br />
+• Connected to a Communications Coupler Unit: Possible in 6 orientations.
+<br />
+Restrictions:
+<br />
+The cold junction compensation error is restricted according to the installation orientation and the
+<br />
+power consumption of adjacent Units. Refer to Cold Junction Compensation Error Specifications for
+<br />
+Units That Take a Thermocouple Input Type.</td>
+									</tr>
+									<tr>
+										<th class="heading left middle"><strong>Terminal
+<br />
+connection
+<br />
+diagram</strong></th>
+										<td colspan="3" rowspan="1" class="left middle"><img src="../../../images/3189_sp_10_213-182872.gif"  alt="3189_sp_10_2" title="3189_sp_10_2" style="width: 313px; height: 177px;" /></td>
+									</tr>
+								</tbody>
+							</table>
+						</div>
+        
+        </p>
+    </div>
+
+
+
+
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="component-blockA01">
+
+
+
+
+
+    <div class="text">
+        <p>
+            
+						<div style="text-align: left;">*1. Refer to Reference Accuracy and Temperature Coefficient According to the Input Type and Measurement
+<br />
+       Temperature.
+<br />
+*2. The overall accuracy is guaranteed for a set consisting of a cold junction sensor that is mounted on the terminal
+<br />
+       block and a Temperature Input Unit. Be sure to use the terminal block and the Temperature Input Unit together.
+<br />
+       A calibration control number is both displayed on the terminal block and the Unit. Make sure to return the terminal
+<br />
+       block (including a cold junction sensor mounted) and the Unit together for repair.
+<br />
+*3. Refer to Cold Junction Compensation Error Specifications for Units That Take a Thermocouple Input Type for the
+<br />
+       specifications for each set of operating conditions.</div>
+					
+        </p>
+    </div>
+
+
+
+
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<h4 class="heading-A03">Temperature Input Unit (Resistance Thermometer Input type) 4 points NX-TS3201</h4>
+
+
+
+
+
+
+
+
+
+<div class="component-blockA01">
+
+
+
+
+
+    <div class="text">
+        <p>
+            
+          <div class="table-blockA01">
+							<table class="tableA01" cellspacing="0" border="0">
+								<tbody>
+									<tr class="first-child">
+										<th class="heading left middle"><strong>Unit name</strong></th>
+										<td class="left middle">Temperature Input Unit
+<br />
+(resistance thermometer
+<br />
+input type)</td>
+										<th class="heading left middle"><strong>Model</strong></th>
+										<td class="left middle">NX-TS3201</td>
+									</tr>
+									<tr>
+										<th class="heading left middle"><strong>Number of points</strong></th>
+										<td class="left middle">4 points</td>
+										<th class="heading left middle"><strong>External connection
+<br />
+terminals</strong></th>
+										<td class="left middle">Screwless clamping terminal block
+<br />
+(16 Terminals x 2)</td>
+									</tr>
+									<tr>
+										<th class="heading left middle"><strong>I/O refreshing
+<br />
+method</strong></th>
+										<td colspan="3" rowspan="1" class="left middle">Free-Run refreshing</td>
+									</tr>
+									<tr>
+										<th colspan="1" rowspan="7" class="heading left middle"><strong>Indicator</strong></th>
+										<td colspan="1" rowspan="7" class="left top">TS indicator
+<br />
+											<img src="../../../images/3189_sp_11_113-178158.gif"  alt="3189_sp_11_1" title="3189_sp_11_1" style="width: 141px; height: 85px;" /></td>
+										<th class="heading left middle"><strong>Temperature sensor</strong></th>
+										<td class="left middle">Pt100 (three-wire)/Pt1000 (three-wire)</td>
+									</tr>
+									<tr>
+										<th class="heading left middle"><strong>Input conversion
+<br />
+range</strong></th>
+										<td class="left middle">±20°C of the input range</td>
+									</tr>
+									<tr>
+										<th class="heading left middle"><strong>Input detection
+<br />
+current</strong></th>
+										<td class="left middle">Approx. 0.25 mA</td>
+									</tr>
+									<tr>
+										<th class="heading left middle"><strong>Resolution</strong></th>
+										<td class="left middle">0.1°C max.</td>
+									</tr>
+									<tr>
+										<th class="heading left middle"><strong>Reference accuracy</strong></th>
+										<td class="left middle">*</td>
+									</tr>
+									<tr>
+										<th class="heading left middle"><strong>Temperature
+<br />
+coefficient</strong></th>
+										<td class="left middle">*</td>
+									</tr>
+									<tr>
+										<th class="heading left middle"><strong>Effect of conductor
+<br />
+resistance</strong></th>
+										<td class="left middle">0.06°C/Ω max. (also 20 Ω max.)</td>
+									</tr>
+									<tr>
+										<th class="heading left middle"><strong>Warm-up period</strong></th>
+										<td class="left middle">10 minutes</td>
+										<th class="heading left middle"><strong>Conversion time</strong></th>
+										<td class="left middle">250 ms/Unit</td>
+									</tr>
+									<tr>
+										<th class="heading left middle"><strong>Dimensions</strong></th>
+										<td class="left middle">24 (W) x 100 (H) x 71 (D)</td>
+										<th class="heading left middle"><strong>Isolation method</strong></th>
+										<td class="left middle">Between the input and the NX bus: Power
+<br />
+= Transformer, Signal = Photocoupler
+<br />
+Between inputs: Power = Transformer,
+<br />
+Signal = Photocoupler</td>
+									</tr>
+									<tr>
+										<th class="heading left middle"><strong>Insulation
+<br />
+resistance</strong></th>
+										<td class="left middle">20 MΩ min. between isolated
+<br />
+circuits (at 100 VDC)</td>
+										<th class="heading left middle"><strong>Dielectric strength</strong></th>
+										<td class="left middle">510 VAC between isolated circuits for 1
+<br />
+minute at a leakage current of 5 mA max.</td>
+									</tr>
+									<tr>
+										<th class="heading left middle"><strong>I/O power
+<br />
+supply
+<br />
+method</strong></th>
+										<td class="left middle">No supply</td>
+										<th class="heading left middle"><strong>Current capacity of
+<br />
+I/O power supply
+<br />
+terminal</strong></th>
+										<td class="left middle">Without I/O power supply terminals</td>
+									</tr>
+									<tr>
+										<th class="heading left middle"><strong>NX Unit power
+<br />
+consumption</strong></th>
+										<td class="left middle">• Connected to a CPU Unit
+<br />
+1.75 W max.
+<br />
+• Connected to a Communi-
+<br />
+cations Coupler Unit
+<br />
+1.30 W max.</td>
+										<th class="heading left middle"><strong>Current consumption
+<br />
+from I/O power supply</strong></th>
+										<td class="left middle">No consumption</td>
+									</tr>
+									<tr>
+										<th class="heading left middle"><strong>Weight</strong></th>
+										<td colspan="3" rowspan="1" class="left middle">140 g max.</td>
+									</tr>
+									<tr>
+										<th class="heading left middle"><strong>Installation
+<br />
+orientation
+<br />
+and restrictions</strong></th>
+										<td colspan="3" rowspan="1" class="left middle">Installation orientation:
+<br />
+• Connected to a CPU Unit: Possible in upright installation.
+<br />
+• Connected to a Communications Coupler Unit: Possible in 6 orientations.
+<br />
+Restrictions: No restrictions</td>
+									</tr>
+									<tr>
+										<th class="heading left middle"><strong>Terminal
+<br />
+connection
+<br />
+diagram</strong></th>
+										<td colspan="3" rowspan="1" class="left middle"><img src="../../../images/3189_sp_11_213-178159.gif"  alt="3189_sp_11_2" title="3189_sp_11_2" style="width: 400px; height: 210px;" /></td>
+									</tr>
+								</tbody>
+							</table>
+						</div>
+        
+        </p>
+    </div>
+
+
+
+
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="component-blockA01">
+
+
+
+
+
+    <div class="text">
+        <p>
+            * Refer to Reference accuracy and temperature coefficient according to the input type and measurement temperature.
+        </p>
+    </div>
+
+
+
+
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<h4 class="heading-A03">Temperature Input Unit (Resistance Thermometer Input type) 4 points NX-TS3202</h4>
+
+
+
+
+
+
+
+
+
+<div class="component-blockA01">
+
+
+
+
+
+    <div class="text">
+        <p>
+            
+          <div class="table-blockA01">
+							<table class="tableA01" cellspacing="0" border="0">
+								<tbody>
+									<tr class="first-child">
+										<th class="heading left middle"><strong>Unit name</strong></th>
+										<td class="left middle">Temperature Input Unit
+<br />
+(resistance thermometer
+<br />
+input type)</td>
+										<th class="heading left middle"><strong>Model</strong></th>
+										<td class="left middle">NX-TS3202</td>
+									</tr>
+									<tr>
+										<th class="heading left middle"><strong>Number of points</strong></th>
+										<td class="left middle">4 points</td>
+										<th class="heading left middle"><strong>External connection
+<br />
+terminals</strong></th>
+										<td class="left middle">Screwless clamping terminal block
+<br />
+(16 Terminals x 2)</td>
+									</tr>
+									<tr>
+										<th class="heading left middle"><strong>I/O refreshing
+<br />
+method</strong></th>
+										<td colspan="3" rowspan="1" class="left middle">Free-Run refreshing</td>
+									</tr>
+									<tr>
+										<th colspan="1" rowspan="7" class="heading left middle"><strong>Indicator</strong></th>
+										<td colspan="1" rowspan="7" class="left top">TS indicator
+<br />
+											<img src="../../../images/3189_sp_12_113-182873.gif"  alt="3189_sp_12_1" title="3189_sp_12_1" style="width: 124px; height: 77px;" /></td>
+										<th class="heading left middle"><strong>Temperature sensor</strong></th>
+										<td class="left middle">Pt100 (three-wire)</td>
+									</tr>
+									<tr>
+										<th class="heading left middle"><strong>Input conversion
+<br />
+range</strong></th>
+										<td class="left middle">±20°C of the input range</td>
+									</tr>
+									<tr>
+										<th class="heading left middle"><strong>Input detection
+<br />
+current</strong></th>
+										<td class="left middle">Approx. 0.25 mA</td>
+									</tr>
+									<tr>
+										<th class="heading left middle"><strong>Resolution</strong></th>
+										<td class="left middle">0.01°C max.</td>
+									</tr>
+									<tr>
+										<th class="heading left middle"><strong>Reference accuracy</strong></th>
+										<td class="left middle">*</td>
+									</tr>
+									<tr>
+										<th class="heading left middle"><strong>Temperature
+<br />
+coefficient</strong></th>
+										<td class="left middle">*</td>
+									</tr>
+									<tr>
+										<th class="heading left middle"><strong>Effect of conductor
+<br />
+resistance</strong></th>
+										<td class="left middle">0.06°C/Ω max. (also 20 Ω max.)</td>
+									</tr>
+									<tr>
+										<th class="heading left middle"><strong>Warm-up period</strong></th>
+										<td class="left middle">30 minutes</td>
+										<th class="heading left middle"><strong>Conversion time</strong></th>
+										<td class="left middle">10 ms/Unit</td>
+									</tr>
+									<tr>
+										<th class="heading left middle"><strong>Dimensions</strong></th>
+										<td class="left middle">24 (W) x 100 (H) x 71 (D)</td>
+										<th class="heading left middle"><strong>Isolation method</strong></th>
+										<td class="left middle">Between the input and the NX bus: Power
+<br />
+= Transformer, Signal = Digital isolator
+<br />
+Between inputs: Power = Transformer,
+<br />
+Signal = Digital isolator</td>
+									</tr>
+									<tr>
+										<th class="heading left middle"><strong>Insulation
+<br />
+resistance</strong></th>
+										<td class="left middle">20 MΩ min. between isolated
+<br />
+circuits (at 100 VDC)</td>
+										<th class="heading left middle"><strong>Dielectric strength</strong></th>
+										<td class="left middle">510 VAC between isolated circuits for 1
+<br />
+minute at a leakage current of 5 mA max.</td>
+									</tr>
+									<tr>
+										<th class="heading left middle"><strong>I/O power
+<br />
+supply
+<br />
+method</strong></th>
+										<td class="left middle">No supply</td>
+										<th class="heading left middle"><strong>Current capacity of
+<br />
+I/O power supply
+<br />
+terminal</strong></th>
+										<td class="left middle">Without I/O power supply terminals</td>
+									</tr>
+									<tr>
+										<th class="heading left middle"><strong>NX Unit power
+<br />
+consumption</strong></th>
+										<td class="left middle">• Connected to a CPU Unit
+<br />
+1.50 W max.
+<br />
+• Connected to a Communi-
+<br />
+cations Coupler Unit
+<br />
+1.05 W max.</td>
+										<th class="heading left middle"><strong>Current consumption
+<br />
+from I/O power supply</strong></th>
+										<td class="left middle">No consumption</td>
+									</tr>
+									<tr>
+										<th class="heading left middle"><strong>Weight</strong></th>
+										<td colspan="3" rowspan="1" class="left middle">130 g max.</td>
+									</tr>
+									<tr>
+										<th class="heading left middle"><strong>Installation
+<br />
+orientation
+<br />
+and restrictions</strong></th>
+										<td colspan="3" rowspan="1" class="left middle">Installation orientation:
+<br />
+• Connected to a CPU Unit: Possible in upright installation.
+<br />
+• Connected to a Communications Coupler Unit: Possible in 6 orientations.
+<br />
+Restrictions: No restrictions</td>
+									</tr>
+									<tr>
+										<th class="heading left middle"><strong>Terminal
+<br />
+connection
+<br />
+diagram</strong></th>
+										<td colspan="3" rowspan="1" class="left middle"><img src="../../../images/3189_sp_12_213-182874.gif"  alt="3189_sp_12_2" title="3189_sp_12_2" style="width: 337px; height: 177px;" /></td>
+									</tr>
+								</tbody>
+							</table>
+						</div>
+        
+        </p>
+    </div>
+
+
+
+
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="component-blockA01">
+
+
+
+
+
+    <div class="text">
+        <p>
+            * Refer to Reference accuracy and temperature coefficient according to the input type and measurement temperature.
+        </p>
+    </div>
+
+
+
+
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<h4 class="heading-A03">Temperature Input Unit (Resistance Thermometer Input type) 4 points NX-TS3204</h4>
+
+
+
+
+
+
+
+
+
+<div class="component-blockA01">
+
+
+
+
+
+    <div class="text">
+        <p>
+            
+          <div class="table-blockA01">
+							<table class="tableA01" cellspacing="0" border="0">
+								<tbody>
+									<tr class="first-child">
+										<th class="heading left middle"><strong>Unit name</strong></th>
+										<td class="left middle">Temperature Input Unit
+<br />
+(resistance thermometer
+<br />
+input type)</td>
+										<th class="heading left middle"><strong>Model</strong></th>
+										<td class="left middle">NX-TS3204</td>
+									</tr>
+									<tr>
+										<th class="heading left middle"><strong>Number of points</strong></th>
+										<td class="left middle">4 points</td>
+										<th class="heading left middle"><strong>External connection
+<br />
+terminals</strong></th>
+										<td class="left middle">Screwless clamping terminal block
+<br />
+(16 Terminals x 2)</td>
+									</tr>
+									<tr>
+										<th class="heading left middle"><strong>I/O refreshing
+<br />
+method</strong></th>
+										<td colspan="3" rowspan="1" class="left middle">Free-Run refreshing</td>
+									</tr>
+									<tr>
+										<th colspan="1" rowspan="7" class="heading left middle"><strong>Indicator</strong></th>
+										<td colspan="1" rowspan="7" class="left top">TS indicator
+<br />
+											<img src="../../../images/3189_sp_13_113-182875.gif"  alt="3189_sp_13_1" title="3189_sp_13_1" style="width: 123px; height: 77px;" /></td>
+										<th class="heading left middle"><strong>Temperature sensor</strong></th>
+										<td class="left middle">Pt100 (three-wire)/Pt1000 (three-wire)</td>
+									</tr>
+									<tr>
+										<th class="heading left middle"><strong>Input conversion
+<br />
+range</strong></th>
+										<td class="left middle">±20°C of the input range</td>
+									</tr>
+									<tr>
+										<th class="heading left middle"><strong>Input detection
+<br />
+current</strong></th>
+										<td class="left middle">Approx. 0.25 mA</td>
+									</tr>
+									<tr>
+										<th class="heading left middle"><strong>Resolution</strong></th>
+										<td class="left middle">0.001°C max.</td>
+									</tr>
+									<tr>
+										<th class="heading left middle"><strong>Reference accuracy</strong></th>
+										<td class="left middle">*</td>
+									</tr>
+									<tr>
+										<th class="heading left middle"><strong>Temperature
+<br />
+coefficient</strong></th>
+										<td class="left middle">*</td>
+									</tr>
+									<tr>
+										<th class="heading left middle"><strong>Effect of conductor
+<br />
+resistance</strong></th>
+										<td class="left middle">0.06°C/Ω max. (also 20 Ω max.)</td>
+									</tr>
+									<tr>
+										<th class="heading left middle"><strong>Warm-up period</strong></th>
+										<td class="left middle">30 minutes</td>
+										<th class="heading left middle"><strong>Conversion time</strong></th>
+										<td class="left middle">60 ms/Unit</td>
+									</tr>
+									<tr>
+										<th class="heading left middle"><strong>Dimensions</strong></th>
+										<td class="left middle">24 (W) x 100 (H) x 71 (D)</td>
+										<th class="heading left middle"><strong>Isolation method</strong></th>
+										<td class="left middle">Between the input and the NX bus: Power
+<br />
+= Transformer, Signal = Digital isolator
+<br />
+Between inputs: Power = Transformer,
+<br />
+Signal = Digital isolator</td>
+									</tr>
+									<tr>
+										<th class="heading left middle"><strong>Insulation
+<br />
+resistance</strong></th>
+										<td class="left middle">20 MΩ min. between isolated
+<br />
+circuits (at 100 VDC)</td>
+										<th class="heading left middle"><strong>Dielectric strength</strong></th>
+										<td class="left middle">510 VAC between isolated circuits for 1
+<br />
+minute at a leakage current of 5 mA max.</td>
+									</tr>
+									<tr>
+										<th class="heading left middle"><strong>I/O power
+<br />
+supply
+<br />
+method</strong></th>
+										<td class="left middle">No supply</td>
+										<th class="heading left middle"><strong>Current capacity of
+<br />
+I/O power supply
+<br />
+terminal</strong></th>
+										<td class="left middle">Without I/O power supply terminals</td>
+									</tr>
+									<tr>
+										<th class="heading left middle"><strong>NX Unit power
+<br />
+consumption</strong></th>
+										<td class="left middle">• Connected to a CPU Unit
+<br />
+1.45 W max.
+<br />
+• Connected to a Communi-
+<br />
+cations Coupler Unit
+<br />
+1.05 W max.</td>
+										<th class="heading left middle"><strong>Current consumption
+<br />
+from I/O power supply</strong></th>
+										<td class="left middle">No consumption</td>
+									</tr>
+									<tr>
+										<th class="heading left middle"><strong>Weight</strong></th>
+										<td colspan="3" rowspan="1" class="left middle">130 g max.</td>
+									</tr>
+									<tr>
+										<th class="heading left middle"><strong>Installation
+<br />
+orientation
+<br />
+and restrictions</strong></th>
+										<td colspan="3" rowspan="1" class="left middle">Installation orientation:
+<br />
+• Connected to a CPU Unit: Possible in upright installation.
+<br />
+• Connected to a Communications Coupler Unit: Possible in 6 orientations.
+<br />
+Restrictions: No restrictions</td>
+									</tr>
+									<tr>
+										<th class="heading left middle"><strong>Terminal
+<br />
+connection
+<br />
+diagram</strong></th>
+										<td colspan="3" rowspan="1" class="left middle"><img src="../../../images/3189_sp_13_213-182876.gif"  alt="3189_sp_13_2" title="3189_sp_13_2" style="width: 335px; height: 175px;" /></td>
+									</tr>
+								</tbody>
+							</table>
+						</div>
+        
+        </p>
+    </div>
+
+
+
+
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="component-blockA01">
+
+
+
+
+
+    <div class="text">
+        <p>
+            * Refer to Reference accuracy and temperature coefficient according to the input type and measurement temperature.
+        </p>
+    </div>
+
+
+
+
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<h4 class="heading-A03">Reference accuracy and temperature coefficient according to the input type and measurement temperature *1</h4>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<h4 class="heading-B02">For NX-TS[][]02/TS[][]04</h4>
+
+
+
+
+
+
+
+<div class="component-blockA01">
+
+
+
+
+
+    <div class="text">
+        <p>
+            
+						<div class="table-blockA01">
+							<table class="tableA01" cellspacing="0" border="0">
+								<tr class="first-child">
+									<th colspan="1" rowspan="2" class="heading center middle"><strong>Conversion
+<br />
+time</strong></th>
+									<th colspan="2" rowspan="1" class="heading center middle"><strong>Input type</strong></th>
+									<th colspan="1" rowspan="2" class="heading center middle"><strong>Measured
+<br />
+temperature (°C)</strong></th>
+									<th colspan="1" rowspan="2" class="heading center middle"><strong>Reference
+<br />
+accuracy °C (%)
+<br />
+*3</strong></th>
+									<th colspan="1" rowspan="2" class="heading center middle"><strong>Temperature
+<br />
+coefficient °C/°C *4
+<br />
+Input (ppm/°C *5)</strong></th>
+								</tr>
+								<tr>
+									<th class="heading center middle"><strong>Input
+<br />
+type *2</strong></th>
+									<th class="heading center middle"><strong>Temperature
+<br />
+range (°C)</strong></th>
+								</tr>
+								<tr>
+									<td colspan="1" rowspan="31" class="center middle">10/60 ms</td>
+									<td class="center middle">K</td>
+									<td class="center middle">-200 to 1300</td>
+									<td class="center middle">Same as the left</td>
+									<td class="center middle">±0.75 (±0.05%)</td>
+									<td class="center middle">±0.08 (±50 ppm/°C)</td>
+								</tr>
+								<tr>
+									<td class="center middle">K</td>
+									<td class="center middle">-20 to 600
+<br />
+(High Resolution)</td>
+									<td class="center middle">Same as the left</td>
+									<td class="center middle">±0.30 (±0.05%)</td>
+									<td class="center middle">±0.03 (±48 ppm/°C)</td>
+								</tr>
+								<tr>
+									<td colspan="1" rowspan="2" class="center middle">J</td>
+									<td colspan="1" rowspan="2" class="center middle">-200 to 1200</td>
+									<td class="center middle">-200 to 0</td>
+									<td colspan="1" rowspan="2" class="center middle">±0.70 (±0.05%)</td>
+									<td class="center middle">±0.13 (±96 ppm/°C)</td>
+								</tr>
+								<tr>
+									<td class="center middle">0 to 1200</td>
+									<td class="center middle">±0.06 (±42 ppm/°C)</td>
+								</tr>
+								<tr>
+									<td class="center middle">J</td>
+									<td class="center middle">-20 to 600
+<br />
+(High Resolution)</td>
+									<td class="center middle">Same as the left</td>
+									<td class="center middle">±0.30 (±0.05%)</td>
+									<td class="center middle">±0.04 (±72 ppm/°C)</td>
+								</tr>
+								<tr>
+									<td colspan="1" rowspan="3" class="center middle">T</td>
+									<td colspan="1" rowspan="3" class="center middle">-200 to 400</td>
+									<td class="center middle">-200 to -180</td>
+									<td class="center middle">±1.30 (±0.22%)</td>
+									<td colspan="1" rowspan="3" class="center middle">±0.05 (±75 ppm/°C)</td>
+								</tr>
+								<tr>
+									<td class="center middle">-180 to 0</td>
+									<td class="center middle">±0.70 (±0.12%)</td>
+								</tr>
+								<tr>
+									<td class="center middle">0 to 400</td>
+									<td class="center middle">±0.33 (±0.055%)</td>
+								</tr>
+								<tr>
+									<td colspan="1" rowspan="2" class="center middle">E</td>
+									<td colspan="1" rowspan="2" class="center middle">-200 to 1000</td>
+									<td class="center middle">-200 to 0</td>
+									<td colspan="1" rowspan="2" class="center middle">±0.60 (±0.05%)</td>
+									<td class="center middle">±0.12 (±100 ppm/°C)</td>
+								</tr>
+								<tr>
+									<td class="center middle">0 to 1000</td>
+									<td class="center middle">±0.06 (±50 ppm/°C)</td>
+								</tr>
+								<tr>
+									<td class="center middle">L</td>
+									<td class="center middle">-200 to 900</td>
+									<td class="center middle">Same as the left</td>
+									<td class="center middle">±0.50 (±0.05%)</td>
+									<td class="center middle">±0.04 (±40 ppm/°C)</td>
+								</tr>
+								<tr>
+									<td colspan="1" rowspan="3" class="center middle">U</td>
+									<td colspan="1" rowspan="3" class="center middle">-200 to 600</td>
+									<td class="center middle">-200 to -100</td>
+									<td class="center middle">±0.70 (±0.09%)</td>
+									<td colspan="1" rowspan="3" class="center middle">±0.06 (±75 ppm/°C)</td>
+								</tr>
+								<tr>
+									<td class="center middle">-100 to 0</td>
+									<td class="center middle">±0.50 (±0.07%)</td>
+								</tr>
+								<tr>
+									<td class="center middle">0 to 600</td>
+									<td class="center middle">±0.40 (±0.05%)</td>
+								</tr>
+								<tr>
+									<td colspan="1" rowspan="3" class="center middle">N</td>
+									<td colspan="1" rowspan="3" class="center middle">-200 to 1300</td>
+									<td class="center middle">-200 to -150</td>
+									<td class="center middle">±1.60 (±0.11%)</td>
+									<td colspan="1" rowspan="2" class="center middle">±0.11 (±70 ppm/°C)</td>
+								</tr>
+								<tr>
+									<td class="center middle">-150 to -100</td>
+									<td colspan="1" rowspan="2" class="center middle">±0.75 (±0.05%)</td>
+								</tr>
+								<tr>
+									<td class="center middle">-100 to 1300</td>
+									<td class="center middle">±0.08 (±50 ppm/°C)</td>
+								</tr>
+								<tr>
+									<td colspan="1" rowspan="3" class="center middle">R</td>
+									<td colspan="1" rowspan="3" class="center middle">-50 to 1700</td>
+									<td class="center middle">-50 to 0</td>
+									<td class="center middle">±3.20 (±0.19%)</td>
+									<td class="center middle">±0.13 (±77 ppm/°C)</td>
+								</tr>
+								<tr>
+									<td class="center middle">0 to 100</td>
+									<td class="center middle">±2.50 (±0.15%)</td>
+									<td colspan="1" rowspan="2" class="center middle">±0.11 (±60 ppm/°C)</td>
+								</tr>
+								<tr>
+									<td class="center middle">100 to 1700</td>
+									<td class="center middle">±1.75 (±0.10%)</td>
+								</tr>
+								<tr>
+									<td colspan="1" rowspan="3" class="center middle">S</td>
+									<td colspan="1" rowspan="3" class="center middle">-50 to 1700</td>
+									<td class="center middle">-50 to 0</td>
+									<td class="center middle">±3.20 (±0.19%)</td>
+									<td class="center middle">±0.13 (±77 ppm/°C)</td>
+								</tr>
+								<tr>
+									<td class="center middle">0 to 100</td>
+									<td class="center middle">±2.50 (±0.15%)</td>
+									<td colspan="1" rowspan="2" class="center middle">±0.11 (±60 ppm/°C)</td>
+								</tr>
+								<tr>
+									<td class="center middle">100 to 1700</td>
+									<td class="center middle">±1.75 (±0.10%)</td>
+								</tr>
+								<tr>
+									<td colspan="1" rowspan="3" class="center middle">WRe5-26</td>
+									<td colspan="1" rowspan="3" class="center middle">0 to 2300</td>
+									<td class="center middle">0 to 1500</td>
+									<td colspan="1" rowspan="2" class="center middle">±1.15 (±0.05%)</td>
+									<td class="center middle">±0.13 (±58 ppm/°C)</td>
+								</tr>
+								<tr>
+									<td class="center middle">1500 to 2200</td>
+									<td colspan="1" rowspan="2" class="center middle">±0.21 (±91 ppm/°C)</td>
+								</tr>
+								<tr>
+									<td class="center middle">2200 to 2300</td>
+									<td class="center middle">±1.40 (±0.07%)</td>
+								</tr>
+								<tr>
+									<td class="center middle">PL II</td>
+									<td class="center middle">0 to 1300</td>
+									<td class="center middle">Same as the left</td>
+									<td class="center middle">±0.65 (±0.05%)</td>
+									<td class="center middle">±0.07 (±57 ppm/°C)</td>
+								</tr>
+								<tr>
+									<td colspan="1" rowspan="3" class="center middle">Pt100</td>
+									<td colspan="1" rowspan="3" class="center middle">-200 to 850</td>
+									<td class="center middle">-200 to -50</td>
+									<td class="center middle">±0.50 (±0.05%)</td>
+									<td class="center middle">±0.08 (±78 ppm/°C)</td>
+								</tr>
+								<tr>
+									<td class="center middle">-50 to 150</td>
+									<td class="center middle">±0.21 (±0.02%)</td>
+									<td class="center middle">±0.03 (±29 ppm/°C)</td>
+								</tr>
+								<tr>
+									<td class="center middle">150 to 850</td>
+									<td class="center middle">±0.50 (±0.05%)</td>
+									<td class="center middle">±0.08 (±78 ppm/°C)</td>
+								</tr>
+								<tr>
+									<td class="center middle">Pt1000</td>
+									<td class="center middle">-200 to 850</td>
+									<td class="center middle">Same as the left</td>
+									<td class="center middle">±0.50 (±0.05%)</td>
+									<td class="center middle">±0.09 (±85 ppm/°C)</td>
+								</tr>
+							</table>
+						</div>
+					
+        </p>
+    </div>
+
+
+
+
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<h4 class="heading-B02">For NX-TS[][]01</h4>
+
+
+
+
+
+
+
+<div class="component-blockA01">
+
+
+
+
+
+    <div class="text">
+        <p>
+            
+						<div class="table-blockA01">
+							<table class="tableA01" cellspacing="0" border="0">
+								<tr class="first-child">
+									<th colspan="1" rowspan="2" class="heading center middle"><strong>Conversion
+<br />
+time</strong></th>
+									<th colspan="2" rowspan="1" class="heading center middle"><strong>Input type</strong></th>
+									<th colspan="1" rowspan="2" class="heading center middle"><strong>Measured
+<br />
+temperature (°C)</strong></th>
+									<th colspan="1" rowspan="2" class="heading center middle"><strong>Reference
+<br />
+accuracy °C (%)
+<br />
+*3</strong></th>
+									<th colspan="1" rowspan="2" class="heading center middle"><strong>Temperature
+<br />
+coefficient °C/°C *4
+<br />
+Input (ppm/°C *5)</strong></th>
+								</tr>
+								<tr>
+									<th class="heading center middle"><strong>Input
+<br />
+type</strong></th>
+									<th class="heading center middle"><strong>Temperature
+<br />
+range (°C)</strong></th>
+								</tr>
+								<tr>
+									<td colspan="1" rowspan="41" class="center middle">250 ms</td>
+									<td colspan="1" rowspan="3" class="center middle">K</td>
+									<td colspan="1" rowspan="3" class="center middle">-200 to 1300</td>
+									<td class="center middle">-200 to -100</td>
+									<td colspan="1" rowspan="3" class="center middle">±1.5 (±0.1%)</td>
+									<td class="center middle">±0.15 (±100 ppm/°C)</td>
+								</tr>
+								<tr>
+									<td class="center middle">-100 to 400</td>
+									<td class="center middle">±0.30 (±200 ppm/°C)</td>
+								</tr>
+								<tr>
+									<td class="center middle">400 to 1300</td>
+									<td class="center middle">±0.38 (±250 ppm/°C)</td>
+								</tr>
+								<tr>
+									<td colspan="1" rowspan="3" class="center middle">J</td>
+									<td colspan="1" rowspan="3" class="center middle">-200 to 1200</td>
+									<td class="center middle">-200 to 400</td>
+									<td class="center middle">±1.4 (±0.1%)</td>
+									<td class="center middle">±0.14 (±100 ppm/°C)</td>
+								</tr>
+								<tr>
+									<td class="center middle">400 to 900</td>
+									<td colspan="1" rowspan="2" class="center middle">±1.2 (±0.09%)</td>
+									<td class="center middle">±0.28 (±200 ppm/°C)</td>
+								</tr>
+								<tr>
+									<td class="center middle">900 to 1200</td>
+									<td class="center middle">±0.35 (±250 ppm/°C)</td>
+								</tr>
+								<tr>
+									<td colspan="1" rowspan="2" class="center middle">T</td>
+									<td colspan="1" rowspan="2" class="center middle">-200 to 400</td>
+									<td class="center middle">-200 to -100</td>
+									<td colspan="1" rowspan="2" class="center middle">±1.2 (±0.2%)</td>
+									<td class="center middle">±0.30 (±500 ppm/°C)</td>
+								</tr>
+								<tr>
+									<td class="center middle">-100 to 400</td>
+									<td class="center middle">±0.12 (±200 ppm/°C)</td>
+								</tr>
+								<tr>
+									<td colspan="1" rowspan="3" class="center middle">E</td>
+									<td colspan="1" rowspan="3" class="center middle">-200 to 1000</td>
+									<td class="center middle">-200 to 400</td>
+									<td class="center middle">±1.2 (±0.1%)</td>
+									<td class="center middle">±0.12 (±100 ppm/°C)</td>
+								</tr>
+								<tr>
+									<td class="center middle">400 to 700</td>
+									<td colspan="1" rowspan="2" class="center middle">±2.0 (±0.17%)</td>
+									<td class="center middle">±0.24 (±200 ppm/°C)</td>
+								</tr>
+								<tr>
+									<td class="center middle">700 to 1000</td>
+									<td class="center middle">±0.30 (±250 ppm/°C)</td>
+								</tr>
+								<tr>
+									<td colspan="1" rowspan="3" class="center middle">L</td>
+									<td colspan="1" rowspan="3" class="center middle">-200 to 900</td>
+									<td class="center middle">-200 to 300</td>
+									<td class="center middle">±1.1 (±0.1%)</td>
+									<td class="center middle">±0.11 (±100 ppm/°C)</td>
+								</tr>
+								<tr>
+									<td class="center middle">300 to 700</td>
+									<td colspan="1" rowspan="2" class="center middle">±2.2 (±0.2%)</td>
+									<td class="center middle">±0.22 (±200 ppm/°C)</td>
+								</tr>
+								<tr>
+									<td class="center middle">700 to 900</td>
+									<td class="center middle">±0.28 (±250 ppm/°C)</td>
+								</tr>
+								<tr>
+									<td colspan="1" rowspan="2" class="center middle">U</td>
+									<td colspan="1" rowspan="2" class="center middle">-200 to 600</td>
+									<td class="center middle">-200 to 400</td>
+									<td class="center middle">±1.2 (±0.15%)</td>
+									<td colspan="1" rowspan="2" class="center middle">±0.12 (±150 ppm/°C)</td>
+								</tr>
+								<tr>
+									<td class="center middle">400 to 600</td>
+									<td class="center middle">±1.0 (±0.13%)</td>
+								</tr>
+								<tr>
+									<td colspan="1" rowspan="3" class="center middle">N</td>
+									<td colspan="1" rowspan="3" class="center middle">-200 to 1300</td>
+									<td class="center middle">-200 to 400</td>
+									<td colspan="1" rowspan="3" class="center middle">±1.5 (±0.1%)</td>
+									<td colspan="1" rowspan="2" class="center middle">±0.30 (±200 ppm/°C)</td>
+								</tr>
+								<tr>
+									<td class="center middle">400 to 1000</td>
+								</tr>
+								<tr>
+									<td class="center middle">1000 to 1300</td>
+									<td class="center middle">±0.38 (±250 ppm/°C)</td>
+								</tr>
+								<tr>
+									<td colspan="1" rowspan="3" class="center middle">R</td>
+									<td colspan="1" rowspan="3" class="center middle">-50 to 1700</td>
+									<td class="center middle">-50 to 500</td>
+									<td class="center middle">±1.75 (±0.1%)</td>
+									<td colspan="1" rowspan="3" class="center middle">±0.44 (±250 ppm/°C)</td>
+								</tr>
+								<tr>
+									<td class="center middle">500 to 1200</td>
+									<td colspan="1" rowspan="2" class="center middle">±2.5 (±0.15%)</td>
+								</tr>
+								<tr>
+									<td class="center middle">1200 to 1700</td>
+								</tr>
+								<tr>
+									<td colspan="1" rowspan="3" class="center middle">S</td>
+									<td colspan="1" rowspan="3" class="center middle">-50 to 1700</td>
+									<td class="center middle">-50 to 600</td>
+									<td class="center middle">±1.75 (±0.1%)</td>
+									<td colspan="1" rowspan="3" class="center middle">±0.44 (±250 ppm/°C)</td>
+								</tr>
+								<tr>
+									<td class="center middle">600 to 1100</td>
+									<td colspan="1" rowspan="2" class="center middle">±2.5 (±0.15%)</td>
+								</tr>
+								<tr>
+									<td class="center middle">1100 to 1700</td>
+								</tr>
+								<tr>
+									<td colspan="1" rowspan="3" class="center middle">B</td>
+									<td colspan="1" rowspan="3" class="center middle">0 to 1800</td>
+									<td class="center middle">0.0 to 400.0</td>
+									<td class="center middle">Reference accuracy
+<br />
+does not apply</td>
+									<td class="left middle">Reference accuracy does
+<br />
+not apply</td>
+								</tr>
+								<tr>
+									<td class="center middle">400 to 1200</td>
+									<td class="center middle">±3.6 (±0.2%)</td>
+									<td class="center middle">±0.45 (±250 ppm/°C)</td>
+								</tr>
+								<tr>
+									<td class="center middle">1200 to 1800</td>
+									<td class="center middle">±5.0 (±0.28%)</td>
+									<td class="center middle">±0.54 (±300 ppm/°C)</td>
+								</tr>
+								<tr>
+									<td colspan="1" rowspan="4" class="center middle">WRe5-26</td>
+									<td colspan="1" rowspan="4" class="center middle">0 to 2300</td>
+									<td class="center middle">0 to 300</td>
+									<td class="center middle">±1.15 (±0.05%)</td>
+									<td colspan="1" rowspan="3" class="center middle">±0.46 (±200 ppm/°C)</td>
+								</tr>
+								<tr>
+									<td class="center middle">300 to 800</td>
+									<td class="center middle">±2.3 (±0.1%)</td>
+								</tr>
+								<tr>
+									<td class="center middle">800 to 1500</td>
+									<td colspan="1" rowspan="2" class="center middle">±3.0 (±0.13%)</td>
+								</tr>
+								<tr>
+									<td class="center middle">1500 to 2300</td>
+									<td class="center middle">±0.691 (±300 ppm/°C)</td>
+								</tr>
+								<tr>
+									<td colspan="1" rowspan="3" class="center middle">PLII</td>
+									<td colspan="1" rowspan="3" class="center middle">0 to 1300</td>
+									<td class="center middle">0 to 400</td>
+									<td class="center middle">±1.3 (±0.1%)</td>
+									<td class="center middle">±0.23 (±200 ppm/°C)</td>
+								</tr>
+								<tr>
+									<td class="center middle">400 to 800</td>
+									<td colspan="1" rowspan="2" class="center middle">±2.0 (±0.15%)</td>
+									<td class="center middle">±0.39 (±300 ppm/°C)</td>
+								</tr>
+								<tr>
+									<td class="center middle">800 to 1300</td>
+									<td class="center middle">±0.65 (±500 ppm/°C)</td>
+								</tr>
+								<tr>
+									<td colspan="1" rowspan="3" class="center middle">Pt100</td>
+									<td colspan="1" rowspan="3" class="center middle">-200 to 850</td>
+									<td class="center middle">-200 to 300</td>
+									<td class="center middle">±1.0 (±0.1%)</td>
+									<td class="center middle">±0.1 (±100 ppm/°C)</td>
+								</tr>
+								<tr>
+									<td class="center middle">300 to 700</td>
+									<td class="center middle">±2.0 (±0.2%)</td>
+									<td class="center middle">±0.2 (±200 ppm/°C)</td>
+								</tr>
+								<tr>
+									<td class="center middle">700 to 850</td>
+									<td class="center middle">±2.5 (±0.25%)</td>
+									<td class="center middle">±0.25 (±250 ppm/°C)</td>
+								</tr>
+								<tr>
+									<td colspan="1" rowspan="3" class="center middle">Pt1000</td>
+									<td colspan="1" rowspan="3" class="center middle">-200 to 850</td>
+									<td class="center middle">-200 to 300</td>
+									<td class="center middle">±1.0 (±0.1%)</td>
+									<td class="center middle">±0.1 (±100 ppm/°C)</td>
+								</tr>
+								<tr>
+									<td class="center middle">300 to 700</td>
+									<td class="center middle">±2.0 (±0.2%)</td>
+									<td class="center middle">±0.2 (±200 ppm/°C)</td>
+								</tr>
+								<tr>
+									<td class="center middle">700 to 850</td>
+									<td class="center middle">±2.5 (±0.25%)</td>
+									<td class="center middle">±0.25 (±250 ppm/°C)</td>
+								</tr>
+							</table>
+						</div>
+					
+        </p>
+    </div>
+
+
+
+
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="component-blockA01">
+
+
+
+
+
+    <div class="text">
+        <p>
+            
+						<div style="text-align: left;">*1. To convert the temperature unit from Celsius to Fahrenheit, use the following equation.
+<br />
+       Fahrenheit temperature (°F) = Celsius temperature (°C) x 1.8 + 32
+<br />
+*2. If there is more than one input range for the same input type, the one with narrower input range has higher
+<br />
+       resolution.
+<br />
+*3. For a thermocouple input type Temperature Input Unit, the overall accuracy is guaranteed for a set consisting of a
+<br />
+       cold junction sensor that is mounted on the terminal block and a Temperature Input Unit. Be sure to use the terminal
+<br />
+       block and Temperature Input Unit with the same calibration control number together. For the 24 mm wide model,
+<br />
+       also be sure the left and right terminal blocks are correctly attached.</div>
+					
+        </p>
+    </div>
+
+
+
+    <div class="image">
+        
+       
+        <img src="../../../images/3189_sp_1613-178253.gif"   alt="NX-TS Specifications 31 "/>
+       
+    </div>
+
+
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="component-blockA01">
+
+
+
+
+
+    <div class="text">
+        <p>
+            
+						<div style="text-align: left;">*4. An error for a measured value when the ambient temperature changes by 1°C.
+<br />
+       The following formula is used to calculate the error of the measured value.
+<br />
+       Overall accuracy = Reference accuracy + Temperature characteristic x Change in the ambient temperature + Cold
+<br />
+       junction compensation error (Calculation example)
+<br />
+       Conditions</div>
+					
+        </p>
+    </div>
+
+
+
+
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="component-blockA01 set-width" style="width:400px;">
+
+
+
+
+    <div class="text">
+        <p>
+            
+						<div class="table-blockA01">
+							<table class="tableA01" cellspacing="0" border="0">
+								<tr class="first-child">
+									<th class="heading center middle"><strong>Item</strong></th>
+									<th class="heading center middle"><strong>Description</strong></th>
+								</tr>
+								<tr>
+									<td class="left middle">Ambient temperature</td>
+									<td class="left middle">30°C</td>
+								</tr>
+								<tr>
+									<td class="left middle">Measured value</td>
+									<td class="left middle">100°C</td>
+								</tr>
+								<tr>
+									<td class="left middle">NX Unit</td>
+									<td class="left middle">NX-TS2101</td>
+								</tr>
+								<tr>
+									<td class="left middle">Thermocouple</td>
+									<td class="left middle">K thermocouple</td>
+								</tr>
+							</table>
+						</div>
+					
+        </p>
+    </div>
+
+
+
+
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="component-blockA01">
+
+
+
+
+
+    <div class="text">
+        <p>
+            The characteristic values are formulated from the data sheet or reference accuracy and temperature coefficient table under the above conditions
+        </p>
+    </div>
+
+
+
+
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="component-blockA01 set-width" style="width:400px;">
+
+
+
+
+    <div class="text">
+        <p>
+            
+						<div class="table-blockA01">
+							<table class="tableA01" cellspacing="0" border="0">
+								<tr class="first-child">
+									<th class="heading center middle"><strong>Item</strong></th>
+									<th class="heading center middle"><strong>Description</strong></th>
+								</tr>
+								<tr>
+									<td class="left middle">Reference accuracy</td>
+									<td class="left middle">-100 to 400°C: ±1.5°C</td>
+								</tr>
+								<tr>
+									<td class="left middle">Temperature coefficient</td>
+									<td class="left middle">-100 to 400°C: ±0.30°C/°C</td>
+								</tr>
+								<tr>
+									<td class="left middle">Change in the ambient temperature</td>
+									<td class="left middle">25°C -&gt; 30°C 5 deg</td>
+								</tr>
+								<tr>
+									<td class="left middle">Cold junction compensation error</td>
+									<td class="left middle">±1.2°C</td>
+								</tr>
+							</table>
+						</div>
+					
+        </p>
+    </div>
+
+
+
+
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="component-blockA01">
+
+
+
+
+
+    <div class="text">
+        <p>
+            Therefore,
+<br />
+Overall accuracy = Reference accuracy + Temperature characteristic x Change in the ambient temperature + Cold junction compensation error
+<br />
+= ±1.5°C + (±0.30°C/°C) x 5 deg + ±1.2°C
+<br />
+= ±4.2°C
+<br />
+						<br />
+*5. The ppm value is for the full scale of temperature range.
+        </p>
+    </div>
+
+
+
+
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<h4 class="heading-A03">Cold Junction Compensation Error Specifications for Units That Take a Thermocouple Input Type</h4>
+
+
+
+
+
+
+
+
+
+<div class="component-blockA01">
+
+
+
+
+
+    <div class="text">
+        <p>
+            The cold junction compensation error for Units that take a thermocouple input type is restricted as follows according to the installation orientation and the power consumption of adjacent Units *.
+        </p>
+    </div>
+
+
+
+
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="component-blockA01">
+
+
+
+
+
+    <div class="text">
+        <p>
+            
+						<div style="text-align: left;">(a) For upright installation, when the power consumption is 1.5 W or less for both the left and right adjacent Units
+<br />
+       The cold junction compensation error is ±1.2°C.
+<br />
+       However, there are exceptions depending on the input type and temperature. Those conditions and the cold junction
+<br />
+       compensation error are as in the table below.</div>
+					
+        </p>
+    </div>
+
+
+
+
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="component-blockA01 set-width" style="width:450px;">
+
+
+
+
+    <div class="text">
+        <p>
+            
+						<div class="table-blockA01">
+							<table class="tableA01" cellspacing="0" border="0">
+								<tr class="first-child">
+									<th class="heading left middle"><strong>Input type and temperature range</strong></th>
+									<th class="heading center middle"><strong>Cold junction compensation error</strong></th>
+								</tr>
+								<tr>
+									<td class="left middle">T below -90°C</td>
+									<td colspan="1" rowspan="4" class="left middle">±3.0°C</td>
+								</tr>
+								<tr>
+									<td class="left middle">J, E, K and N below -100°C</td>
+								</tr>
+								<tr>
+									<td class="left middle">U, L and PLII</td>
+								</tr>
+								<tr>
+									<td class="left middle">R and S below 200°C</td>
+								</tr>
+								<tr>
+									<td class="left middle">B below 400°C</td>
+									<td class="left middle">Not guaranteed</td>
+								</tr>
+								<tr>
+									<td class="left middle">W</td>
+									<td class="left middle">±3.0°C</td>
+								</tr>
+							</table>
+						</div>
+					
+        </p>
+    </div>
+
+
+
+
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="component-blockA01">
+
+
+
+
+
+    <div class="text">
+        <p>
+            
+						<div style="text-align: left;">(b) When the power consumption of either the left or the right adjacent Unit is more than 1.5 W but less than 3.9 W. Or
+<br />
+       for any installation other than upright, when the power consumption of both the left and right adjacent Units is less
+<br />
+       than 3.9 W
+<br />
+       The cold junction compensation error is ±4.0°C.
+<br />
+       However, there are exceptions depending on the input type and temperature. Those conditions and the cold junction
+<br />
+       compensation error are as in the table below.</div>
+					
+        </p>
+    </div>
+
+
+
+
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="component-blockA01 set-width" style="width:450px;">
+
+
+
+
+    <div class="text">
+        <p>
+            
+						<div class="table-blockA01">
+							<table class="tableA01" cellspacing="0" border="0">
+								<tr class="first-child">
+									<th class="heading center middle"><strong>Input type and temperature range</strong></th>
+									<th class="heading center middle"><strong>Cold junction compensation error</strong></th>
+								</tr>
+								<tr>
+									<td class="left middle">T below -90°C</td>
+									<td colspan="1" rowspan="4" class="left middle">±7.0°C</td>
+								</tr>
+								<tr>
+									<td class="left middle">J, E, K and N below -100°C</td>
+								</tr>
+								<tr>
+									<td class="left middle">U, L and PLII</td>
+								</tr>
+								<tr>
+									<td class="left middle">R and S below 200°C</td>
+								</tr>
+								<tr>
+									<td class="left middle">B below 400°C</td>
+									<td class="left middle">Not guaranteed</td>
+								</tr>
+								<tr>
+									<td class="left middle">W</td>
+									<td class="left middle">±9.0°C</td>
+								</tr>
+							</table>
+						</div>
+					
+        </p>
+    </div>
+
+
+
+
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="component-blockA01">
+
+
+
+
+
+    <div class="text">
+        <p>
+            
+						<div style="text-align: left;">(c) When the power consumption exceeds 3.9 W for either the left or right adjacent Unit
+<br />
+       Do not use the above condition (c) because the cold junction compensation error is not guaranteed in this condition.</div>
+					
+        </p>
+    </div>
+
+
+
+
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="component-blockA01">
+
+
+
+
+
+    <div class="text">
+        <p>
+            
+						<div style="text-align: left;">* The power consumption of adjacent Units is the total of the following values.
+<br />
+    The power consumption of the NX Unit power supply and I/O power supply for the NX Units adjacent to the
+<br />
+    Temperature Input Unit. If the adjacent Unit is an Input Unit, it is the total power consumption according to the input
+<br />
+    current.</div>
+					
+        </p>
+    </div>
+
+
+
+
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<h4 class="heading-A02">Version Information</h4>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<h4 class="heading-A03">Connecting with CPU Units</h4>
+
+
+
+
+
+
+
+
+
+<div class="component-blockA01">
+
+
+
+
+
+    <div class="text">
+        <p>
+            Refer to the user's manual for the CPU Unit for the CPU Unit to which NX Units can be connected.
+        </p>
+    </div>
+
+
+
+
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="component-blockA01">
+
+
+
+
+
+    <div class="text">
+        <p>
+            
+          <div class="table-blockA01">
+							<table class="tableA01" cellspacing="0" border="0">
+								<tr class="first-child">
+									<th colspan="2" rowspan="1" class="heading center middle"><strong>NX Units</strong></th>
+									<th colspan="2" rowspan="1" class="heading center middle"><strong>Corresponding version *</strong></th>
+								</tr>
+								<tr>
+									<th class="heading center middle"><strong>Model</strong></th>
+									<th class="heading center middle"><strong>Unit Version</strong></th>
+									<th class="heading center middle"><strong>CPU Unit</strong></th>
+									<th class="heading center middle"><strong>Sysmac Studio</strong></th>
+								</tr>
+								<tr>
+									<td colspan="1" rowspan="2" class="left middle">NX-TS2101</td>
+									<td class="center middle">Ver.1.0</td>
+									<td colspan="1" rowspan="16" class="center middle">Ver.1.13 or later</td>
+									<td colspan="1" rowspan="16" class="center middle">Ver.1.17 or higher</td>
+								</tr>
+								<tr>
+									<td class="center middle">Ver.1.1</td>
+								</tr>
+								<tr>
+									<td class="left middle">NX-TS2102</td>
+									<td class="center middle">Ver.1.1</td>
+								</tr>
+								<tr>
+									<td class="left middle">NX-TS2104</td>
+									<td class="center middle">Ver.1.1</td>
+								</tr>
+								<tr>
+									<td colspan="1" rowspan="2" class="left middle">NX-TS2201</td>
+									<td class="center middle">Ver.1.0</td>
+								</tr>
+								<tr>
+									<td class="center middle">Ver.1.1</td>
+								</tr>
+								<tr>
+									<td class="left middle">NX-TS2202</td>
+									<td class="center middle">Ver.1.1</td>
+								</tr>
+								<tr>
+									<td class="left middle">NX-TS2204</td>
+									<td class="center middle">Ver.1.1</td>
+								</tr>
+								<tr>
+									<td colspan="1" rowspan="2" class="left middle">NX-TS3101</td>
+									<td class="center middle">Ver.1.0</td>
+								</tr>
+								<tr>
+									<td class="center middle">Ver.1.1</td>
+								</tr>
+								<tr>
+									<td class="left middle">NX-TS3102</td>
+									<td class="center middle">Ver.1.1</td>
+								</tr>
+								<tr>
+									<td class="left middle">NX-TS3104</td>
+									<td class="center middle">Ver.1.1</td>
+								</tr>
+								<tr>
+									<td colspan="1" rowspan="2" class="left middle">NX-TS3201</td>
+									<td class="center middle">Ver.1.0</td>
+								</tr>
+								<tr>
+									<td class="center middle">Ver.1.1</td>
+								</tr>
+								<tr>
+									<td class="left middle">NX-TS3202</td>
+									<td class="center middle">Ver.1.1</td>
+								</tr>
+								<tr>
+									<td class="left middle">NX-TS3204</td>
+									<td class="center middle">Ver.1.1</td>
+								</tr>
+							</table>
+						</div>
+        
+        </p>
+    </div>
+
+
+
+
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="component-blockA01">
+
+
+
+
+
+    <div class="text">
+        <p>
+            
+          <div style="text-align: left;">* Some Units do not have all of the versions given in the above table. If a Unit does not have the specified version, support
+<br />
+   is provided by the oldest available version after the specified version. Refer to the user's manuals for the specific Units
+<br />
+   for the relation between models and versions.</div>
+        
+        </p>
+    </div>
+
+
+
+
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<h4 class="heading-A03">Connecting with Coupler Units</h4>
+
+
+
+
+
+
+
+
+
+<div class="component-blockA01">
+
+
+
+
+
+    <div class="text">
+        <p>
+            
+          <div class="table-blockA01">
+							<table class="tableA01" cellspacing="0" border="0">
+								<tr class="first-child">
+									<th colspan="2" rowspan="1" class="heading center middle"><strong>NX Units</strong></th>
+									<th colspan="5" rowspan="1" class="heading center middle"><strong>Corresponding version *</strong></th>
+								</tr>
+								<tr>
+									<th colspan="1" rowspan="2" class="heading center middle"><strong>Model</strong></th>
+									<th colspan="1" rowspan="2" class="heading center middle"><strong>Unit
+<br />
+Version</strong></th>
+									<th colspan="3" rowspan="1" class="heading center middle"><strong>EtherCAT</strong></th>
+									<th colspan="2" rowspan="1" class="heading center middle"><strong>Ethernet/IP</strong></th>
+								</tr>
+								<tr>
+									<th class="heading center middle"><strong>Communica-
+<br />
+tions
+<br />
+Coupler Unit</strong></th>
+									<th class="heading center middle"><strong>NJ/NX-series CPU
+<br />
+Units or NY-series
+<br />
+Industrial PCs</strong></th>
+									<th class="heading center middle"><strong>Sysmac Studio</strong></th>
+									<th class="heading center middle"><strong>Communica-
+<br />
+tions
+<br />
+Coupler Unit</strong></th>
+									<th class="heading center middle"><strong>Sysmac Studio</strong></th>
+								</tr>
+								<tr>
+									<td colspan="1" rowspan="2" class="left middle">NX-TS2101</td>
+									<td class="center middle">Ver.1.0</td>
+									<td colspan="1" rowspan="16" class="center middle">Ver.1.0 or later</td>
+									<td colspan="1" rowspan="16" class="center middle">Ver.1.05 or later</td>
+									<td class="center middle">Ver.1.06 or higher</td>
+									<td colspan="1" rowspan="16" class="center middle">Ver.1.0 or later</td>
+									<td colspan="1" rowspan="16" class="center middle">Ver.1.10 or higher</td>
+								</tr>
+								<tr>
+									<td class="center middle">Ver.1.1</td>
+									<td class="center middle">Ver.1.08 or higher</td>
+								</tr>
+								<tr>
+									<td class="left middle">NX-TS2102</td>
+									<td class="center middle">Ver.1.1</td>
+									<td class="center middle">Ver.1.08 or higher</td>
+								</tr>
+								<tr>
+									<td class="left middle">NX-TS2104</td>
+									<td class="center middle">Ver.1.1</td>
+									<td class="center middle">Ver.1.08 or higher</td>
+								</tr>
+								<tr>
+									<td colspan="1" rowspan="2" class="left middle">NX-TS2201</td>
+									<td class="center middle">Ver.1.0</td>
+									<td class="center middle">Ver.1.06 or higher</td>
+								</tr>
+								<tr>
+									<td class="center middle">Ver.1.1</td>
+									<td class="center middle">Ver.1.08 or higher</td>
+								</tr>
+								<tr>
+									<td class="left middle">NX-TS2202</td>
+									<td class="center middle">Ver.1.1</td>
+									<td class="center middle">Ver.1.08 or higher</td>
+								</tr>
+								<tr>
+									<td class="left middle">NX-TS2204</td>
+									<td class="center middle">Ver.1.1</td>
+									<td class="center middle">Ver.1.08 or higher</td>
+								</tr>
+								<tr>
+									<td colspan="1" rowspan="2" class="left middle">NX-TS3101</td>
+									<td class="center middle">Ver.1.0</td>
+									<td class="center middle">Ver.1.06 or higher</td>
+								</tr>
+								<tr>
+									<td class="center middle">Ver.1.1</td>
+									<td class="center middle">Ver.1.08 or higher</td>
+								</tr>
+								<tr>
+									<td class="left middle">NX-TS3102</td>
+									<td class="center middle">Ver.1.1</td>
+									<td class="center middle">Ver.1.08 or higher</td>
+								</tr>
+								<tr>
+									<td class="left middle">NX-TS3104</td>
+									<td class="center middle">Ver.1.1</td>
+									<td class="center middle">Ver.1.08 or higher</td>
+								</tr>
+								<tr>
+									<td colspan="1" rowspan="2" class="left middle">NX-TS3201</td>
+									<td class="center middle">Ver.1.0</td>
+									<td class="center middle">Ver.1.06 or higher</td>
+								</tr>
+								<tr>
+									<td class="center middle">Ver.1.1</td>
+									<td class="center middle">Ver.1.08 or higher</td>
+								</tr>
+								<tr>
+									<td class="left middle">NX-TS3202</td>
+									<td class="center middle">Ver.1.1</td>
+									<td class="center middle">Ver.1.08 or higher</td>
+								</tr>
+								<tr>
+									<td class="left middle">NX-TS3204</td>
+									<td class="center middle">Ver.1.1</td>
+									<td class="center middle">Ver.1.08 or higher</td>
+								</tr>
+							</table>
+						</div>
+        
+        </p>
+    </div>
+
+
+
+
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="component-blockA01">
+
+
+
+
+
+    <div class="text">
+        <p>
+            
+          <div style="text-align: left;">* Some Units do not have all of the versions given in the above table. If a Unit does not have the specified version, support
+<br />
+   is provided by the oldest available version after the specified version. Refer to the user’s manuals for the specific Units
+<br />
+   for the relation between models and versions.</div>
+        
+        </p>
+    </div>
+
+
+
+
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<p class="date-line">last update: October 11, 2016</p>
+
+</div>
+
+                        </div>
+                    </div>
+	            <!-- === /[primary-contents-area] === -->
+                </div>
+                <!-- === /[inner-contents-area] === -->
+
+
+                <!-- === [local-navi] === -->
+                <div class="local-navi-area">
+                    <div class="local-navi-area">
+
+
+
+<div class="local-naviA01">
+<h2 class="heading-link">
+<a href="../../category/index.html" ><img src="../../../resources/images/icon_right_b.gif" width="3" height="9" alt="" class="iconA01" />Product Category</a>
+</h2>
+<ul><li><a href="../../category/automation-systems/index-2.html"><img src="../../../resources/images/icon_right_b.gif" width="3" height="9" alt="" class="iconA01" />Automation Systems</a><ul class="list-indent01"><li><a href="../../category/automation-systems/machine-automation-controllers/index-2.html"><img src="../../../resources/images/icon_right_b.gif" width="3" height="9" alt="" class="iconA01" />Machine Automation Controllers</a><ul class="list-indent02"><li><a href="../../category/automation-systems/machine-automation-controllers/ethercat-slave-terminals-nx-series/index.html"><img src="../../../resources/images/icon_right_b.gif" width="3" height="9" alt="" class="iconA01" />EtherCAT Slave Terminals NX-Series</a><ul class="list-indent03"><li><a href="../../category/automation-systems/machine-automation-controllers/ethercat-slave-terminals-nx-series/temperature-input-unit_heater-burnout-detection-unit/index.html"><img src="../../../resources/images/icon_right_b.gif" width="3" height="9" alt="" class="iconA01" />Temperature Input Unit /  Heater Burnout Detection Unit</a><ul class="list-indent04"><li class="stay"><span>NX-TS</span></li><li><a href="../3539/index.html"><img src="../../../resources/images/icon_right_b.gif" width="3" height="9" alt="" class="iconA01" />NX-HB</a></li></ul></li></ul></li></ul></li></ul></li></ul>
+<!-- /local-naviA01 -->
+</div>
+
+
+
+<div class="local-naviB01">
+<ul class="heading-link">
+
+<li class="first-child">
+<a href="../../category/index.html"><img src="../../../resources/images/icon_right_b.gif" width="3" height="9" alt="" class="iconA01" />Product Category</a>
+</li>
+
+<li>
+<a href="../../../product/cautions/index-2.html"><img src="../../../resources/images/icon_right_b.gif" width="3" height="9" alt="" class="iconA01" />Cautions</a>
+</li>
+
+<li>
+<a href="../../index/index.html"><img src="../../../resources/images/icon_right_b.gif" width="3" height="9" alt="" class="iconA01" />Item A to Z Index</a>
+</li>
+
+<li>
+<a href="../../applications/index.html"><img src="../../../resources/images/icon_right_b.gif" width="3" height="9" alt="" class="iconA01" />Applications</a>
+</li>
+
+<li>
+<a href="../../correct/index.html"><img src="../../../resources/images/icon_right_b.gif" width="3" height="9" alt="" class="iconA01" />Correction Notice</a>
+</li>
+
+</ul>
+<!-- /local-naviB01 -->
+</div>
+                    </div>
+                </div>
+                <!-- === /[local-navi] === -->
+
+            </div>
+            <!-- === /[contents-area] === -->
+
+            <!-- === [top-page-link-area] === -->
+            <div class="top-page-link-area">
+                <ul class="top-page-link-list">
+                    <li>
+                        <a href="#page-top"><img src="../../../resources/images/icon_up_b.gif" width="5" height="8" alt="" class="iconB01" />Top of Page</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- === /[top-page-link-area] === -->
+
+            <!-- === [footer-area] === -->
+
+
+<!-- === [footer-area] === -->
+<div class="footer-area">
+    <p class="non-visual">
+        <a name="footer" id="footer">Site Information</a>
+    </p>
+  
+    <div class="footer-link">
+     
+
+        <p class="copyright">© Copyright Kyoto Engineering &amp; Automation Ltd. All Rights Reserved.</p>
+    <!-- /.footer-link -->
+    </div>
+<!-- /.footer-area -->
+</div>
+<!-- === /[footer-area] === -->
+            <!-- === /[footer-area] === -->
+        </div>
+        <!-- === /[omron-ia] === -->
+    </body>
+
+<!-- Mirrored from www.ia.omron.com/products/family/3189/specification.html by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 16 Dec 2016 06:31:01 GMT -->
+</html>

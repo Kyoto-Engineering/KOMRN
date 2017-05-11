@@ -1,0 +1,1376 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<html xml:lang="en" lang="en" xmlns="http://www.w3.org/1999/xhtml">
+    
+<!-- Mirrored from www.ia.omron.com/products/family/3196/specification.html by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 15 Dec 2016 14:56:15 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=utf-8" /><!-- /Added by HTTrack -->
+<head>
+
+<link rel="stylesheet" type="text/css" media="all" href="../../../css/index.css"/>
+	<link rel="stylesheet" type="text/css" media="all" href="../../../css/top.css"/>
+
+        <meta http-equiv="Content-Language" content="en" />
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <meta http-equiv="Content-Style-Type" content="text/css" />
+        <meta http-equiv="Content-Script-Type" content="text/javascript" />
+        <title>
+            NJ501-1[]20 / NJ101-[][]20 NJ-series Database Connection CPU Units/Specifications | OMRON By Kyoto Engineering &amp; Automation
+        </title>
+        <meta name="keywords" content="Automation Systems,Machine Automation Controllers,Controller NJ Series,CPU Units,NJ501-1[]20 / NJ101-[][]20" />
+        <meta name="description" content="NJ-series Database Connection CPU Units The NJ-series Machine Automation Controller supports the Database Connection function. Machine data can be quickly stored in a database by connecting the Controller directly to the database." />
+        
+
+<link rel="alternate" href="../../../index.html" hreflang="en" />
+<link rel="stylesheet" type="text/css" media="all" href="../../../resources/css/common22f8.css?201611151200" />
+<link rel="stylesheet" type="text/css" media="all" href="../../../resources/css/global/common22f8.css?201611151200" />
+<link rel="stylesheet" type="text/css" media="all" href="../../../resources/css/frame_utility_tridion22f8.css?201611151200" />
+<link rel="stylesheet" type="text/css" media="print" href="../../../resources/css/print22f8.css?201611151200" />
+<script type="text/javascript" src="../../../resources/js/jquery22f8.js?201611151200"></script>
+<script type="text/javascript" src="../../../resources/js/function22f8.js?201611151200"></script>
+<script type="text/javascript" src="../../../resources/js/country_website22f8.js?201611151200"></script>
+<script type="text/javascript" src="../../../resources/js/global/ga22f8.js?201611151200"></script>
+<link rel="stylesheet" type="text/css" media="all" href="../../../resources/css/jquery-ui22f8.css?201611151200" charset='UTF-8'/>
+<link rel="stylesheet" type="text/css" media="all" href="../../../resources/css/jquery.multiselect22f8.css?201611151200" charset='UTF-8'/>
+<script type="text/javascript" language="JavaScript" src="../../../common/js/marketing_tag22f8.js?201611151200"></script>
+<script type="text/javascript" src="../../../resources/js/jquery-ui.min22f8.js?201611151200" charset='UTF-8'></script>
+<script type="text/javascript" src="../../../resources/js/jquery.ex-table-filter22f8.js?201611151200" charset='UTF-8'></script>
+<script type="text/javascript" src="../../../resources/js/jquery.tablesorter.min22f8.js?201611151200" charset='UTF-8'></script>
+<script type="text/javascript" src="../../../resources/js/filter22f8.js?201611151200" charset='UTF-8'></script>
+<link rel="shortcut icon" href="../../../resources/images/favicon.ico" type="image/x-icon" />
+
+        <link rel="stylesheet" type="text/css" media="all" href="../../../resources/css/tablesorter6c9b.css?201611150900" />
+        <script type="text/javascript" src="../../../resources/js/global/products6c9b.js?201611150900" charset='UTF-8'></script>
+
+    
+                    <script type="text/javascript">
+                      var w=window;
+                      if(w.performance||w.mozPerformance||w.msPerformance||w.webkitPerformance){var d=document,AKSB=AKSB||{};AKSB.q=[];AKSB.mark=function(a,b){AKSB.q.push(["mark",a,b||(new Date).getTime()])};AKSB.measure=function(a,b,c){AKSB.q.push(["measure",a,b,c||(new Date).getTime()])};AKSB.done=function(a){AKSB.q.push(["done",a])};AKSB.mark("firstbyte",(new Date).getTime());AKSB.prof={custid:"447308",ustr:"UNKNOWN",originlat:0,clientrtt:64,ghostip:"23.75.23.146",
+                      ipv6:false,pct:10,clientip:"27.147.201.4",requestid:"3cd02134",protocol:"",blver:10,akM:"b",akN:"ae",akTT:"O",akTX:"1",akTI:"3cd02134",ai:"286653",ra:"",pmgn:"",pmgi:"",pmp:""};(function(a){var b=
+                      d.createElement("script");b.async="async";b.src=a;a=d.getElementsByTagName("script");a=a[a.length-1];a.parentNode.insertBefore(b,a)})(("https:"===d.location.protocol?"https:":"http:")+"//ds-aksb-a.akamaihd.net/aksb.min.js")};
+                    </script>
+                    </head>
+    <body id="www-ia-omron-com" class="layoutC03 automation-systems">
+
+        <!-- === [omron-ia] === -->
+        <div class="omron-ia">
+            <p class="non-visual">
+                <a name="page-top" id="page-top">
+                    Page top
+                </a>
+            </p>
+
+
+
+
+<div class="header-area">
+     <div class="site-identity">
+          <div class="site-logo">
+               <a href="../../../index.php"><img src="../../../images/logo_01_b13-260967.gif"  width="129" height="24" alt="OMRON" /></a>
+          </div>
+          <!-- /.site-identity -->
+     </div>
+     <div class="utilities">
+		<div class="country-select-area">
+			<p class="canpany">Building Automation</p>
+                        <?php echo '&nbsp' ; ?>
+                        <br/>
+                        <p class="canpany">Industrial Automation</p>
+                        <?php echo '&nbsp' ; ?>
+                        <br/>
+                        <p class="canpany">Power Automation &amp; Safety </p>
+			
+		</div>
+            
+            <div class="japani">
+                <img  src="../../../shared/img/Japani Technology mnemonic.png" width="90" height="50" alt=""/>
+            </div>
+          
+            
+            
+            <div class="flag">
+            <img src="../../../shared/img/Bangladesh-Flag_1.png" alt=""/>
+            </div>
+            <div class="kyoto">
+                <p><b>Bangladesh Distributor</b></p>
+                <img style="margin-left:-5px;"  src="../../../shared/img/Kyoto-logo-Png.png" alt=""/>
+            </div>
+	<!-- /.utilities --> </div>
+	<!-- /.header-area --></div>
+
+
+<div class="global-navi-area">
+<ul>
+<li class="home stay"><a href="../../../index.php">Home</a></li>
+<li class="product"><a href="../../../products/index.html">Products</a></li>
+<li class="corporate-profile"><a href="../../../view/contact/input.php">Contact Us</a></li>
+<li class="function-area"><div class="search"><form action="https://omron.keal.com.bd/sphider/search.php" method="get">       
+<input type="text" name="query" id="query" size="40" value="" />
+      <input type="submit" value="Search" /> <input type="hidden"
+      name="search" value="1" />
+    </form>
+</div>
+</li>
+</ul>
+</div> 
+<div class="bread-crumb-area">
+<ul>
+
+
+<li><a href="../../../index.php">Home</a><span class="separator">&gt;</span></li>
+
+<li><a href="../../index-2.html" >Products</a><span class="separator">&gt;</span></li>
+
+<li><a href="../../category/index.html" >Product Category</a><span class="separator">&gt;</span></li>
+
+<li><a href="../../category/automation-systems/index-2.html" >Automation Systems</a><span class="separator">&gt;</span></li>
+
+<li><a href="../../category/automation-systems/machine-automation-controllers/index-2.html" >Machine Automation Controllers</a><span class="separator">&gt;</span></li>
+
+<li><a href="../../category/automation-systems/machine-automation-controllers/controller-nj-series/index.html" >Controller NJ Series</a><span class="separator">&gt;</span></li>
+
+<li><a href="../../category/automation-systems/machine-automation-controllers/controller-nj-series/cpu-units/index.html" >CPU Units</a><span class="separator">&gt;</span></li>
+
+<li><strong>NJ501-1[]20 / NJ101-[][]20</strong></li>
+
+
+</ul>
+</div>
+
+            <!-- === [contents-area] === -->
+            <div class="contents-area">
+
+                <!-- === [inner-contents-area] === -->
+                <div class="inner-contents-area">
+                    <!-- === [upper-contents-area] === -->
+                    <div class="upper-contents-area">
+                        <!-- === [lead-area] === -->
+                        <div class="lead-area">
+
+
+
+
+<!-- --------------------------------------------------------------------Product Family Start--------------------------------------------------------- -->
+<div class="heading-h1">
+
+
+    <h1>
+        NJ501-1[]20 / NJ101-[][]20
+    </h1>
+    <p class="sub-title">
+        NJ-series Database Connection CPU Units
+    </p>
+</div>
+<div class="image-blockA01">
+    <div class="image-left">
+        <p class="image">
+
+            <img src="../../../images/l_3196-13-171738-198x198.jpg" width="198" height="198" alt="NJ501-1[]20 / NJ101-[][]20" class="nopic" />
+
+
+        </p>
+    </div>
+    <div class="description">
+        <h2 class="heading-B02">
+            The NJ-series Machine Automation Controller supports the Database Connection function. Machine data can be quickly stored in a database by connecting the Controller directly to the database.
+        </h2>
+        
+
+
+
+
+        <div class="item-list-link">
+            <p>
+                <a href="itemlist/index.html">
+                    <img src="../../../resources/images/icon_right_b.gif" width="3" height="9" alt="" class="iconA01" />
+                    Item list of NJ501-1[]20 / NJ101-[][]20
+                </a>
+            </p>
+        </div>
+    </div>
+<!-- /.image-blockA01 -->
+</div>
+
+
+
+                        </div>
+                        <!-- === /[lead-area] === -->
+
+
+                        <!-- === [utility-area] === -->
+                        <div class="utility-area">                         
+                       
+                            <div class="action-block">
+                                <p>
+                                    about this Product Family
+                                </p>
+                                <ul>
+                                    <li class="first-child">
+                                        <a href="../../../view/contact/input.php">
+                                            Inquiry of this Product
+                                        </a>
+                                    </li>                                 
+                                </ul>
+                            </div>
+
+
+
+
+<div class="related-info-blockA01 vertical-slide">
+
+    <p>
+        <span>Related Contents</span>
+    </p>
+
+
+        
+
+        <ul>
+            <li class="first-child">
+                <span>Automation Systems</span>
+            </li>
+            <li>
+                <ul class="list-indent01">
+
+
+                    <li class="first-child">
+
+
+                        <a href="../../applications/category/automation-systems/index.html">
+                            <img src="../../../resources/images/icon_right_b.gif" width="3" height="9" alt="" class="iconA01" />
+                            Applications 
+                        </a>
+                    </li>
+
+                </ul>
+            </li>
+        </ul>
+
+        <ul>
+            <li class="first-child">
+                <span>Machine Automation Controllers</span>
+            </li>
+            <li>
+                <ul class="list-indent01">
+
+
+                    <li class="first-child">
+
+
+                        <a href="../../index/automation-systems/machine-automation-controllers/index.html">
+                            <img src="../../../resources/images/icon_right_b.gif" width="3" height="9" alt="" class="iconA01" />
+                            Item A to Z Index 
+                        </a>
+                    </li>
+
+
+
+                    <li>
+
+                        <a href="../../../support/glossary/automation-systems/machine-automation-controllers/index.html">
+                            <img src="../../../resources/images/icon_right_b.gif" width="3" height="9" alt="" class="iconA01" />
+                            Glossary of Industrial Automation 
+                        </a>
+                    </li>
+
+                </ul>
+            </li>
+        </ul>
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- /.related-info-blockA01 -->
+</div>
+
+
+
+                           
+                        </div>
+                        <!-- === /[utility-area] === -->
+
+                    </div>
+                    <!-- === /[upper-contents-area] === -->
+
+                    <!-- === [primary-contents-area] === -->
+                    <div class="primary-contents-area">
+                        <div class="tabpanel-blockA01">
+
+
+
+
+
+
+<div class="tab-block">
+    <ul class="tabs">
+
+
+
+
+
+
+
+        <li>
+            <a href="feature.html">Features</a>
+
+        </li>
+
+
+
+
+
+
+
+
+        <li>
+            <a href="lineup.html">Lineup</a>
+
+        </li>
+
+
+
+
+
+
+
+
+        <li class="active">
+            <span>Specifications</span>
+
+        </li>
+
+
+
+
+
+
+
+
+        <li>
+            <a href="dimension.html">Dimensions</a>
+
+        </li>
+
+
+
+
+
+
+        <li>
+            <a href="download/catalog.html">Catalog</a>
+
+        </li>
+
+
+
+
+
+    </ul>
+</div><!-- /.tab-block -->
+
+<div class="editable-block">
+
+
+<p class="date-line">last update: July 01, 2016</p>
+
+
+
+
+
+
+
+
+
+<h4 class="heading-A02">General Specification</h4>
+
+
+
+
+
+
+
+
+
+
+<div class="component-blockA01">
+
+
+
+
+
+    <div class="text">
+        <p>
+            For the common specifications of the NJ-series, refer to the Machine Automation Controller NJ/NX-Series Datasheet.
+        </p>
+    </div>
+
+
+
+
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<h4 class="heading-A02">Performance Specifications</h4>
+
+
+
+
+
+
+
+
+
+
+<div class="component-blockA01">
+
+
+
+
+
+    <div class="text">
+        <p>
+            
+						<div class="table-blockA01">
+							<table cellspacing="0" border="0" class="tableA01">
+								<tr class="first-child">
+									<th colspan="3" rowspan="2" class="heading center middle"><strong>Item</strong></th>
+									<th colspan="3" rowspan="1" class="heading center middle"><strong>NJ501-</strong></th>
+									<th colspan="2" rowspan="1" class="heading center middle"><strong>NJ101-</strong></th>
+								</tr>
+								<tr>
+									<th class="heading center middle"><strong>1520</strong></th>
+									<th class="heading center middle"><strong>1420</strong></th>
+									<th class="heading center middle"><strong>1320</strong></th>
+									<th class="heading center middle"><strong>1020</strong></th>
+									<th class="heading center middle"><strong>9020</strong></th>
+								</tr>
+								<tr>
+									<th class="heading left middle"><strong>Programming</strong></th>
+									<th class="heading left middle"><strong>Memory for CJ-Series
+<br />
+Units
+<br />
+(Can be Specified with
+<br />
+AT Specifications for
+<br />
+Variables.)</strong></th>
+									<th class="heading left middle"><strong>EM Area</strong></th>
+									<td colspan="3" rowspan="1" class="left middle">32,768 words ✕ 25 banks *
+<br />
+(E0_00000 to E18_32767)</td>
+									<td colspan="2" rowspan="1" class="left middle">32,768 words ✕ 4 banks *
+<br />
+(E0_0 to E3_32767)</td>
+								</tr>
+							</table>
+						</div>
+					
+        </p>
+    </div>
+
+
+
+
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="component-blockA01">
+
+
+
+
+
+    <div class="text">
+        <p>
+            * When the Spool function of the NJ501-1[]20 is enabled, the DB Connection Service uses E9_0 to E18_32767.
+<br />
+  When the Spool function of the NJ101-[][]20 is enabled, the DB Connection Service uses E1_0 to E3_32767.
+<br />
+Furthermore, for the common specifications of the NJ-series, refer to to the Machine Automation Controller NJ/NX-Series Datasheet.
+<br />
+Refer to the specifications of the NJ501-[]5[]0 for those of the NJ501-1520, the NJ501-[]4[]0 for the NJ501-1420, the NJ501-[]3[]0 for the NJ501- 1320, the 101-1020 for the NJ101-1[][]0 and the 101-9020 for the NJ101-9[][]0.
+        </p>
+    </div>
+
+
+
+
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<h4 class="heading-A02">Function Specifications</h4>
+
+
+
+
+
+
+
+
+
+
+<div class="component-blockA01">
+
+
+
+
+
+    <div class="text">
+        <p>
+            
+						<div class="table-blockA01">
+							<table cellspacing="0" border="0" class="tableA01">
+								<tr class="first-child">
+									<th colspan="3" rowspan="2" class="heading center middle"><strong>Item</strong></th>
+									<th colspan="2" rowspan="1" class="heading center middle"><strong>NJ501-1[]20</strong></th>
+									<th colspan="1" rowspan="2" class="heading center middle"><strong>NJ101-[][]20</strong></th>
+								</tr>
+								<tr>
+									<th class="heading center middle"><strong>Ver.1.07 or ealier</strong></th>
+									<th class="heading center middle"><strong>Ver.1.08 or later</strong></th>
+								</tr>
+								<tr>
+									<th class="heading left middle"><strong>Debugging</strong></th>
+									<th class="heading left middle"><strong>Data Tracing</strong></th>
+									<th class="heading left middle"><strong>Maximum number of
+<br />
+simultaneous data
+<br />
+traces</strong></th>
+									<td class="left middle">4</td>
+									<td class="left middle">2</td>
+									<td class="left middle">2</td>
+								</tr>
+							</table>
+						</div>
+					
+        </p>
+    </div>
+
+
+
+
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="component-blockA01">
+
+
+
+
+
+    <div class="text">
+        <p>
+            Furthermore, for the common specifications of the NJ-series, refer to the Machine Automation Controller NJ/NX-Series Datasheet.
+        </p>
+    </div>
+
+
+
+
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<h4 class="heading-A02">Functions Supported by NJ501-[][]20 or NJ101-[]020</h4>
+
+
+
+
+
+
+
+
+
+
+<div class="component-blockA01">
+
+
+
+
+
+    <div class="text">
+        <p>
+            Besides functions of the NJ501-1[]00 or NJ101-[][]00, functions supported by the NJ501-[][]20 or NJ101-[]020 are as follows.
+        </p>
+    </div>
+
+
+
+
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="component-blockA01">
+
+
+
+
+
+    <div class="text">
+        <p>
+            
+						<div class="table-blockA01">
+							<table cellspacing="0" border="0" class="tableA01">
+								<tbody>
+									<tr class="first-child">
+										<th colspan="2" rowspan="2" class="heading center middle"><strong>Item</strong></th>
+										<th colspan="2" rowspan="1" class="heading center middle"><strong>Description</strong></th>
+									</tr>
+									<tr>
+										<th class="heading center middle"><strong>NJ501-1[]20</strong></th>
+										<th class="heading center middle"><strong>NJ101-[][]20</strong></th>
+									</tr>
+									<tr>
+										<th colspan="2" rowspan="1" class="heading left middle"><strong>Supported port</strong></th>
+										<td colspan="2" rowspan="1" class="left middle">Built-in EtherNet/IP port</td>
+									</tr>
+									<tr>
+										<th colspan="2" rowspan="1" class="heading left middle"><strong>Supported DB</strong></th>
+										<td colspan="2" rowspan="1" class="left middle">Microsoft Corporation: SQL Server 2008/2008 R2/2012/2014 *1
+<br />
+Oracle Corporation: Oracle Database 10g /11g/12c *1
+<br />
+MySQL Community Edition 5.1/5.5/5.6 *2
+<br />
+International Business Machines Corporation (IBM):
+<br />
+DB2 for Linux, UNIX and Windows 9.5/9.7/10.1/10.5
+<br />
+Firebird Foundation Incorporated: Firebird 2.1/2.5
+<br />
+The PostgreSQL Global Development Group: PostgreSQL 9.2/9.3/9.4 *1</td>
+									</tr>
+									<tr>
+										<th colspan="2" rowspan="1" class="heading left middle"><strong>Number of DB Connections
+<br />
+(Number of databases that
+<br />
+can be connected at the
+<br />
+same time)</strong></th>
+										<td class="left middle">3 connections max. *3</td>
+										<td class="left middle">1</td>
+									</tr>
+									<tr>
+										<th colspan="1" rowspan="5" class="heading left middle"><strong>Instruction</strong></th>
+										<th class="heading left middle"><strong>Supported
+<br />
+operations</strong></th>
+										<td colspan="2" rowspan="1" class="left middle">The following operations can be performed by executing DB Connection
+<br />
+Instructions in the NJ-series CPU Units.
+<br />
+Inserting records (INSERT), Updating records (UPDATE), Retrieving records
+<br />
+(SELECT), and Deleting records (DELETE)</td>
+									</tr>
+									<tr>
+										<th class="heading left middle"><strong>Number of
+<br />
+columns in
+<br />
+an INSERT
+<br />
+operation</strong></th>
+										<td colspan="2" rowspan="1" class="left middle">SQL Server: 1,024 columns max.
+<br />
+Others: 1,000 columns max.</td>
+									</tr>
+									<tr>
+										<th class="heading left middle"><strong>Number of
+<br />
+columns in
+<br />
+an UPDATE
+<br />
+operation</strong></th>
+										<td colspan="2" rowspan="1" class="left middle">SQL Server: 1,024 columns max.
+<br />
+Others: 1,000 columns max.</td>
+									</tr>
+									<tr>
+										<th class="heading left middle"><strong>Number of
+<br />
+columns in
+<br />
+a SELECT
+<br />
+operation</strong></th>
+										<td colspan="2" rowspan="1" class="left middle">SQL Server: 1,024 columns max.
+<br />
+Others: 1,000 columns max.</td>
+									</tr>
+									<tr>
+										<th class="heading left middle"><strong>Number of
+<br />
+records in
+<br />
+the output
+<br />
+of a SELECT
+<br />
+operation</strong></th>
+										<td colspan="2" rowspan="1" class="left middle">65,535 elements max., 4 MB max.</td>
+									</tr>
+									<tr>
+										<th colspan="2" rowspan="1" class="heading left middle"><strong>Run mode of the DB
+<br />
+Connection Service</strong></th>
+										<td colspan="2" rowspan="1" class="left middle">Operation Mode or Test Mode
+<br />
+• Operation Mode: When each instruction is executed, the service actually
+<br />
+accesses the DB.
+<br />
+• Test Mode: When each instruction is executed, the service ends the
+<br />
+instruction normally without accessing the DB actually.</td>
+									</tr>
+									<tr>
+										<th colspan="2" rowspan="1" class="heading left middle"><strong>Spool function</strong></th>
+										<td colspan="2" rowspan="1" class="left middle">Used to store SQL statements when an error occurred and resend the statements when the
+<br />
+communications are recovered from the error.
+<br />
+Spool capacity: 1 MB *2</td>
+									</tr>
+									<tr>
+										<th class="heading left middle" />
+										<th class="heading left middle"><strong>Spool capacity</strong></th>
+										<td class="left middle">1 MB *4</td>
+										<td class="left middle">192 KB *4</td>
+									</tr>
+									<tr>
+										<th colspan="2" rowspan="1" class="heading left middle"><strong>Operation Log function</strong></th>
+										<td colspan="2" rowspan="1" class="left middle">The following three types of logs can be used.
+<br />
+• Execution Log: Log for tracing the executions of the DB Connection Service.
+<br />
+• Debug Log: Detailed log for SQL statement executions of the DB Connection
+<br />
+Service.
+<br />
+• SQL Execution Failure Log: Log for execution failures of SQL statements
+<br />
+due to a DB-caused factor.</td>
+									</tr>
+									<tr>
+										<th colspan="2" rowspan="1" class="heading left middle"><strong>DB Connection Service
+<br />
+shutdown function</strong></th>
+										<td colspan="2" rowspan="1" class="left middle">Used to shut down the DB Connection Service after automatically saving the Operation Log files into
+<br />
+the SD Memory Card.</td>
+									</tr>
+								</tbody>
+							</table>
+						</div>
+					
+        </p>
+    </div>
+
+
+
+
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="component-blockA01">
+
+
+
+
+
+    <div class="text">
+        <p>
+            *1. SQL Server 2014, Oracle Database 12c and PostgreSQL 9.2/9.3/9.4 are supported by DBCon version 1.02 or higher.
+<br />
+*2. The supported storage engines of the DB are InnoDB and MyISAM.
+<br />
+*3. When two or more DB Connections are established, the operation cannot be guaranteed if you set different
+<br />
+       database types for the connections.
+<br />
+*4. Refer to "NJ-series Database Connection CPU Units User's Manual(W527)" for the information.
+        </p>
+    </div>
+
+
+
+
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<h4 class="heading-A02">Unit Versions</h4>
+
+
+
+
+
+
+
+
+
+
+<div class="component-blockA01">
+
+
+
+
+
+    <div class="text">
+        <p>
+            
+          <div class="table-blockA01">
+							<table cellspacing="0" border="0" class="tableA01">
+								<tr class="first-child">
+									<th class="heading center middle"><strong>Units</strong></th>
+									<th class="heading center middle"><strong>Models</strong></th>
+									<th class="heading center middle"><strong>Unit Version</strong></th>
+									<th class="heading center middle"><strong>DBCon Version</strong></th>
+								</tr>
+								<tr>
+									<td colspan="1" rowspan="4" class="left middle">NJ-series Database
+<br />
+Connection CPU Units</td>
+									<td colspan="1" rowspan="3" class="left middle">NJ501-1[]20</td>
+									<td class="left middle">Unit version 1.11
+<br />
+Unit version 1.10</td>
+									<td class="left middle">DBCon Ver.1.02
+<br />
+DBCon Ver.1.01</td>
+								</tr>
+								<tr>
+									<td class="left middle">Unit version 1.09
+<br />
+Unit version 1.08</td>
+									<td class="left middle">DBCon Ver.1.01</td>
+								</tr>
+								<tr>
+									<td class="left middle">Unit version 1.07
+<br />
+Unit version 1.05</td>
+									<td class="left middle">DBCon Ver.1.00</td>
+								</tr>
+								<tr>
+									<td class="left middle">NJ101-[][]20</td>
+									<td class="left middle">Unit version 1.10</td>
+									<td class="left middle">DBCon Ver.1.02</td>
+								</tr>
+							</table>
+						</div>
+        
+        </p>
+    </div>
+
+
+
+
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<h4 class="heading-A02">Unit Versions, DBCon Versions and Programming Devices</h4>
+
+
+
+
+
+
+
+
+
+
+<div class="component-blockA01">
+
+
+
+
+
+    <div class="text">
+        <p>
+            The following table gives the relationship between unit versions of CPU Units and the corresponding Sysmac Studio versions.
+        </p>
+    </div>
+
+
+
+
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="component-blockA01">
+
+
+
+
+
+    <div class="text">
+        <p>
+            
+          <div class="table-blockA01">
+							<table cellspacing="0" border="0" class="tableA01">
+								<tr class="first-child">
+									<th class="heading center middle"><strong>Unit version of CPU Unit</strong></th>
+									<th class="heading center middle"><strong>DBCon Version</strong></th>
+									<th class="heading center middle"><strong>Corresponding version of Sysmac Studio</strong></th>
+								</tr>
+								<tr>
+									<td class="left middle">1.12</td>
+									<td colspan="1" rowspan="3" class="center middle">1.02</td>
+									<td class="center middle">1.16</td>
+								</tr>
+								<tr>
+									<td class="left middle">1.11</td>
+									<td class="center middle">1.15</td>
+								</tr>
+								<tr>
+									<td colspan="1" rowspan="2" class="left middle">1.10 *</td>
+									<td class="center middle">1.14</td>
+								</tr>
+								<tr>
+									<td colspan="1" rowspan="3" class="center middle">1.01</td>
+									<td class="center middle">1.13
+<br />
+1.12</td>
+								</tr>
+								<tr>
+									<td class="left middle">1.09</td>
+									<td class="center middle">1.11
+<br />
+1.10</td>
+								</tr>
+								<tr>
+									<td class="left middle">1.08</td>
+									<td class="center middle">1.09</td>
+								</tr>
+								<tr>
+									<td class="left middle">1.07</td>
+									<td colspan="1" rowspan="2" class="center middle">1.00</td>
+									<td class="center middle">1.08</td>
+								</tr>
+								<tr>
+									<td class="left middle">1.05</td>
+									<td class="center middle">1.07
+<br />
+1.06</td>
+								</tr>
+							</table>
+						</div>
+        
+        </p>
+    </div>
+
+
+
+
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="component-blockA01">
+
+
+
+
+
+    <div class="text">
+        <p>
+            * For NJ101-[][]20, Supported only by the Sysmac Studio version 1.14 or higher.
+        </p>
+    </div>
+
+
+
+
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<h4 class="heading-A02">Functions That Were Added or Changed for Each Unit Version and Sysmac Studio Version</h4>
+
+
+
+
+
+
+
+
+
+
+<div class="component-blockA01">
+
+
+
+
+
+    <div class="text">
+        <p>
+            For the common specifications of the NJ-series, refer to the Machine Automation Controller NJ/NX-Series Datasheet.
+        </p>
+    </div>
+
+
+
+
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<p class="date-line">last update: July 01, 2016</p>
+
+</div>
+
+                        </div>
+                    </div>
+	            <!-- === /[primary-contents-area] === -->
+                </div>
+                <!-- === /[inner-contents-area] === -->
+
+
+                <!-- === [local-navi] === -->
+                <div class="local-navi-area">
+                    <div class="local-navi-area">
+
+
+
+<div class="local-naviA01">
+<h2 class="heading-link">
+<a href="../../category/index.html" ><img src="../../../resources/images/icon_right_b.gif" width="3" height="9" alt="" class="iconA01" />Product Category</a>
+</h2>
+<ul><li><a href="../../category/automation-systems/index-2.html"><img src="../../../resources/images/icon_right_b.gif" width="3" height="9" alt="" class="iconA01" />Automation Systems</a><ul class="list-indent01"><li><a href="../../category/automation-systems/machine-automation-controllers/index-2.html"><img src="../../../resources/images/icon_right_b.gif" width="3" height="9" alt="" class="iconA01" />Machine Automation Controllers</a><ul class="list-indent02"><li><a href="../../category/automation-systems/machine-automation-controllers/controller-nj-series/index.html"><img src="../../../resources/images/icon_right_b.gif" width="3" height="9" alt="" class="iconA01" />Controller NJ Series</a><ul class="list-indent03"><li><a href="../../category/automation-systems/machine-automation-controllers/controller-nj-series/cpu-units/index.html"><img src="../../../resources/images/icon_right_b.gif" width="3" height="9" alt="" class="iconA01" />CPU Units</a><ul class="list-indent04"><li><a href="../3075/index.html"><img src="../../../resources/images/icon_right_b.gif" width="3" height="9" alt="" class="iconA01" />NJ501-[][][][]</a></li><li class="stay"><span>NJ501-1[]20 / NJ101-[][]20</span></li><li><a href="../3401/index.html"><img src="../../../resources/images/icon_right_b.gif" width="3" height="9" alt="" class="iconA01" />NJ501-1340</a></li><li><a href="../3387/index.html"><img src="../../../resources/images/icon_right_b.gif" width="3" height="9" alt="" class="iconA01" />NJ501-4[][][]</a></li><li><a href="../3111/index.html"><img src="../../../resources/images/icon_right_b.gif" width="3" height="9" alt="" class="iconA01" />NJ301-[][][][]</a></li><li><a href="../3438/index.html"><img src="../../../resources/images/icon_right_b.gif" width="3" height="9" alt="" class="iconA01" />NJ101-[][][][]</a></li></ul></li></ul></li></ul></li></ul></li></ul>
+<!-- /local-naviA01 -->
+</div>
+
+
+
+<div class="local-naviB01">
+<ul class="heading-link">
+
+<li class="first-child">
+<a href="../../category/index.html"><img src="../../../resources/images/icon_right_b.gif" width="3" height="9" alt="" class="iconA01" />Product Category</a>
+</li>
+
+<li>
+<a href="../../../product/cautions/index-2.html"><img src="../../../resources/images/icon_right_b.gif" width="3" height="9" alt="" class="iconA01" />Cautions</a>
+</li>
+
+<li>
+<a href="../../index/index.html"><img src="../../../resources/images/icon_right_b.gif" width="3" height="9" alt="" class="iconA01" />Item A to Z Index</a>
+</li>
+
+<li>
+<a href="../../applications/index.html"><img src="../../../resources/images/icon_right_b.gif" width="3" height="9" alt="" class="iconA01" />Applications</a>
+</li>
+
+<li>
+<a href="../../correct/index.html"><img src="../../../resources/images/icon_right_b.gif" width="3" height="9" alt="" class="iconA01" />Correction Notice</a>
+</li>
+
+</ul>
+<!-- /local-naviB01 -->
+</div>
+                    </div>
+                </div>
+                <!-- === /[local-navi] === -->
+
+            </div>
+            <!-- === /[contents-area] === -->
+
+            <!-- === [top-page-link-area] === -->
+            <div class="top-page-link-area">
+                <ul class="top-page-link-list">
+                    <li>
+                        <a href="#page-top"><img src="../../../resources/images/icon_up_b.gif" width="5" height="8" alt="" class="iconB01" />Top of Page</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- === /[top-page-link-area] === -->
+
+            <!-- === [footer-area] === -->
+
+
+<!-- === [footer-area] === -->
+<div class="footer-area">
+    <p class="non-visual">
+        <a name="footer" id="footer">Site Information</a>
+    </p>
+  
+    <div class="footer-link">
+     
+
+        <p class="copyright">© Copyright Kyoto Engineering &amp; Automation Ltd. All Rights Reserved.</p>
+    <!-- /.footer-link -->
+    </div>
+<!-- /.footer-area -->
+</div>
+<!-- === /[footer-area] === -->
+            <!-- === /[footer-area] === -->
+        </div>
+        <!-- === /[omron-ia] === -->
+    </body>
+
+<!-- Mirrored from www.ia.omron.com/products/family/3196/specification.html by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 15 Dec 2016 14:56:15 GMT -->
+</html>
