@@ -22,7 +22,6 @@
     <link rel="stylesheet" type="text/css" media="all" href="css/index.css"/>
     <link rel="stylesheet" type="text/css" media="all" href="css/top.css"/>
     <link rel="stylesheet" type="text/css" media="print" href="common/css/print.css"/>
-    <link rel="start index" href="index-2.html" title="OMRON"/>
     <link rel="chapter" href="index.html" title="Our Strengths"/>
     <link rel="chapter" href="products/index.html" title="Products"/>
     <link rel="alternate" href="index.html" hreflang="en" />
