@@ -22,9 +22,9 @@
     <link rel="stylesheet" type="text/css" media="all" href="css/index.css"/>
     <link rel="stylesheet" type="text/css" media="all" href="css/top.css"/>
     <link rel="stylesheet" type="text/css" media="print" href="common/css/print.css"/>
-    <link rel="chapter" href="index.html" title="Our Strengths"/>
+    <link rel="chapter" href="index.php" title="Our Strengths"/>
     <link rel="chapter" href="products/index.html" title="Products"/>
-    <link rel="alternate" href="index.html" hreflang="en" />
+    <link rel="alternate" href="index.php" hreflang="en" />
 <link rel="shortcut icon" href="../resources/images/favicon.ico" type="image/x-icon" />
 <script type="text/javascript" src="common/js/common.js"></script>
 <script type="text/javascript" src="common/js/rollover.js"></script>
