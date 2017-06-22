@@ -25,7 +25,7 @@
     <link rel="chapter" href="index.php" title="Our Strengths"/>
     <link rel="chapter" href="products/index.html" title="Products"/>
     <link rel="alternate" href="index.php" hreflang="en" />
-<link rel="shortcut icon" href="../resources/images/favicon.ico" type="image/x-icon" />
+<link rel="shortcut icon" href="resources/images/favicon.ico" type="image/x-icon" />
 <script type="text/javascript" src="common/js/common.js"></script>
 <script type="text/javascript" src="common/js/rollover.js"></script>
 <script type="text/javascript" src="common/js/cssSupport.js"></script>
