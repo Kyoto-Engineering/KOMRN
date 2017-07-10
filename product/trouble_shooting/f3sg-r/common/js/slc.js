@@ -9,7 +9,13 @@ $(function(){
 			return false;
 		}
 		if($(this).val() == "jp-manual"){	
-			window.location.href = "http://www.fa.omron.co.jp/product/terms.html";
+			window.location.href = "http://www.fa.omron.co.<head>
+    <meta name="distribution" content="global" />
+		<meta name="googlebot" content="noodp" />
+		<meta name="language" content="english" />
+		<meta name="rating" content="general" />
+		<meta name="robots" content="noydir" />
+		<meta name="robots" content="index,follow"/>product/terms.html";
 			return false;
 		}
 
