@@ -60,7 +60,7 @@
                         <p class="canpany">Industrial Automation</p>
                         <?php echo '&nbsp' ; ?>
                         <br/>
-                        <p class="canpany">Power Automation and Safety </p>
+                        <p class="canpany">Power Automation &amp; Safety </p>
 			
 		</div>
             
