@@ -589,7 +589,8 @@
               <div class="about-us-section">
                 <p>
                   
-                    <a href="../omron/products/all-products.html" target="_blank"> <img src="resource/image/banner/product-list.jpg" width="216" height="336" alt=""> </a>
+                    <a href="../data_pdf/cat/OMRON Without Price Product List.pdf "> <img src="resource/image/banner/products-list.jpg" width="216" height="136" alt=""> </a>
+                    
                     
                 </p>
                 <div class="link-list-block">
