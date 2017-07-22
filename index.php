@@ -583,8 +583,8 @@
         
             <div class="about-us-area">
               <h2>
-                <a href="corporate_profile/index-2.html">
-                    <h1>product-list</h1></a>
+                <a href="../data_pdf/cat/OMRON Without Price Product List.pdf ">
+                    <h1>Product-List</h1></a>
               </h2>
               <div class="about-us-section">
                 <p>
