@@ -583,13 +583,14 @@
         
             <div class="about-us-area">
               <h2>
-                <a href="corporate_profile/index-2.html">
-                    <h1>product-list</h1></a>
+                <a href="../data_pdf/cat/OMRON Without Price Product List.pdf ">
+                    <h1>All Omron's Product-List</h1></a>
               </h2>
               <div class="about-us-section">
                 <p>
                   
-                    <a href="../omron/products/all-products.html" target="_blank"> <img src="resource/image/banner/product-list.jpg" width="216" height="336" alt=""> </a>
+                    <a href="../data_pdf/cat/OMRON Without Price Product List.pdf "> <img src="resource/image/banner/products-list.jpg" width="216" height="136" alt=""> </a>
+                    
                     
                 </p>
                 <div class="link-list-block">
