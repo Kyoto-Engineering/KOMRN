@@ -9,7 +9,7 @@
     <meta http-equiv="Content-Language" content="en"/>
     <meta http-equiv="Content-Style-Type" content="text/css"/>
     <meta http-equiv="Content-Script-Type" content="text/javascript"/>
-    <title>OMRON Bangladesh By Kyoto Engineering &amp; Automation</title>
+    <title>OMRON Bangladesh by Kyoto Engineering &amp; Automation</title>
     <meta name="keywords" content="bms,Omron bangladesh,hmi, plc, proximity sensor,power monitor,power safety, temperature controller,led lights,limit switch, switch, automation,servo motor, power supply product, rotary encoder, relay, inverter, sensor, robotics, plc industrial automation,home automation, alarm, power supply, electrical inverter, inductive sensor, plc automation, industrial automation technology, basic sensors, sensor products, rotary encoder, motor encoder, industrial automation companies, omron plc software, photoelectric sensor ,temperature sensor,distribution company, Omron dealer, Omron authorized distributer, control system,power meter, power company, touch switch, stepper moto, stepper motor controller, power test equipment, photoelectric sensor , relay timer, industrial relay, industrial sensor, timer relay, electric control, stepper motor, encoder, magnetic sensor, magnetic door sensor, temperature meter, electrical relay, hmi software, Siemens automation, plc system, about switch, solid state relay, light sensor, automation distributors, Japanese products, OMRON Industrial Automation,yaskawa inveter,yaskawa servo drive, yaskawa inverter,Mitsubishi inverter,micro controller,Omron products in Bangladesh, ahsan, optical rotary encoder, timer electrical, servo motor controller, sensor info, industrial sensor, latest sensor technology, scada, basic switch, electrical relay, process automation, timer switch, plc programmable logic controller, home automation system, photo sensor switch, relay circuit, network switch price, origins products, relay switch, human machine interface,applications of sensors, electrical distribution, electric timer, relay manufacturers, automation system, home automation companies, siemens, electric company website, plc controller, servo motor working, plc software, sensor companies, best home security system, electrical power substation, ac motor speed control, servo motor controller, electrical substation components, servo motor price, Omron products, switches and sensor , home and office Automation in bd , power automaton and safety,
 
  Manufacturing Site"/>
@@ -25,7 +25,7 @@
     <link rel="chapter" href="index.php" title="Our Strengths"/>
     <link rel="chapter" href="products/index.html" title="Products"/>
     <link rel="alternate" href="index.php" hreflang="en" />
-<link rel="shortcut icon" href="../resources/images/favicon.ico" type="image/x-icon" />
+<link rel="shortcut icon" href="resources/images/favicon.ico" type="image/x-icon" />
 <script type="text/javascript" src="common/js/common.js"></script>
 <script type="text/javascript" src="common/js/rollover.js"></script>
 <script type="text/javascript" src="common/js/cssSupport.js"></script>
@@ -60,7 +60,7 @@
                         <p class="canpany">Industrial Automation</p>
                         <?php echo '&nbsp' ; ?>
                         <br/>
-                        <p class="canpany">Power Automation and Safety </p>
+                        <p class="canpany">Power Automation &amp; Safety </p>
 			
 		</div>
             
@@ -581,37 +581,23 @@
           </div>
           <div class="contents03-area">
         
-            <!--<div class="about-us-area">
+            <div class="about-us-area">
               <h2>
-                <a href="corporate_profile/index-2.html">
-                  <img src="common/img/icon_01.gif" width="3" height="9" alt="" class="iconA01">About Us</a>
+                <a href="../data_pdf/cat/OMRON Without Price Product List.pdf ">
+                    <h1>All Omron's Product-List</h1></a>
               </h2>
               <div class="about-us-section">
                 <p>
-                  <img src="img/pic_02.jpg" width="214" height="88" alt="">
+                  
+                    <a href="../data_pdf/cat/OMRON Without Price Product List.pdf "> <img src="resource/image/banner/products-list.jpg" width="216" height="136" alt=""> </a>
+                    
+                    
                 </p>
                 <div class="link-list-block">
-                  <ul class="link-listA01">
-                    <li>
-                      <a href="corporate_profile/statement/index.html">
-                        <img src="common/img/icon_01.gif" width="3" height="9" alt="" class="iconA01">Statement</a>
-                    </li>
-                    <li>
-                      <a href="corporate_profile/mission/index.html">
-                        <img src="common/img/icon_01.gif" width="3" height="9" alt="" class="iconA01">OMRON IA's Mission</a>
-                    </li>
-                    <li>
-                      <a href="corporate_profile/facilities/index.html">
-                        <img src="common/img/icon_01.gif" width="3" height="9" alt="" class="iconA01">Facilities</a>
-                    </li>
-                    <li>
-                      <a href="corporate_profile/philosophy/index.html">
-                        <img src="common/img/icon_01.gif" width="3" height="9" alt="" class="iconA01">Philosophy</a>
-                    </li>
-                  </ul>
+                
                 </div>
               </div>
-            </div>-->
+            </div>
             <div class="banner-area">
               <div class="banner-listA01">
 
@@ -619,7 +605,11 @@
 <div class="top-special-banner">
 <h3>Omron's automation story</h3>
 <ul>
+    <!--  <li><a href="http://www.omron.com/about/story/detail22.html" target="_blank"><img src="resource/image/banner/product-list.jpg" width="216" height="136" alt="Every motion stops in 0.05 seconds and innovation starts on the factory floor" /></a>
+        <a href="http://www.omron.com/about/story/detail22.html" target="_blank"><img src="common/img/icon_07.gif" width="14" height="11" alt="" class="external-win"/></a></li> -->
+    
 <li><a href="http://www.omron.com/about/story/detail22.html" target="_blank"><img src="resource/image/banner/151001-KT-04_ban_smalldouble_omronstory-en.jpg" width="216" height="136" alt="Every motion stops in 0.05 seconds and innovation starts on the factory floor" /></a><a href="http://www.omron.com/about/story/detail22.html" target="_blank">Omron's vibration control technology makes sure the cup of liquid stops its motion completely with no spillage.<img src="common/img/icon_07.gif" width="14" height="11" alt="" class="external-win"/></a></li>
+   
 <li><a href="http://www.omron.com/about/story/detail07.html" target="_blank"><img src="resource/image/banner/141027-KT-01_ban_smalldouble_fa-takkyu-en.jpg" width="216" height="136" alt="Harmony between people and technology" /></a><a href="http://www.omron.com/about/story/detail07.html" target="_blank">Link to the story about development of the ping-pong robot which is controlled by OMRON's IA system.<img src="common/img/icon_07.gif" width="14" height="11" alt="" class="external-win"/></a></li>
 </ul>
 <!-- /top-special-banner --></div>
