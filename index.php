@@ -110,7 +110,7 @@
           </div>
         </div>
         <div class="mainImageNavi">
-          <h2><a href="global_network/index-2.html"><img src="resources/images/icon_01.gif" width="3" height="9" alt="" class="iconA01"/> Channels Partners</a></h2>
+          <h2><img src="resources/images/icon_01.gif" width="3" height="9" alt="" class="iconA01"/> Channels Partners</a></h2>
           <ul>
             <li><a href="#" class="mainImageTitle"><img src="resources/images/icon_01.gif" width="3" height="9" alt="" class="iconA01"/>Dhaka</a>
               </li>
