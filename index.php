@@ -114,7 +114,7 @@
           <ul>
             <li><a href="#" class="mainImageTitle"><img src="resources/images/icon_01.gif" width="3" height="9" alt="" class="iconA01"/>Dhaka</a>
               </li>
-            <li><a href="../omron/HTML/index.html" class="mainImageTitle"><img src="resources/images/icon_01.gif" width="3" height="9" alt="" class="iconA01"/>Chittagong</a>
+            <li><a href="../omron/ctg/index.html" class="mainImageTitle"><img src="resources/images/icon_01.gif" width="3" height="9" alt="" class="iconA01"/>Chittagong</a>
             </li>
           </ul>
         </div>
