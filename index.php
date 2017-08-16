@@ -109,8 +109,8 @@
 -->
           </div>
         </div>
-              <div class="mainImageNavi">
-          <h2><a href="global_network/index-2.html"><img src="resources/images/icon_01.gif" width="3" height="9" alt="" class="iconA01"/> Channels Partners</a></h2>
+               <div class="mainImageNavi">
+         <h2><img src="resources/images/icon_01.gif" width="3" height="9" alt="" class="iconA01"/> Channels Partners</h2>
           <ul>
             <li><a href="#" style="text-decoration:none; color:#213bd8;padding-left: 5px;"  ><img src="resources/images/icon_01.gif" width="3" height="9" alt="" class="iconA01"/><b>Dhaka</b></a>
               </li>
