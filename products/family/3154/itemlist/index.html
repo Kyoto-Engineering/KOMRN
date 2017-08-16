@@ -1,12 +1,12 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns:te="http://www.seasar.org/teeda/extension" xml:lang="en" xmlns="http://www.w3.org/1999/xhtml" xmlns:webcommon="appwebcommon" lang="en">
 <head>
-<meta name="distribution" content="global">
-<meta name="googlebot" content="noodp">
-<meta name="language" content="English">
-<meta name="rating" content="general">
-<meta name="robots" content="noydir">
-<meta name="robots" content="index, follow">
+<meta name="distribution" content="global"/>
+<meta name="googlebot" content="noodp"/>
+<meta name="language" content="English"/>
+<meta name="rating" content="general"/>
+<meta name="robots" content="noydir"/>
+<meta name="robots" content="index, follow"/>
     
 <link rel="stylesheet" type="text/css" media="all" href="../../../../css/index.css"/>
 	<link rel="stylesheet" type="text/css" media="all" href="../../../../css/top.css"/>
@@ -16,7 +16,7 @@
 <link rel="stylesheet" type="text/css" media="print" href="../../../../shared/css/print.css" /><link rel="stylesheet" type="text/css" href="../../../../shared/css/global/teeda/mod_b7list.css" media="all" /><script type="text/javascript" src="../../../../shared/js/jquery.js"></script>
 <script type="text/javascript" src="../../../../shared/js/function.js"></script>
 <script type="text/javascript" src="../../../../shared/js/country_website.js"></script>
-<script type="text/javascript" src="../../../../shared/js/global/ga9d07.js?20121001"></script><link rel="shortcut icon" type="image/x-icon" href="../../../../favicon.ico" /></head>
+<script type="text/javascript" src="../../../../shared/js/global/ga9d07.js?20121001"></script><link rel="shortcut icon" type="image/x-icon" href="../../../../resources/images/favicon.ico" /></head>
 <body class="layoutC03 power-supplies_in-addition">
 
 	<!-- === [omron-ia] === -->
@@ -168,20 +168,16 @@
 							<p class="heading">Displaying individual registered product index. Select and click for details.</p>
 						</div>
 						<div class="search-description">
-							<form enctype="application/x-www-form-urlencoded" class="search-form" method="get">
-							<input type="hidden" id="b5id" name="b5id" value="3154" />
 								<div class="input-block">
-									<p><input type="text" id="keyword" name="keyword" value="" class="search-str" size="20" /></p>
-									<p><input type="submit" id="doSearch" name="doSearch" value="Search" class="submit60D" /></p>
+									<form action="https://omron.keal.com.bd/sphider/search.php" method="get">       
+                                            <input type="text" name="query" id="query" size="40" value="" />
+                                        <input type="submit" value="Search" /> <input type="hidden"
+                                      name="search" value="1" />
+                                    </form>
 								<!-- /.input-block --></div>
-								<div class="option-block">
-
-									<p>Count
-										<select id="dispNum" name="dispNum"><option value="20">20</option><option value="50">50</option><option value="100">100</option><option value="all">All</option></select>
-									</p>
-								<!-- /.option-block --></div>
-							</form>
+								
 						<!-- /.description --></div>
+
 					<!-- /.search-blockB01 --></div>
 
 					<div class="search-result-block">

@@ -109,13 +109,15 @@
 -->
           </div>
         </div>
-        <div class="mainImageNavi">
-          <h2><img src="resources/images/icon_01.gif" width="3" height="9" alt="" class="iconA01"/> Channels Partners</h2>
+               <div class="mainImageNavi">
+          <h2><img src="resources/images/icon_01.gif" width="3" height="9" alt="" class="iconA01"/> Channels Partners</a></h2>
           <ul>
-            <li><a href="#" class="mainImageTitle"><img src="resources/images/icon_01.gif" width="3" height="9" alt="" class="iconA01"/>Dhaka</a>
+            <li><a href="#" style="text-decoration:none; color:#213bd8;padding-left: 5px;"  ><img src="resources/images/icon_01.gif" width="3" height="9" alt="" class="iconA01"/><b>Dhaka</b></a>
               </li>
-            <li><a href="../omron/ctg/index.html" class="mainImageTitle"><img src="resources/images/icon_01.gif" width="3" height="9" alt="" class="iconA01"/>Chittagong</a>
+            <li><a href="../ctg/index.html" target="_blank" style="text-decoration:none; color:#213bd8;padding-left: 5px; padding-top: 5px;" ><img src="resources/images/icon_01.gif" width="3" height="9" alt="" class="iconA01"/><b>Chittagong</b></a>
             </li>
+              
+          
           </ul>
         </div>
       </div>
