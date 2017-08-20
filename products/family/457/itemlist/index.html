@@ -160,20 +160,15 @@
 							<p class="heading">Displaying individual registered product index. Select and click for details.</p>
 						</div>
 						<div class="search-description">
-							<form enctype="application/x-www-form-urlencoded" class="search-form" method="get">
-							<input type="hidden" id="b5id" name="b5id" value="457" />
-								<div class="input-block">
-									<p><input type="text" id="keyword" name="keyword" value="" class="search-str" size="20" /></p>
-									<p><input type="submit" id="doSearch" name="doSearch" value="Search" class="submit60D" /></p>
-								<!-- /.input-block --></div>
-								<div class="option-block">
-
-									<p>Count
-										<select id="dispNum" name="dispNum"><option value="20">20</option><option value="50">50</option><option value="100">100</option><option value="all">All</option></select>
-									</p>
-								<!-- /.option-block --></div>
-							</form>
-						<!-- /.description --></div>
+	<div class="input-block">
+	<form action="https://omron.keal.com.bd/sphider/search.php" method="get">       
+        <input type="text" name="query" id="query" size="40" value="" />
+        <input type="submit" value="Search" /> <input type="hidden"
+        name="search" value="1" />
+        </form>
+<!-- /.input-block --></div>
+								
+<!-- /.description --></div>
 					<!-- /.search-blockB01 --></div>
 
 					<div class="search-result-block">
@@ -297,16 +292,9 @@
 		
 		<div class="footer-area">
 			<p class="non-visual"><a name="footer" id="footer">Site Information</a></p>
-			<div class="realizing">
-				<p><a href="../../../../realizing/index.html"><img src="../../../../shared/img/logo_02.gif" width="86" height="19" alt="realizing" /></a></p>
-				<!-- /.realizing --></div>
+			
 			<div class="footer-link">
-				<ul>
-					<li><a href="http://www.omron.com/" target="_blank"><img src="../../../../shared/img/icon_right_b.gif" width="3" height="9" alt="" class="iconA01" />OMRON Corporation<img src="../../../../shared/img/icon_07.gif" width="14" height="11" alt="" class="external-win" /></a></li>
-					<li><a href="../../../../sitemap.html"><img src="../../../../shared/img/icon_right_b.gif" width="3" height="9" alt="" class="iconA01" />Sitemap</a></li>
-					<li><a href="../../../../terms/index.html"><img src="../../../../shared/img/icon_right_b.gif" width="3" height="9" alt="" class="iconA01" />Terms of Use</a></li>
-					<li><a href="../../../../privacy/index.html"><img src="../../../../shared/img/icon_right_b.gif" width="3" height="9" alt="" class="iconA01" />Privacy Policy</a></li>
-				</ul>
+				
 				<p class="copyright">&copy; Copyright Kyoto Engineering &amp; Automation Ltd.
  All Rights Reserved.</p>
 			<!-- /.footer-link --></div>
