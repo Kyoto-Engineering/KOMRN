@@ -1,4 +1,3 @@
-
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xml:lang="en" lang="en" xmlns="http://www.w3.org/1999/xhtml">
   
@@ -60,7 +59,7 @@
                         <p class="canpany">Industrial Automation</p>
                         <?php echo '&nbsp' ; ?>
                         <br/>
-                        <p class="canpany">Power Automation &amp; Safety </p>
+                        <p class="canpany">Power Automation and Safety </p>
 			
 		</div>
             
@@ -109,12 +108,12 @@
 -->
           </div>
         </div>
-               <div class="mainImageNavi">
-          <h2><img src="resources/images/icon_01.gif" width="3" height="9" alt="" class="iconA01"/> Channels Partners</a></h2>
+        <div class="mainImageNavi">
+          <h2><a href="global_network/index-2.html"><img src="resources/images/icon_01.gif" width="3" height="9" alt="" class="iconA01"/> Channels Partners</a></h2>
           <ul>
             <li><a href="#" style="text-decoration:none; color:#213bd8;padding-left: 5px;"  ><img src="resources/images/icon_01.gif" width="3" height="9" alt="" class="iconA01"/><b>Dhaka</b></a>
               </li>
-            <li><a href="../ctg/index.html" target="_blank" style="text-decoration:none; color:#213bd8;padding-left: 5px; padding-top: 5px;" ><img src="resources/images/icon_01.gif" width="3" height="9" alt="" class="iconA01"/><b>Chittagong</b></a>
+            <li><a href="ctg/index.html" target="_blank" style="text-decoration:none; color:#213bd8;padding-left: 5px; padding-top: 5px;" ><img src="resources/images/icon_01.gif" width="3" height="9" alt="" class="iconA01"/><b>Chittagong</b></a>
             </li>
               
           
@@ -583,23 +582,37 @@
           </div>
           <div class="contents03-area">
         
-            <div class="about-us-area">
+            <!--<div class="about-us-area">
               <h2>
-                <a href="../data_pdf/cat/OMRON Without Price Product List .pdf ">
-                    <h1>All Omron's Product-List</h1></a>
+                <a href="corporate_profile/index-2.html">
+                  <img src="common/img/icon_01.gif" width="3" height="9" alt="" class="iconA01">About Us</a>
               </h2>
               <div class="about-us-section">
                 <p>
-                  
-                    <a href="../data_pdf/cat/OMRON Without Price Product List .pdf "> <img src="resource/image/banner/products-list.jpg" width="216" height="136" alt=""> </a>
-                    
-                    
+                  <img src="img/pic_02.jpg" width="214" height="88" alt="">
                 </p>
                 <div class="link-list-block">
-                
+                  <ul class="link-listA01">
+                    <li>
+                      <a href="corporate_profile/statement/index.html">
+                        <img src="common/img/icon_01.gif" width="3" height="9" alt="" class="iconA01">Statement</a>
+                    </li>
+                    <li>
+                      <a href="corporate_profile/mission/index.html">
+                        <img src="common/img/icon_01.gif" width="3" height="9" alt="" class="iconA01">OMRON IA's Mission</a>
+                    </li>
+                    <li>
+                      <a href="corporate_profile/facilities/index.html">
+                        <img src="common/img/icon_01.gif" width="3" height="9" alt="" class="iconA01">Facilities</a>
+                    </li>
+                    <li>
+                      <a href="corporate_profile/philosophy/index.html">
+                        <img src="common/img/icon_01.gif" width="3" height="9" alt="" class="iconA01">Philosophy</a>
+                    </li>
+                  </ul>
                 </div>
               </div>
-            </div>
+            </div>-->
             <div class="banner-area">
               <div class="banner-listA01">
 
@@ -607,15 +620,8 @@
 <div class="top-special-banner">
 <h3>Omron's automation story</h3>
 <ul>
-    <!--  <li><a href="http://www.omron.com/about/story/detail22.html" target="_blank"><img src="resource/image/banner/product-list.jpg" width="216" height="136" alt="Every motion stops in 0.05 seconds and innovation starts on the factory floor" /></a>
-        <a href="http://www.omron.com/about/story/detail22.html" target="_blank"><img src="common/img/icon_07.gif" width="14" height="11" alt="" class="external-win"/></a></li> -->
-    
 <li><a href="http://www.omron.com/about/story/detail22.html" target="_blank"><img src="resource/image/banner/151001-KT-04_ban_smalldouble_omronstory-en.jpg" width="216" height="136" alt="Every motion stops in 0.05 seconds and innovation starts on the factory floor" /></a><a href="http://www.omron.com/about/story/detail22.html" target="_blank">Omron's vibration control technology makes sure the cup of liquid stops its motion completely with no spillage.<img src="common/img/icon_07.gif" width="14" height="11" alt="" class="external-win"/></a></li>
-   
 <li><a href="http://www.omron.com/about/story/detail07.html" target="_blank"><img src="resource/image/banner/141027-KT-01_ban_smalldouble_fa-takkyu-en.jpg" width="216" height="136" alt="Harmony between people and technology" /></a><a href="http://www.omron.com/about/story/detail07.html" target="_blank">Link to the story about development of the ping-pong robot which is controlled by OMRON's IA system.<img src="common/img/icon_07.gif" width="14" height="11" alt="" class="external-win"/></a></li>
-<li><a href="caution8.html" target="_blank"><img src="resource/image/banner/gi.jpg"  alt="Say no to counterfeit products." /></a><a href="caution8.html" target="_blank">Say no to counterfeit products.<img src="common/img/icon_07.gif" width="14" height="11" alt="" class="external-win"/></a></li>
-</ul>
-<li><a href="obsolete.html" target="_blank"><img src="resource/image/banner/obsolete model5.jpg"  alt="Say no to counterfeit products." /></a><a href="obsolete.html" target="_blank">Omron obsolete model in bangladesh<img src="common/img/icon_07.gif" width="14" height="11" alt="" class="external-win"/></a></li>
 </ul>
 <!-- /top-special-banner --></div>
             </div>

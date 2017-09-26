@@ -613,9 +613,9 @@
 <li><a href="http://www.omron.com/about/story/detail22.html" target="_blank"><img src="resource/image/banner/151001-KT-04_ban_smalldouble_omronstory-en.jpg" width="216" height="136" alt="Every motion stops in 0.05 seconds and innovation starts on the factory floor" /></a><a href="http://www.omron.com/about/story/detail22.html" target="_blank">Omron's vibration control technology makes sure the cup of liquid stops its motion completely with no spillage.<img src="common/img/icon_07.gif" width="14" height="11" alt="" class="external-win"/></a></li>
    
 <li><a href="http://www.omron.com/about/story/detail07.html" target="_blank"><img src="resource/image/banner/141027-KT-01_ban_smalldouble_fa-takkyu-en.jpg" width="216" height="136" alt="Harmony between people and technology" /></a><a href="http://www.omron.com/about/story/detail07.html" target="_blank">Link to the story about development of the ping-pong robot which is controlled by OMRON's IA system.<img src="common/img/icon_07.gif" width="14" height="11" alt="" class="external-win"/></a></li>
-<li><a href="caution8.html" target="_blank"><img src="resource/image/banner/gi.jpg"  alt="Say no to counterfeit products." /></a><a href="caution8.html" target="_blank">Say no to counterfeit products.<img src="common/img/icon_07.gif" width="14" height="11" alt="" class="external-win"/></a></li>
-</ul>
-<li><a href="obsolete.html" target="_blank"><img src="resource/image/banner/obsolete model5.jpg"  alt="Say no to counterfeit products." /></a><a href="obsolete.html" target="_blank">Omron obsolete model in bangladesh<img src="common/img/icon_07.gif" width="14" height="11" alt="" class="external-win"/></a></li>
+
+
+
 </ul>
 <!-- /top-special-banner --></div>
             </div>
