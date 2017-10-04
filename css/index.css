@@ -130,7 +130,9 @@ div.index-blockH01:after{
 
 div.index-blockH01-group{
 	float: left;
-	margin: 1.5em -18px 0 0;
+	/*margin: 1.5em -18px 0 0;*/
+	margin-top: 0px;
+    margin-bottom: 15px;
 	padding: 0;
 	background: url(../common/img/index_blockA01_bg_01.gif) 0 100% repeat-x;
 	zoom: 1;
@@ -492,6 +494,10 @@ div.about-us-area div.link-list-block ul.link-listA01 li{
 div.banner-area{
 	float:left;
 	margin-top:1.92em;
+}
+div.obsolete-area {
+    float: left;
+    margin-top: -304px;
 }
 
 div.banner-listA01{
