@@ -90,6 +90,9 @@ body.home div.featured-product{
 	width:216px;
 	float:left;
 }
+body.home div.bott{
+	margin-top: 11px;
+}
 
 body.home div.about-us-area,
 body.home div.whats-new-area{
