@@ -1,0 +1,22 @@
+h1,h2,h3,h4,h5,h6,p{
+	margin: 0
+}
+.content{
+	max-width: 100%;
+	width: 968px;
+	margin: 0 auto;
+}
+.single-content{
+	margin-left: 18px;
+}
+.danger-product-content p{
+	margin-top: 20px;
+}
+.real-product-image{
+	text-align: center;
+}
+.real-product-image:after{
+	content: "Real omron product";
+	top: 100%;
+	color: red;
+}
