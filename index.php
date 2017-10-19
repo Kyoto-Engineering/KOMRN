@@ -47,22 +47,22 @@
     <div class="omron-ia">
       <p class="non-visual"><a name="page-top" id="page-top">Page top</a></p>
     <div class="header-area">
-	<div class="site-identity">
+  <div class="site-identity">
             <div class="site-logo" >
-			<a href="index.php"><img src="shared/img/logo_01_b.gif" width="129" height="24" alt="OMRON" /></a>
-		</div>
-	<!-- /.site-identity --></div>
-	<div class="utilities">
-		<div class="country-select-area">
-			<p class="canpany">Building Automation</p>
+      <a href="index.php"><img src="shared/img/logo_01_b.gif" width="129" height="24" alt="OMRON" /></a>
+    </div>
+  <!-- /.site-identity --></div>
+  <div class="utilities">
+    <div class="country-select-area">
+      <p class="canpany">Building Automation</p>
                         <?php echo '&nbsp' ; ?>
                         <br/>
                         <p class="canpany">Industrial Automation</p>
                         <?php echo '&nbsp' ; ?>
                         <br/>
                         <p class="canpany">Power Automation &amp; Safety </p>
-			
-		</div>
+      
+    </div>
             
             <div class="japani">
                 <img  src="shared/img/Japani Technology mnemonic.png" width="90" height="50" alt=""/>
@@ -77,7 +77,7 @@
                 <p><b>Bangladesh Distributor</b></p>
                 <img style="margin-left:-5px;"  src="shared/img/Kyoto-logo-Png.png" alt=""/>
             </div>
-	<!-- /.utilities --> </div>
+  <!-- /.utilities --> </div>
 
      
         
@@ -92,7 +92,7 @@
 <li class="product"><a href="products/index.html">Products</a></li>
 <li class="corporate-profile"><a href="view/contact/input.php">Contact Us</a></li>
 <li class="function-area"><div class="search"><form action="https://omron.keal.com.bd/sphider/search.php" method="get"> 
-<input type="text" name="query" id="query" size="40" value="" action="include/js_suggest/suggest.php" columns="2" autocomplete="off" delay="1500">	
+<input type="text" name="query" id="query" size="40" value="" action="include/js_suggest/suggest.php" columns="2" autocomplete="off" delay="1500">  
 <input type="submit" value="Search"> 
 <input type="hidden" name="search" value="1"> 
 </form></div>
@@ -275,7 +275,7 @@
                         <li>
                           <a href="products/category/control-components/temperature-controllers/index.html">
                             <img src="common/img/icon_01.gif" width="3" height="9" alt="" class="iconA01"/>Temperature Controllers</a>
-                        </li>											
+                        </li>                     
                         <li>
                           <a href="products/category/control-components/timers/index.html">
                             <img src="common/img/icon_01.gif" width="3" height="9" alt="" class="iconA01"/>Timers</a>
@@ -386,7 +386,7 @@
                   </div>
                 </div>
                 <div class="index-blockH01-group">
-								 <div class="index-blockH01-unit energy-conservation-support">
+                 <div class="index-blockH01-unit energy-conservation-support">
                     <h3>
                       <a href="products/category/energy-conservation-support_environment-measure-equipment/index.html">
                         <img src="common/img/icon_01.gif" width="3" height="9" alt="" class="iconA01"/>Energy Conservation Support / Environment Measure Equipment</a>
@@ -446,76 +446,77 @@
                     </div>
                   </div>
                 </div>
-              </div>
-              <div class="featured-product">
+              <!--</div> -->
+              <div class="featured-product" style="margin-top: -671px;">
                 <div class="description">
                   <div class="featured-product-list">
   <h3 class="featured-product">Featured Product</h3>
 
 <dl class="featured-product-item">
-	<dt>
-		<a href="products/family/3656/index.html">
-			
-			<img src="images/l_3656-13-271451-198x198.jpg" alt="S8FS-G" class="product-image" />
-			
-			
-			<img src="resources/images/icon_right_b.gif" width="3" height="9" alt="" class="iconA01" />S8FS-G
-		</a>
-	</dt>
-	<dd>
-	
-	
-		
-		
-			Superior Basic Performance That Ensures Reliability. Wide Range of Standards Certification and Greater Usability.
-		
-	
-	</dd>
+  <dt>
+    <a href="products/family/3656/index.html">
+      
+      <img src="images/l_3656-13-271451-198x198.jpg" alt="S8FS-G" class="product-image" />
+      
+      
+      <img src="resources/images/icon_right_b.gif" width="3" height="9" alt="" class="iconA01" />S8FS-G
+    </a>
+  </dt>
+  <dd>
+  
+  
+    
+    
+      Superior Basic Performance That Ensures Reliability. Wide Range of Standards Certification and Greater Usability.
+    
+  
+  </dd>
 </dl>
 <dl class="featured-product-item">
-	<dt>
-		<a href="products/family/3549/index.html">
-			
-			<img src="images/l_3549-13-262512-198x198.jpg" alt="R88M-1[] / R88D-1SN[]-ECT" class="product-image" />
-			
-			
-			<img src="resources/images/icon_right_b.gif" width="3" height="9" alt="" class="iconA01" />R88M-1[] / R88D-1SN[]-ECT
-		</a>
-	</dt>
-	<dd>
-	
-	
-		
-		
-			Optimized installation and setup Increased machine productivity Global availability and global conformance
-		
-	
-	</dd>
+  <dt>
+    <a href="products/family/3549/index.html">
+      
+      <img src="images/l_3549-13-262512-198x198.jpg" alt="R88M-1[] / R88D-1SN[]-ECT" class="product-image" />
+      
+      
+      <img src="resources/images/icon_right_b.gif" width="3" height="9" alt="" class="iconA01" />R88M-1[] / R88D-1SN[]-ECT
+    </a>
+  </dt>
+  <dd>
+  
+  
+    
+    
+      Optimized installation and setup Increased machine productivity Global availability and global conformance
+    
+  
+  </dd>
 </dl>
 <dl class="featured-product-item">
-	<dt>
-		<a href="products/family/3516/index.html">
-			
-			<img src="images/l_3516-13-257435-198x198.jpg" alt="eCobra 600 Lite / Standard / Pro" class="product-image" />
-			
-			
-			<img src="resources/images/icon_right_b.gif" width="3" height="9" alt="" class="iconA01" />eCobra 600 Lite / Standard / Pro
-		</a>
-	</dt>
-	<dd>
-	
-	
-		
-		
-			Mid-size SCARA robot for precision machining, assembly, and material handling
-		
-	
-	</dd>
+  <dt>
+    <a href="products/family/3516/index.html">
+      
+      <img src="images/l_3516-13-257435-198x198.jpg" alt="eCobra 600 Lite / Standard / Pro" class="product-image" />
+      
+      
+      <img src="resources/images/icon_right_b.gif" width="3" height="9" alt="" class="iconA01" />eCobra 600 Lite / Standard / Pro
+    </a>
+  </dt>
+  <dd>
+  
+  
+    
+    
+      Mid-size SCARA robot for precision machining, assembly, and material handling
+    
+  
+  </dd>
 </dl>
 </div>
                 </div>
               </div>
             </div>
+          </div>
             <!-- applications-area -->
 <div class="applications-area">
 <h2><a href="product/applications/index.html"><img src="common/img/icon_01.gif" width="3" height="9" alt="" class="iconA01"/>Applications</a></h2>
@@ -585,13 +586,13 @@
         
             <div class="about-us-area">
               <h2>
-                <a href="../data_pdf/cat/WithoutPriceProductList.pdf">
+                <a href="../data_pdf/cat/OMRON Without Price Product List .pdf ">
                     <h1>All Omron's Product-List</h1></a>
               </h2>
               <div class="about-us-section">
                 <p>
                   
-                    <a href="../data_pdf/cat/WithoutPriceProductList.pdf"> <img src="resource/image/banner/products-list.jpg" width="216" height="136" alt=""> </a>
+                    <a href="../data_pdf/cat/OMRON Without Price Product List .pdf "> <img src="resource/image/banner/products-list.jpg" width="216" height="136" alt=""> </a>
                     
                     
                 </p>
@@ -613,9 +614,9 @@
 <li><a href="http://www.omron.com/about/story/detail22.html" target="_blank"><img src="resource/image/banner/151001-KT-04_ban_smalldouble_omronstory-en.jpg" width="216" height="136" alt="Every motion stops in 0.05 seconds and innovation starts on the factory floor" /></a><a href="http://www.omron.com/about/story/detail22.html" target="_blank">Omron's vibration control technology makes sure the cup of liquid stops its motion completely with no spillage.<img src="common/img/icon_07.gif" width="14" height="11" alt="" class="external-win"/></a></li>
    
 <li><a href="http://www.omron.com/about/story/detail07.html" target="_blank"><img src="resource/image/banner/141027-KT-01_ban_smalldouble_fa-takkyu-en.jpg" width="216" height="136" alt="Harmony between people and technology" /></a><a href="http://www.omron.com/about/story/detail07.html" target="_blank">Link to the story about development of the ping-pong robot which is controlled by OMRON's IA system.<img src="common/img/icon_07.gif" width="14" height="11" alt="" class="external-win"/></a></li>
-<li style="border:1px groove ;"><a href="caution8.html"  target="_blank"><img src="resource/image/banner/gi.jpg"  alt="Say no to counterfeit products." /></a><a href="caution8.html" style="padding-left: 10px" target="_blank">Say no to counterfeit products.<img src="common/img/icon_07.gif" width="14" height="11" alt="" class="external-win"/></a></li>
-
-<li style="border:2px groove ;padding-left: 10px;"><a href="obsolete1.html" target="_blank"><img src="resource/image/banner/obsolete model5.jpg"  alt="Say no to counterfeit products." /></a><a href="obsolete1.html" target="_blank">Omron obsolete model in bangladesh<img src="common/img/icon_07.gif" width="14" height="11" alt="" class="external-win"/></a></li>
+<li><a href="caution8.html" target="_blank"><img src="resource/image/banner/gi.jpg"  alt="Say no to counterfeit products." /></a><a href="caution8.html" target="_blank">Say no to counterfeit products.<img src="common/img/icon_07.gif" width="14" height="11" alt="" class="external-win"/></a></li>
+</ul>
+<li><a href="obsolete1.html" target="_blank"><img src="resource/image/banner/obsolete model5.jpg"  alt="Say no to counterfeit products." /></a><a href="obsolete1.html" target="_blank">Omron obsolete model in bangladesh<img src="common/img/icon_07.gif" width="14" height="11" alt="" class="external-win"/></a></li>
 </ul>
 <!-- /top-special-banner --></div>
             </div>
